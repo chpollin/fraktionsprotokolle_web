@@ -76,7 +76,7 @@ Jedes Ebene-4-Element wird zu einem Eintrag in der flachen Liste. Nicht-Fraktion
 Zwei Transformationsfunktionen:
 
 - **`build_search_entry()`**: Kompakter Eintrag (~430 Bytes) für den Suchindex. Fraktionen dedupliziert, GND als Bare-ID, kein Karriere-Freitext.
-- **`build_detail_entry()`**: Vollständiger Eintrag mit allen Namensfeldern, Birth/Death, Affiliationen, IDs. Optional: `exekutive`, `sonstiges`, `occupation_kgparl`, `alt_names`.
+- **`build_detail_entry()`**: Vollständiger Eintrag als **JSON-LD** mit Schema.org-Vokabular (`@context`, `@type: "Person"`, `name`, `givenName`, `familyName`, `gender`, `birthDate`, `deathDate`, `birthPlace`, `deathPlace`, `hasOccupation`, `memberOf`, `sameAs`). Projektspezifische Felder mit `fraktionsprotokolle:`-Prefix (Affiliationschronologie, Namensstruktur, Normdaten-URLs). Optional: `fraktionsprotokolle:exekutive`, `fraktionsprotokolle:sonstiges`, `fraktionsprotokolle:occupation_kgparl`, `fraktionsprotokolle:alt_names`.
 
 ### `build/factions.py`
 
@@ -123,17 +123,23 @@ Schreibt alle Ausgabedateien. Suchindex wahlweise kompakt oder pretty-printed.
 }
 ```
 
-### Detail-Eintrag (Auszug)
+### Detail-Eintrag (JSON-LD, Auszug)
 ```json
 {
-  "id": "AbeleinManfred_1965-10-19",
-  "type": "MdB",
-  "name": { "reg": "Manfred Abelein", "forename": "Manfred", "surname": "Abelein", ... },
-  "affiliations": [
-    { "period": 5, "faction": "CDU/CSU", "faction_full": "Fraktion der ...", "from": "1965-10-19", "to": "1969-10-19" },
-    ...
-  ],
-  "ids": { "gnd": "https://d-nb.info/gnd/107432587", "wikipedia": "https://de.wikipedia.org/...", ... }
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "AbeleinManfred_1965-10-19",
+  "name": "Manfred Abelein",
+  "givenName": "Manfred",
+  "familyName": "Abelein",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1930-10-20",
+  "birthPlace": { "@type": "Place", "name": "Stuttgart" },
+  "memberOf": [{ "@type": "OrganizationRole", "memberOf": { "@type": "Organization", "name": "...", "alternateName": "CDU/CSU" }, "startDate": "1965-10-19", "endDate": "1969-10-19" }],
+  "sameAs": ["https://d-nb.info/gnd/107432587", "https://de.wikipedia.org/wiki/Manfred_Abelein"],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:affiliations": [{ "period": 5, "faction": "CDU/CSU", "faction_full": "...", "from": "1965-10-19", "to": "1969-10-19" }],
+  "fraktionsprotokolle:ids": { "gnd": "https://d-nb.info/gnd/107432587", "wikipedia": "...", ... }
 }
 ```
 

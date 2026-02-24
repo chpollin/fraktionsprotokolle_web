@@ -61,26 +61,26 @@ Personen.xml ──→ parlabio/build.py (Python/lxml) ──→ JSON-Artefakte 
 | AP | Titel | Abhängigkeit | Status |
 |---|---|---|---|
 | AP1 | Build-Pipeline (TEI-XML → JSON) | – | **Abgeschlossen** |
-| AP4 | Prototyp und Designabstimmung | AP1 | Offen |
-| AP2 | Weboberfläche (SPA-Frontend) | AP4 | Offen |
-| AP3 | Deployment und Dokumentation | AP2 | Offen |
-| AP5 | Qualitätssicherung und Abnahme | AP3 | Offen |
+| AP2 | Prototyp und Designabstimmung | AP1 | Offen |
+| AP3 | Weboberfläche (SPA-Frontend) | AP2 | Offen |
+| AP4 | Deployment und Dokumentation | AP3 | Offen |
+| AP5 | Qualitätssicherung und Abnahme | AP4 | Offen |
 
 ### AP1 – Ergebnisse
 
 - **Code**: `parlabio/build.py` + 8 Module in `parlabio/build/`
 - **Laufzeit**: ~4–6 Sekunden für 11.225 Personen
-- **Ausgabe**: Suchindex (2,9 MB), 11.225 Detail-JSONs (10 MB), BEACON (7.408 Einträge)
+- **Ausgabe**: Suchindex (2,9 MB), 11.225 Detail-JSONs als JSON-LD (Schema.org), BEACON (7.408 Einträge)
 - **Datenqualität**: 134 Issues dokumentiert (0 parse_error, 0 unknown_faction)
 - **Tests**: 6 Tests (Unit + Integration), Validierungsskript mit 7 Prüfkategorien
 - **Dokumentation**: `parlabio/docs/pipeline.md`, `parlabio/docs/testing.md`, `parlabio/README.md`
 
 ### Optional (separat ausgewiesen)
 
-| AP | Titel | Abhängigkeit |
-|---|---|---|
-| Optional 1 | BEACON-Integration (Linkauflösung zur Buildzeit) | AP1 |
-| Optional 2 | LOD-Nachladen (DNB/Wikidata clientseitig) | AP2 |
+| AP | Titel | Abhängigkeit | Abgrenzung |
+|---|---|---|---|
+| Optional 1 | BEACON-Integration (UI + externe Quellen) | AP1 | BEACON-Generierung ist Bestandteil von AP1; Optional 1 umfasst die Linkauflösung, externe Quellen-Whitelist und UI-Darstellung |
+| Optional 2 | LOD-Nachladen (DNB/Wikidata clientseitig) | AP3 | |
 
 ## Offene Fragen an die KGParl
 

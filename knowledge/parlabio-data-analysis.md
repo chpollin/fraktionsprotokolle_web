@@ -167,51 +167,51 @@ Kompaktes Array mit Filterfeldern pro Person (2,9 MB für 11.225 Einträge):
 
 Anm.: Karriere-Freitext (`Erwerbsarbeit`) ist **nicht** im Suchindex enthalten (zu lang, bläht Index auf). Er wird nur in den Detail-JSONs mitgeführt.
 
-### Detail-JSON (person/AbeleinManfred_1965-10-19.json)
+### Detail-JSON-LD (person/AbeleinManfred_1965-10-19.json)
 
-Vollständiger Datensatz inkl. Freitext, Normdaten-URLs, Fraktionschronologie. Optional: `exekutive`, `sonstiges`, `occupation_kgparl`, `alt_names` (nur wenn befüllt):
+Vollständiger Datensatz als **JSON-LD mit Schema.org-Vokabular**. Schema.org-Felder (`@context`, `@type`, `name`, `givenName`, `familyName`, `gender`, `birthDate`, `deathDate`, `birthPlace`, `deathPlace`, `hasOccupation`, `memberOf`, `sameAs`) werden durch projektspezifische Felder mit `fraktionsprotokolle:`-Prefix ergänzt (Affiliationschronologie, detaillierte Namensstruktur, Normdaten-URLs). Optional: `fraktionsprotokolle:exekutive`, `fraktionsprotokolle:sonstiges`, `fraktionsprotokolle:occupation_kgparl`, `fraktionsprotokolle:alt_names` (nur wenn befüllt).
 
 ```json
 {
-  "id": "AbeleinManfred_1965-10-19",
-  "type": "MdB",
-  "name": {
-    "reg": "Manfred Abelein",
-    "forename": "Manfred",
-    "surname": "Abelein",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "sex": "m",
-  "birth": {
-    "date": "1930-10-20",
-    "place": "Stuttgart",
-    "country": ""
-  },
-  "death": {
-    "date": "2008-01-17",
-    "place": "Ellwangen",
-    "country": ""
-  },
-  "occupation": "Rechtsanwalt, Wirtschaftsprüfer, Universitätsprofessor...",
-  "affiliations": [
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "AbeleinManfred_1965-10-19",
+  "name": "Manfred Abelein",
+  "givenName": "Manfred",
+  "familyName": "Abelein",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1930-10-20",
+  "birthPlace": { "@type": "Place", "name": "Stuttgart" },
+  "deathDate": "2008-01-17",
+  "deathPlace": { "@type": "Place", "name": "Ellwangen" },
+  "hasOccupation": { "@type": "Occupation", "name": "Rechtsanwalt, ..." },
+  "memberOf": [
     {
-      "period": 5,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1965-10-19",
-      "to": "1969-10-19"
-    },
-    {
-      "period": 6,
-      "faction": "CDU/CSU",
-      "faction_full": "...",
-      "from": "1969-10-20",
-      "to": "1972-09-22"
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/...",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1965-10-19",
+      "endDate": "1969-10-19"
     }
   ],
-  "ids": {
+  "sameAs": [
+    "https://d-nb.info/gnd/107432587",
+    "https://de.wikipedia.org/wiki/Manfred_Abelein"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Manfred Abelein", "forename": "Manfred",
+    "surname": "Abelein", "prefix": "", "role_name": "", "place": ""
+  },
+  "fraktionsprotokolle:birth": { "date": "1930-10-20", "place": "Stuttgart", "country": "" },
+  "fraktionsprotokolle:death": { "date": "2008-01-17", "place": "Ellwangen", "country": "" },
+  "fraktionsprotokolle:affiliations": [
+    { "period": 5, "faction": "CDU/CSU", "faction_full": "...", "from": "1965-10-19", "to": "1969-10-19" }
+  ],
+  "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000001",
     "gnd": "https://d-nb.info/gnd/107432587",
     "wikipedia": "https://de.wikipedia.org/wiki/Manfred_Abelein",

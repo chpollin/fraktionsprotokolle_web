@@ -39,7 +39,7 @@ Stand: Februar 2026. Dokumentation der getroffenen und offenen Architekturentsch
 | Server | SSH oder Cronjob |
 | GitHub Actions | Automatisiert bei Push (optional) |
 
-## SPA-Frontend (AP2)
+## SPA-Frontend (AP3)
 
 ### Entscheidung: SPA statt SSG
 
@@ -68,7 +68,7 @@ Tailwind CSS (Lastenheft-Vorschlag, wird übernommen).
 
 ### Bibliothek-Entscheidung
 
-Empfohlen: **FlexSearch** oder **MiniSearch** (finale Entscheidung nach Prototyp in AP4).
+Empfohlen: **FlexSearch** oder **MiniSearch** (finale Entscheidung nach Prototyp in AP2).
 
 | Bibliothek | Bundle | Geschwindigkeit | Boolean | Fuzzy |
 |---|---|---|---|---|
@@ -83,24 +83,24 @@ Empfohlen: **FlexSearch** oder **MiniSearch** (finale Entscheidung nach Prototyp
 - Karriere-Freitext **nicht** im Suchindex (nur in Detail-JSONs)
 - Facettenfilter: eigene JS-Logik auf dem JSON-Array (nicht von der Suchbibliothek abhängig)
 
-## BEACON-Integration (Optional 1) – Teilweise implementiert
+## BEACON
 
-### Ist-Zustand
+### BEACON-Generierung (Bestandteil von AP1) – Implementiert
 
-Die BEACON-Datei wird aktuell **dynamisch von eXist-db** generiert:
-`https://fraktionsprotokolle.de/beacon_kgparl_gnd.txt`
-
-### ParlaBio-Ansatz – Implementiert
-
-Generierung zur **Buildzeit** aus Personen.xml (`parlabio/build/beacon.py`):
+Die BEACON-Datei wird als Teil der Build-Pipeline generiert (`parlabio/build/beacon.py`):
 - 7.408 Personen mit standardkonformer GND-ID → BEACON-Format
 - 8 nicht-Standard-GND-URLs werden übersprungen (im Quality Report dokumentiert)
 - Format: `gnd_id||person_id`
 
-### Noch offen (AP2/Optional)
-- Konfigurierbare Whitelist externer BEACON-Quellen
-- Vorberechnung der Linkauflösung
-- UI: Gruppierte Linkliste mit Extern-Kennzeichnung
+Zusätzlich wird die BEACON-Datei weiterhin **dynamisch von eXist-db** generiert:
+`https://fraktionsprotokolle.de/beacon_kgparl_gnd.txt`
+
+### BEACON-Integration (Optional 1) – Offen
+
+Das optionale AP erweitert die reine Generierung um die **Nutzung** der BEACON-Daten im Frontend:
+- Konfigurierbare Whitelist externer BEACON-Quellen (DNB, Wikipedia, etc.)
+- Vorberechnung der Linkauflösung zur Buildzeit
+- UI: Gruppierte Linkliste mit Quellenangabe und Extern-Kennzeichnung
 
 ## LOD-Nachladen (Optional 2)
 
@@ -131,7 +131,7 @@ Architektonisch vorbereitet, aber nicht im aktuellen Scope:
 | Georeferenzierung | Externes Geocoding nötig (keine Koordinaten in den Daten) |
 | Bilder | Architektur erlaubt Einbindung gemeinfreier Bilder (z.B. Wikimedia) |
 
-## Deployment (AP3)
+## Deployment (AP4)
 
 ### Zielkonfiguration
 

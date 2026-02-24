@@ -5,6 +5,15 @@ from build.factions import normalize_faction
 from build.dates import extract_year
 from build.quality import QualityReport
 
+# Schema.org JSON-LD context for detail entries
+JSONLD_CONTEXT = "https://schema.org"
+
+# Mapping of sex values to Schema.org GenderType
+SEX_TO_SCHEMA = {
+    "m": "https://schema.org/Male",
+    "f": "https://schema.org/Female",
+}
+
 
 def build_search_entry(person: dict, report: QualityReport) -> dict:
     """Build a compact search index entry (no career free text)."""
@@ -55,8 +64,22 @@ def build_search_entry(person: dict, report: QualityReport) -> dict:
     }
 
 
+def _build_same_as(ids: dict) -> list:
+    """Collect external URLs for schema:sameAs."""
+    urls = []
+    for key in ("gnd", "wikipedia", "viaf"):
+        val = ids.get(key)
+        if val:
+            urls.append(val)
+    return urls
+
+
 def build_detail_entry(person: dict, report: QualityReport) -> dict:
-    """Build a full detail JSON for a single person."""
+    """Build a full detail JSON-LD for a single person.
+
+    Uses Schema.org vocabulary (schema:Person) with project-specific
+    extensions for parliamentary data (factions, periods, etc.).
+    """
     # Affiliations with normalized faction codes
     affiliations = []
     for aff in person["affiliations"]:
@@ -69,10 +92,52 @@ def build_detail_entry(person: dict, report: QualityReport) -> dict:
             "to": aff["to"],
         })
 
+    # Schema.org memberOf: faction affiliations as Organization memberships
+    member_of = []
+    for aff in affiliations:
+        membership = {
+            "@type": "OrganizationRole",
+            "memberOf": {
+                "@type": "Organization",
+                "name": aff["faction_full"],
+                "alternateName": aff["faction"],
+            },
+            "startDate": aff["from"],
+        }
+        if aff["to"]:
+            membership["endDate"] = aff["to"]
+        member_of.append(membership)
+
+    # sameAs: external authority URLs
+    same_as = _build_same_as(person["ids"])
+
     detail = {
-        "id": person["id"],
-        "type": person["type"],
-        "name": {
+        "@context": JSONLD_CONTEXT,
+        "@type": "Person",
+        "@id": person["id"],
+        "name": person["name"]["reg"],
+        "givenName": person["name"]["forename"],
+        "familyName": person["name"]["surname"],
+        "gender": SEX_TO_SCHEMA.get(person["sex"]),
+        "birthDate": person["birth"]["date"] or None,
+        "birthPlace": {
+            "@type": "Place",
+            "name": person["birth"]["place"],
+        } if person["birth"]["place"] else None,
+        "deathDate": person["death"]["date"] or None,
+        "deathPlace": {
+            "@type": "Place",
+            "name": person["death"]["place"],
+        } if person["death"]["place"] else None,
+        "hasOccupation": {
+            "@type": "Occupation",
+            "name": person["occupation"],
+        } if person["occupation"] else None,
+        "memberOf": member_of if member_of else None,
+        "sameAs": same_as if same_as else None,
+        # Project-specific fields (not in Schema.org)
+        "fraktionsprotokolle:personType": person["type"],
+        "fraktionsprotokolle:name": {
             "reg": person["name"]["reg"],
             "forename": person["name"]["forename"],
             "surname": person["name"]["surname"],
@@ -80,12 +145,10 @@ def build_detail_entry(person: dict, report: QualityReport) -> dict:
             "role_name": person["name"]["role_name"],
             "place": person["name"]["place"],
         },
-        "sex": person["sex"],
-        "birth": person["birth"],
-        "death": person["death"],
-        "occupation": person["occupation"],
-        "affiliations": affiliations,
-        "ids": {
+        "fraktionsprotokolle:birth": person["birth"],
+        "fraktionsprotokolle:death": person["death"],
+        "fraktionsprotokolle:affiliations": affiliations,
+        "fraktionsprotokolle:ids": {
             "mdb_stammdaten": person["ids"].get("mdb_stammdaten"),
             "gnd": person["ids"].get("gnd"),
             "wikipedia": person["ids"].get("wikipedia"),
@@ -95,12 +158,12 @@ def build_detail_entry(person: dict, report: QualityReport) -> dict:
 
     # Include non-empty optional fields
     if person["exekutive"]:
-        detail["exekutive"] = person["exekutive"]
+        detail["fraktionsprotokolle:exekutive"] = person["exekutive"]
     if person["sonstiges"]:
-        detail["sonstiges"] = person["sonstiges"]
+        detail["fraktionsprotokolle:sonstiges"] = person["sonstiges"]
     if person["occupation_structured"]:
-        detail["occupation_kgparl"] = person["occupation_structured"]
+        detail["fraktionsprotokolle:occupation_kgparl"] = person["occupation_structured"]
     if person["alt_names"]:
-        detail["alt_names"] = person["alt_names"]
+        detail["fraktionsprotokolle:alt_names"] = person["alt_names"]
 
     return detail

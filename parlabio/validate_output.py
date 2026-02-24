@@ -223,8 +223,15 @@ def check_detail_samples():
 
     info(f"Checking {len(sample_files)} detail files...")
 
-    required_detail_fields = {"id", "type", "name", "sex", "birth", "death",
-                              "occupation", "affiliations", "ids"}
+    # JSON-LD top-level fields
+    required_jsonld_fields = {"@context", "@type", "@id", "name", "givenName",
+                              "familyName", "gender", "birthDate", "deathDate"}
+    # Project-specific fields
+    required_project_fields = {
+        "fraktionsprotokolle:personType", "fraktionsprotokolle:name",
+        "fraktionsprotokolle:birth", "fraktionsprotokolle:death",
+        "fraktionsprotokolle:affiliations", "fraktionsprotokolle:ids",
+    }
     required_name_fields = {"reg", "forename", "surname", "prefix", "role_name", "place"}
     required_life_fields = {"date", "place", "country"}
     required_id_fields = {"mdb_stammdaten", "gnd", "wikipedia", "viaf"}
@@ -234,34 +241,44 @@ def check_detail_samples():
         with open(fp, encoding="utf-8") as f:
             detail = json.load(f)
 
-        pid = detail.get("id", fp.stem)
+        pid = detail.get("@id", fp.stem)
 
-        for field in required_detail_fields:
+        for field in required_jsonld_fields:
             if field not in detail:
-                error(f"{pid}: missing top-level field '{field}'")
+                error(f"{pid}: missing JSON-LD field '{field}'")
 
-        if "name" in detail:
-            for field in required_name_fields:
-                if field not in detail["name"]:
-                    error(f"{pid}: missing name field '{field}'")
+        for field in required_project_fields:
+            if field not in detail:
+                error(f"{pid}: missing project field '{field}'")
 
-        for event in ("birth", "death"):
+        # Check @context and @type values
+        if detail.get("@context") != "https://schema.org":
+            error(f"{pid}: @context should be 'https://schema.org'")
+        if detail.get("@type") != "Person":
+            error(f"{pid}: @type should be 'Person'")
+
+        pname = detail.get("fraktionsprotokolle:name", {})
+        for field in required_name_fields:
+            if field not in pname:
+                error(f"{pid}: missing name field '{field}'")
+
+        for event in ("fraktionsprotokolle:birth", "fraktionsprotokolle:death"):
             if event in detail:
                 for field in required_life_fields:
                     if field not in detail[event]:
                         error(f"{pid}: missing {event} field '{field}'")
 
-        if "ids" in detail:
-            for field in required_id_fields:
-                if field not in detail["ids"]:
-                    error(f"{pid}: missing ids field '{field}'")
+        pids = detail.get("fraktionsprotokolle:ids", {})
+        for field in required_id_fields:
+            if field not in pids:
+                error(f"{pid}: missing ids field '{field}'")
 
         # Check affiliations structure
-        if "affiliations" in detail:
-            for i, aff in enumerate(detail["affiliations"]):
-                for field in ("period", "faction", "faction_full", "from", "to"):
-                    if field not in aff:
-                        error(f"{pid}: affiliation[{i}] missing field '{field}'")
+        affs = detail.get("fraktionsprotokolle:affiliations", [])
+        for i, aff in enumerate(affs):
+            for field in ("period", "faction", "faction_full", "from", "to"):
+                if field not in aff:
+                    error(f"{pid}: affiliation[{i}] missing field '{field}'")
 
         checked += 1
 
@@ -290,29 +307,24 @@ def check_cross_consistency(search_index):
         with open(detail_path, encoding="utf-8") as f:
             detail = json.load(f)
 
-        # Name must match
-        if entry["name"] != detail["name"]["reg"]:
-            error(f"{pid}: name mismatch: '{entry['name']}' vs '{detail['name']['reg']}'")
+        # Name must match (search "name" = JSON-LD "name" = Schema.org name)
+        if entry["name"] != detail["name"]:
+            error(f"{pid}: name mismatch: '{entry['name']}' vs '{detail['name']}'")
             mismatches += 1
 
         # Surname must match
-        if entry["surname"] != detail["name"]["surname"]:
+        if entry["surname"] != detail["familyName"]:
             error(f"{pid}: surname mismatch")
             mismatches += 1
 
         # Type must match
-        if entry["type"] != detail["type"]:
-            error(f"{pid}: type mismatch: '{entry['type']}' vs '{detail['type']}'")
-            mismatches += 1
-
-        # Sex must match
-        if entry["sex"] != detail["sex"]:
-            error(f"{pid}: sex mismatch")
+        if entry["type"] != detail["fraktionsprotokolle:personType"]:
+            error(f"{pid}: type mismatch: '{entry['type']}' vs '{detail['fraktionsprotokolle:personType']}'")
             mismatches += 1
 
         # Faction count should match (search has short codes, detail has both)
         search_factions = set(entry["factions"])
-        detail_factions = {a["faction"] for a in detail["affiliations"]}
+        detail_factions = {a["faction"] for a in detail["fraktionsprotokolle:affiliations"]}
         if search_factions != detail_factions:
             error(f"{pid}: faction mismatch: search={search_factions}, detail={detail_factions}")
             mismatches += 1
@@ -342,12 +354,13 @@ def check_affiliations():
         detail_path = person_dir / f"{entry['id']}.json"
         with open(detail_path, encoding="utf-8") as f:
             detail = json.load(f)
-        n = len(detail["affiliations"])
+        affs = detail["fraktionsprotokolle:affiliations"]
+        n = len(affs)
         total_affiliations += n
         if n > max_affiliations:
             max_affiliations = n
             max_aff_person = entry["id"]
-        if len(set(a["faction"] for a in detail["affiliations"])) > 1:
+        if len(set(a["faction"] for a in affs)) > 1:
             multi_faction.append(entry["id"])
 
     info(f"Total MdB affiliations: {total_affiliations}")
@@ -364,7 +377,7 @@ def check_affiliations():
         detail_path = person_dir / f"{entry['id']}.json"
         with open(detail_path, encoding="utf-8") as f:
             detail = json.load(f)
-        for aff in detail["affiliations"]:
+        for aff in detail["fraktionsprotokolle:affiliations"]:
             if aff["period"] is None:
                 none_periods += 1
     if none_periods:
@@ -420,31 +433,35 @@ def check_edge_cases():
     # Abelein: 7 Wahlperioden, all CDU/CSU
     with open(person_dir / "AbeleinManfred_1965-10-19.json", encoding="utf-8") as f:
         d = json.load(f)
-    assert len(d["affiliations"]) == 7, f"Abelein: expected 7 affiliations, got {len(d['affiliations'])}"
-    assert all(a["faction"] == "CDU/CSU" for a in d["affiliations"]), "Abelein: all should be CDU/CSU"
-    assert d["ids"]["mdb_stammdaten"] == "11000001"
-    info("Abelein: 7 CDU/CSU affiliations, MDB=11000001 - OK")
+    affs = d["fraktionsprotokolle:affiliations"]
+    assert len(affs) == 7, f"Abelein: expected 7 affiliations, got {len(affs)}"
+    assert all(a["faction"] == "CDU/CSU" for a in affs), "Abelein: all should be CDU/CSU"
+    assert d["fraktionsprotokolle:ids"]["mdb_stammdaten"] == "11000001"
+    assert d["@context"] == "https://schema.org"
+    assert d["@type"] == "Person"
+    assert d["familyName"] == "Abelein"
+    info("Abelein: 7 CDU/CSU affiliations, MDB=11000001, JSON-LD valid - OK")
 
     # Ackermann: Maidenname
     with open(person_dir / "AckermannAnnemarie_1953-10-06.json", encoding="utf-8") as f:
         d = json.load(f)
-    assert "geb. Eisenmann" in d["name"]["reg"], "Ackermann: maiden name missing"
-    assert d["birth"]["place"].startswith("Parabutsch"), "Ackermann: birth place"
+    assert "geb. Eisenmann" in d["fraktionsprotokolle:name"]["reg"], "Ackermann: maiden name missing"
+    assert d["fraktionsprotokolle:birth"]["place"].startswith("Parabutsch"), "Ackermann: birth place"
     info("Ackermann: maiden name 'geb. Eisenmann' preserved - OK")
 
     # Leburton: VIAF with case inconsistency
     with open(person_dir / "LeburtonEdmond.json", encoding="utf-8") as f:
         d = json.load(f)
-    assert d["ids"]["viaf"] is not None, "Leburton: VIAF should be present"
-    assert d["type"] == "Other"
-    assert len(d["affiliations"]) == 0, "Leburton: Other should have no affiliations"
+    assert d["fraktionsprotokolle:ids"]["viaf"] is not None, "Leburton: VIAF should be present"
+    assert d["fraktionsprotokolle:personType"] == "Other"
+    assert len(d["fraktionsprotokolle:affiliations"]) == 0, "Leburton: Other should have no affiliations"
     info("Leburton: VIAF present despite 'Viaf' in XML, type=Other - OK")
 
     # Adelmann: Noble title
     if (person_dir / "AdelmannRaban_1957-10-15.json").exists():
         with open(person_dir / "AdelmannRaban_1957-10-15.json", encoding="utf-8") as f:
             d = json.load(f)
-        assert d["name"]["role_name"] == "Graf", f"Adelmann: expected 'Graf', got '{d['name']['role_name']}'"
+        assert d["fraktionsprotokolle:name"]["role_name"] == "Graf", f"Adelmann: expected 'Graf', got '{d['fraktionsprotokolle:name']['role_name']}'"
         info("Adelmann: role_name 'Graf' preserved - OK")
 
     # Mitarbeiter: structured occupation
@@ -453,9 +470,9 @@ def check_edge_cases():
     for fp in mitarbeiter_files:
         with open(fp, encoding="utf-8") as f:
             d = json.load(f)
-        if d["type"] == "Mitarbeiter-KGParl" and "occupation_kgparl" in d:
-            assert "organisation" in d["occupation_kgparl"]
-            assert "role" in d["occupation_kgparl"]
+        if d["fraktionsprotokolle:personType"] == "Mitarbeiter-KGParl" and "fraktionsprotokolle:occupation_kgparl" in d:
+            assert "organisation" in d["fraktionsprotokolle:occupation_kgparl"]
+            assert "role" in d["fraktionsprotokolle:occupation_kgparl"]
             found_kgparl = True
             break
     if found_kgparl:

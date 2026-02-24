@@ -199,13 +199,27 @@ def test_edge_cases():
         assert len(search["factions"]) > 0
         assert len(search["periods"]) > 0
 
-    # Detail entry transformation
+    # Detail entry transformation (JSON-LD)
     abelein = persons_by_id.get("AbeleinManfred_1965-10-19")
     if abelein:
         detail = build_detail_entry(abelein, report)
-        assert detail["affiliations"][0]["faction"] == "CDU/CSU"
-        assert detail["affiliations"][0]["faction_full"].startswith("Fraktion der")
-        assert detail["ids"]["gnd"] is not None
+        # Schema.org fields
+        assert detail["@context"] == "https://schema.org"
+        assert detail["@type"] == "Person"
+        assert detail["@id"] == "AbeleinManfred_1965-10-19"
+        assert detail["familyName"] == "Abelein"
+        assert detail["givenName"] == "Manfred"
+        assert detail["birthDate"] == "1930-10-20"
+        assert detail["gender"] == "https://schema.org/Male"
+        assert detail["birthPlace"]["@type"] == "Place"
+        assert detail["memberOf"] is not None
+        assert len(detail["memberOf"]) > 0
+        assert detail["sameAs"] is not None
+        # Project-specific fields
+        affs = detail["fraktionsprotokolle:affiliations"]
+        assert affs[0]["faction"] == "CDU/CSU"
+        assert affs[0]["faction_full"].startswith("Fraktion der")
+        assert detail["fraktionsprotokolle:ids"]["gnd"] is not None
 
 
 def test_beacon():
