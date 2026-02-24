@@ -2,7 +2,7 @@
 
 ## Projekttyp
 
-Reines Daten-Repository (kein Build-System, kein Frontend-Code). Enthält die TEI-XML-Quelldateien der digitalen Edition „Fraktionen im Deutschen Bundestag 1949–2005", herausgegeben von der KGParl (Kommission für Geschichte des Parlamentarismus und der politischen Parteien).
+Daten-Repository mit Build-Pipeline. Enthält die TEI-XML-Quelldateien der digitalen Edition „Fraktionen im Deutschen Bundestag 1949–2005", herausgegeben von der KGParl (Kommission für Geschichte des Parlamentarismus und der politischen Parteien), sowie die ParlaBio-Build-Pipeline (Python/lxml) zur Transformation der Personendaten in JSON.
 
 Die Webseite [fraktionsprotokolle.de](https://fraktionsprotokolle.de) basiert auf dem [TEI Publisher](https://teipublisher.com/) mit eXist-db.
 
@@ -16,8 +16,10 @@ Die Webseite [fraktionsprotokolle.de](https://fraktionsprotokolle.de) basiert au
 | `xml_einleitungen/` | Digitalisierte wissenschaftliche Einleitungen der Bucheditionen |
 | `logos/` | Logos des Editionsprogramms und Editiones-Mitgliedschaft |
 | `knowledge/` | Projektdokumentation (Datenmodell, Schema, Personen, Workflow etc.) |
+| `parlabio/` | ParlaBio-Build-Pipeline: Python-Code, Tests, Dokumentation, generierte Daten (gitignored) |
 | `README.md` | Projekt-README mit Übersicht, Lizenz, Kontakt |
 | `Updates.md` | Chronologisches Änderungsprotokoll der Edition |
+| `.gitignore` | Schließt `parlabio/data/`, `__pycache__/`, `.venv/` aus |
 
 ## Datenbestand nach Fraktionen
 
@@ -56,7 +58,7 @@ Anmerkungen zur Dateinamenkonvention:
 
 ## Normdaten
 
-- **Personen.xml** (364.555 Zeilen): ~11.000 Personeneinträge mit Biogrammen, GND, VIAF, Wikipedia-Links. Grundlage des Personenregisters.
+- **Personen.xml** (364.555 Zeilen): 11.234 Personeneinträge (davon 9 Platzhalter) mit Biogrammen, GND, VIAF, Wikipedia-Links. Grundlage des Personenregisters und der ParlaBio-Build-Pipeline.
 - **Organisationen.xml** (4.645 Zeilen): Institutionen- und Organisationenregister mit IDs und Normdaten.
 
 ## TEI-XML-Struktur eines Protokolls
@@ -93,11 +95,13 @@ Vollständige Element-Constraints und Value Lists: siehe [schema.md](schema.md).
 - **Schema-Validierung**: Relax-NG + Schematron
 - **Bibliographie**: Zotero-Gruppenbibliothek (https://www.zotero.org/groups/4606219/fraktionsprotokolle)
 - **Versionierung**: GitHub (dieses Repository)
-- **Beacon-Datei**: Täglich generiert, GND-Nummern aller Personen
+- **Beacon-Datei**: Täglich von eXist-db generiert; zusätzlich von ParlaBio-Build-Pipeline generierbar
 
 ## Teilprojekt ParlaBio
 
-Geplante webbasierte Personendatenbank als erweiterte Präsentationsschicht über die Personen.xml. Siehe [parlabio.md](parlabio.md) für Projektdokumentation, [parlabio-data-analysis.md](parlabio-data-analysis.md) für die technische Datenanalyse und [parlabio-architecture.md](parlabio-architecture.md) für Architekturentscheidungen.
+Webbasierte Personendatenbank als erweiterte Präsentationsschicht über die Personen.xml. AP1 (Build-Pipeline) ist implementiert: `python parlabio/build.py` transformiert die Personen.xml in 11.225 JSON-Dateien + Suchindex + BEACON.
+
+Siehe [parlabio.md](parlabio.md) für Projektdokumentation, [parlabio-data-analysis.md](parlabio-data-analysis.md) für die technische Datenanalyse und [parlabio-architecture.md](parlabio-architecture.md) für Architekturentscheidungen.
 
 ## Lizenz
 

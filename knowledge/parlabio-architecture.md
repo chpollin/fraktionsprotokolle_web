@@ -2,31 +2,40 @@
 
 Stand: Februar 2026. Dokumentation der getroffenen und offenen Architekturentscheidungen.
 
-## Build-Pipeline (AP1)
+## Build-Pipeline (AP1) – Implementiert
 
 ### Technologie
 
-- **Sprache**: Python
+- **Sprache**: Python 3.10+
 - **XML-Parsing**: lxml
-- **Ausgabe**: JSON-Dateien (Suchindex + Detail-JSONs)
+- **Ausgabe**: JSON-Dateien (Suchindex + Detail-JSONs + BEACON + Quality Report)
 - **Eingabe**: `xml_quellen/Normdaten/Personen*.xml` (Glob-Pattern, um künftigen Datei-Split zu unterstützen)
+- **Code**: `parlabio/build.py` + 8 Module in `parlabio/build/`
 
 ### Pipeline-Schritte
 
-1. **Ingest**: XML-Datei(en) einlesen, lxml-Parsing, Strukturvalidierung
-2. **Validate**: Datenqualitäts-Checks (ungültige Daten loggen, Bericht erzeugen)
-3. **Transform**: Erzeugung von Suchindex-JSON und Detail-JSONs pro Person
-   - Fraktionsnamen normalisieren (Freitext → Kürzel via Mapping-Tabelle)
-   - 4-Level-Affiliationen flattening
-   - Leere Platzhalter überspringen
-   - Drei Personentypen mit unterschiedlicher Parsing-Logik
-4. **Deploy**: JSON-Dateien in das Web-Verzeichnis kopieren
+1. **Ingest**: XML-Datei(en) einlesen via Glob, lxml-Parsing
+2. **Parse**: `parser.py` — 4-Level-Affiliations-Flattening, Namensfelder, Life Events, idno-Normalisierung. Platzhalter-Personen überspringen. 3 Personentypen mit unterschiedlicher Parsing-Logik.
+3. **Transform**: `transform.py` — Erzeugung von kompaktem Suchindex-Eintrag (~430 Bytes) und vollständigem Detail-JSON pro Person. Fraktionsnamen normalisieren (36 Mappings in `factions.py`). GND-URLs auf Bare-IDs strippen.
+4. **Write**: `writer.py` — Suchindex (kompakt), Detail-JSONs (indented), Quality Report, BEACON-Datei
+5. **Validate** (optional): `validate_output.py` — 7 Prüfkategorien gegen XML-Quelle
+
+### Tatsächliche Ergebnisse
+
+| Kennzahl | Wert |
+|---|---|
+| Verarbeitete Personen | 11.225 |
+| Build-Laufzeit | ~4–6 Sekunden |
+| Suchindex-Größe | 2,9 MB (kompakt) |
+| Detail-JSONs | 11.225 Dateien, ~10 MB |
+| BEACON-Einträge | 7.408 |
+| Qualitätsprobleme | 134 (0 parse_error, 0 unknown_faction) |
 
 ### Rebuild-Wege
 
 | Weg | Beschreibung |
 |---|---|
-| Lokal | `python build.py` → Ergebnis per Git pushen |
+| Lokal | `python parlabio/build.py` → Ergebnis per Git pushen |
 | Server | SSH oder Cronjob |
 | GitHub Actions | Automatisiert bei Push (optional) |
 
@@ -70,23 +79,27 @@ Empfohlen: **FlexSearch** oder **MiniSearch** (finale Entscheidung nach Prototyp
 
 ### Suchindex-Design
 
-- Kernindex (Name, Lebensdaten, Fraktion, Wahlperioden, Geschlecht, Geburtsort, Typ): **unter 5 MB** bei 20.000 Personen
+- Kernindex (Name, Lebensdaten, Fraktion, Wahlperioden, Geschlecht, Geburtsort, Typ): **2,9 MB** bei 11.225 Personen (hochgerechnet ~5 MB bei 20.000)
 - Karriere-Freitext **nicht** im Suchindex (nur in Detail-JSONs)
 - Facettenfilter: eigene JS-Logik auf dem JSON-Array (nicht von der Suchbibliothek abhängig)
 
-## BEACON-Integration (Optional 1)
+## BEACON-Integration (Optional 1) – Teilweise implementiert
 
 ### Ist-Zustand
 
 Die BEACON-Datei wird aktuell **dynamisch von eXist-db** generiert:
 `https://fraktionsprotokolle.de/beacon_kgparl_gnd.txt`
 
-### ParlaBio-Ansatz
+### ParlaBio-Ansatz – Implementiert
 
-Generierung zur **Buildzeit** aus Personen.xml:
-- Alle Personen mit befüllter GND-ID → BEACON-Format
+Generierung zur **Buildzeit** aus Personen.xml (`parlabio/build/beacon.py`):
+- 7.408 Personen mit standardkonformer GND-ID → BEACON-Format
+- 8 nicht-Standard-GND-URLs werden übersprungen (im Quality Report dokumentiert)
+- Format: `gnd_id||person_id`
+
+### Noch offen (AP2/Optional)
 - Konfigurierbare Whitelist externer BEACON-Quellen
-- Vorberechnung der Linkauflösung (welche externen Portale haben Einträge für diese GND?)
+- Vorberechnung der Linkauflösung
 - UI: Gruppierte Linkliste mit Extern-Kennzeichnung
 
 ## LOD-Nachladen (Optional 2)
@@ -149,3 +162,5 @@ Architektonisch vorbereitet, aber nicht im aktuellen Scope:
 - [parlabio.md](parlabio.md) – Projektdokumentation
 - [parlabio-data-analysis.md](parlabio-data-analysis.md) – Technische Datenanalyse
 - [persons.md](persons.md) – Personen.xml-Dokumentation
+- `parlabio/docs/pipeline.md` – Programmfluss-Dokumentation
+- `parlabio/docs/testing.md` – Test- und Validierungsdokumentation

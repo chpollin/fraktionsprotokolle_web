@@ -3,9 +3,10 @@
 ## Übersicht
 
 - **Datei**: `xml_quellen/Normdaten/Personen.xml`
-- **Umfang**: ~364.555 Zeilen, ca. 11.000 Personeneinträge
+- **Umfang**: ~364.555 Zeilen, 11.234 Personeneinträge (davon 9 Platzhalter)
 - **Format**: TEI-XML (`<listPerson>`)
 - **Letztes Update**: 13. Februar 2026
+- **ParlaBio-Build**: Verarbeitet 11.225 Personen in ~4–6 Sekunden → JSON-Artefakte
 
 Die Personendatenbank ist die Grundlage des Personenregisters auf fraktionsprotokolle.de und der Beacon-Datei. Technische Datenanalyse für die ParlaBio-Build-Pipeline: siehe [parlabio-data-analysis.md](parlabio-data-analysis.md).
 
@@ -69,10 +70,10 @@ Die Datei enthält drei `<listPerson>`-Bereiche:
 | `<idno>` Typ | Beschreibung | Elemente gesamt | Davon befüllt |
 |---|---|---|---|
 | `MDB_Stammdaten` | Stammdatennummer des Bundestages | ~4.088 | ~4.088 (nur MdB) |
-| `GND` | Gemeinsame Normdatei (Deutsche Nationalbibliothek) | ~11.169 | ~3.657 |
+| `GND` | Gemeinsame Normdatei (Deutsche Nationalbibliothek) | ~11.169 | 7.408 (Standard-URL) + 8 (nicht-Standard) |
 | `Wikipedia` | Link zum Wikipedia-Artikel | ~11.255 | ~6.889 |
 | `NDB` | Neue Deutsche Biographie | ~11.244 | 0 (nie befüllt) |
-| `VIAF` | Virtual International Authority File | ~206 | ~205 (+ 1x als `Viaf` – Inkonsistenz) |
+| `VIAF` | Virtual International Authority File | ~206 | ~205 (+ 2x Case-Inkonsistenz `Viaf` statt `VIAF`) |
 
 ## Affiliations-Hierarchie
 
@@ -112,19 +113,22 @@ affiliation[@role="Legislative_MDB" @type="Wahlperioden"]
 | Historische Ortsnamen | viele | z.B. „Parabutsch, Batschka (heute: Ratkovo, Bačka, Serbien)" |
 | Maidennamen im `<reg>`-Feld | 324 | z.B. `<reg>Annemarie Ackermann, geb. Eisenmann</reg>` |
 
-### Geschlechterverteilung
+### Geschlechterverteilung (verarbeitete Personen)
 
 | `<sex value>` | Anzahl |
 |---|---|
-| `m` (männlich) | 9.749 |
-| `f` (weiblich) | 1.494 |
-| `x` (andere) | 4 |
-| `d` (divers) | 2 |
+| `m` (männlich) | 9.734 |
+| `f` (weiblich) | 1.491 |
+
+Anm.: Die Differenz zur Gesamtzahl (9.734 + 1.491 = 11.225) ergibt sich durch Übersprungene Platzhalter (4 MdB-Platzhalter hatten m/f/d/x-Werte). In der Quelldatei gibt es zusätzlich `x` (4) und `d` (2) bei Platzhalter-Einträgen.
 
 ## Beacon-Datei
 
-Automatisch täglich generiert: `https://fraktionsprotokolle.de/beacon_kgparl_gnd.txt`
-Enthält alle Personen-`xml:id`s mit zugehöriger GND-Nummer. Wird von eXist-db erzeugt (nicht im Repository enthalten).
+Wird an zwei Stellen generiert:
+- **Produktiv**: Automatisch täglich von eXist-db: `https://fraktionsprotokolle.de/beacon_kgparl_gnd.txt`
+- **ParlaBio-Build**: `parlabio/build/beacon.py` generiert `parlabio/data/beacon.txt` (7.408 Einträge mit standardkonformer GND-ID)
+
+Format: `gnd_id||person_id` (eine Zeile pro Person mit GND).
 
 ## Organisationen (Organisationen.xml)
 

@@ -6,6 +6,12 @@ Strukturierte Übersicht über die Entwicklung der Edition. Detaillierte Fassung
 
 ### Februar 2026
 - **Personenliste**: Update (Ergänzungen und Korrekturen)
+- **ParlaBio AP1**: Build-Pipeline implementiert (TEI-XML → JSON)
+  - Python/lxml-Pipeline: `Personen.xml` → 11.225 Personen-JSONs + Suchindex + BEACON
+  - Suchindex: 2,9 MB kompakt, Detail-JSONs: 10,2 MB (11.225 Dateien)
+  - Quality Report: 134 Datenqualitätsprobleme identifiziert und dokumentiert
+  - Validierungsskript (`validate_output.py`): 0 Fehler, vollständige Konsistenzprüfung
+  - BEACON-Datei: 7.408 GND-verknüpfte Einträge
 
 ### Januar 2026
 - **SPD 8. WP** (1976–1980): Veröffentlichung von 144 edierten Sitzungsprotokollen

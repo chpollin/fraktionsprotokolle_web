@@ -7,7 +7,7 @@ Stand: Februar 2026
 Entwicklung einer webbasierten Personendatenbank, die das TEI-XML-Personenregister der Edition fraktionsprotokolle.de als durchsuchbare, filterbare Präsentationsschicht im Web zugänglich macht.
 
 **Auftraggeber**: KGParl (Kommission für Geschichte des Parlamentarismus und der politischen Parteien e.V.)
-**Datengrundlage**: `xml_quellen/Normdaten/Personen.xml` (~11.250 Einträge, Zielgröße 15.000–20.000)
+**Datengrundlage**: `xml_quellen/Normdaten/Personen.xml` (11.234 Einträge, davon 9 Platzhalter → 11.225 verarbeitete Personen; Zielgröße 15.000–20.000)
 **Beziehung zur Edition**: Lesender Zugriff auf die XML-Quelldaten. Keine Rückkopplung in die Quelldateien.
 
 ## Architektur
@@ -15,11 +15,12 @@ Entwicklung einer webbasierten Personendatenbank, die das TEI-XML-Personenregist
 Statische Build-Pipeline statt klassischem Backend:
 
 ```
-Personen.xml ──→ build.py (Python/lxml) ──→ JSON-Artefakte ──→ SPA im Browser
-                   │                           │
-                   ├── Validierung              ├── search-index.json (Suchindex)
-                   ├── Transformation           ├── person/<id>.json (Detail pro Person)
-                   └── Normalisierung           └── beacon.txt (optional)
+Personen.xml ──→ parlabio/build.py (Python/lxml) ──→ JSON-Artefakte ──→ SPA im Browser
+                   │                                    │
+                   ├── Validierung                      ├── search-index.json (2,9 MB)
+                   ├── Transformation                   ├── person/<id>.json (11.225 Dateien)
+                   └── Normalisierung                   ├── beacon.txt (7.408 GND-Einträge)
+                                                        └── quality-report.json
 ```
 
 **Kernprinzip**: Die TEI-XML-Dateien im GitHub-Repository bleiben die alleinige autoritative Datenquelle (Single Source of Truth). ParlaBio ist eine reine Präsentations- und Abfrageschicht.
@@ -57,13 +58,22 @@ Personen.xml ──→ build.py (Python/lxml) ──→ JSON-Artefakte ──→
 
 ### Pflicht
 
-| AP | Titel | Abhängigkeit |
-|---|---|---|
-| AP1 | Build-Pipeline (TEI-XML → JSON) | – |
-| AP4 | Prototyp und Designabstimmung | AP1 |
-| AP2 | Weboberfläche (SPA-Frontend) | AP4 |
-| AP3 | Deployment und Dokumentation | AP2 |
-| AP5 | Qualitätssicherung und Abnahme | AP3 |
+| AP | Titel | Abhängigkeit | Status |
+|---|---|---|---|
+| AP1 | Build-Pipeline (TEI-XML → JSON) | – | **Abgeschlossen** |
+| AP4 | Prototyp und Designabstimmung | AP1 | Offen |
+| AP2 | Weboberfläche (SPA-Frontend) | AP4 | Offen |
+| AP3 | Deployment und Dokumentation | AP2 | Offen |
+| AP5 | Qualitätssicherung und Abnahme | AP3 | Offen |
+
+### AP1 – Ergebnisse
+
+- **Code**: `parlabio/build.py` + 8 Module in `parlabio/build/`
+- **Laufzeit**: ~4–6 Sekunden für 11.225 Personen
+- **Ausgabe**: Suchindex (2,9 MB), 11.225 Detail-JSONs (10 MB), BEACON (7.408 Einträge)
+- **Datenqualität**: 134 Issues dokumentiert (0 parse_error, 0 unknown_faction)
+- **Tests**: 6 Tests (Unit + Integration), Validierungsskript mit 7 Prüfkategorien
+- **Dokumentation**: `parlabio/docs/pipeline.md`, `parlabio/docs/testing.md`, `parlabio/README.md`
 
 ### Optional (separat ausgewiesen)
 
@@ -90,9 +100,27 @@ Personen.xml ──→ build.py (Python/lxml) ──→ JSON-Artefakte ──→
 - **Zugriffe**: ~1.000/Woche
 - **Erwartete Datenmenge**: Suchindex voraussichtlich unter 5 MB (Kernindex ohne Freitext)
 
+## Code-Struktur
+
+Alle ParlaBio-Dateien liegen in `parlabio/`:
+
+```
+parlabio/
+├── build.py              # Einstiegspunkt
+├── validate_output.py    # Validierungsskript
+├── requirements.txt      # Abhängigkeiten (lxml)
+├── README.md
+├── build/                # Python-Module (parser, transform, factions, dates, ...)
+├── tests/test_build.py   # Unit- und Integrationstests
+├── data/                 # Generierter Output (gitignored)
+└── docs/                 # pipeline.md, testing.md
+```
+
 ## Verwandte Dokumente
 
 - [persons.md](persons.md) – Dokumentation der Personen.xml
 - [parlabio-data-analysis.md](parlabio-data-analysis.md) – Technische Datenanalyse für die Build-Pipeline
 - [parlabio-architecture.md](parlabio-architecture.md) – Architekturentscheidungen
 - [schema.md](schema.md) – TEI-Schema-Referenz
+- `parlabio/docs/pipeline.md` – Programmfluss-Dokumentation
+- `parlabio/docs/testing.md` – Test- und Validierungsdokumentation
