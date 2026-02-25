@@ -37,6 +37,44 @@ Aktuell umfasst die veröffentlichte Edition die Protokolle von
 
 Ein regelmäßiges Update, auch ohne dies ausdrücklich als Release zu kennzeichnen, erhält die als XML-Datei vorliegende Personendatenbank. Sie ist Grundlage des Namensregisters der Edition. Sie wird kontinuierlich um Personennamen ergänzt, die bisherigen Einträge um Normdaten wie GND und Kurzbiogramme angereichert sowie etwaige Fehler behoben. 
 
+## ParlaBio – Personendatenbank
+
+ParlaBio ist eine webbasierte Personendatenbank, die das TEI-XML-Personenregister der Edition als durchsuchbare, filterbare Webanwendung zugänglich macht.
+
+**Einstieg**: Die Startseite zeigt ein Overview-Dashboard mit Datenverteilungen (Personentypen, Fraktionen, Wahlperioden, Geburtsjahrzehnte, Geschlecht). Jedes Element ist klickbar und führt zur gefilterten Ergebnisliste.
+
+### Technik
+
+- **Build-Pipeline**: `python parlabio/build.py` transformiert `Personen.xml` in JSON-Artefakte (Suchindex, 11.225 Detail-JSONs, BEACON-Datei)
+- **Frontend**: Statische SPA in `docs/` (Vanilla JS, Pico CSS, MiniSearch) – direkt via GitHub Pages deploybar, kein Build-Step nötig
+- **Suche**: MiniSearch v7 mit Fuzzy-Search und Umlaut-Normalisierung (Muller → Müller)
+
+### Verzeichnisstruktur
+
+```
+parlabio/                        ← Build-Pipeline (Python/lxml)
+├── build.py                     ← Einstiegspunkt
+├── build/                       ← Module (parser, transform, factions, ...)
+├── tests/test_build.py          ← Unit- und Integrationstests
+└── docs/                        ← Pipeline-Dokumentation
+
+docs/                            ← Frontend (GitHub Pages Root)
+├── index.html                   ← SPA-Shell
+├── css/parlabio.css             ← Teal-Grün-Theme (#048263)
+├── js/                          ← app.js, search.js, render.js, utils.js
+└── data/                        ← Generiert von build.py (Suchindex + Detail-JSONs)
+```
+
+### Lokal starten
+
+```bash
+pip install lxml
+python parlabio/build.py --output docs/data
+cd docs && python -m http.server 8080
+```
+
+Weitere Dokumentation: `parlabio/README.md`, `knowledge/parlabio.md`
+
 ## Beacon
 
 Eine Beacon-Datei (XML:ID und GND-Nummer) findet sich unter [https://fraktionsprotokolle.de/beacon_kgparl.txt](https://www.fraktionsprotokolle.de/beacon_kgparl_gnd.txt)

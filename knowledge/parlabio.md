@@ -32,7 +32,7 @@ Personen.xml ──→ parlabio/build.py (Python/lxml) ──→ JSON-Artefakte 
 | Entscheidung | Gewählt | Begründung |
 |---|---|---|
 | Rendering | **SPA** (nicht SSG) | Weniger Dateien, schnellerer Build, Template-Änderungen ohne Rebuild |
-| Suchbibliothek | **FlexSearch/MiniSearch** | Schnell (~15-20 KB), Boolean-Operatoren, Entscheidung nach Prototyp |
+| Suchbibliothek | **MiniSearch v7** | Fuzzy Search für deutsche Namen, ~20 KB, Umlaut-Normalisierung |
 | Protokoll-Verknüpfung | **Nicht im Scope** | Architektur offen und erweiterbar halten, kein Parsen der 5.539 Protokolle |
 | Fraktionsnamen | **Normalisierung in AP1** | Hardcoded Mapping-Tabelle (Freitext → Kürzel) |
 | BEACON | **Generierung in Build-Pipeline** | Ersetzt die eXist-db-Funktion |
@@ -40,19 +40,24 @@ Personen.xml ──→ parlabio/build.py (Python/lxml) ──→ JSON-Artefakte 
 
 ## Funktionale Kernkomponenten
 
-### 1. Suche und Filterung
-- Globale Volltextsuche auf JSON-Suchindex
-- Reaktive Filter-Sidebar: Fraktion, Wahlperiode, Zeitraum, Geschlecht, Geburtsort
+### 1. Overview-Dashboard (Startseite)
+- Stat-Cards: Personentypen (MdB, Sonstige, KGParl-MA) mit Anzahl und Prozentanteil
+- Horizontale Balkencharts: Fraktionen (nur MdB, Top 8 + aufklappbar), Geschlecht
+- Vertikale Minibars: Wahlperioden (1–19), Geburtsjahrzehnte
+- Jedes Element klickbar → navigiert zur gefilterten Ergebnisliste
+
+### 2. Suche und Filterung
+- Volltextsuche im Header (auf allen Views erreichbar)
+- Reaktive Filter-Sidebar: Fraktion, Wahlperiode, Geschlecht, Geburtsjahrzehnt, Personentyp
 - Aktive Filter als Removable Badges
-- Boolean-Operatoren (soweit von Suchbibliothek unterstützt)
 
-### 2. Ergebnis- und Detaildarstellung
-- **Listenansicht**: Tabellen- oder Kacheldarstellung (Name, Lebensdaten, Status-Badge)
-- **Detailseite**: Sektionen (Stammdaten, Politische Vita, Referenzen), chronologische Fraktionsdarstellung, Links zur Haupt-Edition
+### 3. Ergebnis- und Detaildarstellung
+- **Listenansicht**: Tabellarisch (Name, Lebensdaten, Fraktions-Badges), paginiert
+- **Detailseite**: Sektionen (Stammdaten, Politische Vita, Exekutive Funktionen, Externe Referenzen), chronologische Fraktionsdarstellung
 
-### 3. Permalinks
-- Stabile, sprechende URLs: `domain.de/person/AbeleinManfred_1965-10-19`
-- Canonical-URL basierend auf `xml:id`
+### 4. Permalinks
+- Stabile, sprechende URLs: `domain.de/#/person/AbeleinManfred_1965-10-19`
+- Basierend auf `xml:id`
 
 ## Arbeitspakete
 
@@ -61,7 +66,7 @@ Personen.xml ──→ parlabio/build.py (Python/lxml) ──→ JSON-Artefakte 
 | AP | Titel | Abhängigkeit | Status |
 |---|---|---|---|
 | AP1 | Build-Pipeline (TEI-XML → JSON) | – | **Abgeschlossen** |
-| AP2 | Prototyp und Designabstimmung | AP1 | Offen |
+| AP2 | Prototyp und Designabstimmung | AP1 | **Abgeschlossen** |
 | AP3 | Weboberfläche (SPA-Frontend) | AP2 | Offen |
 | AP4 | Deployment und Dokumentation | AP3 | Offen |
 | AP5 | Qualitätssicherung und Abnahme | AP4 | Offen |
@@ -74,6 +79,17 @@ Personen.xml ──→ parlabio/build.py (Python/lxml) ──→ JSON-Artefakte 
 - **Datenqualität**: 134 Issues dokumentiert (0 parse_error, 0 unknown_faction)
 - **Tests**: 6 Tests (Unit + Integration), Validierungsskript mit 7 Prüfkategorien
 - **Dokumentation**: `parlabio/docs/pipeline.md`, `parlabio/docs/testing.md`, `parlabio/README.md`
+
+### AP2 – Ergebnisse
+
+- **Frontend**: Vanilla JS SPA mit Hash-Routing, 3 Views (Overview-Dashboard, Ergebnisliste, Detailseite)
+- **CSS**: Pico CSS v2 (classless) via CDN + eigene `parlabio.css` (Oswald-Font, Teal-Grün `#048263` aus dem Logo, Grid, Print). Dark Mode explizit deaktiviert (nur helles Theme).
+- **Einstieg**: Overview-Dashboard nach Shneiderman-Mantra ("Overview first, zoom and filter, then details on demand") – Stat-Cards (Personentypen), horizontale Balkencharts (Fraktionen, Geschlecht), vertikale Minibars (Wahlperioden, Geburtsjahrzehnte). Jedes Element klickbar → navigiert zur gefilterten Ergebnisliste.
+- **Suche**: MiniSearch v7 via CDN mit Fuzzy-Search und Umlaut-Normalisierung. Suchfeld im Header (auf allen Views erreichbar), nicht mehr als zentrales Startelement.
+- **Facetten**: Typ, Fraktion, Wahlperiode, Geschlecht, Geburtsjahrzehnt – berechnet via `Array.filter()`
+- **Deployment**: GitHub Pages (`docs/`), kein Build-Step nötig
+- **Design-Prinzip**: Namenszentriert (nicht fraktionszentriert), da 63% der Personen keine Fraktionszugehörigkeit haben. Explorativer Einstieg über Datenverteilungen statt Volltextsuche.
+- **Daten**: `python parlabio/build.py --output docs/data` generiert ~13 MB direkt in das Deployment-Verzeichnis
 
 ### Optional (separat ausgewiesen)
 

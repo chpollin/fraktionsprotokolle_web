@@ -56,26 +56,63 @@ Stand: Februar 2026. Dokumentation der getroffenen und offenen Architekturentsch
 
 | Seite | Funktion |
 |---|---|
-| Startseite | Suchfeld, Einführungstext |
-| Ergebnisliste | Tabelle/Kacheln mit Filtern, Removable Badges, Paginierung |
-| Detailseite | Sektionen (Stammdaten, Politische Vita, Referenzen), Fraktions-Timeline, Edition-Links |
+| Overview-Dashboard | Stat-Cards (Personentypen), Balkencharts (Fraktionen, Geschlecht), Minibars (WP, Jahrzehnte) – jedes Element klickbar → Filter |
+| Ergebnisliste | Tabelle mit Filter-Sidebar, Removable Badges, Paginierung |
+| Detailseite | Sektionen (Stammdaten, Politische Vita, Exekutive, Referenzen), Fraktions-Timeline |
+| Header (alle Views) | Logo, Suchfeld, Nav-Links (Edition, KGParl) |
 
 ### CSS-Framework
 
-Tailwind CSS (Lastenheft-Vorschlag, wird übernommen).
+**Pico CSS v2 (classless)** via CDN + eigene `parlabio.css` für Layout-Overrides (Grid, Badges, Dashboard-Komponenten, Print). Kein Build-Step. Dark Mode explizit deaktiviert (`color-scheme: light`), alle `--pico-primary-*` Variablen auf Teal-Grün (`#048263`) überschrieben.
+
+| Kriterium | Tailwind (Lastenheft) | Pico CSS (gewählt) |
+|---|---|---|
+| Build-Step | Zwingend (Node.js) | Keiner |
+| HTML-Lesbarkeit | Utility-Klassen-Flut | Sauberes semantisches HTML |
+| Scholarly Fit | Eher Startup-Ästhetik | Zurückhaltend, dokumentenzentriert |
+| Wartung (1-2 Personen) | Framework-Wissen nötig | Standard-CSS reicht |
+| Dark Mode | Manuell konfigurieren | Deaktiviert (helles Theme, passend zur Edition) |
+| GitHub Pages | Braucht CI/CD für Build | Direkt deploybar |
+
+**Begründung**: Für ein Projekt mit 1-2 Entwicklern und ~1.000 Zugriffen/Woche ist ein build-freier Ansatz pragmatischer. Pico CSS classless styled semantisches HTML direkt – passt zum akademischen Charakter des Projekts.
+
+### Farbschema
+
+Abgeleitet vom Logo des Editionsprogramms:
+
+| Variable | Wert | Verwendung |
+|---|---|---|
+| Primary | `#048263` | Teal-Grün (Logofarbe), Buttons, Links, Balken |
+| Primary Dark | `#036a51` | Hover-Zustand auf Buttons |
+| Primary Light/Focus | `rgba(4,130,99,0.2)` | Fokus-Ringe, Hover-Hintergründe |
+| Hintergrund | `#f7faf9` | Stat-Cards, Suchfeld-Hintergrund |
+
+**Begründung**: Das bisherige Orange (`#dd6f00`) stammte nicht aus dem Corporate Design. Das Logo nutzt Teal-Grün – das Interface soll zum Editionsprogramm passen. Dark Mode wurde deaktiviert, da die Edition selbst kein Dark Theme hat.
+
+### UI-Paradigma
+
+**Overview first** (Shneiderman-Mantra) statt Suchfeld-zentriertem Einstieg:
+
+| Aspekt | Vorher (AP2 v1) | Nachher (AP2 v2) |
+|---|---|---|
+| Startseite | Zentriertes Suchfeld (Google-Stil) | Overview-Dashboard mit Datenverteilungen |
+| Einstieg | Nutzer muss wissen, was er sucht | Nutzer sieht Gesamtbild und klickt sich rein |
+| Suchfeld | Dominant auf Startseite | Im Header, auf allen Views erreichbar, sekundär |
 
 ## Clientseitige Suche
 
 ### Bibliothek-Entscheidung
 
-Empfohlen: **FlexSearch** oder **MiniSearch** (finale Entscheidung nach Prototyp in AP2).
+**MiniSearch v7** via CDN.
 
-| Bibliothek | Bundle | Geschwindigkeit | Boolean | Fuzzy |
-|---|---|---|---|---|
-| FlexSearch | ~15 KB | <50ms bei 20k | Ja | Nein |
-| MiniSearch | ~20 KB | <50ms bei 20k | Ja | Ja |
-| Lunr.js | ~30 KB | <50ms bei 20k | Ja | Nein |
-| Fuse.js | ~25 KB | 100-200ms | Nein | Ja |
+| Bibliothek | Bundle | Geschwindigkeit | Boolean | Fuzzy | Gewählt |
+|---|---|---|---|---|---|
+| FlexSearch | ~15 KB | <50ms bei 20k | Ja | Nein | |
+| **MiniSearch** | ~20 KB | <50ms bei 20k | Ja | **Ja** | **Ja** |
+| Lunr.js | ~30 KB | <50ms bei 20k | Ja | Nein | |
+| Fuse.js | ~25 KB | 100-200ms | Nein | Ja | |
+
+**Begründung**: Fuzzy Search ist kritisch für deutsche Namen (Muller/Müller, Strauss/Strauß, Maidennamen). `processTerm` normalisiert Umlaute (ä→ae, ö→oe, ü→ue, ß→ss) sowohl bei Indexierung als auch bei Suche.
 
 ### Suchindex-Design
 
@@ -139,22 +176,24 @@ Architektonisch vorbereitet, aber nicht im aktuellen Scope:
 - HTTPS-Pflicht
 - Kein Container nötig
 
-### Verzeichnisstruktur (Entwurf)
+### Verzeichnisstruktur (Implementiert)
 
 ```
-/parlabio/
-├── index.html          (SPA-Shell)
-├── app.js              (Rendering + Suche)
-├── style.css           (Tailwind-Build)
-├── data/
-│   ├── search-index.json
-│   └── person/
-│       ├── AbeleinManfred_1965-10-19.json
-│       └── ...
-├── locales/
-│   ├── de.json
-│   └── en.json
-└── beacon.txt          (optional)
+docs/                           ← GitHub Pages Root
+├── index.html                  ← SPA-Shell (einziger Entry Point)
+├── css/
+│   └── parlabio.css            ← Custom Styles (Grid, Badges, Print)
+├── js/
+│   ├── app.js                  ← Routing, State, Init, Events
+│   ├── search.js               ← MiniSearch-Konfiguration + Facetten
+│   ├── render.js               ← HTML-Rendering (3 Views)
+│   └── utils.js                ← Hilfsfunktionen
+├── img/
+│   └── logo_editionsprogramm.svg
+└── data/                       ← Generiert von build.py --output docs/data
+    ├── search-index.json       ← 2,9 MB
+    ├── beacon.txt
+    └── person/                 ← 11.225 JSON-LD-Dateien
 ```
 
 ## Verwandte Dokumente

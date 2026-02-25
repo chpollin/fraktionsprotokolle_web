@@ -12,6 +12,13 @@ Strukturierte Übersicht über die Entwicklung der Edition. Detaillierte Fassung
   - Quality Report: 134 Datenqualitätsprobleme identifiziert und dokumentiert
   - Validierungsskript (`validate_output.py`): 0 Fehler, vollständige Konsistenzprüfung
   - BEACON-Datei: 7.408 GND-verknüpfte Einträge
+- **ParlaBio AP2**: Prototyp und Redesign
+  - Vanilla JS SPA mit Hash-Routing, 3 Views, Pico CSS v2 classless
+  - Redesign: Overview-Dashboard als Startseite (Shneiderman-Mantra: "Overview first")
+  - Farbschema: Orange (#dd6f00) → Teal-Grün (#048263) aus dem Editionsprogramm-Logo
+  - Dark Mode deaktiviert (nur helles Theme)
+  - Suchfeld aus der Startseite in den Header verschoben (auf allen Views erreichbar)
+  - Dashboard: Stat-Cards (Personentypen), Balkencharts (Fraktionen, Geschlecht), Minibars (WP, Jahrzehnte)
 
 ### Januar 2026
 - **SPD 8. WP** (1976–1980): Veröffentlichung von 144 edierten Sitzungsprotokollen

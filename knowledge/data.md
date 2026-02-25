@@ -99,7 +99,10 @@ Vollständige Element-Constraints und Value Lists: siehe [schema.md](schema.md).
 
 ## Teilprojekt ParlaBio
 
-Webbasierte Personendatenbank als erweiterte Präsentationsschicht über die Personen.xml. AP1 (Build-Pipeline) ist implementiert: `python parlabio/build.py` transformiert die Personen.xml in 11.225 JSON-Dateien + Suchindex + BEACON.
+Webbasierte Personendatenbank als erweiterte Präsentationsschicht über die Personen.xml.
+
+- **AP1** (Build-Pipeline): Implementiert. `python parlabio/build.py` transformiert die Personen.xml in 11.225 JSON-Dateien + Suchindex + BEACON.
+- **AP2** (Frontend-Prototyp): Implementiert. Vanilla JS SPA (`docs/`) mit Overview-Dashboard, Ergebnisliste und Detailseite. Farbschema Teal-Grün (`#048263`), helles Theme, Suchfeld im Header. Deploybar via GitHub Pages ohne Build-Step.
 
 Siehe [parlabio.md](parlabio.md) für Projektdokumentation, [parlabio-data-analysis.md](parlabio-data-analysis.md) für die technische Datenanalyse und [parlabio-architecture.md](parlabio-architecture.md) für Architekturentscheidungen.
 
