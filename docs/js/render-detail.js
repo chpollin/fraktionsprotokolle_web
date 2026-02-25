@@ -18,7 +18,8 @@ function renderDetailView(person) {
   // Subtitle
   const subtitleParts = [];
   if (personType === 'MdB') subtitleParts.push('MdB');
-  if (personType === 'KGParl') subtitleParts.push('KGParl-Mitarbeiter');
+  else if (personType === 'Mitarbeiter-KGParl') subtitleParts.push('KGParl-Mitarbeiter');
+  else if (personType === 'Other') subtitleParts.push('Sonstige Person');
   const lifeParts = [];
   if (birth && birth.date) lifeParts.push(formatDate(birth.date));
   if (death && death.date) lifeParts.push(formatDate(death.date));

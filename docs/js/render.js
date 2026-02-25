@@ -6,13 +6,14 @@
  */
 
 function renderResultsView(results, query, filters, unfilteredFacets, page, pageSize, sort) {
-  // Apply sort before slicing
+  // Apply sort before slicing (performSearch already sorts by name when !query,
+  // so we only re-sort when the user explicitly chose a different order)
   if (sort === 'birth') {
     results = [...results].sort((a, b) => (a.birth_year || 9999) - (b.birth_year || 9999));
-  } else if (sort === 'name' || !query) {
+  } else if (sort === 'name' && query) {
     results = [...results].sort((a, b) => (a.surname || '').localeCompare(b.surname || '', 'de'));
   }
-  // else: 'relevance' → keep MiniSearch score order (default)
+  // else: 'relevance' (with query) or 'name' (without query) → keep existing order
 
   const totalResults = results.length;
   const totalPages = Math.ceil(totalResults / pageSize);
