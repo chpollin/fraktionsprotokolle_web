@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "RosenbergArthur",
+  "name": "Arthur Rosenberg",
+  "givenName": "Arthur",
+  "familyName": "Rosenberg",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1889-12-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "1943-02-02",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "New York"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Privatdozent, 1924–1928 MdR (KPD)"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118749749",
+    "https://de.wikipedia.org/wiki/Arthur_Rosenberg"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Arthur Rosenberg",
+    "forename": "Arthur",
+    "surname": "Rosenberg",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1889-12-19",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1943-02-02",
+    "place": "New York",
+    "country": "USA"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118749749",
+    "wikipedia": "https://de.wikipedia.org/wiki/Arthur_Rosenberg",
+    "viaf": null
+  }
+}

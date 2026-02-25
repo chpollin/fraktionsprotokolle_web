@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "DoppmeierHubert_1990-12-20",
+  "name": "Hubert Doppmeier",
+  "givenName": "Hubert",
+  "familyName": "Doppmeier",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1944-02-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Langenberg/Krs. Gütersloh"
+  },
+  "deathDate": "1992-03-08",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hannover"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsanwalt und Notar [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1992-03-08"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1024349683",
+    "https://de.wikipedia.org/wiki/Hubert_Doppmeier"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hubert Doppmeier",
+    "forename": "Hubert",
+    "surname": "Doppmeier",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1944-02-19",
+    "place": "Langenberg/Krs. Gütersloh",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1992-03-08",
+    "place": "Hannover",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 12,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1990-12-20",
+      "to": "1992-03-08"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000406",
+    "gnd": "https://d-nb.info/gnd/1024349683",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hubert_Doppmeier",
+    "viaf": null
+  }
+}

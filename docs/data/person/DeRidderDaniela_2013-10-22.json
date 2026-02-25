@@ -1,0 +1,83 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "DeRidderDaniela_2013-10-22",
+  "name": "Daniela De Ridder",
+  "givenName": "Daniela",
+  "familyName": "De Ridder",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1962-11-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kiel"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Unternehmensberaterin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "2013-10-22",
+      "endDate": "2017-10-24"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "2017-10-24"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Daniela De Ridder",
+    "forename": "Daniela",
+    "surname": "De Ridder",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1962-11-27",
+    "place": "Kiel",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 18,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "2013-10-22",
+      "to": "2017-10-24"
+    },
+    {
+      "period": 19,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "2017-10-24",
+      "to": ""
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11004386",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

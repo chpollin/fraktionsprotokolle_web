@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HultschSteffen_2009-07-14",
+  "name": "Steffen Hultsch",
+  "givenName": "Steffen",
+  "familyName": "Hultsch",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1944-05-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Aue"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsanwalt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion DIE LINKE.",
+        "alternateName": "LINKE"
+      },
+      "startDate": "2009-07-14",
+      "endDate": "2009-10-27"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Steffen Hultsch",
+    "forename": "Steffen",
+    "surname": "Hultsch",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1944-05-07",
+    "place": "Aue",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 16,
+      "faction": "LINKE",
+      "faction_full": "Fraktion DIE LINKE.",
+      "from": "2009-07-14",
+      "to": "2009-10-27"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11003898",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

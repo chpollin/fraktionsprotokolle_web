@@ -1,0 +1,86 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "LattmannDieter_1972-12-13",
+  "name": "Dieter Lattmann",
+  "givenName": "Dieter",
+  "familyName": "Lattmann",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1926-02-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Potsdam"
+  },
+  "deathDate": "2018-04-17",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Schriftsteller [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1972-12-13",
+      "endDate": "1976-12-13"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1976-12-14",
+      "endDate": "1980-11-04"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/118570064"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Dieter Lattmann",
+    "forename": "Dieter",
+    "surname": "Lattmann",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1926-02-15",
+    "place": "Potsdam",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2018-04-17",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 7,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1972-12-13",
+      "to": "1976-12-13"
+    },
+    {
+      "period": 8,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1976-12-14",
+      "to": "1980-11-04"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001291",
+    "gnd": "https://d-nb.info/gnd/118570064",
+    "wikipedia": null,
+    "viaf": null
+  }
+}

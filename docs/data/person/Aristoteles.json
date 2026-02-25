@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "Aristoteles",
+  "name": "Aristoteles",
+  "givenName": "Aristoteles",
+  "familyName": "Aristoteles",
+  "gender": "https://schema.org/Male",
+  "birthDate": null,
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Stageira"
+  },
+  "deathDate": "-0322",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Chalkis auf Euböa"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "griechischer Philosoph"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118650130",
+    "https://de.wikipedia.org/wiki/Aristoteles"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Aristoteles",
+    "forename": "Aristoteles",
+    "surname": "Aristoteles",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": null,
+    "place": "Stageira",
+    "country": "Griechenland"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "-0322",
+    "place": "Chalkis auf Euböa",
+    "country": "Griechenland"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118650130",
+    "wikipedia": "https://de.wikipedia.org/wiki/Aristoteles",
+    "viaf": null
+  }
+}

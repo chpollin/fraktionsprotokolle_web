@@ -1,0 +1,107 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "AdornoEduard_1961-10-17",
+  "name": "Eduard Adorno",
+  "givenName": "Eduard",
+  "familyName": "Adorno",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1920-10-31",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "deathDate": "2000-12-28",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bad Wörishofen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Landwirt, Landesminister a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1965-10-19",
+      "endDate": "1969-10-19"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1969-10-20",
+      "endDate": "1972-08-21"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/135991765",
+    "https://de.wikipedia.org/wiki/Eduard_Adorno"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Eduard Adorno",
+    "forename": "Eduard",
+    "surname": "Adorno",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1920-10-31",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2000-12-28",
+    "place": "Bad Wörishofen",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 4,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    },
+    {
+      "period": 5,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    },
+    {
+      "period": 6,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1969-10-20",
+      "to": "1972-08-21"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000011",
+    "gnd": "https://d-nb.info/gnd/135991765",
+    "wikipedia": "https://de.wikipedia.org/wiki/Eduard_Adorno",
+    "viaf": null
+  }
+}

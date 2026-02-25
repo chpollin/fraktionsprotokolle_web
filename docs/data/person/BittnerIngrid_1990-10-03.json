@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BittnerIngrid_1990-10-03",
+  "name": "Ingrid Bittner",
+  "givenName": "Ingrid",
+  "familyName": "Bittner",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1944-04-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Wernigerode/Harz"
+  },
+  "deathDate": "2002-04-21",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Fachärztin für Kinderheilkunde [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Gruppe der Partei des Demokratischen Sozialismus",
+        "alternateName": "Grp. PDS"
+      },
+      "startDate": "1990-10-03",
+      "endDate": "1990-12-20"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Ingrid Bittner",
+    "forename": "Ingrid",
+    "surname": "Bittner",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1944-04-16",
+    "place": "Wernigerode/Harz",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2002-04-21",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 11,
+      "faction": "Grp. PDS",
+      "faction_full": "Gruppe der Partei des Demokratischen Sozialismus",
+      "from": "1990-10-03",
+      "to": "1990-12-20"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000188",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

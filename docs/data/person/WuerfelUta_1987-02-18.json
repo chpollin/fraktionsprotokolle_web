@@ -1,0 +1,87 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "WuerfelUta_1987-02-18",
+  "name": "Uta Würfel",
+  "givenName": "Uta",
+  "familyName": "Würfel",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1944-08-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bad Wiessee/Tegernsee"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Wissenschaftliche Mitarbeiterin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1987-02-18",
+      "endDate": "1990-12-20"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1031689281",
+    "https://de.wikipedia.org/wiki/Uta_W%C3%BCrfel"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Uta Würfel",
+    "forename": "Uta",
+    "surname": "Würfel",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1944-08-19",
+    "place": "Bad Wiessee/Tegernsee",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 11,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1987-02-18",
+      "to": "1990-12-20"
+    },
+    {
+      "period": 12,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1990-12-20",
+      "to": "1994-11-10"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002569",
+    "gnd": "https://d-nb.info/gnd/1031689281",
+    "wikipedia": "https://de.wikipedia.org/wiki/Uta_W%C3%BCrfel",
+    "viaf": null
+  }
+}

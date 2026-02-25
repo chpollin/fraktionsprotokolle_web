@@ -1,0 +1,69 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "ZeitlerKarin_1985-04-03",
+  "name": "Karin Zeitler",
+  "givenName": "Karin",
+  "familyName": "Zeitler",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1953-07-06",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Saal/Donau (Bayern)"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Sozialwissenschaftlerin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Die Grünen",
+        "alternateName": "Grüne"
+      },
+      "startDate": "1985-04-03",
+      "endDate": "1987-02-18"
+    }
+  ],
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Karin_Zeitler"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Karin Zeitler",
+    "forename": "Karin",
+    "surname": "Zeitler",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1953-07-06",
+    "place": "Saal/Donau (Bayern)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 10,
+      "faction": "Grüne",
+      "faction_full": "Fraktion Die Grünen",
+      "from": "1985-04-03",
+      "to": "1987-02-18"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002586",
+    "gnd": null,
+    "wikipedia": "https://de.wikipedia.org/wiki/Karin_Zeitler",
+    "viaf": null
+  }
+}

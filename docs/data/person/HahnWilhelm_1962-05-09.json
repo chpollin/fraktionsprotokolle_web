@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HahnWilhelm_1962-05-09",
+  "name": "Wilhelm Hahn",
+  "givenName": "Wilhelm",
+  "familyName": "Hahn",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1909-05-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Dorpat (heute Tartu)"
+  },
+  "deathDate": "1996-12-09",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Heidelberg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Universitätsprofessor, Minister a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1962-05-09",
+      "endDate": "1964-11-16"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/11854487X",
+    "https://de.wikipedia.org/wiki/Wilhelm_Hahn"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Wilhelm Hahn",
+    "forename": "Wilhelm",
+    "surname": "Hahn",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1909-05-14",
+    "place": "Dorpat (heute Tartu)",
+    "country": "Estland"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1996-12-09",
+    "place": "Heidelberg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 4,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1962-05-09",
+      "to": "1964-11-16"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000785",
+    "gnd": "https://d-nb.info/gnd/11854487X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_Hahn",
+    "viaf": null
+  }
+}

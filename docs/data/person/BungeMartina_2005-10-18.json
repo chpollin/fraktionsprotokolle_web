@@ -1,0 +1,84 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BungeMartina_2005-10-18",
+  "name": "Martina Bunge",
+  "givenName": "Martina",
+  "familyName": "Bunge",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1951-05-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Leipzig"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Sozialwissenschaftlerin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion DIE LINKE.",
+        "alternateName": "LINKE"
+      },
+      "startDate": "2005-10-18",
+      "endDate": "2009-10-27"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion DIE LINKE.",
+        "alternateName": "LINKE"
+      },
+      "startDate": "2009-10-27",
+      "endDate": "2013-10-22"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Martina Bunge",
+    "forename": "Martina",
+    "surname": "Bunge",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1951-05-18",
+    "place": "Leipzig",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 16,
+      "faction": "LINKE",
+      "faction_full": "Fraktion DIE LINKE.",
+      "from": "2005-10-18",
+      "to": "2009-10-27"
+    },
+    {
+      "period": 17,
+      "faction": "LINKE",
+      "faction_full": "Fraktion DIE LINKE.",
+      "from": "2009-10-27",
+      "to": "2013-10-22"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11003743",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

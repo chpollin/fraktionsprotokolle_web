@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "EisenmannHans",
+  "name": "Hans Eisenmann",
+  "givenName": "Hans",
+  "familyName": "Eisenmann",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1923-04-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Ampertshausen"
+  },
+  "deathDate": "1987-08-31",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "MdL (CSU), 1969–1987 Bayerischer Staatsminister für Ernährung, Landwirtschaft und Forsten"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118862561",
+    "https://de.wikipedia.org/wiki/Hans_Eisenmann"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans Eisenmann",
+    "forename": "Hans",
+    "surname": "Eisenmann",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1923-04-15",
+    "place": "Ampertshausen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1987-08-31",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118862561",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Eisenmann",
+    "viaf": null
+  }
+}

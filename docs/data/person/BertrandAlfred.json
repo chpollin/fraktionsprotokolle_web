@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BertrandAlfred",
+  "name": "Alfred Bertrand",
+  "givenName": "Alfred",
+  "familyName": "Bertrand",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1913-05-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bilzen"
+  },
+  "deathDate": "1986-11-22",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Sint-Truiden"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1961–1965 belgischer Verkehrsminister, 1966–1971 Gesundheitsminister"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/110316726X",
+    "https://de.wikipedia.org/wiki/Alfred_Bertrand"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Alfred Bertrand",
+    "forename": "Alfred",
+    "surname": "Bertrand",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1913-05-26",
+    "place": "Bilzen",
+    "country": "Belgien"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1986-11-22",
+    "place": "Sint-Truiden",
+    "country": "Belgien"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/110316726X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Alfred_Bertrand",
+    "viaf": null
+  }
+}

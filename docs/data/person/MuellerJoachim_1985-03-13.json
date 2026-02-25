@@ -1,0 +1,69 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "MuellerJoachim_1985-03-13",
+  "name": "Joachim Müller",
+  "givenName": "Joachim",
+  "familyName": "Müller",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1947-01-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "ohne Angaben"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Hochschulassistent für Betriebswirtschaftslehre, Diplomkaufmann [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Die Grünen",
+        "alternateName": "Grüne"
+      },
+      "startDate": "1985-03-13",
+      "endDate": "1987-02-18"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1021328006"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Joachim Müller",
+    "forename": "Joachim",
+    "surname": "Müller",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Bremen)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1947-01-07",
+    "place": "ohne Angaben",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 10,
+      "faction": "Grüne",
+      "faction_full": "Fraktion Die Grünen",
+      "from": "1985-03-13",
+      "to": "1987-02-18"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001553",
+    "gnd": "https://d-nb.info/gnd/1021328006",
+    "wikipedia": null,
+    "viaf": null
+  }
+}

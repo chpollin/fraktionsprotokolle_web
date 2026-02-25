@@ -1,0 +1,69 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchulzeWaldemar_1976-12-14",
+  "name": "Waldemar Schulze",
+  "givenName": "Waldemar",
+  "familyName": "Schulze",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1930-07-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Seifersdorf"
+  },
+  "deathDate": "2018-01-26",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Sozialarbeiter, Sozialpädagoge [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1976-12-14",
+      "endDate": "1980-11-04"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1214460909"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Waldemar Schulze",
+    "forename": "Waldemar",
+    "surname": "Schulze",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Berlin)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1930-07-09",
+    "place": "Seifersdorf",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2018-01-26",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 8,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1976-12-14",
+      "to": "1980-11-04"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002110",
+    "gnd": "https://d-nb.info/gnd/1214460909",
+    "wikipedia": null,
+    "viaf": null
+  }
+}

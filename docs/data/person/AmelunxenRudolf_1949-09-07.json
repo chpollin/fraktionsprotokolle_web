@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "AmelunxenRudolf_1949-09-07",
+  "name": "Rudolf Amelunxen",
+  "givenName": "Rudolf",
+  "familyName": "Amelunxen",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1888-06-30",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Köln"
+  },
+  "deathDate": "1969-04-21",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Kloster Grafschaft (heute: Schmallenberg-Grafschaft)"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Jurist (Richter), Verwaltungsbeamter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Deutsche Zentrums-Partei",
+        "alternateName": "Zentrum"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1949-10-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/118648764",
+    "https://de.wikipedia.org/wiki/Rudolf_Amelunxen"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Rudolf Amelunxen",
+    "forename": "Rudolf",
+    "surname": "Amelunxen",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1888-06-30",
+    "place": "Köln",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1969-04-21",
+    "place": "Kloster Grafschaft (heute: Schmallenberg-Grafschaft)",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "Zentrum",
+      "faction_full": "Fraktion Deutsche Zentrums-Partei",
+      "from": "1949-09-07",
+      "to": "1949-10-07"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000032",
+    "gnd": "https://d-nb.info/gnd/118648764",
+    "wikipedia": "https://de.wikipedia.org/wiki/Rudolf_Amelunxen",
+    "viaf": null
+  }
+}

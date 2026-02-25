@@ -1,0 +1,107 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "KrugGeorg_1957-10-15",
+  "name": "Georg Krug",
+  "givenName": "Georg",
+  "familyName": "Krug",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1906-08-06",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Altusried"
+  },
+  "deathDate": "1989-12-02",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Altusried"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Landwirt, Bürgermeister [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1957-10-15",
+      "endDate": "1961-10-15"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1965-10-19",
+      "endDate": "1969-10-19"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1060149966",
+    "https://de.wikipedia.org/wiki/Georg_Krug_(Politiker,_1906)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Georg Krug",
+    "forename": "Georg",
+    "surname": "Krug",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1906-08-06",
+    "place": "Altusried",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1989-12-02",
+    "place": "Altusried",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 3,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 4,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    },
+    {
+      "period": 5,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001232",
+    "gnd": "https://d-nb.info/gnd/1060149966",
+    "wikipedia": "https://de.wikipedia.org/wiki/Georg_Krug_(Politiker,_1906)",
+    "viaf": null
+  }
+}

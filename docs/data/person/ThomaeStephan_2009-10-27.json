@@ -1,0 +1,83 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "ThomaeStephan_2009-10-27",
+  "name": "Stephan Thomae",
+  "givenName": "Stephan",
+  "familyName": "Thomae",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1968-06-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kempten (Allgäu)"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsanwalt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "2009-10-27",
+      "endDate": "2013-10-22"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "2017-10-24"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Stephan Thomae",
+    "forename": "Stephan",
+    "surname": "Thomae",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1968-06-19",
+    "place": "Kempten (Allgäu)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 17,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "2009-10-27",
+      "to": "2013-10-22"
+    },
+    {
+      "period": 19,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "2017-10-24",
+      "to": ""
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11004175",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

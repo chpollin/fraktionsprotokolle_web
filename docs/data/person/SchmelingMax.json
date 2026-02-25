@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchmelingMax",
+  "name": "Max Schmeling",
+  "givenName": "Maximilian Adolph Otto Siegfried",
+  "familyName": "Schmeling",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1905-09-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Klein Luckow"
+  },
+  "deathDate": "2005-02-02",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Wenzendorf"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Schwergewichts-Boxweltmeister"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118608525",
+    "https://de.wikipedia.org/wiki/Max_Schmeling"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Max Schmeling",
+    "forename": "Maximilian Adolph Otto Siegfried",
+    "surname": "Schmeling",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1905-09-28",
+    "place": "Klein Luckow",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2005-02-02",
+    "place": "Wenzendorf",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118608525",
+    "wikipedia": "https://de.wikipedia.org/wiki/Max_Schmeling",
+    "viaf": null
+  }
+}

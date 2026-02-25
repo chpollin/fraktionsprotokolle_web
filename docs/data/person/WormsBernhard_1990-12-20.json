@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "WormsBernhard_1990-12-20",
+  "name": "Bernhard Worms",
+  "givenName": "Bernhard",
+  "familyName": "Worms",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1930-03-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Stommeln/Erftkreis"
+  },
+  "deathDate": "2024-12-21",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Pulheim"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Kaufmann [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1991-01-31"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/118771337",
+    "https://de.wikipedia.org/wiki/Bernhard_Worms"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Bernhard Worms",
+    "forename": "Bernhard",
+    "surname": "Worms",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1930-03-14",
+    "place": "Stommeln/Erftkreis",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2024-12-21",
+    "place": "Pulheim",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 12,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1990-12-20",
+      "to": "1991-01-31"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002563",
+    "gnd": "https://d-nb.info/gnd/118771337",
+    "wikipedia": "https://de.wikipedia.org/wiki/Bernhard_Worms",
+    "viaf": null
+  }
+}

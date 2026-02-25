@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "PfenderFranz_1949-09-07",
+  "name": "Franz Pfender",
+  "givenName": "Franz",
+  "familyName": "Pfender",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1899-08-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Untersulmetingen/Laupheim-Ulm"
+  },
+  "deathDate": "1972-07-09",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Laupheim"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Angestellter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1116818841",
+    "https://de.wikipedia.org/wiki/Franz_Pfender"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Franz Pfender",
+    "forename": "Franz",
+    "surname": "Pfender",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1899-08-05",
+    "place": "Untersulmetingen/Laupheim-Ulm",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1972-07-09",
+    "place": "Laupheim",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001705",
+    "gnd": "https://d-nb.info/gnd/1116818841",
+    "wikipedia": "https://de.wikipedia.org/wiki/Franz_Pfender",
+    "viaf": null
+  }
+}

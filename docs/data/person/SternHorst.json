@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SternHorst",
+  "name": "Horst Stern",
+  "givenName": "Horst",
+  "familyName": "Stern",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1922-10-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Stettin (heute: Szczecin, Polen)"
+  },
+  "deathDate": "2019-01-17",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Passau"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist, Publizist, Naturschützer, Dokumentarfilmer"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/119559439",
+    "https://de.wikipedia.org/wiki/Horst_Stern"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Horst Stern",
+    "forename": "Horst",
+    "surname": "Stern",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1922-10-24",
+    "place": "Stettin (heute: Szczecin, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2019-01-17",
+    "place": "Passau",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/119559439",
+    "wikipedia": "https://de.wikipedia.org/wiki/Horst_Stern",
+    "viaf": null
+  }
+}

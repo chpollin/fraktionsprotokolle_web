@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "PascalBlaise",
+  "name": "Blaise Pascal",
+  "givenName": "Blaise",
+  "familyName": "Pascal",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1623-06-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Clermont-Ferrand"
+  },
+  "deathDate": "1662-08-19",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "französischer Mathematiker, Physiker, Literat und christlicher Philosoph"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118591843",
+    "https://de.wikipedia.org/wiki/Blaise_Pascal"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Blaise Pascal",
+    "forename": "Blaise",
+    "surname": "Pascal",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1623-06-19",
+    "place": "Clermont-Ferrand",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1662-08-19",
+    "place": "Paris",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118591843",
+    "wikipedia": "https://de.wikipedia.org/wiki/Blaise_Pascal",
+    "viaf": null
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "LeiskeWalter_1953-10-06",
+  "name": "Walter Leiske",
+  "givenName": "Walter",
+  "familyName": "Leiske",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1889-02-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "1971-10-22",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Frankfurt am Main"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Bürgermeister [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1957-10-15",
+      "endDate": "1961-10-15"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/124729053",
+    "https://de.wikipedia.org/wiki/Walter_Leiske"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Walter Leiske",
+    "forename": "Walter",
+    "surname": "Leiske",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1889-02-07",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1971-10-22",
+    "place": "Frankfurt am Main",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 3,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001311",
+    "gnd": "https://d-nb.info/gnd/124729053",
+    "wikipedia": "https://de.wikipedia.org/wiki/Walter_Leiske",
+    "viaf": null
+  }
+}

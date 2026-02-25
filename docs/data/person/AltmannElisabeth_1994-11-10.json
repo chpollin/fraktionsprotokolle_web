@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "AltmannElisabeth_1994-11-10",
+  "name": "Elisabeth Altmann",
+  "givenName": "Elisabeth",
+  "familyName": "Altmann",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1943-10-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Immenstadt"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Lehrerin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Bündnis 90/Die Grünen",
+        "alternateName": "B90/Grüne"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-10-26"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Elisabeth Altmann",
+    "forename": "Elisabeth",
+    "surname": "Altmann",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Pommelsbrunn)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1943-10-12",
+    "place": "Immenstadt",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 13,
+      "faction": "B90/Grüne",
+      "faction_full": "Fraktion Bündnis 90/Die Grünen",
+      "from": "1994-11-10",
+      "to": "1998-10-26"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002619",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

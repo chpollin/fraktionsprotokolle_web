@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "DehlerKlaus",
+  "name": "Klaus Dehler",
+  "givenName": "Klaus",
+  "familyName": "Dehler",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1926-09-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Erlangen"
+  },
+  "deathDate": "2005-08-01",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Feldafing"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Arzt, 1954–1966 MdL Bayern (FDP), 1964–1967 FDP-Landesvorsitzender"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/119393077",
+    "https://de.wikipedia.org/wiki/Klaus_Dehler"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Klaus Dehler",
+    "forename": "Klaus",
+    "surname": "Dehler",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1926-09-15",
+    "place": "Erlangen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2005-08-01",
+    "place": "Feldafing",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/119393077",
+    "wikipedia": "https://de.wikipedia.org/wiki/Klaus_Dehler",
+    "viaf": null
+  }
+}

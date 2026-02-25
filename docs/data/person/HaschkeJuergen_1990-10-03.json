@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HaschkeJuergen_1990-10-03",
+  "name": "Jürgen Haschke",
+  "givenName": "Jürgen",
+  "familyName": "Haschke",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1942-07-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "ohne Angaben"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Mitglied der Volkskammer, Diplomfachlehrer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der CDU/CSU (Gast)",
+        "alternateName": "CDU/CSU (Gast)"
+      },
+      "startDate": "1990-10-03",
+      "endDate": "1990-12-20"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Jürgen Haschke",
+    "forename": "Jürgen",
+    "surname": "Haschke",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Jena-West)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1942-07-02",
+    "place": "ohne Angaben",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 11,
+      "faction": "CDU/CSU (Gast)",
+      "faction_full": "Fraktion der CDU/CSU (Gast)",
+      "from": "1990-10-03",
+      "to": "1990-12-20"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000819",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "FrieseHarald_1998-10-26",
+  "name": "Harald Friese",
+  "givenName": "Harald",
+  "familyName": "Friese",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1945-06-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Badersleben/Kreis Oschersleben"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Bürgermeister a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1998-10-26",
+      "endDate": "2002-10-17"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Harald Friese",
+    "forename": "Harald",
+    "surname": "Friese",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1945-06-02",
+    "place": "Badersleben/Kreis Oschersleben",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 14,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1998-10-26",
+      "to": "2002-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11003125",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "AuhagenHendrik_1985-04-17",
+  "name": "Hendrik Auhagen",
+  "givenName": "Hendrik",
+  "familyName": "Auhagen",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1951-05-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Celle"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Studienassessor [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Die Grünen",
+        "alternateName": "Grüne"
+      },
+      "startDate": "1985-04-17",
+      "endDate": "1987-02-18"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1137581212"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hendrik Auhagen",
+    "forename": "Hendrik",
+    "surname": "Auhagen",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1951-05-25",
+    "place": "Celle",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 10,
+      "faction": "Grüne",
+      "faction_full": "Fraktion Die Grünen",
+      "from": "1985-04-17",
+      "to": "1987-02-18"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000064",
+    "gnd": "https://d-nb.info/gnd/1137581212",
+    "wikipedia": null,
+    "viaf": null
+  }
+}

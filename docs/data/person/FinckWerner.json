@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "FinckWerner",
+  "name": "Werner Finck",
+  "givenName": "Werner Paul Walther",
+  "familyName": "Finck",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1902-05-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Görlitz"
+  },
+  "deathDate": "1978-07-31",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Kabarettist und Schauspieler"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118533061",
+    "https://de.wikipedia.org/wiki/Werner_Finck"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Werner Finck",
+    "forename": "Werner Paul Walther",
+    "surname": "Finck",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1902-05-02",
+    "place": "Görlitz",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1978-07-31",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118533061",
+    "wikipedia": "https://de.wikipedia.org/wiki/Werner_Finck",
+    "viaf": null
+  }
+}

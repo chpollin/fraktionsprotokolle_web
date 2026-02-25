@@ -1,0 +1,51 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BurgerHannes",
+  "name": "Hannes Burger",
+  "givenName": "Johann Anton »Hannes«",
+  "familyName": "Burger",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1937-06-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "München-Schwabing"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist und Schriftsteller, u. a. 1979-1986 Korrespondent der »Süddeutsche Zeitung« in Wien und Prag"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/121096394",
+    "https://de.wikipedia.org/wiki/Hannes_Burger"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Hannes Burger",
+    "forename": "Johann Anton »Hannes«",
+    "surname": "Burger",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1937-06-18",
+    "place": "München-Schwabing",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/121096394",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hannes_Burger",
+    "viaf": null
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "MedingHansvon",
+  "name": "Hans von Meding",
+  "givenName": "Hans",
+  "familyName": "Meding",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1868-10-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Gut Schnellenberg bei Lüneburg"
+  },
+  "deathDate": "1917-01-05",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Kurländische Aa"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1912–1917 MdR (Deutsch-Hannoversche Partei), im Ersten Weltkrieg gefallen"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/133232360",
+    "https://de.wikipedia.org/wiki/Hans_von_Meding"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans von Meding",
+    "forename": "Hans",
+    "surname": "Meding",
+    "prefix": "von",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1868-10-15",
+    "place": "Gut Schnellenberg bei Lüneburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1917-01-05",
+    "place": "Kurländische Aa",
+    "country": "Russisches Kaiserreich"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/133232360",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_von_Meding",
+    "viaf": null
+  }
+}

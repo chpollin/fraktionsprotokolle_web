@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BernhardHenry",
+  "name": "Henry Bernhard",
+  "givenName": "Henry",
+  "familyName": "Bernhard",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1896-01-01",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Dresden"
+  },
+  "deathDate": "1960-03-09",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Würzburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Zeitungsverleger, 1946–1950 MdL Württemberg-Baden (Demokratische Volkspartei), 1955–1957 Mitglied des Personalgutachterausschusses der Bundeswehr"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/116146184",
+    "https://de.wikipedia.org/wiki/Henry_Bernhard"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Henry Bernhard",
+    "forename": "Henry",
+    "surname": "Bernhard",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1896-01-01",
+    "place": "Dresden",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1960-03-09",
+    "place": "Würzburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/116146184",
+    "wikipedia": "https://de.wikipedia.org/wiki/Henry_Bernhard",
+    "viaf": null
+  }
+}

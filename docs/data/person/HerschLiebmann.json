@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HerschLiebmann",
+  "name": "Liebmann Hersch",
+  "givenName": "Liebmann",
+  "familyName": "Hersch",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1882-05-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Pamusis"
+  },
+  "deathDate": "1955-06-05",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Genf"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Schweizer Statistiker, Demograf, Funktionär jüdischer Verbände"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/172155800",
+    "https://de.wikipedia.org/wiki/Liebmann_Hersch"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Liebmann Hersch",
+    "forename": "Liebmann",
+    "surname": "Hersch",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1882-05-25",
+    "place": "Pamusis",
+    "country": "Russisches Kaiserreich"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1955-06-05",
+    "place": "Genf",
+    "country": "Schweiz"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/172155800",
+    "wikipedia": "https://de.wikipedia.org/wiki/Liebmann_Hersch",
+    "viaf": null
+  }
+}

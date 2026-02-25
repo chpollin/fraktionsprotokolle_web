@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "MarshallGeorgeC",
+  "name": "George C. Marshall",
+  "givenName": "George C.",
+  "familyName": "Marshall",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1880-12-31",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Uniontown, Pennsylvania"
+  },
+  "deathDate": "1959-10-16",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Washington, D.C."
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "US-General, im Zweiten Weltkrieg Chief of Staff of the Army, 1947–1949 US-Außenminister, 1950/51 Verteidigungsminister, 1953 Friedensnobelpreis"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118731211",
+    "https://de.wikipedia.org/wiki/George_C._Marshall"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "George C. Marshall",
+    "forename": "George C.",
+    "surname": "Marshall",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1880-12-31",
+    "place": "Uniontown, Pennsylvania",
+    "country": "USA"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1959-10-16",
+    "place": "Washington, D.C.",
+    "country": "USA"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118731211",
+    "wikipedia": "https://de.wikipedia.org/wiki/George_C._Marshall",
+    "viaf": null
+  }
+}

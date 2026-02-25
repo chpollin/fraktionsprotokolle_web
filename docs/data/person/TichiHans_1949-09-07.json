@@ -1,0 +1,107 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "TichiHans_1949-09-07",
+  "name": "Hans Tichi",
+  "givenName": "Hans",
+  "familyName": "Tichi",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1881-05-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kromau, Sudetenland (heute: Moravský Krumlov, Tschechische Republik)"
+  },
+  "deathDate": "1955-07-22",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Kulmbach"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Fotograph, Bürgermeister [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktionslos",
+        "alternateName": "Fraktionslos"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Deutscher Gemeinschaftsblock der Heimatvertriebenen und Entrechteten",
+        "alternateName": "DG/BHE"
+      },
+      "startDate": "1950-10-13",
+      "endDate": "1953-09-07"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktionslos",
+        "alternateName": "Fraktionslos"
+      },
+      "startDate": "1952-03-21",
+      "endDate": "1953-09-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/121086798",
+    "https://de.wikipedia.org/wiki/Hans_Tichi"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans Tichi",
+    "forename": "Hans",
+    "surname": "Tichi",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1881-05-16",
+    "place": "Kromau, Sudetenland (heute: Moravský Krumlov, Tschechische Republik)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1955-07-22",
+    "place": "Kulmbach",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "Fraktionslos",
+      "faction_full": "Fraktionslos",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 1,
+      "faction": "DG/BHE",
+      "faction_full": "Fraktion Deutscher Gemeinschaftsblock der Heimatvertriebenen und Entrechteten",
+      "from": "1950-10-13",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 1,
+      "faction": "Fraktionslos",
+      "faction_full": "Fraktionslos",
+      "from": "1952-03-21",
+      "to": "1953-09-07"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002323",
+    "gnd": "https://d-nb.info/gnd/121086798",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Tichi",
+    "viaf": null
+  }
+}

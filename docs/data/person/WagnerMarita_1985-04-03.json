@@ -1,0 +1,69 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "WagnerMarita_1985-04-03",
+  "name": "Marita Wagner",
+  "givenName": "Marita",
+  "familyName": "Wagner",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1952-03-31",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Gronau/Krs. Borken"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Krankengymnastin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Die Grünen",
+        "alternateName": "Grüne"
+      },
+      "startDate": "1985-04-03",
+      "endDate": "1987-02-18"
+    }
+  ],
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Marita_Wagner"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Marita Wagner",
+    "forename": "Marita",
+    "surname": "Wagner",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1952-03-31",
+    "place": "Gronau/Krs. Borken",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 10,
+      "faction": "Grüne",
+      "faction_full": "Fraktion Die Grünen",
+      "from": "1985-04-03",
+      "to": "1987-02-18"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002410",
+    "gnd": null,
+    "wikipedia": "https://de.wikipedia.org/wiki/Marita_Wagner",
+    "viaf": null
+  }
+}

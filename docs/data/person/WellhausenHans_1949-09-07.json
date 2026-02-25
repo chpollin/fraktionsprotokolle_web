@@ -1,0 +1,141 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "WellhausenHans_1949-09-07",
+  "name": "Hans Wellhausen",
+  "givenName": "Hans",
+  "familyName": "Wellhausen",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1894-09-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bad Münder am Deister"
+  },
+  "deathDate": "1964-09-03",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Rummelsberg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Regierungsrat a. D., Fabrikdirektor [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktionslos",
+        "alternateName": "Fraktionslos"
+      },
+      "startDate": "1956-02-23",
+      "endDate": "1957-10-06"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Demokratische Arbeitsgemeinschaft",
+        "alternateName": "DA"
+      },
+      "startDate": "1956-03-15",
+      "endDate": "1957-10-06"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1956-06-23",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/105849766",
+    "https://de.wikipedia.org/wiki/Hans_Wellhausen"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans Wellhausen",
+    "forename": "Hans",
+    "surname": "Wellhausen",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1894-09-19",
+    "place": "Bad Münder am Deister",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1964-09-03",
+    "place": "Rummelsberg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 2,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 2,
+      "faction": "Fraktionslos",
+      "faction_full": "Fraktionslos",
+      "from": "1956-02-23",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 2,
+      "faction": "DA",
+      "faction_full": "Fraktion Demokratische Arbeitsgemeinschaft",
+      "from": "1956-03-15",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 2,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1956-06-23",
+      "to": "1957-10-06"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002468",
+    "gnd": "https://d-nb.info/gnd/105849766",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Wellhausen",
+    "viaf": null
+  }
+}

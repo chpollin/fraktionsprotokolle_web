@@ -1,0 +1,55 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchuelerRalf",
+  "name": "Ralf Schüler",
+  "givenName": "Ralf",
+  "familyName": "Schüler",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1930-10-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "2011-03-10",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Elektromechaniker, Bauleiter und Architekt (u. a. »Bierpinsel« Berlin-Steglitz, Internationales Congress Centrum (ICC) Berlin, Wiederaufbau der Berliner Kongresshalle (Haus der Kulturen der Welt))"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/132731401",
+    "https://de.wikipedia.org/wiki/Ralf_Schüler_und_Ursulina_Schüler-Witte"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Ralf Schüler",
+    "forename": "Ralf",
+    "surname": "Schüler",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1930-10-26",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2011-03-10",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/132731401",
+    "wikipedia": "https://de.wikipedia.org/wiki/Ralf_Schüler_und_Ursulina_Schüler-Witte",
+    "viaf": null
+  },
+  "fraktionsprotokolle:sonstiges": "seit 1967 Ehemann der Architektin Ursulina Witte"
+}

@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SauermilchWalter_1983-03-29",
+  "name": "Walter Sauermilch",
+  "givenName": "Walter",
+  "familyName": "Sauermilch",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1935-02-06",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bad Kreuznach"
+  },
+  "deathDate": "2022-11-02",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Architekt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Die Grünen",
+        "alternateName": "Grüne"
+      },
+      "startDate": "1983-03-29",
+      "endDate": "1985-04-16"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1276234449",
+    "https://de.wikipedia.org/wiki/Walter_Sauermilch_(Politiker)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Walter Sauermilch",
+    "forename": "Walter",
+    "surname": "Sauermilch",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1935-02-06",
+    "place": "Bad Kreuznach",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2022-11-02",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 10,
+      "faction": "Grüne",
+      "faction_full": "Fraktion Die Grünen",
+      "from": "1983-03-29",
+      "to": "1985-04-16"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001923",
+    "gnd": "https://d-nb.info/gnd/1276234449",
+    "wikipedia": "https://de.wikipedia.org/wiki/Walter_Sauermilch_(Politiker)",
+    "viaf": null
+  }
+}

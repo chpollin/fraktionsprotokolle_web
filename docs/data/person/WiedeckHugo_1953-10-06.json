@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "WiedeckHugo_1953-10-06",
+  "name": "Hugo Wiedeck",
+  "givenName": "Hugo",
+  "familyName": "Wiedeck",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1910-07-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hindenburg/Oberschlesien (heute: Zabrze, Polen)"
+  },
+  "deathDate": "1973-12-21",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Herford"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Fabrikant [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1339593289",
+    "https://de.wikipedia.org/wiki/Hugo_Wiedeck"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hugo Wiedeck",
+    "forename": "Hugo",
+    "surname": "Wiedeck",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1910-07-18",
+    "place": "Hindenburg/Oberschlesien (heute: Zabrze, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1973-12-21",
+    "place": "Herford",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002504",
+    "gnd": "https://d-nb.info/gnd/1339593289",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hugo_Wiedeck",
+    "viaf": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "GinsbergMatthias_1982-12-09",
+  "name": "Matthias Ginsberg",
+  "givenName": "Matthias",
+  "familyName": "Ginsberg",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1949-07-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Verlagskaufmann [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1982-12-09",
+      "endDate": "1983-03-29"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Matthias Ginsberg",
+    "forename": "Matthias",
+    "surname": "Ginsberg",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1949-07-13",
+    "place": "Hamburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 9,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1982-12-09",
+      "to": "1983-03-29"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000683",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

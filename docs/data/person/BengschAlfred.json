@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BengschAlfred",
+  "name": "Alfred Bengsch",
+  "givenName": "Alfred",
+  "familyName": "Bengsch",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1921-09-10",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin-Schöneberg"
+  },
+  "deathDate": "1979-12-13",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Ost-Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "seit 1961 Bischof von Berlin, seit 1962 Erzbischof, seit 1967 Kardinal"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118508954",
+    "https://de.wikipedia.org/wiki/Alfred_Bengsch"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Alfred Bengsch",
+    "forename": "Alfred",
+    "surname": "Bengsch",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1921-09-10",
+    "place": "Berlin-Schöneberg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1979-12-13",
+    "place": "Ost-Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118508954",
+    "wikipedia": "https://de.wikipedia.org/wiki/Alfred_Bengsch",
+    "viaf": null
+  }
+}

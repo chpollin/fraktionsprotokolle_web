@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SteinFranz_1965-10-19",
+  "name": "Franz Stein",
+  "givenName": "Franz",
+  "familyName": "Stein",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1900-04-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Mainz"
+  },
+  "deathDate": "1967-09-14",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Südtirol"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Oberbürgermeister a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1965-10-19",
+      "endDate": "1967-09-14"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/143938010",
+    "https://de.wikipedia.org/wiki/Franz_Stein_(Politiker,_1900)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Franz Stein",
+    "forename": "Franz",
+    "surname": "Stein",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Mainz)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1900-04-26",
+    "place": "Mainz",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1967-09-14",
+    "place": "Südtirol",
+    "country": "Italien"
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 5,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1965-10-19",
+      "to": "1967-09-14"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002230",
+    "gnd": "https://d-nb.info/gnd/143938010",
+    "wikipedia": "https://de.wikipedia.org/wiki/Franz_Stein_(Politiker,_1900)",
+    "viaf": null
+  }
+}

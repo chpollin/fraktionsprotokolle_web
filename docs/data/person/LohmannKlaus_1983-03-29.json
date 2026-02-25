@@ -1,0 +1,121 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "LohmannKlaus_1983-03-29",
+  "name": "Klaus Lohmann",
+  "givenName": "Klaus",
+  "familyName": "Lohmann",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1936-03-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Witten"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Bergingenieur [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-10-26"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1983-03-29",
+      "endDate": "1987-02-18"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1987-02-18",
+      "endDate": "1990-12-20"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1119613396",
+    "https://de.wikipedia.org/wiki/Klaus_Lohmann_%28Politiker%29"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Klaus Lohmann",
+    "forename": "Klaus",
+    "surname": "Lohmann",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Witten)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1936-03-17",
+    "place": "Witten",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 13,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1994-11-10",
+      "to": "1998-10-26"
+    },
+    {
+      "period": 10,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1983-03-29",
+      "to": "1987-02-18"
+    },
+    {
+      "period": 11,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1987-02-18",
+      "to": "1990-12-20"
+    },
+    {
+      "period": 12,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1990-12-20",
+      "to": "1994-11-10"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001368",
+    "gnd": "https://d-nb.info/gnd/1119613396",
+    "wikipedia": "https://de.wikipedia.org/wiki/Klaus_Lohmann_%28Politiker%29",
+    "viaf": null
+  }
+}

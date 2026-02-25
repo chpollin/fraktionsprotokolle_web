@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HuberCharlesM_2013-10-22",
+  "name": "Charles M. Huber",
+  "givenName": "Charles M.",
+  "familyName": "Huber",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1956-12-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Zahntechniker, Filmschaffender, Autor, Berater für Afrikafragen [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "2013-10-22",
+      "endDate": "2017-10-24"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Charles M. Huber",
+    "forename": "Charles M.",
+    "surname": "Huber",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1956-12-03",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 18,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "2013-10-22",
+      "to": "2017-10-24"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11004308",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

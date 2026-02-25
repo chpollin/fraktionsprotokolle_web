@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BachemKarl",
+  "name": "Karl Bachem",
+  "givenName": "Karl",
+  "familyName": "Bachem",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1858-09-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Köln"
+  },
+  "deathDate": "1945-12-11",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Burgsteinfurt"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsanwalt, Publizist und Politiker der Zentrumspartei, 1890-1906 MdR (Zentrum), 1893-1904 Mitglied des Preußischen Abgeordnetenhauses"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/116025891",
+    "https://de.wikipedia.org/wiki/Karl_Bachem"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Karl Bachem",
+    "forename": "Karl",
+    "surname": "Bachem",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1858-09-22",
+    "place": "Köln",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1945-12-11",
+    "place": "Burgsteinfurt",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/116025891",
+    "wikipedia": "https://de.wikipedia.org/wiki/Karl_Bachem",
+    "viaf": null
+  }
+}

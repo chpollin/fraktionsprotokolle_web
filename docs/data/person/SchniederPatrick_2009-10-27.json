@@ -1,0 +1,100 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchniederPatrick_2009-10-27",
+  "name": "Patrick Schnieder",
+  "givenName": "Patrick",
+  "familyName": "Schnieder",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1968-05-01",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kyllburg"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Bürgermeister a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "2009-10-27",
+      "endDate": "2013-10-22"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "2013-10-22",
+      "endDate": "2017-10-24"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "2017-10-24"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Patrick Schnieder",
+    "forename": "Patrick",
+    "surname": "Schnieder",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1968-05-01",
+    "place": "Kyllburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 17,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "2009-10-27",
+      "to": "2013-10-22"
+    },
+    {
+      "period": 18,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "2013-10-22",
+      "to": "2017-10-24"
+    },
+    {
+      "period": 19,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "2017-10-24",
+      "to": ""
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11004146",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

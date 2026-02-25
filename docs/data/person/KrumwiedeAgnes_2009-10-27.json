@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "KrumwiedeAgnes_2009-10-27",
+  "name": "Agnes Krumwiede",
+  "givenName": "Agnes",
+  "familyName": "Krumwiede",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1977-01-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Neuburg a. d. Donau"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Musikerin (Klavier) mit Konzertexamen [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Bündnis 90/Die Grünen",
+        "alternateName": "B90/Grüne"
+      },
+      "startDate": "2009-10-27",
+      "endDate": "2013-10-22"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Agnes Krumwiede",
+    "forename": "Agnes",
+    "surname": "Krumwiede",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1977-01-17",
+    "place": "Neuburg a. d. Donau",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 17,
+      "faction": "B90/Grüne",
+      "faction_full": "Fraktion Bündnis 90/Die Grünen",
+      "from": "2009-10-27",
+      "to": "2013-10-22"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11004082",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

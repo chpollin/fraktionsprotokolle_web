@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HebelJohannPeter",
+  "name": "Johann Peter Hebel",
+  "givenName": "Johann Peter",
+  "familyName": "Hebel",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1760-05-10",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Basel"
+  },
+  "deathDate": "1826-09-22",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Schwetzingen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Dichter, evangelischer Theologe und Pädagoge"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118547453",
+    "https://de.wikipedia.org/wiki/Johann_Peter_Hebel"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Johann Peter Hebel",
+    "forename": "Johann Peter",
+    "surname": "Hebel",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1760-05-10",
+    "place": "Basel",
+    "country": "Schweiz"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1826-09-22",
+    "place": "Schwetzingen",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118547453",
+    "wikipedia": "https://de.wikipedia.org/wiki/Johann_Peter_Hebel",
+    "viaf": null
+  }
+}

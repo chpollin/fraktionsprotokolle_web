@@ -1,0 +1,84 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "GambkeThomas_2009-10-27",
+  "name": "Thomas Gambke",
+  "givenName": "Thomas",
+  "familyName": "Gambke",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1949-10-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Rimsting"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Unternehmer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Bündnis 90/Die Grünen",
+        "alternateName": "B90/Grüne"
+      },
+      "startDate": "2009-10-27",
+      "endDate": "2013-10-22"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Bündnis 90/Die Grünen",
+        "alternateName": "B90/Grüne"
+      },
+      "startDate": "2013-10-22",
+      "endDate": "2017-10-24"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Thomas Gambke",
+    "forename": "Thomas",
+    "surname": "Gambke",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1949-10-16",
+    "place": "Rimsting",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 17,
+      "faction": "B90/Grüne",
+      "faction_full": "Fraktion Bündnis 90/Die Grünen",
+      "from": "2009-10-27",
+      "to": "2013-10-22"
+    },
+    {
+      "period": 18,
+      "faction": "B90/Grüne",
+      "faction_full": "Fraktion Bündnis 90/Die Grünen",
+      "from": "2013-10-22",
+      "to": "2017-10-24"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11004037",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

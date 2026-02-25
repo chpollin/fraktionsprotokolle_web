@@ -1,0 +1,66 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "LehmannSylvia_2019-12-03",
+  "name": "Sylvia Lehmann",
+  "givenName": "Sylvia",
+  "familyName": "Lehmann",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1954-04-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Schorbus"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Ingenieurökonomin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "2019-12-03"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Sylvia Lehmann",
+    "forename": "Sylvia",
+    "surname": "Lehmann",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1954-04-23",
+    "place": "Schorbus",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 19,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "2019-12-03",
+      "to": ""
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11004953",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "PfleidererKarlGeorg_1949-09-07",
+  "name": "Karl Georg Pfleiderer",
+  "givenName": "Karl Georg",
+  "familyName": "Pfleiderer",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1899-05-10",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Stuttgart"
+  },
+  "deathDate": "1957-10-08",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Generalkonsul a. D., Landrat a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1955-09-20"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/116167971",
+    "https://de.wikipedia.org/wiki/Karl_Georg_Pfleiderer"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Karl Georg Pfleiderer",
+    "forename": "Karl Georg",
+    "surname": "Pfleiderer",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1899-05-10",
+    "place": "Stuttgart",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1957-10-08",
+    "place": "Bonn",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 2,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1953-10-06",
+      "to": "1955-09-20"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001709",
+    "gnd": "https://d-nb.info/gnd/116167971",
+    "wikipedia": "https://de.wikipedia.org/wiki/Karl_Georg_Pfleiderer",
+    "viaf": null
+  }
+}

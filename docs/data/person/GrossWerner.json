@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "GrossWerner",
+  "name": "Werner Groß",
+  "givenName": "Werner",
+  "familyName": "Groß",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1910-03-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Magdeburg"
+  },
+  "deathDate": "1983-04-06",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Lüneburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1957–1964 Mitglied des Niedersächsischen Staatsgerichtshofs, 1958–1964 Präsident des Verwaltungsgerichts Braunschweig, 1964–1970 Leiter der Niedersächsischen Staatskanzlei"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/1035077086",
+    "https://de.wikipedia.org/wiki/Werner_Gro%C3%9F_(Richter,_1910)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Werner Groß",
+    "forename": "Werner",
+    "surname": "Groß",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1910-03-14",
+    "place": "Magdeburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1983-04-06",
+    "place": "Lüneburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/1035077086",
+    "wikipedia": "https://de.wikipedia.org/wiki/Werner_Gro%C3%9F_(Richter,_1910)",
+    "viaf": null
+  }
+}

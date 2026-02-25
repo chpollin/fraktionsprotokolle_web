@@ -1,0 +1,118 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HikschUwe_1994-11-10",
+  "name": "Uwe Hiksch",
+  "givenName": "Uwe",
+  "familyName": "Hiksch",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1964-07-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Coburg"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Industriekaufmann [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-10-26"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktionslos",
+        "alternateName": "Fraktionslos"
+      },
+      "startDate": "1999-09-29",
+      "endDate": "2002-10-17"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Partei des Demokratischen Sozialismus",
+        "alternateName": "PDS"
+      },
+      "startDate": "1999-10-05",
+      "endDate": "2002-10-17"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1998-10-26",
+      "endDate": "2002-10-17"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Uwe Hiksch",
+    "forename": "Uwe",
+    "surname": "Hiksch",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1964-07-12",
+    "place": "Coburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 13,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1994-11-10",
+      "to": "1998-10-26"
+    },
+    {
+      "period": 14,
+      "faction": "Fraktionslos",
+      "faction_full": "Fraktionslos",
+      "from": "1999-09-29",
+      "to": "2002-10-17"
+    },
+    {
+      "period": 14,
+      "faction": "PDS",
+      "faction_full": "Fraktion der Partei des Demokratischen Sozialismus",
+      "from": "1999-10-05",
+      "to": "2002-10-17"
+    },
+    {
+      "period": 14,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1998-10-26",
+      "to": "2002-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002677",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

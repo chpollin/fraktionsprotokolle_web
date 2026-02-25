@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "WoestenbergDieter_1990-10-03",
+  "name": "Dieter Wöstenberg",
+  "givenName": "Dieter",
+  "familyName": "Wöstenberg",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1943-02-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Lüblow/Ludwigslust"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Chefarzt im Bezirkskrankenhaus Schwerin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1990-10-03",
+      "endDate": "1990-12-20"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Dieter Wöstenberg",
+    "forename": "Dieter",
+    "surname": "Wöstenberg",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1943-02-23",
+    "place": "Lüblow/Ludwigslust",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 11,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1990-10-03",
+      "to": "1990-12-20"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002548",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

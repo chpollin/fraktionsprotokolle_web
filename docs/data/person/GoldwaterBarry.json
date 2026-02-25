@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "GoldwaterBarry",
+  "name": "Barry Goldwater",
+  "givenName": "Barry",
+  "familyName": "Goldwater",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1909-01-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Phoenix, Arizona-Territorium"
+  },
+  "deathDate": "1998-05-29",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Paradise Valley, Arizona"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1952–1964 und 1968–1986 Senator (Republican Party), 1964 Präsidentschaftskandidat"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118696246",
+    "https://de.wikipedia.org/wiki/Barry_Goldwater"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Barry Goldwater",
+    "forename": "Barry",
+    "surname": "Goldwater",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1909-01-02",
+    "place": "Phoenix, Arizona-Territorium",
+    "country": "USA"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1998-05-29",
+    "place": "Paradise Valley, Arizona",
+    "country": "USA"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118696246",
+    "wikipedia": "https://de.wikipedia.org/wiki/Barry_Goldwater",
+    "viaf": null
+  }
+}

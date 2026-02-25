@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "RuckerAugust",
+  "name": "August Rucker",
+  "givenName": "August",
+  "familyName": "Rucker",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1900-02-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "deathDate": "1978-05-17",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Monte Carlo"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1954–1957 bayerischer Staatsminister für Unterricht und Kultus"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/116669985",
+    "https://de.wikipedia.org/wiki/August_Rucker"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "August Rucker",
+    "forename": "August",
+    "surname": "Rucker",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1900-02-14",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1978-05-17",
+    "place": "Monte Carlo",
+    "country": "Fürstentum Monaco"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/116669985",
+    "wikipedia": "https://de.wikipedia.org/wiki/August_Rucker",
+    "viaf": null
+  }
+}

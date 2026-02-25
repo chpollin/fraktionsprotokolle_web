@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "GresmannHans",
+  "name": "Hans Gresmann",
+  "givenName": "Hans",
+  "familyName": "Gresmann",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1928-04-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "deathDate": "2006-10-16",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Albufeira"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Zeitungs- und Rundfunkjournalist, u. a. »Die Zeit«"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/109050053",
+    "https://de.wikipedia.org/wiki/Hans_Gresmann"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans Gresmann",
+    "forename": "Hans",
+    "surname": "Gresmann",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1928-04-25",
+    "place": "Hamburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2006-10-16",
+    "place": "Albufeira",
+    "country": "Portugal"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/109050053",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Gresmann",
+    "viaf": null
+  }
+}

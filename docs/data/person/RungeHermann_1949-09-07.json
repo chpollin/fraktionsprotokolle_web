@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "RungeHermann_1949-09-07",
+  "name": "Hermann Runge",
+  "givenName": "Hermann",
+  "familyName": "Runge",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1902-10-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Conradstal/Schlesien (heute: Konradów, Polen)"
+  },
+  "deathDate": "1975-05-03",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Düsseldorf"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Schlosser [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/116707283",
+    "https://de.wikipedia.org/wiki/Hermann_Runge"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hermann Runge",
+    "forename": "Hermann",
+    "surname": "Runge",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1902-10-28",
+    "place": "Conradstal/Schlesien (heute: Konradów, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1975-05-03",
+    "place": "Düsseldorf",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 2,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001905",
+    "gnd": "https://d-nb.info/gnd/116707283",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hermann_Runge",
+    "viaf": null
+  }
+}

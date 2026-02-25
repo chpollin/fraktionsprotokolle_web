@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "RichterHansWerner",
+  "name": "Hans Werner Richter",
+  "givenName": "Hans Werner",
+  "familyName": "Richter",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1908-11-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Neu Sallenthin auf Usedom"
+  },
+  "deathDate": "1993-03-23",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Schriftsteller und Publizist"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118600451",
+    "https://de.wikipedia.org/wiki/Hans_Werner_Richter"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans Werner Richter",
+    "forename": "Hans Werner",
+    "surname": "Richter",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1908-11-12",
+    "place": "Neu Sallenthin auf Usedom",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1993-03-23",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118600451",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Werner_Richter",
+    "viaf": null
+  }
+}

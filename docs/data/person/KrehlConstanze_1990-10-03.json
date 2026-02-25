@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "KrehlConstanze_1990-10-03",
+  "name": "Constanze Krehl",
+  "givenName": "Constanze",
+  "familyName": "Krehl",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1956-10-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Stuttgart"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Ingenieurin für Informationsverarbeitung, Problemanalytikerin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1990-10-03",
+      "endDate": "1990-12-20"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Constanze Krehl",
+    "forename": "Constanze",
+    "surname": "Krehl",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1956-10-14",
+    "place": "Stuttgart",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 11,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1990-10-03",
+      "to": "1990-12-20"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001207",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BruenenEberhard_1949-09-07",
+  "name": "Eberhard Brünen",
+  "givenName": "Eberhard",
+  "familyName": "Brünen",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1906-08-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Duisburg"
+  },
+  "deathDate": "1980-10-30",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Duisburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Angestellter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1965-10-19",
+      "endDate": "1969-10-19"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1969-10-20",
+      "endDate": "1972-09-22"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/116742747",
+    "https://de.wikipedia.org/wiki/Eberhard_Br%C3%BCnen"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Eberhard Brünen",
+    "forename": "Eberhard",
+    "surname": "Brünen",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1906-08-08",
+    "place": "Duisburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1980-10-30",
+    "place": "Duisburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 4,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    },
+    {
+      "period": 5,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    },
+    {
+      "period": 6,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1969-10-20",
+      "to": "1972-09-22"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000279",
+    "gnd": "https://d-nb.info/gnd/116742747",
+    "wikipedia": "https://de.wikipedia.org/wiki/Eberhard_Br%C3%BCnen",
+    "viaf": null
+  }
+}

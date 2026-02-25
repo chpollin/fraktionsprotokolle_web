@@ -1,0 +1,124 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "PriebeMoritz-Ernst_1949-09-07",
+  "name": "Moritz-Ernst Priebe",
+  "givenName": "Moritz-Ernst",
+  "familyName": "Priebe",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1902-01-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Boguschau/Westpreußen (heute: Gruta, Polen)"
+  },
+  "deathDate": "1990-01-26",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bad Bodenteich"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Pastor a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1957-10-15",
+      "endDate": "1961-10-15"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1175260266",
+    "https://de.wikipedia.org/wiki/Moritz-Ernst_Priebe"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Moritz-Ernst Priebe",
+    "forename": "Moritz-Ernst",
+    "surname": "Priebe",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1902-01-17",
+    "place": "Boguschau/Westpreußen (heute: Gruta, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1990-01-26",
+    "place": "Bad Bodenteich",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 2,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 3,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 4,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001750",
+    "gnd": "https://d-nb.info/gnd/1175260266",
+    "wikipedia": "https://de.wikipedia.org/wiki/Moritz-Ernst_Priebe",
+    "viaf": null
+  }
+}

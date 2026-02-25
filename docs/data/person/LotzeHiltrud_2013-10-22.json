@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "LotzeHiltrud_2013-10-22",
+  "name": "Hiltrud Lotze",
+  "givenName": "Hiltrud",
+  "familyName": "Lotze",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1958-11-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bauhaus"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Kulturwissenschaftlerin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "2013-10-22",
+      "endDate": "2017-10-24"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hiltrud Lotze",
+    "forename": "Hiltrud",
+    "surname": "Lotze",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1958-11-13",
+    "place": "Bauhaus",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 18,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "2013-10-22",
+      "to": "2017-10-24"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11004344",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

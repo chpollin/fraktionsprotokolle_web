@@ -1,0 +1,66 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SittaFrank_2017-10-24",
+  "name": "Frank Sitta",
+  "givenName": "Frank",
+  "familyName": "Sitta",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1978-06-30",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Sangerhausen"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Geschäftsführer, Dipl.-Politikwissenschaftler [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "2017-10-24"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Frank Sitta",
+    "forename": "Frank",
+    "surname": "Sitta",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1978-06-30",
+    "place": "Sangerhausen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 19,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "2017-10-24",
+      "to": ""
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11004894",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

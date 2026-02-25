@@ -1,0 +1,121 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SorgeWieland_1990-10-03",
+  "name": "Wieland Sorge",
+  "givenName": "Wieland",
+  "familyName": "Sorge",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1939-01-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Ponitz/Krs. Altenburg"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Lehrer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1990-10-03",
+      "endDate": "1990-12-20"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-10-26"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1998-10-26",
+      "endDate": "2002-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/134079299",
+    "https://de.wikipedia.org/wiki/Wieland_Sorge"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Wieland Sorge",
+    "forename": "Wieland",
+    "surname": "Sorge",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1939-01-27",
+    "place": "Ponitz/Krs. Altenburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 11,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1990-10-03",
+      "to": "1990-12-20"
+    },
+    {
+      "period": 12,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1990-12-20",
+      "to": "1994-11-10"
+    },
+    {
+      "period": 13,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1994-11-10",
+      "to": "1998-10-26"
+    },
+    {
+      "period": 14,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1998-10-26",
+      "to": "2002-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002193",
+    "gnd": "https://d-nb.info/gnd/134079299",
+    "wikipedia": "https://de.wikipedia.org/wiki/Wieland_Sorge",
+    "viaf": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BrunnerGuido_1980-11-04",
+  "name": "Guido Brunner",
+  "givenName": "Guido",
+  "familyName": "Brunner",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1930-05-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Madrid"
+  },
+  "deathDate": "1997-12-02",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "EG-Kommissar a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1980-11-04",
+      "endDate": "1981-01-28"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Guido Brunner",
+    "forename": "Guido",
+    "surname": "Brunner",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1930-05-27",
+    "place": "Madrid",
+    "country": "Spanien"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1997-12-02",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 9,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1980-11-04",
+      "to": "1981-01-28"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000281",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

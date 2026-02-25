@@ -1,0 +1,83 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "NeumannMartin_2009-10-27",
+  "name": "Martin Neumann",
+  "givenName": "Martin",
+  "familyName": "Neumann",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1956-01-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Vetschau"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Prof., Dipl.-Ingenieur, Hochschullehrer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "2009-10-27",
+      "endDate": "2013-10-22"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "2017-10-24"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Martin Neumann",
+    "forename": "Martin",
+    "surname": "Neumann",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Lausitz)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1956-01-27",
+    "place": "Vetschau",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 17,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "2009-10-27",
+      "to": "2013-10-22"
+    },
+    {
+      "period": 19,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "2017-10-24",
+      "to": ""
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11004120",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

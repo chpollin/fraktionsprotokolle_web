@@ -1,0 +1,101 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "ZuttRuth_1980-11-04",
+  "name": "Ruth Zutt",
+  "givenName": "Ruth",
+  "familyName": "Zutt",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1928-07-11",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Speyer/Rhein"
+  },
+  "deathDate": "1987-06-29",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Volkswirtin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1980-11-04",
+      "endDate": "1983-03-29"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1983-03-29",
+      "endDate": "1987-02-18"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1987-02-18",
+      "endDate": "1987-06-29"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Ruth Zutt",
+    "forename": "Ruth",
+    "surname": "Zutt",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1928-07-11",
+    "place": "Speyer/Rhein",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1987-06-29",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 9,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1980-11-04",
+      "to": "1983-03-29"
+    },
+    {
+      "period": 10,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1983-03-29",
+      "to": "1987-02-18"
+    },
+    {
+      "period": 11,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1987-02-18",
+      "to": "1987-06-29"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002611",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

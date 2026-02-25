@@ -1,0 +1,566 @@
+{
+  "total_issues": 134,
+  "categories": {
+    "date_issue": {
+      "count": 17,
+      "examples": [
+        {
+          "person_id": "Aristoteles",
+          "message": "Aristoteles: BC date: -0322"
+        },
+        {
+          "person_id": "DiogenesvonSinope",
+          "message": "DiogenesvonSinope: BC date: -0413"
+        },
+        {
+          "person_id": "DiogenesvonSinope",
+          "message": "DiogenesvonSinope: BC date: -0323"
+        },
+        {
+          "person_id": "BukowskijWladimir",
+          "message": "BukowskijWladimir: future date (likely error): 2042-12-30"
+        },
+        {
+          "person_id": "ByrdRobertC",
+          "message": "ByrdRobertC: future date (likely error): 2917-11-20"
+        },
+        {
+          "person_id": "BuronRobert",
+          "message": "BuronRobert: date has trailing whitespace: '1973-04-28 '"
+        },
+        {
+          "person_id": "GuerselCemal",
+          "message": "GuerselCemal: date has trailing whitespace: '1966-09-14 '"
+        },
+        {
+          "person_id": "HirschEtienne",
+          "message": "HirschEtienne: date has trailing whitespace: '1901-01-24 '"
+        },
+        {
+          "person_id": "Platon",
+          "message": "Platon: BC date: -0428"
+        },
+        {
+          "person_id": "Platon",
+          "message": "Platon: BC date: -0348"
+        },
+        {
+          "person_id": "AntoniusMarcus",
+          "message": "AntoniusMarcus: BC date: -0086-01-14"
+        },
+        {
+          "person_id": "AntoniusMarcus",
+          "message": "AntoniusMarcus: BC date: -0030-08-01"
+        },
+        {
+          "person_id": "Konfuzius",
+          "message": "Konfuzius: BC date: -0551"
+        },
+        {
+          "person_id": "Konfuzius",
+          "message": "Konfuzius: BC date: -0479"
+        },
+        {
+          "person_id": "AltnerGuenter",
+          "message": "AltnerGuenter: date has trailing whitespace: '1936 '"
+        },
+        {
+          "person_id": "Schmidt-KalerTheodor",
+          "message": "Schmidt-KalerTheodor: future date (likely error): 2107-06-01"
+        },
+        {
+          "person_id": "NazaretJesusvon",
+          "message": "NazaretJesusvon: BC date: -0004"
+        }
+      ]
+    },
+    "gnd_not_extracted": {
+      "count": 8,
+      "examples": [
+        {
+          "person_id": "BraunJosef_1961-10-17",
+          "message": "GND value not in standard format, omitted from search index: https://de.wikipedia.org/wiki/Josef_Braun_(Politiker,_1907)"
+        },
+        {
+          "person_id": "EdenhoferWalter",
+          "message": "GND value not in standard format, omitted from search index: https://d-nb.info/968881912"
+        },
+        {
+          "person_id": "LutherMartin",
+          "message": "GND value not in standard format, omitted from search index: https://de.wikipedia.org/wiki/Martin_Luther"
+        },
+        {
+          "person_id": "HauschildtErwin",
+          "message": "GND value not in standard format, omitted from search index: https://d-nb.info/480309434"
+        },
+        {
+          "person_id": "Ben-HorinEliashiv",
+          "message": "GND value not in standard format, omitted from search index: https://de.wikipedia.org/wiki/Eliashiv_Ben-Horin"
+        },
+        {
+          "person_id": "LenckFranz",
+          "message": "GND value not in standard format, omitted from search index: https://d-nb.info/133544885"
+        },
+        {
+          "person_id": "MiddelmannWerner",
+          "message": "GND value not in standard format, omitted from search index: https://d-nb.info/117026654"
+        },
+        {
+          "person_id": "LunkeErwin",
+          "message": "GND value not in standard format, omitted from search index: https://d-nb.info/480338051"
+        }
+      ]
+    },
+    "idno_case_inconsistency": {
+      "count": 2,
+      "examples": [
+        {
+          "person_id": "LeburtonEdmond",
+          "message": "idno type='Viaf' (normalized to 'viaf')"
+        },
+        {
+          "person_id": "AlbrechtSusanne",
+          "message": "idno type='wikipedia' (normalized to 'wikipedia')"
+        }
+      ]
+    },
+    "placeholder_date": {
+      "count": 98,
+      "examples": [
+        {
+          "person_id": "BakendorfJerome",
+          "message": "occupation to='0001'"
+        },
+        {
+          "person_id": "BengsNicolas",
+          "message": "occupation to='0001'"
+        },
+        {
+          "person_id": "BierganzArthur",
+          "message": "occupation from='0001'"
+        },
+        {
+          "person_id": "BierganzArthur",
+          "message": "occupation to='0001'"
+        },
+        {
+          "person_id": "BoyerJosef",
+          "message": "occupation from='0001'"
+        },
+        {
+          "person_id": "BoyerJosef",
+          "message": "occupation to='0001'"
+        },
+        {
+          "person_id": "BruchhaeuserElisa",
+          "message": "occupation to='0001'"
+        },
+        {
+          "person_id": "BrunschSwenHolger",
+          "message": "occupation from='0001'"
+        },
+        {
+          "person_id": "BrunschSwenHolger",
+          "message": "occupation to='0001'"
+        },
+        {
+          "person_id": "DeitmerCarsten",
+          "message": "occupation from='0001'"
+        },
+        {
+          "person_id": "DemaryMonika",
+          "message": "occupation from='0001'"
+        },
+        {
+          "person_id": "DemaryMonika",
+          "message": "occupation to='0001'"
+        },
+        {
+          "person_id": "FoelsSilke",
+          "message": "occupation from='0001'"
+        },
+        {
+          "person_id": "FoelsSilke",
+          "message": "occupation to='0001'"
+        },
+        {
+          "person_id": "FranzCorinna",
+          "message": "occupation from='0001'"
+        },
+        {
+          "person_id": "FranzCorinna",
+          "message": "occupation to='0001'"
+        },
+        {
+          "person_id": "FusselRuth",
+          "message": "occupation from='0001'"
+        },
+        {
+          "person_id": "FusselRuth",
+          "message": "occupation to='0001'"
+        },
+        {
+          "person_id": "GreinertCordula",
+          "message": "occupation to='0001'"
+        },
+        {
+          "person_id": "GutzlerKarl",
+          "message": "occupation from='0001'"
+        },
+        {
+          "person_id": "GutzlerKarl",
+          "message": "occupation to='0001'"
+        },
+        {
+          "person_id": "HarwartOlga",
+          "message": "occupation from='0001'"
+        },
+        {
+          "person_id": "HarwartOlga",
+          "message": "occupation to='0001'"
+        },
+        {
+          "person_id": "HeidemeyerHelge",
+          "message": "occupation from='0001'"
+        },
+        {
+          "person_id": "HeidemeyerHelge",
+          "message": "occupation to='0001'"
+        },
+        {
+          "person_id": "HesseAnna",
+          "message": "occupation to='0001'"
+        },
+        {
+          "person_id": "HillenMichael",
+          "message": "occupation from='0001'"
+        },
+        {
+          "person_id": "HillenMichael",
+          "message": "occupation to='0001'"
+        },
+        {
+          "person_id": "HindenburgBarbara",
+          "message": "occupation to='0001'"
+        },
+        {
+          "person_id": "HoelscherWolfgang",
+          "message": "occupation from='0001'"
+        },
+        {
+          "person_id": "HoelscherWolfgang",
+          "message": "occupation to='0001'"
+        },
+        {
+          "person_id": "JuengerkesSven",
+          "message": "occupation to='0001'"
+        },
+        {
+          "person_id": "KilpertDaniel",
+          "message": "occupation from='0001'"
+        },
+        {
+          "person_id": "KilpertDaniel",
+          "message": "occupation to='0001'"
+        },
+        {
+          "person_id": "KlugSonja",
+          "message": "occupation from='0001'"
+        },
+        {
+          "person_id": "KlugSonja",
+          "message": "occupation to='0001'"
+        },
+        {
+          "person_id": "KraatzPaul",
+          "message": "occupation from='0001'"
+        },
+        {
+          "person_id": "KraatzPaul",
+          "message": "occupation to='0001'"
+        },
+        {
+          "person_id": "KretzingerBoris",
+          "message": "occupation from='0001'"
+        },
+        {
+          "person_id": "KretzingerBoris",
+          "message": "occupation to='0001'"
+        },
+        {
+          "person_id": "KruseMaximilian",
+          "message": "occupation to='0001'"
+        },
+        {
+          "person_id": "KuehneJonas",
+          "message": "occupation from='0001'"
+        },
+        {
+          "person_id": "KuehneJonas",
+          "message": "occupation to='0001'"
+        },
+        {
+          "person_id": "LarratPhilippe",
+          "message": "occupation from='0001'"
+        },
+        {
+          "person_id": "LarratPhilippe",
+          "message": "occupation to='0001'"
+        },
+        {
+          "person_id": "LaubschMichael",
+          "message": "occupation from='0001'"
+        },
+        {
+          "person_id": "LaubschMichael",
+          "message": "occupation to='0001'"
+        },
+        {
+          "person_id": "MarxStefan",
+          "message": "occupation from='0001'"
+        },
+        {
+          "person_id": "MarxStefan",
+          "message": "occupation to='0001'"
+        },
+        {
+          "person_id": "PetersTimB",
+          "message": "occupation from='0001'"
+        },
+        {
+          "person_id": "PetersTimB",
+          "message": "occupation to='0001'"
+        },
+        {
+          "person_id": "MuellerIngeborg",
+          "message": "occupation from='0001'"
+        },
+        {
+          "person_id": "MuellerIngeborg",
+          "message": "occupation to='0001'"
+        },
+        {
+          "person_id": "PhilippsRobert",
+          "message": "occupation from='0001'"
+        },
+        {
+          "person_id": "PhilippsRobert",
+          "message": "occupation to='0001'"
+        },
+        {
+          "person_id": "PippelLaura",
+          "message": "occupation from='0001'"
+        },
+        {
+          "person_id": "PippelLaura",
+          "message": "occupation to='0001'"
+        },
+        {
+          "person_id": "PotthoffHeinrich",
+          "message": "occupation from='0001'"
+        },
+        {
+          "person_id": "PotthoffHeinrich",
+          "message": "occupation to='0001'"
+        },
+        {
+          "person_id": "QuadbeckUlrike",
+          "message": "occupation from='0001'"
+        },
+        {
+          "person_id": "QuadbeckUlrike",
+          "message": "occupation to='0001'"
+        },
+        {
+          "person_id": "RaaschUte",
+          "message": "occupation to='0001'"
+        },
+        {
+          "person_id": "RochowSylvia",
+          "message": "occupation to='0001'"
+        },
+        {
+          "person_id": "SavecVera",
+          "message": "occupation from='0001'"
+        },
+        {
+          "person_id": "SavecVera",
+          "message": "occupation to='0001'"
+        },
+        {
+          "person_id": "ScheufeleTobias",
+          "message": "occupation from='0001'"
+        },
+        {
+          "person_id": "ScheufeleTobias",
+          "message": "occupation to='0001'"
+        },
+        {
+          "person_id": "SchiffersReinhard",
+          "message": "occupation from='0001'"
+        },
+        {
+          "person_id": "SchiffersReinhard",
+          "message": "occupation to='0001'"
+        },
+        {
+          "person_id": "SchimmerohnHans",
+          "message": "occupation from='0001'"
+        },
+        {
+          "person_id": "SchimmerohnHans",
+          "message": "occupation to='0001'"
+        },
+        {
+          "person_id": "SchumacherJulia",
+          "message": "occupation from='0001'"
+        },
+        {
+          "person_id": "SchumacherJulia",
+          "message": "occupation to='0001'"
+        },
+        {
+          "person_id": "SchumacherRainer",
+          "message": "occupation from='0001'"
+        },
+        {
+          "person_id": "SchumacherRainer",
+          "message": "occupation to='0001'"
+        },
+        {
+          "person_id": "SeurigJustine",
+          "message": "occupation to='0001'"
+        },
+        {
+          "person_id": "SolbachDaniel",
+          "message": "occupation from='0001'"
+        },
+        {
+          "person_id": "SolbachDaniel",
+          "message": "occupation to='0001'"
+        },
+        {
+          "person_id": "StalmannVolker",
+          "message": "occupation from='0001'"
+        },
+        {
+          "person_id": "StalmannVolker",
+          "message": "occupation to='0001'"
+        },
+        {
+          "person_id": "TueffersBettina",
+          "message": "occupation from='0001'"
+        },
+        {
+          "person_id": "TueffersBettina",
+          "message": "occupation to='0001'"
+        },
+        {
+          "person_id": "WeberPetra",
+          "message": "occupation from='0001'"
+        },
+        {
+          "person_id": "WeberPetra",
+          "message": "occupation to='0001'"
+        },
+        {
+          "person_id": "WengstUdo",
+          "message": "occupation from='0001'"
+        },
+        {
+          "person_id": "WengstUdo",
+          "message": "occupation to='0001'"
+        },
+        {
+          "person_id": "WintgensBenedikt",
+          "message": "occupation from='0001'"
+        },
+        {
+          "person_id": "WintgensBenedikt",
+          "message": "occupation to='0001'"
+        },
+        {
+          "person_id": "WintzerJoachim",
+          "message": "occupation from='0001'"
+        },
+        {
+          "person_id": "WintzerJoachim",
+          "message": "occupation to='0001'"
+        },
+        {
+          "person_id": "WittlakeMarlies",
+          "message": "occupation from='0001'"
+        },
+        {
+          "person_id": "WittlakeMarlies",
+          "message": "occupation to='0001'"
+        },
+        {
+          "person_id": "WolfIlse",
+          "message": "occupation from='0001'"
+        },
+        {
+          "person_id": "WolfIlse",
+          "message": "occupation to='0001'"
+        },
+        {
+          "person_id": "ZehenderKathrin",
+          "message": "occupation from='0001'"
+        },
+        {
+          "person_id": "ZehenderKathrin",
+          "message": "occupation to='0001'"
+        },
+        {
+          "person_id": "ZellhuberAndreas",
+          "message": "occupation from='0001'"
+        },
+        {
+          "person_id": "ZellhuberAndreas",
+          "message": "occupation to='0001'"
+        }
+      ]
+    },
+    "skipped_placeholder": {
+      "count": 9,
+      "examples": [
+        {
+          "person_id": "MdB_weiblich",
+          "message": "Placeholder person skipped"
+        },
+        {
+          "person_id": "MdB_maennlich",
+          "message": "Placeholder person skipped"
+        },
+        {
+          "person_id": "MdB_divers",
+          "message": "Placeholder person skipped"
+        },
+        {
+          "person_id": "MdB_Genderunbekannt",
+          "message": "Placeholder person skipped"
+        },
+        {
+          "person_id": "NN_weiblich",
+          "message": "Placeholder person skipped"
+        },
+        {
+          "person_id": "NN_maennlich",
+          "message": "Placeholder person skipped"
+        },
+        {
+          "person_id": "NN_divers",
+          "message": "Placeholder person skipped"
+        },
+        {
+          "person_id": "NN_Genderunbekannt",
+          "message": "Placeholder person skipped"
+        },
+        {
+          "person_id": "xy_ersetzen",
+          "message": "Placeholder person skipped"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "FaureMaurice",
+  "name": "Maurice Faure",
+  "givenName": "Maurice Henri",
+  "familyName": "Faure",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1922-01-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Azerat"
+  },
+  "deathDate": "2014-03-06",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Cahors"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1951–1983 Mitglied der französischen Nationalversammlung, 1983–1988 des Senats"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/120933853",
+    "https://fr.wikipedia.org/wiki/Maurice_Faure"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Maurice Faure",
+    "forename": "Maurice Henri",
+    "surname": "Faure",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1922-01-02",
+    "place": "Azerat",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2014-03-06",
+    "place": "Cahors",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/120933853",
+    "wikipedia": "https://fr.wikipedia.org/wiki/Maurice_Faure",
+    "viaf": null
+  }
+}

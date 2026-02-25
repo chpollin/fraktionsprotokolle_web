@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "KnieperWerner",
+  "name": "Werner Knieper",
+  "givenName": "Werner",
+  "familyName": "Knieper",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1909-12-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Beuel"
+  },
+  "deathDate": "1977-07-17",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Köln"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dezember 1966-Dezember 1967 beamteter Staatssekretär und Chef des Bundeskanzleramts"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/125590547",
+    "https://de.wikipedia.org/wiki/Werner_Knieper"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Werner Knieper",
+    "forename": "Werner",
+    "surname": "Knieper",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1909-12-24",
+    "place": "Beuel",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1977-07-17",
+    "place": "Köln",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/125590547",
+    "wikipedia": "https://de.wikipedia.org/wiki/Werner_Knieper",
+    "viaf": null
+  }
+}

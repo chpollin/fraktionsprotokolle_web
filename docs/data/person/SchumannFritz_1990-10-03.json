@@ -1,0 +1,87 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchumannFritz_1990-10-03",
+  "name": "Fritz Schumann",
+  "givenName": "Fritz",
+  "familyName": "Schumann",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1948-12-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Garbisdorf/Thüringen"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Agrotechniker, Diplomlandwirt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Gruppe der Partei des Demokratischen Sozialismus",
+        "alternateName": "Grp. PDS"
+      },
+      "startDate": "1990-10-03",
+      "endDate": "1990-12-20"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Gruppe der Partei des Demokratischen Sozialismus/Linke Liste",
+        "alternateName": "Grp. PDS/LL"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1322539073",
+    "https://de.wikipedia.org/wiki/Fritz_Schumann_(Politiker)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Fritz Schumann",
+    "forename": "Fritz",
+    "surname": "Schumann",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Kroppenstedt)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1948-12-08",
+    "place": "Garbisdorf/Thüringen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 11,
+      "faction": "Grp. PDS",
+      "faction_full": "Gruppe der Partei des Demokratischen Sozialismus",
+      "from": "1990-10-03",
+      "to": "1990-12-20"
+    },
+    {
+      "period": 12,
+      "faction": "Grp. PDS/LL",
+      "faction_full": "Gruppe der Partei des Demokratischen Sozialismus/Linke Liste",
+      "from": "1990-12-20",
+      "to": "1994-11-10"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002114",
+    "gnd": "https://d-nb.info/gnd/1322539073",
+    "wikipedia": "https://de.wikipedia.org/wiki/Fritz_Schumann_(Politiker)",
+    "viaf": null
+  }
+}

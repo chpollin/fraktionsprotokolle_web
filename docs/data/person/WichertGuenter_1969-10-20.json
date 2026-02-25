@@ -1,0 +1,87 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "WichertGuenter_1969-10-20",
+  "name": "Günter Wichert",
+  "givenName": "Günter",
+  "familyName": "Wichert",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1935-05-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Czyborren, Kreis Johannisburg, Masuren (heute: Cibory, Polen)"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Wissenschaftlicher Mitarbeiter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1969-10-20",
+      "endDate": "1972-09-22"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1972-12-13",
+      "endDate": "1974-09-10"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/12490436X",
+    "https://de.wikipedia.org/wiki/G%C3%BCnter_Wichert"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Günter Wichert",
+    "forename": "Günter",
+    "surname": "Wichert",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1935-05-20",
+    "place": "Czyborren, Kreis Johannisburg, Masuren (heute: Cibory, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 6,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1969-10-20",
+      "to": "1972-09-22"
+    },
+    {
+      "period": 7,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1972-12-13",
+      "to": "1974-09-10"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002498",
+    "gnd": "https://d-nb.info/gnd/12490436X",
+    "wikipedia": "https://de.wikipedia.org/wiki/G%C3%BCnter_Wichert",
+    "viaf": null
+  }
+}

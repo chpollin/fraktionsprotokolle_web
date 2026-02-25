@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BeermannFriedrich_1969-10-20",
+  "name": "Friedrich Beermann",
+  "givenName": "Friedrich",
+  "familyName": "Beermann",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1912-10-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Moskau"
+  },
+  "deathDate": "1975-11-24",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Kiel"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsanwalt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages], Brigadegeneral, Direktkandidat der SPD bei der Bundestagswahl 1969 im Wahlkreis Stormarn-Lauenburg"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1969-10-20",
+      "endDate": "1972-09-22"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1972-12-13",
+      "endDate": "1975-11-24"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/138947848",
+    "https://de.wikipedia.org/wiki/Friedrich_Beermann"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Friedrich Beermann",
+    "forename": "Friedrich",
+    "surname": "Beermann",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1912-10-09",
+    "place": "Moskau",
+    "country": "Russisches Kaiserreich"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1975-11-24",
+    "place": "Kiel",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 6,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1969-10-20",
+      "to": "1972-09-22"
+    },
+    {
+      "period": 7,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1972-12-13",
+      "to": "1975-11-24"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000135",
+    "gnd": "https://d-nb.info/gnd/138947848",
+    "wikipedia": "https://de.wikipedia.org/wiki/Friedrich_Beermann",
+    "viaf": null
+  }
+}

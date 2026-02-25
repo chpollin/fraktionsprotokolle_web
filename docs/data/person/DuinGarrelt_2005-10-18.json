@@ -1,0 +1,84 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "DuinGarrelt_2005-10-18",
+  "name": "Garrelt Duin",
+  "givenName": "Garrelt",
+  "familyName": "Duin",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1968-04-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Leer"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsanwalt, Landesminister a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "2005-10-18",
+      "endDate": "2009-10-27"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "2009-10-27",
+      "endDate": "2012-06-21"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Garrelt Duin",
+    "forename": "Garrelt",
+    "surname": "Duin",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1968-04-02",
+    "place": "Leer",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 16,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "2005-10-18",
+      "to": "2009-10-27"
+    },
+    {
+      "period": 17,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "2009-10-27",
+      "to": "2012-06-21"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11003751",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

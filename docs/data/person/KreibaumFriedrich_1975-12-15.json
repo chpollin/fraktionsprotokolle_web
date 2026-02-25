@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "KreibaumFriedrich_1975-12-15",
+  "name": "Friedrich Kreibaum",
+  "givenName": "Friedrich",
+  "familyName": "Kreibaum",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1903-02-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bisperode"
+  },
+  "deathDate": "1983-08-21",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Fabrikant (Geschäftsführer) [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1975-12-15",
+      "endDate": "1976-12-13"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/125282664",
+    "https://de.wikipedia.org/wiki/Friedrich_Kreibaum"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Friedrich Kreibaum",
+    "forename": "Friedrich",
+    "surname": "Kreibaum",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1903-02-14",
+    "place": "Bisperode",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1983-08-21",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 7,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1975-12-15",
+      "to": "1976-12-13"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001208",
+    "gnd": "https://d-nb.info/gnd/125282664",
+    "wikipedia": "https://de.wikipedia.org/wiki/Friedrich_Kreibaum",
+    "viaf": null
+  }
+}

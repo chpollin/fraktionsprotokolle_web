@@ -1,0 +1,124 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "GoetzendorffGuenter_1949-09-07",
+  "name": "Günter Goetzendorff",
+  "givenName": "Günter",
+  "familyName": "Goetzendorff",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1917-03-11",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bad Ziegenhals/Schlesien (heute: Głuchołazy, Polen)"
+  },
+  "deathDate": "2000-08-08",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bad Honnef"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist, Redakteur [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Wirtschaftliche Aufbauvereinigung",
+        "alternateName": "WAV"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion DRP (Gast)",
+        "alternateName": "DRP (Gast)"
+      },
+      "startDate": "1950-03-29",
+      "endDate": "1953-09-07"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktionslos",
+        "alternateName": "Fraktionslos"
+      },
+      "startDate": "1950-10-05",
+      "endDate": "1953-09-07"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Wirtschaftliche Aufbauvereinigung",
+        "alternateName": "WAV"
+      },
+      "startDate": "1953-04-29",
+      "endDate": "1953-09-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/118890557",
+    "https://de.wikipedia.org/wiki/G%C3%BCnter_Goetzendorff"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Günter Goetzendorff",
+    "forename": "Günter",
+    "surname": "Goetzendorff",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1917-03-11",
+    "place": "Bad Ziegenhals/Schlesien (heute: Głuchołazy, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2000-08-08",
+    "place": "Bad Honnef",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "WAV",
+      "faction_full": "Fraktion Wirtschaftliche Aufbauvereinigung",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 1,
+      "faction": "DRP (Gast)",
+      "faction_full": "Fraktion DRP (Gast)",
+      "from": "1950-03-29",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 1,
+      "faction": "Fraktionslos",
+      "faction_full": "Fraktionslos",
+      "from": "1950-10-05",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 1,
+      "faction": "WAV",
+      "faction_full": "Fraktion Wirtschaftliche Aufbauvereinigung",
+      "from": "1953-04-29",
+      "to": "1953-09-07"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000706",
+    "gnd": "https://d-nb.info/gnd/118890557",
+    "wikipedia": "https://de.wikipedia.org/wiki/G%C3%BCnter_Goetzendorff",
+    "viaf": null
+  }
+}

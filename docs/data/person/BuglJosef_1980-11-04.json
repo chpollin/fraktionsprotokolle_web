@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BuglJosef_1980-11-04",
+  "name": "Josef Bugl",
+  "givenName": "Josef",
+  "familyName": "Bugl",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1932-12-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Weiden/Oberpfalz"
+  },
+  "deathDate": "2023-09-20",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Mannheim"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Physikochemiker [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1980-11-04",
+      "endDate": "1983-03-29"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1983-03-29",
+      "endDate": "1987-02-18"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/111329221",
+    "https://de.wikipedia.org/wiki/Josef_Bugl"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Josef Bugl",
+    "forename": "Josef",
+    "surname": "Bugl",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1932-12-24",
+    "place": "Weiden/Oberpfalz",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2023-09-20",
+    "place": "Mannheim",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 9,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1980-11-04",
+      "to": "1983-03-29"
+    },
+    {
+      "period": 10,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1983-03-29",
+      "to": "1987-02-18"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000304",
+    "gnd": "https://d-nb.info/gnd/111329221",
+    "wikipedia": "https://de.wikipedia.org/wiki/Josef_Bugl",
+    "viaf": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "RoosGudrun_1999-03-29",
+  "name": "Gudrun Roos",
+  "givenName": "Gudrun",
+  "familyName": "Roos",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1945-02-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Stedten/Kreis Eisleben"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Chefsekretärin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1999-03-29",
+      "endDate": "2002-10-17"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Gudrun Roos",
+    "forename": "Gudrun",
+    "surname": "Roos",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1945-02-27",
+    "place": "Stedten/Kreis Eisleben",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 14,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1999-03-29",
+      "to": "2002-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11003413",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

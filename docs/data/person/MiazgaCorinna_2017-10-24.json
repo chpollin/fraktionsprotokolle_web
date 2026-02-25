@@ -1,0 +1,72 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "MiazgaCorinna_2017-10-24",
+  "name": "Corinna Miazga, geb. Kracke",
+  "givenName": "Corinna",
+  "familyName": "Miazga",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1983-05-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Oldenburg"
+  },
+  "deathDate": "2023-02-25",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hude"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Angestellte in der Automobilindustrie [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Alternative für Deutschland",
+        "alternateName": "AfD"
+      },
+      "startDate": "2017-10-24"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/122824510X",
+    "https://de.wikipedia.org/wiki/Corinna_Miazga"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Corinna Miazga, geb. Kracke",
+    "forename": "Corinna",
+    "surname": "Miazga",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1983-05-17",
+    "place": "Oldenburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2023-02-25",
+    "place": "Hude",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 19,
+      "faction": "AfD",
+      "faction_full": "Alternative für Deutschland",
+      "from": "2017-10-24",
+      "to": ""
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11004821",
+    "gnd": "https://d-nb.info/gnd/122824510X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Corinna_Miazga",
+    "viaf": null
+  }
+}

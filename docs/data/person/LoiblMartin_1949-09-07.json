@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "LoiblMartin_1949-09-07",
+  "name": "Martin Loibl",
+  "givenName": "Martin",
+  "familyName": "Loibl",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1896-04-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Neuburg/Donau"
+  },
+  "deathDate": "1951-04-16",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Buchdrucker [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1951-04-16"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1232812048",
+    "https://de.wikipedia.org/wiki/Martin_Loibl_(Politiker,_1898)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Martin Loibl",
+    "forename": "Martin",
+    "surname": "Loibl",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1896-04-22",
+    "place": "Neuburg/Donau",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1951-04-16",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1949-09-07",
+      "to": "1951-04-16"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001372",
+    "gnd": "https://d-nb.info/gnd/1232812048",
+    "wikipedia": "https://de.wikipedia.org/wiki/Martin_Loibl_(Politiker,_1898)",
+    "viaf": null
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "RoederManfred",
+  "name": "Manfred Roeder",
+  "givenName": "Manfred",
+  "familyName": "Roeder",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1929-02-06",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "2014-07-30",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Neukirchen (Knüll)"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsanwalt, Rechtsextremist, 1976 Berufsverbot"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118601792",
+    "https://de.wikipedia.org/wiki/Manfred_Roeder_(Rechtsextremist)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Manfred Roeder",
+    "forename": "Manfred",
+    "surname": "Roeder",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1929-02-06",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2014-07-30",
+    "place": "Neukirchen (Knüll)",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118601792",
+    "wikipedia": "https://de.wikipedia.org/wiki/Manfred_Roeder_(Rechtsextremist)",
+    "viaf": null
+  }
+}

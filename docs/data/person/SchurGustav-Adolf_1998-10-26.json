@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchurGustav-Adolf_1998-10-26",
+  "name": "Gustav-Adolf »Täve« Schur",
+  "givenName": "Gustav-Adolf",
+  "familyName": "Schur",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1931-02-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Heyrothsberge"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Sportlehrer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Partei des Demokratischen Sozialismus",
+        "alternateName": "PDS"
+      },
+      "startDate": "1998-10-26",
+      "endDate": "2002-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/118762680",
+    "https://de.wikipedia.org/wiki/T%C3%A4ve_Schur"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Gustav-Adolf »Täve« Schur",
+    "forename": "Gustav-Adolf",
+    "surname": "Schur",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1931-02-23",
+    "place": "Heyrothsberge",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 14,
+      "faction": "PDS",
+      "faction_full": "Fraktion der Partei des Demokratischen Sozialismus",
+      "from": "1998-10-26",
+      "to": "2002-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11003233",
+    "gnd": "https://d-nb.info/gnd/118762680",
+    "wikipedia": "https://de.wikipedia.org/wiki/T%C3%A4ve_Schur",
+    "viaf": null
+  }
+}

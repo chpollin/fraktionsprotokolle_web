@@ -1,0 +1,124 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BirkelbachWilli_1949-09-07",
+  "name": "Willi Birkelbach",
+  "givenName": "Willi",
+  "familyName": "Birkelbach",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1913-01-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Frankfurt/Main"
+  },
+  "deathDate": "2008-07-17",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Frankfurt/Main"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Geschäftsführer, Staatssekretär a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1957-10-15",
+      "endDate": "1961-10-15"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1964-09-30"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/122188977",
+    "https://de.wikipedia.org/wiki/Willi_Birkelbach"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Willi Birkelbach",
+    "forename": "Willi",
+    "surname": "Birkelbach",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1913-01-12",
+    "place": "Frankfurt/Main",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2008-07-17",
+    "place": "Frankfurt/Main",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 2,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 3,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 4,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1961-10-17",
+      "to": "1964-09-30"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000182",
+    "gnd": "https://d-nb.info/gnd/122188977",
+    "wikipedia": "https://de.wikipedia.org/wiki/Willi_Birkelbach",
+    "viaf": null
+  }
+}

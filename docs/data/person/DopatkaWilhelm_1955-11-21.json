@@ -1,0 +1,107 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "DopatkaWilhelm_1955-11-21",
+  "name": "Wilhelm Dopatka",
+  "givenName": "Wilhelm",
+  "familyName": "Dopatka",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1919-09-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Angermund (heute: Düsseldorf-Angermund)"
+  },
+  "deathDate": "1979-07-23",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Leverkusen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Geschäftsführer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1955-11-21",
+      "endDate": "1957-10-06"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1957-10-15",
+      "endDate": "1961-10-15"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1024349586",
+    "https://de.wikipedia.org/wiki/Wilhelm_Dopatka"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Wilhelm Dopatka",
+    "forename": "Wilhelm",
+    "surname": "Dopatka",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1919-09-09",
+    "place": "Angermund (heute: Düsseldorf-Angermund)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1979-07-23",
+    "place": "Leverkusen",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1955-11-21",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 3,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 4,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000405",
+    "gnd": "https://d-nb.info/gnd/1024349586",
+    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_Dopatka",
+    "viaf": null
+  }
+}

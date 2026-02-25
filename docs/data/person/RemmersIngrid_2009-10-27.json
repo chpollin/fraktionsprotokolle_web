@@ -1,0 +1,83 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "RemmersIngrid_2009-10-27",
+  "name": "Ingrid Remmers",
+  "givenName": "Ingrid",
+  "familyName": "Remmers",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1965-03-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Ibbenbüren"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Sozialwissenschaftlerin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion DIE LINKE.",
+        "alternateName": "LINKE"
+      },
+      "startDate": "2009-10-27",
+      "endDate": "2013-10-22"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion DIE LINKE.",
+        "alternateName": "LINKE"
+      },
+      "startDate": "2017-10-24"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Ingrid Remmers",
+    "forename": "Ingrid",
+    "surname": "Remmers",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1965-03-26",
+    "place": "Ibbenbüren",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 17,
+      "faction": "LINKE",
+      "faction_full": "Fraktion DIE LINKE.",
+      "from": "2009-10-27",
+      "to": "2013-10-22"
+    },
+    {
+      "period": 19,
+      "faction": "LINKE",
+      "faction_full": "Fraktion DIE LINKE.",
+      "from": "2017-10-24",
+      "to": ""
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11004134",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

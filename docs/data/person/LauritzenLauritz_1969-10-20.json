@@ -1,0 +1,107 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "LauritzenLauritz_1969-10-20",
+  "name": "Lauritz Lauritzen",
+  "givenName": "Lauritz",
+  "familyName": "Lauritzen",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1910-01-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kiel"
+  },
+  "deathDate": "1980-06-05",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bad Honnef"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Verwaltungsjurist, Bundesmister a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1969-10-20",
+      "endDate": "1972-09-22"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1972-12-13",
+      "endDate": "1976-12-13"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1976-12-14",
+      "endDate": "1980-06-05"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/116858966",
+    "https://de.wikipedia.org/wiki/Lauritz_Lauritzen"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Lauritz Lauritzen",
+    "forename": "Lauritz",
+    "surname": "Lauritzen",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1910-01-20",
+    "place": "Kiel",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1980-06-05",
+    "place": "Bad Honnef",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 6,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1969-10-20",
+      "to": "1972-09-22"
+    },
+    {
+      "period": 7,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1972-12-13",
+      "to": "1976-12-13"
+    },
+    {
+      "period": 8,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1976-12-14",
+      "to": "1980-06-05"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001295",
+    "gnd": "https://d-nb.info/gnd/116858966",
+    "wikipedia": "https://de.wikipedia.org/wiki/Lauritz_Lauritzen",
+    "viaf": null
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchmitzKarl-Heinz_1970-08-20",
+  "name": "Karl-Heinz Schmitz",
+  "givenName": "Karl-Heinz",
+  "familyName": "Schmitz",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1932-06-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "2016-04-21",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsanwalt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1970-08-20",
+      "endDate": "1971-08-25"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1098554493",
+    "https://de.wikipedia.org/wiki/Karl-Heinz_Schmitz"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Karl-Heinz Schmitz",
+    "forename": "Karl-Heinz",
+    "surname": "Schmitz",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Berlin)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1932-06-09",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2016-04-21",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 6,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1970-08-20",
+      "to": "1971-08-25"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002036",
+    "gnd": "https://d-nb.info/gnd/1098554493",
+    "wikipedia": "https://de.wikipedia.org/wiki/Karl-Heinz_Schmitz",
+    "viaf": null
+  }
+}

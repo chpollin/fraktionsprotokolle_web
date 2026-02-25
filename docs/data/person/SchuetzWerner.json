@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchuetzWerner",
+  "name": "Werner Schütz",
+  "givenName": "Werner",
+  "familyName": "Schütz",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1900-03-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Münster"
+  },
+  "deathDate": "1975-07-02",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Düsseldorf"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1958–1966 MdL NRW (CDU), 1954–1956 und 1958–1962 Kultusminister in Nordrhein-Westfalen"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/117141259",
+    "https://de.wikipedia.org/wiki/Werner_Sch%C3%BCtz"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Werner Schütz",
+    "forename": "Werner",
+    "surname": "Schütz",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1900-03-23",
+    "place": "Münster",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1975-07-02",
+    "place": "Düsseldorf",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/117141259",
+    "wikipedia": "https://de.wikipedia.org/wiki/Werner_Sch%C3%BCtz",
+    "viaf": null
+  }
+}

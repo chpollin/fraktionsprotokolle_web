@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchmidtFerdinand_1969-10-20",
+  "name": "Ferdinand Schmidt",
+  "givenName": "Ferdinand",
+  "familyName": "Schmidt",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1918-02-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kassel"
+  },
+  "deathDate": "1980-02-03",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Medizinaldirektor [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1969-10-20",
+      "endDate": "1972-09-22"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/173439179",
+    "https://de.wikipedia.org/wiki/Ferdinand_Schmidt_(Politiker,_1918)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Ferdinand Schmidt",
+    "forename": "Ferdinand",
+    "surname": "Schmidt",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Krefeld)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1918-02-09",
+    "place": "Kassel",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1980-02-03",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 6,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1969-10-20",
+      "to": "1972-09-22"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002004",
+    "gnd": "https://d-nb.info/gnd/173439179",
+    "wikipedia": "https://de.wikipedia.org/wiki/Ferdinand_Schmidt_(Politiker,_1918)",
+    "viaf": null
+  }
+}

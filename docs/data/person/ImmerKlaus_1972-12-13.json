@@ -1,0 +1,123 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "ImmerKlaus_1972-12-13",
+  "name": "Klaus Immer",
+  "givenName": "Klaus",
+  "familyName": "Immer",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1924-03-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Manslagt/Krs. Norden (Ostfriesland)"
+  },
+  "deathDate": "2022-02-08",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Altenkirchen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Landwirt, Dozent [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1972-12-13",
+      "endDate": "1976-12-13"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1976-12-14",
+      "endDate": "1980-11-04"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1980-11-04",
+      "endDate": "1983-03-29"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1983-03-29",
+      "endDate": "1987-02-18"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1223000699"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Klaus Immer",
+    "forename": "Klaus",
+    "surname": "Immer",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Altenkirchen)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1924-03-09",
+    "place": "Manslagt/Krs. Norden (Ostfriesland)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2022-02-08",
+    "place": "Altenkirchen",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 7,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1972-12-13",
+      "to": "1976-12-13"
+    },
+    {
+      "period": 8,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1976-12-14",
+      "to": "1980-11-04"
+    },
+    {
+      "period": 9,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1980-11-04",
+      "to": "1983-03-29"
+    },
+    {
+      "period": 10,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1983-03-29",
+      "to": "1987-02-18"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000995",
+    "gnd": "https://d-nb.info/gnd/1223000699",
+    "wikipedia": null,
+    "viaf": null
+  }
+}

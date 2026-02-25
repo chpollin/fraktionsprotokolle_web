@@ -1,0 +1,69 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "AngermeyerJoachim_1976-12-14",
+  "name": "Joachim Angermeyer",
+  "givenName": "Joachim",
+  "familyName": "Angermeyer",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1923-12-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "deathDate": "1997-05-08",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Speditionsunternehmer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1976-12-14",
+      "endDate": "1980-11-04"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1162392940"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Joachim Angermeyer",
+    "forename": "Joachim",
+    "surname": "Angermeyer",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1923-12-18",
+    "place": "Hamburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1997-05-08",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 8,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1976-12-14",
+      "to": "1980-11-04"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000039",
+    "gnd": "https://d-nb.info/gnd/1162392940",
+    "wikipedia": null,
+    "viaf": null
+  }
+}

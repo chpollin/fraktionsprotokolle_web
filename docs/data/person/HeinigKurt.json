@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HeinigKurt",
+  "name": "Kurt Heinig",
+  "givenName": "Kurt",
+  "familyName": "Heinig",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1886-01-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Leipzig"
+  },
+  "deathDate": "1956-05-21",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Stockholm"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1927–1933 MdR (SPD), Vorsitzender der »Deutschen Vereinigung von 1945« in Stockholm"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/124335047",
+    "https://de.wikipedia.org/wiki/Kurt_Heinig"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Kurt Heinig",
+    "forename": "Kurt",
+    "surname": "Heinig",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1886-01-19",
+    "place": "Leipzig",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1956-05-21",
+    "place": "Stockholm",
+    "country": "Schweden"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/124335047",
+    "wikipedia": "https://de.wikipedia.org/wiki/Kurt_Heinig",
+    "viaf": null
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "DobbertAlfred",
+  "name": "Alfred Dobbert",
+  "givenName": "Alfred",
+  "familyName": "Dobbert",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1897-01-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Barmen (heute: Wuppertal-Barmen)"
+  },
+  "deathDate": "1975-11-19",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Wuppertal"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1926–1930 MdL Sachsen (SPD), 1930–1933 MdR (SPD), 1946–1966 MdL NRW (SPD)"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/130320382",
+    "https://de.wikipedia.org/wiki/Alfred_Dobbert"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Alfred Dobbert",
+    "forename": "Alfred",
+    "surname": "Dobbert",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1897-01-02",
+    "place": "Barmen (heute: Wuppertal-Barmen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1975-11-19",
+    "place": "Wuppertal",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/130320382",
+    "wikipedia": "https://de.wikipedia.org/wiki/Alfred_Dobbert",
+    "viaf": null
+  }
+}

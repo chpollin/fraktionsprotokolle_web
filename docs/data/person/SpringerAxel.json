@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SpringerAxel",
+  "name": "Axel Springer",
+  "givenName": "Axel",
+  "familyName": "Springer",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1912-05-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Altona bei Hamburg"
+  },
+  "deathDate": "1985-09-22",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "West-Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Zeitungsverleger"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118616420",
+    "https://de.wikipedia.org/wiki/Axel_Springer"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Axel Springer",
+    "forename": "Axel",
+    "surname": "Springer",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1912-05-02",
+    "place": "Altona bei Hamburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1985-09-22",
+    "place": "West-Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118616420",
+    "wikipedia": "https://de.wikipedia.org/wiki/Axel_Springer",
+    "viaf": null
+  }
+}

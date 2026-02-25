@@ -1,0 +1,66 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BuehlMarcus_2017-10-24",
+  "name": "Marcus Bühl",
+  "givenName": "Marcus",
+  "familyName": "Bühl",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1977-04-29",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Ilmenau"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Informatiker (M. Sc.) (FH) [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Alternative für Deutschland",
+        "alternateName": "AfD"
+      },
+      "startDate": "2017-10-24"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Marcus Bühl",
+    "forename": "Marcus",
+    "surname": "Bühl",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1977-04-29",
+    "place": "Ilmenau",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 19,
+      "faction": "AfD",
+      "faction_full": "Alternative für Deutschland",
+      "from": "2017-10-24",
+      "to": ""
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11004687",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "KochHarald_2009-10-27",
+  "name": "Harald Koch",
+  "givenName": "Harald",
+  "familyName": "Koch",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1954-09-11",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Sangerhausen"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Ökonom [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion DIE LINKE.",
+        "alternateName": "LINKE"
+      },
+      "startDate": "2009-10-27",
+      "endDate": "2013-10-22"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Harald Koch",
+    "forename": "Harald",
+    "surname": "Koch",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1954-09-11",
+    "place": "Sangerhausen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 17,
+      "faction": "LINKE",
+      "faction_full": "Fraktion DIE LINKE.",
+      "from": "2009-10-27",
+      "to": "2013-10-22"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11004076",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

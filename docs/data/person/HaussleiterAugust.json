@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HaussleiterAugust",
+  "name": "August Haußleiter",
+  "givenName": "August",
+  "familyName": "Haußleiter",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1905-02-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Nürnberg"
+  },
+  "deathDate": "1989-07-08",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "MdL (CSU)"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/123629756",
+    "https://de.wikipedia.org/wiki/August_Hau%C3%9Fleiter"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "August Haußleiter",
+    "forename": "August",
+    "surname": "Haußleiter",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1905-02-05",
+    "place": "Nürnberg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1989-07-08",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/123629756",
+    "wikipedia": "https://de.wikipedia.org/wiki/August_Hau%C3%9Fleiter",
+    "viaf": null
+  }
+}

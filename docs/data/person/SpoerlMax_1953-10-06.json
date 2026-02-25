@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SpoerlMax_1953-10-06",
+  "name": "Max Spörl",
+  "givenName": "Max",
+  "familyName": "Spörl",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1909-04-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Schwarzenbach"
+  },
+  "deathDate": "1997-07-09",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Naila"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Kürschnermeister, Pelzwarenfabrikant [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1237047722",
+    "https://de.wikipedia.org/wiki/Max_Sp%C3%B6rl"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Max Spörl",
+    "forename": "Max",
+    "surname": "Spörl",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1909-04-16",
+    "place": "Schwarzenbach",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1997-07-09",
+    "place": "Naila",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002204",
+    "gnd": "https://d-nb.info/gnd/1237047722",
+    "wikipedia": "https://de.wikipedia.org/wiki/Max_Sp%C3%B6rl",
+    "viaf": null
+  }
+}

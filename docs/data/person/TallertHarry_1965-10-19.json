@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "TallertHarry_1965-10-19",
+  "name": "Harry Tallert",
+  "givenName": "Harry",
+  "familyName": "Tallert",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1927-07-11",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Beuthen/Oberschlesien (heute: Bytom, Polen)"
+  },
+  "deathDate": "1997-11-29",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bad Honnef"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Redakteur [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1965-10-19",
+      "endDate": "1969-10-19"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1969-10-20",
+      "endDate": "1972-09-22"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/107513668",
+    "https://de.wikipedia.org/wiki/Harry_Tallert"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Harry Tallert",
+    "forename": "Harry",
+    "surname": "Tallert",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1927-07-11",
+    "place": "Beuthen/Oberschlesien (heute: Bytom, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1997-11-29",
+    "place": "Bad Honnef",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 5,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    },
+    {
+      "period": 6,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1969-10-20",
+      "to": "1972-09-22"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002296",
+    "gnd": "https://d-nb.info/gnd/107513668",
+    "wikipedia": "https://de.wikipedia.org/wiki/Harry_Tallert",
+    "viaf": null
+  }
+}

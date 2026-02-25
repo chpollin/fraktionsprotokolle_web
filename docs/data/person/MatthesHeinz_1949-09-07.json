@@ -1,0 +1,155 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "MatthesHeinz_1949-09-07",
+  "name": "Heinz Matthes",
+  "givenName": "Heinz",
+  "familyName": "Matthes",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1897-04-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hannover"
+  },
+  "deathDate": "1976-07-02",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Direktor a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Deutsche Partei",
+        "alternateName": "DP"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Deutsche Partei",
+        "alternateName": "DP"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Deutsche Partei/Freie Volkspartei",
+        "alternateName": "DP/FVP"
+      },
+      "startDate": "1957-03-14",
+      "endDate": "1957-10-06"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Deutsche Partei",
+        "alternateName": "DP"
+      },
+      "startDate": "1957-10-15",
+      "endDate": "1957-10-06"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Deutsche Partei",
+        "alternateName": "DP"
+      },
+      "startDate": "1957-10-15",
+      "endDate": "1961-10-15"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktionslos",
+        "alternateName": "Fraktionslos"
+      },
+      "startDate": "1961-05-03",
+      "endDate": "1961-10-15"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1027095240",
+    "https://de.wikipedia.org/wiki/Heinz_Matthes_(Politiker,_1897)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Heinz Matthes",
+    "forename": "Heinz",
+    "surname": "Matthes",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1897-04-13",
+    "place": "Hannover",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1976-07-02",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "DP",
+      "faction_full": "Fraktion Deutsche Partei",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 2,
+      "faction": "DP",
+      "faction_full": "Fraktion Deutsche Partei",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 2,
+      "faction": "DP/FVP",
+      "faction_full": "Fraktion Deutsche Partei/Freie Volkspartei",
+      "from": "1957-03-14",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 2,
+      "faction": "DP",
+      "faction_full": "Fraktion Deutsche Partei",
+      "from": "1957-10-15",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 3,
+      "faction": "DP",
+      "faction_full": "Fraktion Deutsche Partei",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 3,
+      "faction": "Fraktionslos",
+      "faction_full": "Fraktionslos",
+      "from": "1961-05-03",
+      "to": "1961-10-15"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001437",
+    "gnd": "https://d-nb.info/gnd/1027095240",
+    "wikipedia": "https://de.wikipedia.org/wiki/Heinz_Matthes_(Politiker,_1897)",
+    "viaf": null
+  }
+}

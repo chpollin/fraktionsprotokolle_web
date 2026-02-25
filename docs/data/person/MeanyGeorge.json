@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "MeanyGeorge",
+  "name": "George Meany",
+  "givenName": "George",
+  "familyName": "Meany",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1894-08-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "New York City"
+  },
+  "deathDate": "1980-01-10",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Washington, D.C."
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "US-amerikanischer Gewerkschaftsfunktionär und 1955–1979 Präsident des Dachverbandes AFL-CIO"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/1031764356",
+    "https://de.wikipedia.org/wiki/George_Meany"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "George Meany",
+    "forename": "George",
+    "surname": "Meany",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1894-08-16",
+    "place": "New York City",
+    "country": "USA"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1980-01-10",
+    "place": "Washington, D.C.",
+    "country": "USA"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/1031764356",
+    "wikipedia": "https://de.wikipedia.org/wiki/George_Meany",
+    "viaf": null
+  }
+}

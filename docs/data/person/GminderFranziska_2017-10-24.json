@@ -1,0 +1,66 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "GminderFranziska_2017-10-24",
+  "name": "Franziska Gminder",
+  "givenName": "Franziska",
+  "familyName": "Gminder",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1945-02-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Gablonz an der Neiße"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Kauffrau [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Alternative für Deutschland",
+        "alternateName": "AfD"
+      },
+      "startDate": "2017-10-24"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Franziska Gminder",
+    "forename": "Franziska",
+    "surname": "Gminder",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1945-02-04",
+    "place": "Gablonz an der Neiße",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 19,
+      "faction": "AfD",
+      "faction_full": "Alternative für Deutschland",
+      "from": "2017-10-24",
+      "to": ""
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11004728",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

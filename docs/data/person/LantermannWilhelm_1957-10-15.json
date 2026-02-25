@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "LantermannWilhelm_1957-10-15",
+  "name": "Wilhelm Lantermann",
+  "givenName": "Wilhelm",
+  "familyName": "Lantermann",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1899-09-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Dinslaken"
+  },
+  "deathDate": "1973-05-11",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Duisburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Stadtoberinspektor a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1957-10-15",
+      "endDate": "1961-10-15"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1276215819",
+    "https://de.wikipedia.org/wiki/Wilhelm_Lantermann"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Wilhelm Lantermann",
+    "forename": "Wilhelm",
+    "surname": "Lantermann",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1899-09-05",
+    "place": "Dinslaken",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1973-05-11",
+    "place": "Duisburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 3,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001289",
+    "gnd": "https://d-nb.info/gnd/1276215819",
+    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_Lantermann",
+    "viaf": null
+  }
+}

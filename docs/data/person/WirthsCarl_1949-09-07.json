@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "WirthsCarl_1949-09-07",
+  "name": "Carl Wirths",
+  "givenName": "Carl",
+  "familyName": "Wirths",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1897-12-10",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Elberfeld (heute: Wuppertal-Elberfeld)"
+  },
+  "deathDate": "1955-06-16",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Wuppertal"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Bauunternehmer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1955-06-16"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/117412422",
+    "https://de.wikipedia.org/wiki/Carl_Wirths"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Carl Wirths",
+    "forename": "Carl",
+    "surname": "Wirths",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1897-12-10",
+    "place": "Elberfeld (heute: Wuppertal-Elberfeld)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1955-06-16",
+    "place": "Wuppertal",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 2,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1953-10-06",
+      "to": "1955-06-16"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002530",
+    "gnd": "https://d-nb.info/gnd/117412422",
+    "wikipedia": "https://de.wikipedia.org/wiki/Carl_Wirths",
+    "viaf": null
+  }
+}

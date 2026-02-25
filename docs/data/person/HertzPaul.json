@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HertzPaul",
+  "name": "Paul Hertz",
+  "givenName": "Paul",
+  "familyName": "Hertz",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1888-06-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Worms"
+  },
+  "deathDate": "1961-10-23",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin (West)"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1951–1953 Berliner Senator für den Marshall-Plan und Kreditwesen, 1953–1955 Bevollmächtigter für das Kreditwesen, 1955–1961 Senator für Wirtschaft und Finanzen"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/116754494",
+    "https://de.wikipedia.org/wiki/Paul_Hertz_(Politiker)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Paul Hertz",
+    "forename": "Paul",
+    "surname": "Hertz",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1888-06-23",
+    "place": "Worms",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1961-10-23",
+    "place": "Berlin (West)",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/116754494",
+    "wikipedia": "https://de.wikipedia.org/wiki/Paul_Hertz_(Politiker)",
+    "viaf": null
+  }
+}

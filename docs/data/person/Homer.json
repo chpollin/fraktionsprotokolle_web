@@ -1,0 +1,48 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "Homer",
+  "name": "Homer",
+  "givenName": "Homer",
+  "familyName": "",
+  "gender": "https://schema.org/Male",
+  "birthDate": null,
+  "birthPlace": null,
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "antiker griechischer Dichter"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/11855333X",
+    "https://de.wikipedia.org/wiki/Homer"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Homer",
+    "forename": "Homer",
+    "surname": "",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/11855333X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Homer",
+    "viaf": null
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "DenekeJFVolrad_1963-07-26",
+  "name": "J.F. Volrad Deneke",
+  "givenName": "Johann Friedrich Volrad",
+  "familyName": "Deneke",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1920-03-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Wernigerode"
+  },
+  "deathDate": "2006-09-19",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bonn-Bad Godesberg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Hauptschriftleiter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1963-07-26",
+      "endDate": "1965-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/126188475",
+    "https://de.wikipedia.org/wiki/Volrad_Deneke"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "J.F. Volrad Deneke",
+    "forename": "Johann Friedrich Volrad",
+    "surname": "Deneke",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1920-03-08",
+    "place": "Wernigerode",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2006-09-19",
+    "place": "Bonn-Bad Godesberg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 4,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1963-07-26",
+      "to": "1965-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000372",
+    "gnd": "https://d-nb.info/gnd/126188475",
+    "wikipedia": "https://de.wikipedia.org/wiki/Volrad_Deneke",
+    "viaf": null
+  }
+}

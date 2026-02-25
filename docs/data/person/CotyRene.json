@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "CotyRene",
+  "name": "René Coty",
+  "givenName": "René",
+  "familyName": "Coty",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1882-03-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Le Havre"
+  },
+  "deathDate": "1962-11-22",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Le Havre"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1954–1959 französischer Staatspräsident"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/1089113404",
+    "https://de.wikipedia.org/wiki/Ren%C3%A9_Coty"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "René Coty",
+    "forename": "René",
+    "surname": "Coty",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1882-03-20",
+    "place": "Le Havre",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1962-11-22",
+    "place": "Le Havre",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/1089113404",
+    "wikipedia": "https://de.wikipedia.org/wiki/Ren%C3%A9_Coty",
+    "viaf": null
+  }
+}

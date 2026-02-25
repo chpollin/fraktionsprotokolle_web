@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SmithAdam",
+  "name": "Michail Smirnowskij",
+  "givenName": "Michail",
+  "familyName": "Smirnowskij",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1723-06-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kirkcaldy, Schottland"
+  },
+  "deathDate": "1790-07-17",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Edinburgh"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "schottischer Moralphilosoph und Soziologe, gilt als Begründer der modernen Nationalökonomie"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118615033",
+    "https://de.wikipedia.org/wiki/Adam_Smith"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Michail Smirnowskij",
+    "forename": "Michail",
+    "surname": "Smirnowskij",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1723-06-16",
+    "place": "Kirkcaldy, Schottland",
+    "country": "Großbritannien"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1790-07-17",
+    "place": "Edinburgh",
+    "country": "Großbritannien"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118615033",
+    "wikipedia": "https://de.wikipedia.org/wiki/Adam_Smith",
+    "viaf": null
+  }
+}

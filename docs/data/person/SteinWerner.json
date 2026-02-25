@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SteinWerner",
+  "name": "Werner Stein",
+  "givenName": "Werner",
+  "familyName": "Stein",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1913-12-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "1993-03-31",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1955–1975 MdA Berlin (SPD), 1964–1975 Senator für Wissenschaft und Kunst von Berlin"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/123153050",
+    "https://de.wikipedia.org/wiki/Werner_Stein_(Politiker)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Werner Stein",
+    "forename": "Werner",
+    "surname": "Stein",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1913-12-14",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1993-03-31",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/123153050",
+    "wikipedia": "https://de.wikipedia.org/wiki/Werner_Stein_(Politiker)",
+    "viaf": null
+  }
+}

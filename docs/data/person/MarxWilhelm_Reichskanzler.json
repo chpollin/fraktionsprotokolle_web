@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "MarxWilhelm_Reichskanzler",
+  "name": "Wilhelm Marx",
+  "givenName": "Wilhelm",
+  "familyName": "Marx",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1863-01-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Köln"
+  },
+  "deathDate": "1946-08-05",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1910–1932 MdR (Zentrum), 1923–1925 und 1926–1928 Reichskanzler"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/11873153X",
+    "https://de.wikipedia.org/wiki/Wilhelm_Marx"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Wilhelm Marx",
+    "forename": "Wilhelm",
+    "surname": "Marx",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1863-01-15",
+    "place": "Köln",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1946-08-05",
+    "place": "Bonn",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/11873153X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_Marx",
+    "viaf": null
+  }
+}

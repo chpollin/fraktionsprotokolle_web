@@ -1,0 +1,107 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "VoigtHans-Peter_1983-12-21",
+  "name": "Hans-Peter Voigt",
+  "givenName": "Hans-Peter",
+  "familyName": "Voigt",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1936-11-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Winsen/Luhe"
+  },
+  "deathDate": "2014-01-01",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Northeim"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Apotheker [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1983-12-21",
+      "endDate": "1987-02-18"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1987-02-18",
+      "endDate": "1990-12-20"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1027502385",
+    "https://de.wikipedia.org/wiki/Hans-Peter_Voigt"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans-Peter Voigt",
+    "forename": "Hans-Peter",
+    "surname": "Voigt",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Northeim)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1936-11-12",
+    "place": "Winsen/Luhe",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2014-01-01",
+    "place": "Northeim",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 10,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1983-12-21",
+      "to": "1987-02-18"
+    },
+    {
+      "period": 11,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1987-02-18",
+      "to": "1990-12-20"
+    },
+    {
+      "period": 12,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1990-12-20",
+      "to": "1994-11-10"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002387",
+    "gnd": "https://d-nb.info/gnd/1027502385",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans-Peter_Voigt",
+    "viaf": null
+  }
+}

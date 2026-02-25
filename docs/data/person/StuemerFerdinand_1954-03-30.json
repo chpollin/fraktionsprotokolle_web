@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "StuemerFerdinand_1954-03-30",
+  "name": "Ferdinand Stümer",
+  "givenName": "Ferdinand",
+  "familyName": "Stümer",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1922-03-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Rickelshof"
+  },
+  "deathDate": "2010-06-23",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Gewerkschaftssekretär [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1954-03-30",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1339579170",
+    "https://de.wikipedia.org/wiki/Ferdinand_St%C3%BCmer"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Ferdinand Stümer",
+    "forename": "Ferdinand",
+    "surname": "Stümer",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1922-03-07",
+    "place": "Rickelshof",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2010-06-23",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1954-03-30",
+      "to": "1957-10-06"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002282",
+    "gnd": "https://d-nb.info/gnd/1339579170",
+    "wikipedia": "https://de.wikipedia.org/wiki/Ferdinand_St%C3%BCmer",
+    "viaf": null
+  }
+}

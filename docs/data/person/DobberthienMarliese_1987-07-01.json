@@ -1,0 +1,107 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "DobberthienMarliese_1987-07-01",
+  "name": "Marliese Dobberthien",
+  "givenName": "Marliese",
+  "familyName": "Dobberthien",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1947-05-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Lübeck"
+  },
+  "deathDate": "2017-04-04",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Abbendorf"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Gewerkschaftssekretärin, Sozialwissenschaftlerin, Staatsrätin a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1987-07-01",
+      "endDate": "1988-08-29"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-10-26"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/170248984",
+    "https://de.wikipedia.org/wiki/Marliese_Dobberthien"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Marliese Dobberthien",
+    "forename": "Marliese",
+    "surname": "Dobberthien",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1947-05-22",
+    "place": "Lübeck",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2017-04-04",
+    "place": "Abbendorf",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 11,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1987-07-01",
+      "to": "1988-08-29"
+    },
+    {
+      "period": 12,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1990-12-20",
+      "to": "1994-11-10"
+    },
+    {
+      "period": 13,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1994-11-10",
+      "to": "1998-10-26"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000394",
+    "gnd": "https://d-nb.info/gnd/170248984",
+    "wikipedia": "https://de.wikipedia.org/wiki/Marliese_Dobberthien",
+    "viaf": null
+  }
+}

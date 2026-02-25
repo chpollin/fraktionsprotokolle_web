@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "GrossJohannes",
+  "name": "Johannes Gross",
+  "givenName": "Johannes",
+  "familyName": "Gross",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1932-05-06",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Neunkhausen"
+  },
+  "deathDate": "1999-09-29",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Köln"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Publizist und Journalist, Chefredakteur und stellvertretender Intendant der Deutschen Welle"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/115600892",
+    "https://de.wikipedia.org/wiki/Johannes_Gross"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Johannes Gross",
+    "forename": "Johannes",
+    "surname": "Gross",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1932-05-06",
+    "place": "Neunkhausen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1999-09-29",
+    "place": "Köln",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/115600892",
+    "wikipedia": "https://de.wikipedia.org/wiki/Johannes_Gross",
+    "viaf": null
+  }
+}

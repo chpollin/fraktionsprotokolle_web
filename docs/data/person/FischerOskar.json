@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "FischerOskar",
+  "name": "Oskar Fischer",
+  "givenName": "Oskar",
+  "familyName": "Fischer",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1923-03-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Aš"
+  },
+  "deathDate": "2020-04-02",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1975–1990 Außenminister der DDR"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/137456603",
+    "https://de.wikipedia.org/wiki/Oskar_Fischer"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Oskar Fischer",
+    "forename": "Oskar",
+    "surname": "Fischer",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1923-03-19",
+    "place": "Aš",
+    "country": "Tschechoslowakei"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2020-04-02",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/137456603",
+    "wikipedia": "https://de.wikipedia.org/wiki/Oskar_Fischer",
+    "viaf": null
+  }
+}

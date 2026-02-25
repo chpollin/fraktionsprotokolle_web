@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "OrthElisabeth_1969-10-20",
+  "name": "Elisabeth Orth, geb. Fritz",
+  "givenName": "Elisabeth",
+  "familyName": "Orth",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1921-03-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hannover"
+  },
+  "deathDate": "1976-05-10",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Köln"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Landwirtin, Hausfrau [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1969-10-20",
+      "endDate": "1972-09-22"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1972-12-13",
+      "endDate": "1976-05-10"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1121547109",
+    "https://de.wikipedia.org/wiki/Elisabeth_Orth_(Politikerin)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Elisabeth Orth, geb. Fritz",
+    "forename": "Elisabeth",
+    "surname": "Orth",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1921-03-24",
+    "place": "Hannover",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1976-05-10",
+    "place": "Köln",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 6,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1969-10-20",
+      "to": "1972-09-22"
+    },
+    {
+      "period": 7,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1972-12-13",
+      "to": "1976-05-10"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001656",
+    "gnd": "https://d-nb.info/gnd/1121547109",
+    "wikipedia": "https://de.wikipedia.org/wiki/Elisabeth_Orth_(Politikerin)",
+    "viaf": null
+  }
+}

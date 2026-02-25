@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "deGaulleCharles",
+  "name": "Charles de Gaulle",
+  "givenName": "Charles",
+  "familyName": "Gaulle",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1890-11-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Lille, Département Nord"
+  },
+  "deathDate": "1970-11-09",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Colombey-les-Deux Èglises, Département Haute-Marne"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1959–1969 Staatspräsident der Französischen Republik"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118537849",
+    "https://de.wikipedia.org/wiki/Charles_de_Gaulle#Gr%C3%BCndung_der_F%C3%BCnften_Republik_(1958)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Charles de Gaulle",
+    "forename": "Charles",
+    "surname": "Gaulle",
+    "prefix": "de",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1890-11-22",
+    "place": "Lille, Département Nord",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1970-11-09",
+    "place": "Colombey-les-Deux Èglises, Département Haute-Marne",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118537849",
+    "wikipedia": "https://de.wikipedia.org/wiki/Charles_de_Gaulle#Gr%C3%BCndung_der_F%C3%BCnften_Republik_(1958)",
+    "viaf": null
+  }
+}

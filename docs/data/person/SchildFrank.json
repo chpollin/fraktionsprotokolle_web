@@ -1,0 +1,51 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchildFrank",
+  "name": "Frank Schild",
+  "givenName": "Frank",
+  "familyName": "Schild",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1931-12-30",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "2014-08-31",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Generalmajor der Bundeswehr, 1980–1982 Stabsabteilungsleiter Innere Führung, Personal, Ausbildung im Führungsstab der Streitkräfte"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/110397095X",
+    "https://de.wikipedia.org/wiki/Frank_Schild"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Frank Schild",
+    "forename": "Frank",
+    "surname": "Schild",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1931-12-30",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2014-08-31",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/110397095X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Frank_Schild",
+    "viaf": null
+  }
+}

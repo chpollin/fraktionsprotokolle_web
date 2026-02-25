@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "WallaceEdgar",
+  "name": "Edgar Wallace",
+  "givenName": "Richard Horatio Edgar",
+  "familyName": "Wallace",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1875-04-01",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Greenwich"
+  },
+  "deathDate": "1932-02-10",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hollywood, Kalifornien"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "britischer Schriftsteller, Drehbuchautor und Filmregisseur"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118628739",
+    "https://de.wikipedia.org/wiki/Edgar_Wallace"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Edgar Wallace",
+    "forename": "Richard Horatio Edgar",
+    "surname": "Wallace",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1875-04-01",
+    "place": "Greenwich",
+    "country": "Großbritannien"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1932-02-10",
+    "place": "Hollywood, Kalifornien",
+    "country": "USA"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118628739",
+    "wikipedia": "https://de.wikipedia.org/wiki/Edgar_Wallace",
+    "viaf": null
+  }
+}

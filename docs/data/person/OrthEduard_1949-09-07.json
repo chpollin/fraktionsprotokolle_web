@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "OrthEduard_1949-09-07",
+  "name": "Eduard Orth",
+  "givenName": "Eduard",
+  "familyName": "Orth",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1902-10-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Germersheim"
+  },
+  "deathDate": "1968-03-31",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Mainz"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Fabrikant, 1950–1964 Vorsitzender des CDU-Landesverbandes Pfalz, 1956–1967 Kultusminister von Rheinland-Pfalz, 1959–1968 MdL Rheinland-Pfalz [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1956-10-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/117148288",
+    "https://de.wikipedia.org/wiki/Eduard_Orth"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Eduard Orth",
+    "forename": "Eduard",
+    "surname": "Orth",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1902-10-13",
+    "place": "Germersheim",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1968-03-31",
+    "place": "Mainz",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 2,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1953-10-06",
+      "to": "1956-10-07"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001655",
+    "gnd": "https://d-nb.info/gnd/117148288",
+    "wikipedia": "https://de.wikipedia.org/wiki/Eduard_Orth",
+    "viaf": null
+  }
+}

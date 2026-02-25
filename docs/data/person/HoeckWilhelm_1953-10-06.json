@@ -1,0 +1,100 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HoeckWilhelm_1953-10-06",
+  "name": "Wilhelm Höck",
+  "givenName": "Wilhelm",
+  "familyName": "Höck",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1907-10-21",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Köln"
+  },
+  "deathDate": "1983-03-04",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Salzgitter"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Geschäftsführer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1957-10-15",
+      "endDate": "1961-10-15"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1120201586",
+    "https://de.wikipedia.org/wiki/Wilhelm_H%C3%B6ck"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Wilhelm Höck",
+    "forename": "Wilhelm",
+    "surname": "Höck",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1907-10-21",
+    "place": "Köln",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1983-03-04",
+    "place": "Salzgitter",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 3,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000914",
+    "gnd": "https://d-nb.info/gnd/1120201586",
+    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_H%C3%B6ck",
+    "viaf": null
+  },
+  "fraktionsprotokolle:alt_names": [
+    {
+      "reg": "Wilhelm Höck",
+      "forename": "Wilhelm",
+      "surname": "Höck",
+      "prefix": "",
+      "role_name": "",
+      "place": "(Salzgitter)"
+    }
+  ]
+}

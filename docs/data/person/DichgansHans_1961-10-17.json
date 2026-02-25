@@ -1,0 +1,104 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "DichgansHans_1961-10-17",
+  "name": "Hans Dichgans",
+  "givenName": "Hans",
+  "familyName": "Dichgans",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1907-05-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Wuppertal-Elberfeld"
+  },
+  "deathDate": "1980-03-21",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Jurist [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1965-10-19",
+      "endDate": "1969-10-19"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1969-10-20",
+      "endDate": "1972-09-22"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/118525174",
+    "https://de.wikipedia.org/wiki/Hans_Dichgans"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans Dichgans",
+    "forename": "Hans",
+    "surname": "Dichgans",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1907-05-16",
+    "place": "Wuppertal-Elberfeld",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1980-03-21",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 4,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    },
+    {
+      "period": 5,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    },
+    {
+      "period": 6,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1969-10-20",
+      "to": "1972-09-22"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000380",
+    "gnd": "https://d-nb.info/gnd/118525174",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Dichgans",
+    "viaf": null
+  }
+}

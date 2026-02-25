@@ -1,0 +1,66 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "Seestern-PaulyMatthias_2017-10-24",
+  "name": "Matthias Seestern-Pauly",
+  "givenName": "Matthias",
+  "familyName": "Seestern-Pauly",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1984-02-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Osnabrück"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Gymnasiallehrer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "2017-10-24"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Matthias Seestern-Pauly",
+    "forename": "Matthias",
+    "surname": "Seestern-Pauly",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1984-02-28",
+    "place": "Osnabrück",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 19,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "2017-10-24",
+      "to": ""
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11004890",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

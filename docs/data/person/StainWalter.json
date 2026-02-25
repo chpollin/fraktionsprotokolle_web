@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "StainWalter",
+  "name": "Walter Stain",
+  "givenName": "Walter",
+  "familyName": "Stain",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1916-12-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Prag"
+  },
+  "deathDate": "2001-02-03",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Mainstockheim"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1950–1962 MdL Bayern (GB/BHE, seit 1961 GDP), 1954–1962 Bayerischer Staatsminister für Arbeit und Soziale Fürsorge"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/117205753",
+    "https://de.wikipedia.org/wiki/Walter_Stain"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Walter Stain",
+    "forename": "Walter",
+    "surname": "Stain",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1916-12-27",
+    "place": "Prag",
+    "country": "Österreich-Ungarn (heute: Tschechische Republik)"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2001-02-03",
+    "place": "Mainstockheim",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/117205753",
+    "wikipedia": "https://de.wikipedia.org/wiki/Walter_Stain",
+    "viaf": null
+  }
+}

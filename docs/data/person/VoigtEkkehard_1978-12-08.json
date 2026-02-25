@@ -1,0 +1,120 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "VoigtEkkehard_1978-12-08",
+  "name": "Ekkehard Voigt",
+  "givenName": "Ekkehard",
+  "familyName": "Voigt",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1939-11-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hälse/Oder"
+  },
+  "deathDate": "2018-09-25",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Oberstleutnant a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1978-12-08",
+      "endDate": "1980-11-04"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1982-05-14",
+      "endDate": "1983-03-29"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktionslos",
+        "alternateName": "Fraktionslos"
+      },
+      "startDate": "1983-10-28",
+      "endDate": "1987-02-18"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1983-03-29",
+      "endDate": "1987-02-18"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1076550509"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Ekkehard Voigt",
+    "forename": "Ekkehard",
+    "surname": "Voigt",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Sonthofen)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1939-11-05",
+    "place": "Hälse/Oder",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2018-09-25",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 8,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1978-12-08",
+      "to": "1980-11-04"
+    },
+    {
+      "period": 9,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1982-05-14",
+      "to": "1983-03-29"
+    },
+    {
+      "period": 10,
+      "faction": "Fraktionslos",
+      "faction_full": "Fraktionslos",
+      "from": "1983-10-28",
+      "to": "1987-02-18"
+    },
+    {
+      "period": 10,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1983-03-29",
+      "to": "1987-02-18"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002386",
+    "gnd": "https://d-nb.info/gnd/1076550509",
+    "wikipedia": null,
+    "viaf": null
+  }
+}

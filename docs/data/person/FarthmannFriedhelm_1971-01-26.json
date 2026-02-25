@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "FarthmannFriedhelm_1971-01-26",
+  "name": "Friedhelm Farthmann",
+  "givenName": "Friedhelm",
+  "familyName": "Farthmann",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1930-11-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bad Oeynhausen"
+  },
+  "deathDate": "2024-12-09",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bad Rothenfelde"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Geschäftsführer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1971-01-26",
+      "endDate": "1972-09-22"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1972-12-13",
+      "endDate": "1975-06-05"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/120865602",
+    "https://de.wikipedia.org/wiki/Friedhelm_Farthmann"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Friedhelm Farthmann",
+    "forename": "Friedhelm",
+    "surname": "Farthmann",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1930-11-25",
+    "place": "Bad Oeynhausen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2024-12-09",
+    "place": "Bad Rothenfelde",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 6,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1971-01-26",
+      "to": "1972-09-22"
+    },
+    {
+      "period": 7,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1972-12-13",
+      "to": "1975-06-05"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000520",
+    "gnd": "https://d-nb.info/gnd/120865602",
+    "wikipedia": "https://de.wikipedia.org/wiki/Friedhelm_Farthmann",
+    "viaf": null
+  }
+}

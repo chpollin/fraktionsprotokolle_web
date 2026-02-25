@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "MayerhoferGeorg_1949-09-07",
+  "name": "Georg Mayerhofer",
+  "givenName": "Georg",
+  "familyName": "Mayerhofer",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1894-03-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Freyung"
+  },
+  "deathDate": "1966-12-17",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Neumarkt-Sankt Veit"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Maschinenfabrikant [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Bayernpartei",
+        "alternateName": "BP"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Föderalistische Union",
+        "alternateName": "FU"
+      },
+      "startDate": "1951-12-14",
+      "endDate": "1953-09-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/116964219",
+    "https://de.wikipedia.org/wiki/Georg_Mayerhofer"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Georg Mayerhofer",
+    "forename": "Georg",
+    "surname": "Mayerhofer",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1894-03-04",
+    "place": "Freyung",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1966-12-17",
+    "place": "Neumarkt-Sankt Veit",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "BP",
+      "faction_full": "Fraktion Bayernpartei",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 1,
+      "faction": "FU",
+      "faction_full": "Fraktion Föderalistische Union",
+      "from": "1951-12-14",
+      "to": "1953-09-07"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001449",
+    "gnd": "https://d-nb.info/gnd/116964219",
+    "wikipedia": "https://de.wikipedia.org/wiki/Georg_Mayerhofer",
+    "viaf": null
+  }
+}

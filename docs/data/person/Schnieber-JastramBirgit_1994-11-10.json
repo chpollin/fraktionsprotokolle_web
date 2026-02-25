@@ -1,0 +1,84 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "Schnieber-JastramBirgit_1994-11-10",
+  "name": "Birgit Schnieber-Jastram",
+  "givenName": "Birgit",
+  "familyName": "Schnieber-Jastram",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1946-07-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Redakteurin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-10-26"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1998-10-26",
+      "endDate": "2001-11-07"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Birgit Schnieber-Jastram",
+    "forename": "Birgit",
+    "surname": "Schnieber-Jastram",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1946-07-04",
+    "place": "Hamburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 13,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1994-11-10",
+      "to": "1998-10-26"
+    },
+    {
+      "period": 14,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1998-10-26",
+      "to": "2001-11-07"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002785",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

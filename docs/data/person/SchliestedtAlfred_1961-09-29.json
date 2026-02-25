@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchliestedtAlfred_1961-09-29",
+  "name": "Alfred Schliestedt",
+  "givenName": "Alfred",
+  "familyName": "Schliestedt",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1921-11-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "1963-04-22",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Schöningen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rektor [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1961-09-29",
+      "endDate": "1961-10-15"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1331535573",
+    "https://de.wikipedia.org/wiki/Alfred_Schliestedt"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Alfred Schliestedt",
+    "forename": "Alfred",
+    "surname": "Schliestedt",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1921-11-28",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1963-04-22",
+    "place": "Schöningen",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 3,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1961-09-29",
+      "to": "1961-10-15"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001984",
+    "gnd": "https://d-nb.info/gnd/1331535573",
+    "wikipedia": "https://de.wikipedia.org/wiki/Alfred_Schliestedt",
+    "viaf": null
+  }
+}

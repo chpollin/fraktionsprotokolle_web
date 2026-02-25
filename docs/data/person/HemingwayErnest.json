@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HemingwayErnest",
+  "name": "Ernest Hemingway",
+  "givenName": "Ernest",
+  "familyName": "Hemingway",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1899-07-21",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Oak Park, Illinois"
+  },
+  "deathDate": "1961-07-02",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Ketchum, Idaho"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "US-amerikanischen Schriftsteller, 1953 Pulitzer-Preis für seine Novelle Der alte Mann und das Meer, 1954 Literaturnobelpreis"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118549030",
+    "https://de.wikipedia.org/wiki/Ernest_Hemingway"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Ernest Hemingway",
+    "forename": "Ernest",
+    "surname": "Hemingway",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1899-07-21",
+    "place": "Oak Park, Illinois",
+    "country": "USA"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1961-07-02",
+    "place": "Ketchum, Idaho",
+    "country": "USA"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118549030",
+    "wikipedia": "https://de.wikipedia.org/wiki/Ernest_Hemingway",
+    "viaf": null
+  }
+}

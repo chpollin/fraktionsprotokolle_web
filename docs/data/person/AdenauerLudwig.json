@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "AdenauerLudwig",
+  "name": "Ludwig Adenauer",
+  "givenName": "Ludwig",
+  "familyName": "Adenauer",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1902-02-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Köln"
+  },
+  "deathDate": "1971-11-22",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Düsseldorf"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1959–1962 Staatssekretär im Kultusministerium NRW, 1962–1967 Staatssekretär im Innenministerium NRW"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/1092700196",
+    "https://de.wikipedia.org/wiki/Ludwig_Adenauer"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Ludwig Adenauer",
+    "forename": "Ludwig",
+    "surname": "Adenauer",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1902-02-20",
+    "place": "Köln",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1971-11-22",
+    "place": "Düsseldorf",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/1092700196",
+    "wikipedia": "https://de.wikipedia.org/wiki/Ludwig_Adenauer",
+    "viaf": null
+  }
+}

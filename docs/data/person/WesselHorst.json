@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "WesselHorst",
+  "name": "Horst Wessel",
+  "givenName": "Horst Ludwig Georg Erich",
+  "familyName": "Wessel",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1907-10-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bielefeld"
+  },
+  "deathDate": "1930-02-23",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Paramilitär der SA"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118631721",
+    "https://de.wikipedia.org/wiki/Horst_Wessel"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Horst Wessel",
+    "forename": "Horst Ludwig Georg Erich",
+    "surname": "Wessel",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1907-10-09",
+    "place": "Bielefeld",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1930-02-23",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118631721",
+    "wikipedia": "https://de.wikipedia.org/wiki/Horst_Wessel",
+    "viaf": null
+  }
+}

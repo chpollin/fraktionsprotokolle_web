@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "TeiserMichael_1994-11-10",
+  "name": "Michael Teiser",
+  "givenName": "Michael",
+  "familyName": "Teiser",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1951-06-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bremerhaven"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Außenhandelskaufmann, Dipl.-Verwaltungswirt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-10-26"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Michael Teiser",
+    "forename": "Michael",
+    "surname": "Teiser",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1951-06-07",
+    "place": "Bremerhaven",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 13,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1994-11-10",
+      "to": "1998-10-26"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002815",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

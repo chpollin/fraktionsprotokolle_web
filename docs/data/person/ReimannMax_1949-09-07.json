@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "ReimannMax_1949-09-07",
+  "name": "Max Reimann",
+  "givenName": "Max",
+  "familyName": "Reimann",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1898-10-31",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Eibing (heute: Elbląg, Polen)"
+  },
+  "deathDate": "1977-01-18",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Düsseldorf"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Werftarbeiter, Bergmann, KPD-Vorsitzender [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Kommunistischen Partei Deutschlands",
+        "alternateName": "KPD"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/118744097",
+    "https://de.wikipedia.org/wiki/Max_Reimann"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Max Reimann",
+    "forename": "Max",
+    "surname": "Reimann",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1898-10-31",
+    "place": "Eibing (heute: Elbląg, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1977-01-18",
+    "place": "Düsseldorf",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "KPD",
+      "faction_full": "Fraktion der Kommunistischen Partei Deutschlands",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001806",
+    "gnd": "https://d-nb.info/gnd/118744097",
+    "wikipedia": "https://de.wikipedia.org/wiki/Max_Reimann",
+    "viaf": null
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "WilperHeinrich_1965-10-19",
+  "name": "Heinrich Wilper",
+  "givenName": "Heinrich",
+  "familyName": "Wilper",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1908-10-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Verne"
+  },
+  "deathDate": "1967-03-03",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Paderborn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Bauer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1965-10-19",
+      "endDate": "1967-03-03"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1031588345",
+    "https://de.wikipedia.org/wiki/Heinrich_Wilper"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Heinrich Wilper",
+    "forename": "Heinrich",
+    "surname": "Wilper",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1908-10-12",
+    "place": "Verne",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1967-03-03",
+    "place": "Paderborn",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 5,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1965-10-19",
+      "to": "1967-03-03"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002520",
+    "gnd": "https://d-nb.info/gnd/1031588345",
+    "wikipedia": "https://de.wikipedia.org/wiki/Heinrich_Wilper",
+    "viaf": null
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "ImleWolfgang_1960-06-29",
+  "name": "Wolfgang Imle",
+  "givenName": "Wolfgang",
+  "familyName": "Imle",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1909-03-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Rathenow"
+  },
+  "deathDate": "2001-08-11",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hagen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Regierungsrat a. D., Geschäftsführer der Industrie- und Handelskammer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1960-06-29",
+      "endDate": "1961-10-15"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1967-06-02",
+      "endDate": "1969-10-19"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1030403325",
+    "https://de.wikipedia.org/wiki/Wolfgang_Imle"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Wolfgang Imle",
+    "forename": "Wolfgang",
+    "surname": "Imle",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1909-03-23",
+    "place": "Rathenow",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2001-08-11",
+    "place": "Hagen",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 3,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1960-06-29",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 4,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    },
+    {
+      "period": 5,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1967-06-02",
+      "to": "1969-10-19"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000994",
+    "gnd": "https://d-nb.info/gnd/1030403325",
+    "wikipedia": "https://de.wikipedia.org/wiki/Wolfgang_Imle",
+    "viaf": null
+  }
+}

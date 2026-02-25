@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HaindlGeorg",
+  "name": "Georg Haindl",
+  "givenName": "Georg",
+  "familyName": "Haindl",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1914-12-01",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Augsburg"
+  },
+  "deathDate": "1970-07-15",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Augsburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Papierfabrikant"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118952935",
+    "https://de.wikipedia.org/wiki/Georg_Haindl_(Papierfabrikant,_1914)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Georg Haindl",
+    "forename": "Georg",
+    "surname": "Haindl",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1914-12-01",
+    "place": "Augsburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1970-07-15",
+    "place": "Augsburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118952935",
+    "wikipedia": "https://de.wikipedia.org/wiki/Georg_Haindl_(Papierfabrikant,_1914)",
+    "viaf": null
+  }
+}

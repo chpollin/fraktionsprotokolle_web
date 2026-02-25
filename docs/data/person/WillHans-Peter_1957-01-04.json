@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "WillHans-Peter_1957-01-04",
+  "name": "Hans-Peter Will",
+  "givenName": "Hans-Peter",
+  "familyName": "Will",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1899-08-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Frankfurt/Main"
+  },
+  "deathDate": "1990-02-03",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Ministerialdirektor z. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1957-01-04",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1157036139",
+    "https://de.wikipedia.org/wiki/Hans-Peter_Will"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans-Peter Will",
+    "forename": "Hans-Peter",
+    "surname": "Will",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Saarbrücken)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1899-08-02",
+    "place": "Frankfurt/Main",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1990-02-03",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1957-01-04",
+      "to": "1957-10-06"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002513",
+    "gnd": "https://d-nb.info/gnd/1157036139",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans-Peter_Will",
+    "viaf": null
+  }
+}

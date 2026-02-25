@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "TabillionRainer_2005-10-18",
+  "name": "Rainer Tabillion",
+  "givenName": "Rainer",
+  "familyName": "Tabillion",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1950-03-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Ottweiler"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Mikrobiologe [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "2005-10-18",
+      "endDate": "2009-10-27"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Rainer Tabillion",
+    "forename": "Rainer",
+    "surname": "Tabillion",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1950-03-18",
+    "place": "Ottweiler",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 16,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "2005-10-18",
+      "to": "2009-10-27"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11003852",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "RutschkeWolfgang_1957-10-15",
+  "name": "Wolfgang Rutschke",
+  "givenName": "Wolfgang",
+  "familyName": "Rutschke",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1919-11-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Heegermühle"
+  },
+  "deathDate": "1996-08-12",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Sankt Augustin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Verwaltungsjurist [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1957-10-15",
+      "endDate": "1961-10-15"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1965-10-19",
+      "endDate": "1969-10-19"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1969-10-20",
+      "endDate": "1971-01-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/106488112",
+    "https://de.wikipedia.org/wiki/Wolfgang_Rutschke"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Wolfgang Rutschke",
+    "forename": "Wolfgang",
+    "surname": "Rutschke",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1919-11-27",
+    "place": "Heegermühle",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1996-08-12",
+    "place": "Sankt Augustin",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 3,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 4,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    },
+    {
+      "period": 5,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    },
+    {
+      "period": 6,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1969-10-20",
+      "to": "1971-01-07"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001909",
+    "gnd": "https://d-nb.info/gnd/106488112",
+    "wikipedia": "https://de.wikipedia.org/wiki/Wolfgang_Rutschke",
+    "viaf": null
+  }
+}

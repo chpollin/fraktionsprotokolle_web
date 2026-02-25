@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "MillerAnton_1953-10-06",
+  "name": "Anton Miller",
+  "givenName": "Anton",
+  "familyName": "Miller",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1899-08-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Haunstetten"
+  },
+  "deathDate": "1988-06-26",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Haunstetten"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Industriekaufmann [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1104217902",
+    "https://de.wikipedia.org/wiki/Anton_Miller"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Anton Miller",
+    "forename": "Anton",
+    "surname": "Miller",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Ingolstadt)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1899-08-25",
+    "place": "Haunstetten",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1988-06-26",
+    "place": "Haunstetten",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001509",
+    "gnd": "https://d-nb.info/gnd/1104217902",
+    "wikipedia": "https://de.wikipedia.org/wiki/Anton_Miller",
+    "viaf": null
+  }
+}

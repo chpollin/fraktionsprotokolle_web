@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HarnackAdolfvon",
+  "name": "Adolf von Harnack",
+  "givenName": "Adolf",
+  "familyName": "Harnack",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1851-05-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Dorpat, Gouvernement Livland"
+  },
+  "deathDate": "1930-06-10",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Heidelberg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "evangelischer Theologe"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118546058",
+    "https://de.wikipedia.org/wiki/Adolf_von_Harnack"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Adolf von Harnack",
+    "forename": "Adolf",
+    "surname": "Harnack",
+    "prefix": "von",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1851-05-07",
+    "place": "Dorpat, Gouvernement Livland",
+    "country": "Russisches Kaiserreich"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1930-06-10",
+    "place": "Heidelberg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118546058",
+    "wikipedia": "https://de.wikipedia.org/wiki/Adolf_von_Harnack",
+    "viaf": null
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "ZurheideBurkhard_1990-12-20",
+  "name": "Burkhard Zurheide",
+  "givenName": "Burkhard",
+  "familyName": "Zurheide",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1958-05-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Enger"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsanwalt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1339307634",
+    "https://de.wikipedia.org/wiki/Burkhard_Zurheide"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Burkhard Zurheide",
+    "forename": "Burkhard",
+    "surname": "Zurheide",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1958-05-16",
+    "place": "Enger",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 12,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1990-12-20",
+      "to": "1994-11-10"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002610",
+    "gnd": "https://d-nb.info/gnd/1339307634",
+    "wikipedia": "https://de.wikipedia.org/wiki/Burkhard_Zurheide",
+    "viaf": null
+  }
+}

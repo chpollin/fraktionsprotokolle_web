@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "GilleAlfred_1953-10-06",
+  "name": "Alfred Gille",
+  "givenName": "Alfred",
+  "familyName": "Gille",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1901-09-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Insterburg, Ostpreußen (heute: Tschernjachowsk, Kaliningrad, Russland)"
+  },
+  "deathDate": "1971-02-18",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Rheinbach"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsanwalt und Notar [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Gesamtdeutscher Block/Block der Heimatvertriebenen und Entrechteten",
+        "alternateName": "GB/BHE"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/124317529",
+    "https://de.wikipedia.org/wiki/Alfred_Gille"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Alfred Gille",
+    "forename": "Alfred",
+    "surname": "Gille",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1901-09-15",
+    "place": "Insterburg, Ostpreußen (heute: Tschernjachowsk, Kaliningrad, Russland)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1971-02-18",
+    "place": "Rheinbach",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "GB/BHE",
+      "faction_full": "Fraktion Gesamtdeutscher Block/Block der Heimatvertriebenen und Entrechteten",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000681",
+    "gnd": "https://d-nb.info/gnd/124317529",
+    "wikipedia": "https://de.wikipedia.org/wiki/Alfred_Gille",
+    "viaf": null
+  }
+}

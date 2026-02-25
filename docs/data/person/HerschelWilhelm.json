@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HerschelWilhelm",
+  "name": "Wilhelm Herschel",
+  "givenName": "Wilhelm",
+  "familyName": "Herschel",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1895-10-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "deathDate": "1986-01-07",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bad Honnef"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Professor für Arbeitsrecht, 1949–1960 Ministerialdirektor im Bundesministerium für Arbeit"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118550012",
+    "https://de.wikipedia.org/wiki/Wilhelm_Herschel_(Jurist)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Wilhelm Herschel",
+    "forename": "Wilhelm",
+    "surname": "Herschel",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1895-10-17",
+    "place": "Bonn",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1986-01-07",
+    "place": "Bad Honnef",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118550012",
+    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_Herschel_(Jurist)",
+    "viaf": null
+  }
+}

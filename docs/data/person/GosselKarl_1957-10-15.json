@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "GosselKarl_1957-10-15",
+  "name": "Karl Gossel",
+  "givenName": "Karl",
+  "familyName": "Gossel",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1892-07-01",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Mühlhausen"
+  },
+  "deathDate": "1966-08-24",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Melle"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Ministerialrat a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1957-10-15",
+      "endDate": "1961-10-15"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1033105090",
+    "https://de.wikipedia.org/wiki/Karl_Gossel"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Karl Gossel",
+    "forename": "Karl",
+    "surname": "Gossel",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1892-07-01",
+    "place": "Mühlhausen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1966-08-24",
+    "place": "Melle",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 3,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 4,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000712",
+    "gnd": "https://d-nb.info/gnd/1033105090",
+    "wikipedia": "https://de.wikipedia.org/wiki/Karl_Gossel",
+    "viaf": null
+  }
+}

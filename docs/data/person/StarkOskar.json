@@ -1,0 +1,53 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "StarkOskar",
+  "name": "Oskar Stark",
+  "givenName": "Oskar",
+  "familyName": "Stark",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1890-01-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Aschaffenburg"
+  },
+  "deathDate": "1970-12-12",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Freiburg im Breisgau"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1946–1965 Chefredakteur der »Badischen Zeitung«"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/130094935"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Oskar Stark",
+    "forename": "Oskar",
+    "surname": "Stark",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1890-01-27",
+    "place": "Aschaffenburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1970-12-12",
+    "place": "Freiburg im Breisgau",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/130094935",
+    "wikipedia": null,
+    "viaf": null
+  }
+}

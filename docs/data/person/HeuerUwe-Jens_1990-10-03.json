@@ -1,0 +1,107 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HeuerUwe-Jens_1990-10-03",
+  "name": "Uwe-Jens Heuer",
+  "givenName": "Uwe-Jens",
+  "familyName": "Heuer",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1927-07-11",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Essen"
+  },
+  "deathDate": "2011-10-22",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtswissenschaftler [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Gruppe der Partei des Demokratischen Sozialismus",
+        "alternateName": "Grp. PDS"
+      },
+      "startDate": "1990-10-03",
+      "endDate": "1990-12-20"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Gruppe der Partei des Demokratischen Sozialismus/Linke Liste",
+        "alternateName": "Grp. PDS/LL"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Gruppe der Partei des Demokratischen Sozialismus",
+        "alternateName": "Grp. PDS"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-10-26"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/115784373",
+    "https://de.wikipedia.org/wiki/Uwe-Jens_Heuer"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Uwe-Jens Heuer",
+    "forename": "Uwe-Jens",
+    "surname": "Heuer",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1927-07-11",
+    "place": "Essen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2011-10-22",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 11,
+      "faction": "Grp. PDS",
+      "faction_full": "Gruppe der Partei des Demokratischen Sozialismus",
+      "from": "1990-10-03",
+      "to": "1990-12-20"
+    },
+    {
+      "period": 12,
+      "faction": "Grp. PDS/LL",
+      "faction_full": "Gruppe der Partei des Demokratischen Sozialismus/Linke Liste",
+      "from": "1990-12-20",
+      "to": "1994-11-10"
+    },
+    {
+      "period": 13,
+      "faction": "Grp. PDS",
+      "faction_full": "Gruppe der Partei des Demokratischen Sozialismus",
+      "from": "1994-11-10",
+      "to": "1998-10-26"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000891",
+    "gnd": "https://d-nb.info/gnd/115784373",
+    "wikipedia": "https://de.wikipedia.org/wiki/Uwe-Jens_Heuer",
+    "viaf": null
+  }
+}

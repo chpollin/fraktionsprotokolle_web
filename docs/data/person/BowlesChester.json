@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BowlesChester",
+  "name": "Chester Bowles",
+  "givenName": "Chester",
+  "familyName": "Bowles",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1901-04-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Springfield, Massachusetts"
+  },
+  "deathDate": "1986-05-02",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Essex, Connecticut"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Mitglied des amerikanischen Repräsentantenhauses; 1961–1963 Staatssekretär im Außenministerium"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/119187531",
+    "https://de.wikipedia.org/wiki/Chester_Bowles"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Chester Bowles",
+    "forename": "Chester",
+    "surname": "Bowles",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1901-04-05",
+    "place": "Springfield, Massachusetts",
+    "country": "USA"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1986-05-02",
+    "place": "Essex, Connecticut",
+    "country": "USA"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/119187531",
+    "wikipedia": "https://de.wikipedia.org/wiki/Chester_Bowles",
+    "viaf": null
+  }
+}

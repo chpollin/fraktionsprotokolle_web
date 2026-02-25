@@ -1,0 +1,103 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "StegerUlrich_1976-12-14",
+  "name": "Ulrich Steger",
+  "givenName": "Ulrich",
+  "familyName": "Steger",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1943-11-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Ökonom, Staatsminister a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1976-12-14",
+      "endDate": "1980-11-04"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1980-11-04",
+      "endDate": "1983-03-29"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1983-03-29",
+      "endDate": "1984-07-09"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/122303695"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Ulrich Steger",
+    "forename": "Ulrich",
+    "surname": "Steger",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1943-11-08",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 8,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1976-12-14",
+      "to": "1980-11-04"
+    },
+    {
+      "period": 9,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1980-11-04",
+      "to": "1983-03-29"
+    },
+    {
+      "period": 10,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1983-03-29",
+      "to": "1984-07-09"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002227",
+    "gnd": "https://d-nb.info/gnd/122303695",
+    "wikipedia": null,
+    "viaf": null
+  }
+}

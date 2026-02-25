@@ -1,0 +1,118 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "LafontaineOskar_1994-11-10",
+  "name": "Oskar Lafontaine",
+  "givenName": "Oskar",
+  "familyName": "Lafontaine",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1943-09-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Saarlouis"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Pysiker, Fraktionsvorsitzender, Bundesminister a.D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1994-11-17"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1998-10-26",
+      "endDate": "1999-03-16"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion DIE LINKE.",
+        "alternateName": "LINKE"
+      },
+      "startDate": "2005-10-18",
+      "endDate": "2009-10-27"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion DIE LINKE.",
+        "alternateName": "LINKE"
+      },
+      "startDate": "2009-10-27",
+      "endDate": "2010-01-31"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Oskar Lafontaine",
+    "forename": "Oskar",
+    "surname": "Lafontaine",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1943-09-16",
+    "place": "Saarlouis",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 13,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1994-11-10",
+      "to": "1994-11-17"
+    },
+    {
+      "period": 14,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1998-10-26",
+      "to": "1999-03-16"
+    },
+    {
+      "period": 16,
+      "faction": "LINKE",
+      "faction_full": "Fraktion DIE LINKE.",
+      "from": "2005-10-18",
+      "to": "2009-10-27"
+    },
+    {
+      "period": 17,
+      "faction": "LINKE",
+      "faction_full": "Fraktion DIE LINKE.",
+      "from": "2009-10-27",
+      "to": "2010-01-31"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002715",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

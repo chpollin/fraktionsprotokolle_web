@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BarthUwe_2005-10-18",
+  "name": "Uwe Barth",
+  "givenName": "Uwe",
+  "familyName": "Barth",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1964-07-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bad Langensalza"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Physiker [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "2005-10-18",
+      "endDate": "2009-09-28"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Uwe Barth",
+    "forename": "Uwe",
+    "surname": "Barth",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1964-07-23",
+    "place": "Bad Langensalza",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 16,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "2005-10-18",
+      "to": "2009-09-28"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11003735",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

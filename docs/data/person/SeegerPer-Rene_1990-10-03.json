@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SeegerPer-Rene_1990-10-03",
+  "name": "Per-René Seeger",
+  "givenName": "Per-René",
+  "familyName": "Seeger",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1955-11-29",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bad Bibra"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Fachdirektor für Rationalisierung und Betriebsorganisation [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1990-10-03",
+      "endDate": "1990-12-20"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Per-René Seeger",
+    "forename": "Per-René",
+    "surname": "Seeger",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1955-11-29",
+    "place": "Bad Bibra",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 11,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1990-10-03",
+      "to": "1990-12-20"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002139",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

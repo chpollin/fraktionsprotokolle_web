@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "MendelssohnMoses",
+  "name": "Moses Mendelssohn",
+  "givenName": "Moses",
+  "familyName": "Mendelssohn",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1729-09-06",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Dessau"
+  },
+  "deathDate": "1768-01-04",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Philosoph und Literaturwissenschaftler, Wegbereiter der Haskala in Deutschland"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118580744",
+    "https://de.wikipedia.org/wiki/Moses_Mendelssohn"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Moses Mendelssohn",
+    "forename": "Moses",
+    "surname": "Mendelssohn",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1729-09-06",
+    "place": "Dessau",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1768-01-04",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118580744",
+    "wikipedia": "https://de.wikipedia.org/wiki/Moses_Mendelssohn",
+    "viaf": null
+  }
+}

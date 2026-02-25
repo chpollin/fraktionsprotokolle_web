@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HansenDirk_1990-12-20",
+  "name": "Dirk Hansen",
+  "givenName": "Dirk",
+  "familyName": "Hansen",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1942-06-21",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Lüneburg"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Oberstudienrat a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1035845466",
+    "https://de.wikipedia.org/wiki/Dirk_Hansen"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Dirk Hansen",
+    "forename": "Dirk",
+    "surname": "Hansen",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1942-06-21",
+    "place": "Lüneburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 12,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1990-12-20",
+      "to": "1994-11-10"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000804",
+    "gnd": "https://d-nb.info/gnd/1035845466",
+    "wikipedia": "https://de.wikipedia.org/wiki/Dirk_Hansen",
+    "viaf": null
+  }
+}

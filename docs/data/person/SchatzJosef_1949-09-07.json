@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchatzJosef_1949-09-07",
+  "name": "Josef Schatz",
+  "givenName": "Josef",
+  "familyName": "Schatz",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1905-02-06",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Amberg/Oberpfalz"
+  },
+  "deathDate": "1993-10-03",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Amberg/Oberpfalz"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsanwalt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/124383335",
+    "https://de.wikipedia.org/wiki/Josef_Schatz_(Politiker,_1905)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Josef Schatz",
+    "forename": "Josef",
+    "surname": "Schatz",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1905-02-06",
+    "place": "Amberg/Oberpfalz",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1993-10-03",
+    "place": "Amberg/Oberpfalz",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001947",
+    "gnd": "https://d-nb.info/gnd/124383335",
+    "wikipedia": "https://de.wikipedia.org/wiki/Josef_Schatz_(Politiker,_1905)",
+    "viaf": null
+  }
+}

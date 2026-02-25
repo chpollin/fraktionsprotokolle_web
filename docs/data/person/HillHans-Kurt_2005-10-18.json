@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HillHans-Kurt_2005-10-18",
+  "name": "Hans-Kurt Hill",
+  "givenName": "Hans-Kurt",
+  "familyName": "Hill",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1950-07-21",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Heusweiler"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Kaufmann [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion DIE LINKE.",
+        "alternateName": "LINKE"
+      },
+      "startDate": "2005-10-18",
+      "endDate": "2009-10-27"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans-Kurt Hill",
+    "forename": "Hans-Kurt",
+    "surname": "Hill",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1950-07-21",
+    "place": "Heusweiler",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 16,
+      "faction": "LINKE",
+      "faction_full": "Fraktion DIE LINKE.",
+      "from": "2005-10-18",
+      "to": "2009-10-27"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11003767",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

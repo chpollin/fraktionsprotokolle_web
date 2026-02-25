@@ -1,0 +1,84 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchumannIlse_1994-11-10",
+  "name": "Ilse Schumann",
+  "givenName": "Ilse",
+  "familyName": "Schumann",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1939-02-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Augsdorf/Mansfelder Land"
+  },
+  "deathDate": "2000-08-09",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Chemieingenieurin, Bürgermeisterin a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-10-26"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1998-10-26",
+      "endDate": "2000-08-09"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Ilse Schumann",
+    "forename": "Ilse",
+    "surname": "Schumann",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1939-02-22",
+    "place": "Augsdorf/Mansfelder Land",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2000-08-09",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 13,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1994-11-10",
+      "to": "1998-10-26"
+    },
+    {
+      "period": 14,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1998-10-26",
+      "to": "2000-08-09"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002794",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

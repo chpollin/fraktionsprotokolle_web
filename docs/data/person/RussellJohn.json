@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "RussellJohn",
+  "name": "John Russell",
+  "givenName": "John",
+  "familyName": "Russell",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1792-08-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "London"
+  },
+  "deathDate": "1878-05-28",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Pembroke Lodge, Richmond Park, Surrey"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1846–1852, 1865/66 Premierminister des Vereinigten Königreichs von Großbritannien und Irland"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/116711086",
+    "https://de.wikipedia.org/wiki/John_Russell,_1._Earl_Russell"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "John Russell",
+    "forename": "John",
+    "surname": "Russell",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1792-08-18",
+    "place": "London",
+    "country": "Großbritannien"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1878-05-28",
+    "place": "Pembroke Lodge, Richmond Park, Surrey",
+    "country": "Großbritannien"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/116711086",
+    "wikipedia": "https://de.wikipedia.org/wiki/John_Russell,_1._Earl_Russell",
+    "viaf": null
+  }
+}

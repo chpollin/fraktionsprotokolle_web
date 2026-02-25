@@ -1,0 +1,101 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "WeinhoferKarl_1980-11-04",
+  "name": "Karl Weinhofer",
+  "givenName": "Karl",
+  "familyName": "Weinhofer",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1942-10-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Gießhübel/Karlsbad, Sudetenland (heute: Kyselka, Tschechische Republik)"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Oberstudienrat a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1980-11-04",
+      "endDate": "1983-03-29"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1983-03-29",
+      "endDate": "1987-02-18"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1990-10-03",
+      "endDate": "1990-12-20"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Karl Weinhofer",
+    "forename": "Karl",
+    "surname": "Weinhofer",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1942-10-08",
+    "place": "Gießhübel/Karlsbad, Sudetenland (heute: Kyselka, Tschechische Republik)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 9,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1980-11-04",
+      "to": "1983-03-29"
+    },
+    {
+      "period": 10,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1983-03-29",
+      "to": "1987-02-18"
+    },
+    {
+      "period": 11,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1990-10-03",
+      "to": "1990-12-20"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002452",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

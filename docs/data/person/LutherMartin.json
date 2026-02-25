@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "LutherMartin",
+  "name": "Martin Luther",
+  "givenName": "Martin",
+  "familyName": "Luther",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1483-11-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Eisleben, Grafschaft Mansfeld"
+  },
+  "deathDate": "1546-02-18",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Eisleben, Grafschaft Mansfeld"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Augustinermönch und Theologieprofessor, Initiator der Reformation"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Martin_Luther",
+    "https://de.wikipedia.org/wiki/Martin_Luther"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Martin Luther",
+    "forename": "Martin",
+    "surname": "Luther",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1483-11-14",
+    "place": "Eisleben, Grafschaft Mansfeld",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1546-02-18",
+    "place": "Eisleben, Grafschaft Mansfeld",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://de.wikipedia.org/wiki/Martin_Luther",
+    "wikipedia": "https://de.wikipedia.org/wiki/Martin_Luther",
+    "viaf": null
+  }
+}

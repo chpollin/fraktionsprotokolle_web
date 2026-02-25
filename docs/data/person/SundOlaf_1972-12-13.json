@@ -1,0 +1,86 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SundOlaf_1972-12-13",
+  "name": "Olaf Sund",
+  "givenName": "Olaf",
+  "familyName": "Sund",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1931-08-31",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Heide"
+  },
+  "deathDate": "2010-01-08",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Volkswirt, Leiter einer Heimvolksschule [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1972-12-13",
+      "endDate": "1976-12-13"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1976-12-14",
+      "endDate": "1977-05-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/170451275"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Olaf Sund",
+    "forename": "Olaf",
+    "surname": "Sund",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1931-08-31",
+    "place": "Heide",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2010-01-08",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 7,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1972-12-13",
+      "to": "1976-12-13"
+    },
+    {
+      "period": 8,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1976-12-14",
+      "to": "1977-05-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002291",
+    "gnd": "https://d-nb.info/gnd/170451275",
+    "wikipedia": null,
+    "viaf": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "RayerWolfgang_1980-11-04",
+  "name": "Wolfgang Rayer",
+  "givenName": "Wolfgang",
+  "familyName": "Rayer",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1949-05-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Gelsenkirchen"
+  },
+  "deathDate": "1996-05-27",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Angestellter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1980-11-04",
+      "endDate": "1983-03-29"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Wolfgang Rayer",
+    "forename": "Wolfgang",
+    "surname": "Rayer",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1949-05-12",
+    "place": "Gelsenkirchen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1996-05-27",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 9,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1980-11-04",
+      "to": "1983-03-29"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001787",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "EhardHans",
+  "name": "Hans Ehard",
+  "givenName": "Hans",
+  "familyName": "Ehard",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1887-11-10",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bamberg"
+  },
+  "deathDate": "1980-10-18",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1946–1954, 1960–1962 Ministerpräsident des Freistaates Bayern (CSU)"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118688154",
+    "https://de.wikipedia.org/wiki/Hans_Ehard"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans Ehard",
+    "forename": "Hans",
+    "surname": "Ehard",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1887-11-10",
+    "place": "Bamberg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1980-10-18",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118688154",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Ehard",
+    "viaf": null
+  }
+}

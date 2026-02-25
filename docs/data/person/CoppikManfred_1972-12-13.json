@@ -1,0 +1,120 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "CoppikManfred_1972-12-13",
+  "name": "Manfred Coppik",
+  "givenName": "Manfred",
+  "familyName": "Coppik",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1943-11-01",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bromberg (heute: Bydgoszcz, Polen)"
+  },
+  "deathDate": "2016-09-21",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsanwalt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1972-12-13",
+      "endDate": "1976-12-13"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1976-12-14",
+      "endDate": "1980-11-04"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktionslos",
+        "alternateName": "Fraktionslos"
+      },
+      "startDate": "1982-01-27",
+      "endDate": "1983-03-29"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1980-11-04",
+      "endDate": "1983-03-29"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1062533518"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Manfred Coppik",
+    "forename": "Manfred",
+    "surname": "Coppik",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1943-11-01",
+    "place": "Bromberg (heute: Bydgoszcz, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2016-09-21",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 7,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1972-12-13",
+      "to": "1976-12-13"
+    },
+    {
+      "period": 8,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1976-12-14",
+      "to": "1980-11-04"
+    },
+    {
+      "period": 9,
+      "faction": "Fraktionslos",
+      "faction_full": "Fraktionslos",
+      "from": "1982-01-27",
+      "to": "1983-03-29"
+    },
+    {
+      "period": 9,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1980-11-04",
+      "to": "1983-03-29"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000337",
+    "gnd": "https://d-nb.info/gnd/1062533518",
+    "wikipedia": null,
+    "viaf": null
+  }
+}

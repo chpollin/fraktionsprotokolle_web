@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchillerFriedrich",
+  "name": "Friedrich Schiller",
+  "givenName": "Friedrich",
+  "familyName": "Schiller",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1759-11-10",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Marbach am Neckar"
+  },
+  "deathDate": "1805-05-09",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Weimar"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Dichter, Philosoph und Historiker"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118607626",
+    "https://de.wikipedia.org/wiki/Friedrich_Schiller"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Friedrich Schiller",
+    "forename": "Friedrich",
+    "surname": "Schiller",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1759-11-10",
+    "place": "Marbach am Neckar",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1805-05-09",
+    "place": "Weimar",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118607626",
+    "wikipedia": "https://de.wikipedia.org/wiki/Friedrich_Schiller",
+    "viaf": null
+  }
+}

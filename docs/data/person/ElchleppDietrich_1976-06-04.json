@@ -1,0 +1,69 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "ElchleppDietrich_1976-06-04",
+  "name": "Dietrich Elchlepp",
+  "givenName": "Dietrich",
+  "familyName": "Elchlepp",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1938-03-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Freiburg/Breisgau"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Regierungsdirektor a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1976-06-04",
+      "endDate": "1976-12-13"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1066400083"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Dietrich Elchlepp",
+    "forename": "Dietrich",
+    "surname": "Elchlepp",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1938-03-07",
+    "place": "Freiburg/Breisgau",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 7,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1976-06-04",
+      "to": "1976-12-13"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000462",
+    "gnd": "https://d-nb.info/gnd/1066400083",
+    "wikipedia": null,
+    "viaf": null
+  }
+}

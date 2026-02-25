@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "MenzBirgit_2015-03-16",
+  "name": "Birgit Menz",
+  "givenName": "Birgit",
+  "familyName": "Menz",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1962-05-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Suhl"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Buchhändlerin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion DIE LINKE.",
+        "alternateName": "LINKE"
+      },
+      "startDate": "2015-03-16",
+      "endDate": "2017-10-24"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Birgit Menz",
+    "forename": "Birgit",
+    "surname": "Menz",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1962-05-16",
+    "place": "Suhl",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 18,
+      "faction": "LINKE",
+      "faction_full": "Fraktion DIE LINKE.",
+      "from": "2015-03-16",
+      "to": "2017-10-24"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11004619",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

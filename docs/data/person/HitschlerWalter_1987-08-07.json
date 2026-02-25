@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HitschlerWalter_1987-08-07",
+  "name": "Walter Hitschler",
+  "givenName": "Walter",
+  "familyName": "Hitschler",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1942-04-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Zweibrücken"
+  },
+  "deathDate": "2017-07-05",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Zweibrücken"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Studiendirektor a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1987-08-07",
+      "endDate": "1990-12-20"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1035538296",
+    "https://de.wikipedia.org/wiki/Walter_Hitschler_%28Politiker%29"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Walter Hitschler",
+    "forename": "Walter",
+    "surname": "Hitschler",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1942-04-13",
+    "place": "Zweibrücken",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2017-07-05",
+    "place": "Zweibrücken",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 11,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1987-08-07",
+      "to": "1990-12-20"
+    },
+    {
+      "period": 12,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1990-12-20",
+      "to": "1994-11-10"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000910",
+    "gnd": "https://d-nb.info/gnd/1035538296",
+    "wikipedia": "https://de.wikipedia.org/wiki/Walter_Hitschler_%28Politiker%29",
+    "viaf": null
+  }
+}

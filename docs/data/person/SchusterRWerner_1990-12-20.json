@@ -1,0 +1,107 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchusterRWerner_1990-12-20",
+  "name": "Werner Schuster",
+  "givenName": "Rudolf Werner",
+  "familyName": "Schuster",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1939-01-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Sanya-Moshi"
+  },
+  "deathDate": "2001-05-10",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Wiesbaden"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Arzt, Medizinischer Informatiker [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-10-26"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1998-10-26",
+      "endDate": "2001-05-10"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1029739684",
+    "https://de.wikipedia.org/wiki/Werner_Schuster_%28Politiker%29"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Werner Schuster",
+    "forename": "Rudolf Werner",
+    "surname": "Schuster",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1939-01-20",
+    "place": "Sanya-Moshi",
+    "country": "Tansania"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2001-05-10",
+    "place": "Wiesbaden",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 12,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1990-12-20",
+      "to": "1994-11-10"
+    },
+    {
+      "period": 13,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1994-11-10",
+      "to": "1998-10-26"
+    },
+    {
+      "period": 14,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1998-10-26",
+      "to": "2001-05-10"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002118",
+    "gnd": "https://d-nb.info/gnd/1029739684",
+    "wikipedia": "https://de.wikipedia.org/wiki/Werner_Schuster_%28Politiker%29",
+    "viaf": null
+  }
+}

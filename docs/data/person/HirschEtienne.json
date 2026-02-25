@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HirschEtienne",
+  "name": "Etienne Hirsch",
+  "givenName": "Etienne",
+  "familyName": "Hirsch",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1901-01-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "deathDate": "1994-05-17",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1959–1962 Präsident der EURATOM"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118934023",
+    "https://de.wikipedia.org/wiki/%C3%89tienne_Hirsch"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Etienne Hirsch",
+    "forename": "Etienne",
+    "surname": "Hirsch",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1901-01-24",
+    "place": "Paris",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1994-05-17",
+    "place": "Paris",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118934023",
+    "wikipedia": "https://de.wikipedia.org/wiki/%C3%89tienne_Hirsch",
+    "viaf": null
+  }
+}

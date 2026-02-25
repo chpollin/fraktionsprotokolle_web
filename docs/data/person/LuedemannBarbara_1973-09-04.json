@@ -1,0 +1,69 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "LuedemannBarbara_1973-09-04",
+  "name": "Barbara Lüdemann",
+  "givenName": "Barbara",
+  "familyName": "Lüdemann",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1922-04-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Wetzlar"
+  },
+  "deathDate": "1992-02-20",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Lehrerin (Oberstudienrätin) [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1973-09-04",
+      "endDate": "1976-12-13"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1098435869"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Barbara Lüdemann",
+    "forename": "Barbara",
+    "surname": "Lüdemann",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1922-04-28",
+    "place": "Wetzlar",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1992-02-20",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 7,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1973-09-04",
+      "to": "1976-12-13"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001389",
+    "gnd": "https://d-nb.info/gnd/1098435869",
+    "wikipedia": null,
+    "viaf": null
+  }
+}

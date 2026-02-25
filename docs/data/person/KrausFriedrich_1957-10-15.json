@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "KrausFriedrich_1957-10-15",
+  "name": "Friedrich Kraus",
+  "givenName": "Friedrich",
+  "familyName": "Kraus",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1903-10-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Barmen (heute: Wuppertal-Barmen)"
+  },
+  "deathDate": "1969-02-21",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Wuppertal"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Modellschreiner [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1957-10-15",
+      "endDate": "1961-10-15"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1339856972",
+    "https://de.wikipedia.org/wiki/Friedrich_Kraus_(Politiker)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Friedrich Kraus",
+    "forename": "Friedrich",
+    "surname": "Kraus",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1903-10-26",
+    "place": "Barmen (heute: Wuppertal-Barmen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1969-02-21",
+    "place": "Wuppertal",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 3,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 4,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001201",
+    "gnd": "https://d-nb.info/gnd/1339856972",
+    "wikipedia": "https://de.wikipedia.org/wiki/Friedrich_Kraus_(Politiker)",
+    "viaf": null
+  }
+}

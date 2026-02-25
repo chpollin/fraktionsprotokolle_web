@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "FilbingerHans",
+  "name": "Hans Filbinger",
+  "givenName": "Hans",
+  "familyName": "Filbinger",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1913-09-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Mannheim"
+  },
+  "deathDate": "2007-04-01",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Freiburg im Breisgau"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1966 – 1978 Ministerpräsident des Landes Baden-Württemberg"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118533037",
+    "https://de.wikipedia.org/wiki/Hans_Filbinger"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans Filbinger",
+    "forename": "Hans",
+    "surname": "Filbinger",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1913-09-15",
+    "place": "Mannheim",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2007-04-01",
+    "place": "Freiburg im Breisgau",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118533037",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Filbinger",
+    "viaf": null
+  }
+}

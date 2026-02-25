@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchneiderUlrich_2011-12-07",
+  "name": "Ulrich Schneider",
+  "givenName": "Ulrich",
+  "familyName": "Schneider",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1972-09-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Sinsheim"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Volkswirt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Bündnis 90/Die Grünen",
+        "alternateName": "B90/Grüne"
+      },
+      "startDate": "2011-12-07",
+      "endDate": "2013-10-22"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Ulrich Schneider",
+    "forename": "Ulrich",
+    "surname": "Schneider",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1972-09-02",
+    "place": "Sinsheim",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 17,
+      "faction": "B90/Grüne",
+      "faction_full": "Fraktion Bündnis 90/Die Grünen",
+      "from": "2011-12-07",
+      "to": "2013-10-22"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11004219",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "KrellmannJutta_2009-10-27",
+  "name": "Jutta Krellmann",
+  "givenName": "Jutta",
+  "familyName": "Krellmann",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1956-01-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Johannisberg"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Gewerkschaftssekretärin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion DIE LINKE.",
+        "alternateName": "LINKE"
+      },
+      "startDate": "2009-10-27",
+      "endDate": "2013-10-22"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion DIE LINKE.",
+        "alternateName": "LINKE"
+      },
+      "startDate": "2013-10-22",
+      "endDate": "2017-10-24"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion DIE LINKE.",
+        "alternateName": "LINKE"
+      },
+      "startDate": "2017-10-24"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Jutta Krellmann",
+    "forename": "Jutta",
+    "surname": "Krellmann",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1956-01-07",
+    "place": "Johannisberg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 17,
+      "faction": "LINKE",
+      "faction_full": "Fraktion DIE LINKE.",
+      "from": "2009-10-27",
+      "to": "2013-10-22"
+    },
+    {
+      "period": 18,
+      "faction": "LINKE",
+      "faction_full": "Fraktion DIE LINKE.",
+      "from": "2013-10-22",
+      "to": "2017-10-24"
+    },
+    {
+      "period": 19,
+      "faction": "LINKE",
+      "faction_full": "Fraktion DIE LINKE.",
+      "from": "2017-10-24",
+      "to": ""
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11004080",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

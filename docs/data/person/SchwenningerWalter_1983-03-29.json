@@ -1,0 +1,69 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchwenningerWalter_1983-03-29",
+  "name": "Walter Schwenninger",
+  "givenName": "Walter",
+  "familyName": "Schwenninger",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1942-08-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "deathDate": "2010-09-24",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Lehrer a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Die Grünen",
+        "alternateName": "Grüne"
+      },
+      "startDate": "1983-03-29",
+      "endDate": "1985-04-16"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/143859323"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Walter Schwenninger",
+    "forename": "Walter",
+    "surname": "Schwenninger",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1942-08-04",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2010-09-24",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 10,
+      "faction": "Grüne",
+      "faction_full": "Fraktion Die Grünen",
+      "from": "1983-03-29",
+      "to": "1985-04-16"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002134",
+    "gnd": "https://d-nb.info/gnd/143859323",
+    "wikipedia": null,
+    "viaf": null
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "FriedrichHans_1949-09-07",
+  "name": "Hans Friedrich",
+  "givenName": "Hans",
+  "familyName": "Friedrich",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1917-02-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Carlsruhe/Oberschlesien (heute: Pokój, Polen)"
+  },
+  "deathDate": "1998-06-25",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Walzbachtal"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Arzt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktionslos",
+        "alternateName": "Fraktionslos"
+      },
+      "startDate": "1950-10-05",
+      "endDate": "1953-09-07"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Deutscher Gemeinschaftsblock der Heimatvertriebenen und Entrechteten",
+        "alternateName": "DG/BHE"
+      },
+      "startDate": "1950-11-16",
+      "endDate": "1953-09-07"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktionslos",
+        "alternateName": "Fraktionslos"
+      },
+      "startDate": "1952-03-21",
+      "endDate": "1953-09-07"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der FDP (Gast)",
+        "alternateName": "FDP (Gast)"
+      },
+      "startDate": "1952-04-02",
+      "endDate": "1953-09-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1246415844",
+    "https://de.wikipedia.org/wiki/Hans_Friedrich_(Politiker,_1917)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans Friedrich",
+    "forename": "Hans",
+    "surname": "Friedrich",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1917-02-02",
+    "place": "Carlsruhe/Oberschlesien (heute: Pokój, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1998-06-25",
+    "place": "Walzbachtal",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 1,
+      "faction": "Fraktionslos",
+      "faction_full": "Fraktionslos",
+      "from": "1950-10-05",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 1,
+      "faction": "DG/BHE",
+      "faction_full": "Fraktion Deutscher Gemeinschaftsblock der Heimatvertriebenen und Entrechteten",
+      "from": "1950-11-16",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 1,
+      "faction": "Fraktionslos",
+      "faction_full": "Fraktionslos",
+      "from": "1952-03-21",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 1,
+      "faction": "FDP (Gast)",
+      "faction_full": "Fraktion der FDP (Gast)",
+      "from": "1952-04-02",
+      "to": "1953-09-07"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000592",
+    "gnd": "https://d-nb.info/gnd/1246415844",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Friedrich_(Politiker,_1917)",
+    "viaf": null
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HennigArno_1949-09-07",
+  "name": "Arno Hennig",
+  "givenName": "Arno",
+  "familyName": "Hennig",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1897-01-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Wolkau"
+  },
+  "deathDate": "1963-07-26",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Schlangenbad"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Lehrer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/116715480",
+    "https://de.wikipedia.org/wiki/Arno_Hennig"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Arno Hennig",
+    "forename": "Arno",
+    "surname": "Hennig",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1897-01-24",
+    "place": "Wolkau",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1963-07-26",
+    "place": "Schlangenbad",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000870",
+    "gnd": "https://d-nb.info/gnd/116715480",
+    "wikipedia": "https://de.wikipedia.org/wiki/Arno_Hennig",
+    "viaf": null
+  }
+}

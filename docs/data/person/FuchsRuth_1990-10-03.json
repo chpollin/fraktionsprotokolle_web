@@ -1,0 +1,124 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "FuchsRuth_1990-10-03",
+  "name": "Ruth Fuchs, geb. Gamm",
+  "givenName": "Ruth",
+  "familyName": "Fuchs",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1946-12-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Egeln/Sachsen-Anhalt"
+  },
+  "deathDate": "2023-09-20",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Jena"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Sportlehrerin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Gruppe der Partei des Demokratischen Sozialismus",
+        "alternateName": "Grp. PDS"
+      },
+      "startDate": "1990-10-03",
+      "endDate": "1990-12-20"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Gruppe der Partei des Demokratischen Sozialismus/Linke Liste",
+        "alternateName": "Grp. PDS/LL"
+      },
+      "startDate": "1992-03-11",
+      "endDate": "1994-11-10"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Gruppe der Partei des Demokratischen Sozialismus",
+        "alternateName": "Grp. PDS"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-10-26"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Partei des Demokratischen Sozialismus",
+        "alternateName": "PDS"
+      },
+      "startDate": "1998-10-26",
+      "endDate": "2002-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1163628824",
+    "https://de.wikipedia.org/wiki/Ruth_Fuchs"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Ruth Fuchs, geb. Gamm",
+    "forename": "Ruth",
+    "surname": "Fuchs",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1946-12-14",
+    "place": "Egeln/Sachsen-Anhalt",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2023-09-20",
+    "place": "Jena",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 11,
+      "faction": "Grp. PDS",
+      "faction_full": "Gruppe der Partei des Demokratischen Sozialismus",
+      "from": "1990-10-03",
+      "to": "1990-12-20"
+    },
+    {
+      "period": 12,
+      "faction": "Grp. PDS/LL",
+      "faction_full": "Gruppe der Partei des Demokratischen Sozialismus/Linke Liste",
+      "from": "1992-03-11",
+      "to": "1994-11-10"
+    },
+    {
+      "period": 13,
+      "faction": "Grp. PDS",
+      "faction_full": "Gruppe der Partei des Demokratischen Sozialismus",
+      "from": "1994-11-10",
+      "to": "1998-10-26"
+    },
+    {
+      "period": 14,
+      "faction": "PDS",
+      "faction_full": "Fraktion der Partei des Demokratischen Sozialismus",
+      "from": "1998-10-26",
+      "to": "2002-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000615",
+    "gnd": "https://d-nb.info/gnd/1163628824",
+    "wikipedia": "https://de.wikipedia.org/wiki/Ruth_Fuchs",
+    "viaf": null
+  }
+}

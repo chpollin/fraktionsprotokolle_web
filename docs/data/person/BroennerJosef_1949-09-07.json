@@ -1,0 +1,107 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BroennerJosef_1949-09-07",
+  "name": "Josef Brönner",
+  "givenName": "Josef",
+  "familyName": "Brönner",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1884-05-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Grünsfeld"
+  },
+  "deathDate": "1958-01-21",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Heidelberg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Landrat a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1957-10-15",
+      "endDate": "1958-01-21"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/126335923",
+    "https://de.wikipedia.org/wiki/Josef_Br%C3%B6nner"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Josef Brönner",
+    "forename": "Josef",
+    "surname": "Brönner",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1884-05-12",
+    "place": "Grünsfeld",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1958-01-21",
+    "place": "Heidelberg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 2,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 3,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1957-10-15",
+      "to": "1958-01-21"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000270",
+    "gnd": "https://d-nb.info/gnd/126335923",
+    "wikipedia": "https://de.wikipedia.org/wiki/Josef_Br%C3%B6nner",
+    "viaf": null
+  }
+}

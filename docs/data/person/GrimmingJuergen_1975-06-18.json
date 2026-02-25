@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "GrimmingJuergen_1975-06-18",
+  "name": "Jürgen Grimming",
+  "givenName": "Jürgen",
+  "familyName": "Grimming",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1938-04-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "2023-09-18",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Rottendorf"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Geschäftsleiter (beurlaubt) [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1975-06-18",
+      "endDate": "1976-12-13"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/132897510X",
+    "https://de.wikipedia.org/wiki/J%C3%BCrgen_Grimming"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Jürgen Grimming",
+    "forename": "Jürgen",
+    "surname": "Grimming",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1938-04-23",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2023-09-18",
+    "place": "Rottendorf",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 7,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1975-06-18",
+      "to": "1976-12-13"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000729",
+    "gnd": "https://d-nb.info/gnd/132897510X",
+    "wikipedia": "https://de.wikipedia.org/wiki/J%C3%BCrgen_Grimming",
+    "viaf": null
+  }
+}

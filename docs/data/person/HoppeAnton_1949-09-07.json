@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HoppeAnton_1949-09-07",
+  "name": "Anton Hoppe",
+  "givenName": "Anton",
+  "familyName": "Hoppe",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1889-02-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Mülheim am Rhein (heute: Köln-Mühlheim)"
+  },
+  "deathDate": "1968-08-11",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Herten"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Schlosser, Landrat [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/111681529X",
+    "https://de.wikipedia.org/wiki/Anton_Hoppe_(Politiker)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Anton Hoppe",
+    "forename": "Anton",
+    "surname": "Hoppe",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1889-02-12",
+    "place": "Mülheim am Rhein (heute: Köln-Mühlheim)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1968-08-11",
+    "place": "Herten",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000954",
+    "gnd": "https://d-nb.info/gnd/111681529X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Anton_Hoppe_(Politiker)",
+    "viaf": null
+  }
+}

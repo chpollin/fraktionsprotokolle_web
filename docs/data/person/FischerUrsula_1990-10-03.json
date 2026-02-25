@@ -1,0 +1,87 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "FischerUrsula_1990-10-03",
+  "name": "Ursula Fischer, geb. Bätz",
+  "givenName": "Ursula",
+  "familyName": "Fischer",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1952-09-06",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Steinach/Thüringen"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Fachärztin für Kinderheilkunde [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Gruppe der Partei des Demokratischen Sozialismus",
+        "alternateName": "Grp. PDS"
+      },
+      "startDate": "1990-10-03",
+      "endDate": "1990-12-20"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Gruppe der Partei des Demokratischen Sozialismus/Linke Liste",
+        "alternateName": "Grp. PDS/LL"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1276236905",
+    "https://de.wikipedia.org/wiki/Ursula_Fischer"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Ursula Fischer, geb. Bätz",
+    "forename": "Ursula",
+    "surname": "Fischer",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1952-09-06",
+    "place": "Steinach/Thüringen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 11,
+      "faction": "Grp. PDS",
+      "faction_full": "Gruppe der Partei des Demokratischen Sozialismus",
+      "from": "1990-10-03",
+      "to": "1990-12-20"
+    },
+    {
+      "period": 12,
+      "faction": "Grp. PDS/LL",
+      "faction_full": "Gruppe der Partei des Demokratischen Sozialismus/Linke Liste",
+      "from": "1990-12-20",
+      "to": "1994-11-10"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000557",
+    "gnd": "https://d-nb.info/gnd/1276236905",
+    "wikipedia": "https://de.wikipedia.org/wiki/Ursula_Fischer",
+    "viaf": null
+  }
+}

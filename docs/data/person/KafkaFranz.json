@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "KafkaFranz",
+  "name": "Franz Kafka",
+  "givenName": "Franz",
+  "familyName": "Kafka",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1883-07-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Prag"
+  },
+  "deathDate": "1924-06-03",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Kierling"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Schriftsteller"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118559230",
+    "https://de.wikipedia.org/wiki/Franz_Kafka"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Franz Kafka",
+    "forename": "Franz",
+    "surname": "Kafka",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1883-07-03",
+    "place": "Prag",
+    "country": "Österreich-Ungarn (heute: Tschechische Republik)"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1924-06-03",
+    "place": "Kierling",
+    "country": "Österreich"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118559230",
+    "wikipedia": "https://de.wikipedia.org/wiki/Franz_Kafka",
+    "viaf": null
+  }
+}

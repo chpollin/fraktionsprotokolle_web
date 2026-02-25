@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchopenhauerArthur",
+  "name": "Arthur Schopenhauer",
+  "givenName": "Arthur",
+  "familyName": "Schopenhauer",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1788-02-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Danzig (heute: Gdańsk, Polen)"
+  },
+  "deathDate": "1860-09-21",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Frankfurt am Main"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Philosoph"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118610465",
+    "https://de.wikipedia.org/wiki/Arthur_Schopenhauer"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Arthur Schopenhauer",
+    "forename": "Arthur",
+    "surname": "Schopenhauer",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1788-02-22",
+    "place": "Danzig (heute: Gdańsk, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1860-09-21",
+    "place": "Frankfurt am Main",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118610465",
+    "wikipedia": "https://de.wikipedia.org/wiki/Arthur_Schopenhauer",
+    "viaf": null
+  }
+}

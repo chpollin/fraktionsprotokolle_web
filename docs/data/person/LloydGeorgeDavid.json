@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "LloydGeorgeDavid",
+  "name": "David Lloyd George",
+  "givenName": "David",
+  "familyName": "Lloyd George",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1863-01-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Manchester"
+  },
+  "deathDate": "1945-03-26",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Llanystumdwy, Caernarfonshire"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1916–1922 britischer Premierminister"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118573675",
+    "https://de.wikipedia.org/wiki/David_Lloyd_George"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "David Lloyd George",
+    "forename": "David",
+    "surname": "Lloyd George",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1863-01-17",
+    "place": "Manchester",
+    "country": "Großbritannien"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1945-03-26",
+    "place": "Llanystumdwy, Caernarfonshire",
+    "country": "Großbritannien"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118573675",
+    "wikipedia": "https://de.wikipedia.org/wiki/David_Lloyd_George",
+    "viaf": null
+  }
+}

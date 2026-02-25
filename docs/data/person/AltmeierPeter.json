@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "AltmeierPeter",
+  "name": "Peter Altmeier",
+  "givenName": "Peter",
+  "familyName": "Altmeier",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1899-08-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Saarbrücken"
+  },
+  "deathDate": "1977-08-28",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Koblenz"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1946–1971 MdL (CDU), 1947–1969 Ministerpräsident des Landes Rheinland-Pfalz"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118648519",
+    "https://de.wikipedia.org/wiki/Peter_Altmeier"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Peter Altmeier",
+    "forename": "Peter",
+    "surname": "Altmeier",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1899-08-12",
+    "place": "Saarbrücken",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1977-08-28",
+    "place": "Koblenz",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118648519",
+    "wikipedia": "https://de.wikipedia.org/wiki/Peter_Altmeier",
+    "viaf": null
+  }
+}

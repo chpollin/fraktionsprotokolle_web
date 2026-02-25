@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SaamHermann_1965-10-19",
+  "name": "Hermann Saam",
+  "givenName": "Hermann",
+  "familyName": "Saam",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1910-03-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Neckarsulm"
+  },
+  "deathDate": "2005-12-22",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bad Wildbad"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Bürgermeister [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1965-10-19",
+      "endDate": "1969-10-19"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1012716627",
+    "https://de.wikipedia.org/wiki/Hermann_Saam"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hermann Saam",
+    "forename": "Hermann",
+    "surname": "Saam",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1910-03-07",
+    "place": "Neckarsulm",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2005-12-22",
+    "place": "Bad Wildbad",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 5,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001910",
+    "gnd": "https://d-nb.info/gnd/1012716627",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hermann_Saam",
+    "viaf": null
+  }
+}

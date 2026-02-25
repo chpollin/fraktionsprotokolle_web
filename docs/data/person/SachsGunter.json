@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SachsGunter",
+  "name": "Gunter Sachs",
+  "givenName": "Gunter",
+  "familyName": "Sachs",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1932-11-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Mainberg bei Schweinfurt"
+  },
+  "deathDate": "2011-05-06",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Gstaad"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutsch-schweizerischer Industriellenerbe"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/119444011",
+    "https://de.wikipedia.org/wiki/Gunter_Sachs"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Gunter Sachs",
+    "forename": "Gunter",
+    "surname": "Sachs",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1932-11-14",
+    "place": "Mainberg bei Schweinfurt",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2011-05-06",
+    "place": "Gstaad",
+    "country": "Schweiz"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/119444011",
+    "wikipedia": "https://de.wikipedia.org/wiki/Gunter_Sachs",
+    "viaf": null
+  }
+}

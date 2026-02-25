@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SteinhoffFritz_1961-10-17",
+  "name": "Fritz Steinhoff",
+  "givenName": "Fritz",
+  "familyName": "Steinhoff",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1897-11-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Wickede"
+  },
+  "deathDate": "1969-10-22",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hagen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1946–1961 MdL NRW (SPD), 1956–1958 Ministerpräsident, 1958–1961 Vorsitzender der SPD-Fraktion im Landtag [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1965-10-19",
+      "endDate": "1969-10-19"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/118617494",
+    "https://de.wikipedia.org/wiki/Fritz_Steinhoff"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Fritz Steinhoff",
+    "forename": "Fritz",
+    "surname": "Steinhoff",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1897-11-23",
+    "place": "Wickede",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1969-10-22",
+    "place": "Hagen",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 4,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    },
+    {
+      "period": 5,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002240",
+    "gnd": "https://d-nb.info/gnd/118617494",
+    "wikipedia": "https://de.wikipedia.org/wiki/Fritz_Steinhoff",
+    "viaf": null
+  }
+}

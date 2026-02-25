@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HusseinSaddam",
+  "name": "Saddam Hussein",
+  "givenName": "Saddam",
+  "familyName": "Hussein",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1937-04-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "al-Audscha bei Tikrit"
+  },
+  "deathDate": "2006-12-30",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "al-Kazimiyya bei Bagdad"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1979–2003 Staatspräsident und gleichzeitig von 1979–1991 sowie 1994–2003 Premierminister des Irak"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118835300",
+    "https://de.wikipedia.org/wiki/Saddam_Hussein"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Saddam Hussein",
+    "forename": "Saddam",
+    "surname": "Hussein",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1937-04-28",
+    "place": "al-Audscha bei Tikrit",
+    "country": "Irak"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2006-12-30",
+    "place": "al-Kazimiyya bei Bagdad",
+    "country": "Irak"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118835300",
+    "wikipedia": "https://de.wikipedia.org/wiki/Saddam_Hussein",
+    "viaf": null
+  }
+}

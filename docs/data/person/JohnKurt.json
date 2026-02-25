@@ -1,0 +1,53 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "JohnKurt",
+  "name": "Kurt John",
+  "givenName": "Kurt",
+  "familyName": "John",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1923-09-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Theley"
+  },
+  "deathDate": "1988-09-10",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Saarbrücken"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1955–1970 MdL des Saarlandes (DPS), 1961–1967 Vizepräsident des Saarländischen Landtages und 1965–1970 Vorsitzender der FDP/DPS-Fraktion"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Kurt_John"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Kurt John",
+    "forename": "Kurt",
+    "surname": "John",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1923-09-15",
+    "place": "Theley",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1988-09-10",
+    "place": "Saarbrücken",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": null,
+    "wikipedia": "https://de.wikipedia.org/wiki/Kurt_John",
+    "viaf": null
+  }
+}

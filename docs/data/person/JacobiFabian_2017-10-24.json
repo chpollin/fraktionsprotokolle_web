@@ -1,0 +1,66 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "JacobiFabian_2017-10-24",
+  "name": "Fabian Jacobi",
+  "givenName": "Fabian",
+  "familyName": "Jacobi",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1973-06-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Münster"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsanwalt, Volljurist [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Alternative für Deutschland",
+        "alternateName": "AfD"
+      },
+      "startDate": "2017-10-24"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Fabian Jacobi",
+    "forename": "Fabian",
+    "surname": "Jacobi",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1973-06-19",
+    "place": "Münster",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 19,
+      "faction": "AfD",
+      "faction_full": "Alternative für Deutschland",
+      "from": "2017-10-24",
+      "to": ""
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11004767",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

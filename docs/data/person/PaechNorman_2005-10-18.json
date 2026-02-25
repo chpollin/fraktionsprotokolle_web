@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "PaechNorman_2005-10-18",
+  "name": "Norman Paech",
+  "givenName": "Norman",
+  "familyName": "Paech",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1938-04-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bremerhaven"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Hochschullehrer, Professor [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion DIE LINKE.",
+        "alternateName": "LINKE"
+      },
+      "startDate": "2005-10-18",
+      "endDate": "2009-10-27"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Norman Paech",
+    "forename": "Norman",
+    "surname": "Paech",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1938-04-12",
+    "place": "Bremerhaven",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 16,
+      "faction": "LINKE",
+      "faction_full": "Fraktion DIE LINKE.",
+      "from": "2005-10-18",
+      "to": "2009-10-27"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11003822",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

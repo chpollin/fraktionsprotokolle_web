@@ -1,0 +1,69 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "KriegerVerena_1987-02-18",
+  "name": "Verena Krieger",
+  "givenName": "Verena",
+  "familyName": "Krieger",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1961-10-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Erlangen"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Studentin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Die Grünen",
+        "alternateName": "Grüne"
+      },
+      "startDate": "1987-02-18",
+      "endDate": "1989-04-04"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/131871609"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Verena Krieger",
+    "forename": "Verena",
+    "surname": "Krieger",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1961-10-18",
+    "place": "Erlangen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 11,
+      "faction": "Grüne",
+      "faction_full": "Fraktion Die Grünen",
+      "from": "1987-02-18",
+      "to": "1989-04-04"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001218",
+    "gnd": "https://d-nb.info/gnd/131871609",
+    "wikipedia": null,
+    "viaf": null
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "LeitowErich_1956-08-03",
+  "name": "Erich Leitow",
+  "givenName": "Erich",
+  "familyName": "Leitow",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1926-04-06",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Ilten"
+  },
+  "deathDate": "2003-05-03",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Braunschweig"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Lehrer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1956-08-03",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1339579545",
+    "https://de.wikipedia.org/wiki/Erich_Leitow"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Erich Leitow",
+    "forename": "Erich",
+    "surname": "Leitow",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1926-04-06",
+    "place": "Ilten",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2003-05-03",
+    "place": "Braunschweig",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1956-08-03",
+      "to": "1957-10-06"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001312",
+    "gnd": "https://d-nb.info/gnd/1339579545",
+    "wikipedia": "https://de.wikipedia.org/wiki/Erich_Leitow",
+    "viaf": null
+  }
+}

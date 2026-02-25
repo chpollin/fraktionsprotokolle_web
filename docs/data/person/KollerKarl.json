@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "KollerKarl",
+  "name": "Karl Koller",
+  "givenName": "Karl",
+  "familyName": "Koller",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1898-02-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Glonn"
+  },
+  "deathDate": "1951-12-22",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Glonn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Generalstabschef der Deutschen Luftwaffe im Zweiten Weltkrieg"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118713817",
+    "https://de.wikipedia.org/wiki/Karl_Koller_(General)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Karl Koller",
+    "forename": "Karl",
+    "surname": "Koller",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1898-02-22",
+    "place": "Glonn",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1951-12-22",
+    "place": "Glonn",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118713817",
+    "wikipedia": "https://de.wikipedia.org/wiki/Karl_Koller_(General)",
+    "viaf": null
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "JoxeLouis",
+  "name": "Louis Joxe",
+  "givenName": "Louis",
+  "familyName": "Joxe",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1901-09-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bourg-la-Reine"
+  },
+  "deathDate": "1991-04-06",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "französischer Diplomat und Politiker"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/117200662",
+    "https://de.wikipedia.org/wiki/Louis_Joxe"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Louis Joxe",
+    "forename": "Louis",
+    "surname": "Joxe",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1901-09-16",
+    "place": "Bourg-la-Reine",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1991-04-06",
+    "place": "Paris",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/117200662",
+    "wikipedia": "https://de.wikipedia.org/wiki/Louis_Joxe",
+    "viaf": null
+  }
+}

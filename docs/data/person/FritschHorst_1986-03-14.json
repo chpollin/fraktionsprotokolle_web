@@ -1,0 +1,69 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "FritschHorst_1986-03-14",
+  "name": "Horst Fritsch",
+  "givenName": "Horst",
+  "familyName": "Fritsch",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1931-05-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "2010-10-17",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Sozialpädagoge [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Die Grünen",
+        "alternateName": "Grüne"
+      },
+      "startDate": "1986-03-14",
+      "endDate": "1987-02-18"
+    }
+  ],
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Horst_Fritsch"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Horst Fritsch",
+    "forename": "Horst",
+    "surname": "Fritsch",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1931-05-02",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2010-10-17",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 10,
+      "faction": "Grüne",
+      "faction_full": "Fraktion Die Grünen",
+      "from": "1986-03-14",
+      "to": "1987-02-18"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000600",
+    "gnd": null,
+    "wikipedia": "https://de.wikipedia.org/wiki/Horst_Fritsch",
+    "viaf": null
+  }
+}

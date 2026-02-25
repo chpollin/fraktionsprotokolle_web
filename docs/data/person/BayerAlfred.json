@@ -1,0 +1,51 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BayerAlfred",
+  "name": "Alfred Bayer",
+  "givenName": "Alfred",
+  "familyName": "Bayer",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1933-03-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1982–1987 Staatssekretär im Bundesverkehrsministerium"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/1012513610",
+    "https://de.wikipedia.org/wiki/Alfred_Bayer_(Staatssekret%C3%A4r)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Alfred Bayer",
+    "forename": "Alfred",
+    "surname": "Bayer",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1933-03-08",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/1012513610",
+    "wikipedia": "https://de.wikipedia.org/wiki/Alfred_Bayer_(Staatssekret%C3%A4r)",
+    "viaf": null
+  }
+}

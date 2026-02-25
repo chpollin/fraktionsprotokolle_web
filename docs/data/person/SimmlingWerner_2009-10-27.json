@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SimmlingWerner_2009-10-27",
+  "name": "Werner Simmling",
+  "givenName": "Werner",
+  "familyName": "Simmling",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1944-09-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Ochsenhausen"
+  },
+  "deathDate": "2019-06-20",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Volkswirt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "2009-10-27",
+      "endDate": "2013-10-22"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Werner Simmling",
+    "forename": "Werner",
+    "surname": "Simmling",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1944-09-27",
+    "place": "Ochsenhausen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2019-06-20",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 17,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "2009-10-27",
+      "to": "2013-10-22"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11004158",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

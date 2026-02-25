@@ -1,0 +1,101 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchlauchRezzo_1994-11-10",
+  "name": "Rezzo Schlauch",
+  "givenName": "Rezzo",
+  "familyName": "Schlauch",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1947-10-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Gerabronn/Ba.-Wü."
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsanwalt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Bündnis 90/Die Grünen",
+        "alternateName": "B90/Grüne"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-10-26"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Bündnis 90/Die Grünen",
+        "alternateName": "B90/Grüne"
+      },
+      "startDate": "1998-10-26",
+      "endDate": "2002-10-17"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Bündnis 90/Die Grünen",
+        "alternateName": "B90/Grüne"
+      },
+      "startDate": "2002-10-17",
+      "endDate": "2005-10-18"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Rezzo Schlauch",
+    "forename": "Rezzo",
+    "surname": "Schlauch",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1947-10-04",
+    "place": "Gerabronn/Ba.-Wü.",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 13,
+      "faction": "B90/Grüne",
+      "faction_full": "Fraktion Bündnis 90/Die Grünen",
+      "from": "1994-11-10",
+      "to": "1998-10-26"
+    },
+    {
+      "period": 14,
+      "faction": "B90/Grüne",
+      "faction_full": "Fraktion Bündnis 90/Die Grünen",
+      "from": "1998-10-26",
+      "to": "2002-10-17"
+    },
+    {
+      "period": 15,
+      "faction": "B90/Grüne",
+      "faction_full": "Fraktion Bündnis 90/Die Grünen",
+      "from": "2002-10-17",
+      "to": "2005-10-18"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002777",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

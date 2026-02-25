@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "KohlGeorg_1949-09-07",
+  "name": "Georg Kohl",
+  "givenName": "Georg",
+  "familyName": "Kohl",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1881-05-30",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "deathDate": "1952-01-31",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Brackenheim"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Redakteur, Verleger, Unternehmer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1952-01-31"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1026225930",
+    "https://de.wikipedia.org/wiki/Georg_Kohl"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Georg Kohl",
+    "forename": "Georg",
+    "surname": "Kohl",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Heilbronn)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1881-05-30",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1952-01-31",
+    "place": "Brackenheim",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1949-09-07",
+      "to": "1952-01-31"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001164",
+    "gnd": "https://d-nb.info/gnd/1026225930",
+    "wikipedia": "https://de.wikipedia.org/wiki/Georg_Kohl",
+    "viaf": null
+  }
+}

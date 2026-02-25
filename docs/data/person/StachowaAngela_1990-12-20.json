@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "StachowaAngela_1990-12-20",
+  "name": "Angela Stachowa, geb. Mirtschink",
+  "givenName": "Angela",
+  "familyName": "Stachowa",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1948-08-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Prag"
+  },
+  "deathDate": "2022-03-29",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Leipzig"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Schriftstellerin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Gruppe der Partei des Demokratischen Sozialismus/Linke Liste",
+        "alternateName": "Grp. PDS/LL"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktionslos",
+        "alternateName": "Fraktionslos"
+      },
+      "startDate": "1994-06-15",
+      "endDate": "1994-11-10"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/172382920",
+    "https://de.wikipedia.org/wiki/Angela_Stachowa"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Angela Stachowa, geb. Mirtschink",
+    "forename": "Angela",
+    "surname": "Stachowa",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1948-08-16",
+    "place": "Prag",
+    "country": "Tschechoslowakei"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2022-03-29",
+    "place": "Leipzig",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 12,
+      "faction": "Grp. PDS/LL",
+      "faction_full": "Gruppe der Partei des Demokratischen Sozialismus/Linke Liste",
+      "from": "1990-12-20",
+      "to": "1994-11-10"
+    },
+    {
+      "period": 12,
+      "faction": "Fraktionslos",
+      "faction_full": "Fraktionslos",
+      "from": "1994-06-15",
+      "to": "1994-11-10"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002211",
+    "gnd": "https://d-nb.info/gnd/172382920",
+    "wikipedia": "https://de.wikipedia.org/wiki/Angela_Stachowa",
+    "viaf": null
+  }
+}

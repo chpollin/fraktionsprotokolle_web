@@ -1,0 +1,107 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HeideJohannKarl_1953-10-06",
+  "name": "Johann Karl Heide",
+  "givenName": "Johann Karl",
+  "familyName": "Heide",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1897-06-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Itzehohe"
+  },
+  "deathDate": "1974-05-03",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Arnsberg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rentner [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1957-10-15",
+      "endDate": "1961-10-15"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1120307368",
+    "https://de.wikipedia.org/wiki/Johann_Karl_Heide"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Johann Karl Heide",
+    "forename": "Johann Karl",
+    "surname": "Heide",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1897-06-20",
+    "place": "Itzehohe",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1974-05-03",
+    "place": "Arnsberg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 3,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 4,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000842",
+    "gnd": "https://d-nb.info/gnd/1120307368",
+    "wikipedia": "https://de.wikipedia.org/wiki/Johann_Karl_Heide",
+    "viaf": null
+  }
+}

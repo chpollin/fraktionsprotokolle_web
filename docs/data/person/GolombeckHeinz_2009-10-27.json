@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "GolombeckHeinz_2009-10-27",
+  "name": "Heinz Golombeck",
+  "givenName": "Heinz",
+  "familyName": "Golombeck",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1948-10-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Magdeburg"
+  },
+  "deathDate": "2023-08-01",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Technischer Angestellter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "2009-10-27",
+      "endDate": "2013-10-22"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1331209560",
+    "https://de.wikipedia.org/wiki/Heinz_Golombeck"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Heinz Golombeck",
+    "forename": "Heinz",
+    "surname": "Golombeck",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1948-10-19",
+    "place": "Magdeburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2023-08-01",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 17,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "2009-10-27",
+      "to": "2013-10-22"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11004042",
+    "gnd": "https://d-nb.info/gnd/1331209560",
+    "wikipedia": "https://de.wikipedia.org/wiki/Heinz_Golombeck",
+    "viaf": null
+  }
+}

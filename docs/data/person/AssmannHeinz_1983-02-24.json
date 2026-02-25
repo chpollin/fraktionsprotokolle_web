@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "AssmannHeinz_1983-02-24",
+  "name": "Heinz Assmann",
+  "givenName": "Heinz",
+  "familyName": "Assmann",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1931-07-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Gelsenkirchen-Buer"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Bezirksleiter, Gewerkschaftssekretär [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1983-02-24",
+      "endDate": "1983-03-29"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Heinz Assmann",
+    "forename": "Heinz",
+    "surname": "Assmann",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1931-07-19",
+    "place": "Gelsenkirchen-Buer",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 9,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1983-02-24",
+      "to": "1983-03-29"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000056",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

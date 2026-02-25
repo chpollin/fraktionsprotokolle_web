@@ -1,0 +1,86 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "ZumpfortWolf-Dieter_1979-04-30",
+  "name": "Wolf-Dieter Zumpfort",
+  "givenName": "Wolf-Dieter",
+  "familyName": "Zumpfort",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1945-05-29",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Niendorf/Krs. Ludwigslust"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Bankangestellter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1979-04-30",
+      "endDate": "1980-11-04"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1980-11-04",
+      "endDate": "1983-03-29"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/170177556"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Wolf-Dieter Zumpfort",
+    "forename": "Wolf-Dieter",
+    "surname": "Zumpfort",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1945-05-29",
+    "place": "Niendorf/Krs. Ludwigslust",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 8,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1979-04-30",
+      "to": "1980-11-04"
+    },
+    {
+      "period": 9,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1980-11-04",
+      "to": "1983-03-29"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002609",
+    "gnd": "https://d-nb.info/gnd/170177556",
+    "wikipedia": null,
+    "viaf": null
+  }
+}

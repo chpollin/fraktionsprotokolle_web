@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "WimmerManfred_1974-09-18",
+  "name": "Manfred Wimmer",
+  "givenName": "Manfred",
+  "familyName": "Wimmer",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1937-03-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Eggenfelden/Bayern"
+  },
+  "deathDate": "1993-01-05",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Verwaltungsamtmann (Sachbearbeiter) [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1974-09-18",
+      "endDate": "1976-12-13"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1980-11-04",
+      "endDate": "1983-03-29"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1324285699",
+    "https://de.wikipedia.org/wiki/Manfred_Wimmer_(Politiker)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Manfred Wimmer",
+    "forename": "Manfred",
+    "surname": "Wimmer",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Eggenfelden)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1937-03-08",
+    "place": "Eggenfelden/Bayern",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1993-01-05",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 7,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1974-09-18",
+      "to": "1976-12-13"
+    },
+    {
+      "period": 9,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1980-11-04",
+      "to": "1983-03-29"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002523",
+    "gnd": "https://d-nb.info/gnd/1324285699",
+    "wikipedia": "https://de.wikipedia.org/wiki/Manfred_Wimmer_(Politiker)",
+    "viaf": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchumannMichael_1990-10-03",
+  "name": "Michael Schumann",
+  "givenName": "Michael",
+  "familyName": "Schumann",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1946-12-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Zella-Mehlis/Thüringen"
+  },
+  "deathDate": "2000-12-02",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Mitglied der Volkskammer, Professor, Diplomphilosoph [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Gruppe der Partei des Demokratischen Sozialismus",
+        "alternateName": "Grp. PDS"
+      },
+      "startDate": "1990-10-03",
+      "endDate": "1990-12-20"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Michael Schumann",
+    "forename": "Michael",
+    "surname": "Schumann",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Potsdam)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1946-12-24",
+    "place": "Zella-Mehlis/Thüringen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2000-12-02",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 11,
+      "faction": "Grp. PDS",
+      "faction_full": "Gruppe der Partei des Demokratischen Sozialismus",
+      "from": "1990-10-03",
+      "to": "1990-12-20"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002115",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

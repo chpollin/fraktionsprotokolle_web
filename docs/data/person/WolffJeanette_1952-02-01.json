@@ -1,0 +1,117 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "WolffJeanette_1952-02-01",
+  "name": "Jeanette Wolff",
+  "givenName": "Jeanette",
+  "familyName": "Wolff",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1888-06-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bocholt"
+  },
+  "deathDate": "1976-05-19",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "West-Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Verwaltungsangestellte [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1952-02-01",
+      "endDate": "1953-09-07"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1957-10-15",
+      "endDate": "1961-10-15"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/118634801",
+    "https://de.wikipedia.org/wiki/Jeanette_Wolff"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Jeanette Wolff",
+    "forename": "Jeanette",
+    "surname": "Wolff",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1888-06-22",
+    "place": "Bocholt",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1976-05-19",
+    "place": "West-Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1952-02-01",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 2,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 3,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002556",
+    "gnd": "https://d-nb.info/gnd/118634801",
+    "wikipedia": "https://de.wikipedia.org/wiki/Jeanette_Wolff",
+    "viaf": null
+  },
+  "fraktionsprotokolle:alt_names": [
+    {
+      "reg": "Jeanette Wolff, geb. Cohen",
+      "forename": "Jeanette",
+      "surname": "Wolff",
+      "prefix": "",
+      "role_name": "",
+      "place": "(Berlin)"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "PohlenzHans-Juergen_1963-09-30",
+  "name": "Hans-Jürgen Pohlenz",
+  "givenName": "Hans-Jürgen",
+  "familyName": "Pohlenz",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1927-01-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Frankfurt/Oder"
+  },
+  "deathDate": "2020-12-16",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Kreisveterrinärrat [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1963-09-30",
+      "endDate": "1965-06-10"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1339768801",
+    "https://de.wikipedia.org/wiki/Hans-J%C3%BCrgen_Pohlenz"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans-Jürgen Pohlenz",
+    "forename": "Hans-Jürgen",
+    "surname": "Pohlenz",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1927-01-25",
+    "place": "Frankfurt/Oder",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2020-12-16",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 4,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1963-09-30",
+      "to": "1965-06-10"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001730",
+    "gnd": "https://d-nb.info/gnd/1339768801",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans-J%C3%BCrgen_Pohlenz",
+    "viaf": null
+  }
+}

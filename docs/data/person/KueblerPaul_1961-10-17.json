@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "KueblerPaul_1961-10-17",
+  "name": "Paul Kübler",
+  "givenName": "Paul",
+  "familyName": "Kübler",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1922-12-30",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Mannheim"
+  },
+  "deathDate": "1969-08-09",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Tegernsee"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Studienrat [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1965-10-19",
+      "endDate": "1969-08-09"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1046442112",
+    "https://de.wikipedia.org/wiki/Paul_K%C3%BCbler"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Paul Kübler",
+    "forename": "Paul",
+    "surname": "Kübler",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1922-12-30",
+    "place": "Mannheim",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1969-08-09",
+    "place": "Tegernsee",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 4,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    },
+    {
+      "period": 5,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1965-10-19",
+      "to": "1969-08-09"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001239",
+    "gnd": "https://d-nb.info/gnd/1046442112",
+    "wikipedia": "https://de.wikipedia.org/wiki/Paul_K%C3%BCbler",
+    "viaf": null
+  }
+}

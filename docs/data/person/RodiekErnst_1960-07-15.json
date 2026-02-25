@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "RodiekErnst_1960-07-15",
+  "name": "Ernst Rodiek",
+  "givenName": "Ernst",
+  "familyName": "Rodiek",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1903-02-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Oldenburg-Ostenburg"
+  },
+  "deathDate": "1980-12-20",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Delmenhorst"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Technischer Kaufmann [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1960-07-15",
+      "endDate": "1961-10-15"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1116659905",
+    "https://de.wikipedia.org/wiki/Ernst_Rodiek"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Ernst Rodiek",
+    "forename": "Ernst",
+    "surname": "Rodiek",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1903-02-09",
+    "place": "Oldenburg-Ostenburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1980-12-20",
+    "place": "Delmenhorst",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 3,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1960-07-15",
+      "to": "1961-10-15"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001865",
+    "gnd": "https://d-nb.info/gnd/1116659905",
+    "wikipedia": "https://de.wikipedia.org/wiki/Ernst_Rodiek",
+    "viaf": null
+  }
+}

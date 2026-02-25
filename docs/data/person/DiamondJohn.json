@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "DiamondJohn",
+  "name": "John Diamond",
+  "givenName": "John",
+  "familyName": "Diamond",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1907-04-30",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Leeds"
+  },
+  "deathDate": "2004-04-03",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Little Chalfont, Buckinghamshire"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1964–1970 Chefsekretär im britischen Schatzamt"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/1029793808",
+    "https://de.wikipedia.org/wiki/John_Diamond,_Baron_Diamond"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "John Diamond",
+    "forename": "John",
+    "surname": "Diamond",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1907-04-30",
+    "place": "Leeds",
+    "country": "Großbritannien"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2004-04-03",
+    "place": "Little Chalfont, Buckinghamshire",
+    "country": "Großbritannien"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/1029793808",
+    "wikipedia": "https://de.wikipedia.org/wiki/John_Diamond,_Baron_Diamond",
+    "viaf": null
+  }
+}

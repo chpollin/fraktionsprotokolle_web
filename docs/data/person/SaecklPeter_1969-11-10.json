@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SaecklPeter_1969-11-10",
+  "name": "Peter Säckl",
+  "givenName": "Peter",
+  "familyName": "Säckl",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1939-10-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kassel-Harleshausen"
+  },
+  "deathDate": "2017-09-19",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Architekt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1969-11-10",
+      "endDate": "1972-09-22"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1248414446",
+    "https://de.wikipedia.org/wiki/Peter_S%C3%A4ckl"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Peter Säckl",
+    "forename": "Peter",
+    "surname": "Säckl",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1939-10-08",
+    "place": "Kassel-Harleshausen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2017-09-19",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 6,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1969-11-10",
+      "to": "1972-09-22"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001913",
+    "gnd": "https://d-nb.info/gnd/1248414446",
+    "wikipedia": "https://de.wikipedia.org/wiki/Peter_S%C3%A4ckl",
+    "viaf": null
+  }
+}

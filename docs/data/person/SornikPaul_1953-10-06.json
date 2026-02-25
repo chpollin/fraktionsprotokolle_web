@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SornikPaul_1953-10-06",
+  "name": "Paul Sornik",
+  "givenName": "Paul",
+  "familyName": "Sornik",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1900-04-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Myslowitz/Oberschlesien (heute: Mysłowice, Polen)"
+  },
+  "deathDate": "1982-03-21",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Regierungs- u.Schulrat z. Wv. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Gesamtdeutscher Block/Block der Heimatvertriebenen und Entrechteten",
+        "alternateName": "GB/BHE"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/135985757",
+    "https://de.wikipedia.org/wiki/Paul_Sornik"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Paul Sornik",
+    "forename": "Paul",
+    "surname": "Sornik",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1900-04-26",
+    "place": "Myslowitz/Oberschlesien (heute: Mysłowice, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1982-03-21",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "GB/BHE",
+      "faction_full": "Fraktion Gesamtdeutscher Block/Block der Heimatvertriebenen und Entrechteten",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002194",
+    "gnd": "https://d-nb.info/gnd/135985757",
+    "wikipedia": "https://de.wikipedia.org/wiki/Paul_Sornik",
+    "viaf": null
+  }
+}

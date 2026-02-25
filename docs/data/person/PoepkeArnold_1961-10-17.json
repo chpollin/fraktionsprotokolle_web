@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "PoepkeArnold_1961-10-17",
+  "name": "Arnold Poepke",
+  "givenName": "Arnold",
+  "familyName": "Poepke",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1901-11-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kaminsker-Hauland/Posen (heute: Kamionka, Polen)"
+  },
+  "deathDate": "1989-07-14",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Northeim"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Volkswirt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/125907281",
+    "https://de.wikipedia.org/wiki/Arnold_Poepke"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Arnold Poepke",
+    "forename": "Arnold",
+    "surname": "Poepke",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1901-11-25",
+    "place": "Kaminsker-Hauland/Posen (heute: Kamionka, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1989-07-14",
+    "place": "Northeim",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 4,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001724",
+    "gnd": "https://d-nb.info/gnd/125907281",
+    "wikipedia": "https://de.wikipedia.org/wiki/Arnold_Poepke",
+    "viaf": null
+  }
+}

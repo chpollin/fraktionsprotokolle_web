@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "AschoffAlbrecht_1961-10-17",
+  "name": "Albrecht Aschoff",
+  "givenName": "Albrecht",
+  "familyName": "Aschoff",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1899-04-11",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "1972-08-11",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bad Neuenahr-Ahrweiler"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsanwalt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/100996841",
+    "https://de.wikipedia.org/wiki/Albrecht_Aschoff"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Albrecht Aschoff",
+    "forename": "Albrecht",
+    "surname": "Aschoff",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1899-04-11",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1972-08-11",
+    "place": "Bad Neuenahr-Ahrweiler",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 4,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000055",
+    "gnd": "https://d-nb.info/gnd/100996841",
+    "wikipedia": "https://de.wikipedia.org/wiki/Albrecht_Aschoff",
+    "viaf": null
+  }
+}

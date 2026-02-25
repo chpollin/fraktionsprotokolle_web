@@ -1,0 +1,87 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "KrziskewitzReiner_1990-12-20",
+  "name": "Reiner Krziskewitz",
+  "givenName": "Reiner",
+  "familyName": "Krziskewitz",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1942-09-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Oschersleben"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Buchhändler [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-10-26"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1322537429",
+    "https://de.wikipedia.org/wiki/Reiner_Krziskewitz"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Reiner Krziskewitz",
+    "forename": "Reiner",
+    "surname": "Krziskewitz",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1942-09-19",
+    "place": "Oschersleben",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 12,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1990-12-20",
+      "to": "1994-11-10"
+    },
+    {
+      "period": 13,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1994-11-10",
+      "to": "1998-10-26"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001233",
+    "gnd": "https://d-nb.info/gnd/1322537429",
+    "wikipedia": "https://de.wikipedia.org/wiki/Reiner_Krziskewitz",
+    "viaf": null
+  }
+}

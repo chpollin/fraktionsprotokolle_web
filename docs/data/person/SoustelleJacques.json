@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SoustelleJacques",
+  "name": "Jacques Soustelle",
+  "givenName": "Jacques",
+  "familyName": "Soustelle",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1912-02-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Montpellier"
+  },
+  "deathDate": "1990-08-06",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Neuilly-sur-Seine"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1958/59 französischer Informationsminister"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118798138",
+    "https://de.wikipedia.org/wiki/Jacques_Soustelle"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Jacques Soustelle",
+    "forename": "Jacques",
+    "surname": "Soustelle",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1912-02-03",
+    "place": "Montpellier",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1990-08-06",
+    "place": "Neuilly-sur-Seine",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118798138",
+    "wikipedia": "https://de.wikipedia.org/wiki/Jacques_Soustelle",
+    "viaf": null
+  }
+}

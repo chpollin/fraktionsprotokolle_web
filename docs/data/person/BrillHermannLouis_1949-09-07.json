@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BrillHermannLouis_1949-09-07",
+  "name": "Hermann Louis Brill",
+  "givenName": "Hermann Louis",
+  "familyName": "Brill",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1895-02-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Graefenroda"
+  },
+  "deathDate": "1959-06-22",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Wiesbaden"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Lehrer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/119072688",
+    "https://de.wikipedia.org/wiki/Hermann_Brill"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hermann Louis Brill",
+    "forename": "Hermann Louis",
+    "surname": "Brill",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1895-02-09",
+    "place": "Graefenroda",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1959-06-22",
+    "place": "Wiesbaden",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000267",
+    "gnd": "https://d-nb.info/gnd/119072688",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hermann_Brill",
+    "viaf": null
+  }
+}

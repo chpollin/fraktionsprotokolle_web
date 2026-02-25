@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "OsswaldKlaus-Dieter_1980-11-04",
+  "name": "Klaus-Dieter Osswald",
+  "givenName": "Klaus-Dieter",
+  "familyName": "Osswald",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1937-05-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Schönau/Schwarzwald"
+  },
+  "deathDate": "2023-10-28",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Freudenstadt"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Professor an einer wissenschaftlichen Hochschule [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1980-11-04",
+      "endDate": "1983-03-29"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1988-06-06",
+      "endDate": "1990-12-20"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/171529634",
+    "https://de.wikipedia.org/wiki/Klaus-Dieter_Osswald"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Klaus-Dieter Osswald",
+    "forename": "Klaus-Dieter",
+    "surname": "Osswald",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1937-05-13",
+    "place": "Schönau/Schwarzwald",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2023-10-28",
+    "place": "Freudenstadt",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 9,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1980-11-04",
+      "to": "1983-03-29"
+    },
+    {
+      "period": 11,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1988-06-06",
+      "to": "1990-12-20"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001658",
+    "gnd": "https://d-nb.info/gnd/171529634",
+    "wikipedia": "https://de.wikipedia.org/wiki/Klaus-Dieter_Osswald",
+    "viaf": null
+  }
+}

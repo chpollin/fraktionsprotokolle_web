@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "StobbeDietrich_1983-03-29",
+  "name": "Dietrich Stobbe",
+  "givenName": "Dietrich",
+  "familyName": "Stobbe",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1938-03-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Weepers, Ostpreußen (heute: Wieprz, Polen)"
+  },
+  "deathDate": "2011-02-19",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Diplom Politologe [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1983-03-29",
+      "endDate": "1987-02-18"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1987-02-18",
+      "endDate": "1990-12-20"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/109151747",
+    "https://de.wikipedia.org/wiki/Dietrich_Stobbe"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Dietrich Stobbe",
+    "forename": "Dietrich",
+    "surname": "Stobbe",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1938-03-25",
+    "place": "Weepers, Ostpreußen (heute: Wieprz, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2011-02-19",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 10,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1983-03-29",
+      "to": "1987-02-18"
+    },
+    {
+      "period": 11,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1987-02-18",
+      "to": "1990-12-20"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002253",
+    "gnd": "https://d-nb.info/gnd/109151747",
+    "wikipedia": "https://de.wikipedia.org/wiki/Dietrich_Stobbe",
+    "viaf": null
+  }
+}

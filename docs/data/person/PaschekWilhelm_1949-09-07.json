@@ -1,0 +1,141 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "PaschekWilhelm_1949-09-07",
+  "name": "Wilhelm Paschek",
+  "givenName": "Wilhelm",
+  "familyName": "Paschek",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1897-06-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Heilbrunn, Böhmen (heute: Hojná Voda, Tschechische Republik)"
+  },
+  "deathDate": "1952-04-22",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Burgkunstadt"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Lehrer, Landwirt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Wirtschaftliche Aufbauvereinigung",
+        "alternateName": "WAV"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1952-04-22"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion DRP (Gast)",
+        "alternateName": "DRP (Gast)"
+      },
+      "startDate": "1950-03-28",
+      "endDate": "1952-04-22"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktionslos",
+        "alternateName": "Fraktionslos"
+      },
+      "startDate": "1950-10-05",
+      "endDate": "1952-04-22"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Wirtschaftliche Aufbauvereinigung",
+        "alternateName": "WAV"
+      },
+      "startDate": "1951-01-30",
+      "endDate": "1952-04-22"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Deutsche Partei Bayern",
+        "alternateName": "DPB"
+      },
+      "startDate": "1951-12-06",
+      "endDate": "1952-04-22"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1100197540",
+    "https://de.wikipedia.org/wiki/Wilhelm_Paschek"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Wilhelm Paschek",
+    "forename": "Wilhelm",
+    "surname": "Paschek",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1897-06-09",
+    "place": "Heilbrunn, Böhmen (heute: Hojná Voda, Tschechische Republik)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1952-04-22",
+    "place": "Burgkunstadt",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "WAV",
+      "faction_full": "Fraktion Wirtschaftliche Aufbauvereinigung",
+      "from": "1949-09-07",
+      "to": "1952-04-22"
+    },
+    {
+      "period": 1,
+      "faction": "DRP (Gast)",
+      "faction_full": "Fraktion DRP (Gast)",
+      "from": "1950-03-28",
+      "to": "1952-04-22"
+    },
+    {
+      "period": 1,
+      "faction": "Fraktionslos",
+      "faction_full": "Fraktionslos",
+      "from": "1950-10-05",
+      "to": "1952-04-22"
+    },
+    {
+      "period": 1,
+      "faction": "WAV",
+      "faction_full": "Fraktion Wirtschaftliche Aufbauvereinigung",
+      "from": "1951-01-30",
+      "to": "1952-04-22"
+    },
+    {
+      "period": 1,
+      "faction": "DPB",
+      "faction_full": "Fraktion Deutsche Partei Bayern",
+      "from": "1951-12-06",
+      "to": "1952-04-22"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001678",
+    "gnd": "https://d-nb.info/gnd/1100197540",
+    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_Paschek",
+    "viaf": null
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "LisztFranzvon",
+  "name": "Franz von Liszt",
+  "givenName": "Franz",
+  "familyName": "Liszt",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1851-03-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Wien"
+  },
+  "deathDate": "1919-06-21",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Seeheim"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1898–1917 Professor für Strafrecht und Völkerrecht an der Berliner Universität, Abgeordneter der Fortschrittlichen Volkspartei im Preußischen Abgeordnetenhaus und im Reichstag"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118573519",
+    "https://de.wikipedia.org/wiki/Franz_von_Liszt"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Franz von Liszt",
+    "forename": "Franz",
+    "surname": "Liszt",
+    "prefix": "von",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1851-03-02",
+    "place": "Wien",
+    "country": "Österreich"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1919-06-21",
+    "place": "Seeheim",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118573519",
+    "wikipedia": "https://de.wikipedia.org/wiki/Franz_von_Liszt",
+    "viaf": null
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "FrankenPaul",
+  "name": "Paul Franken",
+  "givenName": "Paul",
+  "familyName": "Franken",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1903-12-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Mönchengladbach"
+  },
+  "deathDate": "1984-12-15",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1952–1968 Direktor der Bundeszentrale für Heimatdienst bzw. für politische Bildung"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/1011494442",
+    "https://de.wikipedia.org/wiki/Paul_Franken_(Historiker)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Paul Franken",
+    "forename": "Paul",
+    "surname": "Franken",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1903-12-19",
+    "place": "Mönchengladbach",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1984-12-15",
+    "place": "Bonn",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/1011494442",
+    "wikipedia": "https://de.wikipedia.org/wiki/Paul_Franken_(Historiker)",
+    "viaf": null
+  }
+}

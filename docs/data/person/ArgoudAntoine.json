@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "ArgoudAntoine",
+  "name": "Antoine Argoud",
+  "givenName": "Antoine",
+  "familyName": "Argoud",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1914-06-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Darney"
+  },
+  "deathDate": "2004-06-10",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Vittel"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Mitglied der »Organisation de l’Armée Secrète«, ehemaliger französischer Oberst, 1963 aus München nach Frankreich entführt"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/11925297X",
+    "https://de.wikipedia.org/wiki/Antoine_Argoud"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Antoine Argoud",
+    "forename": "Antoine",
+    "surname": "Argoud",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1914-06-26",
+    "place": "Darney",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2004-06-10",
+    "place": "Vittel",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/11925297X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Antoine_Argoud",
+    "viaf": null
+  }
+}

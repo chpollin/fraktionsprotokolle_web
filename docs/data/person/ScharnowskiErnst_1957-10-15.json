@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "ScharnowskiErnst_1957-10-15",
+  "name": "Ernst Scharnowski",
+  "givenName": "Ernst",
+  "familyName": "Scharnowski",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1896-12-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Preußisch Eylau, Ostpreußen (heute: Bagrationowsk, Russland)"
+  },
+  "deathDate": "1985-03-09",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "West-Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Gewerkschaftsangestellter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1957-10-15",
+      "endDate": "1961-10-15"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1050522664",
+    "https://de.wikipedia.org/wiki/Ernst_Scharnowski"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Ernst Scharnowski",
+    "forename": "Ernst",
+    "surname": "Scharnowski",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1896-12-05",
+    "place": "Preußisch Eylau, Ostpreußen (heute: Bagrationowsk, Russland)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1985-03-09",
+    "place": "West-Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 3,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001944",
+    "gnd": "https://d-nb.info/gnd/1050522664",
+    "wikipedia": "https://de.wikipedia.org/wiki/Ernst_Scharnowski",
+    "viaf": null
+  }
+}

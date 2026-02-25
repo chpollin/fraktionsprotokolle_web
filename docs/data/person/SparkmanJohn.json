@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SparkmanJohn",
+  "name": "John Sparkman",
+  "givenName": "John Jackson",
+  "familyName": "Sparkman",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1899-12-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hartselle, Morgan County, Alabama"
+  },
+  "deathDate": "1985-11-16",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Huntsville, Alabama"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1946–1979 Senator des US-amerikanischen Bundesstaates Alabama"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/John_Sparkman",
+    "https://viaf.org/viaf/65283866"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "John Sparkman",
+    "forename": "John Jackson",
+    "surname": "Sparkman",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1899-12-20",
+    "place": "Hartselle, Morgan County, Alabama",
+    "country": "USA"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1985-11-16",
+    "place": "Huntsville, Alabama",
+    "country": "USA"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": null,
+    "wikipedia": "https://de.wikipedia.org/wiki/John_Sparkman",
+    "viaf": "https://viaf.org/viaf/65283866"
+  }
+}

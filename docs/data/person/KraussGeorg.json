@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "KraussGeorg",
+  "name": "Georg Krauß",
+  "givenName": "Georg",
+  "familyName": "Krauß",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1915-08-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Langenzenn"
+  },
+  "deathDate": "1973-06-01",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Langenzenn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "MdL (CSU)"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/101415653X",
+    "https://de.wikipedia.org/wiki/Georg_Krau%C3%9F_(Politiker)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Georg Krauß",
+    "forename": "Georg",
+    "surname": "Krauß",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1915-08-23",
+    "place": "Langenzenn",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1973-06-01",
+    "place": "Langenzenn",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/101415653X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Georg_Krau%C3%9F_(Politiker)",
+    "viaf": null
+  }
+}

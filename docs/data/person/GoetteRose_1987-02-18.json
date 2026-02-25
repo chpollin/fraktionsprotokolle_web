@@ -1,0 +1,87 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "GoetteRose_1987-02-18",
+  "name": "Rose Götte, geb. Wennberg",
+  "givenName": "Rose",
+  "familyName": "Götte",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1938-03-21",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Cleebronn/Württemberg"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Wissenschaftliche Mitarbeiterin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1987-02-18",
+      "endDate": "1990-12-20"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1991-06-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/120800667",
+    "https://de.wikipedia.org/wiki/Rose_G%C3%B6tte"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Rose Götte, geb. Wennberg",
+    "forename": "Rose",
+    "surname": "Götte",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1938-03-21",
+    "place": "Cleebronn/Württemberg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 11,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1987-02-18",
+      "to": "1990-12-20"
+    },
+    {
+      "period": 12,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1990-12-20",
+      "to": "1991-06-07"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000701",
+    "gnd": "https://d-nb.info/gnd/120800667",
+    "wikipedia": "https://de.wikipedia.org/wiki/Rose_G%C3%B6tte",
+    "viaf": null
+  }
+}

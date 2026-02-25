@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HeinUdo_1965-10-19",
+  "name": "Udo Hein",
+  "givenName": "Udo",
+  "familyName": "Hein",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1914-12-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hirschberg, Provinz Schlesien (heute: Jelenia Góra, Polen)"
+  },
+  "deathDate": "1971-01-19",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Luxemburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Staatssekretär a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1965-10-19",
+      "endDate": "1966-12-22"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1969-10-20",
+      "endDate": "1971-01-19"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1030423687",
+    "https://de.wikipedia.org/wiki/Udo_Hein"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Udo Hein",
+    "forename": "Udo",
+    "surname": "Hein",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1914-12-27",
+    "place": "Hirschberg, Provinz Schlesien (heute: Jelenia Góra, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1971-01-19",
+    "place": "Luxemburg",
+    "country": "Luxemburg"
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 5,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1965-10-19",
+      "to": "1966-12-22"
+    },
+    {
+      "period": 6,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1969-10-20",
+      "to": "1971-01-19"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000847",
+    "gnd": "https://d-nb.info/gnd/1030423687",
+    "wikipedia": "https://de.wikipedia.org/wiki/Udo_Hein",
+    "viaf": null
+  }
+}

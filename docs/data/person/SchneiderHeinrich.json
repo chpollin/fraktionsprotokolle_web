@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchneiderHeinrich",
+  "name": "Heinrich Schneider",
+  "givenName": "Heinrich",
+  "familyName": "Schneider",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1905-11-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Dorlar"
+  },
+  "deathDate": "1980-01-22",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Wiesbaden"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1946–1971 MdL Hessen (SPD), 1955–1969 hessischer Innenminister, Präsident der Deutsch-Jugoslawischen Gesellschaft"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/1120307120",
+    "https://de.wikipedia.org/wiki/Heinrich_Schneider_(Politiker,_1905)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Heinrich Schneider",
+    "forename": "Heinrich",
+    "surname": "Schneider",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1905-11-09",
+    "place": "Dorlar",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1980-01-22",
+    "place": "Wiesbaden",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/1120307120",
+    "wikipedia": "https://de.wikipedia.org/wiki/Heinrich_Schneider_(Politiker,_1905)",
+    "viaf": null
+  }
+}

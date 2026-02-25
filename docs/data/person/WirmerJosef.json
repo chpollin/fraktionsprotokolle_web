@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "WirmerJosef",
+  "name": "Josef Wirmer",
+  "givenName": "Josef",
+  "familyName": "Wirmer",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1901-03-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Paderborn"
+  },
+  "deathDate": "1944-09-08",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin-Plötzensee"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Jurist, Zentrum, wegen Widerstands gegen den Nationalsozialismus hingerichtet"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/11881818X",
+    "https://de.wikipedia.org/wiki/Josef_Wirmer"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Josef Wirmer",
+    "forename": "Josef",
+    "surname": "Wirmer",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1901-03-19",
+    "place": "Paderborn",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1944-09-08",
+    "place": "Berlin-Plötzensee",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/11881818X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Josef_Wirmer",
+    "viaf": null
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BusseHermann_1961-10-17",
+  "name": "Hermann Busse",
+  "givenName": "Hermann",
+  "familyName": "Busse",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1903-11-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Lübbecke"
+  },
+  "deathDate": "1970-01-27",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hemer"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsanwalt und Notar [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1965-10-19",
+      "endDate": "1969-10-19"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1023862107",
+    "https://de.wikipedia.org/wiki/Hermann_Busse_(Politiker)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hermann Busse",
+    "forename": "Hermann",
+    "surname": "Busse",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1903-11-23",
+    "place": "Lübbecke",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1970-01-27",
+    "place": "Hemer",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 4,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    },
+    {
+      "period": 5,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000316",
+    "gnd": "https://d-nb.info/gnd/1023862107",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hermann_Busse_(Politiker)",
+    "viaf": null
+  },
+  "fraktionsprotokolle:alt_names": [
+    {
+      "reg": "Hermann Busse",
+      "forename": "Hermann",
+      "surname": "Busse",
+      "prefix": "",
+      "role_name": "",
+      "place": "(Herford)"
+    }
+  ]
+}

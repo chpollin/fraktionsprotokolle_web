@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchwedlerRolf_1972-12-13",
+  "name": "Rolf Schwedler",
+  "givenName": "Rolf",
+  "familyName": "Schwedler",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1914-03-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "1981-02-13",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "West-Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Ingenieur, 1959–1971 MdA Berlin (SPD), 1955–1972 Berliner Senator für Bau- und Wohnungswesen [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1972-12-13",
+      "endDate": "1976-12-13"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/107450402",
+    "https://de.wikipedia.org/wiki/Rolf_Schwedler"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Rolf Schwedler",
+    "forename": "Rolf",
+    "surname": "Schwedler",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1914-03-25",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1981-02-13",
+    "place": "West-Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 7,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1972-12-13",
+      "to": "1976-12-13"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002130",
+    "gnd": "https://d-nb.info/gnd/107450402",
+    "wikipedia": "https://de.wikipedia.org/wiki/Rolf_Schwedler",
+    "viaf": null
+  }
+}

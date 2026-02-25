@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "LangHugo",
+  "name": "Hugo Lang",
+  "givenName": "Hugo",
+  "familyName": "Lang",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1892-12-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Rottenburg an der Laaber"
+  },
+  "deathDate": "1967-06-01",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Abt im Kloster St. Bonifaz und Kloster Andechs"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/116684437",
+    "https://de.wikipedia.org/wiki/Hugo_Lang"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Hugo Lang",
+    "forename": "Hugo",
+    "surname": "Lang",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1892-12-03",
+    "place": "Rottenburg an der Laaber",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1967-06-01",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/116684437",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hugo_Lang",
+    "viaf": null
+  }
+}

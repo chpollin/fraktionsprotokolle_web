@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "JordanHans-Heinrich_2005-10-18",
+  "name": "Hans-Heinrich Jordan",
+  "givenName": "Hans-Heinrich",
+  "familyName": "Jordan",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1948-09-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Jübar"
+  },
+  "deathDate": "2019-06-18",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Agraringenieur [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "2005-10-18",
+      "endDate": "2009-10-27"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans-Heinrich Jordan",
+    "forename": "Hans-Heinrich",
+    "surname": "Jordan",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1948-09-26",
+    "place": "Jübar",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2019-06-18",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 16,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "2005-10-18",
+      "to": "2009-10-27"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11003778",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "WolffHartfrid_2005-10-18",
+  "name": "Hartfrid Wolff",
+  "givenName": "Hartfrid",
+  "familyName": "Wolff",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1971-01-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Basel"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsanwalt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "2005-10-18",
+      "endDate": "2009-10-27"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "2009-10-27",
+      "endDate": "2013-10-22"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hartfrid Wolff",
+    "forename": "Hartfrid",
+    "surname": "Wolff",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Rems-Murr)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1971-01-28",
+    "place": "Basel",
+    "country": "Schweiz"
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 16,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "2005-10-18",
+      "to": "2009-10-27"
+    },
+    {
+      "period": 17,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "2009-10-27",
+      "to": "2013-10-22"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11003866",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

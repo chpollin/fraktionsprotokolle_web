@@ -1,0 +1,107 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchonhofenFriedrich_1965-10-19",
+  "name": "Friedrich Schonhofen",
+  "givenName": "Friedrich",
+  "familyName": "Schonhofen",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1921-09-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hille"
+  },
+  "deathDate": "1984-07-03",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Minden"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Geschäftsführer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1965-10-19",
+      "endDate": "1969-10-19"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1969-10-20",
+      "endDate": "1972-09-22"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1972-12-13",
+      "endDate": "1976-12-13"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1120413648",
+    "https://de.wikipedia.org/wiki/Friedrich_Schonhofen"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Friedrich Schonhofen",
+    "forename": "Friedrich",
+    "surname": "Schonhofen",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1921-09-22",
+    "place": "Hille",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1984-07-03",
+    "place": "Minden",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 5,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    },
+    {
+      "period": 6,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1969-10-20",
+      "to": "1972-09-22"
+    },
+    {
+      "period": 7,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1972-12-13",
+      "to": "1976-12-13"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002064",
+    "gnd": "https://d-nb.info/gnd/1120413648",
+    "wikipedia": "https://de.wikipedia.org/wiki/Friedrich_Schonhofen",
+    "viaf": null
+  }
+}

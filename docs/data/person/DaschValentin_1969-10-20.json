@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "DaschValentin_1969-10-20",
+  "name": "Valentin Dasch",
+  "givenName": "Valentin",
+  "familyName": "Dasch",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1930-05-01",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Irl/Landkrs. Mühldorf"
+  },
+  "deathDate": "1981-08-02",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Zangberg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Agrarreferent, Angestellter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1969-10-20",
+      "endDate": "1972-09-15"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/133414558",
+    "https://de.wikipedia.org/wiki/Valentin_Dasch"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Valentin Dasch",
+    "forename": "Valentin",
+    "surname": "Dasch",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1930-05-01",
+    "place": "Irl/Landkrs. Mühldorf",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1981-08-02",
+    "place": "Zangberg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 6,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1969-10-20",
+      "to": "1972-09-15"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000358",
+    "gnd": "https://d-nb.info/gnd/133414558",
+    "wikipedia": "https://de.wikipedia.org/wiki/Valentin_Dasch",
+    "viaf": null
+  }
+}

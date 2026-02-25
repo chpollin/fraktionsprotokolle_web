@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "WimmerThomas",
+  "name": "Thomas Wimmer",
+  "givenName": "Thomas",
+  "familyName": "Wimmer",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1887-01-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Siglfing, Landkreis Erding"
+  },
+  "deathDate": "1964-01-18",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1948–1960 Oberbürgermeister von München (SPD)"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118855239",
+    "https://de.wikipedia.org/wiki/Thomas_Wimmer"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Thomas Wimmer",
+    "forename": "Thomas",
+    "surname": "Wimmer",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1887-01-07",
+    "place": "Siglfing, Landkreis Erding",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1964-01-18",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118855239",
+    "wikipedia": "https://de.wikipedia.org/wiki/Thomas_Wimmer",
+    "viaf": null
+  }
+}

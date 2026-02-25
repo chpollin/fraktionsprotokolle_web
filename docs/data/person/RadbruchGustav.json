@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "RadbruchGustav",
+  "name": "Gustav Radbruch",
+  "givenName": "Gustav",
+  "familyName": "Radbruch",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1878-11-21",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Lübeck"
+  },
+  "deathDate": "1949-11-23",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Heidelberg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1920–1924 MdR (SPD), 1921/22 und 1923 Reichsminister der Justiz"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118597582",
+    "https://de.wikipedia.org/wiki/Gustav_Radbruch"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Gustav Radbruch",
+    "forename": "Gustav",
+    "surname": "Radbruch",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1878-11-21",
+    "place": "Lübeck",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1949-11-23",
+    "place": "Heidelberg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118597582",
+    "wikipedia": "https://de.wikipedia.org/wiki/Gustav_Radbruch",
+    "viaf": null
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BaeumerRudolf_1957-10-15",
+  "name": "Rudolf Bäumer",
+  "givenName": "Rudolf",
+  "familyName": "Bäumer",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1901-11-29",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Ennigloh"
+  },
+  "deathDate": "1973-09-25",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bünde"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Geschäftsführer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1957-10-15",
+      "endDate": "1961-10-15"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1104130203",
+    "https://de.wikipedia.org/wiki/Rudolf_B%C3%A4umer_(Politiker)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Rudolf Bäumer",
+    "forename": "Rudolf",
+    "surname": "Bäumer",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1901-11-29",
+    "place": "Ennigloh",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1973-09-25",
+    "place": "Bünde",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 3,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 4,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000077",
+    "gnd": "https://d-nb.info/gnd/1104130203",
+    "wikipedia": "https://de.wikipedia.org/wiki/Rudolf_B%C3%A4umer_(Politiker)",
+    "viaf": null
+  }
+}

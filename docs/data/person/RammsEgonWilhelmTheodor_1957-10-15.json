@@ -1,0 +1,107 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "RammsEgonWilhelmTheodor_1957-10-15",
+  "name": "Egon Wilhelm Theodor Ramms",
+  "givenName": "Egon Wilhelm Theodor",
+  "familyName": "Ramms",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1909-08-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kiel"
+  },
+  "deathDate": "1993-02-06",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Wesel"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Schifffahrtskaufmann [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1957-10-15",
+      "endDate": "1961-10-15"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1965-10-19",
+      "endDate": "1969-10-19"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1121209084",
+    "https://de.wikipedia.org/wiki/Egon_Wilhelm_Ramms"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Egon Wilhelm Theodor Ramms",
+    "forename": "Egon Wilhelm Theodor",
+    "surname": "Ramms",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1909-08-05",
+    "place": "Kiel",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1993-02-06",
+    "place": "Wesel",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 3,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 4,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    },
+    {
+      "period": 5,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001771",
+    "gnd": "https://d-nb.info/gnd/1121209084",
+    "wikipedia": "https://de.wikipedia.org/wiki/Egon_Wilhelm_Ramms",
+    "viaf": null
+  }
+}

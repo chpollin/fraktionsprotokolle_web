@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BakuninMichail",
+  "name": "Michail Bakunin",
+  "givenName": "Michail",
+  "familyName": "Bakunin",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1814-05-30",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Prjamuchina, Gouvernement Twer"
+  },
+  "deathDate": "1876-07-01",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bern"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "russischer Revolutionär, Anarchist"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118506102",
+    "https://de.wikipedia.org/wiki/Michail_Alexandrowitsch_Bakunin"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Michail Bakunin",
+    "forename": "Michail",
+    "surname": "Bakunin",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1814-05-30",
+    "place": "Prjamuchina, Gouvernement Twer",
+    "country": "Russisches Kaiserreich"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1876-07-01",
+    "place": "Bern",
+    "country": "Schweiz"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118506102",
+    "wikipedia": "https://de.wikipedia.org/wiki/Michail_Alexandrowitsch_Bakunin",
+    "viaf": null
+  }
+}

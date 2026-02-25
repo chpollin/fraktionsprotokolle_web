@@ -1,0 +1,86 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "NeuhausAlfredHubertus_1976-12-14",
+  "name": "Alfred Hubertus Neuhaus",
+  "givenName": "Alfred Hubertus",
+  "familyName": "Neuhaus",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1930-12-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Heidelberg"
+  },
+  "deathDate": "2016-02-28",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Kaufmann [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1976-12-14",
+      "endDate": "1980-11-04"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1980-11-04",
+      "endDate": "1983-03-29"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1012583198"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Alfred Hubertus Neuhaus",
+    "forename": "Alfred Hubertus",
+    "surname": "Neuhaus",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1930-12-16",
+    "place": "Heidelberg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2016-02-28",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 8,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1976-12-14",
+      "to": "1980-11-04"
+    },
+    {
+      "period": 9,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1980-11-04",
+      "to": "1983-03-29"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001590",
+    "gnd": "https://d-nb.info/gnd/1012583198",
+    "wikipedia": null,
+    "viaf": null
+  }
+}

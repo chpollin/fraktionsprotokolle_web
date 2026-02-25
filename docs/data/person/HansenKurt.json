@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HansenKurt",
+  "name": "Kurt Hansen",
+  "givenName": "Kurt",
+  "familyName": "Hansen",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1910-01-11",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Yokohama"
+  },
+  "deathDate": "2002-01-26",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Leverkusen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Chemiker und von 1961 bis 1974 Vorstandsvorsitzender der Bayer AG in Leverkusen"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/124884571",
+    "https://de.wikipedia.org/wiki/Kurt_Hansen_(Manager)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Kurt Hansen",
+    "forename": "Kurt",
+    "surname": "Hansen",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1910-01-11",
+    "place": "Yokohama",
+    "country": "Japan"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2002-01-26",
+    "place": "Leverkusen",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/124884571",
+    "wikipedia": "https://de.wikipedia.org/wiki/Kurt_Hansen_(Manager)",
+    "viaf": null
+  }
+}

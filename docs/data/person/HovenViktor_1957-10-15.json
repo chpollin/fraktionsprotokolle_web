@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HovenViktor_1957-10-15",
+  "name": "Viktor Hoven",
+  "givenName": "Viktor",
+  "familyName": "Hoven",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1909-03-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kornelimünster"
+  },
+  "deathDate": "1968-10-10",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Simmerath"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Kaufmann [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1957-10-15",
+      "endDate": "1961-10-15"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/125655932",
+    "https://de.wikipedia.org/wiki/Viktor_Hoven"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Viktor Hoven",
+    "forename": "Viktor",
+    "surname": "Hoven",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1909-03-26",
+    "place": "Kornelimünster",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1968-10-10",
+    "place": "Simmerath",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 3,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 4,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000966",
+    "gnd": "https://d-nb.info/gnd/125655932",
+    "wikipedia": "https://de.wikipedia.org/wiki/Viktor_Hoven",
+    "viaf": null
+  }
+}

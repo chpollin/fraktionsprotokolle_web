@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "KreitmeyerReinhold_1957-10-15",
+  "name": "Reinhold Kreitmeyer",
+  "givenName": "Reinhold",
+  "familyName": "Kreitmeyer",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1908-07-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "deathDate": "1996-02-16",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Freilassing"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Oberst a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1957-10-15",
+      "endDate": "1961-10-15"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1025977912",
+    "https://de.wikipedia.org/wiki/Reinhold_Kreitmeyer"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Reinhold Kreitmeyer",
+    "forename": "Reinhold",
+    "surname": "Kreitmeyer",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1908-07-23",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1996-02-16",
+    "place": "Freilassing",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 3,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 4,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001210",
+    "gnd": "https://d-nb.info/gnd/1025977912",
+    "wikipedia": "https://de.wikipedia.org/wiki/Reinhold_Kreitmeyer",
+    "viaf": null
+  }
+}

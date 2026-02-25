@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "KieselewskiStefan",
+  "name": "Stefan Kieselewski",
+  "givenName": "Stefan",
+  "familyName": "Kieselewski",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1911-03-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Warschau"
+  },
+  "deathDate": "1991-09-27",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Warschau"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Abgeordneter des polnischen Sejm"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/119033542",
+    "https://de.wikipedia.org/wiki/Stefan_Kisielewski"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Stefan Kieselewski",
+    "forename": "Stefan",
+    "surname": "Kieselewski",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1911-03-07",
+    "place": "Warschau",
+    "country": "Russisches Kaiserreich"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1991-09-27",
+    "place": "Warschau",
+    "country": "Polen"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/119033542",
+    "wikipedia": "https://de.wikipedia.org/wiki/Stefan_Kisielewski",
+    "viaf": null
+  }
+}

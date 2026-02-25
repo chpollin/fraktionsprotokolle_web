@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "LindrathHermann_1953-10-06",
+  "name": "Hermann Lindrath",
+  "givenName": "Hermann",
+  "familyName": "Lindrath",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1896-06-29",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Eisleben"
+  },
+  "deathDate": "1960-02-27",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Mannheim"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Bundesminister für wirschaftlichen Besitz des Bundes [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1957-10-15",
+      "endDate": "1960-02-27"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1030445524",
+    "https://de.wikipedia.org/wiki/Hermann_Lindrath"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hermann Lindrath",
+    "forename": "Hermann",
+    "surname": "Lindrath",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1896-06-29",
+    "place": "Eisleben",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1960-02-27",
+    "place": "Mannheim",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 3,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1957-10-15",
+      "to": "1960-02-27"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001346",
+    "gnd": "https://d-nb.info/gnd/1030445524",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hermann_Lindrath",
+    "viaf": null
+  }
+}

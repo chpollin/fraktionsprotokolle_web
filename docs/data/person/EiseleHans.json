@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "EiseleHans",
+  "name": "Hans Eisele",
+  "givenName": "Hans",
+  "familyName": "Eisele",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1913-03-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Donaueschingen"
+  },
+  "deathDate": "1967-05-03",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Maadi"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "SS-Hauptsturmführer, 1942–1945 Arzt im Konzentrationslager Buchenwald"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/1012768929",
+    "https://de.wikipedia.org/wiki/Hans_Eisele_(Mediziner)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans Eisele",
+    "forename": "Hans",
+    "surname": "Eisele",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1913-03-13",
+    "place": "Donaueschingen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1967-05-03",
+    "place": "Maadi",
+    "country": "Ägypten"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/1012768929",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Eisele_(Mediziner)",
+    "viaf": null
+  }
+}

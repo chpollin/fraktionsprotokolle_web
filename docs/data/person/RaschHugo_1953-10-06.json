@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "RaschHugo_1953-10-06",
+  "name": "Hugo Rasch",
+  "givenName": "Hugo",
+  "familyName": "Rasch",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1913-02-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bottrop"
+  },
+  "deathDate": "1960-09-15",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Düsseldorf"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Technischer Angestellter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1957-10-15",
+      "endDate": "1960-09-15"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1339768232",
+    "https://de.wikipedia.org/wiki/Hugo_Rasch_(Politiker)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hugo Rasch",
+    "forename": "Hugo",
+    "surname": "Rasch",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1913-02-24",
+    "place": "Bottrop",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1960-09-15",
+    "place": "Düsseldorf",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 3,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1957-10-15",
+      "to": "1960-09-15"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001776",
+    "gnd": "https://d-nb.info/gnd/1339768232",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hugo_Rasch_(Politiker)",
+    "viaf": null
+  }
+}

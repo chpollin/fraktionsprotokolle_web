@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "CubeAlexandervon",
+  "name": "Alexander von Cube",
+  "givenName": "Alexander",
+  "familyName": "Cube",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1927-09-01",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Duisburg"
+  },
+  "deathDate": "2013-01-11",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Köln"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Wissenschaftsjournalist"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/105212075",
+    "https://de.wikipedia.org/wiki/Alexander_von_Cube"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Alexander von Cube",
+    "forename": "Alexander",
+    "surname": "Cube",
+    "prefix": "von",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1927-09-01",
+    "place": "Duisburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2013-01-11",
+    "place": "Köln",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/105212075",
+    "wikipedia": "https://de.wikipedia.org/wiki/Alexander_von_Cube",
+    "viaf": null
+  }
+}

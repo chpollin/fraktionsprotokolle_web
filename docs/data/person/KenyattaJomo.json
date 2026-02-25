@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "KenyattaJomo",
+  "name": "Jomo Kenyatta",
+  "givenName": "Jomo",
+  "familyName": "Kenyatta",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1893-10-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Gatundu"
+  },
+  "deathDate": "1978-08-22",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Mombasa"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1964–1978 Präsident der Republik Kenia"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/122456963",
+    "https://de.wikipedia.org/wiki/Jomo_Kenyatta"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Jomo Kenyatta",
+    "forename": "Jomo",
+    "surname": "Kenyatta",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1893-10-20",
+    "place": "Gatundu",
+    "country": "Britisch-Ostafrika (heute: Kenia)"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1978-08-22",
+    "place": "Mombasa",
+    "country": "Kenia"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/122456963",
+    "wikipedia": "https://de.wikipedia.org/wiki/Jomo_Kenyatta",
+    "viaf": null
+  }
+}

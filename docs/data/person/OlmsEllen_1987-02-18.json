@@ -1,0 +1,69 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "OlmsEllen_1987-02-18",
+  "name": "Ellen Olms",
+  "givenName": "Ellen",
+  "familyName": "Olms",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1950-04-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Emden"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Industriekauffrau [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Die Grünen",
+        "alternateName": "Grüne"
+      },
+      "startDate": "1987-02-18",
+      "endDate": "1989-02-20"
+    }
+  ],
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Ellen_Olms"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Ellen Olms",
+    "forename": "Ellen",
+    "surname": "Olms",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1950-04-17",
+    "place": "Emden",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 11,
+      "faction": "Grüne",
+      "faction_full": "Fraktion Die Grünen",
+      "from": "1987-02-18",
+      "to": "1989-02-20"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001648",
+    "gnd": null,
+    "wikipedia": "https://de.wikipedia.org/wiki/Ellen_Olms",
+    "viaf": null
+  }
+}

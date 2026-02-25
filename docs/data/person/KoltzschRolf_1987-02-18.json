@@ -1,0 +1,87 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "KoltzschRolf_1987-02-18",
+  "name": "Rolf Koltzsch",
+  "givenName": "Rolf",
+  "familyName": "Koltzsch",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1928-07-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Leipzig"
+  },
+  "deathDate": "2023-09-15",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Versicherungskaufmann [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1987-02-18",
+      "endDate": "1990-12-20"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1025801881",
+    "https://de.wikipedia.org/wiki/Rolf_Koltzsch"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Rolf Koltzsch",
+    "forename": "Rolf",
+    "surname": "Koltzsch",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1928-07-16",
+    "place": "Leipzig",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2023-09-15",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 11,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1987-02-18",
+      "to": "1990-12-20"
+    },
+    {
+      "period": 12,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1990-12-20",
+      "to": "1994-11-10"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001176",
+    "gnd": "https://d-nb.info/gnd/1025801881",
+    "wikipedia": "https://de.wikipedia.org/wiki/Rolf_Koltzsch",
+    "viaf": null
+  }
+}

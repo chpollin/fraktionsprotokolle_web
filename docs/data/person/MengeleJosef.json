@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "MengeleJosef",
+  "name": "Josef Mengele",
+  "givenName": "Josef",
+  "familyName": "Mengele",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1911-03-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Günzburg"
+  },
+  "deathDate": "1979-02-07",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bertioga"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "ehemaliger Lagerarzt im Konzentrationslager Auschwitz"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118783262",
+    "https://de.wikipedia.org/wiki/Josef_Mengele"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Josef Mengele",
+    "forename": "Josef",
+    "surname": "Mengele",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1911-03-16",
+    "place": "Günzburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1979-02-07",
+    "place": "Bertioga",
+    "country": "Brasilien"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118783262",
+    "wikipedia": "https://de.wikipedia.org/wiki/Josef_Mengele",
+    "viaf": null
+  }
+}

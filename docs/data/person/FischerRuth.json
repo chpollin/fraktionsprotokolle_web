@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "FischerRuth",
+  "name": "Ruth Fischer",
+  "givenName": "Ruth Elfriede",
+  "familyName": "Fischer",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1895-12-11",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Leipzig"
+  },
+  "deathDate": "1961-03-13",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutsch-österreichische Publizistin und Politikerin, 1924–1928 Mitglied des Preußischen Landtags und MdR (KPD bzw. Linke Kommunisten)"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118691392",
+    "https://de.wikipedia.org/wiki/Ruth_Fischer"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Ruth Fischer",
+    "forename": "Ruth Elfriede",
+    "surname": "Fischer",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1895-12-11",
+    "place": "Leipzig",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1961-03-13",
+    "place": "Paris",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118691392",
+    "wikipedia": "https://de.wikipedia.org/wiki/Ruth_Fischer",
+    "viaf": null
+  }
+}

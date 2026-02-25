@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "LavalPierre",
+  "name": "Pierre Laval",
+  "givenName": "Pierre Etienne",
+  "familyName": "Laval",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1883-06-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Châteldon"
+  },
+  "deathDate": "1945-10-15",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Fresnes"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1931–1932 und 1935–1936 französischer Ministerpräsident, 1934–1935 Außenminister"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118778978",
+    "https://de.wikipedia.org/wiki/Pierre_Laval"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Pierre Laval",
+    "forename": "Pierre Etienne",
+    "surname": "Laval",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1883-06-28",
+    "place": "Châteldon",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1945-10-15",
+    "place": "Fresnes",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118778978",
+    "wikipedia": "https://de.wikipedia.org/wiki/Pierre_Laval",
+    "viaf": null
+  }
+}

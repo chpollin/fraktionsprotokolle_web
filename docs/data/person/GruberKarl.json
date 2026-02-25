@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "GruberKarl",
+  "name": "Karl Gruber",
+  "givenName": "Karl",
+  "familyName": "Gruber",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1909-05-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Innsbruck"
+  },
+  "deathDate": "1995-02-01",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Innsbruck"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "österreichischer Politiker und Diplomat, 1945 – 1953 österreichischer Außenminister"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118542796",
+    "https://de.wikipedia.org/wiki/Karl_Gruber_(Politiker,_1909)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Karl Gruber",
+    "forename": "Karl",
+    "surname": "Gruber",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1909-05-03",
+    "place": "Innsbruck",
+    "country": "Österreich"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1995-02-01",
+    "place": "Innsbruck",
+    "country": "Österreich"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118542796",
+    "wikipedia": "https://de.wikipedia.org/wiki/Karl_Gruber_(Politiker,_1909)",
+    "viaf": null
+  }
+}

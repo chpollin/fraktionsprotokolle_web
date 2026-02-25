@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "ChristieAgatha",
+  "name": "Agatha Christie",
+  "givenName": "Agatha",
+  "familyName": "Christie",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1890-09-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Torquay, Devon"
+  },
+  "deathDate": "1976-01-12",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Wallingford, Oxfordshire"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Schriftstellerin"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118520628",
+    "https://de.wikipedia.org/wiki/Agatha_Christie"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Agatha Christie",
+    "forename": "Agatha",
+    "surname": "Christie",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1890-09-15",
+    "place": "Torquay, Devon",
+    "country": "Großbritannien"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1976-01-12",
+    "place": "Wallingford, Oxfordshire",
+    "country": "Großbritannien"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118520628",
+    "wikipedia": "https://de.wikipedia.org/wiki/Agatha_Christie",
+    "viaf": null
+  }
+}

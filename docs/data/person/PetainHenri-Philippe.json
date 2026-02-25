@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "PetainHenri-Philippe",
+  "name": "Henri-Philippe Pétain",
+  "givenName": "Henri-Philippe",
+  "familyName": "Pétain",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1856-04-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Cauchy-à-la-Tour, Département Pas-de-Calais"
+  },
+  "deathDate": "1951-07-23",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Port-Joinville, Département Vendée"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "französischer General, 1940–1944 »Chef des Staates« in Vichy"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118740156",
+    "https://de.wikipedia.org/wiki/Philippe_P%C3%A9tain"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Henri-Philippe Pétain",
+    "forename": "Henri-Philippe",
+    "surname": "Pétain",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1856-04-24",
+    "place": "Cauchy-à-la-Tour, Département Pas-de-Calais",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1951-07-23",
+    "place": "Port-Joinville, Département Vendée",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118740156",
+    "wikipedia": "https://de.wikipedia.org/wiki/Philippe_P%C3%A9tain",
+    "viaf": null
+  }
+}

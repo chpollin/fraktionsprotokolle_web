@@ -1,0 +1,104 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "WeberHubert_1969-10-20",
+  "name": "Hubert Weber",
+  "givenName": "Hubert",
+  "familyName": "Weber",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1929-05-10",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bad Kissingen"
+  },
+  "deathDate": "2017-11-25",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsanwalt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1969-10-20",
+      "endDate": "1972-09-22"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1972-12-13",
+      "endDate": "1976-12-13"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1976-12-14",
+      "endDate": "1980-11-04"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1169058132",
+    "https://de.wikipedia.org/wiki/Hubert_Weber_(Politiker)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hubert Weber",
+    "forename": "Hubert",
+    "surname": "Weber",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Köln)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1929-05-10",
+    "place": "Bad Kissingen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2017-11-25",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 6,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1969-10-20",
+      "to": "1972-09-22"
+    },
+    {
+      "period": 7,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1972-12-13",
+      "to": "1976-12-13"
+    },
+    {
+      "period": 8,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1976-12-14",
+      "to": "1980-11-04"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002436",
+    "gnd": "https://d-nb.info/gnd/1169058132",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hubert_Weber_(Politiker)",
+    "viaf": null
+  }
+}

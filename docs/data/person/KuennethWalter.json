@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "KuennethWalter",
+  "name": "Walter Künneth",
+  "givenName": "Walter",
+  "familyName": "Künneth",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1901-01-01",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Etzelwang"
+  },
+  "deathDate": "1997-10-26",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Erlangen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "ab 1953 Professor für Systematische Theologie"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/11856773X",
+    "https://de.wikipedia.org/wiki/Walter_K%C3%BCnneth"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Walter Künneth",
+    "forename": "Walter",
+    "surname": "Künneth",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1901-01-01",
+    "place": "Etzelwang",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1997-10-26",
+    "place": "Erlangen",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/11856773X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Walter_K%C3%BCnneth",
+    "viaf": null
+  }
+}

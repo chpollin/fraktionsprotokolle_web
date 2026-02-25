@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "FlitzHedi_1961-10-17",
+  "name": "Hedi Flitz, geb. Müller",
+  "givenName": "Hedi",
+  "familyName": "Flitz",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1900-02-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bad Ems"
+  },
+  "deathDate": "1994-10-19",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Wilhelmshaven"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Hausfrau [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1034726196",
+    "https://de.wikipedia.org/wiki/Hedi_Flitz"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hedi Flitz, geb. Müller",
+    "forename": "Hedi",
+    "surname": "Flitz",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Wilhelmshaven)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1900-02-22",
+    "place": "Bad Ems",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1994-10-19",
+    "place": "Wilhelmshaven",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 4,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000563",
+    "gnd": "https://d-nb.info/gnd/1034726196",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hedi_Flitz",
+    "viaf": null
+  }
+}

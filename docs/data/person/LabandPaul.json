@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "LabandPaul",
+  "name": "Paul Laband",
+  "givenName": "Paul",
+  "familyName": "Laband",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1838-05-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Breslau (heute: Wrocław, Polen)"
+  },
+  "deathDate": "1918-03-23",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Straßburg, Elsass-Lothringen (heute: Strasbourg, Frankreich)"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Jurist und Staatsrechtler"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118568442",
+    "https://de.wikipedia.org/wiki/Paul_Laband"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Paul Laband",
+    "forename": "Paul",
+    "surname": "Laband",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1838-05-24",
+    "place": "Breslau (heute: Wrocław, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1918-03-23",
+    "place": "Straßburg, Elsass-Lothringen (heute: Strasbourg, Frankreich)",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118568442",
+    "wikipedia": "https://de.wikipedia.org/wiki/Paul_Laband",
+    "viaf": null
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "StraeterHeinrich_1953-10-06",
+  "name": "Heinrich Sträter",
+  "givenName": "Heinrich",
+  "familyName": "Sträter",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1891-11-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Soest"
+  },
+  "deathDate": "1968-04-11",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Dortmund"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Gewerkschaftssekretär [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1957-10-15",
+      "endDate": "1961-10-15"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1115281410",
+    "https://de.wikipedia.org/wiki/Heinrich_Str%C3%A4ter"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Heinrich Sträter",
+    "forename": "Heinrich",
+    "surname": "Sträter",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1891-11-22",
+    "place": "Soest",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1968-04-11",
+    "place": "Dortmund",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 3,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002267",
+    "gnd": "https://d-nb.info/gnd/1115281410",
+    "wikipedia": "https://de.wikipedia.org/wiki/Heinrich_Str%C3%A4ter",
+    "viaf": null
+  }
+}

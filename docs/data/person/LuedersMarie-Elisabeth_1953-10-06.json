@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "LuedersMarie-Elisabeth_1953-10-06",
+  "name": "Marie-Elisabeth Lüders",
+  "givenName": "Marie-Elisabeth",
+  "familyName": "Lüders",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1878-06-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "1966-03-23",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "West-Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Stadträtin a. D., Studiendirektorin a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1957-10-15",
+      "endDate": "1961-10-15"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/118729551",
+    "https://de.wikipedia.org/wiki/Marie-Elisabeth_L%C3%BCders"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Marie-Elisabeth Lüders",
+    "forename": "Marie-Elisabeth",
+    "surname": "Lüders",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1878-06-25",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1966-03-23",
+    "place": "West-Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 3,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001391",
+    "gnd": "https://d-nb.info/gnd/118729551",
+    "wikipedia": "https://de.wikipedia.org/wiki/Marie-Elisabeth_L%C3%BCders",
+    "viaf": null
+  }
+}

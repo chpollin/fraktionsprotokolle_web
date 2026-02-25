@@ -1,0 +1,51 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchmidtKlaus",
+  "name": "Klaus Schmidt",
+  "givenName": "Klaus",
+  "familyName": "Schmidt",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1935-12-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Rheydt"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Historiker, evangelischer Theologe, Autor, Friedens- und Menschenrechtsaktivist, ab 1965 Berufsschul- und Studentenpfarrer in Köln"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/123197384",
+    "https://de.wikipedia.org/wiki/Klaus_Schmidt_(Pfarrer)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Klaus Schmidt",
+    "forename": "Klaus",
+    "surname": "Schmidt",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1935-12-09",
+    "place": "Rheydt",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/123197384",
+    "wikipedia": "https://de.wikipedia.org/wiki/Klaus_Schmidt_(Pfarrer)",
+    "viaf": null
+  }
+}

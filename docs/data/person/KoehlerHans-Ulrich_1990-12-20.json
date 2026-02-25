@@ -1,0 +1,104 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "KoehlerHans-Ulrich_1990-12-20",
+  "name": "Hans-Ulrich Köhler",
+  "givenName": "Hans-Ulrich",
+  "familyName": "Köhler",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1944-09-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Jena"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Maschinenbaumeister [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1990-10-03",
+      "endDate": "1990-12-20"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-10-26"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1321625480",
+    "https://de.wikipedia.org/wiki/Hans-Ulrich_K%C3%B6hler"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans-Ulrich Köhler",
+    "forename": "Hans-Ulrich",
+    "surname": "Köhler",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Hainspitz)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1944-09-03",
+    "place": "Jena",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 11,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1990-10-03",
+      "to": "1990-12-20"
+    },
+    {
+      "period": 12,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1990-12-20",
+      "to": "1994-11-10"
+    },
+    {
+      "period": 13,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1994-11-10",
+      "to": "1998-10-26"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001151",
+    "gnd": "https://d-nb.info/gnd/1321625480",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans-Ulrich_K%C3%B6hler",
+    "viaf": null
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "ErnstMax",
+  "name": "Max Ernst",
+  "givenName": "Max",
+  "familyName": "Ernst",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1891-04-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Brühl"
+  },
+  "deathDate": "1976-04-01",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Frankreich"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Maler, Grafiker und Bildhauer"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118530895",
+    "https://de.wikipedia.org/wiki/Max_Ernst"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Max Ernst",
+    "forename": "Max",
+    "surname": "Ernst",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1891-04-02",
+    "place": "Brühl",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1976-04-01",
+    "place": "Frankreich",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118530895",
+    "wikipedia": "https://de.wikipedia.org/wiki/Max_Ernst",
+    "viaf": null
+  }
+}

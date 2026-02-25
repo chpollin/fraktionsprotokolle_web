@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "AndersenHansChristian",
+  "name": "Hans Christian Andersen",
+  "givenName": "Hans Christian",
+  "familyName": "Andersen",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1805-04-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Odense"
+  },
+  "deathDate": "1875-08-04",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Kopenhagen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "dänischer Dichter und Schriftsteller"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118502794",
+    "https://de.wikipedia.org/wiki/Hans_Christian_Andersen"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans Christian Andersen",
+    "forename": "Hans Christian",
+    "surname": "Andersen",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1805-04-02",
+    "place": "Odense",
+    "country": "Dänemark"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1875-08-04",
+    "place": "Kopenhagen",
+    "country": "Dänemark"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118502794",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Christian_Andersen",
+    "viaf": null
+  }
+}

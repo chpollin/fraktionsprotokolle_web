@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "DohmannFriedhelm_1969-10-20",
+  "name": "Friedhelm Dohmann",
+  "givenName": "Friedhelm",
+  "familyName": "Dohmann",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1931-08-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Dortmund"
+  },
+  "deathDate": "1970-02-20",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Dortmund"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Geschäftsführer BKK Krupp [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1969-10-20",
+      "endDate": "1970-02-20"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1340044390",
+    "https://de.wikipedia.org/wiki/Friedhelm_Dohmann"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Friedhelm Dohmann",
+    "forename": "Friedhelm",
+    "surname": "Dohmann",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1931-08-24",
+    "place": "Dortmund",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1970-02-20",
+    "place": "Dortmund",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 6,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1969-10-20",
+      "to": "1970-02-20"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000400",
+    "gnd": "https://d-nb.info/gnd/1340044390",
+    "wikipedia": "https://de.wikipedia.org/wiki/Friedhelm_Dohmann",
+    "viaf": null
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "LejeuneMax",
+  "name": "Max Lejeune",
+  "givenName": "Max",
+  "familyName": "Lejeune",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1909-02-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Flesselles"
+  },
+  "deathDate": "1995-11-23",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Abbeville"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1957/58 französischer Minister für die Sahara; 1958 Minister ohne Geschäftsbereich"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/130930814",
+    "https://fr.wikipedia.org/wiki/Max_Lejeune"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Max Lejeune",
+    "forename": "Max",
+    "surname": "Lejeune",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1909-02-19",
+    "place": "Flesselles",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1995-11-23",
+    "place": "Abbeville",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/130930814",
+    "wikipedia": "https://fr.wikipedia.org/wiki/Max_Lejeune",
+    "viaf": null
+  }
+}

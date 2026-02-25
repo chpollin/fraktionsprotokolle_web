@@ -1,0 +1,104 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "RichterKlaus_1965-10-19",
+  "name": "Klaus Richter",
+  "givenName": "Klaus",
+  "familyName": "Richter",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1923-10-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Breitenmarkt, Oberschlesien (heute: Sieraków Śląski, Polen)"
+  },
+  "deathDate": "2011-01-12",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Realschullehrer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1965-10-19",
+      "endDate": "1969-10-19"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1969-10-20",
+      "endDate": "1972-09-22"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1972-12-13",
+      "endDate": "1976-12-13"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1121509088",
+    "https://de.wikipedia.org/wiki/Klaus_Richter_(Politiker,_1923)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Klaus Richter",
+    "forename": "Klaus",
+    "surname": "Richter",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1923-10-24",
+    "place": "Breitenmarkt, Oberschlesien (heute: Sieraków Śląski, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2011-01-12",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 5,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    },
+    {
+      "period": 6,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1969-10-20",
+      "to": "1972-09-22"
+    },
+    {
+      "period": 7,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1972-12-13",
+      "to": "1976-12-13"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001834",
+    "gnd": "https://d-nb.info/gnd/1121509088",
+    "wikipedia": "https://de.wikipedia.org/wiki/Klaus_Richter_(Politiker,_1923)",
+    "viaf": null
+  }
+}

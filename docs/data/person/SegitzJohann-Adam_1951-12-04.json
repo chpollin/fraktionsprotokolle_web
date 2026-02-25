@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SegitzJohann-Adam_1951-12-04",
+  "name": "Johann-Adam Segitz",
+  "givenName": "Johann-Adam",
+  "familyName": "Segitz",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1898-11-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Fürth"
+  },
+  "deathDate": "1963-05-19",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Fürth"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Werkzeugmacher, Bürgermeister [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1951-12-04",
+      "endDate": "1953-09-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/119999829X",
+    "https://de.wikipedia.org/wiki/Johann_Segitz"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Johann-Adam Segitz",
+    "forename": "Johann-Adam",
+    "surname": "Segitz",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1898-11-28",
+    "place": "Fürth",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1963-05-19",
+    "place": "Fürth",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1951-12-04",
+      "to": "1953-09-07"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002145",
+    "gnd": "https://d-nb.info/gnd/119999829X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Johann_Segitz",
+    "viaf": null
+  }
+}

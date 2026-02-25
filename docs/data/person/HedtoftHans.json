@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HedtoftHans",
+  "name": "Hans Hedtoft",
+  "givenName": "Hans Christian",
+  "familyName": "Hedtoft-Hansen",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1903-04-21",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Aarhus"
+  },
+  "deathDate": "1955-01-29",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Stockholm"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1947–1950 und 1953–1955 dänischer Ministerpräsident"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/120119811",
+    "https://de.wikipedia.org/wiki/Hans_Hedtoft"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans Hedtoft",
+    "forename": "Hans Christian",
+    "surname": "Hedtoft-Hansen",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1903-04-21",
+    "place": "Aarhus",
+    "country": "Dänemark"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1955-01-29",
+    "place": "Stockholm",
+    "country": "Schweden"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/120119811",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Hedtoft",
+    "viaf": null
+  }
+}

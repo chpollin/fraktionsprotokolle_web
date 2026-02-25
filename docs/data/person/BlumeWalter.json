@@ -1,0 +1,53 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BlumeWalter",
+  "name": "Walter Blume",
+  "givenName": "Walter",
+  "familyName": "Blume",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1913-09-30",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Dortmund"
+  },
+  "deathDate": "1999-03-08",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Dortmund"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Präsident der Landwirtschaftskammer Hannover"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/1034704249"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Walter Blume",
+    "forename": "Walter",
+    "surname": "Blume",
+    "prefix": "de",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1913-09-30",
+    "place": "Dortmund",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1999-03-08",
+    "place": "Dortmund",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/1034704249",
+    "wikipedia": null,
+    "viaf": null
+  }
+}

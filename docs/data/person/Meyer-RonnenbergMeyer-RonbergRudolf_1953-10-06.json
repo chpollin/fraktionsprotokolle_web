@@ -1,0 +1,100 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "Meyer-RonnenbergMeyer-RonbergRudolf_1953-10-06",
+  "name": "Rudolf Meyer-Ronberg, geb. Meyer-Ronnenberg",
+  "givenName": "Rudolf",
+  "familyName": "Meyer-Ronnenberg",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1904-11-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Ronnenberg"
+  },
+  "deathDate": "1973-10-28",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Kassel"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Kaufmann [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Gesamtdeutscher Block/Block der Heimatvertriebenen und Entrechteten",
+        "alternateName": "GB/BHE"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1954-08-20",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1326777831",
+    "https://de.wikipedia.org/wiki/Rudolf_Meyer-Ronnenberg"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Rudolf Meyer-Ronberg, geb. Meyer-Ronnenberg",
+    "forename": "Rudolf",
+    "surname": "Meyer-Ronnenberg",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1904-11-19",
+    "place": "Ronnenberg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1973-10-28",
+    "place": "Kassel",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "GB/BHE",
+      "faction_full": "Fraktion Gesamtdeutscher Block/Block der Heimatvertriebenen und Entrechteten",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 2,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1954-08-20",
+      "to": "1957-10-06"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001499",
+    "gnd": "https://d-nb.info/gnd/1326777831",
+    "wikipedia": "https://de.wikipedia.org/wiki/Rudolf_Meyer-Ronnenberg",
+    "viaf": null
+  },
+  "fraktionsprotokolle:alt_names": [
+    {
+      "reg": "Rudolf Meyer-Ronberg",
+      "forename": "Rudolf",
+      "surname": "Meyer-Ronberg",
+      "prefix": "",
+      "role_name": "",
+      "place": ""
+    }
+  ]
+}

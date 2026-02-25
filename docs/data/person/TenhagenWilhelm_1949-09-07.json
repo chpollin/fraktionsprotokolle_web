@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "TenhagenWilhelm_1949-09-07",
+  "name": "Wilhelm Tenhagen",
+  "givenName": "Wilhelm",
+  "familyName": "Tenhagen",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1911-10-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Duisburg"
+  },
+  "deathDate": "1954-08-22",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Neuenweg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Angestellter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1954-08-22"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/124906306X",
+    "https://de.wikipedia.org/wiki/Wilhelm_Tenhagen"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Wilhelm Tenhagen",
+    "forename": "Wilhelm",
+    "surname": "Tenhagen",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1911-10-14",
+    "place": "Duisburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1954-08-22",
+    "place": "Neuenweg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 2,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1953-10-06",
+      "to": "1954-08-22"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002304",
+    "gnd": "https://d-nb.info/gnd/124906306X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_Tenhagen",
+    "viaf": null
+  }
+}

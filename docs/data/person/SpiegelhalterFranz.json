@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SpiegelhalterFranz",
+  "name": "Franz Spiegelhalter",
+  "givenName": "Franz",
+  "familyName": "Spiegelhalter",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1899-11-10",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Freiburg im Breisgau"
+  },
+  "deathDate": "1988-02-16",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Freiburg im Breisgau"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Holzbildhauer"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/1012408175",
+    "https://de.wikipedia.org/wiki/Franz_Spiegelhalter"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Franz Spiegelhalter",
+    "forename": "Franz",
+    "surname": "Spiegelhalter",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1899-11-10",
+    "place": "Freiburg im Breisgau",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1988-02-16",
+    "place": "Freiburg im Breisgau",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/1012408175",
+    "wikipedia": "https://de.wikipedia.org/wiki/Franz_Spiegelhalter",
+    "viaf": null
+  }
+}

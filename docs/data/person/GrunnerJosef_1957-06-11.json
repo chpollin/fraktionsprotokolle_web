@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "GrunnerJosef_1957-06-11",
+  "name": "Josef Grunner",
+  "givenName": "Josef",
+  "familyName": "Grunner",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1904-06-10",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Atzelsdorf"
+  },
+  "deathDate": "1984-11-27",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Redakteur [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1957-06-11",
+      "endDate": "1957-06-21"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/132836514X",
+    "https://de.wikipedia.org/wiki/Josef_Grunner"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Josef Grunner",
+    "forename": "Josef",
+    "surname": "Grunner",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1904-06-10",
+    "place": "Atzelsdorf",
+    "country": "Niederösterreich"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1984-11-27",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1957-06-11",
+      "to": "1957-06-21"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000744",
+    "gnd": "https://d-nb.info/gnd/132836514X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Josef_Grunner",
+    "viaf": null
+  }
+}

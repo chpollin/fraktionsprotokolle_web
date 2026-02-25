@@ -1,0 +1,124 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "WeisheitMatthias_1992-06-29",
+  "name": "Matthias Weisheit",
+  "givenName": "Matthias",
+  "familyName": "Weisheit",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1945-12-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Leipzig"
+  },
+  "deathDate": "2004-05-17",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Tettnang"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Realschullehrer a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1992-06-29",
+      "endDate": "1994-11-10"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-10-26"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1998-10-26",
+      "endDate": "2002-10-17"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "2002-10-17",
+      "endDate": "2004-05-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1326777793",
+    "https://de.wikipedia.org/wiki/Matthias_Weisheit"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Matthias Weisheit",
+    "forename": "Matthias",
+    "surname": "Weisheit",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1945-12-18",
+    "place": "Leipzig",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2004-05-17",
+    "place": "Tettnang",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 12,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1992-06-29",
+      "to": "1994-11-10"
+    },
+    {
+      "period": 13,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1994-11-10",
+      "to": "1998-10-26"
+    },
+    {
+      "period": 14,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1998-10-26",
+      "to": "2002-10-17"
+    },
+    {
+      "period": 15,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "2002-10-17",
+      "to": "2004-05-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002458",
+    "gnd": "https://d-nb.info/gnd/1326777793",
+    "wikipedia": "https://de.wikipedia.org/wiki/Matthias_Weisheit",
+    "viaf": null
+  }
+}

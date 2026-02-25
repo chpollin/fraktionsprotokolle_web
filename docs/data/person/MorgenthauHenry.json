@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "MorgenthauHenry",
+  "name": "Henry Morgenthau",
+  "givenName": "Henry",
+  "familyName": "Morgenthau",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1891-05-11",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "New York City"
+  },
+  "deathDate": "1967-02-06",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Poughkeepsie, New York"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1934–1945 US-Finanzminister"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118736930",
+    "https://de.wikipedia.org/wiki/Henry_Morgenthau"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Henry Morgenthau",
+    "forename": "Henry",
+    "surname": "Morgenthau",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1891-05-11",
+    "place": "New York City",
+    "country": "USA"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1967-02-06",
+    "place": "Poughkeepsie, New York",
+    "country": "USA"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118736930",
+    "wikipedia": "https://de.wikipedia.org/wiki/Henry_Morgenthau",
+    "viaf": null
+  }
+}

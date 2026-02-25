@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "VuskovicPedro",
+  "name": "Pedro Vuskovic",
+  "givenName": "Pedro",
+  "familyName": "Vuskovic Bravo",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1924-02-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Antofagasta"
+  },
+  "deathDate": "1993-05-10",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Mexiko-Stadt"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "chilenischer Wirtschaftswissenschaftler"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/170965635",
+    "https://en.wikipedia.org/wiki/Pedro_Vuskovic"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Pedro Vuskovic",
+    "forename": "Pedro",
+    "surname": "Vuskovic Bravo",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1924-02-25",
+    "place": "Antofagasta",
+    "country": "Chile"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1993-05-10",
+    "place": "Mexiko-Stadt",
+    "country": "Mexiko"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/170965635",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pedro_Vuskovic",
+    "viaf": null
+  }
+}

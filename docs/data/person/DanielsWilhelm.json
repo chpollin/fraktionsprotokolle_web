@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "DanielsWilhelm",
+  "name": "Wilhelm Daniels",
+  "givenName": "Wilhelm",
+  "familyName": "Daniels",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1903-07-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Düsseldorf"
+  },
+  "deathDate": "1977-05-04",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Jurist und Notar, 1956-1969 Oberbürgermeister von Bonn (CDU)"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/140771824",
+    "https://de.wikipedia.org/wiki/Wilhelm_Daniels_(Politiker,_1903)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Wilhelm Daniels",
+    "forename": "Wilhelm",
+    "surname": "Daniels",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1903-07-04",
+    "place": "Düsseldorf",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1977-05-04",
+    "place": "Bonn",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/140771824",
+    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_Daniels_(Politiker,_1903)",
+    "viaf": null
+  }
+}

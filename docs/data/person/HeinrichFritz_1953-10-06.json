@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HeinrichFritz_1953-10-06",
+  "name": "Fritz Heinrich",
+  "givenName": "Fritz",
+  "familyName": "Heinrich",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1921-02-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Feudingen"
+  },
+  "deathDate": "1959-03-07",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Biedenkopf"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Gewerkschaftssekretär [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1957-10-15",
+      "endDate": "1959-03-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1221238663",
+    "https://de.wikipedia.org/wiki/Fritz_Heinrich_(Politiker)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Fritz Heinrich",
+    "forename": "Fritz",
+    "surname": "Heinrich",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1921-02-08",
+    "place": "Feudingen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1959-03-07",
+    "place": "Biedenkopf",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 3,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1957-10-15",
+      "to": "1959-03-07"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000850",
+    "gnd": "https://d-nb.info/gnd/1221238663",
+    "wikipedia": "https://de.wikipedia.org/wiki/Fritz_Heinrich_(Politiker)",
+    "viaf": null
+  }
+}

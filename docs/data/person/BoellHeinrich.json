@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BoellHeinrich",
+  "name": "Heinrich Böll",
+  "givenName": "Heinrich",
+  "familyName": "Böll",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1917-12-21",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Köln"
+  },
+  "deathDate": "1985-07-16",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Kreuzau-Langenbroich"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Schriftsteller, Nobelpreisträger für Literatur"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118512676",
+    "https://de.wikipedia.org/wiki/Heinrich_B%C3%B6ll"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Heinrich Böll",
+    "forename": "Heinrich",
+    "surname": "Böll",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1917-12-21",
+    "place": "Köln",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1985-07-16",
+    "place": "Kreuzau-Langenbroich",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118512676",
+    "wikipedia": "https://de.wikipedia.org/wiki/Heinrich_B%C3%B6ll",
+    "viaf": null
+  }
+}

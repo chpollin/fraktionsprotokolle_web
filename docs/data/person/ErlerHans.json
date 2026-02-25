@@ -1,0 +1,51 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "ErlerHans",
+  "name": "Hans Erler",
+  "givenName": "Hans",
+  "familyName": "Erler",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1942-02-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Schriftsteller"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/123889065",
+    "https://de.wikipedia.org/wiki/Hans_Erler"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans Erler",
+    "forename": "Hans",
+    "surname": "Erler",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1942-02-18",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/123889065",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Erler",
+    "viaf": null
+  }
+}

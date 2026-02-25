@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "PassyFrederic",
+  "name": "Frédéric Passy",
+  "givenName": "Frédéric",
+  "familyName": "Passy",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1822-05-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "deathDate": "1912-06-12",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Neuilly-sur-Seine"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1881–1889 Mitglied der französischen Nationalversammlung, Mitbegründer der Interparlamentarischen Union für internationale Schiedsgerichtsbarkeit bzw. der Interparlamentarischen Union"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/11605283X",
+    "https://d-nb.info/gnd/116051906"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Frédéric Passy",
+    "forename": "Frédéric",
+    "surname": "Passy",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1822-05-20",
+    "place": "Paris",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1912-06-12",
+    "place": "Neuilly-sur-Seine",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/11605283X",
+    "wikipedia": "https://d-nb.info/gnd/116051906",
+    "viaf": null
+  }
+}

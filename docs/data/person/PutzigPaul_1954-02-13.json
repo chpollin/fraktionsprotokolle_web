@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "PutzigPaul_1954-02-13",
+  "name": "Paul Putzig",
+  "givenName": "Paul",
+  "familyName": "Putzig",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1903-10-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Gelsenkirchen"
+  },
+  "deathDate": "1975-07-12",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hamm"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Abteilungsleiter, Bürgermeister [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1954-02-13",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1183780583",
+    "https://de.wikipedia.org/wiki/Paul_Putzig"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Paul Putzig",
+    "forename": "Paul",
+    "surname": "Putzig",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1903-10-03",
+    "place": "Gelsenkirchen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1975-07-12",
+    "place": "Hamm",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1954-02-13",
+      "to": "1957-10-06"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001762",
+    "gnd": "https://d-nb.info/gnd/1183780583",
+    "wikipedia": "https://de.wikipedia.org/wiki/Paul_Putzig",
+    "viaf": null
+  }
+}

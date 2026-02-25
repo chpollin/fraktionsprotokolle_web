@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SattlerDieter",
+  "name": "Dieter Sattler",
+  "givenName": "Dieter",
+  "familyName": "Sattler",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1906-02-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "deathDate": "1968-11-09",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Rom"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1966–1968 Botschafter der Bundesrepublik Deutschland beim Heiligen Stuhl in Rom"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/116974877",
+    "https://de.wikipedia.org/wiki/Dieter_Sattler"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Dieter Sattler",
+    "forename": "Dieter",
+    "surname": "Sattler",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1906-02-02",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1968-11-09",
+    "place": "Rom",
+    "country": "Italien"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/116974877",
+    "wikipedia": "https://de.wikipedia.org/wiki/Dieter_Sattler",
+    "viaf": null
+  }
+}

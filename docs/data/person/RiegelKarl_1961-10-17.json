@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "RiegelKarl_1961-10-17",
+  "name": "Karl Riegel",
+  "givenName": "Karl",
+  "familyName": "Riegel",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1915-07-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Trautenau, Böhmen (heute: Trutnov, Tschechische Republik)"
+  },
+  "deathDate": "2001-09-14",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Göppingen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Angestellter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1965-10-19",
+      "endDate": "1969-10-19"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1163359432",
+    "https://de.wikipedia.org/wiki/Karl_Riegel"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Karl Riegel",
+    "forename": "Karl",
+    "surname": "Riegel",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Göppingen)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1915-07-17",
+    "place": "Trautenau, Böhmen (heute: Trutnov, Tschechische Republik)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2001-09-14",
+    "place": "Göppingen",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 4,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    },
+    {
+      "period": 5,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001845",
+    "gnd": "https://d-nb.info/gnd/1163359432",
+    "wikipedia": "https://de.wikipedia.org/wiki/Karl_Riegel",
+    "viaf": null
+  }
+}

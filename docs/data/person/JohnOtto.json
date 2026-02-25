@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "JohnOtto",
+  "name": "Otto John",
+  "givenName": "Otto",
+  "familyName": "John",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1909-03-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Marburg"
+  },
+  "deathDate": "1997-03-26",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Innsbruck"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1950–1954 Präsident des Bundesamts für Verfassungsschutz"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118712756",
+    "https://de.wikipedia.org/wiki/Otto_John"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Otto John",
+    "forename": "Otto",
+    "surname": "John",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1909-03-19",
+    "place": "Marburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1997-03-26",
+    "place": "Innsbruck",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118712756",
+    "wikipedia": "https://de.wikipedia.org/wiki/Otto_John",
+    "viaf": null
+  }
+}

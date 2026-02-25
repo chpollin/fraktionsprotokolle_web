@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BormannMartin",
+  "name": "Martin Bormann",
+  "givenName": "Martin",
+  "familyName": "Bormann",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1900-06-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Wegeleben"
+  },
+  "deathDate": "1945-05-02",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Leiter der Parteikanzlei der NSDAP"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118513583",
+    "https://de.wikipedia.org/wiki/Martin_Bormann"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Martin Bormann",
+    "forename": "Martin",
+    "surname": "Bormann",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1900-06-17",
+    "place": "Wegeleben",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1945-05-02",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118513583",
+    "wikipedia": "https://de.wikipedia.org/wiki/Martin_Bormann",
+    "viaf": null
+  }
+}

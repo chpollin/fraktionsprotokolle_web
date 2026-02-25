@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BevinErnest",
+  "name": "Ernest Bevin",
+  "givenName": "Ernest",
+  "familyName": "Bevin",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1881-03-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Winsfort"
+  },
+  "deathDate": "1951-04-14",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "London"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1940–1951 Mitglied des britischen Unterhauses, 1945–1951 Außenminister"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118658700",
+    "https://de.wikipedia.org/wiki/Ernest_Bevin"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Ernest Bevin",
+    "forename": "Ernest",
+    "surname": "Bevin",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1881-03-09",
+    "place": "Winsfort",
+    "country": "Großbritannien"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1951-04-14",
+    "place": "London",
+    "country": "Großbritannien"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118658700",
+    "wikipedia": "https://de.wikipedia.org/wiki/Ernest_Bevin",
+    "viaf": null
+  }
+}

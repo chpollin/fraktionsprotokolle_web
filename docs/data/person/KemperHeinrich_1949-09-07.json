@@ -1,0 +1,100 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "KemperHeinrich_1949-09-07",
+  "name": "Heinrich Kemper",
+  "givenName": "Heinrich",
+  "familyName": "Kemper",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1888-02-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Siegen"
+  },
+  "deathDate": "1962-08-23",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Trier"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Textilkaufmann [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1025454480",
+    "https://de.wikipedia.org/wiki/Heinrich_Kemper_(Politiker,_1888)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Heinrich Kemper",
+    "forename": "Heinrich",
+    "surname": "Kemper",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1888-02-25",
+    "place": "Siegen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1962-08-23",
+    "place": "Trier",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 2,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001084",
+    "gnd": "https://d-nb.info/gnd/1025454480",
+    "wikipedia": "https://de.wikipedia.org/wiki/Heinrich_Kemper_(Politiker,_1888)",
+    "viaf": null
+  },
+  "fraktionsprotokolle:alt_names": [
+    {
+      "reg": "Heinrich Kemper",
+      "forename": "Heinrich",
+      "surname": "Kemper",
+      "prefix": "",
+      "role_name": "",
+      "place": "(Trier)"
+    }
+  ]
+}

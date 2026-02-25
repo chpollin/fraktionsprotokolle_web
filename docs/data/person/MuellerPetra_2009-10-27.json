@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "MuellerPetra_2009-10-27",
+  "name": "Petra Müller",
+  "givenName": "Petra",
+  "familyName": "Müller",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1960-05-01",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Jülich"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Architektin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "2009-10-27",
+      "endDate": "2013-10-22"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Petra Müller",
+    "forename": "Petra",
+    "surname": "Müller",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Aachen)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1960-05-01",
+    "place": "Jülich",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 17,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "2009-10-27",
+      "to": "2013-10-22"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11004115",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

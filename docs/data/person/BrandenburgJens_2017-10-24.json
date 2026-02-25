@@ -1,0 +1,66 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BrandenburgJens_2017-10-24",
+  "name": "Jens Brandenburg",
+  "givenName": "Jens",
+  "familyName": "Brandenburg",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1986-03-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Simmerath"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Unternehmensberater, Politikwissenschaftler [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "2017-10-24"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Jens Brandenburg",
+    "forename": "Jens",
+    "surname": "Brandenburg",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Rhein-Neckar)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1986-03-08",
+    "place": "Simmerath",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 19,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "2017-10-24",
+      "to": ""
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11004676",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

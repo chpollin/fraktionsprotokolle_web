@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchroederRichard_1990-10-03",
+  "name": "Richard Schröder",
+  "givenName": "Richard",
+  "familyName": "Schröder",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1943-12-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Frohburg/Sachsen"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Prof., Pfarrer, Dozent des Kirchlichen Lehramtes [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1990-10-03",
+      "endDate": "1990-12-20"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Richard Schröder",
+    "forename": "Richard",
+    "surname": "Schröder",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Blankenfelde)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1943-12-26",
+    "place": "Frohburg/Sachsen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 11,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1990-10-03",
+      "to": "1990-12-20"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002083",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

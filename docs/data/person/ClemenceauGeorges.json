@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "ClemenceauGeorges",
+  "name": "Georges Clemenceau",
+  "givenName": "Georges",
+  "familyName": "Clemenceau",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1841-09-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Mouilleron-en-Pareds, Département Vendée"
+  },
+  "deathDate": "1929-11-24",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1906–1909 und 1917–1920 französischer Ministerpräsident"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118676407",
+    "https://de.wikipedia.org/wiki/Georges_Clemenceau"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Georges Clemenceau",
+    "forename": "Georges",
+    "surname": "Clemenceau",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1841-09-28",
+    "place": "Mouilleron-en-Pareds, Département Vendée",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1929-11-24",
+    "place": "Paris",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118676407",
+    "wikipedia": "https://de.wikipedia.org/wiki/Georges_Clemenceau",
+    "viaf": null
+  }
+}

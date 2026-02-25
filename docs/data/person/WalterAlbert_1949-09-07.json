@@ -1,0 +1,107 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "WalterAlbert_1949-09-07",
+  "name": "Albert Walter",
+  "givenName": "Albert",
+  "familyName": "Walter",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1885-09-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Flatow (heute: Złotów, Polen)"
+  },
+  "deathDate": "1980-02-14",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Seemann [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Deutsche Partei",
+        "alternateName": "DP"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Deutsche Partei/Freie Volkspartei",
+        "alternateName": "DP/FVP"
+      },
+      "startDate": "1957-03-14",
+      "endDate": "1953-09-07"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Deutsche Partei/Freie Volkspartei",
+        "alternateName": "DP/FVP"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1021300020",
+    "https://de.wikipedia.org/wiki/Albert_Walter"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Albert Walter",
+    "forename": "Albert",
+    "surname": "Walter",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1885-09-22",
+    "place": "Flatow (heute: Złotów, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1980-02-14",
+    "place": "Hamburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "DP",
+      "faction_full": "Fraktion Deutsche Partei",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 1,
+      "faction": "DP/FVP",
+      "faction_full": "Fraktion Deutsche Partei/Freie Volkspartei",
+      "from": "1957-03-14",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 2,
+      "faction": "DP/FVP",
+      "faction_full": "Fraktion Deutsche Partei/Freie Volkspartei",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002420",
+    "gnd": "https://d-nb.info/gnd/1021300020",
+    "wikipedia": "https://de.wikipedia.org/wiki/Albert_Walter",
+    "viaf": null
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "GellerUri",
+  "name": "Uri Geller, ursprünglich: György Gellér",
+  "givenName": "Uri",
+  "familyName": "Geller",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1946-12-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Tel Aviv"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Unterhaltungs- und Illusionskünstler"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118538314",
+    "https://de.wikipedia.org/wiki/Uri_Geller"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Uri Geller, ursprünglich: György Gellér",
+    "forename": "Uri",
+    "surname": "Geller",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1946-12-20",
+    "place": "Tel Aviv",
+    "country": "Palästina (britisches Mandatsgebiet)"
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118538314",
+    "wikipedia": "https://de.wikipedia.org/wiki/Uri_Geller",
+    "viaf": null
+  }
+}

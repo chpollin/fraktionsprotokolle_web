@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "WeissFranz_1949-09-07",
+  "name": "Franz Weiß",
+  "givenName": "Franz",
+  "familyName": "Weiß",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1887-12-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Ried/Krs. Saulgau"
+  },
+  "deathDate": "1974-10-02",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Weingarten"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Agrarwissenschaftler, Landwirtschaftsminister [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1012371182",
+    "https://de.wikipedia.org/wiki/Franz_Wei%C3%9F_(Politiker,_1887)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Franz Weiß",
+    "forename": "Franz",
+    "surname": "Weiß",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1887-12-23",
+    "place": "Ried/Krs. Saulgau",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1974-10-02",
+    "place": "Weingarten",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002460",
+    "gnd": "https://d-nb.info/gnd/1012371182",
+    "wikipedia": "https://de.wikipedia.org/wiki/Franz_Wei%C3%9F_(Politiker,_1887)",
+    "viaf": null
+  }
+}

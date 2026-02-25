@@ -1,0 +1,74 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "GeigerHelmut_1965-06-08",
+  "name": "Helmut Geiger",
+  "givenName": "Helmut",
+  "familyName": "Geiger",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1928-06-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Nürnberg"
+  },
+  "deathDate": "2020-01-11",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsanwalt, Dipl.-Volkswirt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1965-06-08",
+      "endDate": "1965-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/118538152",
+    "https://de.wikipedia.org/wiki/Helmut_Geiger"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Helmut Geiger",
+    "forename": "Helmut",
+    "surname": "Geiger",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1928-06-12",
+    "place": "Nürnberg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2020-01-11",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 4,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1965-06-08",
+      "to": "1965-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000647",
+    "gnd": "https://d-nb.info/gnd/118538152",
+    "wikipedia": "https://de.wikipedia.org/wiki/Helmut_Geiger",
+    "viaf": null
+  },
+  "fraktionsprotokolle:sonstiges": "1957–1959 wiss. Assistent der CSU-Landesgruppe, 1959–1966 Geschäftsführer der Geschäftsstelle der Landesbausparkassen beim Deutschen Sparkassen- und Giroverband, 1972–1993 Präsident des Deutschen Sparkassen- und Giroverbandes (DSGV), 1985–1999 Präsident sowie ab 2015 Ehrenpräsident der Stiftung Deutsche Krebshilfe"
+}

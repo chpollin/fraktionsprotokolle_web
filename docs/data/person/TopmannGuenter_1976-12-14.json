@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "TopmannGuenter_1976-12-14",
+  "name": "Günter Topmann",
+  "givenName": "Günter",
+  "familyName": "Topmann",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1934-05-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bielefeld"
+  },
+  "deathDate": "2024-08-12",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bielefeld"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Kriminaloberkommissar a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1976-12-14",
+      "endDate": "1980-11-04"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1980-11-04",
+      "endDate": "1983-03-29"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/170139611",
+    "https://de.wikipedia.org/wiki/G%C3%BCnter_Topmann"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Günter Topmann",
+    "forename": "Günter",
+    "surname": "Topmann",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1934-05-07",
+    "place": "Bielefeld",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2024-08-12",
+    "place": "Bielefeld",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 8,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1976-12-14",
+      "to": "1980-11-04"
+    },
+    {
+      "period": 9,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1980-11-04",
+      "to": "1983-03-29"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002337",
+    "gnd": "https://d-nb.info/gnd/170139611",
+    "wikipedia": "https://de.wikipedia.org/wiki/G%C3%BCnter_Topmann",
+    "viaf": null
+  }
+}

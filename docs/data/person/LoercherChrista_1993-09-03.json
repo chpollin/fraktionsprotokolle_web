@@ -1,0 +1,121 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "LoercherChrista_1993-09-03",
+  "name": "Christa Lörcher, geb. Treumann",
+  "givenName": "Christa",
+  "familyName": "Lörcher",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1941-06-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Mewe/Krs. Dirschau, Danzig-Westpreußen (heute: Gniew, Polen)"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Unterrichtsschwester [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1993-09-03",
+      "endDate": "1994-11-10"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-10-26"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1998-10-26",
+      "endDate": "2002-10-17"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktionslos",
+        "alternateName": "Fraktionslos"
+      },
+      "startDate": "2001-11-15",
+      "endDate": "2002-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1012756777",
+    "https://de.wikipedia.org/wiki/Christa_L%C3%B6rcher"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Christa Lörcher, geb. Treumann",
+    "forename": "Christa",
+    "surname": "Lörcher",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1941-06-24",
+    "place": "Mewe/Krs. Dirschau, Danzig-Westpreußen (heute: Gniew, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 12,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1993-09-03",
+      "to": "1994-11-10"
+    },
+    {
+      "period": 13,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1994-11-10",
+      "to": "1998-10-26"
+    },
+    {
+      "period": 14,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1998-10-26",
+      "to": "2002-10-17"
+    },
+    {
+      "period": 14,
+      "faction": "Fraktionslos",
+      "faction_full": "Fraktionslos",
+      "from": "2001-11-15",
+      "to": "2002-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001363",
+    "gnd": "https://d-nb.info/gnd/1012756777",
+    "wikipedia": "https://de.wikipedia.org/wiki/Christa_L%C3%B6rcher",
+    "viaf": null
+  }
+}

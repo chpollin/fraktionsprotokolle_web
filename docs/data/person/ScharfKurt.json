@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "ScharfKurt",
+  "name": "Kurt Scharf",
+  "givenName": "Kurt",
+  "familyName": "Scharf",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1902-10-21",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Landsberg, Warthe"
+  },
+  "deathDate": "1990-03-28",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Präses, 1966–1976 Evangelischer Bischof von Berlin-Brandenburg, 1961–1967 Ratsvorsitzender der EKD"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118606514",
+    "https://de.wikipedia.org/wiki/Kurt_Scharf"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Kurt Scharf",
+    "forename": "Kurt",
+    "surname": "Scharf",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1902-10-21",
+    "place": "Landsberg, Warthe",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1990-03-28",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118606514",
+    "wikipedia": "https://de.wikipedia.org/wiki/Kurt_Scharf",
+    "viaf": null
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "WeingartenJoe_2019-11-01",
+  "name": "Joe Weingarten",
+  "givenName": "Joe",
+  "familyName": "Weingarten",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1962-03-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bad Kreuznach"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Verwaltungswissenschaftler, Ministerialdirigent a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "2019-11-01"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Joe Weingarten",
+    "forename": "Joe",
+    "surname": "Weingarten",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1962-03-17",
+    "place": "Bad Kreuznach",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 19,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "2019-11-01",
+      "to": ""
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11004950",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

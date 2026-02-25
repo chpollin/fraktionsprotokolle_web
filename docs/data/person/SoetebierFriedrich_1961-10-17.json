@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SoetebierFriedrich_1961-10-17",
+  "name": "Friedrich Soetebier",
+  "givenName": "Friedrich",
+  "familyName": "Soetebier",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1901-01-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "deathDate": "1973-03-20",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Buchholz in der Nordheide"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Bäckermeister und Einzelhändler [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1035154781",
+    "https://de.wikipedia.org/wiki/Friedrich_Soetebier"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Friedrich Soetebier",
+    "forename": "Friedrich",
+    "surname": "Soetebier",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1901-01-19",
+    "place": "Hamburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1973-03-20",
+    "place": "Buchholz in der Nordheide",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 4,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002187",
+    "gnd": "https://d-nb.info/gnd/1035154781",
+    "wikipedia": "https://de.wikipedia.org/wiki/Friedrich_Soetebier",
+    "viaf": null
+  }
+}

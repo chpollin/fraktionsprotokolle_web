@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "LutherHans",
+  "name": "Hans Luther",
+  "givenName": "Hans",
+  "familyName": "Luther",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1879-03-10",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "1962-05-11",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Düsseldorf"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1925–1926 Reichskanzler, 1930–1933 Präsident der Reichsbank, 1952–1955 Vorsitzender des Sachverständigen-Ausschusses für die Neugliederung des Bundesgebietes"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118575422",
+    "https://de.wikipedia.org/wiki/Hans_Luther"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans Luther",
+    "forename": "Hans",
+    "surname": "Luther",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1879-03-10",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1962-05-11",
+    "place": "Düsseldorf",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118575422",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Luther",
+    "viaf": null
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BrandenburgMario_2017-10-24",
+  "name": "Mario Brandenburg",
+  "givenName": "Mario",
+  "familyName": "Brandenburg",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1983-10-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bad Bergzabern"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Wirtschaftsinformatiker [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "2017-10-24"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Mario Brandenburg",
+    "forename": "Mario",
+    "surname": "Brandenburg",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Südpfalz)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1983-10-03",
+    "place": "Bad Bergzabern",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 19,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "2017-10-24",
+      "to": ""
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11004677",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

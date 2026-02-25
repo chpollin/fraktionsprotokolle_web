@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "OpelFritz",
+  "name": "Fritz Opel",
+  "givenName": "Fritz",
+  "familyName": "Opel",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1912-08-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hindenburg (heute: Zabrze, Polen)"
+  },
+  "deathDate": "1973",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Frankfurt am Main"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Gewerkschafter, Redakteur, SPD-Mitglied"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/1169062830",
+    "https://de.wikipedia.org/wiki/Fritz_Opel_(Gewerkschafter)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Fritz Opel",
+    "forename": "Fritz",
+    "surname": "Opel",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1912-08-26",
+    "place": "Hindenburg (heute: Zabrze, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1973",
+    "place": "Frankfurt am Main",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/1169062830",
+    "wikipedia": "https://de.wikipedia.org/wiki/Fritz_Opel_(Gewerkschafter)",
+    "viaf": null
+  }
+}

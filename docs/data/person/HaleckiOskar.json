@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HaleckiOskar",
+  "name": "Oskar Halecki",
+  "givenName": "Oskar",
+  "familyName": "Halecki",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1891-05-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Wien"
+  },
+  "deathDate": "1973-09-17",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "New York City"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "polnischer Historiker"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/116405104",
+    "https://de.wikipedia.org/wiki/Oskar_Halecki"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Oskar Halecki",
+    "forename": "Oskar",
+    "surname": "Halecki",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1891-05-26",
+    "place": "Wien",
+    "country": "Österreich"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1973-09-17",
+    "place": "New York City",
+    "country": "USA"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/116405104",
+    "wikipedia": "https://de.wikipedia.org/wiki/Oskar_Halecki",
+    "viaf": null
+  }
+}

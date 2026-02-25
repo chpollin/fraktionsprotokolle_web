@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "AhrensAdolf_1949-09-07",
+  "name": "Adolf Ahrens",
+  "givenName": "Adolf",
+  "familyName": "Ahrens",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1879-09-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bremerhaven"
+  },
+  "deathDate": "1957-01-21",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bremen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Kapitän a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Deutsche Partei",
+        "alternateName": "DP"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/118647423",
+    "https://de.wikipedia.org/wiki/Adolf_Ahrens_%28Kapit%C3%A4n%29"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Adolf Ahrens",
+    "forename": "Adolf",
+    "surname": "Ahrens",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1879-09-17",
+    "place": "Bremerhaven",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1957-01-21",
+    "place": "Bremen",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "DP",
+      "faction_full": "Fraktion Deutsche Partei",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000015",
+    "gnd": "https://d-nb.info/gnd/118647423",
+    "wikipedia": "https://de.wikipedia.org/wiki/Adolf_Ahrens_%28Kapit%C3%A4n%29",
+    "viaf": null
+  }
+}

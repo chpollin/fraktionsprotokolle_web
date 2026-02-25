@@ -1,0 +1,107 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HeinemannGustavW_1957-10-15",
+  "name": "Gustav W. Heinemann",
+  "givenName": "Gustav W.",
+  "familyName": "Heinemann",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1899-07-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Schwelm"
+  },
+  "deathDate": "1976-07-07",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Essen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsanwalt und Notar [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1957-10-15",
+      "endDate": "1961-10-15"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1965-10-19",
+      "endDate": "1969-06-24"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/118548115",
+    "https://de.wikipedia.org/wiki/Gustav_Heinemann"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Gustav W. Heinemann",
+    "forename": "Gustav W.",
+    "surname": "Heinemann",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1899-07-23",
+    "place": "Schwelm",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1976-07-07",
+    "place": "Essen",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 3,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 4,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    },
+    {
+      "period": 5,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1965-10-19",
+      "to": "1969-06-24"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000848",
+    "gnd": "https://d-nb.info/gnd/118548115",
+    "wikipedia": "https://de.wikipedia.org/wiki/Gustav_Heinemann",
+    "viaf": null
+  }
+}

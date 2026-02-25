@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchaeferHans",
+  "name": "Hans Schaefer",
+  "givenName": "Hans",
+  "familyName": "Schaefer",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1906-08-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Düsseldorf"
+  },
+  "deathDate": "2000-11-22",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Heidelberg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Mediziner, Professor für Physiologie in Heidelberg"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118606174",
+    "https://de.wikipedia.org/wiki/Hans_Schaefer_(Mediziner)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans Schaefer",
+    "forename": "Hans",
+    "surname": "Schaefer",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1906-08-13",
+    "place": "Düsseldorf",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2000-11-22",
+    "place": "Heidelberg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118606174",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Schaefer_(Mediziner)",
+    "viaf": null
+  }
+}

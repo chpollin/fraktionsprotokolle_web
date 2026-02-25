@@ -1,0 +1,87 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "RzepkaPeter_2002-10-17",
+  "name": "Peter Rzepka",
+  "givenName": "Peter",
+  "familyName": "Rzepka",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1944-07-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Jagertow/Kreis Belgrad, Pommern (heute: Ogartowo, Polen)"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Steuerjurist [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "2002-10-17",
+      "endDate": "2005-10-18"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "2005-10-18",
+      "endDate": "2009-10-27"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1328974987",
+    "https://de.wikipedia.org/wiki/Peter_Rzepka"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Peter Rzepka",
+    "forename": "Peter",
+    "surname": "Rzepka",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1944-07-07",
+    "place": "Jagertow/Kreis Belgrad, Pommern (heute: Ogartowo, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 15,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "2002-10-17",
+      "to": "2005-10-18"
+    },
+    {
+      "period": 16,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "2005-10-18",
+      "to": "2009-10-27"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11003621",
+    "gnd": "https://d-nb.info/gnd/1328974987",
+    "wikipedia": "https://de.wikipedia.org/wiki/Peter_Rzepka",
+    "viaf": null
+  }
+}

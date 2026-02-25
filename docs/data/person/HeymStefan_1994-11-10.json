@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HeymStefan_1994-11-10",
+  "name": "Stefan Heym, geb. Helmut Flieg",
+  "givenName": "Stefan",
+  "familyName": "Heym",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1913-04-10",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Chemnitz/Sachsen"
+  },
+  "deathDate": "2001-12-16",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "En Bokek"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Schriftsteller, Journalist [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Gruppe der Partei des Demokratischen Sozialismus",
+        "alternateName": "Grp. PDS"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1995-10-31"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/118550691",
+    "https://de.wikipedia.org/wiki/Stefan_Heym"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Stefan Heym, geb. Helmut Flieg",
+    "forename": "Stefan",
+    "surname": "Heym",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1913-04-10",
+    "place": "Chemnitz/Sachsen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2001-12-16",
+    "place": "En Bokek",
+    "country": "Israel"
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 13,
+      "faction": "Grp. PDS",
+      "faction_full": "Gruppe der Partei des Demokratischen Sozialismus",
+      "from": "1994-11-10",
+      "to": "1995-10-31"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002675",
+    "gnd": "https://d-nb.info/gnd/118550691",
+    "wikipedia": "https://de.wikipedia.org/wiki/Stefan_Heym",
+    "viaf": null
+  }
+}

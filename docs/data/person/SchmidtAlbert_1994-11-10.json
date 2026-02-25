@@ -1,0 +1,111 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchmidtAlbert_1994-11-10",
+  "name": "Albert Schmidt",
+  "givenName": "Albert",
+  "familyName": "Schmidt",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1951-02-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Uffenheim/Mittelfranken"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Pädagoge, Lehrer, Musiker [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Bündnis 90/Die Grünen",
+        "alternateName": "B90/Grüne"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-10-26"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Bündnis 90/Die Grünen",
+        "alternateName": "B90/Grüne"
+      },
+      "startDate": "1998-10-26",
+      "endDate": "2002-10-17"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Bündnis 90/Die Grünen",
+        "alternateName": "B90/Grüne"
+      },
+      "startDate": "2002-10-17",
+      "endDate": "2005-10-18"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Albert Schmidt",
+    "forename": "Albert",
+    "surname": "Schmidt",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Hitzhofen)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1951-02-13",
+    "place": "Uffenheim/Mittelfranken",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 13,
+      "faction": "B90/Grüne",
+      "faction_full": "Fraktion Bündnis 90/Die Grünen",
+      "from": "1994-11-10",
+      "to": "1998-10-26"
+    },
+    {
+      "period": 14,
+      "faction": "B90/Grüne",
+      "faction_full": "Fraktion Bündnis 90/Die Grünen",
+      "from": "1998-10-26",
+      "to": "2002-10-17"
+    },
+    {
+      "period": 15,
+      "faction": "B90/Grüne",
+      "faction_full": "Fraktion Bündnis 90/Die Grünen",
+      "from": "2002-10-17",
+      "to": "2005-10-18"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002779",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  },
+  "fraktionsprotokolle:alt_names": [
+    {
+      "reg": "Albert Schmidt",
+      "forename": "Albert",
+      "surname": "Schmidt",
+      "prefix": "",
+      "role_name": "",
+      "place": "(Ingolstadt)"
+    }
+  ]
+}

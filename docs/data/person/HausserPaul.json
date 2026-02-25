@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HausserPaul",
+  "name": "Paul Hausser",
+  "givenName": "Paul",
+  "familyName": "Hausser",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1880-10-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Brandenburg an der Havel"
+  },
+  "deathDate": "1972-12-21",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Ludwigsburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "vor 1945 Generaloberst der Waffen-SS, seit 1951 Vorsitzender der Hilfsgemeinschaft auf Gegenseitigkeit der Angehörigen der ehemali-gen Waffen-SS (HIAG)"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/121548872",
+    "https://de.wikipedia.org/wiki/Paul_Hausser"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Paul Hausser",
+    "forename": "Paul",
+    "surname": "Hausser",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1880-10-07",
+    "place": "Brandenburg an der Havel",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1972-12-21",
+    "place": "Ludwigsburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/121548872",
+    "wikipedia": "https://de.wikipedia.org/wiki/Paul_Hausser",
+    "viaf": null
+  }
+}

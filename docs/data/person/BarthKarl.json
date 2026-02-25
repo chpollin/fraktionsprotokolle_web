@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BarthKarl",
+  "name": "Karl Barth",
+  "givenName": "Karl",
+  "familyName": "Barth",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1886-05-10",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Basel"
+  },
+  "deathDate": "1968-12-10",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Basel"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Schweizer evangelisch-reformierter Theologe, Mitglied der Bekennenden Kirche, 1935–1962 Professor für Systematische Theologie an der Universität Basel"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118506803",
+    "https://de.wikipedia.org/wiki/Karl_Barth"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Karl Barth",
+    "forename": "Karl",
+    "surname": "Barth",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1886-05-10",
+    "place": "Basel",
+    "country": "Schweiz"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1968-12-10",
+    "place": "Basel",
+    "country": "Schweiz"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118506803",
+    "wikipedia": "https://de.wikipedia.org/wiki/Karl_Barth",
+    "viaf": null
+  }
+}

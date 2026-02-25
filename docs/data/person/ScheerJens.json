@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "ScheerJens",
+  "name": "Jens Scheer",
+  "givenName": "Jens",
+  "familyName": "Scheer",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1935-05-30",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "deathDate": "1994-07-18",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bremen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Kernphysiker und Kernkraftgegner, seit 1971 Professor an der Universität Bremen"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/17009927X",
+    "https://de.wikipedia.org/wiki/Jens_Scheer"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Jens Scheer",
+    "forename": "Jens",
+    "surname": "Scheer",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1935-05-30",
+    "place": "Hamburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1994-07-18",
+    "place": "Bremen",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/17009927X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Jens_Scheer",
+    "viaf": null
+  }
+}

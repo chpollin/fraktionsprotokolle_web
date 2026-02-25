@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HeisenbergWerner",
+  "name": "Georges Heisbourg",
+  "givenName": "Georges",
+  "familyName": "Heisbourg",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1901-12-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Würzburg"
+  },
+  "deathDate": "1976-02-01",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Professor für Physik, 1932 Nobelpreis, 1953–1975 Vorsitzender der Alexander von Humboldt-Stiftung, 1958–1970 Direktor des Max-Planck-Instituts für Physik und Astrophysik München"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118548670",
+    "https://de.wikipedia.org/wiki/Werner_Heisenberg"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Georges Heisbourg",
+    "forename": "Georges",
+    "surname": "Heisbourg",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1901-12-05",
+    "place": "Würzburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1976-02-01",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118548670",
+    "wikipedia": "https://de.wikipedia.org/wiki/Werner_Heisenberg",
+    "viaf": null
+  }
+}

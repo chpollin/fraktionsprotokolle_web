@@ -1,0 +1,107 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "Manteuffel-SzoegeGeorg_1953-10-06",
+  "name": "Georg Baron Manteuffel-Szoege",
+  "givenName": "Georg",
+  "familyName": "Manteuffel-Szoege",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1889-03-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Montreux"
+  },
+  "deathDate": "1962-06-08",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bad Godesberg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Landwirt, Präsident a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1957-10-15",
+      "endDate": "1961-10-15"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1962-06-08"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/106528351",
+    "https://de.wikipedia.org/wiki/Georg_Baron_Manteuffel-Szoege"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Georg Baron Manteuffel-Szoege",
+    "forename": "Georg",
+    "surname": "Manteuffel-Szoege",
+    "prefix": "",
+    "role_name": "Baron",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1889-03-07",
+    "place": "Montreux",
+    "country": "Schweiz"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1962-06-08",
+    "place": "Bad Godesberg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 3,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 4,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1961-10-17",
+      "to": "1962-06-08"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001419",
+    "gnd": "https://d-nb.info/gnd/106528351",
+    "wikipedia": "https://de.wikipedia.org/wiki/Georg_Baron_Manteuffel-Szoege",
+    "viaf": null
+  }
+}

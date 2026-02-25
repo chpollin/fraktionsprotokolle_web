@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "FriedmannWerner",
+  "name": "Werner Friedmann",
+  "givenName": "Werner",
+  "familyName": "Friedmann",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1909-05-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "deathDate": "1969-04-23",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist, 1951–1960 Chefredakteur der »Süddeutschen Zeitung«"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/116803215c",
+    "https://de.wikipedia.org/wiki/Werner_Friedmann"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Werner Friedmann",
+    "forename": "Werner",
+    "surname": "Friedmann",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1909-05-12",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1969-04-23",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/116803215c",
+    "wikipedia": "https://de.wikipedia.org/wiki/Werner_Friedmann",
+    "viaf": null
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "WelsOtto",
+  "name": "Otto Wels",
+  "givenName": "Otto",
+  "familyName": "Wels",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1873-09-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "1939-09-16",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1920–1933 MdR (SPD), SPD-Parteivorsitzender, begründete am 23. März 1933 die Ablehnung des »Ermächtigungsgesetzes« durch die SPD-Reichstagsfraktion"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118766643",
+    "https://de.wikipedia.org/wiki/Otto_Wels"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Otto Wels",
+    "forename": "Otto",
+    "surname": "Wels",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1873-09-15",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1939-09-16",
+    "place": "Paris",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118766643",
+    "wikipedia": "https://de.wikipedia.org/wiki/Otto_Wels",
+    "viaf": null
+  }
+}

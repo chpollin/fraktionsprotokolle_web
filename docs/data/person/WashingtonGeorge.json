@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "WashingtonGeorge",
+  "name": "George Washington",
+  "givenName": "George",
+  "familyName": "Washington",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1732-02-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Wakefield, Westmoreland County"
+  },
+  "deathDate": "1799-12-14",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Mount Vernon, Virginia"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1789–1797 erster Präsident der Vereinigten Staaten von Amerika"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/11876439X",
+    "https://de.wikipedia.org/wiki/George_Washington"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "George Washington",
+    "forename": "George",
+    "surname": "Washington",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1732-02-22",
+    "place": "Wakefield, Westmoreland County",
+    "country": "Kolonie Virginia (heute: USA)"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1799-12-14",
+    "place": "Mount Vernon, Virginia",
+    "country": "USA"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/11876439X",
+    "wikipedia": "https://de.wikipedia.org/wiki/George_Washington",
+    "viaf": null
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SrockErnst_1953-10-06",
+  "name": "Ernst Srock",
+  "givenName": "Ernst",
+  "familyName": "Srock",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1916-03-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Danzig (heute: Gdańsk, Polen)"
+  },
+  "deathDate": "1998-12-17",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Celle"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Lehrer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Gesamtdeutscher Block/Block der Heimatvertriebenen und Entrechteten",
+        "alternateName": "GB/BHE"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1120084210",
+    "https://de.wikipedia.org/wiki/Ernst_Srock"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Ernst Srock",
+    "forename": "Ernst",
+    "surname": "Srock",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1916-03-16",
+    "place": "Danzig (heute: Gdańsk, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1998-12-17",
+    "place": "Celle",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "GB/BHE",
+      "faction_full": "Fraktion Gesamtdeutscher Block/Block der Heimatvertriebenen und Entrechteten",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002209",
+    "gnd": "https://d-nb.info/gnd/1120084210",
+    "wikipedia": "https://de.wikipedia.org/wiki/Ernst_Srock",
+    "viaf": null
+  }
+}

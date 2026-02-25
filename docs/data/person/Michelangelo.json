@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "Michelangelo",
+  "name": "Michelangelo",
+  "givenName": "Michelangelo",
+  "familyName": "di Lodovico Buonarroti Simoni",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1475-03-06",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Caprese, Toskana"
+  },
+  "deathDate": "1564-02-18",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Rom"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "italienischer Maler, Bildhauer, Baumeister und Dichter"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118582143",
+    "https://de.wikipedia.org/wiki/Michelangelo"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Michelangelo",
+    "forename": "Michelangelo",
+    "surname": "di Lodovico Buonarroti Simoni",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1475-03-06",
+    "place": "Caprese, Toskana",
+    "country": "Italien"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1564-02-18",
+    "place": "Rom",
+    "country": "Italien"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118582143",
+    "wikipedia": "https://de.wikipedia.org/wiki/Michelangelo",
+    "viaf": null
+  }
+}

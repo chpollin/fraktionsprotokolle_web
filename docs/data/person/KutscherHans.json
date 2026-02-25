@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "KutscherHans",
+  "name": "Hans Kutscher",
+  "givenName": "Hans",
+  "familyName": "Kutscher",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1911-12-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "deathDate": "1993-08-24",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bad Herrenalb"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1952 Ministerialrat, 1955 Richter des Bundesverfassungsgerichts, 1970 Richter am Europäischen Gerichtshof, 1976–1980 dessen Präsident"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118568329",
+    "https://de.wikipedia.org/wiki/Hans_Kutscher"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans Kutscher",
+    "forename": "Hans",
+    "surname": "Kutscher",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1911-12-14",
+    "place": "Hamburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1993-08-24",
+    "place": "Bad Herrenalb",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118568329",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Kutscher",
+    "viaf": null
+  }
+}

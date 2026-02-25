@@ -1,0 +1,66 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "JongenMarc_2017-10-24",
+  "name": "Marc Jongen",
+  "givenName": "Marc",
+  "familyName": "Jongen",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1968-05-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Meran"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dozent für Philosophie [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Alternative für Deutschland",
+        "alternateName": "AfD"
+      },
+      "startDate": "2017-10-24"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Marc Jongen",
+    "forename": "Marc",
+    "surname": "Jongen",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1968-05-23",
+    "place": "Meran",
+    "country": "Italien"
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 19,
+      "faction": "AfD",
+      "faction_full": "Alternative für Deutschland",
+      "from": "2017-10-24",
+      "to": ""
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11004768",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

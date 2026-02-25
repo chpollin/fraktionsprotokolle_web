@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "MorusThomas",
+  "name": "Thomas Morus",
+  "givenName": "Thomas",
+  "familyName": "Morus",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1478-02-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "London"
+  },
+  "deathDate": "1535-07-06",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "London"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "englischer Staatsmann und humanistischer Autor, 1529–1532 Lordkanzler"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118641158",
+    "https://de.wikipedia.org/wiki/Thomas_Morus"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Thomas Morus",
+    "forename": "Thomas",
+    "surname": "Morus",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1478-02-07",
+    "place": "London",
+    "country": "Großbritannien"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1535-07-06",
+    "place": "London",
+    "country": "Großbritannien"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118641158",
+    "wikipedia": "https://de.wikipedia.org/wiki/Thomas_Morus",
+    "viaf": null
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "WittichBerthold_1987-02-18",
+  "name": "Berthold Wittich",
+  "givenName": "Berthold",
+  "familyName": "Wittich",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1933-10-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Heringen/Werra"
+  },
+  "deathDate": "2025-04-25",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Ludwigsau"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Konrektor a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1987-02-18",
+      "endDate": "1990-12-20"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-10-26"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1320007996",
+    "https://de.wikipedia.org/wiki/Berthold_Wittich"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Berthold Wittich",
+    "forename": "Berthold",
+    "surname": "Wittich",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1933-10-18",
+    "place": "Heringen/Werra",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2025-04-25",
+    "place": "Ludwigsau",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 11,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1987-02-18",
+      "to": "1990-12-20"
+    },
+    {
+      "period": 12,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1990-12-20",
+      "to": "1994-11-10"
+    },
+    {
+      "period": 13,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1994-11-10",
+      "to": "1998-10-26"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002538",
+    "gnd": "https://d-nb.info/gnd/1320007996",
+    "wikipedia": "https://de.wikipedia.org/wiki/Berthold_Wittich",
+    "viaf": null
+  }
+}

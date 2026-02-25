@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "GoernertHans",
+  "name": "Hans Görnert",
+  "givenName": "Hans",
+  "familyName": "Görnert",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1934-05-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Wetzlar"
+  },
+  "deathDate": "2021-03-26",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1977-1979 Oberbürgermeister der Stadt Lahn und nach deren Auflösung 1979-1985 Oberbürgermeister der Stadt Gießen (CDU)"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/1230189068",
+    "https://de.wikipedia.org/wiki/Hans_G%C3%B6rnert"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans Görnert",
+    "forename": "Hans",
+    "surname": "Görnert",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1934-05-03",
+    "place": "Wetzlar",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2021-03-26",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/1230189068",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_G%C3%B6rnert",
+    "viaf": null
+  }
+}

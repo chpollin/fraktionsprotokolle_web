@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "MetterRudolf_1957-10-15",
+  "name": "Rudolf Metter",
+  "givenName": "Rudolf",
+  "familyName": "Metter",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1903-08-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Botenwald, Mähren (heute: Studénka, Tschechische Republik)"
+  },
+  "deathDate": "1972-08-01",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Würzburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Schlosser [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1957-10-15",
+      "endDate": "1961-10-15"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/12441320X",
+    "https://de.wikipedia.org/wiki/Rudolf_Metter"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Rudolf Metter",
+    "forename": "Rudolf",
+    "surname": "Metter",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1903-08-26",
+    "place": "Botenwald, Mähren (heute: Studénka, Tschechische Republik)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1972-08-01",
+    "place": "Würzburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 3,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 4,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001486",
+    "gnd": "https://d-nb.info/gnd/12441320X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Rudolf_Metter",
+    "viaf": null
+  }
+}

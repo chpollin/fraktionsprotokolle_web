@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "GrundmannArthur_1949-09-07",
+  "name": "Arthur Grundmann",
+  "givenName": "Arthur",
+  "familyName": "Grundmann",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1920-03-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Herne"
+  },
+  "deathDate": "1987-08-16",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Bergmann [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1340039850",
+    "https://de.wikipedia.org/wiki/Arthur_Grundmann"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Arthur Grundmann",
+    "forename": "Arthur",
+    "surname": "Grundmann",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1920-03-23",
+    "place": "Herne",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1987-08-16",
+    "place": "Bonn",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000742",
+    "gnd": "https://d-nb.info/gnd/1340039850",
+    "wikipedia": "https://de.wikipedia.org/wiki/Arthur_Grundmann",
+    "viaf": null
+  }
+}

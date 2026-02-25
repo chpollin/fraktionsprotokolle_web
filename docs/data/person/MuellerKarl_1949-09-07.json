@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "MuellerKarl_1949-09-07",
+  "name": "Karl Müller",
+  "givenName": "Karl",
+  "familyName": "Müller",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1884-07-29",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Süchteln"
+  },
+  "deathDate": "1964-04-18",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Direktor a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/133725308",
+    "https://de.wikipedia.org/wiki/Karl_M%C3%BCller_(Politiker,_1884)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Karl Müller",
+    "forename": "Karl",
+    "surname": "Müller",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Bonn)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1884-07-29",
+    "place": "Süchteln",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1964-04-18",
+    "place": "Bonn",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 2,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001557",
+    "gnd": "https://d-nb.info/gnd/133725308",
+    "wikipedia": "https://de.wikipedia.org/wiki/Karl_M%C3%BCller_(Politiker,_1884)",
+    "viaf": null
+  }
+}

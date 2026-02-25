@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "RuedigerKarl_1949-09-07",
+  "name": "Karl Rüdiger",
+  "givenName": "Karl",
+  "familyName": "Rüdiger",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1896-06-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Ochshausen"
+  },
+  "deathDate": "1951-02-20",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Homberg (Efze)"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Landwirt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1951-02-20"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1168849047",
+    "https://de.wikipedia.org/wiki/Karl_R%C3%BCdiger_(Politiker)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Karl Rüdiger",
+    "forename": "Karl",
+    "surname": "Rüdiger",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1896-06-16",
+    "place": "Ochshausen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1951-02-20",
+    "place": "Homberg (Efze)",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1949-09-07",
+      "to": "1951-02-20"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001896",
+    "gnd": "https://d-nb.info/gnd/1168849047",
+    "wikipedia": "https://de.wikipedia.org/wiki/Karl_R%C3%BCdiger_(Politiker)",
+    "viaf": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "MeyerRudolf_1994-11-10",
+  "name": "Rudolf Meyer",
+  "givenName": "Rudolf",
+  "familyName": "Meyer",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1953-03-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Winsen/Luhe"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Landwirtschaftsmeister [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-10-26"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Rudolf Meyer",
+    "forename": "Rudolf",
+    "surname": "Meyer",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Winsen)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1953-03-08",
+    "place": "Winsen/Luhe",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 13,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1994-11-10",
+      "to": "1998-10-26"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002737",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

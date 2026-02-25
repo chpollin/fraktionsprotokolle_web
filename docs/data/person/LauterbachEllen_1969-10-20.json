@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "LauterbachEllen_1969-10-20",
+  "name": "Ellen Lauterbach",
+  "givenName": "Ellen",
+  "familyName": "Lauterbach",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1923-07-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kassel"
+  },
+  "deathDate": "2011-05-19",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Heidelberg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dozentin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1969-10-20",
+      "endDate": "1972-09-22"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1119853656",
+    "https://de.wikipedia.org/wiki/Ellen_Lauterbach"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Ellen Lauterbach",
+    "forename": "Ellen",
+    "surname": "Lauterbach",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1923-07-07",
+    "place": "Kassel",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2011-05-19",
+    "place": "Heidelberg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 6,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1969-10-20",
+      "to": "1972-09-22"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001298",
+    "gnd": "https://d-nb.info/gnd/1119853656",
+    "wikipedia": "https://de.wikipedia.org/wiki/Ellen_Lauterbach",
+    "viaf": null
+  }
+}

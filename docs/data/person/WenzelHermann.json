@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "WenzelHermann",
+  "name": "Hermann Wenzel",
+  "givenName": "Hermann",
+  "familyName": "Wenzel",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1882-03-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Wiesbaden"
+  },
+  "deathDate": "1954-07-15",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Düsseldorf"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1945–1953 Aufsichtsratsvorsitzender der Vereinigten Stahlwerke AG"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/1103972634",
+    "https://de.wikipedia.org/wiki/Hermann_Wenzel_(Wirtschaftsf%C3%BChrer)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Hermann Wenzel",
+    "forename": "Hermann",
+    "surname": "Wenzel",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1882-03-12",
+    "place": "Wiesbaden",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1954-07-15",
+    "place": "Düsseldorf",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/1103972634",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hermann_Wenzel_(Wirtschaftsf%C3%BChrer)",
+    "viaf": null
+  }
+}

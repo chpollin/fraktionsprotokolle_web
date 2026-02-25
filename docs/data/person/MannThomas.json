@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "MannThomas",
+  "name": "Thomas Mann",
+  "givenName": "Thomas",
+  "familyName": "Mann",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1875-06-06",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Lübeck"
+  },
+  "deathDate": "1955-08-12",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Zürich"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Schriftsteller"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118577166",
+    "https://de.wikipedia.org/wiki/Thomas_Mann"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Thomas Mann",
+    "forename": "Thomas",
+    "surname": "Mann",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1875-06-06",
+    "place": "Lübeck",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1955-08-12",
+    "place": "Zürich",
+    "country": "Schweiz"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118577166",
+    "wikipedia": "https://de.wikipedia.org/wiki/Thomas_Mann",
+    "viaf": null
+  }
+}

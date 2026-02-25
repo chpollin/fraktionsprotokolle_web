@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HoffmannCurt_1951-06-15",
+  "name": "Curt Hoffmann",
+  "givenName": "Curt",
+  "familyName": "Hoffmann",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1897-11-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Greifenhagen/Pommern (heute: Gryfino, Polen)"
+  },
+  "deathDate": "1961-11-29",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Lübeck"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Handelskammersyndikus a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1951-06-15",
+      "endDate": "1953-09-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/105290940X",
+    "https://de.wikipedia.org/wiki/Curt_Hoffmann_%28Politiker%29"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Curt Hoffmann",
+    "forename": "Curt",
+    "surname": "Hoffmann",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Lübeck)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1897-11-16",
+    "place": "Greifenhagen/Pommern (heute: Gryfino, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1961-11-29",
+    "place": "Lübeck",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1951-06-15",
+      "to": "1953-09-07"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000936",
+    "gnd": "https://d-nb.info/gnd/105290940X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Curt_Hoffmann_%28Politiker%29",
+    "viaf": null
+  }
+}

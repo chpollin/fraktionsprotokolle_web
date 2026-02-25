@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BrunnerKarl_1949-09-07",
+  "name": "Karl Brunner",
+  "givenName": "Karl",
+  "familyName": "Brunner",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1905-04-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "1951-11-13",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Neuwied"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Chefredakteur, Lehrer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1951-11-13"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1340042347",
+    "https://de.wikipedia.org/wiki/Karl_Brunner_(Politiker,_1905)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Karl Brunner",
+    "forename": "Karl",
+    "surname": "Brunner",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1905-04-12",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1951-11-13",
+    "place": "Neuwied",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1949-09-07",
+      "to": "1951-11-13"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000283",
+    "gnd": "https://d-nb.info/gnd/1340042347",
+    "wikipedia": "https://de.wikipedia.org/wiki/Karl_Brunner_(Politiker,_1905)",
+    "viaf": null
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "MeineckeFriedrich",
+  "name": "Friedrich Meinecke",
+  "givenName": "Friedrich",
+  "familyName": "Meinecke",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1862-10-30",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Salzwedel"
+  },
+  "deathDate": "1954-02-06",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin (West)"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Historiker, 1948 (Ehren)Rektor der Freien Universität Berlin"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118580140",
+    "https://de.wikipedia.org/wiki/Friedrich_Meinecke"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Friedrich Meinecke",
+    "forename": "Friedrich",
+    "surname": "Meinecke",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1862-10-30",
+    "place": "Salzwedel",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1954-02-06",
+    "place": "Berlin (West)",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118580140",
+    "wikipedia": "https://de.wikipedia.org/wiki/Friedrich_Meinecke",
+    "viaf": null
+  }
+}

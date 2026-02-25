@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "ClaudelPaul",
+  "name": "Paul Claudel",
+  "givenName": "Paul",
+  "familyName": "Claudel",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1868-08-06",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Villeneuve-sur-Fère"
+  },
+  "deathDate": "1955-02-23",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "französischer Schriftsteller, Dichter und Diplomat"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118521039",
+    "https://de.wikipedia.org/wiki/Paul_Claudel"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Paul Claudel",
+    "forename": "Paul",
+    "surname": "Claudel",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1868-08-06",
+    "place": "Villeneuve-sur-Fère",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1955-02-23",
+    "place": "Paris",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118521039",
+    "wikipedia": "https://de.wikipedia.org/wiki/Paul_Claudel",
+    "viaf": null
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "GallupGeorge",
+  "name": "George Gallup",
+  "givenName": "George Horace",
+  "familyName": "Gallup",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1901-11-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Jefferson (Iowa)"
+  },
+  "deathDate": "1984-07-26",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Tschingel ob Gunten"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "US-amerikanischer Sozialwissenschaftler, Pionier der Markt- und Meinungsforschung"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/123154456",
+    "https://de.wikipedia.org/wiki/George_Gallup"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "George Gallup",
+    "forename": "George Horace",
+    "surname": "Gallup",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1901-11-18",
+    "place": "Jefferson (Iowa)",
+    "country": "USA"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1984-07-26",
+    "place": "Tschingel ob Gunten",
+    "country": "Schweiz"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/123154456",
+    "wikipedia": "https://de.wikipedia.org/wiki/George_Gallup",
+    "viaf": null
+  }
+}

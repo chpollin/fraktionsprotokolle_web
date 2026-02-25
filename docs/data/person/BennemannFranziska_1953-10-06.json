@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BennemannFranziska_1953-10-06",
+  "name": "Franziska Bennemann, geb. Stellmacher",
+  "givenName": "Franziska",
+  "familyName": "Bennemann",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1905-01-30",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hermsdorf, Provinz Brandenburg"
+  },
+  "deathDate": "1986-08-26",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Braunschweig"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Hausfrau [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1957-10-15",
+      "endDate": "1961-10-15"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1034699911",
+    "https://de.wikipedia.org/wiki/Franziska_Bennemann"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Franziska Bennemann, geb. Stellmacher",
+    "forename": "Franziska",
+    "surname": "Bennemann",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1905-01-30",
+    "place": "Hermsdorf, Provinz Brandenburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1986-08-26",
+    "place": "Braunschweig",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 3,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000142",
+    "gnd": "https://d-nb.info/gnd/1034699911",
+    "wikipedia": "https://de.wikipedia.org/wiki/Franziska_Bennemann",
+    "viaf": null
+  }
+}

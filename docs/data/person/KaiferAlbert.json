@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "KaiferAlbert",
+  "name": "Albert Kaifer",
+  "givenName": "Albert",
+  "familyName": "Kaifer",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1893-03-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hafenhofen, Landkreis Günzburg"
+  },
+  "deathDate": "1962-01-23",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Neusäß, Landkreis Augsburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "MdL (CSU)"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/133533743",
+    "https://de.wikipedia.org/wiki/Albert_Kaifer"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Albert Kaifer",
+    "forename": "Albert",
+    "surname": "Kaifer",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1893-03-25",
+    "place": "Hafenhofen, Landkreis Günzburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1962-01-23",
+    "place": "Neusäß, Landkreis Augsburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/133533743",
+    "wikipedia": "https://de.wikipedia.org/wiki/Albert_Kaifer",
+    "viaf": null
+  }
+}

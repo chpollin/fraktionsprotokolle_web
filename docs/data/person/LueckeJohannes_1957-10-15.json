@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "LueckeJohannes_1957-10-15",
+  "name": "Johannes Lücke",
+  "givenName": "Johannes",
+  "familyName": "Lücke",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1901-07-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Osnabrück"
+  },
+  "deathDate": "1968-12-19",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Osnabrück"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Angestellter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1957-10-15",
+      "endDate": "1961-10-15"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1034941682",
+    "https://de.wikipedia.org/wiki/Johannes_L%C3%BCcke_(Politiker)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Johannes Lücke",
+    "forename": "Johannes",
+    "surname": "Lücke",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Osnabrück)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1901-07-07",
+    "place": "Osnabrück",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1968-12-19",
+    "place": "Osnabrück",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 3,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 4,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001386",
+    "gnd": "https://d-nb.info/gnd/1034941682",
+    "wikipedia": "https://de.wikipedia.org/wiki/Johannes_L%C3%BCcke_(Politiker)",
+    "viaf": null
+  }
+}

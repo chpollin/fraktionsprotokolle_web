@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "Vogel-SperlAntje_2002-10-17",
+  "name": "Antje Vogel-Sperl",
+  "givenName": "Antje",
+  "familyName": "Vogel-Sperl",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1956-11-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bayreuth"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Chemikerin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Bündnis 90/Die Grünen",
+        "alternateName": "B90/Grüne"
+      },
+      "startDate": "2002-10-17",
+      "endDate": "2005-10-18"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Antje Vogel-Sperl",
+    "forename": "Antje",
+    "surname": "Vogel-Sperl",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1956-11-22",
+    "place": "Bayreuth",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 15,
+      "faction": "B90/Grüne",
+      "faction_full": "Fraktion Bündnis 90/Die Grünen",
+      "from": "2002-10-17",
+      "to": "2005-10-18"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11003651",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

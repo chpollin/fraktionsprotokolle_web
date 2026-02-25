@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "AgatzWilli_1949-09-07",
+  "name": "Willi Agatz",
+  "givenName": "Willi",
+  "familyName": "Agatz",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1904-06-10",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Essen"
+  },
+  "deathDate": "1957-08-29",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Ost-Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Bergmann, Gewerkschaftsfunktionär [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Kommunistischen Partei Deutschlands",
+        "alternateName": "KPD"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/130302856",
+    "https://de.wikipedia.org/wiki/Willi_Agatz"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Willi Agatz",
+    "forename": "Willi",
+    "surname": "Agatz",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1904-06-10",
+    "place": "Essen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1957-08-29",
+    "place": "Ost-Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "KPD",
+      "faction_full": "Fraktion der Kommunistischen Partei Deutschlands",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000013",
+    "gnd": "https://d-nb.info/gnd/130302856",
+    "wikipedia": "https://de.wikipedia.org/wiki/Willi_Agatz",
+    "viaf": null
+  }
+}

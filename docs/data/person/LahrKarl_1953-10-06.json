@@ -1,0 +1,141 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "LahrKarl_1953-10-06",
+  "name": "Karl Lahr",
+  "givenName": "Karl",
+  "familyName": "Lahr",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1899-03-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Wendelsheim"
+  },
+  "deathDate": "1974-12-05",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Mainz"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Landwirt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktionslos",
+        "alternateName": "Fraktionslos"
+      },
+      "startDate": "1956-02-23",
+      "endDate": "1957-10-06"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Demokratische Arbeitsgemeinschaft",
+        "alternateName": "DA"
+      },
+      "startDate": "1956-03-15",
+      "endDate": "1957-10-06"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Freie Volkspartei",
+        "alternateName": "FVP"
+      },
+      "startDate": "1956-06-26",
+      "endDate": "1957-10-06"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Deutsche Partei/Freie Volkspartei",
+        "alternateName": "DP/FVP"
+      },
+      "startDate": "1957-03-14",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1136612831",
+    "https://de.wikipedia.org/wiki/Karl_Lahr"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Karl Lahr",
+    "forename": "Karl",
+    "surname": "Lahr",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1899-03-27",
+    "place": "Wendelsheim",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1974-12-05",
+    "place": "Mainz",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 2,
+      "faction": "Fraktionslos",
+      "faction_full": "Fraktionslos",
+      "from": "1956-02-23",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 2,
+      "faction": "DA",
+      "faction_full": "Fraktion Demokratische Arbeitsgemeinschaft",
+      "from": "1956-03-15",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 2,
+      "faction": "FVP",
+      "faction_full": "Fraktion Freie Volkspartei",
+      "from": "1956-06-26",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 2,
+      "faction": "DP/FVP",
+      "faction_full": "Fraktion Deutsche Partei/Freie Volkspartei",
+      "from": "1957-03-14",
+      "to": "1957-10-06"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001270",
+    "gnd": "https://d-nb.info/gnd/1136612831",
+    "wikipedia": "https://de.wikipedia.org/wiki/Karl_Lahr",
+    "viaf": null
+  }
+}

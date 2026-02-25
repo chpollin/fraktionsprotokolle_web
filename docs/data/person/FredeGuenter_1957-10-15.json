@@ -1,0 +1,107 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "FredeGuenter_1957-10-15",
+  "name": "Günter Frede",
+  "givenName": "Günter",
+  "familyName": "Frede",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1901-01-21",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Magdeburg"
+  },
+  "deathDate": "1967-11-23",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Göttingen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Regierungspräsident a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1957-10-15",
+      "endDate": "1961-10-15"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1965-10-19",
+      "endDate": "1967-11-23"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1077628609",
+    "https://de.wikipedia.org/wiki/G%C3%BCnter_Frede"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Günter Frede",
+    "forename": "Günter",
+    "surname": "Frede",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1901-01-21",
+    "place": "Magdeburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1967-11-23",
+    "place": "Göttingen",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 3,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 4,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    },
+    {
+      "period": 5,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1965-10-19",
+      "to": "1967-11-23"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000575",
+    "gnd": "https://d-nb.info/gnd/1077628609",
+    "wikipedia": "https://de.wikipedia.org/wiki/G%C3%BCnter_Frede",
+    "viaf": null
+  }
+}

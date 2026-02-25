@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "MorgensternChristian",
+  "name": "Christian Morgenstern",
+  "givenName": "Christian Otto Josef Wolfgang",
+  "familyName": "Morgenstern",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1871-05-06",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "deathDate": "1914-03-31",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Untermais, Tirol"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dichter"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/11881169X",
+    "https://de.wikipedia.org/wiki/Christian_Morgenstern"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Christian Morgenstern",
+    "forename": "Christian Otto Josef Wolfgang",
+    "surname": "Morgenstern",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1871-05-06",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1914-03-31",
+    "place": "Untermais, Tirol",
+    "country": "Österreich"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/11881169X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Christian_Morgenstern",
+    "viaf": null
+  }
+}

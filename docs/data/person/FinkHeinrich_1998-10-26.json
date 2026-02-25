@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "FinkHeinrich_1998-10-26",
+  "name": "Heinrich Fink",
+  "givenName": "Heinrich",
+  "familyName": "Fink",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1935-03-31",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Korntal/Bessarabien"
+  },
+  "deathDate": "2020-07-01",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Professor, Evangelischer Theologe, Hochschullehrer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Partei des Demokratischen Sozialismus",
+        "alternateName": "PDS"
+      },
+      "startDate": "1998-10-26",
+      "endDate": "2002-10-17"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Heinrich Fink",
+    "forename": "Heinrich",
+    "surname": "Fink",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1935-03-31",
+    "place": "Korntal/Bessarabien",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2020-07-01",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 14,
+      "faction": "PDS",
+      "faction_full": "Fraktion der Partei des Demokratischen Sozialismus",
+      "from": "1998-10-26",
+      "to": "2002-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11003116",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

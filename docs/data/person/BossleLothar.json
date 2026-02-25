@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BossleLothar",
+  "name": "Lothar Bossle",
+  "givenName": "Lothar",
+  "familyName": "Bossle",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1929-11-10",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Ramstein"
+  },
+  "deathDate": "2000-12-17",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Würzburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Soziologieprofessor, Würzburger CSU-Mitglied"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/119216841",
+    "https://de.wikipedia.org/wiki/Lothar_Bossle"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Lothar Bossle",
+    "forename": "Lothar",
+    "surname": "Bossle",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1929-11-10",
+    "place": "Ramstein",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2000-12-17",
+    "place": "Würzburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/119216841",
+    "wikipedia": "https://de.wikipedia.org/wiki/Lothar_Bossle",
+    "viaf": null
+  }
+}

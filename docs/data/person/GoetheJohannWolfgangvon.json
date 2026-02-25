@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "GoetheJohannWolfgangvon",
+  "name": "Johann Wolfgang von Goethe",
+  "givenName": "Johann Wolfgang",
+  "familyName": "Goethe",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1749-08-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Frankfurt am Main"
+  },
+  "deathDate": "1832-03-22",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Weimar"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Schriftsteller, Dichter, Minister im Herzogtum Sachsen-Weimar-Eisenach"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118540238",
+    "https://de.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe#Minister_in_Weimar_(ab_1775)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Johann Wolfgang von Goethe",
+    "forename": "Johann Wolfgang",
+    "surname": "Goethe",
+    "prefix": "von",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1749-08-28",
+    "place": "Frankfurt am Main",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1832-03-22",
+    "place": "Weimar",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118540238",
+    "wikipedia": "https://de.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe#Minister_in_Weimar_(ab_1775)",
+    "viaf": null
+  }
+}

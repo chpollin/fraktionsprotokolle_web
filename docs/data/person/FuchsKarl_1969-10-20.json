@@ -1,0 +1,107 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "FuchsKarl_1969-10-20",
+  "name": "Karl Fuchs",
+  "givenName": "Karl",
+  "familyName": "Fuchs",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1920-09-11",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Empertsreut/Landkrs.Wolfstein"
+  },
+  "deathDate": "1989-03-31",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Passau"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Gymnasialdirektor a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1969-10-20",
+      "endDate": "1972-09-22"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1972-12-13",
+      "endDate": "1976-12-13"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1976-12-14",
+      "endDate": "1980-11-04"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/139386602",
+    "https://de.wikipedia.org/wiki/Karl_Fuchs_(Politiker,_1920)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Karl Fuchs",
+    "forename": "Karl",
+    "surname": "Fuchs",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1920-09-11",
+    "place": "Empertsreut/Landkrs.Wolfstein",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1989-03-31",
+    "place": "Passau",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 6,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1969-10-20",
+      "to": "1972-09-22"
+    },
+    {
+      "period": 7,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1972-12-13",
+      "to": "1976-12-13"
+    },
+    {
+      "period": 8,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1976-12-14",
+      "to": "1980-11-04"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000613",
+    "gnd": "https://d-nb.info/gnd/139386602",
+    "wikipedia": "https://de.wikipedia.org/wiki/Karl_Fuchs_(Politiker,_1920)",
+    "viaf": null
+  }
+}

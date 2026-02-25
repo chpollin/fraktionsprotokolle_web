@@ -1,0 +1,69 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchneiderDirk_1983-03-29",
+  "name": "Dirk Schneider",
+  "givenName": "Dirk",
+  "familyName": "Schneider",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1939-04-21",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Rostock"
+  },
+  "deathDate": "2002-11-03",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Die Grünen",
+        "alternateName": "Grüne"
+      },
+      "startDate": "1983-03-29",
+      "endDate": "1985-03-30"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1068245840"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Dirk Schneider",
+    "forename": "Dirk",
+    "surname": "Schneider",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Berlin)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1939-04-21",
+    "place": "Rostock",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2002-11-03",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 10,
+      "faction": "Grüne",
+      "faction_full": "Fraktion Die Grünen",
+      "from": "1983-03-29",
+      "to": "1985-03-30"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002041",
+    "gnd": "https://d-nb.info/gnd/1068245840",
+    "wikipedia": null,
+    "viaf": null
+  }
+}

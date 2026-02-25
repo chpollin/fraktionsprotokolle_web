@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "WyszynskiStefan",
+  "name": "Stefan Wyszyński",
+  "givenName": "Stefan",
+  "familyName": "Wyszyński",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1901-08-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Zuzela in der heutigen Woiwodschaft Masowien"
+  },
+  "deathDate": "1981-05-28",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Warschau"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Bischof von Lublin, seit 1948 Erzbischof von Gniezno (Gnesen) und Warschau sowie Primas von Polen"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118635786",
+    "https://de.wikipedia.org/wiki/Stefan_Wyszy%C5%84ski"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Stefan Wyszyński",
+    "forename": "Stefan",
+    "surname": "Wyszyński",
+    "prefix": "",
+    "role_name": "Kardinal",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1901-08-03",
+    "place": "Zuzela in der heutigen Woiwodschaft Masowien",
+    "country": "Polen"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1981-05-28",
+    "place": "Warschau",
+    "country": "Polen"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118635786",
+    "wikipedia": "https://de.wikipedia.org/wiki/Stefan_Wyszy%C5%84ski",
+    "viaf": null
+  }
+}

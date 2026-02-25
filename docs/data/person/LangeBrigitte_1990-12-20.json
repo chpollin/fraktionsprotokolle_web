@@ -1,0 +1,107 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "LangeBrigitte_1990-12-20",
+  "name": "Brigitte Lange",
+  "givenName": "Brigitte",
+  "familyName": "Lange",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1939-11-06",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Mauersberg/Erzgebirge"
+  },
+  "deathDate": "2012-03-14",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Marburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Hausfrau [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-10-26"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1998-10-26",
+      "endDate": "2002-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1320007031",
+    "https://de.wikipedia.org/wiki/Brigitte_Lange_%28Politikerin%2C_1939%29"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Brigitte Lange",
+    "forename": "Brigitte",
+    "surname": "Lange",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1939-11-06",
+    "place": "Mauersberg/Erzgebirge",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2012-03-14",
+    "place": "Marburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 12,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1990-12-20",
+      "to": "1994-11-10"
+    },
+    {
+      "period": 13,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1994-11-10",
+      "to": "1998-10-26"
+    },
+    {
+      "period": 14,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1998-10-26",
+      "to": "2002-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001282",
+    "gnd": "https://d-nb.info/gnd/1320007031",
+    "wikipedia": "https://de.wikipedia.org/wiki/Brigitte_Lange_%28Politikerin%2C_1939%29",
+    "viaf": null
+  }
+}

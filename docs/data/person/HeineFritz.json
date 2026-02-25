@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HeineFritz",
+  "name": "Fritz Heine",
+  "givenName": "Fritz",
+  "familyName": "Heine",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1904-12-06",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hannover"
+  },
+  "deathDate": "2002-05-05",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Zülpich"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1946–1958 Mitglied des Geschäftsführenden Parteivorstands der SPD, zuständig für die Führung der Bundestagswahlkämpfe 1949, 1953 und 1957, 1958–1974 Geschäftsführer der Konzentration GmbH"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/116659173",
+    "https://de.wikipedia.org/wiki/Fritz_Heine"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Fritz Heine",
+    "forename": "Fritz",
+    "surname": "Heine",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1904-12-06",
+    "place": "Hannover",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2002-05-05",
+    "place": "Zülpich",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/116659173",
+    "wikipedia": "https://de.wikipedia.org/wiki/Fritz_Heine",
+    "viaf": null
+  }
+}

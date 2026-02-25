@@ -1,0 +1,51 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "EmmelEgon",
+  "name": "Egon Emmel",
+  "givenName": "Egon",
+  "familyName": "Emmel",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1914-05-29",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "deathDate": "1983",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1970–1972 Leiter der Handelsvertretung der Bundesrepublik Deutschland in Warschau mit der Amtsbezeichnung Botschafter"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/1110238533",
+    "https://de.wikipedia.org/wiki/Egon_Emmel"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Egon Emmel",
+    "forename": "Egon",
+    "surname": "Emmel",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1914-05-29",
+    "place": "Hamburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1983",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/1110238533",
+    "wikipedia": "https://de.wikipedia.org/wiki/Egon_Emmel",
+    "viaf": null
+  }
+}

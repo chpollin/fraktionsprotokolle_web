@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "NoellingWilhelm_1969-10-20",
+  "name": "Wilhelm Nölling",
+  "givenName": "Wilhelm",
+  "familyName": "Nölling",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1933-11-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Wemlighausen"
+  },
+  "deathDate": "2019-11-21",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dozent für Volkswirtschaftslehre [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1969-10-20",
+      "endDate": "1972-09-22"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1972-12-13",
+      "endDate": "1974-05-20"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/12854404X",
+    "https://de.wikipedia.org/wiki/Wilhelm_N%C3%B6lling"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Wilhelm Nölling",
+    "forename": "Wilhelm",
+    "surname": "Nölling",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1933-11-17",
+    "place": "Wemlighausen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2019-11-21",
+    "place": "Hamburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 6,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1969-10-20",
+      "to": "1972-09-22"
+    },
+    {
+      "period": 7,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1972-12-13",
+      "to": "1974-05-20"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001619",
+    "gnd": "https://d-nb.info/gnd/12854404X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_N%C3%B6lling",
+    "viaf": null
+  }
+}

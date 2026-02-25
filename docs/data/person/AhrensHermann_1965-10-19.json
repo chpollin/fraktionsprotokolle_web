@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "AhrensHermann_1965-10-19",
+  "name": "Hermann Ahrens",
+  "givenName": "Hermann",
+  "familyName": "Ahrens",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1902-04-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Jerstedt"
+  },
+  "deathDate": "1975-07-14",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Verwaltungsbeamter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der SPD (Gast)",
+        "alternateName": "SPD (Gast)"
+      },
+      "startDate": "1965-10-19",
+      "endDate": "1969-10-19"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/137005792",
+    "https://de.wikipedia.org/wiki/Hermann_Ahrens"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hermann Ahrens",
+    "forename": "Hermann",
+    "surname": "Ahrens",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Salzgitter)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1902-04-08",
+    "place": "Jerstedt",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1975-07-14",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 5,
+      "faction": "SPD (Gast)",
+      "faction_full": "Fraktion der SPD (Gast)",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000016",
+    "gnd": "https://d-nb.info/gnd/137005792",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hermann_Ahrens",
+    "viaf": null
+  }
+}

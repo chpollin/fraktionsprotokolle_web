@@ -1,0 +1,107 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BuehlerKarlAugust_1957-10-15",
+  "name": "Karl August Bühler",
+  "givenName": "Karl August",
+  "familyName": "Bühler",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1904-02-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Ottenheim"
+  },
+  "deathDate": "1984-01-07",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Lörrach"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Pfarrer i. R. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1957-10-15",
+      "endDate": "1961-10-15"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1965-10-19",
+      "endDate": "1969-10-19"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1192395794",
+    "https://de.wikipedia.org/wiki/Karl_August_B%C3%BChler"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Karl August Bühler",
+    "forename": "Karl August",
+    "surname": "Bühler",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1904-02-26",
+    "place": "Ottenheim",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1984-01-07",
+    "place": "Lörrach",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 3,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 4,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    },
+    {
+      "period": 5,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000296",
+    "gnd": "https://d-nb.info/gnd/1192395794",
+    "wikipedia": "https://de.wikipedia.org/wiki/Karl_August_B%C3%BChler",
+    "viaf": null
+  }
+}

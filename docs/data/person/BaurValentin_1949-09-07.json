@@ -1,0 +1,107 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BaurValentin_1949-09-07",
+  "name": "Valentin Baur",
+  "givenName": "Valentin",
+  "familyName": "Baur",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1891-12-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Augsburg"
+  },
+  "deathDate": "1971-06-25",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Augsburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Angestellter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1957-10-15",
+      "endDate": "1961-10-15"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/137032404",
+    "https://de.wikipedia.org/wiki/Valentin_Baur"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Valentin Baur",
+    "forename": "Valentin",
+    "surname": "Baur",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Augsburg)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1891-12-19",
+    "place": "Augsburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1971-06-25",
+    "place": "Augsburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 2,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 3,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000115",
+    "gnd": "https://d-nb.info/gnd/137032404",
+    "wikipedia": "https://de.wikipedia.org/wiki/Valentin_Baur",
+    "viaf": null
+  }
+}

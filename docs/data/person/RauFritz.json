@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "RauFritz",
+  "name": "Fritz Rau",
+  "givenName": "Fritz",
+  "familyName": "Rau",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1930-03-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Pforzheim"
+  },
+  "deathDate": "2013-08-19",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Kronberg im Taunus"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Konzert- und Tourneeveranstalter, bis 1983 Mitglied der Grünen"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118803360",
+    "https://de.wikipedia.org/wiki/Fritz_Rau"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Fritz Rau",
+    "forename": "Fritz",
+    "surname": "Rau",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1930-03-09",
+    "place": "Pforzheim",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2013-08-19",
+    "place": "Kronberg im Taunus",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118803360",
+    "wikipedia": "https://de.wikipedia.org/wiki/Fritz_Rau",
+    "viaf": null
+  }
+}

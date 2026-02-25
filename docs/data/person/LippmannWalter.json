@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "LippmannWalter",
+  "name": "Walter Lippmann",
+  "givenName": "Walter",
+  "familyName": "Lippmann",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1889-09-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "New York"
+  },
+  "deathDate": "1974-12-14",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "bei New York"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "US-amerikanischer Journalist und Publizist"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118780131",
+    "https://de.wikipedia.org/wiki/Walter_Lippmann"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Walter Lippmann",
+    "forename": "Walter",
+    "surname": "Lippmann",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1889-09-23",
+    "place": "New York",
+    "country": "USA"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1974-12-14",
+    "place": "bei New York",
+    "country": "USA"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118780131",
+    "wikipedia": "https://de.wikipedia.org/wiki/Walter_Lippmann",
+    "viaf": null
+  }
+}

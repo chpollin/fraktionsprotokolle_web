@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchusterHans",
+  "name": "Hans Schuster",
+  "givenName": "Hans",
+  "familyName": "Schuster",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1915-01-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "2002-06-09",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Journalist, Redakteur der »Süddeutschen Zeitung«"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/130530654",
+    "https://de.wikipedia.org/wiki/Hans_Schuster_(Journalist)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans Schuster",
+    "forename": "Hans",
+    "surname": "Schuster",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1915-01-24",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2002-06-09",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/130530654",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Schuster_(Journalist)",
+    "viaf": null
+  }
+}

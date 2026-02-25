@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "FrankHans",
+  "name": "Hans Frank",
+  "givenName": "Hans Michael",
+  "familyName": "Frank",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1900-05-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Karlsruhe"
+  },
+  "deathDate": "1946-10-16",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Nürnberg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1939–1945 Generalgouverneur für die besetzten polnischen Gebiete"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118534742",
+    "https://de.wikipedia.org/wiki/Hans_Frank"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans Frank",
+    "forename": "Hans Michael",
+    "surname": "Frank",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1900-05-23",
+    "place": "Karlsruhe",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1946-10-16",
+    "place": "Nürnberg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118534742",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Frank",
+    "viaf": null
+  }
+}

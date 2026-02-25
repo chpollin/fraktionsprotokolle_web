@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "LahnsteinManfred_1983-03-29",
+  "name": "Manfred Lahnstein",
+  "givenName": "Manfred",
+  "familyName": "Lahnstein",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1937-12-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Erkrath/Rheinland"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Minister a. D., Staatsekretär i. R. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1983-03-29",
+      "endDate": "1983-08-31"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Manfred Lahnstein",
+    "forename": "Manfred",
+    "surname": "Lahnstein",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1937-12-20",
+    "place": "Erkrath/Rheinland",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 10,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1983-03-29",
+      "to": "1983-08-31"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001269",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "PostAlbert",
+  "name": "Albert Post",
+  "givenName": "Albert",
+  "familyName": "Post",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1896-10-29",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hesel-Südermoor"
+  },
+  "deathDate": "1992-09-07",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Westerstede"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1947–1970 MdL Niedersachsen (FDP)"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/1035111802",
+    "https://de.wikipedia.org/wiki/Albert_Post_(Politiker)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Albert Post",
+    "forename": "Albert",
+    "surname": "Post",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1896-10-29",
+    "place": "Hesel-Südermoor",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1992-09-07",
+    "place": "Westerstede",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/1035111802",
+    "wikipedia": "https://de.wikipedia.org/wiki/Albert_Post_(Politiker)",
+    "viaf": null
+  }
+}

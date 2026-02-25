@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BrunnsteinKlaus_1983-02-11",
+  "name": "Klaus Brunnstein",
+  "givenName": "Klaus",
+  "familyName": "Brunnstein",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1937-05-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Köln-Lindenthal"
+  },
+  "deathDate": "2015-05-19",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Professor [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1983-02-11",
+      "endDate": "1983-03-29"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Klaus Brunnstein",
+    "forename": "Klaus",
+    "surname": "Brunnstein",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1937-05-25",
+    "place": "Köln-Lindenthal",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2015-05-19",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 9,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1983-02-11",
+      "to": "1983-03-29"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000285",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

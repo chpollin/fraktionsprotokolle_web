@@ -1,0 +1,86 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "MuellerManfred_1994-11-10",
+  "name": "Manfred Müller",
+  "givenName": "Manfred",
+  "familyName": "Müller",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1943-02-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin-Weißensee"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Gewerkschaftssekretär [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Gruppe der Partei des Demokratischen Sozialismus",
+        "alternateName": "Grp. PDS"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-10-26"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Partei des Demokratischen Sozialismus",
+        "alternateName": "PDS"
+      },
+      "startDate": "1998-10-26",
+      "endDate": "2002-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Manfred_M%C3%BCller_(Politiker,_1943)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Manfred Müller",
+    "forename": "Manfred",
+    "surname": "Müller",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Berlin)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1943-02-27",
+    "place": "Berlin-Weißensee",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 13,
+      "faction": "Grp. PDS",
+      "faction_full": "Gruppe der Partei des Demokratischen Sozialismus",
+      "from": "1994-11-10",
+      "to": "1998-10-26"
+    },
+    {
+      "period": 14,
+      "faction": "PDS",
+      "faction_full": "Fraktion der Partei des Demokratischen Sozialismus",
+      "from": "1998-10-26",
+      "to": "2002-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002740",
+    "gnd": null,
+    "wikipedia": "https://de.wikipedia.org/wiki/Manfred_M%C3%BCller_(Politiker,_1943)",
+    "viaf": null
+  }
+}

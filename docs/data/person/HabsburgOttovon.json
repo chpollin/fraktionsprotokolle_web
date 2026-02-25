@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HabsburgOttovon",
+  "name": "Otto von Habsburg",
+  "givenName": "Otto",
+  "familyName": "Habsburg",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1912-11-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Reichenau an der Rax"
+  },
+  "deathDate": "2011-07-04",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Pöcking"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1979–1999 Mitglied des Europäischen Parlaments (CSU)"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118699873",
+    "https://de.wikipedia.org/wiki/Otto_von_Habsburg"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Otto von Habsburg",
+    "forename": "Otto",
+    "surname": "Habsburg",
+    "prefix": "von",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1912-11-20",
+    "place": "Reichenau an der Rax",
+    "country": "Österreich-Ungarn"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2011-07-04",
+    "place": "Pöcking",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118699873",
+    "wikipedia": "https://de.wikipedia.org/wiki/Otto_von_Habsburg",
+    "viaf": null
+  }
+}

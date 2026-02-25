@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "StohrAlbert",
+  "name": "Albert Stohr",
+  "givenName": "Albert",
+  "familyName": "Stohr",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1890-11-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Friedberg"
+  },
+  "deathDate": "1961-06-03",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Seligenstadt"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1935–1961 Bischof von Mainz"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/11875551X",
+    "https://de.wikipedia.org/wiki/Albert_Stohr"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Albert Stohr",
+    "forename": "Albert",
+    "surname": "Stohr",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1890-11-13",
+    "place": "Friedberg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1961-06-03",
+    "place": "Seligenstadt",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/11875551X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Albert_Stohr",
+    "viaf": null
+  }
+}

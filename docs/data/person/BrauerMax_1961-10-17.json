@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BrauerMax_1961-10-17",
+  "name": "Max Brauer",
+  "givenName": "Max",
+  "familyName": "Brauer",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1887-09-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Altona"
+  },
+  "deathDate": "1973-02-02",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Bürgermeister a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/118673378",
+    "https://de.wikipedia.org/wiki/Max_Brauer"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Max Brauer",
+    "forename": "Max",
+    "surname": "Brauer",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1887-09-03",
+    "place": "Altona",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1973-02-02",
+    "place": "Hamburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 4,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000249",
+    "gnd": "https://d-nb.info/gnd/118673378",
+    "wikipedia": "https://de.wikipedia.org/wiki/Max_Brauer",
+    "viaf": null
+  }
+}

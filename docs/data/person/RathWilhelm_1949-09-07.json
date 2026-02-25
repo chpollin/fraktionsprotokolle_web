@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "RathWilhelm_1949-09-07",
+  "name": "Wilhelm Rath",
+  "givenName": "Wilhelm",
+  "familyName": "Rath",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1892-07-06",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hochberg"
+  },
+  "deathDate": "1967-05-31",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hochberg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Landwirt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1210700522",
+    "https://de.wikipedia.org/wiki/Wilhelm_Rath"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Wilhelm Rath",
+    "forename": "Wilhelm",
+    "surname": "Rath",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1892-07-06",
+    "place": "Hochberg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1967-05-31",
+    "place": "Hochberg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001778",
+    "gnd": "https://d-nb.info/gnd/1210700522",
+    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_Rath",
+    "viaf": null
+  }
+}

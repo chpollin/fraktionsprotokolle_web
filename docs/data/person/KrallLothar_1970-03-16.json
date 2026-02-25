@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "KrallLothar_1970-03-16",
+  "name": "Lothar Krall",
+  "givenName": "Lothar",
+  "familyName": "Krall",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1924-01-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Winningen"
+  },
+  "deathDate": "2000-12-24",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Koblenz"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Oberst d. R. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1970-03-16",
+      "endDate": "1972-09-22"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1972-12-13",
+      "endDate": "1976-12-13"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1025720253",
+    "https://de.wikipedia.org/wiki/Lothar_Krall"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Lothar Krall",
+    "forename": "Lothar",
+    "surname": "Krall",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1924-01-15",
+    "place": "Winningen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2000-12-24",
+    "place": "Koblenz",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 6,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1970-03-16",
+      "to": "1972-09-22"
+    },
+    {
+      "period": 7,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1972-12-13",
+      "to": "1976-12-13"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001193",
+    "gnd": "https://d-nb.info/gnd/1025720253",
+    "wikipedia": "https://de.wikipedia.org/wiki/Lothar_Krall",
+    "viaf": null
+  }
+}

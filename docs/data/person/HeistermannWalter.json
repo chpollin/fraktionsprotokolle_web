@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HeistermannWalter",
+  "name": "Walter Heistermann",
+  "givenName": "Walter",
+  "familyName": "Heistermann",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1912-09-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Augustdorf"
+  },
+  "deathDate": "1998-02-18",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Philosoph, 1969–1980 Rektor der Pädagogischen Hochschule Berlin"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118548719",
+    "https://de.wikipedia.org/wiki/Walter_Heistermann"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Walter Heistermann",
+    "forename": "Walter",
+    "surname": "Heistermann",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1912-09-14",
+    "place": "Augustdorf",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1998-02-18",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118548719",
+    "wikipedia": "https://de.wikipedia.org/wiki/Walter_Heistermann",
+    "viaf": null
+  }
+}

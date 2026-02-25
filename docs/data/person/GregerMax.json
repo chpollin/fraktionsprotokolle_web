@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "GregerMax",
+  "name": "Max Greger",
+  "givenName": "Max",
+  "familyName": "Greger",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1926-04-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "deathDate": "2015-08-15",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Musiker, Saxophonist und Dirigent, 1963–1977 Leader der ZDF-Big-Band"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/132810840",
+    "https://de.wikipedia.org/wiki/Max_Greger"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Max Greger",
+    "forename": "Max",
+    "surname": "Greger",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1926-04-02",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2015-08-15",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/132810840",
+    "wikipedia": "https://de.wikipedia.org/wiki/Max_Greger",
+    "viaf": null
+  }
+}

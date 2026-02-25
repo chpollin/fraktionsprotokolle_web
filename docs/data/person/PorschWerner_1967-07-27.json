@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "PorschWerner_1967-07-27",
+  "name": "Werner Porsch",
+  "givenName": "Werner",
+  "familyName": "Porsch",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1915-02-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Speichersdorf"
+  },
+  "deathDate": "2004-02-25",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Schreinermeister [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1967-07-27",
+      "endDate": "1969-10-19"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/119080079",
+    "https://de.wikipedia.org/wiki/Werner_Porsch"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Werner Porsch",
+    "forename": "Werner",
+    "surname": "Porsch",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1915-02-25",
+    "place": "Speichersdorf",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2004-02-25",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 5,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1967-07-27",
+      "to": "1969-10-19"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001737",
+    "gnd": "https://d-nb.info/gnd/119080079",
+    "wikipedia": "https://de.wikipedia.org/wiki/Werner_Porsch",
+    "viaf": null
+  }
+}

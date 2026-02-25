@@ -1,0 +1,69 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "DrabiniokDieter_1983-03-29",
+  "name": "Dieter Drabiniok",
+  "givenName": "Dieter",
+  "familyName": "Drabiniok",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1954-03-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bottrop"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Maurer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Die Grünen",
+        "alternateName": "Grüne"
+      },
+      "startDate": "1983-03-29",
+      "endDate": "1985-03-31"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1239185189"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Dieter Drabiniok",
+    "forename": "Dieter",
+    "surname": "Drabiniok",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1954-03-03",
+    "place": "Bottrop",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 10,
+      "faction": "Grüne",
+      "faction_full": "Fraktion Die Grünen",
+      "from": "1983-03-29",
+      "to": "1985-03-31"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000413",
+    "gnd": "https://d-nb.info/gnd/1239185189",
+    "wikipedia": null,
+    "viaf": null
+  }
+}

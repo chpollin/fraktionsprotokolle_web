@@ -1,0 +1,51 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "AntoniusMarcus",
+  "name": "Marcus Antonius",
+  "givenName": "Marcus",
+  "familyName": "Antonius",
+  "gender": "https://schema.org/Male",
+  "birthDate": "-0086-01-14",
+  "birthPlace": null,
+  "deathDate": "-0030-08-01",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Alexandria"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "römischer Politiker und Feldherr"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118503529",
+    "https://de.wikipedia.org/wiki/Marcus_Antonius"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Marcus Antonius",
+    "forename": "Marcus",
+    "surname": "Antonius",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "-0086-01-14",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "-0030-08-01",
+    "place": "Alexandria",
+    "country": "Ägypten"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118503529",
+    "wikipedia": "https://de.wikipedia.org/wiki/Marcus_Antonius",
+    "viaf": null
+  }
+}

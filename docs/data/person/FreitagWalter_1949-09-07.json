@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "FreitagWalter_1949-09-07",
+  "name": "Walter Freitag",
+  "givenName": "Walter",
+  "familyName": "Freitag",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1889-08-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Remscheid"
+  },
+  "deathDate": "1958-06-07",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Herdecke"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Werkzeugdreher, Gewerkschaftsangestellter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/12357997X",
+    "https://de.wikipedia.org/wiki/Walter_Freitag"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Walter Freitag",
+    "forename": "Walter",
+    "surname": "Freitag",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1889-08-14",
+    "place": "Remscheid",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1958-06-07",
+    "place": "Herdecke",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000578",
+    "gnd": "https://d-nb.info/gnd/12357997X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Walter_Freitag",
+    "viaf": null
+  }
+}

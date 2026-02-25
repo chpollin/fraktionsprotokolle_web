@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "NixonRichard",
+  "name": "Richard Nixon",
+  "givenName": "Richard",
+  "familyName": "Nixon",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1913-01-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Yorba Linda, Kalifornien"
+  },
+  "deathDate": "1994-04-22",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "New York City"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1969–1974 Präsident der Vereinigten Staaten von Amerika (Republikanische Partei)"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/11858832X",
+    "https://de.wikipedia.org/wiki/Richard_Nixon"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Richard Nixon",
+    "forename": "Richard",
+    "surname": "Nixon",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1913-01-09",
+    "place": "Yorba Linda, Kalifornien",
+    "country": "USA"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1994-04-22",
+    "place": "New York City",
+    "country": "USA"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/11858832X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Richard_Nixon",
+    "viaf": null
+  }
+}

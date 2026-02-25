@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "LouisPhilippedOrleans",
+  "name": "Louis-Philippe d’Orléans",
+  "givenName": "Louis-Philippe",
+  "familyName": "Orléans",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1773-10-06",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "deathDate": "1850-08-26",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Claremont House, Grafschaft Surrey"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1830–1848 König von Frankreich"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/11864064X",
+    "https://de.wikipedia.org/wiki/Louis-Philippe_I."
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Louis-Philippe d’Orléans",
+    "forename": "Louis-Philippe",
+    "surname": "Orléans",
+    "prefix": "de",
+    "role_name": "König",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1773-10-06",
+    "place": "Paris",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1850-08-26",
+    "place": "Claremont House, Grafschaft Surrey",
+    "country": "Großbritannien"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/11864064X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Louis-Philippe_I.",
+    "viaf": null
+  }
+}

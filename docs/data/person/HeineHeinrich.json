@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HeineHeinrich",
+  "name": "Heinrich Heine, geboren als Harry Heine",
+  "givenName": "Christian Johann Heinrich",
+  "familyName": "Heine",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1797-12-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Düsseldorf, Herzogtum Berg"
+  },
+  "deathDate": "1856-02-17",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Schriftsteller und Dichter"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118548018",
+    "https://de.wikipedia.org/wiki/Heinrich_Heine"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Heinrich Heine, geboren als Harry Heine",
+    "forename": "Christian Johann Heinrich",
+    "surname": "Heine",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1797-12-13",
+    "place": "Düsseldorf, Herzogtum Berg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1856-02-17",
+    "place": "Paris",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118548018",
+    "wikipedia": "https://de.wikipedia.org/wiki/Heinrich_Heine",
+    "viaf": null
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HellwegeHeinrich_1949-09-07",
+  "name": "Heinrich Hellwege",
+  "givenName": "Heinrich",
+  "familyName": "Hellwege",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1908-08-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Neuenkirchen/Krs. Stade"
+  },
+  "deathDate": "1991-10-04",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Neuenkirchen/Krs. Stade"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Bundesminister für Angelegenheiten des Bundesrates, Kaufmann [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Deutsche Partei",
+        "alternateName": "DP"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Deutsche Partei",
+        "alternateName": "DP"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1955-05-27"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/118710192",
+    "https://de.wikipedia.org/wiki/Heinrich_Hellwege"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Heinrich Hellwege",
+    "forename": "Heinrich",
+    "surname": "Hellwege",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1908-08-18",
+    "place": "Neuenkirchen/Krs. Stade",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1991-10-04",
+    "place": "Neuenkirchen/Krs. Stade",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "DP",
+      "faction_full": "Fraktion Deutsche Partei",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 2,
+      "faction": "DP",
+      "faction_full": "Fraktion Deutsche Partei",
+      "from": "1953-10-06",
+      "to": "1955-05-27"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000859",
+    "gnd": "https://d-nb.info/gnd/118710192",
+    "wikipedia": "https://de.wikipedia.org/wiki/Heinrich_Hellwege",
+    "viaf": null
+  }
+}

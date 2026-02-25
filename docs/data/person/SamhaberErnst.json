@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SamhaberErnst",
+  "name": "Ernst Samhaber",
+  "givenName": "Ernst",
+  "familyName": "Samhaber",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1901-04-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Valparaíso"
+  },
+  "deathDate": "1974-03-17",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist und Publizist"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/133615200",
+    "https://de.wikipedia.org/wiki/Ernst_Samhaber"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Ernst Samhaber",
+    "forename": "Ernst",
+    "surname": "Samhaber",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1901-04-28",
+    "place": "Valparaíso",
+    "country": "Chile"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1974-03-17",
+    "place": "Hamburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/133615200",
+    "wikipedia": "https://de.wikipedia.org/wiki/Ernst_Samhaber",
+    "viaf": null
+  }
+}

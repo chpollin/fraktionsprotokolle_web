@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HuberAnton",
+  "name": "Anton Huber",
+  "givenName": "Josef Anton",
+  "familyName": "Huber",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1905-06-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Osterhofen (Waldsee)"
+  },
+  "deathDate": "1998-07-09",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Aalen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1950–1972 MdL Württemberg-Baden bzw. seit 1952 Baden-Württemberg (CDU)"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/1012380262",
+    "https://de.wikipedia.org/wiki/Anton_Huber_(Politiker,_1905)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Anton Huber",
+    "forename": "Josef Anton",
+    "surname": "Huber",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1905-06-04",
+    "place": "Osterhofen (Waldsee)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1998-07-09",
+    "place": "Aalen",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/1012380262",
+    "wikipedia": "https://de.wikipedia.org/wiki/Anton_Huber_(Politiker,_1905)",
+    "viaf": null
+  }
+}

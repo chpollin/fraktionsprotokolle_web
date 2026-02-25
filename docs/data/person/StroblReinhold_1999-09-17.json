@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "StroblReinhold_1999-09-17",
+  "name": "Reinhold Strobl",
+  "givenName": "Reinhold",
+  "familyName": "Strobl",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1950-05-10",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Schnaittenbach"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Industriekaufmann [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1999-09-17",
+      "endDate": "2002-10-17"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Reinhold Strobl",
+    "forename": "Reinhold",
+    "surname": "Strobl",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Amberg)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1950-05-10",
+    "place": "Schnaittenbach",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 14,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1999-09-17",
+      "to": "2002-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11003431",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

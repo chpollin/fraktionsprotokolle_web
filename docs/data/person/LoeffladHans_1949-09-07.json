@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "LoeffladHans_1949-09-07",
+  "name": "Hans Löfflad",
+  "givenName": "Hans",
+  "familyName": "Löfflad",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1922-08-01",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bühl im Ries"
+  },
+  "deathDate": "1997-10-25",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Augsburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Kaufmann, Angestellter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Wirtschaftliche Aufbauvereinigung",
+        "alternateName": "WAV"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Deutsche Partei Bayern",
+        "alternateName": "DPB"
+      },
+      "startDate": "1951-12-06",
+      "endDate": "1953-09-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1012778673",
+    "https://de.wikipedia.org/wiki/Hans_L%C3%B6fflad"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans Löfflad",
+    "forename": "Hans",
+    "surname": "Löfflad",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1922-08-01",
+    "place": "Bühl im Ries",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1997-10-25",
+    "place": "Augsburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "WAV",
+      "faction_full": "Fraktion Wirtschaftliche Aufbauvereinigung",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 1,
+      "faction": "DPB",
+      "faction_full": "Fraktion Deutsche Partei Bayern",
+      "from": "1951-12-06",
+      "to": "1953-09-07"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001359",
+    "gnd": "https://d-nb.info/gnd/1012778673",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_L%C3%B6fflad",
+    "viaf": null
+  }
+}

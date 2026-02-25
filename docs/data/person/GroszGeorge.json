@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "GroszGeorge",
+  "name": "George Grosz",
+  "givenName": "George",
+  "familyName": "Grosz",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1893-07-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "1959-07-06",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "West-Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutsch-amerikanischer Maler, Grafiker und Karikaturist"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118542672",
+    "https://de.wikipedia.org/wiki/George_Grosz"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "George Grosz",
+    "forename": "George",
+    "surname": "Grosz",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1893-07-26",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1959-07-06",
+    "place": "West-Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118542672",
+    "wikipedia": "https://de.wikipedia.org/wiki/George_Grosz",
+    "viaf": null
+  }
+}

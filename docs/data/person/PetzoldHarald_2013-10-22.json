@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "PetzoldHarald_2013-10-22",
+  "name": "Harald Petzold",
+  "givenName": "Harald",
+  "familyName": "Petzold",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1962-03-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Heringsdorf"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Lehrer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion DIE LINKE.",
+        "alternateName": "LINKE"
+      },
+      "startDate": "2013-10-22",
+      "endDate": "2017-10-24"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Harald Petzold",
+    "forename": "Harald",
+    "surname": "Petzold",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Havelland)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1962-03-28",
+    "place": "Heringsdorf",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 18,
+      "faction": "LINKE",
+      "faction_full": "Fraktion DIE LINKE.",
+      "from": "2013-10-22",
+      "to": "2017-10-24"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11004374",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

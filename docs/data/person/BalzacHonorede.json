@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BalzacHonorede",
+  "name": "Honoré de Balzac",
+  "givenName": "Honoré",
+  "familyName": "Balzac",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1799-05-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Tours"
+  },
+  "deathDate": "1850-08-18",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "französischer Schriftsteller"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118506358",
+    "https://de.wikipedia.org/wiki/Honor%C3%A9_de_Balzac"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Honoré de Balzac",
+    "forename": "Honoré",
+    "surname": "Balzac",
+    "prefix": "de",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1799-05-20",
+    "place": "Tours",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1850-08-18",
+    "place": "Paris",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118506358",
+    "wikipedia": "https://de.wikipedia.org/wiki/Honor%C3%A9_de_Balzac",
+    "viaf": null
+  }
+}

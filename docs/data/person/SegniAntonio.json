@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SegniAntonio",
+  "name": "Antonio Segni",
+  "givenName": "Antonio",
+  "familyName": "Segni",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1891-02-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Sassari, Sardinien"
+  },
+  "deathDate": "1972-12-01",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Rom"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "ital. Politiker (DC), 1960–1962 Außenminister, 1962–1964 Staatspräsident"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118796038",
+    "https://de.wikipedia.org/wiki/Antonio_Segni"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Antonio Segni",
+    "forename": "Antonio",
+    "surname": "Segni",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1891-02-02",
+    "place": "Sassari, Sardinien",
+    "country": "Italien"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1972-12-01",
+    "place": "Rom",
+    "country": "Italien"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118796038",
+    "wikipedia": "https://de.wikipedia.org/wiki/Antonio_Segni",
+    "viaf": null
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BachErnst",
+  "name": "Ernst Bach",
+  "givenName": "Ernst Friedrich",
+  "familyName": "Bach",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1902-09-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Castrop"
+  },
+  "deathDate": "1965-03-18",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Siegen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1948–1956 Oberbürgermeister von Siegen, 1958–1965 MdL NRW (CDU), 1950–1959 Bundesschatzmeister der CDU"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/1020033835",
+    "https://de.wikipedia.org/wiki/Ernst_Bach_(Politiker)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Ernst Bach",
+    "forename": "Ernst Friedrich",
+    "surname": "Bach",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1902-09-19",
+    "place": "Castrop",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1965-03-18",
+    "place": "Siegen",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/1020033835",
+    "wikipedia": "https://de.wikipedia.org/wiki/Ernst_Bach_(Politiker)",
+    "viaf": null
+  }
+}

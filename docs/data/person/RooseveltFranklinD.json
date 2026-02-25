@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "RooseveltFranklinD",
+  "name": "Franklin D. Roosevelt",
+  "givenName": "Franklin Delano",
+  "familyName": "Roosevelt",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1882-01-30",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hyde Park, New York"
+  },
+  "deathDate": "1945-04-12",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Warm Springs, Georgia"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1933–1945 Präsident der Vereinigten Staaten"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118602551",
+    "https://de.wikipedia.org/wiki/Franklin_D._Roosevelt"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Franklin D. Roosevelt",
+    "forename": "Franklin Delano",
+    "surname": "Roosevelt",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1882-01-30",
+    "place": "Hyde Park, New York",
+    "country": "USA"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1945-04-12",
+    "place": "Warm Springs, Georgia",
+    "country": "USA"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118602551",
+    "wikipedia": "https://de.wikipedia.org/wiki/Franklin_D._Roosevelt",
+    "viaf": null
+  }
+}

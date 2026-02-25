@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "ChiracJacques",
+  "name": "Jacques Chirac",
+  "givenName": "Jacques René",
+  "familyName": "Chirac",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1932-11-29",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "deathDate": "2019-09-26",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1974–1976, 1986–1988 Premierminister Frankreichs, 1995–2007 Staatspräsident Frankreichs"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118520466",
+    "https://de.wikipedia.org/wiki/Jacques_Chirac"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Jacques Chirac",
+    "forename": "Jacques René",
+    "surname": "Chirac",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1932-11-29",
+    "place": "Paris",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2019-09-26",
+    "place": "Paris",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118520466",
+    "wikipedia": "https://de.wikipedia.org/wiki/Jacques_Chirac",
+    "viaf": null
+  }
+}

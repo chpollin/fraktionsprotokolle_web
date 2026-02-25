@@ -1,0 +1,87 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "MaiziereLothar_1990-10-03",
+  "name": "Lothar de Maizière",
+  "givenName": "Lothar",
+  "familyName": "Maizière",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1940-03-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Nordhausen am Harz"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsanwalt, Bundesminister a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1990-10-03",
+      "endDate": "1990-12-20"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1991-10-15"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/119020556",
+    "https://de.wikipedia.org/wiki/Lothar_de_Maizi%C3%A8re"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Lothar de Maizière",
+    "forename": "Lothar",
+    "surname": "Maizière",
+    "prefix": "de",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1940-03-02",
+    "place": "Nordhausen am Harz",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 11,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1990-10-03",
+      "to": "1990-12-20"
+    },
+    {
+      "period": 12,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1990-12-20",
+      "to": "1991-10-15"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001415",
+    "gnd": "https://d-nb.info/gnd/119020556",
+    "wikipedia": "https://de.wikipedia.org/wiki/Lothar_de_Maizi%C3%A8re",
+    "viaf": null
+  }
+}

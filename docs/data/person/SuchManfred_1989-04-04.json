@@ -1,0 +1,103 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SuchManfred_1989-04-04",
+  "name": "Manfred Such",
+  "givenName": "Manfred",
+  "familyName": "Such",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1942-12-21",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hamm/Westfalen"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Kriminalbeamter a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Die Grünen",
+        "alternateName": "Grüne"
+      },
+      "startDate": "1989-04-04",
+      "endDate": "1990-12-20"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Die Grünen/Bündnis 90",
+        "alternateName": "Grüne/B90"
+      },
+      "startDate": "1990-10-04",
+      "endDate": "1990-12-20"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Bündnis 90/Die Grünen",
+        "alternateName": "B90/Grüne"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-10-26"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1027173748"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Manfred Such",
+    "forename": "Manfred",
+    "surname": "Such",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1942-12-21",
+    "place": "Hamm/Westfalen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 11,
+      "faction": "Grüne",
+      "faction_full": "Fraktion Die Grünen",
+      "from": "1989-04-04",
+      "to": "1990-12-20"
+    },
+    {
+      "period": 11,
+      "faction": "Grüne/B90",
+      "faction_full": "Fraktion Die Grünen/Bündnis 90",
+      "from": "1990-10-04",
+      "to": "1990-12-20"
+    },
+    {
+      "period": 13,
+      "faction": "B90/Grüne",
+      "faction_full": "Fraktion Bündnis 90/Die Grünen",
+      "from": "1994-11-10",
+      "to": "1998-10-26"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002284",
+    "gnd": "https://d-nb.info/gnd/1027173748",
+    "wikipedia": null,
+    "viaf": null
+  }
+}

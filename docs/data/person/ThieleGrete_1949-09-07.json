@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "ThieleGrete_1949-09-07",
+  "name": "Grete Thiele",
+  "givenName": "Grete",
+  "familyName": "Thiele",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1913-12-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bottrop"
+  },
+  "deathDate": "1993-12-29",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Wuppertal"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Hausfrau, Parteifunktionärin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Kommunistischen Partei Deutschlands",
+        "alternateName": "KPD"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/189453370",
+    "https://de.wikipedia.org/wiki/Grete_Thiele"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Grete Thiele",
+    "forename": "Grete",
+    "surname": "Thiele",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1913-12-16",
+    "place": "Bottrop",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1993-12-29",
+    "place": "Wuppertal",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "KPD",
+      "faction_full": "Fraktion der Kommunistischen Partei Deutschlands",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002316",
+    "gnd": "https://d-nb.info/gnd/189453370",
+    "wikipedia": "https://de.wikipedia.org/wiki/Grete_Thiele",
+    "viaf": null
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "LanzmannClaude",
+  "name": "Claude Lanzmann",
+  "givenName": "Claude",
+  "familyName": "Lanzmann",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1925-11-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bois-Colombes"
+  },
+  "deathDate": "2018-07-05",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "französischer Regisseur von Dokumentarfilmen"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118837583",
+    "https://de.wikipedia.org/wiki/Claude_Lanzmann"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Claude Lanzmann",
+    "forename": "Claude",
+    "surname": "Lanzmann",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1925-11-27",
+    "place": "Bois-Colombes",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2018-07-05",
+    "place": "Paris",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118837583",
+    "wikipedia": "https://de.wikipedia.org/wiki/Claude_Lanzmann",
+    "viaf": null
+  }
+}

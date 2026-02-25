@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "KoschnickHans_1987-02-18",
+  "name": "Hans Koschnick",
+  "givenName": "Hans",
+  "familyName": "Koschnick",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1929-04-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bremen"
+  },
+  "deathDate": "2016-04-21",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bremen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Bürgermeister a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1987-02-18",
+      "endDate": "1990-12-20"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/118777874",
+    "https://de.wikipedia.org/wiki/Hans_Koschnick"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans Koschnick",
+    "forename": "Hans",
+    "surname": "Koschnick",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1929-04-02",
+    "place": "Bremen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2016-04-21",
+    "place": "Bremen",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 11,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1987-02-18",
+      "to": "1990-12-20"
+    },
+    {
+      "period": 12,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1990-12-20",
+      "to": "1994-11-10"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001185",
+    "gnd": "https://d-nb.info/gnd/118777874",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Koschnick",
+    "viaf": null
+  }
+}

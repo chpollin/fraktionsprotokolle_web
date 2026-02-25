@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "MartensFriedrichvon",
+  "name": "Friedrich von Martens",
+  "givenName": "Friedrich Fromhold",
+  "familyName": "Martens",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1845-08-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Pärnu"
+  },
+  "deathDate": "1909-06-20",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Walk"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "russischer Völkerrechtler und Diplomat"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/119050897",
+    "https://de.wikipedia.org/wiki/Friedrich_Fromhold_Martens"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Friedrich von Martens",
+    "forename": "Friedrich Fromhold",
+    "surname": "Martens",
+    "prefix": "von",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1845-08-27",
+    "place": "Pärnu",
+    "country": "Russisches Kaiserreich"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1909-06-20",
+    "place": "Walk",
+    "country": "Lettland"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/119050897",
+    "wikipedia": "https://de.wikipedia.org/wiki/Friedrich_Fromhold_Martens",
+    "viaf": null
+  }
+}

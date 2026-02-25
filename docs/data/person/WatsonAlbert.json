@@ -1,0 +1,53 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "WatsonAlbert",
+  "name": "Albert Watson",
+  "givenName": "Albert",
+  "familyName": "Watson",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1909-01-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Mount Vernon, Illinois"
+  },
+  "deathDate": "1993-03-19",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "San Antonio, Texas"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1961–1963 amerikanischer Generalmajor und Stadtkommandant von Berlin"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Albert_Watson_II"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Albert Watson",
+    "forename": "Albert",
+    "surname": "Watson",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1909-01-05",
+    "place": "Mount Vernon, Illinois",
+    "country": "USA"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1993-03-19",
+    "place": "San Antonio, Texas",
+    "country": "USA"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": null,
+    "wikipedia": "https://de.wikipedia.org/wiki/Albert_Watson_II",
+    "viaf": null
+  }
+}

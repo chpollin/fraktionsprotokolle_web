@@ -1,0 +1,87 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "KuessnerHinrich_1990-10-03",
+  "name": "Hinrich Kuessner",
+  "givenName": "Hinrich",
+  "familyName": "Kuessner",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1943-04-29",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Gerdauen, Ostpreußen (heute: Schelesnodoroschny, Kaliningrad, Russland)"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Theologe [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1990-10-03",
+      "endDate": "1990-12-20"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1026065836",
+    "https://de.wikipedia.org/wiki/Hinrich_Kuessner"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hinrich Kuessner",
+    "forename": "Hinrich",
+    "surname": "Kuessner",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1943-04-29",
+    "place": "Gerdauen, Ostpreußen (heute: Schelesnodoroschny, Kaliningrad, Russland)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 11,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1990-10-03",
+      "to": "1990-12-20"
+    },
+    {
+      "period": 12,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1990-12-20",
+      "to": "1994-11-10"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001248",
+    "gnd": "https://d-nb.info/gnd/1026065836",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hinrich_Kuessner",
+    "viaf": null
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "FinselbergerErni_1953-10-06",
+  "name": "Erni Finselberger",
+  "givenName": "Erni",
+  "familyName": "Finselberger",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1902-09-11",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hildesheim"
+  },
+  "deathDate": "1993-05-24",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hannover"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Sozialarbeiterin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Gesamtdeutscher Block/Block der Heimatvertriebenen und Entrechteten",
+        "alternateName": "GB/BHE"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1034727222",
+    "https://de.wikipedia.org/wiki/Erni_Finselberger"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Erni Finselberger",
+    "forename": "Erni",
+    "surname": "Finselberger",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1902-09-11",
+    "place": "Hildesheim",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1993-05-24",
+    "place": "Hannover",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "GB/BHE",
+      "faction_full": "Fraktion Gesamtdeutscher Block/Block der Heimatvertriebenen und Entrechteten",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000546",
+    "gnd": "https://d-nb.info/gnd/1034727222",
+    "wikipedia": "https://de.wikipedia.org/wiki/Erni_Finselberger",
+    "viaf": null
+  }
+}

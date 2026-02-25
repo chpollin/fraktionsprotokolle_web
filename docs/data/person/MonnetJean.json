@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "MonnetJean",
+  "name": "Jean Monnet",
+  "givenName": "Jean",
+  "familyName": "Monnet",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1888-11-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Cognac"
+  },
+  "deathDate": "1979-03-16",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bazoches-sur-Guyonne, Departement Yveline bei Paris"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1946 Leiter des französischen Planungsamtes, 1952–1954 Präsident der Hohen Behörde der Europäischen Gemeinschaft für Kohle und Stahl (EGKS)"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118583506",
+    "https://de.wikipedia.org/wiki/Jean_Monnet"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Jean Monnet",
+    "forename": "Jean",
+    "surname": "Monnet",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1888-11-09",
+    "place": "Cognac",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1979-03-16",
+    "place": "Bazoches-sur-Guyonne, Departement Yveline bei Paris",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118583506",
+    "wikipedia": "https://de.wikipedia.org/wiki/Jean_Monnet",
+    "viaf": null
+  }
+}

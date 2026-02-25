@@ -1,0 +1,175 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "EulerAugust-Martin_1949-09-07",
+  "name": "August-Martin Euler",
+  "givenName": "August-Martin",
+  "familyName": "Euler",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1908-05-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kassel"
+  },
+  "deathDate": "1966-02-04",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Brüssel"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsanwalt und Notar [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktionslos",
+        "alternateName": "Fraktionslos"
+      },
+      "startDate": "1956-02-23",
+      "endDate": "1957-10-06"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Demokratische Arbeitsgemeinschaft",
+        "alternateName": "DA"
+      },
+      "startDate": "1956-03-15",
+      "endDate": "1957-10-06"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Freie Volkspartei",
+        "alternateName": "FVP"
+      },
+      "startDate": "1956-06-26",
+      "endDate": "1957-10-06"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Deutsche Partei/Freie Volkspartei",
+        "alternateName": "DP/FVP"
+      },
+      "startDate": "1957-03-14",
+      "endDate": "1957-10-06"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Deutsche Partei",
+        "alternateName": "DP"
+      },
+      "startDate": "1957-10-15",
+      "endDate": "1958-09-10"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1024095363",
+    "https://de.wikipedia.org/wiki/August-Martin_Euler"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "August-Martin Euler",
+    "forename": "August-Martin",
+    "surname": "Euler",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1908-05-09",
+    "place": "Kassel",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1966-02-04",
+    "place": "Brüssel",
+    "country": "Belgien"
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 2,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 2,
+      "faction": "Fraktionslos",
+      "faction_full": "Fraktionslos",
+      "from": "1956-02-23",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 2,
+      "faction": "DA",
+      "faction_full": "Fraktion Demokratische Arbeitsgemeinschaft",
+      "from": "1956-03-15",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 2,
+      "faction": "FVP",
+      "faction_full": "Fraktion Freie Volkspartei",
+      "from": "1956-06-26",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 2,
+      "faction": "DP/FVP",
+      "faction_full": "Fraktion Deutsche Partei/Freie Volkspartei",
+      "from": "1957-03-14",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 3,
+      "faction": "DP",
+      "faction_full": "Fraktion Deutsche Partei",
+      "from": "1957-10-15",
+      "to": "1958-09-10"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000500",
+    "gnd": "https://d-nb.info/gnd/1024095363",
+    "wikipedia": "https://de.wikipedia.org/wiki/August-Martin_Euler",
+    "viaf": null
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchaeferHansjoerg_1994-11-10",
+  "name": "Hansjörg Schäfer",
+  "givenName": "Hansjörg",
+  "familyName": "Schäfer",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1944-02-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kaiserslautern"
+  },
+  "deathDate": "2023-05-06",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Kaiserslautern"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Frauenarzt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-10-26"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1998-10-26",
+      "endDate": "2002-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1324787392",
+    "https://de.wikipedia.org/wiki/Hansj%C3%B6rg_Sch%C3%A4fer"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hansjörg Schäfer",
+    "forename": "Hansjörg",
+    "surname": "Schäfer",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1944-02-17",
+    "place": "Kaiserslautern",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2023-05-06",
+    "place": "Kaiserslautern",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 13,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1994-11-10",
+      "to": "1998-10-26"
+    },
+    {
+      "period": 14,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1998-10-26",
+      "to": "2002-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002768",
+    "gnd": "https://d-nb.info/gnd/1324787392",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hansj%C3%B6rg_Sch%C3%A4fer",
+    "viaf": null
+  }
+}

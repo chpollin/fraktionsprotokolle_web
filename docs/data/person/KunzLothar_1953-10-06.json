@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "KunzLothar_1953-10-06",
+  "name": "Lothar Kunz",
+  "givenName": "Lothar",
+  "familyName": "Kunz",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1892-12-01",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bärn (heute: Moravský Beroun)"
+  },
+  "deathDate": "1972-02-19",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Angestellter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Gesamtdeutscher Block/Block der Heimatvertriebenen und Entrechteten",
+        "alternateName": "GB/BHE"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1246426927",
+    "https://de.wikipedia.org/wiki/Lothar_Kunz"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Lothar Kunz",
+    "forename": "Lothar",
+    "surname": "Kunz",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Schwalbach)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1892-12-01",
+    "place": "Bärn (heute: Moravský Beroun)",
+    "country": "Österreich-Ungarn (heute: Tschechische Republik)"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1972-02-19",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "GB/BHE",
+      "faction_full": "Fraktion Gesamtdeutscher Block/Block der Heimatvertriebenen und Entrechteten",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001257",
+    "gnd": "https://d-nb.info/gnd/1246426927",
+    "wikipedia": "https://de.wikipedia.org/wiki/Lothar_Kunz",
+    "viaf": null
+  }
+}

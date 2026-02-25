@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HartlAlbert",
+  "name": "Albert Hartl",
+  "givenName": "Albert",
+  "familyName": "Hartl",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1904-11-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Roßholzen"
+  },
+  "deathDate": "1982-12-14",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Ludwigshafen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "SS-Sturmbannführer und seit 1941 Leiter der Amtsgruppe IV B »Weltanschauliche Gegner« im Reichssicherheitshauptamt (RSHA)"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/120266199",
+    "https://de.wikipedia.org/wiki/Albert_Hartl"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Albert Hartl",
+    "forename": "Albert",
+    "surname": "Hartl",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1904-11-13",
+    "place": "Roßholzen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1982-12-14",
+    "place": "Ludwigshafen",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/120266199",
+    "wikipedia": "https://de.wikipedia.org/wiki/Albert_Hartl",
+    "viaf": null
+  }
+}

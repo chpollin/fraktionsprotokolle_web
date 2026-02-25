@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "LeibbrandRobert_1949-09-07",
+  "name": "Robert Leibbrand",
+  "givenName": "Robert",
+  "familyName": "Leibbrand",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1901-05-01",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Stuttgart"
+  },
+  "deathDate": "1963-01-25",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Ost-Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Schreiner, Redakteur [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Kommunistischen Partei Deutschlands",
+        "alternateName": "KPD"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1950-01-26"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/106332783",
+    "https://de.wikipedia.org/wiki/Robert_Leibbrand"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Robert Leibbrand",
+    "forename": "Robert",
+    "surname": "Leibbrand",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1901-05-01",
+    "place": "Stuttgart",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1963-01-25",
+    "place": "Ost-Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "KPD",
+      "faction_full": "Fraktion der Kommunistischen Partei Deutschlands",
+      "from": "1949-09-07",
+      "to": "1950-01-26"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001306",
+    "gnd": "https://d-nb.info/gnd/106332783",
+    "wikipedia": "https://de.wikipedia.org/wiki/Robert_Leibbrand",
+    "viaf": null
+  }
+}

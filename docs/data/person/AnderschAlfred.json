@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "AnderschAlfred",
+  "name": "Alfred Andersch",
+  "givenName": "Alfred Hellmuth",
+  "familyName": "Andersch",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1914-02-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "deathDate": "1980-02-21",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berzona"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Schriftsteller, Rundfunkredakteur und Herausgeber"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118502786",
+    "https://de.wikipedia.org/wiki/Alfred_Andersch"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Alfred Andersch",
+    "forename": "Alfred Hellmuth",
+    "surname": "Andersch",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1914-02-04",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1980-02-21",
+    "place": "Berzona",
+    "country": "Schweiz"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118502786",
+    "wikipedia": "https://de.wikipedia.org/wiki/Alfred_Andersch",
+    "viaf": null
+  }
+}

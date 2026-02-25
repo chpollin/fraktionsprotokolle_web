@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SmithIan",
+  "name": "Ian Douglas Smith",
+  "givenName": "Ian Douglas",
+  "familyName": "Smith",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1919-04-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Selukwe (heute: Shurugwi)"
+  },
+  "deathDate": "2007-11-20",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Kapstadt"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "rhodesischer Politiker, 1964–1979 Premierminister von Rhodesien (heute: Simbabwe)"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/119559951",
+    "https://de.wikipedia.org/wiki/Ian_Smith"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Ian Douglas Smith",
+    "forename": "Ian Douglas",
+    "surname": "Smith",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1919-04-08",
+    "place": "Selukwe (heute: Shurugwi)",
+    "country": "Südrhodesien (heute: Simbabwe)"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2007-11-20",
+    "place": "Kapstadt",
+    "country": "Südafrika"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/119559951",
+    "wikipedia": "https://de.wikipedia.org/wiki/Ian_Smith",
+    "viaf": null
+  }
+}

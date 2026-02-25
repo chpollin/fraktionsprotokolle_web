@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BlumeFriedrich_1965-10-19",
+  "name": "Friedrich Blume",
+  "givenName": "Friedrich",
+  "familyName": "Blume",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1902-01-30",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hannover-Davenstedt"
+  },
+  "deathDate": "1979-05-20",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Rinteln"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Geschäftsführer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1965-10-19",
+      "endDate": "1969-10-19"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1116673738",
+    "https://de.wikipedia.org/wiki/Friedrich_Blume_(Politiker)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Friedrich Blume",
+    "forename": "Friedrich",
+    "surname": "Blume",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1902-01-30",
+    "place": "Hannover-Davenstedt",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1979-05-20",
+    "place": "Rinteln",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 5,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000205",
+    "gnd": "https://d-nb.info/gnd/1116673738",
+    "wikipedia": "https://de.wikipedia.org/wiki/Friedrich_Blume_(Politiker)",
+    "viaf": null
+  }
+}

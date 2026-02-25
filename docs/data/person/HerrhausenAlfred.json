@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HerrhausenAlfred",
+  "name": "Alfred Herrhausen",
+  "givenName": "Alfred",
+  "familyName": "Herrhausen",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1930-01-30",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Essen"
+  },
+  "deathDate": "1989-11-30",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bad Homburg vor der Höhe"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1985–1989 Vorstandssprecher der Deutschen Bank"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118927523",
+    "https://de.wikipedia.org/wiki/Alfred_Herrhausen"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Alfred Herrhausen",
+    "forename": "Alfred",
+    "surname": "Herrhausen",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1930-01-30",
+    "place": "Essen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1989-11-30",
+    "place": "Bad Homburg vor der Höhe",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118927523",
+    "wikipedia": "https://de.wikipedia.org/wiki/Alfred_Herrhausen",
+    "viaf": null
+  }
+}

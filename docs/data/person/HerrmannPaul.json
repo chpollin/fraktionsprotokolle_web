@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HerrmannPaul",
+  "name": "Paul Herrmann",
+  "givenName": "Paul",
+  "familyName": "Herrmann",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1898-04-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Mönchengladbach"
+  },
+  "deathDate": "1980-09-14",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Koblenz"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Generalmajor der Bundeswehr"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/1025513088",
+    "https://de.wikipedia.org/wiki/Paul_Herrmann_(General,_1898)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Paul Herrmann",
+    "forename": "Paul",
+    "surname": "Herrmann",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1898-04-22",
+    "place": "Mönchengladbach",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1980-09-14",
+    "place": "Koblenz",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/1025513088",
+    "wikipedia": "https://de.wikipedia.org/wiki/Paul_Herrmann_(General,_1898)",
+    "viaf": null
+  }
+}

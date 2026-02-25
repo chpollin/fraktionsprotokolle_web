@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "KariusFriedrich_1969-08-18",
+  "name": "Friedrich Karius",
+  "givenName": "Friedrich",
+  "familyName": "Karius",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1910-05-29",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Nachterstedt"
+  },
+  "deathDate": "1973-04-04",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Radolfzell am Bodensee"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Oberschulrat [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1969-08-18",
+      "endDate": "1969-10-19"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1331200547",
+    "https://de.wikipedia.org/wiki/Friedrich_Karius"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Friedrich Karius",
+    "forename": "Friedrich",
+    "surname": "Karius",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1910-05-29",
+    "place": "Nachterstedt",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1973-04-04",
+    "place": "Radolfzell am Bodensee",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 5,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1969-08-18",
+      "to": "1969-10-19"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001066",
+    "gnd": "https://d-nb.info/gnd/1331200547",
+    "wikipedia": "https://de.wikipedia.org/wiki/Friedrich_Karius",
+    "viaf": null
+  }
+}

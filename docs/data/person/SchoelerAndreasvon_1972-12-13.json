@@ -1,0 +1,120 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchoelerAndreasvon_1972-12-13",
+  "name": "Andreas von Schoeler",
+  "givenName": "Andreas",
+  "familyName": "Schoeler",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1948-07-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bad Homburg"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsanwalt, Oberbürgermeister a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1972-12-13",
+      "endDate": "1976-12-13"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1976-12-14",
+      "endDate": "1980-11-04"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktionslos",
+        "alternateName": "Fraktionslos"
+      },
+      "startDate": "1982-11-23",
+      "endDate": "1982-12-08"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1980-11-04",
+      "endDate": "1982-12-08"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1022089129"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Andreas von Schoeler",
+    "forename": "Andreas",
+    "surname": "Schoeler",
+    "prefix": "von",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1948-07-04",
+    "place": "Bad Homburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 7,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1972-12-13",
+      "to": "1976-12-13"
+    },
+    {
+      "period": 8,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1976-12-14",
+      "to": "1980-11-04"
+    },
+    {
+      "period": 9,
+      "faction": "Fraktionslos",
+      "faction_full": "Fraktionslos",
+      "from": "1982-11-23",
+      "to": "1982-12-08"
+    },
+    {
+      "period": 9,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1980-11-04",
+      "to": "1982-12-08"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002055",
+    "gnd": "https://d-nb.info/gnd/1022089129",
+    "wikipedia": null,
+    "viaf": null
+  }
+}

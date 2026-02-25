@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HermansHubert",
+  "name": "Hubert Hermans",
+  "givenName": "Hubert",
+  "familyName": "Hermans",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1909-03-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Köln"
+  },
+  "deathDate": "1989-12-28",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Koblenz"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1947–1951 MdL Rheinland-Pfalz (CDU), 1952–1971 Bevollmächtigter des Landes Rheinland-Pfalz beim Bund"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/124360971",
+    "https://de.wikipedia.org/wiki/Hubert_Hermans"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Hubert Hermans",
+    "forename": "Hubert",
+    "surname": "Hermans",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1909-03-20",
+    "place": "Köln",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1989-12-28",
+    "place": "Koblenz",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/124360971",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hubert_Hermans",
+    "viaf": null
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BlueherHans",
+  "name": "Hans Blüher",
+  "givenName": "Hans",
+  "familyName": "Blüher",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1888-02-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Freiburg, Schlesien (heute: Świebodzice, Polen)"
+  },
+  "deathDate": "1955-02-14",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "West-Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Schriftsteller und Philosoph, dokumentierte als erster die Geschichte des Wandervogels und galt als Verfechter der Männerbünde"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118664034",
+    "https://de.wikipedia.org/wiki/Hans_Bl%C3%BCher"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans Blüher",
+    "forename": "Hans",
+    "surname": "Blüher",
+    "prefix": "de",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1888-02-17",
+    "place": "Freiburg, Schlesien (heute: Świebodzice, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1955-02-14",
+    "place": "West-Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118664034",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Bl%C3%BCher",
+    "viaf": null
+  }
+}

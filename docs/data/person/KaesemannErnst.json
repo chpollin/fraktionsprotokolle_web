@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "KaesemannErnst",
+  "name": "Ernst Käsemann",
+  "givenName": "Ernst",
+  "familyName": "Käsemann",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1906-07-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Dahlhausen bei Bochum"
+  },
+  "deathDate": "1998-02-17",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Tübingen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "ev. Theologe und Hochschullehrer"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118559176",
+    "https://de.wikipedia.org/wiki/Ernst_K%C3%A4semann"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Ernst Käsemann",
+    "forename": "Ernst",
+    "surname": "Käsemann",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1906-07-12",
+    "place": "Dahlhausen bei Bochum",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1998-02-17",
+    "place": "Tübingen",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118559176",
+    "wikipedia": "https://de.wikipedia.org/wiki/Ernst_K%C3%A4semann",
+    "viaf": null
+  }
+}

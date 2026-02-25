@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "PannenbeckerOtto_1949-09-07",
+  "name": "Otto Pannenbecker",
+  "givenName": "Otto",
+  "familyName": "Pannenbecker",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1879-03-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Oberhausen"
+  },
+  "deathDate": "1956-05-19",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Oberhausen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Postrat i. R. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Deutsche Zentrums-Partei",
+        "alternateName": "Zentrum"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Föderalistische Union",
+        "alternateName": "FU"
+      },
+      "startDate": "1951-12-14",
+      "endDate": "1953-09-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1105580091",
+    "https://de.wikipedia.org/wiki/Otto_Pannenbecker"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Otto Pannenbecker",
+    "forename": "Otto",
+    "surname": "Pannenbecker",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1879-03-04",
+    "place": "Oberhausen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1956-05-19",
+    "place": "Oberhausen",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "Zentrum",
+      "faction_full": "Fraktion Deutsche Zentrums-Partei",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 1,
+      "faction": "FU",
+      "faction_full": "Fraktion Föderalistische Union",
+      "from": "1951-12-14",
+      "to": "1953-09-07"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001674",
+    "gnd": "https://d-nb.info/gnd/1105580091",
+    "wikipedia": "https://de.wikipedia.org/wiki/Otto_Pannenbecker",
+    "viaf": null
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BachRobert_1959-10-27",
+  "name": "Robert Bach",
+  "givenName": "Robert",
+  "familyName": "Bach",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1901-12-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Limbach"
+  },
+  "deathDate": "1976-06-10",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Neunkirchen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Bergmann [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1959-10-27",
+      "endDate": "1961-10-15"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1314612727",
+    "https://de.wikipedia.org/wiki/Robert_Bach_(Politiker)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Robert Bach",
+    "forename": "Robert",
+    "surname": "Bach",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1901-12-07",
+    "place": "Limbach",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1976-06-10",
+    "place": "Neunkirchen",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 3,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1959-10-27",
+      "to": "1961-10-15"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000071",
+    "gnd": "https://d-nb.info/gnd/1314612727",
+    "wikipedia": "https://de.wikipedia.org/wiki/Robert_Bach_(Politiker)",
+    "viaf": null
+  }
+}

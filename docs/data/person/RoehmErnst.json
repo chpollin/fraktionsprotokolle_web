@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "RoehmErnst",
+  "name": "Ernst Röhm",
+  "givenName": "Ernst",
+  "familyName": "Röhm",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1887-11-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "deathDate": "1934-07-01",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München-Stadelheim"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Offizier und Politiker (NSDAP), 1931-1934 Stabschef der SA (Sturmabteilung),1933-1934 Reichsminister ohne Geschäftsbereich"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118745700",
+    "https://de.wikipedia.org/wiki/Ernst_R%C3%B6hm"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Ernst Röhm",
+    "forename": "Ernst",
+    "surname": "Röhm",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1887-11-28",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1934-07-01",
+    "place": "München-Stadelheim",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118745700",
+    "wikipedia": "https://de.wikipedia.org/wiki/Ernst_R%C3%B6hm",
+    "viaf": null
+  }
+}

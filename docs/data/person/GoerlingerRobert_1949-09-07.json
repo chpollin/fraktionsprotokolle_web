@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "GoerlingerRobert_1949-09-07",
+  "name": "Robert Görlinger",
+  "givenName": "Robert",
+  "familyName": "Görlinger",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1888-07-29",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Ensheim"
+  },
+  "deathDate": "1954-02-10",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Köln"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Verlagsleiter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1954-02-10"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/127678891",
+    "https://de.wikipedia.org/wiki/Robert_G%C3%B6rlinger"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Robert Görlinger",
+    "forename": "Robert",
+    "surname": "Görlinger",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1888-07-29",
+    "place": "Ensheim",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1954-02-10",
+    "place": "Köln",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 2,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1953-10-06",
+      "to": "1954-02-10"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000700",
+    "gnd": "https://d-nb.info/gnd/127678891",
+    "wikipedia": "https://de.wikipedia.org/wiki/Robert_G%C3%B6rlinger",
+    "viaf": null
+  }
+}

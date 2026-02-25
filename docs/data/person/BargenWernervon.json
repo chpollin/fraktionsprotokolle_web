@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BargenWernervon",
+  "name": "Werner von Bargen",
+  "givenName": "Werner",
+  "familyName": "Bargen",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1898-02-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Wischhafen"
+  },
+  "deathDate": "1975-11-22",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1960–1963 Botschafter der Bundesrepublik Deutschland in Bagdad"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/1027973655",
+    "https://de.wikipedia.org/wiki/Werner_von_Bargen"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Werner von Bargen",
+    "forename": "Werner",
+    "surname": "Bargen",
+    "prefix": "von",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1898-02-14",
+    "place": "Wischhafen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1975-11-22",
+    "place": "Bonn",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/1027973655",
+    "wikipedia": "https://de.wikipedia.org/wiki/Werner_von_Bargen",
+    "viaf": null
+  }
+}

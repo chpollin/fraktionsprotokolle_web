@@ -1,0 +1,103 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "RueddelErwin_2009-10-27",
+  "name": "Erwin Rüddel",
+  "givenName": "Erwin",
+  "familyName": "Rüddel",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1955-12-21",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "deathDate": "2025-02-03",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Ansbach"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Betriebswirt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "2009-10-27",
+      "endDate": "2013-10-22"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "2013-10-22",
+      "endDate": "2017-10-24"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "2017-10-24"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Erwin Rüddel",
+    "forename": "Erwin",
+    "surname": "Rüddel",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1955-12-21",
+    "place": "Bonn",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2025-02-03",
+    "place": "Ansbach",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 17,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "2009-10-27",
+      "to": "2013-10-22"
+    },
+    {
+      "period": 18,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "2013-10-22",
+      "to": "2017-10-24"
+    },
+    {
+      "period": 19,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "2017-10-24",
+      "to": ""
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11004139",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

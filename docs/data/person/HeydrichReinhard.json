@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HeydrichReinhard",
+  "name": "Reinhard Heydrich",
+  "givenName": "Reinhard",
+  "familyName": "Heydrich",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1904-03-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Halle an der Saale"
+  },
+  "deathDate": "1942-06-04",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Prag"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "NS-Politiker, Leiter des Reichssicherheitshauptamtes und stellvertretender Reichsprotektor von Böhmen und Mähren"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118550640",
+    "https://de.wikipedia.org/wiki/Reinhard_Heydrich"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Reinhard Heydrich",
+    "forename": "Reinhard",
+    "surname": "Heydrich",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1904-03-07",
+    "place": "Halle an der Saale",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1942-06-04",
+    "place": "Prag",
+    "country": "Tschechoslowakei"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118550640",
+    "wikipedia": "https://de.wikipedia.org/wiki/Reinhard_Heydrich",
+    "viaf": null
+  }
+}

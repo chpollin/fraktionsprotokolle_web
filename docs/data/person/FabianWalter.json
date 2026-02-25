@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "FabianWalter",
+  "name": "Walter Fabian",
+  "givenName": "Walter",
+  "familyName": "Fabian",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1902-08-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "1992-02-15",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Köln"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "sozialistischer Politiker, antifaschistischer Widerstandskämpfer, Journalist, Professor für Erwachsenenbildung, 1957–1970 Chefredakteur der DGB-Zeitschrift »Gewerkschaftliche Monatshefte«, 1958–1964 Vorsitzender der Deutschen Journalisten-Union"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118531670",
+    "https://de.wikipedia.org/wiki/Walter_Fabian"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Walter Fabian",
+    "forename": "Walter",
+    "surname": "Fabian",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1902-08-24",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1992-02-15",
+    "place": "Köln",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118531670",
+    "wikipedia": "https://de.wikipedia.org/wiki/Walter_Fabian",
+    "viaf": null
+  }
+}

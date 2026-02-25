@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "ReynaudPaul",
+  "name": "Paul Reynaud",
+  "givenName": "Paul",
+  "familyName": "Reynaud",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1878-10-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Barcelonnette"
+  },
+  "deathDate": "1966-09-21",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Neuilly-sur-Seine"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsanwalt, französischer Politiker (Alliance Démocratique), 1930 und 1948 Finanzminister, 1932 und 1938 Justizminister, 1940 Premierminister, Außenminister, Kriegsminister"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118788558",
+    "https://de.wikipedia.org/wiki/Paul_Reynaud"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Paul Reynaud",
+    "forename": "Paul",
+    "surname": "Reynaud",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1878-10-15",
+    "place": "Barcelonnette",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1966-09-21",
+    "place": "Neuilly-sur-Seine",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118788558",
+    "wikipedia": "https://de.wikipedia.org/wiki/Paul_Reynaud",
+    "viaf": null
+  }
+}

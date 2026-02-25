@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HallermannWilhelm",
+  "name": "Wilhelm Hallermann",
+  "givenName": "Wilhelm",
+  "familyName": "Hallermann",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1901-04-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Arnsberg in Westfalen"
+  },
+  "deathDate": "1975-03-28",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Kiel"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsmediziner und Hochschullehrer"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/11870110X",
+    "https://de.wikipedia.org/wiki/Wilhelm_Hallermann_(Mediziner,_1901)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Wilhelm Hallermann",
+    "forename": "Wilhelm",
+    "surname": "Hallermann",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1901-04-14",
+    "place": "Arnsberg in Westfalen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1975-03-28",
+    "place": "Kiel",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/11870110X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_Hallermann_(Mediziner,_1901)",
+    "viaf": null
+  }
+}

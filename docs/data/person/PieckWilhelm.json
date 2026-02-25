@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "PieckWilhelm",
+  "name": "Wilhelm Pieck",
+  "givenName": "Wilhelm",
+  "familyName": "Pieck",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1876-01-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Guben"
+  },
+  "deathDate": "1960-09-07",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Ost-Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "seit 1946 einer der beiden Parteivorsitzender der SED, 1949–1960 Präsident der DDR"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118594273",
+    "https://de.wikipedia.org/wiki/Wilhelm_Pieck#Parteivorsitzender_der_SED_und_Pr%C3%A4sident_der_DDR"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Wilhelm Pieck",
+    "forename": "Wilhelm",
+    "surname": "Pieck",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1876-01-03",
+    "place": "Guben",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1960-09-07",
+    "place": "Ost-Berlin",
+    "country": "DDR"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118594273",
+    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_Pieck#Parteivorsitzender_der_SED_und_Pr%C3%A4sident_der_DDR",
+    "viaf": null
+  }
+}

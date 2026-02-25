@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "JungherzHubert_1960-01-19",
+  "name": "Hubert Jungherz",
+  "givenName": "Hubert",
+  "familyName": "Jungherz",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1896-02-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Eupen"
+  },
+  "deathDate": "1975-03-21",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bensberg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Kaufmännischer Angestellter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1960-01-19",
+      "endDate": "1961-10-15"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1328365115",
+    "https://de.wikipedia.org/wiki/Hubert_Jungherz"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hubert Jungherz",
+    "forename": "Hubert",
+    "surname": "Jungherz",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1896-02-14",
+    "place": "Eupen",
+    "country": "Preußen (heute: Belgien)"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1975-03-21",
+    "place": "Bensberg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 3,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1960-01-19",
+      "to": "1961-10-15"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001044",
+    "gnd": "https://d-nb.info/gnd/1328365115",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hubert_Jungherz",
+    "viaf": null
+  }
+}

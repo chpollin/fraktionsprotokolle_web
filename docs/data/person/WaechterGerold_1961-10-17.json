@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "WaechterGerold_1961-10-17",
+  "name": "Gerold Wächter",
+  "givenName": "Gerold",
+  "familyName": "Wächter",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1906-02-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Esenshamm/Oldenburg"
+  },
+  "deathDate": "1992-09-10",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Nordenham"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Bauer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1965-10-19",
+      "endDate": "1969-10-19"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1206138300",
+    "https://de.wikipedia.org/wiki/Gerold_W%C3%A4chter"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Gerold Wächter",
+    "forename": "Gerold",
+    "surname": "Wächter",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1906-02-15",
+    "place": "Esenshamm/Oldenburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1992-09-10",
+    "place": "Nordenham",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 4,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    },
+    {
+      "period": 5,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002402",
+    "gnd": "https://d-nb.info/gnd/1206138300",
+    "wikipedia": "https://de.wikipedia.org/wiki/Gerold_W%C3%A4chter",
+    "viaf": null
+  }
+}

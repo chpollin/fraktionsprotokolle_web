@@ -1,0 +1,121 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "RahnWilhelm_1950-01-14",
+  "name": "Wilhelm Rahn",
+  "givenName": "Wilhelm",
+  "familyName": "Rahn",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1900-07-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "deathDate": "1960-09-16",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Bankkaufmann, Angestellter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Bayernpartei",
+        "alternateName": "BP"
+      },
+      "startDate": "1950-01-14",
+      "endDate": "1953-09-07"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktionslos",
+        "alternateName": "Fraktionslos"
+      },
+      "startDate": "1950-09-08",
+      "endDate": "1953-09-07"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion WAV (Gast)",
+        "alternateName": "WAV (Gast)"
+      },
+      "startDate": "1950-10-17",
+      "endDate": "1953-09-07"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1951-02-14",
+      "endDate": "1953-09-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1100198210",
+    "https://de.wikipedia.org/wiki/Wilhelm_Rahn_(Politiker,_1900)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Wilhelm Rahn",
+    "forename": "Wilhelm",
+    "surname": "Rahn",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1900-07-15",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1960-09-16",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "BP",
+      "faction_full": "Fraktion Bayernpartei",
+      "from": "1950-01-14",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 1,
+      "faction": "Fraktionslos",
+      "faction_full": "Fraktionslos",
+      "from": "1950-09-08",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 1,
+      "faction": "WAV (Gast)",
+      "faction_full": "Fraktion WAV (Gast)",
+      "from": "1950-10-17",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 1,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1951-02-14",
+      "to": "1953-09-07"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001767",
+    "gnd": "https://d-nb.info/gnd/1100198210",
+    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_Rahn_(Politiker,_1900)",
+    "viaf": null
+  }
+}

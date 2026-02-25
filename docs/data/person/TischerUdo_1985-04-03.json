@@ -1,0 +1,86 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "TischerUdo_1985-04-03",
+  "name": "Udo Tischer",
+  "givenName": "Udo",
+  "familyName": "Tischer",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1956-11-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Herbrechtingen"
+  },
+  "deathDate": "1992-02-04",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Kaufmann [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Die Grünen",
+        "alternateName": "Grüne"
+      },
+      "startDate": "1985-04-03",
+      "endDate": "1987-02-18"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktionslos",
+        "alternateName": "Fraktionslos"
+      },
+      "startDate": "1986-12-02",
+      "endDate": "1987-02-18"
+    }
+  ],
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Udo_Tischer"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Udo Tischer",
+    "forename": "Udo",
+    "surname": "Tischer",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1956-11-26",
+    "place": "Herbrechtingen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1992-02-04",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 10,
+      "faction": "Grüne",
+      "faction_full": "Fraktion Die Grünen",
+      "from": "1985-04-03",
+      "to": "1987-02-18"
+    },
+    {
+      "period": 10,
+      "faction": "Fraktionslos",
+      "faction_full": "Fraktionslos",
+      "from": "1986-12-02",
+      "to": "1987-02-18"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002330",
+    "gnd": null,
+    "wikipedia": "https://de.wikipedia.org/wiki/Udo_Tischer",
+    "viaf": null
+  }
+}

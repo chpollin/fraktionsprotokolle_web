@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "WestphalenKarlGrafvon",
+  "name": "Karl Graf von Westphalen",
+  "givenName": "Karl",
+  "familyName": "Westphalen",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1898-08-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Münster"
+  },
+  "deathDate": "1975-10-18",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Herausgeber der »Blätter für deutsche und internationale Politik«"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/105500003",
+    "https://de.wikipedia.org/wiki/Karl_von_Westphalen"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Karl Graf von Westphalen",
+    "forename": "Karl",
+    "surname": "Westphalen",
+    "prefix": "von",
+    "role_name": "Graf",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1898-08-12",
+    "place": "Münster",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1975-10-18",
+    "place": "Bonn",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/105500003",
+    "wikipedia": "https://de.wikipedia.org/wiki/Karl_von_Westphalen",
+    "viaf": null
+  }
+}

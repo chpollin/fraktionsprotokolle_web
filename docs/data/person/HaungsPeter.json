@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HaungsPeter",
+  "name": "Peter Haungs",
+  "givenName": "Peter",
+  "familyName": "Haungs",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1939-04-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Lahr"
+  },
+  "deathDate": "1994-05-24",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Trier"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "wissenschaftlicher Mitarbeiter am Institut für Politische Wissenschaften der Universität Heidelberg, seit 1972 Professor"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/105651826",
+    "https://de.wikipedia.org/wiki/Peter_Haungs"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Peter Haungs",
+    "forename": "Peter",
+    "surname": "Haungs",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1939-04-12",
+    "place": "Lahr",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1994-05-24",
+    "place": "Trier",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/105651826",
+    "wikipedia": "https://de.wikipedia.org/wiki/Peter_Haungs",
+    "viaf": null
+  }
+}

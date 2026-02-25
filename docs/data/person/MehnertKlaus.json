@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "MehnertKlaus",
+  "name": "Klaus Mehnert",
+  "givenName": "Klaus",
+  "familyName": "Mehnert",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1906-10-10",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Moskau"
+  },
+  "deathDate": "1984-01-02",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Freudenstadt, Baden-Württemberg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Publizist und Professor für Politische Wissenschaft an der Technischen Hochschule Aachen"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118579959",
+    "https://de.wikipedia.org/wiki/Klaus_Mehnert"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Klaus Mehnert",
+    "forename": "Klaus",
+    "surname": "Mehnert",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1906-10-10",
+    "place": "Moskau",
+    "country": "Russisches Kaiserreich"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1984-01-02",
+    "place": "Freudenstadt, Baden-Württemberg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118579959",
+    "wikipedia": "https://de.wikipedia.org/wiki/Klaus_Mehnert",
+    "viaf": null
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "FinckAlbert",
+  "name": "Albert Finck",
+  "givenName": "Albert",
+  "familyName": "Finck",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1895-03-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Herxheim"
+  },
+  "deathDate": "1956-08-03",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bad Wörishofen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1951–1956 MdL Rheinland-Pfalz (CDU) und Kultusminister"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/123998026",
+    "https://de.wikipedia.org/wiki/Albert_Finck"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Albert Finck",
+    "forename": "Albert",
+    "surname": "Finck",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1895-03-15",
+    "place": "Herxheim",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1956-08-03",
+    "place": "Bad Wörishofen",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/123998026",
+    "wikipedia": "https://de.wikipedia.org/wiki/Albert_Finck",
+    "viaf": null
+  }
+}

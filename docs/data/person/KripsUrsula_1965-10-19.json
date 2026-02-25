@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "KripsUrsula_1965-10-19",
+  "name": "Ursula Krips, geb. Brendel",
+  "givenName": "Ursula",
+  "familyName": "Krips",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1933-02-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Mannheim"
+  },
+  "deathDate": "2020-06-22",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bad Soden am Taunus"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Kaufmann [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1965-10-19",
+      "endDate": "1969-01-31"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1145449867",
+    "https://de.wikipedia.org/wiki/Ursula_Krips"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Ursula Krips, geb. Brendel",
+    "forename": "Ursula",
+    "surname": "Krips",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1933-02-15",
+    "place": "Mannheim",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2020-06-22",
+    "place": "Bad Soden am Taunus",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 5,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1965-10-19",
+      "to": "1969-01-31"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001219",
+    "gnd": "https://d-nb.info/gnd/1145449867",
+    "wikipedia": "https://de.wikipedia.org/wiki/Ursula_Krips",
+    "viaf": null
+  }
+}

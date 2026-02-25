@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "ChristophFranz",
+  "name": "Franz Christoph",
+  "givenName": "Franz",
+  "familyName": "Christoph",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1953-07-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Furth im Wald"
+  },
+  "deathDate": "1996-12-28",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Publizist, 1977 Mitbegründer der sog. Krüppelbewegung"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/1135936587",
+    "https://de.wikipedia.org/wiki/Franz_Christoph_(Publizist)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Franz Christoph",
+    "forename": "Franz",
+    "surname": "Christoph",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1953-07-02",
+    "place": "Furth im Wald",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1996-12-28",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/1135936587",
+    "wikipedia": "https://de.wikipedia.org/wiki/Franz_Christoph_(Publizist)",
+    "viaf": null
+  }
+}

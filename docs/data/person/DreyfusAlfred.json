@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "DreyfusAlfred",
+  "name": "Alfred Dreyfus",
+  "givenName": "Alfred",
+  "familyName": "Dreyfus",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1859-10-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Mulhouse"
+  },
+  "deathDate": "1935-07-12",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "französischer Offizier"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118527460",
+    "https://de.wikipedia.org/wiki/Alfred_Dreyfus"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Alfred Dreyfus",
+    "forename": "Alfred",
+    "surname": "Dreyfus",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1859-10-09",
+    "place": "Mulhouse",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1935-07-12",
+    "place": "Paris",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118527460",
+    "wikipedia": "https://de.wikipedia.org/wiki/Alfred_Dreyfus",
+    "viaf": null
+  }
+}

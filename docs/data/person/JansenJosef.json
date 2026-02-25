@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "JansenJosef",
+  "name": "Josef Jansen",
+  "givenName": "Josef",
+  "familyName": "Jansen",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1909-10-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Essen"
+  },
+  "deathDate": "1966-01-02",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Diplomat, 1952–1954 Gesandter in Luxemburg, 1960–1964 Ministerialdirektor im Auswärtigen Amt"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/119439194X",
+    "https://de.wikipedia.org/wiki/Josef_Jansen_(Diplomat)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Josef Jansen",
+    "forename": "Josef",
+    "surname": "Jansen",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1909-10-28",
+    "place": "Essen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1966-01-02",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/119439194X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Josef_Jansen_(Diplomat)",
+    "viaf": null
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "GawlikHans",
+  "name": "Hans Gawlik",
+  "givenName": "Hans",
+  "familyName": "Gawlik",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1904-08-29",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Breslau (heute: Wrocław, Polen)"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsanwalt, Leiter der Zentralen Rechtsschutzstelle"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/125421427",
+    "https://de.wikipedia.org/wiki/Hans_Gawlik"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans Gawlik",
+    "forename": "Hans",
+    "surname": "Gawlik",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1904-08-29",
+    "place": "Breslau (heute: Wrocław, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/125421427",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Gawlik",
+    "viaf": null
+  }
+}

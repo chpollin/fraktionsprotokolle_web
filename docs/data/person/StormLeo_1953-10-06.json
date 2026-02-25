@@ -1,0 +1,100 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "StormLeo_1953-10-06",
+  "name": "Leo Storm",
+  "givenName": "Leo",
+  "familyName": "Storm",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1908-06-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Sonsfeld"
+  },
+  "deathDate": "1981-12-27",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Duisburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Volkswirt, Prokurist [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1957-10-15",
+      "endDate": "1961-10-15"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1027294170",
+    "https://de.wikipedia.org/wiki/Leo_Storm"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Leo Storm",
+    "forename": "Leo",
+    "surname": "Storm",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1908-06-09",
+    "place": "Sonsfeld",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1981-12-27",
+    "place": "Duisburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 3,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002266",
+    "gnd": "https://d-nb.info/gnd/1027294170",
+    "wikipedia": "https://de.wikipedia.org/wiki/Leo_Storm",
+    "viaf": null
+  },
+  "fraktionsprotokolle:alt_names": [
+    {
+      "reg": "Leo Storm",
+      "forename": "Leo",
+      "surname": "Storm",
+      "prefix": "",
+      "role_name": "",
+      "place": "(Duisburg)"
+    }
+  ]
+}

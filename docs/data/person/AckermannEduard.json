@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "AckermannEduard",
+  "name": "Eduard Ackermann",
+  "givenName": "Eduard",
+  "familyName": "Ackermann",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1928-11-01",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Geldern"
+  },
+  "deathDate": "2015-02-10",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1958–1982 Leiter der Pressestelle der CDU/CSU-Bundestagsfraktion"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/119178273",
+    "https://de.wikipedia.org/wiki/Eduard_Ackermann_(Politiker)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Eduard Ackermann",
+    "forename": "Eduard",
+    "surname": "Ackermann",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1928-11-01",
+    "place": "Geldern",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2015-02-10",
+    "place": "Bonn",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/119178273",
+    "wikipedia": "https://de.wikipedia.org/wiki/Eduard_Ackermann_(Politiker)",
+    "viaf": null
+  }
+}

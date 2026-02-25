@@ -1,0 +1,69 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "VogelAxel_1985-03-16",
+  "name": "Axel Vogel",
+  "givenName": "Axel",
+  "familyName": "Vogel",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1956-06-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bochum"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Bürokaufmann [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Die Grünen",
+        "alternateName": "Grüne"
+      },
+      "startDate": "1985-03-16",
+      "endDate": "1987-02-18"
+    }
+  ],
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Axel_Vogel"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Axel Vogel",
+    "forename": "Axel",
+    "surname": "Vogel",
+    "prefix": "",
+    "role_name": "",
+    "place": "(München)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1956-06-03",
+    "place": "Bochum",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 10,
+      "faction": "Grüne",
+      "faction_full": "Fraktion Die Grünen",
+      "from": "1985-03-16",
+      "to": "1987-02-18"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002376",
+    "gnd": null,
+    "wikipedia": "https://de.wikipedia.org/wiki/Axel_Vogel",
+    "viaf": null
+  }
+}

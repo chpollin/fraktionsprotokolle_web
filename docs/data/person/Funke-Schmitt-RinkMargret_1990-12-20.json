@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "Funke-Schmitt-RinkMargret_1990-12-20",
+  "name": "Margret Funke-Schmitt-Rink",
+  "givenName": "Margret",
+  "familyName": "Funke-Schmitt-Rink",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1946-01-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Recklinghausen/NRW"
+  },
+  "deathDate": "1998-03-11",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Wiesbaden"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Oberstudienrätin a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1036254879",
+    "https://de.wikipedia.org/wiki/Margret_Funke-Schmitt-Rink"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Margret Funke-Schmitt-Rink",
+    "forename": "Margret",
+    "surname": "Funke-Schmitt-Rink",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1946-01-23",
+    "place": "Recklinghausen/NRW",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1998-03-11",
+    "place": "Wiesbaden",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 12,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1990-12-20",
+      "to": "1994-11-10"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000625",
+    "gnd": "https://d-nb.info/gnd/1036254879",
+    "wikipedia": "https://de.wikipedia.org/wiki/Margret_Funke-Schmitt-Rink",
+    "viaf": null
+  }
+}

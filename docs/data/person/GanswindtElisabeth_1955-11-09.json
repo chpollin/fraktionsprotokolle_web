@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "GanswindtElisabeth_1955-11-09",
+  "name": "Elisabeth Ganswindt",
+  "givenName": "Elisabeth",
+  "familyName": "Ganswindt",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1900-05-30",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kalkhof"
+  },
+  "deathDate": "1983-08-27",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Stade"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Fürsorgerin, Kriminalbeamtin a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1955-11-09",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1314812556",
+    "https://de.wikipedia.org/wiki/Elisabeth_Ganswindt"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Elisabeth Ganswindt",
+    "forename": "Elisabeth",
+    "surname": "Ganswindt",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1900-05-30",
+    "place": "Kalkhof",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1983-08-27",
+    "place": "Stade",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1955-11-09",
+      "to": "1957-10-06"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000632",
+    "gnd": "https://d-nb.info/gnd/1314812556",
+    "wikipedia": "https://de.wikipedia.org/wiki/Elisabeth_Ganswindt",
+    "viaf": null
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "AnsorgeMaria_1951-11-17",
+  "name": "Maria Ansorge, geb. Scholz",
+  "givenName": "Maria",
+  "familyName": "Ansorge",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1880-12-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Löchau, Bezirk Braunau/Königreich Böhmen (heute: Lachov-Teplice nad Metují, Tschechische Republik)"
+  },
+  "deathDate": "1955-07-11",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Dorsten"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Textilarbeiterin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1951-11-17",
+      "endDate": "1953-09-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/124989578",
+    "https://de.wikipedia.org/wiki/Maria_Ansorge"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Maria Ansorge, geb. Scholz",
+    "forename": "Maria",
+    "surname": "Ansorge",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1880-12-15",
+    "place": "Löchau, Bezirk Braunau/Königreich Böhmen (heute: Lachov-Teplice nad Metují, Tschechische Republik)",
+    "country": "Österreich-Ungarn"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1955-07-11",
+    "place": "Dorsten",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1951-11-17",
+      "to": "1953-09-07"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000041",
+    "gnd": "https://d-nb.info/gnd/124989578",
+    "wikipedia": "https://de.wikipedia.org/wiki/Maria_Ansorge",
+    "viaf": null
+  }
+}

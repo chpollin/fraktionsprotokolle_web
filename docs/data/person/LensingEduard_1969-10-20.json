@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "LensingEduard_1969-10-20",
+  "name": "Eduard Lensing",
+  "givenName": "Eduard",
+  "familyName": "Lensing",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1920-04-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Reeserward"
+  },
+  "deathDate": "2004-08-27",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Rees"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Landwirt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1969-10-20",
+      "endDate": "1972-09-22"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1109555369",
+    "https://de.wikipedia.org/wiki/Eduard_Lensing"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Eduard Lensing",
+    "forename": "Eduard",
+    "surname": "Lensing",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1920-04-20",
+    "place": "Reeserward",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2004-08-27",
+    "place": "Rees",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 6,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1969-10-20",
+      "to": "1972-09-22"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001320",
+    "gnd": "https://d-nb.info/gnd/1109555369",
+    "wikipedia": "https://de.wikipedia.org/wiki/Eduard_Lensing",
+    "viaf": null
+  }
+}

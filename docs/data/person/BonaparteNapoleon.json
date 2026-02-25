@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BonaparteNapoleon",
+  "name": "Napoleon Bonaparte",
+  "givenName": "Napoleon",
+  "familyName": "Bonaparte",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1769-08-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Ajaccio, Korsika"
+  },
+  "deathDate": "1821-05-05",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Longwood House, St. Helena"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "französischer General, 1799–1804 Erster Konsul der Französischen Republik, 1804–1814, 1815 Kaiser der Franzosen"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118586408",
+    "https://de.wikipedia.org/wiki/Napoleon_Bonaparte"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Napoleon Bonaparte",
+    "forename": "Napoleon",
+    "surname": "Bonaparte",
+    "prefix": "",
+    "role_name": "Kaiser",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1769-08-15",
+    "place": "Ajaccio, Korsika",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1821-05-05",
+    "place": "Longwood House, St. Helena",
+    "country": "Großbritannien"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118586408",
+    "wikipedia": "https://de.wikipedia.org/wiki/Napoleon_Bonaparte",
+    "viaf": null
+  }
+}

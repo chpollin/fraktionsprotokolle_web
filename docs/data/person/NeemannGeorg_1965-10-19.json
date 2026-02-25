@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "NeemannGeorg_1965-10-19",
+  "name": "Georg Neemann",
+  "givenName": "Georg",
+  "familyName": "Neemann",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1917-11-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Höchst/Odenwald"
+  },
+  "deathDate": "1993-02-06",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Neuss"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Angestellter, Geschäftsführer, Mitgl. DGB-Bundesvorstand [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1965-10-19",
+      "endDate": "1969-10-19"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1969-10-20",
+      "endDate": "1972-09-22"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1119897742",
+    "https://de.wikipedia.org/wiki/Georg_Neemann"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Georg Neemann",
+    "forename": "Georg",
+    "surname": "Neemann",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1917-11-07",
+    "place": "Höchst/Odenwald",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1993-02-06",
+    "place": "Neuss",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 5,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    },
+    {
+      "period": 6,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1969-10-20",
+      "to": "1972-09-22"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001584",
+    "gnd": "https://d-nb.info/gnd/1119897742",
+    "wikipedia": "https://de.wikipedia.org/wiki/Georg_Neemann",
+    "viaf": null
+  }
+}

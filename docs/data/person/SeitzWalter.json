@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SeitzWalter",
+  "name": "Walter Seitz",
+  "givenName": "Walter",
+  "familyName": "Seitz",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1905-07-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "deathDate": "1997-02-10",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1950–1954 MdL Bayern (SPD)"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/121628515",
+    "https://de.wikipedia.org/wiki/Walter_Seitz_(Politiker)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Walter Seitz",
+    "forename": "Walter",
+    "surname": "Seitz",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1905-07-24",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1997-02-10",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/121628515",
+    "wikipedia": "https://de.wikipedia.org/wiki/Walter_Seitz_(Politiker)",
+    "viaf": null
+  }
+}

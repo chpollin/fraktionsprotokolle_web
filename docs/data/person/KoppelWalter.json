@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "KoppelWalter",
+  "name": "Walter Koppel",
+  "givenName": "Walter",
+  "familyName": "Koppel",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1906-04-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Köln"
+  },
+  "deathDate": "1982-10-25",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Filmproduzent"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/116338881",
+    "https://de.wikipedia.org/wiki/Walter_Koppel"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Walter Koppel",
+    "forename": "Walter",
+    "surname": "Koppel",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1906-04-23",
+    "place": "Köln",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1982-10-25",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/116338881",
+    "wikipedia": "https://de.wikipedia.org/wiki/Walter_Koppel",
+    "viaf": null
+  }
+}

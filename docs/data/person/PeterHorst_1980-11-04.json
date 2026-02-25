@@ -1,0 +1,124 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "PeterHorst_1980-11-04",
+  "name": "Horst Peter",
+  "givenName": "Horst",
+  "familyName": "Peter",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1937-02-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kassel"
+  },
+  "deathDate": "2012-09-23",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Kassel"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Studiendirektor a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1980-11-04",
+      "endDate": "1983-03-29"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1983-03-29",
+      "endDate": "1987-02-18"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1987-02-18",
+      "endDate": "1990-12-20"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1026801214",
+    "https://de.wikipedia.org/wiki/Horst_Peter_(Politiker)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Horst Peter",
+    "forename": "Horst",
+    "surname": "Peter",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Kassel)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1937-02-16",
+    "place": "Kassel",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2012-09-23",
+    "place": "Kassel",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 9,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1980-11-04",
+      "to": "1983-03-29"
+    },
+    {
+      "period": 10,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1983-03-29",
+      "to": "1987-02-18"
+    },
+    {
+      "period": 11,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1987-02-18",
+      "to": "1990-12-20"
+    },
+    {
+      "period": 12,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1990-12-20",
+      "to": "1994-11-10"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001693",
+    "gnd": "https://d-nb.info/gnd/1026801214",
+    "wikipedia": "https://de.wikipedia.org/wiki/Horst_Peter_(Politiker)",
+    "viaf": null
+  }
+}

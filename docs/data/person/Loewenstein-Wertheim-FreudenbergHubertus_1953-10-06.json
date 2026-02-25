@@ -1,0 +1,107 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "Loewenstein-Wertheim-FreudenbergHubertus_1953-10-06",
+  "name": "Hubertus Prinz zu Löwenstein-Wertheim-Freudenberg",
+  "givenName": "Hubertus",
+  "familyName": "Löwenstein-Wertheim-Freudenberg",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1906-10-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Schloß Schönwörth, Tirol"
+  },
+  "deathDate": "1984-11-28",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Historiker [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktionslos",
+        "alternateName": "Fraktionslos"
+      },
+      "startDate": "1957-06-06",
+      "endDate": "1957-10-06"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Deutsche Partei/Freie Volkspartei",
+        "alternateName": "DP/FVP"
+      },
+      "startDate": "1957-06-25",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/118574000",
+    "https://de.wikipedia.org/wiki/Hubertus_Prinz_zu_L%C3%B6wenstein-Wertheim-Freudenberg"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hubertus Prinz zu Löwenstein-Wertheim-Freudenberg",
+    "forename": "Hubertus",
+    "surname": "Löwenstein-Wertheim-Freudenberg",
+    "prefix": "",
+    "role_name": "Prinz zu",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1906-10-14",
+    "place": "Schloß Schönwörth, Tirol",
+    "country": "Österreich-Ungarn (heute: Österreich)"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1984-11-28",
+    "place": "Bonn",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 2,
+      "faction": "Fraktionslos",
+      "faction_full": "Fraktionslos",
+      "from": "1957-06-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 2,
+      "faction": "DP/FVP",
+      "faction_full": "Fraktion Deutsche Partei/Freie Volkspartei",
+      "from": "1957-06-25",
+      "to": "1957-10-06"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001365",
+    "gnd": "https://d-nb.info/gnd/118574000",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hubertus_Prinz_zu_L%C3%B6wenstein-Wertheim-Freudenberg",
+    "viaf": null
+  }
+}

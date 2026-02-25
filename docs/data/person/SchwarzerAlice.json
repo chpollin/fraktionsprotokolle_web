@@ -1,0 +1,51 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchwarzerAlice",
+  "name": "Alice Schwarzer",
+  "givenName": "Alice Sophie",
+  "familyName": "Schwarzer",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1942-12-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Wuppertal"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalistin und Publizistin, Gründerin und Herausgeberin der Frauenzeitschrift »Emma«"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118612077",
+    "https://de.wikipedia.org/wiki/Alice_Schwarzer"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Alice Schwarzer",
+    "forename": "Alice Sophie",
+    "surname": "Schwarzer",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1942-12-03",
+    "place": "Wuppertal",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118612077",
+    "wikipedia": "https://de.wikipedia.org/wiki/Alice_Schwarzer",
+    "viaf": null
+  }
+}

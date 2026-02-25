@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchmittCarl",
+  "name": "Carl Schmitt",
+  "givenName": "Carl",
+  "familyName": "Schmitt",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1888-07-11",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Plettenberg"
+  },
+  "deathDate": "1985-04-07",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Plettenberg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Staatsrechtler und politischer Philosoph"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/11860922X",
+    "https://de.wikipedia.org/wiki/Carl_Schmitt"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Carl Schmitt",
+    "forename": "Carl",
+    "surname": "Schmitt",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1888-07-11",
+    "place": "Plettenberg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1985-04-07",
+    "place": "Plettenberg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/11860922X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Carl_Schmitt",
+    "viaf": null
+  }
+}

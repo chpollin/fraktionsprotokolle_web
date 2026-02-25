@@ -1,0 +1,53 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HummelJohannes",
+  "name": "Johannes Hummel",
+  "givenName": "Johannes",
+  "familyName": "Hummel",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1893-10-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kehl am Rhein"
+  },
+  "deathDate": "1966-02-28",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Freudenstadt"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1947–1966 Generalsekretär des Deutschen Bauernverbands und Geschäftsführer des Zentralausschusses der Deutschen Landwirtschaft"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/13350171X"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Johannes Hummel",
+    "forename": "Johannes",
+    "surname": "Hummel",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1893-10-19",
+    "place": "Kehl am Rhein",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1966-02-28",
+    "place": "Freudenstadt",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/13350171X",
+    "wikipedia": null,
+    "viaf": null
+  }
+}

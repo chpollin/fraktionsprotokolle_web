@@ -1,0 +1,69 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "ReicholdHeinrich_1978-12-04",
+  "name": "Heinrich Reichold",
+  "givenName": "Heinrich",
+  "familyName": "Reichold",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1930-07-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Mudau/Baden"
+  },
+  "deathDate": "1979-10-02",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Angestellter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1978-12-04",
+      "endDate": "1979-10-02"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/102468167X"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Heinrich Reichold",
+    "forename": "Heinrich",
+    "surname": "Reichold",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1930-07-18",
+    "place": "Mudau/Baden",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1979-10-02",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 8,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1978-12-04",
+      "to": "1979-10-02"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001802",
+    "gnd": "https://d-nb.info/gnd/102468167X",
+    "wikipedia": null,
+    "viaf": null
+  }
+}

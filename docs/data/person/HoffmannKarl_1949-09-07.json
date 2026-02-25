@@ -1,0 +1,87 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HoffmannKarl_1949-09-07",
+  "name": "Karl Hoffmann",
+  "givenName": "Karl",
+  "familyName": "Hoffmann",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1901-03-11",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bremen"
+  },
+  "deathDate": "1981-07-17",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Fabrikant [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1331199905",
+    "https://de.wikipedia.org/wiki/Karl_Hoffmann_(Politiker,_1901)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Karl Hoffmann",
+    "forename": "Karl",
+    "surname": "Hoffmann",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Schönau)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1901-03-11",
+    "place": "Bremen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1981-07-17",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 2,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000940",
+    "gnd": "https://d-nb.info/gnd/1331199905",
+    "wikipedia": "https://de.wikipedia.org/wiki/Karl_Hoffmann_(Politiker,_1901)",
+    "viaf": null
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "GandhiIndira",
+  "name": "Indira Gandhi",
+  "givenName": "Indira",
+  "familyName": "Gandhi",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1917-11-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Allahabad"
+  },
+  "deathDate": "1984-10-31",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Neu-Delhi, Delhi"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1966–1977 und 1980–1984 Ministerpräsidentin Indiens"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118689436",
+    "https://de.wikipedia.org/wiki/Indira_Gandhi"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Indira Gandhi",
+    "forename": "Indira",
+    "surname": "Gandhi",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1917-11-19",
+    "place": "Allahabad",
+    "country": "Britisch-Indien"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1984-10-31",
+    "place": "Neu-Delhi, Delhi",
+    "country": "Indien"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118689436",
+    "wikipedia": "https://de.wikipedia.org/wiki/Indira_Gandhi",
+    "viaf": null
+  }
+}

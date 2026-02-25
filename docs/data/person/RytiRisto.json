@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "RytiRisto",
+  "name": "Risto Ryti",
+  "givenName": "Risto",
+  "familyName": "Ryti",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1889-02-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Huittinen"
+  },
+  "deathDate": "1956-10-25",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Helsinki"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1939–1940 Ministerpräsident Finnlands"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/119265990",
+    "https://de.wikipedia.org/wiki/Risto_Ryti"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Risto Ryti",
+    "forename": "Risto",
+    "surname": "Ryti",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1889-02-03",
+    "place": "Huittinen",
+    "country": "Finnland"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1956-10-25",
+    "place": "Helsinki",
+    "country": "Finnland"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/119265990",
+    "wikipedia": "https://de.wikipedia.org/wiki/Risto_Ryti",
+    "viaf": null
+  }
+}

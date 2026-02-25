@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "LovestoneJay",
+  "name": "Jay Lovestone",
+  "givenName": "Jay",
+  "familyName": "Lovestone",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1897-12-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Molchad, Gouvernement Grodno"
+  },
+  "deathDate": "1990-03-07",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "New York City"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Sekretär des Gewerkschaftsbunds American Federation of Labor"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/121063828",
+    "https://de.wikipedia.org/wiki/Jay_Lovestone"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Jay Lovestone",
+    "forename": "Jay",
+    "surname": "Lovestone",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1897-12-15",
+    "place": "Molchad, Gouvernement Grodno",
+    "country": "Russisches Kaiserreich"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1990-03-07",
+    "place": "New York City",
+    "country": "USA"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/121063828",
+    "wikipedia": "https://de.wikipedia.org/wiki/Jay_Lovestone",
+    "viaf": null
+  }
+}

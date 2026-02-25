@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchmidKarl",
+  "name": "Karl Schmid",
+  "givenName": "Karl",
+  "familyName": "Schmid",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1883-09-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Jettingen-Scheppach"
+  },
+  "deathDate": "1958-05-31",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1932–1933 MdL Bayern (BVP), 1946–1956 MdL Bayern (CSU)"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/1017715262",
+    "https://de.wikipedia.org/wiki/Karl_Schmid_(Politiker,_1883)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Karl Schmid",
+    "forename": "Karl",
+    "surname": "Schmid",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1883-09-20",
+    "place": "Jettingen-Scheppach",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1958-05-31",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/1017715262",
+    "wikipedia": "https://de.wikipedia.org/wiki/Karl_Schmid_(Politiker,_1883)",
+    "viaf": null
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HoevelPaul",
+  "name": "Paul Hövel",
+  "givenName": "Paul",
+  "familyName": "Hövel",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1904-08-31",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Mönchengladbach"
+  },
+  "deathDate": "1989-12-04",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Direktor des Springer-Wissenschaftsverlages, Berlin/Heidelberg"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/116933437",
+    "https://de.wikipedia.org/wiki/Paul_H%C3%B6vel"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Paul Hövel",
+    "forename": "Paul",
+    "surname": "Hövel",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1904-08-31",
+    "place": "Mönchengladbach",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1989-12-04",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/116933437",
+    "wikipedia": "https://de.wikipedia.org/wiki/Paul_H%C3%B6vel",
+    "viaf": null
+  }
+}

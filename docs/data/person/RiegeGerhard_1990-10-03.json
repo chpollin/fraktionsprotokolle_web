@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "RiegeGerhard_1990-10-03",
+  "name": "Gerhard Riege",
+  "givenName": "Gerhard",
+  "familyName": "Riege",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1930-05-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Gräfenroda/Thüringen"
+  },
+  "deathDate": "1992-02-15",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Geunitz"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Professor für Staatsrecht [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Gruppe der Partei des Demokratischen Sozialismus",
+        "alternateName": "Grp. PDS"
+      },
+      "startDate": "1990-10-03",
+      "endDate": "1990-12-20"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Gruppe der Partei des Demokratischen Sozialismus/Linke Liste",
+        "alternateName": "Grp. PDS/LL"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1992-02-15"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/119182262",
+    "https://de.wikipedia.org/wiki/Gerhard_Riege"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Gerhard Riege",
+    "forename": "Gerhard",
+    "surname": "Riege",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1930-05-23",
+    "place": "Gräfenroda/Thüringen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1992-02-15",
+    "place": "Geunitz",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 11,
+      "faction": "Grp. PDS",
+      "faction_full": "Gruppe der Partei des Demokratischen Sozialismus",
+      "from": "1990-10-03",
+      "to": "1990-12-20"
+    },
+    {
+      "period": 12,
+      "faction": "Grp. PDS/LL",
+      "faction_full": "Gruppe der Partei des Demokratischen Sozialismus/Linke Liste",
+      "from": "1990-12-20",
+      "to": "1992-02-15"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001844",
+    "gnd": "https://d-nb.info/gnd/119182262",
+    "wikipedia": "https://de.wikipedia.org/wiki/Gerhard_Riege",
+    "viaf": null
+  }
+}

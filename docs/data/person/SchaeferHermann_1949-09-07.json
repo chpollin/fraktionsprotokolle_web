@@ -1,0 +1,158 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchaeferHermann_1949-09-07",
+  "name": "Hermann Schäfer",
+  "givenName": "Hermann",
+  "familyName": "Schäfer",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1892-04-06",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Remscheid"
+  },
+  "deathDate": "1966-05-26",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bad Godesberg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Bundesmin. f. besond. Aufgaben, Vizeprä. DBT [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktionslos",
+        "alternateName": "Fraktionslos"
+      },
+      "startDate": "1956-02-23",
+      "endDate": "1957-10-06"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Demokratische Arbeitsgemeinschaft",
+        "alternateName": "DA"
+      },
+      "startDate": "1956-03-15",
+      "endDate": "1957-10-06"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Freie Volkspartei",
+        "alternateName": "FVP"
+      },
+      "startDate": "1956-06-26",
+      "endDate": "1957-10-06"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Deutsche Partei/Freie Volkspartei",
+        "alternateName": "DP/FVP"
+      },
+      "startDate": "1957-03-14",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/12121740X",
+    "https://de.wikipedia.org/wiki/Hermann_Sch%C3%A4fer_(Politiker,_1892)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hermann Schäfer",
+    "forename": "Hermann",
+    "surname": "Schäfer",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1892-04-06",
+    "place": "Remscheid",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1966-05-26",
+    "place": "Bad Godesberg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 2,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 2,
+      "faction": "Fraktionslos",
+      "faction_full": "Fraktionslos",
+      "from": "1956-02-23",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 2,
+      "faction": "DA",
+      "faction_full": "Fraktion Demokratische Arbeitsgemeinschaft",
+      "from": "1956-03-15",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 2,
+      "faction": "FVP",
+      "faction_full": "Fraktion Freie Volkspartei",
+      "from": "1956-06-26",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 2,
+      "faction": "DP/FVP",
+      "faction_full": "Fraktion Deutsche Partei/Freie Volkspartei",
+      "from": "1957-03-14",
+      "to": "1957-10-06"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001933",
+    "gnd": "https://d-nb.info/gnd/12121740X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hermann_Sch%C3%A4fer_(Politiker,_1892)",
+    "viaf": null
+  }
+}

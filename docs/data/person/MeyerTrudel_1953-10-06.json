@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "MeyerTrudel_1953-10-06",
+  "name": "Trudel Meyer",
+  "givenName": "Trudel",
+  "familyName": "Meyer",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1922-06-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Dortmund"
+  },
+  "deathDate": "1989-11-12",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Gewerkschaftssekretärin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/189544481",
+    "https://de.wikipedia.org/wiki/Trudel_Meyer"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Trudel Meyer",
+    "forename": "Trudel",
+    "surname": "Meyer",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Dortmund)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1922-06-18",
+    "place": "Dortmund",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1989-11-12",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001496",
+    "gnd": "https://d-nb.info/gnd/189544481",
+    "wikipedia": "https://de.wikipedia.org/wiki/Trudel_Meyer",
+    "viaf": null
+  }
+}

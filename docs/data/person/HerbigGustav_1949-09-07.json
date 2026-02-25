@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HerbigGustav_1949-09-07",
+  "name": "Gustav Herbig",
+  "givenName": "Gustav",
+  "familyName": "Herbig",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1888-08-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Buschullersdorf, Böhmen (heute: Oldřichov v Hájích, Tschechische Republik)"
+  },
+  "deathDate": "1965-10-09",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bad Kissingen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Lehrer, Diplomat, Philologe, Prof. i. R. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1951-12-01"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1030423873",
+    "https://de.wikipedia.org/wiki/Gustav_Herbig_(Politiker)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Gustav Herbig",
+    "forename": "Gustav",
+    "surname": "Herbig",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1888-08-03",
+    "place": "Buschullersdorf, Böhmen (heute: Oldřichov v Hájích, Tschechische Republik)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1965-10-09",
+    "place": "Bad Kissingen",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1949-09-07",
+      "to": "1951-12-01"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000879",
+    "gnd": "https://d-nb.info/gnd/1030423873",
+    "wikipedia": "https://de.wikipedia.org/wiki/Gustav_Herbig_(Politiker)",
+    "viaf": null
+  }
+}

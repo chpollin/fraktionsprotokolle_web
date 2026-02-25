@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "AuerbachPhilipp",
+  "name": "Philipp Auerbach",
+  "givenName": "Philipp",
+  "familyName": "Auerbach",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1906-12-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "deathDate": "1952-08-16",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1946–1951 bayerischer Staatskommissar für rassisch, religiös und politisch Verfolgte"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/12208795X",
+    "https://de.wikipedia.org/wiki/Philipp_Auerbach"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Philipp Auerbach",
+    "forename": "Philipp",
+    "surname": "Auerbach",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1906-12-08",
+    "place": "Hamburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1952-08-16",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/12208795X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Philipp_Auerbach",
+    "viaf": null
+  }
+}

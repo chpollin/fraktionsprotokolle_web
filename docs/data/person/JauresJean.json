@@ -1,0 +1,55 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "JauresJean",
+  "name": "Jean Jaurès",
+  "givenName": "Jean",
+  "familyName": "Jaurès",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1859-09-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Castres, Département Tarn"
+  },
+  "deathDate": "1914-07-31",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Historiker, Reformist und Pazifist, 1893-1898 und 1902-1914 Abgeordneter in der Französischen Nationalversammlung (Parti socialiste, PS), 1904-1914 Mitgründer und Chefredakteur der Parteizeitung »L'Humanité«"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/11871192X",
+    "https://de.wikipedia.org/wiki/Jean_Jaur%C3%A8s"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Jean Jaurès",
+    "forename": "Jean",
+    "surname": "Jaurès",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1859-09-03",
+    "place": "Castres, Département Tarn",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1914-07-31",
+    "place": "Paris",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/11871192X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Jean_Jaur%C3%A8s",
+    "viaf": null
+  },
+  "fraktionsprotokolle:sonstiges": "unmittelbar vor Beginn des Ersten Weltkriegs wegen seiner Friedensbemühungen von einem französischen Nationalisten erschossen"
+}

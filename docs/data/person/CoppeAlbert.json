@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "CoppeAlbert",
+  "name": "Albert Coppé",
+  "givenName": "Albert",
+  "familyName": "Coppé",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1911-11-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Brügge"
+  },
+  "deathDate": "1999-03-30",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Tervuren"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "belgischer Politiker, CSP, 1952–1967 Vizepräsident der Hohen Behörde der EGKS"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/132651831",
+    "https://de.wikipedia.org/wiki/Albert_Copp%C3%A9"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Albert Coppé",
+    "forename": "Albert",
+    "surname": "Coppé",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1911-11-26",
+    "place": "Brügge",
+    "country": "Belgien"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1999-03-30",
+    "place": "Tervuren",
+    "country": "Belgien"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/132651831",
+    "wikipedia": "https://de.wikipedia.org/wiki/Albert_Copp%C3%A9",
+    "viaf": null
+  }
+}

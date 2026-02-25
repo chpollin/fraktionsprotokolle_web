@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchedlOtto",
+  "name": "Otto Schedl",
+  "givenName": "Otto",
+  "familyName": "Schedl",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1912-12-10",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Sinzing bei Regensburg"
+  },
+  "deathDate": "1995-06-08",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1957–1970 bayerischer Wirtschaftsminister, 1970–1972 bayerischer Finanzminister (CSU)"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/122324579",
+    "https://de.wikipedia.org/wiki/Otto_Schedl"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Otto Schedl",
+    "forename": "Otto",
+    "surname": "Schedl",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1912-12-10",
+    "place": "Sinzing bei Regensburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1995-06-08",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/122324579",
+    "wikipedia": "https://de.wikipedia.org/wiki/Otto_Schedl",
+    "viaf": null
+  }
+}

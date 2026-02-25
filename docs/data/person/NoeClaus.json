@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "NoeClaus",
+  "name": "Claus Noé",
+  "givenName": "Claus",
+  "familyName": "Noé",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1938-04-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Mannheim"
+  },
+  "deathDate": "2008-03-02",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1967–1969 Pressereferent der SPD-Bundestagsfraktion"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/106825771",
+    "https://de.wikipedia.org/wiki/Claus_No%C3%A9"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Claus Noé",
+    "forename": "Claus",
+    "surname": "Noé",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1938-04-08",
+    "place": "Mannheim",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2008-03-02",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/106825771",
+    "wikipedia": "https://de.wikipedia.org/wiki/Claus_No%C3%A9",
+    "viaf": null
+  }
+}

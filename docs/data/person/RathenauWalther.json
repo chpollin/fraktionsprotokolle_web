@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "RathenauWalther",
+  "name": "Walther Rathenau",
+  "givenName": "Walther",
+  "familyName": "Rathenau",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1867-09-29",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "1922-06-24",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1921 Reichsminister für Wiederaufbau, 1922 Reichsminister des Auswärtigen (DDP)"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118598430",
+    "https://de.wikipedia.org/wiki/Walther_Rathenau"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Walther Rathenau",
+    "forename": "Walther",
+    "surname": "Rathenau",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1867-09-29",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1922-06-24",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118598430",
+    "wikipedia": "https://de.wikipedia.org/wiki/Walther_Rathenau",
+    "viaf": null
+  }
+}

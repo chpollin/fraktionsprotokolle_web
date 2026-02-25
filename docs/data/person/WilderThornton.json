@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "WilderThornton",
+  "name": "Thornton Wilder",
+  "givenName": "Thornton Niven",
+  "familyName": "Wilder",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1897-04-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Madison, Wisconsin"
+  },
+  "deathDate": "1975-12-07",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hamden, Connecticut"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "US-amerikanischer Schriftsteller"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118632817",
+    "https://de.wikipedia.org/wiki/Thornton_Wilder"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Thornton Wilder",
+    "forename": "Thornton Niven",
+    "surname": "Wilder",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1897-04-17",
+    "place": "Madison, Wisconsin",
+    "country": "USA"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1975-12-07",
+    "place": "Hamden, Connecticut",
+    "country": "USA"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118632817",
+    "wikipedia": "https://de.wikipedia.org/wiki/Thornton_Wilder",
+    "viaf": null
+  }
+}

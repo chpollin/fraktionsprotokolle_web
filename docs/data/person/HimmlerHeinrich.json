@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HimmlerHeinrich",
+  "name": "Heinrich Himmler",
+  "givenName": "Heinrich",
+  "familyName": "Himmler",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1900-10-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "deathDate": "1945-05-23",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Lüneburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1929–1945 Reichsführer der SS, 1943–1945 Reichsinnenminister"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/124340547",
+    "https://de.wikipedia.org/wiki/Heinrich_Himmler"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Heinrich Himmler",
+    "forename": "Heinrich",
+    "surname": "Himmler",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1900-10-07",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1945-05-23",
+    "place": "Lüneburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/124340547",
+    "wikipedia": "https://de.wikipedia.org/wiki/Heinrich_Himmler",
+    "viaf": null
+  }
+}

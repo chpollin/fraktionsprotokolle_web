@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "RoeschCarl_1961-10-17",
+  "name": "Carl Roesch",
+  "givenName": "Carl",
+  "familyName": "Roesch",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1905-06-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Nürnberg"
+  },
+  "deathDate": "1984-12-23",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Fellbach"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Versicherungsangestellter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1331200911",
+    "https://de.wikipedia.org/wiki/Carl_Roesch_(Politiker)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Carl Roesch",
+    "forename": "Carl",
+    "surname": "Roesch",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1905-06-13",
+    "place": "Nürnberg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1984-12-23",
+    "place": "Fellbach",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 4,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001871",
+    "gnd": "https://d-nb.info/gnd/1331200911",
+    "wikipedia": "https://de.wikipedia.org/wiki/Carl_Roesch_(Politiker)",
+    "viaf": null
+  }
+}

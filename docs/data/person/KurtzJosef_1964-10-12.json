@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "KurtzJosef_1964-10-12",
+  "name": "Josef Kurtz",
+  "givenName": "Josef",
+  "familyName": "Kurtz",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1903-01-29",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Rentrisch"
+  },
+  "deathDate": "1970-08-29",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bliesransbach"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Landwirt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1964-10-12",
+      "endDate": "1965-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1314612816",
+    "https://de.wikipedia.org/wiki/Josef_Kurtz"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Josef Kurtz",
+    "forename": "Josef",
+    "surname": "Kurtz",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1903-01-29",
+    "place": "Rentrisch",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1970-08-29",
+    "place": "Bliesransbach",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 4,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1964-10-12",
+      "to": "1965-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001263",
+    "gnd": "https://d-nb.info/gnd/1314612816",
+    "wikipedia": "https://de.wikipedia.org/wiki/Josef_Kurtz",
+    "viaf": null
+  }
+}

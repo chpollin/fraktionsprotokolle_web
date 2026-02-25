@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "JohnsonAndrew",
+  "name": "Andrew Johnson",
+  "givenName": "Andrew",
+  "familyName": "Johnson",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1808-12-29",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Raleigh, North Carolina"
+  },
+  "deathDate": "1875-07-31",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Carter Station, Tennessee"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1865 Vizepräsident, 1865–1869 Präsident der Vereinigten Staaten"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118776282",
+    "https://de.wikipedia.org/wiki/Andrew_Johnson"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Andrew Johnson",
+    "forename": "Andrew",
+    "surname": "Johnson",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1808-12-29",
+    "place": "Raleigh, North Carolina",
+    "country": "USA"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1875-07-31",
+    "place": "Carter Station, Tennessee",
+    "country": "USA"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118776282",
+    "wikipedia": "https://de.wikipedia.org/wiki/Andrew_Johnson",
+    "viaf": null
+  }
+}

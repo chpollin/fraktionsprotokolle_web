@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HansenHansChristian",
+  "name": "Hans Christian Hansen",
+  "givenName": "Hans Christian",
+  "familyName": "Hansen",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1906-11-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Aarhus"
+  },
+  "deathDate": "1960-02-19",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Kopenhagen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1955–1960 dänischer Ministerpräsident (Sozialdemokratische Partei)"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/129348317",
+    "https://de.wikipedia.org/wiki/Hans_Christian_Svane_Hansen"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans Christian Hansen",
+    "forename": "Hans Christian",
+    "surname": "Hansen",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1906-11-08",
+    "place": "Aarhus",
+    "country": "Dänemark"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1960-02-19",
+    "place": "Kopenhagen",
+    "country": "Dänemark"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/129348317",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Christian_Svane_Hansen",
+    "viaf": null
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchillerKarl_1965-10-19",
+  "name": "Karl Schiller",
+  "givenName": "Karl",
+  "familyName": "Schiller",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1911-04-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Breslau (heute: Wrocław, Polen)"
+  },
+  "deathDate": "1994-12-26",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Professor, Senator, Bundesminister [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1965-10-19",
+      "endDate": "1969-10-19"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1969-10-20",
+      "endDate": "1972-09-22"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/118607634",
+    "https://de.wikipedia.org/wiki/Karl_Schiller"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Karl Schiller",
+    "forename": "Karl",
+    "surname": "Schiller",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1911-04-24",
+    "place": "Breslau (heute: Wrocław, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1994-12-26",
+    "place": "Hamburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 5,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    },
+    {
+      "period": 6,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1969-10-20",
+      "to": "1972-09-22"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001968",
+    "gnd": "https://d-nb.info/gnd/118607634",
+    "wikipedia": "https://de.wikipedia.org/wiki/Karl_Schiller",
+    "viaf": null
+  }
+}

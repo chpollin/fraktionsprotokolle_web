@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "MuthesiusHans",
+  "name": "Hans Muthesius",
+  "givenName": "Hans",
+  "familyName": "Muthesius",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1885-10-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Weimar"
+  },
+  "deathDate": "1977-02-01",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Frankfurt am Main"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1950–1964 Vorsitzender des Deutschen Vereins für öffentliche und private Fürsorge"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118735403",
+    "https://de.wikipedia.org/wiki/Hans_Muthesius"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans Muthesius",
+    "forename": "Hans",
+    "surname": "Muthesius",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1885-10-02",
+    "place": "Weimar",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1977-02-01",
+    "place": "Frankfurt am Main",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118735403",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Muthesius",
+    "viaf": null
+  }
+}

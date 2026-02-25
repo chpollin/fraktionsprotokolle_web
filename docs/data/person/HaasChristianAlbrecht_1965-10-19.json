@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HaasChristianAlbrecht_1965-10-19",
+  "name": "Christian Albrecht Haas",
+  "givenName": "Christian Albrecht",
+  "familyName": "Haas",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1906-03-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Pegnitz"
+  },
+  "deathDate": "1970-01-20",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Schwabach"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsanwalt, Staatsminister a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1965-10-19",
+      "endDate": "1969-10-19"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1969-10-20",
+      "endDate": "1970-01-20"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/13370890X",
+    "https://de.wikipedia.org/wiki/Albrecht_Haas"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Christian Albrecht Haas",
+    "forename": "Christian Albrecht",
+    "surname": "Haas",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1906-03-08",
+    "place": "Pegnitz",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1970-01-20",
+    "place": "Schwabach",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 5,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    },
+    {
+      "period": 6,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1969-10-20",
+      "to": "1970-01-20"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000762",
+    "gnd": "https://d-nb.info/gnd/13370890X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Albrecht_Haas",
+    "viaf": null
+  }
+}

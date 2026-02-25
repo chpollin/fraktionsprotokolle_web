@@ -1,0 +1,55 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "PotPol",
+  "name": "Pol Pot, geboren als: Saloth Sar, auch: Salath Sar",
+  "givenName": "Pot Pol",
+  "familyName": "Pot Pol",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1925-05-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Prek Sbauv, Provinz Kompong Thom"
+  },
+  "deathDate": "1998-04-15",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Anlong Veng"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "kommunistischer Politiker, politischer und militärischer Führer der Roten Khmer, 1975–1979 Diktator Kambodschas"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/11909732X",
+    "https://de.wikipedia.org/wiki/Pol_Pot"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Pol Pot, geboren als: Saloth Sar, auch: Salath Sar",
+    "forename": "Pot Pol",
+    "surname": "Pot Pol",
+    "prefix": "",
+    "role_name": "Bruder Nr. 1",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1925-05-19",
+    "place": "Prek Sbauv, Provinz Kompong Thom",
+    "country": "Kambodscha"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1998-04-15",
+    "place": "Anlong Veng",
+    "country": "Kambodscha"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/11909732X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Pol_Pot",
+    "viaf": null
+  },
+  "fraktionsprotokolle:sonstiges": "verantwortlich für den Autogenozid"
+}

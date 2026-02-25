@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "FrenzelAlfred_1953-10-06",
+  "name": "Alfred Frenzel",
+  "givenName": "Alfred",
+  "familyName": "Frenzel",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1899-09-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Josefsthal, Königreich Böhmen, Österreich-Ungarn (heute: Josefův Důl, Tschechische Republik)"
+  },
+  "deathDate": "1968-07-23",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Liberec"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Glasschmelzer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1957-10-15",
+      "endDate": "1960-11-04"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/131951920",
+    "https://de.wikipedia.org/wiki/Alfred_Frenzel"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Alfred Frenzel",
+    "forename": "Alfred",
+    "surname": "Frenzel",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1899-09-18",
+    "place": "Josefsthal, Königreich Böhmen, Österreich-Ungarn (heute: Josefův Důl, Tschechische Republik)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1968-07-23",
+    "place": "Liberec",
+    "country": "Tschechoslowakei"
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 3,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1957-10-15",
+      "to": "1960-11-04"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000580",
+    "gnd": "https://d-nb.info/gnd/131951920",
+    "wikipedia": "https://de.wikipedia.org/wiki/Alfred_Frenzel",
+    "viaf": null
+  }
+}

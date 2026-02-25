@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BieglerCurt_1961-10-17",
+  "name": "Curt Biegler",
+  "givenName": "Curt",
+  "familyName": "Biegler",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1911-11-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Pfeddersheim"
+  },
+  "deathDate": "2000-04-05",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Mainz"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Pfarrer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/131671277X",
+    "https://de.wikipedia.org/wiki/Curt_Biegler"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Curt Biegler",
+    "forename": "Curt",
+    "surname": "Biegler",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1911-11-27",
+    "place": "Pfeddersheim",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2000-04-05",
+    "place": "Mainz",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 4,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000175",
+    "gnd": "https://d-nb.info/gnd/131671277X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Curt_Biegler",
+    "viaf": null
+  }
+}

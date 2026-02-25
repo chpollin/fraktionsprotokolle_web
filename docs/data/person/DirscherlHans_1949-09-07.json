@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "DirscherlHans_1949-09-07",
+  "name": "Hans Dirscherl",
+  "givenName": "Hans",
+  "familyName": "Dirscherl",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1889-03-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kössing"
+  },
+  "deathDate": "1962-04-16",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Nürnberg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Schuhmachermeister, Kaufmann [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/128286628",
+    "https://de.wikipedia.org/wiki/Hans_Dirscherl"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans Dirscherl",
+    "forename": "Hans",
+    "surname": "Dirscherl",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1889-03-04",
+    "place": "Kössing",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1962-04-16",
+    "place": "Nürnberg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000392",
+    "gnd": "https://d-nb.info/gnd/128286628",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Dirscherl",
+    "viaf": null
+  }
+}

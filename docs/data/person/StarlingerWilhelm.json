@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "StarlingerWilhelm",
+  "name": "Wilhelm Starlinger",
+  "givenName": "Wilhelm",
+  "familyName": "Starlinger",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1898-12-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Wien"
+  },
+  "deathDate": "1956-10-04",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Oldenburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "österr. Chirurg und Publizist"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/101046693",
+    "https://de.wikipedia.org/wiki/Wilhelm_Starlinger"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Wilhelm Starlinger",
+    "forename": "Wilhelm",
+    "surname": "Starlinger",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1898-12-22",
+    "place": "Wien",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1956-10-04",
+    "place": "Oldenburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/101046693",
+    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_Starlinger",
+    "viaf": null
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "CubeWaltervon",
+  "name": "Walter von Cube",
+  "givenName": "Walter",
+  "familyName": "Cube",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1906-07-10",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Stuttgart"
+  },
+  "deathDate": "1984-06-11",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Quinten am Walensee"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1948–1972 Chefredakteur und Chefkommentator des Bayerischen Rundfunks"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/119078074",
+    "https://de.wikipedia.org/wiki/Walter_von_Cube"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Walter von Cube",
+    "forename": "Walter",
+    "surname": "Cube",
+    "prefix": "von",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1906-07-10",
+    "place": "Stuttgart",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1984-06-11",
+    "place": "Quinten am Walensee",
+    "country": "Schweiz"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/119078074",
+    "wikipedia": "https://de.wikipedia.org/wiki/Walter_von_Cube",
+    "viaf": null
+  }
+}

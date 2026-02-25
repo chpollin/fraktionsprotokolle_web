@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "WildermuthEberhard_1949-09-07",
+  "name": "Eberhard Wildermuth",
+  "givenName": "Eberhard",
+  "familyName": "Wildermuth",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1890-10-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Stuttgart"
+  },
+  "deathDate": "1952-03-09",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Tübingen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Jurist, Bundesminister f. Wohnungsbau [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1952-03-09"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/118771809",
+    "https://de.wikipedia.org/wiki/Eberhard_Wildermuth"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Eberhard Wildermuth",
+    "forename": "Eberhard",
+    "surname": "Wildermuth",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1890-10-23",
+    "place": "Stuttgart",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1952-03-09",
+    "place": "Tübingen",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1949-09-07",
+      "to": "1952-03-09"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002510",
+    "gnd": "https://d-nb.info/gnd/118771809",
+    "wikipedia": "https://de.wikipedia.org/wiki/Eberhard_Wildermuth",
+    "viaf": null
+  }
+}

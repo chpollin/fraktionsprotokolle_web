@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HolstegErwin_1980-11-04",
+  "name": "Erwin Holsteg",
+  "givenName": "Erwin",
+  "familyName": "Holsteg",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1920-10-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Brünen"
+  },
+  "deathDate": "2005-04-02",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Agraringenieur, Landwirt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1980-11-04",
+      "endDate": "1983-03-29"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Erwin Holsteg",
+    "forename": "Erwin",
+    "surname": "Holsteg",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1920-10-22",
+    "place": "Brünen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2005-04-02",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 9,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1980-11-04",
+      "to": "1983-03-29"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000947",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

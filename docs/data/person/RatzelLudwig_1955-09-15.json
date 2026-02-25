@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "RatzelLudwig_1955-09-15",
+  "name": "Ludwig Ratzel",
+  "givenName": "Ludwig",
+  "familyName": "Ratzel",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1915-02-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Friedrichsfeld"
+  },
+  "deathDate": "1996-02-06",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Mannheim"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Physiker [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1955-09-15",
+      "endDate": "1957-10-06"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1957-10-15",
+      "endDate": "1960-06-21"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/119133946",
+    "https://de.wikipedia.org/wiki/Ludwig_Ratzel"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Ludwig Ratzel",
+    "forename": "Ludwig",
+    "surname": "Ratzel",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1915-02-13",
+    "place": "Friedrichsfeld",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1996-02-06",
+    "place": "Mannheim",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1955-09-15",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 3,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1957-10-15",
+      "to": "1960-06-21"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001779",
+    "gnd": "https://d-nb.info/gnd/119133946",
+    "wikipedia": "https://de.wikipedia.org/wiki/Ludwig_Ratzel",
+    "viaf": null
+  }
+}

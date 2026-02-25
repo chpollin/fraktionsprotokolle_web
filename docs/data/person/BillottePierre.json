@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BillottePierre",
+  "name": "Pierre Billotte",
+  "givenName": "Pierre",
+  "familyName": "Billotte",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1906-03-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "deathDate": "1992-06-29",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Boulogne-Billancourt, Département Hauts-de-Seine"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "frz. General und Politiker, UNR, 1951–1955 Abgeordneter der Nationalversammlung, 1955–1956 Verteidigungsminister, 1962–1966 Mitgl. Nationalversammlung, 1966–1968 Minister für Überseegebiete"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/124301428",
+    "https://de.wikipedia.org/wiki/Pierre_Billotte"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Pierre Billotte",
+    "forename": "Pierre",
+    "surname": "Billotte",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1906-03-08",
+    "place": "Paris",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1992-06-29",
+    "place": "Boulogne-Billancourt, Département Hauts-de-Seine",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/124301428",
+    "wikipedia": "https://de.wikipedia.org/wiki/Pierre_Billotte",
+    "viaf": null
+  }
+}

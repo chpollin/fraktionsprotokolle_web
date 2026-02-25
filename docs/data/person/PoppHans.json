@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "PoppHans",
+  "name": "Hans Popp",
+  "givenName": "Hans",
+  "familyName": "Popp",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1909-02-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Roth"
+  },
+  "deathDate": "1978-07-23",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Roth"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Bauunternehmer, 1965–1978 MdL Bayern (CSU)"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/101644138X",
+    "https://de.wikipedia.org/wiki/Hans_Popp_(Politiker,_1909)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans Popp",
+    "forename": "Hans",
+    "surname": "Popp",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1909-02-28",
+    "place": "Roth",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1978-07-23",
+    "place": "Roth",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/101644138X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Popp_(Politiker,_1909)",
+    "viaf": null
+  }
+}

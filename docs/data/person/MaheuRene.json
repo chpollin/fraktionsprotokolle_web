@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "MaheuRene",
+  "name": "René Maheu",
+  "givenName": "René",
+  "familyName": "Maheu",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1905-03-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Saint-Gaudens"
+  },
+  "deathDate": "1975-12-19",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1962–1974 Generalsekretär der UNESCO in Paris"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/1196441979",
+    "https://de.wikipedia.org/wiki/Ren%C3%A9_Maheu"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "René Maheu",
+    "forename": "René",
+    "surname": "Maheu",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1905-03-28",
+    "place": "Saint-Gaudens",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1975-12-19",
+    "place": "Paris",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/1196441979",
+    "wikipedia": "https://de.wikipedia.org/wiki/Ren%C3%A9_Maheu",
+    "viaf": null
+  }
+}

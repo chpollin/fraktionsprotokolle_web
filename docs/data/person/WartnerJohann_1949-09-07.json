@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "WartnerJohann_1949-09-07",
+  "name": "Johann Wartner",
+  "givenName": "Johann",
+  "familyName": "Wartner",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1883-06-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Scheibelsgrub"
+  },
+  "deathDate": "1963-01-13",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Scheibelsgrub"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Landwirt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Bayernpartei",
+        "alternateName": "BP"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Föderalistische Union",
+        "alternateName": "FU"
+      },
+      "startDate": "1951-12-14",
+      "endDate": "1953-09-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/136099416",
+    "https://de.wikipedia.org/wiki/Johann_Wartner"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Johann Wartner",
+    "forename": "Johann",
+    "surname": "Wartner",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1883-06-17",
+    "place": "Scheibelsgrub",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1963-01-13",
+    "place": "Scheibelsgrub",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "BP",
+      "faction_full": "Fraktion Bayernpartei",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 1,
+      "faction": "FU",
+      "faction_full": "Fraktion Föderalistische Union",
+      "from": "1951-12-14",
+      "to": "1953-09-07"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002432",
+    "gnd": "https://d-nb.info/gnd/136099416",
+    "wikipedia": "https://de.wikipedia.org/wiki/Johann_Wartner",
+    "viaf": null
+  }
+}

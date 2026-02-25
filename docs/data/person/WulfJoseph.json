@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "WulfJoseph",
+  "name": "Joseph Wulf",
+  "givenName": "Joseph",
+  "familyName": "Wulf",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1912-12-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Chemnitz"
+  },
+  "deathDate": "1974-10-10",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Historiker und Holocaust-Überlebender"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/119095181",
+    "https://de.wikipedia.org/wiki/Joseph_Wulf"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Joseph Wulf",
+    "forename": "Joseph",
+    "surname": "Wulf",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1912-12-22",
+    "place": "Chemnitz",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1974-10-10",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/119095181",
+    "wikipedia": "https://de.wikipedia.org/wiki/Joseph_Wulf",
+    "viaf": null
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "ScholzErnst",
+  "name": "Ernst Scholz",
+  "givenName": "Ernst",
+  "familyName": "Scholz",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1913-07-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "1986-06-12",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Ost-Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "SED-Politiker, 1958–1963 Minister für Bauwesen der DDR"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/1216901015",
+    "https://de.wikipedia.org/wiki/Ernst_Scholz_(Politiker,_1913)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Ernst Scholz",
+    "forename": "Ernst",
+    "surname": "Scholz",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1913-07-19",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1986-06-12",
+    "place": "Ost-Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/1216901015",
+    "wikipedia": "https://de.wikipedia.org/wiki/Ernst_Scholz_(Politiker,_1913)",
+    "viaf": null
+  }
+}

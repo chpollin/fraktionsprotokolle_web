@@ -1,0 +1,87 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchuhmannRichard_1994-11-10",
+  "name": "Richard Schuhmann",
+  "givenName": "Richard",
+  "familyName": "Schuhmann",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1938-08-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Ballenstedt/Krs. Quedlinburg, Harz"
+  },
+  "deathDate": "2022-10-19",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Delitzsch"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Jurist [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-10-26"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1998-10-26",
+      "endDate": "2002-10-17"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Richard Schuhmann",
+    "forename": "Richard",
+    "surname": "Schuhmann",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Delitzsch)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1938-08-05",
+    "place": "Ballenstedt/Krs. Quedlinburg, Harz",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2022-10-19",
+    "place": "Delitzsch",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 13,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1994-11-10",
+      "to": "1998-10-26"
+    },
+    {
+      "period": 14,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1998-10-26",
+      "to": "2002-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002790",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "EigenManfred",
+  "name": "Manfred Eigen",
+  "givenName": "Manfred",
+  "familyName": "Eigen",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1927-05-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bochum"
+  },
+  "deathDate": "2019-02-06",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Göttingen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Naturwissenschaftler, Nobelpreis für Chemie 1967"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/11852948X",
+    "https://de.wikipedia.org/wiki/Manfred_Eigen"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Manfred Eigen",
+    "forename": "Manfred",
+    "surname": "Eigen",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1927-05-09",
+    "place": "Bochum",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2019-02-06",
+    "place": "Göttingen",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/11852948X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Manfred_Eigen",
+    "viaf": null
+  }
+}

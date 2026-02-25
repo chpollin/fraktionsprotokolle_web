@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "WieseHeino_1998-10-26",
+  "name": "Heino Wiese",
+  "givenName": "Heino",
+  "familyName": "Wiese",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1952-05-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bremen"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Geschäftsführer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1998-10-26",
+      "endDate": "2002-10-17"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Heino Wiese",
+    "forename": "Heino",
+    "surname": "Wiese",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Hannover)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1952-05-28",
+    "place": "Bremen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 14,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1998-10-26",
+      "to": "2002-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11003262",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

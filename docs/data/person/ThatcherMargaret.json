@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "ThatcherMargaret",
+  "name": "Margaret Thatcher",
+  "givenName": "Margaret",
+  "familyName": "Thatcher",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1925-10-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Grantham, Lincolnshire"
+  },
+  "deathDate": "2013-04-08",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "London"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "britische Politikerin, 1959–1992 Mitglied des britischen Unterhauses (Konservative Partei), 1970–1974 Ministerin für Bildung und Wissenschaft, 1975–1990 Vorsitzende der Konservativen Partei, 1975–1979 Oppositionsführerin, 1979–1990 Premierministerin des Vereinigten Königreiches"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118756680",
+    "https://de.wikipedia.org/wiki/Margaret_Thatcher"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Margaret Thatcher",
+    "forename": "Margaret",
+    "surname": "Thatcher",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1925-10-13",
+    "place": "Grantham, Lincolnshire",
+    "country": "Großbritannien"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2013-04-08",
+    "place": "London",
+    "country": "Großbritannien"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118756680",
+    "wikipedia": "https://de.wikipedia.org/wiki/Margaret_Thatcher",
+    "viaf": null
+  }
+}

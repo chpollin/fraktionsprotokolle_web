@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "NerudaPablo",
+  "name": "Pablo Neruda, eigentlich Ricardo Eliécer Neftalí Reyes Basoalto",
+  "givenName": "Pablo",
+  "familyName": "Neruda",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1904-07-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Parral"
+  },
+  "deathDate": "1973-09-23",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Santiago de Chile"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "chilenischer Dichter und Schriftsteller, setzte sich vor allem gegen den Faschismus in seinem Heimatland und in Spanien ein, 1971 Nobelpreis für Literatur"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118587005",
+    "https://de.wikipedia.org/wiki/Pablo_Neruda"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Pablo Neruda, eigentlich Ricardo Eliécer Neftalí Reyes Basoalto",
+    "forename": "Pablo",
+    "surname": "Neruda",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1904-07-12",
+    "place": "Parral",
+    "country": "Chile"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1973-09-23",
+    "place": "Santiago de Chile",
+    "country": "Chile"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118587005",
+    "wikipedia": "https://de.wikipedia.org/wiki/Pablo_Neruda",
+    "viaf": null
+  }
+}

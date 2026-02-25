@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "StrickerFritz",
+  "name": "Fritz Stricker",
+  "givenName": "Fritz",
+  "familyName": "Stricker",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1897-05-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Aplerbeck"
+  },
+  "deathDate": "1949-07-09",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Recklinghausen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Januar-Juli 1949 Vorsitzender der Zentrumspartei, 1947–1949 Mitglied des Wirtschaftsrates der Bizone"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/1027243878",
+    "https://de.wikipedia.org/wiki/Fritz_Stricker"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Fritz Stricker",
+    "forename": "Fritz",
+    "surname": "Stricker",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1897-05-04",
+    "place": "Aplerbeck",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1949-07-09",
+    "place": "Recklinghausen",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/1027243878",
+    "wikipedia": "https://de.wikipedia.org/wiki/Fritz_Stricker",
+    "viaf": null
+  }
+}

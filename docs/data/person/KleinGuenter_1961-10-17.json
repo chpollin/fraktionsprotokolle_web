@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "KleinGuenter_1961-10-17",
+  "name": "Günter Klein",
+  "givenName": "Günter",
+  "familyName": "Klein",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1900-07-21",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Wiesenhaus, Kreis Strelno, Posen (heute: Łączki, Polen)"
+  },
+  "deathDate": "1963-10-22",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Jurist [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1963-10-22"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1031582770",
+    "https://de.wikipedia.org/wiki/G%C3%BCnter_Klein_(Politiker,_1900)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Günter Klein",
+    "forename": "Günter",
+    "surname": "Klein",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Berlin)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1900-07-21",
+    "place": "Wiesenhaus, Kreis Strelno, Posen (heute: Łączki, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1963-10-22",
+    "place": "Bonn",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 4,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1961-10-17",
+      "to": "1963-10-22"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001112",
+    "gnd": "https://d-nb.info/gnd/1031582770",
+    "wikipedia": "https://de.wikipedia.org/wiki/G%C3%BCnter_Klein_(Politiker,_1900)",
+    "viaf": null
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "EhrichWerner",
+  "name": "Werner Ehrich",
+  "givenName": "Werner Friedrich",
+  "familyName": "Ehrich",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1901-05-11",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bad Oldesloe"
+  },
+  "deathDate": "1975-09-12",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bremen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Volkswirt, 1955–1967 Mitglied in der Bremischen Bürgerschaft, 1963–1967 Fraktionsvorsitzende"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/12516193X",
+    "https://de.wikipedia.org/wiki/Werner_Ehrich"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Werner Ehrich",
+    "forename": "Werner Friedrich",
+    "surname": "Ehrich",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1901-05-11",
+    "place": "Bad Oldesloe",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1975-09-12",
+    "place": "Bremen",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/12516193X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Werner_Ehrich",
+    "viaf": null
+  }
+}

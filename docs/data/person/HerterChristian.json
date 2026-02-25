@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HerterChristian",
+  "name": "Christian Herter",
+  "givenName": "Christian",
+  "familyName": "Herter",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1895-03-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "deathDate": "1966-12-30",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Washington, D.C."
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1953–1956 Gouverneur von Massachusetts (Republikanische Partei), 1959–1961 Außenminister der USA"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/120309823",
+    "https://de.wikipedia.org/wiki/Christian_Herter_(Politiker)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Christian Herter",
+    "forename": "Christian",
+    "surname": "Herter",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1895-03-28",
+    "place": "Paris",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1966-12-30",
+    "place": "Washington, D.C.",
+    "country": "USA"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/120309823",
+    "wikipedia": "https://de.wikipedia.org/wiki/Christian_Herter_(Politiker)",
+    "viaf": null
+  }
+}

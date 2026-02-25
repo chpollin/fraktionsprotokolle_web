@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "PuschWerner_1953-10-06",
+  "name": "Werner Pusch",
+  "givenName": "Werner",
+  "familyName": "Pusch",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1913-08-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Templin"
+  },
+  "deathDate": "1988-09-16",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Gauting"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Studienassessor a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1957-10-15",
+      "endDate": "1961-10-15"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1276227965",
+    "https://de.wikipedia.org/wiki/Werner_Pusch"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Werner Pusch",
+    "forename": "Werner",
+    "surname": "Pusch",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1913-08-17",
+    "place": "Templin",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1988-09-16",
+    "place": "Gauting",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 3,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001761",
+    "gnd": "https://d-nb.info/gnd/1276227965",
+    "wikipedia": "https://de.wikipedia.org/wiki/Werner_Pusch",
+    "viaf": null
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SachsHans",
+  "name": "Hans Sachs",
+  "givenName": "Hans",
+  "familyName": "Sachs",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1494-11-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Nürnberg"
+  },
+  "deathDate": "1576-01-19",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Nürnberg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Lyriker und Dramatiker"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118604597",
+    "https://de.wikipedia.org/wiki/Hans_Sachs"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans Sachs",
+    "forename": "Hans",
+    "surname": "Sachs",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1494-11-05",
+    "place": "Nürnberg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1576-01-19",
+    "place": "Nürnberg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118604597",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Sachs",
+    "viaf": null
+  }
+}

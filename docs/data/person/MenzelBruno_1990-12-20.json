@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "MenzelBruno_1990-12-20",
+  "name": "Bruno Menzel",
+  "givenName": "Bruno",
+  "familyName": "Menzel",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1932-02-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Dessau"
+  },
+  "deathDate": "1996-09-13",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Dessau"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Arzt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/128465654",
+    "https://de.wikipedia.org/wiki/Bruno_Menzel"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Bruno Menzel",
+    "forename": "Bruno",
+    "surname": "Menzel",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1932-02-25",
+    "place": "Dessau",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1996-09-13",
+    "place": "Dessau",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 12,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1990-12-20",
+      "to": "1994-11-10"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001474",
+    "gnd": "https://d-nb.info/gnd/128465654",
+    "wikipedia": "https://de.wikipedia.org/wiki/Bruno_Menzel",
+    "viaf": null
+  }
+}

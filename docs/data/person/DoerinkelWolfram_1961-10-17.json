@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "DoerinkelWolfram_1961-10-17",
+  "name": "Wolfram Dörinkel",
+  "givenName": "Wolfram",
+  "familyName": "Dörinkel",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1907-09-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bad Oeynhausen"
+  },
+  "deathDate": "1975-11-26",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Wiesbaden"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsanwalt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/102321973",
+    "https://de.wikipedia.org/wiki/Wolfram_D%C3%B6rinkel"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Wolfram Dörinkel",
+    "forename": "Wolfram",
+    "surname": "Dörinkel",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1907-09-05",
+    "place": "Bad Oeynhausen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1975-11-26",
+    "place": "Wiesbaden",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 4,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000399",
+    "gnd": "https://d-nb.info/gnd/102321973",
+    "wikipedia": "https://de.wikipedia.org/wiki/Wolfram_D%C3%B6rinkel",
+    "viaf": null
+  }
+}

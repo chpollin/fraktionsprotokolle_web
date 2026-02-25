@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HussongRudolf_1961-10-17",
+  "name": "Rudolf Hussong",
+  "givenName": "Rudolf",
+  "familyName": "Hussong",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1903-04-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Eschweilerhof"
+  },
+  "deathDate": "1967-12-10",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Saarbrücken"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Regierungsangestellter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1965-10-19",
+      "endDate": "1967-12-10"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1314612808",
+    "https://de.wikipedia.org/wiki/Rudolf_Hussong"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Rudolf Hussong",
+    "forename": "Rudolf",
+    "surname": "Hussong",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1903-04-17",
+    "place": "Eschweilerhof",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1967-12-10",
+    "place": "Saarbrücken",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 4,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    },
+    {
+      "period": 5,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1965-10-19",
+      "to": "1967-12-10"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000984",
+    "gnd": "https://d-nb.info/gnd/1314612808",
+    "wikipedia": "https://de.wikipedia.org/wiki/Rudolf_Hussong",
+    "viaf": null
+  }
+}

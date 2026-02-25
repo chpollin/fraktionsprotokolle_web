@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchroeterKarlHeinz_1990-12-20",
+  "name": "Karl Heinz Schröter",
+  "givenName": "Karl Heinz",
+  "familyName": "Schröter",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1954-10-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Frankfurt/Oder"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Ingenieur für Landtechnik [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1315238144",
+    "https://de.wikipedia.org/wiki/Karl-Heinz_Schr%C3%B6ter"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Karl Heinz Schröter",
+    "forename": "Karl Heinz",
+    "surname": "Schröter",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1954-10-26",
+    "place": "Frankfurt/Oder",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 12,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1990-12-20",
+      "to": "1994-11-10"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002087",
+    "gnd": "https://d-nb.info/gnd/1315238144",
+    "wikipedia": "https://de.wikipedia.org/wiki/Karl-Heinz_Schr%C3%B6ter",
+    "viaf": null
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "EwersHans_1949-09-07",
+  "name": "Hans Ewers",
+  "givenName": "Hans",
+  "familyName": "Ewers",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1887-04-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Lübeck"
+  },
+  "deathDate": "1968-12-29",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Lübeck"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsanwalt und Notar [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Deutsche Partei",
+        "alternateName": "DP"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/102993634X",
+    "https://de.wikipedia.org/wiki/Hans_Ewers"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans Ewers",
+    "forename": "Hans",
+    "surname": "Ewers",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1887-04-05",
+    "place": "Lübeck",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1968-12-29",
+    "place": "Lübeck",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "DP",
+      "faction_full": "Fraktion Deutsche Partei",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000505",
+    "gnd": "https://d-nb.info/gnd/102993634X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Ewers",
+    "viaf": null
+  }
+}

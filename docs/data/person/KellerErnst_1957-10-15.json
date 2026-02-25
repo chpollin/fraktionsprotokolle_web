@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "KellerErnst_1957-10-15",
+  "name": "Ernst Keller",
+  "givenName": "Ernst",
+  "familyName": "Keller",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1900-09-11",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Neheim"
+  },
+  "deathDate": "1963-07-21",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Industriekaufmann [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1957-10-15",
+      "endDate": "1961-10-15"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1963-07-21"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1035784882",
+    "https://de.wikipedia.org/wiki/Ernst_Keller_(Politiker,_September_1900)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Ernst Keller",
+    "forename": "Ernst",
+    "surname": "Keller",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1900-09-11",
+    "place": "Neheim",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1963-07-21",
+    "place": "Bonn",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 3,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 4,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1961-10-17",
+      "to": "1963-07-21"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001078",
+    "gnd": "https://d-nb.info/gnd/1035784882",
+    "wikipedia": "https://de.wikipedia.org/wiki/Ernst_Keller_(Politiker,_September_1900)",
+    "viaf": null
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "StrzelewiczWilly",
+  "name": "Willy Strzelewicz",
+  "givenName": "Willy",
+  "familyName": "Strzelewicz",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1905-10-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "1986-10-25",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "seit 1960 Professor für Soziologie an der Pädagogischen Hochschule Hannover"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118619500",
+    "https://de.wikipedia.org/wiki/Willy_Strzelewicz"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Willy Strzelewicz",
+    "forename": "Willy",
+    "surname": "Strzelewicz",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1905-10-23",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1986-10-25",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118619500",
+    "wikipedia": "https://de.wikipedia.org/wiki/Willy_Strzelewicz",
+    "viaf": null
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "OkelloJohn",
+  "name": "John Okello",
+  "givenName": "John",
+  "familyName": "Okello",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1937",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Lango District"
+  },
+  "deathDate": "1971",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "»Feldmarschall«, 1964 als Kommandeur von bewaffneten Aufständischen am Umsturz in Sansibar beteiligt"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/1175984493",
+    "https://de.wikipedia.org/wiki/John_Okello"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "John Okello",
+    "forename": "John",
+    "surname": "Okello",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1937",
+    "place": "Lango District",
+    "country": "Uganda"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1971",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/1175984493",
+    "wikipedia": "https://de.wikipedia.org/wiki/John_Okello",
+    "viaf": null
+  }
+}

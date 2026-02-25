@@ -1,0 +1,53 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchoenerFranz",
+  "name": "Franz Schöner",
+  "givenName": "Franz",
+  "familyName": "Schöner",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1898-03-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Zell am Harmersbach, Baden"
+  },
+  "deathDate": "1967-02-05",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Weiden in der Oberpfalz"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1949/50 MdL Bayern (CSU)"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/134139852"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Franz Schöner",
+    "forename": "Franz",
+    "surname": "Schöner",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1898-03-04",
+    "place": "Zell am Harmersbach, Baden",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1967-02-05",
+    "place": "Weiden in der Oberpfalz",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/134139852",
+    "wikipedia": null,
+    "viaf": null
+  }
+}

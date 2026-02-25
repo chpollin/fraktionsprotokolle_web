@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "MaelzigKonrad_1961-10-17",
+  "name": "Konrad Mälzig",
+  "givenName": "Konrad",
+  "familyName": "Mälzig",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1900-05-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bernstadt an der Weide/Schlesien (heute: Bierutów, Polen)"
+  },
+  "deathDate": "1981-11-02",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Minister a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/125746873",
+    "https://de.wikipedia.org/wiki/Konrad_M%C3%A4lzig"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Konrad Mälzig",
+    "forename": "Konrad",
+    "surname": "Mälzig",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1900-05-26",
+    "place": "Bernstadt an der Weide/Schlesien (heute: Bierutów, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1981-11-02",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 4,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001403",
+    "gnd": "https://d-nb.info/gnd/125746873",
+    "wikipedia": "https://de.wikipedia.org/wiki/Konrad_M%C3%A4lzig",
+    "viaf": null
+  }
+}

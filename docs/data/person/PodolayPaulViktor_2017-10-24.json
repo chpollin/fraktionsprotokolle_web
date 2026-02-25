@@ -1,0 +1,66 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "PodolayPaulViktor_2017-10-24",
+  "name": "Paul Viktor Podolay",
+  "givenName": "Paul Viktor",
+  "familyName": "Podolay",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1946-05-30",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Preßburg/Slowakei"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Medizintechniker [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Alternative für Deutschland",
+        "alternateName": "AfD"
+      },
+      "startDate": "2017-10-24"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Paul Viktor Podolay",
+    "forename": "Paul Viktor",
+    "surname": "Podolay",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1946-05-30",
+    "place": "Preßburg/Slowakei",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 19,
+      "faction": "AfD",
+      "faction_full": "Alternative für Deutschland",
+      "from": "2017-10-24",
+      "to": ""
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11004855",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

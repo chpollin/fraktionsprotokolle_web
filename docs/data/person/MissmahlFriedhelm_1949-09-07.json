@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "MissmahlFriedhelm_1949-09-07",
+  "name": "Friedhelm Missmahl",
+  "givenName": "Friedhelm",
+  "familyName": "Missmahl",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1904-10-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Homberg"
+  },
+  "deathDate": "1967-12-07",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Moers"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Angestellter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1954-09-01",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1339578336",
+    "https://de.wikipedia.org/wiki/Friedhelm_Missmahl"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Friedhelm Missmahl",
+    "forename": "Friedhelm",
+    "surname": "Missmahl",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1904-10-03",
+    "place": "Homberg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1967-12-07",
+    "place": "Moers",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 2,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1954-09-01",
+      "to": "1957-10-06"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001515",
+    "gnd": "https://d-nb.info/gnd/1339578336",
+    "wikipedia": "https://de.wikipedia.org/wiki/Friedhelm_Missmahl",
+    "viaf": null
+  }
+}

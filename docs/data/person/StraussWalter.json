@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "StraussWalter",
+  "name": "Walter Strauß",
+  "givenName": "Walter",
+  "familyName": "Strauß",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1900-06-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "1976-01-01",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Baldham, Gemeinde Vaterstetten"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "CDU, 1950–1963 Staatssekretär im Bundesjustizministerium, 1963–1970 Mitglied des Gerichtshofes der Europäischen Gemeinschaften"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/124836380",
+    "https://de.wikipedia.org/wiki/Walter_Strau%C3%9F_(Politiker)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Walter Strauß",
+    "forename": "Walter",
+    "surname": "Strauß",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1900-06-15",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1976-01-01",
+    "place": "Baldham, Gemeinde Vaterstetten",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/124836380",
+    "wikipedia": "https://de.wikipedia.org/wiki/Walter_Strau%C3%9F_(Politiker)",
+    "viaf": null
+  }
+}

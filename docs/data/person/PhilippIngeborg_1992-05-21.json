@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "PhilippIngeborg_1992-05-21",
+  "name": "Ingeborg Philipp",
+  "givenName": "Ingeborg",
+  "familyName": "Philipp",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1925-01-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Sohland/Spree"
+  },
+  "deathDate": "2019-09-27",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Technische Zeichnerin, Funktechnikerin, Diplomphysikerin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Gruppe der Partei des Demokratischen Sozialismus/Linke Liste",
+        "alternateName": "Grp. PDS/LL"
+      },
+      "startDate": "1992-05-21",
+      "endDate": "1994-11-10"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1147225931",
+    "https://de.wikipedia.org/wiki/Ingeborg_Philipp"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Ingeborg Philipp",
+    "forename": "Ingeborg",
+    "surname": "Philipp",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1925-01-19",
+    "place": "Sohland/Spree",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2019-09-27",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 12,
+      "faction": "Grp. PDS/LL",
+      "faction_full": "Gruppe der Partei des Demokratischen Sozialismus/Linke Liste",
+      "from": "1992-05-21",
+      "to": "1994-11-10"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001713",
+    "gnd": "https://d-nb.info/gnd/1147225931",
+    "wikipedia": "https://de.wikipedia.org/wiki/Ingeborg_Philipp",
+    "viaf": null
+  }
+}

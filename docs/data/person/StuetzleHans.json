@@ -1,0 +1,53 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "StuetzleHans",
+  "name": "Hans Stützle",
+  "givenName": "Hans",
+  "familyName": "Stützle",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1928-02-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "deathDate": "2003-09-09",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1953 Landessozialsekretär in der CSU, Familienreferent im Bayerischen Staatsministerium für Arbeit und Sozialordnung, 1956–1960 und 1963–1978 Stadtrat in München, 1978–1992 Sozialreferent in München"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/1027175392"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans Stützle",
+    "forename": "Hans",
+    "surname": "Stützle",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1928-02-25",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2003-09-09",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/1027175392",
+    "wikipedia": null,
+    "viaf": null
+  }
+}

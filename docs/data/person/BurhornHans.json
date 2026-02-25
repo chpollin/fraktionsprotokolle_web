@@ -1,0 +1,51 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BurhornHans",
+  "name": "Hans Burhorn",
+  "givenName": "Hans",
+  "familyName": "Burhorn",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1909-06-03",
+  "birthPlace": null,
+  "deathDate": "1998-04-14",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bremen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Landgerichtspräsident in Bremen"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/1146093888",
+    "http://viaf.org/viaf/36151246505844130934"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans Burhorn",
+    "forename": "Hans",
+    "surname": "Burhorn",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1909-06-03",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1998-04-14",
+    "place": "Bremen",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/1146093888",
+    "wikipedia": null,
+    "viaf": "http://viaf.org/viaf/36151246505844130934"
+  }
+}

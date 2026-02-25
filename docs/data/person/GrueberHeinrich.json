@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "GrueberHeinrich",
+  "name": "Heinrich Grüber",
+  "givenName": "Heinrich",
+  "familyName": "Grüber",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1891-06-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Stolberg, Rheinland"
+  },
+  "deathDate": "1975-11-29",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "West-Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher evangelischer Theologe, Propst an der Berliner Marienkirche, 1949–1958 Bevollmächtigter des Rates der EKD bei der Regierung der DDR"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118698346",
+    "https://de.wikipedia.org/wiki/Heinrich_Gr%C3%BCber"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Heinrich Grüber",
+    "forename": "Heinrich",
+    "surname": "Grüber",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1891-06-24",
+    "place": "Stolberg, Rheinland",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1975-11-29",
+    "place": "West-Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118698346",
+    "wikipedia": "https://de.wikipedia.org/wiki/Heinrich_Gr%C3%BCber",
+    "viaf": null
+  }
+}

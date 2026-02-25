@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "GrassGuenter",
+  "name": "Günter Grass",
+  "givenName": "Günter Wilhelm",
+  "familyName": "Grass",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1927-10-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Danzig (heute: Gdańsk, Polen)"
+  },
+  "deathDate": "2015-04-13",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Lübeck"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Schriftsteller"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118541579",
+    "https://de.wikipedia.org/wiki/G%C3%BCnter_Grass"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Günter Grass",
+    "forename": "Günter Wilhelm",
+    "surname": "Grass",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1927-10-16",
+    "place": "Danzig (heute: Gdańsk, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2015-04-13",
+    "place": "Lübeck",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118541579",
+    "wikipedia": "https://de.wikipedia.org/wiki/G%C3%BCnter_Grass",
+    "viaf": null
+  }
+}

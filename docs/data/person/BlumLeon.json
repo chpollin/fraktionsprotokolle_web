@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BlumLeon",
+  "name": "Léon Blum",
+  "givenName": "Léon",
+  "familyName": "Blum",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1872-04-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "deathDate": "1950-03-30",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Jouy-en-Josas, Département Yvelines"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "französischer Jurist, Schriftsteller und sozialistischer Politiker, zwischen 1936 und 1947 mehrfach französischer Premierminister"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118664077",
+    "https://de.wikipedia.org/wiki/L%C3%A9on_Blum"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Léon Blum",
+    "forename": "Léon",
+    "surname": "Blum",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1872-04-09",
+    "place": "Paris",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1950-03-30",
+    "place": "Jouy-en-Josas, Département Yvelines",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118664077",
+    "wikipedia": "https://de.wikipedia.org/wiki/L%C3%A9on_Blum",
+    "viaf": null
+  }
+}

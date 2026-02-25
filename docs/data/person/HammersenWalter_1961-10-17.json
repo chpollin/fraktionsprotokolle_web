@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HammersenWalter_1961-10-17",
+  "name": "Walter Hammersen",
+  "givenName": "Walter",
+  "familyName": "Hammersen",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1911-01-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Osnabrück"
+  },
+  "deathDate": "1990-10-10",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Wiesbaden"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Beigeordneter Stadtrat [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1276234740",
+    "https://de.wikipedia.org/wiki/Walter_Hammersen"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Walter Hammersen",
+    "forename": "Walter",
+    "surname": "Hammersen",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1911-01-05",
+    "place": "Osnabrück",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1990-10-10",
+    "place": "Wiesbaden",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 4,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000796",
+    "gnd": "https://d-nb.info/gnd/1276234740",
+    "wikipedia": "https://de.wikipedia.org/wiki/Walter_Hammersen",
+    "viaf": null
+  }
+}

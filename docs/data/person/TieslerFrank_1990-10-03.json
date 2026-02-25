@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "TieslerFrank_1990-10-03",
+  "name": "Frank Tiesler",
+  "givenName": "Frank",
+  "familyName": "Tiesler",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1938-04-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Dresden"
+  },
+  "deathDate": "2021-06-24",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Dresden"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Staatss. b. Minister für Auswärtiger Angelegenh. der ehem. DDR, Diplomethnologe [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der CDU/CSU (Gast)",
+        "alternateName": "CDU/CSU (Gast)"
+      },
+      "startDate": "1990-10-03",
+      "endDate": "1990-12-20"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Frank Tiesler",
+    "forename": "Frank",
+    "surname": "Tiesler",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1938-04-20",
+    "place": "Dresden",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2021-06-24",
+    "place": "Dresden",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 11,
+      "faction": "CDU/CSU (Gast)",
+      "faction_full": "Fraktion der CDU/CSU (Gast)",
+      "from": "1990-10-03",
+      "to": "1990-12-20"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002324",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SewaldGuenther_1949-09-07",
+  "name": "Günther Sewald",
+  "givenName": "Günther",
+  "familyName": "Sewald",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1905-04-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Niklasdorf"
+  },
+  "deathDate": "1949-11-25",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Landwirt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1949-11-25"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1340044056",
+    "https://de.wikipedia.org/wiki/G%C3%BCnther_Sewald"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Günther Sewald",
+    "forename": "Günther",
+    "surname": "Sewald",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1905-04-12",
+    "place": "Niklasdorf",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1949-11-25",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1949-09-07",
+      "to": "1949-11-25"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002168",
+    "gnd": "https://d-nb.info/gnd/1340044056",
+    "wikipedia": "https://de.wikipedia.org/wiki/G%C3%BCnther_Sewald",
+    "viaf": null
+  }
+}

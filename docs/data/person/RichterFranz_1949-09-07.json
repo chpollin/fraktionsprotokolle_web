@@ -1,0 +1,141 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "RichterFranz_1949-09-07",
+  "name": "Fritz Rößler alias Dr. Franz Richter",
+  "givenName": "Fritz",
+  "familyName": "Rößler",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1912-01-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Gottleuba, Amtshauptmannschaft Pirna, Königreich Sachsen"
+  },
+  "deathDate": "1987-10-11",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Radstadt"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Lehrer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Deutsche Reichspartei/Nationale Rechte",
+        "alternateName": "DRP/NR"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1952-02-21"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktionslos",
+        "alternateName": "Fraktionslos"
+      },
+      "startDate": "1950-09-06",
+      "endDate": "1952-02-21"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion WAV (Gast)",
+        "alternateName": "WAV (Gast)"
+      },
+      "startDate": "1950-12-13",
+      "endDate": "1952-02-21"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Wirtschaftliche Aufbauvereinigung",
+        "alternateName": "WAV"
+      },
+      "startDate": "1951-01-17",
+      "endDate": "1952-02-21"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktionslos",
+        "alternateName": "Fraktionslos"
+      },
+      "startDate": "1951-09-26",
+      "endDate": "1952-02-21"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1100200576",
+    "https://de.wikipedia.org/wiki/Fritz_R%C3%B6%C3%9Fler"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Fritz Rößler alias Dr. Franz Richter",
+    "forename": "Fritz",
+    "surname": "Rößler",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Niedersachsen)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1912-01-17",
+    "place": "Gottleuba, Amtshauptmannschaft Pirna, Königreich Sachsen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1987-10-11",
+    "place": "Radstadt",
+    "country": "Österreich"
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "DRP/NR",
+      "faction_full": "Fraktion Deutsche Reichspartei/Nationale Rechte",
+      "from": "1949-09-07",
+      "to": "1952-02-21"
+    },
+    {
+      "period": 1,
+      "faction": "Fraktionslos",
+      "faction_full": "Fraktionslos",
+      "from": "1950-09-06",
+      "to": "1952-02-21"
+    },
+    {
+      "period": 1,
+      "faction": "WAV (Gast)",
+      "faction_full": "Fraktion WAV (Gast)",
+      "from": "1950-12-13",
+      "to": "1952-02-21"
+    },
+    {
+      "period": 1,
+      "faction": "WAV",
+      "faction_full": "Fraktion Wirtschaftliche Aufbauvereinigung",
+      "from": "1951-01-17",
+      "to": "1952-02-21"
+    },
+    {
+      "period": 1,
+      "faction": "Fraktionslos",
+      "faction_full": "Fraktionslos",
+      "from": "1951-09-26",
+      "to": "1952-02-21"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001833",
+    "gnd": "https://d-nb.info/gnd/1100200576",
+    "wikipedia": "https://de.wikipedia.org/wiki/Fritz_R%C3%B6%C3%9Fler",
+    "viaf": null
+  }
+}

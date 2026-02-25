@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "KochHarald_1949-09-07",
+  "name": "Harald Koch",
+  "givenName": "Harald",
+  "familyName": "Koch",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1907-03-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Rüstringen/Wilhelmshaven"
+  },
+  "deathDate": "1992-09-18",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Dortmund"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsanwalt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/102567975X",
+    "https://de.wikipedia.org/wiki/Harald_Koch_(Politiker,_1907)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Harald Koch",
+    "forename": "Harald",
+    "surname": "Koch",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1907-03-04",
+    "place": "Rüstringen/Wilhelmshaven",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1992-09-18",
+    "place": "Dortmund",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001148",
+    "gnd": "https://d-nb.info/gnd/102567975X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Harald_Koch_(Politiker,_1907)",
+    "viaf": null
+  }
+}

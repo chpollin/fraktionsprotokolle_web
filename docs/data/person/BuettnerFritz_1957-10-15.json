@@ -1,0 +1,107 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BuettnerFritz_1957-10-15",
+  "name": "Fritz Büttner",
+  "givenName": "Fritz",
+  "familyName": "Büttner",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1908-12-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Weißstein (heute: Biały Kamień, Wałbrzyc, Polen)"
+  },
+  "deathDate": "1983-10-29",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Moers"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Knappschaftsamtmann [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1957-10-15",
+      "endDate": "1961-10-15"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1965-10-19",
+      "endDate": "1969-10-19"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/124582869X",
+    "https://de.wikipedia.org/wiki/Fritz_B%C3%BCttner"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Fritz Büttner",
+    "forename": "Fritz",
+    "surname": "Büttner",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1908-12-26",
+    "place": "Weißstein (heute: Biały Kamień, Wałbrzyc, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1983-10-29",
+    "place": "Moers",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 3,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 4,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    },
+    {
+      "period": 5,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000301",
+    "gnd": "https://d-nb.info/gnd/124582869X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Fritz_B%C3%BCttner",
+    "viaf": null
+  }
+}

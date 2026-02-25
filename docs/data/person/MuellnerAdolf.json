@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "MuellnerAdolf",
+  "name": "Adolf Müllner",
+  "givenName": "Adolf",
+  "familyName": "Müllner",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1774-10-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Langendorf"
+  },
+  "deathDate": "1829-06-11",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Weißenfels"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Schriftsteller, Bühnendichter und Jurist"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118737775",
+    "https://de.wikipedia.org/wiki/Adolf_M%C3%BCllner"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Adolf Müllner",
+    "forename": "Adolf",
+    "surname": "Müllner",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1774-10-18",
+    "place": "Langendorf",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1829-06-11",
+    "place": "Weißenfels",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118737775",
+    "wikipedia": "https://de.wikipedia.org/wiki/Adolf_M%C3%BCllner",
+    "viaf": null
+  }
+}

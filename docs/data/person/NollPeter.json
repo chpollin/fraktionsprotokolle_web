@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "NollPeter",
+  "name": "Peter Noll",
+  "givenName": "Peter",
+  "familyName": "Noll",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1926-05-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Basel"
+  },
+  "deathDate": "1982-10-09",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Zürich"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1961–1969 Professor für Strafrecht, Strafprozessrecht, Kriminologie und Gesetzgebungslehre an der Universität Mainz"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118588664",
+    "https://de.wikipedia.org/wiki/Peter_Noll"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Peter Noll",
+    "forename": "Peter",
+    "surname": "Noll",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1926-05-18",
+    "place": "Basel",
+    "country": "Schweiz"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1982-10-09",
+    "place": "Zürich",
+    "country": "Schweiz"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118588664",
+    "wikipedia": "https://de.wikipedia.org/wiki/Peter_Noll",
+    "viaf": null
+  }
+}

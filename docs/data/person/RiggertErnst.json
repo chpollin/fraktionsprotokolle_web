@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "RiggertErnst",
+  "name": "Ernst Riggert",
+  "givenName": "Ernst",
+  "familyName": "Riggert",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1902-11-01",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kutenholz"
+  },
+  "deathDate": "1977-11-12",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Pädagoge, Journalist und Verleger, Vorsitzender der Arbeitsgruppe Volk und Verteidigung (Hamburg)"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/107108933",
+    "https://de.wikipedia.org/wiki/Ernst_Riggert"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Ernst Riggert",
+    "forename": "Ernst",
+    "surname": "Riggert",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1902-11-01",
+    "place": "Kutenholz",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1977-11-12",
+    "place": "Hamburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/107108933",
+    "wikipedia": "https://de.wikipedia.org/wiki/Ernst_Riggert",
+    "viaf": null
+  }
+}

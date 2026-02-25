@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HansenWerner_1953-10-06",
+  "name": "Werner Hansen, geb. Wilhelm Heidorn",
+  "givenName": "Werner",
+  "familyName": "Hansen",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1905-07-31",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Rethem"
+  },
+  "deathDate": "1972-06-15",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Neuss"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Landesbezirksvorsitzender des DGB [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/116460148",
+    "https://de.wikipedia.org/wiki/Werner_Hansen"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Werner Hansen, geb. Wilhelm Heidorn",
+    "forename": "Werner",
+    "surname": "Hansen",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Köln)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1905-07-31",
+    "place": "Rethem",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1972-06-15",
+    "place": "Neuss",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000807",
+    "gnd": "https://d-nb.info/gnd/116460148",
+    "wikipedia": "https://de.wikipedia.org/wiki/Werner_Hansen",
+    "viaf": null
+  }
+}

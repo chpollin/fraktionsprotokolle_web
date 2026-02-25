@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HermesAndreas",
+  "name": "Andreas Hermes",
+  "givenName": "Andreas",
+  "familyName": "Hermes",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1878-07-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Köln"
+  },
+  "deathDate": "1964-01-04",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Krälingen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1920–1922 Reichsminister für Ernährung, Landwirtschaft und Forsten, 1922–1923 Reichsfinanzminister; 1948–1955 Präsident des Deutschen Bauernverbandes"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118703730",
+    "https://de.wikipedia.org/wiki/Andreas_Hermes"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Andreas Hermes",
+    "forename": "Andreas",
+    "surname": "Hermes",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1878-07-16",
+    "place": "Köln",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1964-01-04",
+    "place": "Krälingen",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118703730",
+    "wikipedia": "https://de.wikipedia.org/wiki/Andreas_Hermes",
+    "viaf": null
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HoffmannJohannes_1951-08-07",
+  "name": "Johannes Hoffmann",
+  "givenName": "Johannes",
+  "familyName": "Hoffmann",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1889-09-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hönningen"
+  },
+  "deathDate": "1960-02-25",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Engelskirchen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Landwirt, Landwirtschaftslehrer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Deutsche Zentrums-Partei",
+        "alternateName": "Zentrum"
+      },
+      "startDate": "1951-08-07",
+      "endDate": "1953-09-07"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Föderalistische Union",
+        "alternateName": "FU"
+      },
+      "startDate": "1951-12-14",
+      "endDate": "1953-09-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1340040212",
+    "https://de.wikipedia.org/wiki/Johannes_Hoffmann_(Politiker,_1889)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Johannes Hoffmann",
+    "forename": "Johannes",
+    "surname": "Hoffmann",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Lindlar)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1889-09-05",
+    "place": "Hönningen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1960-02-25",
+    "place": "Engelskirchen",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "Zentrum",
+      "faction_full": "Fraktion Deutsche Zentrums-Partei",
+      "from": "1951-08-07",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 1,
+      "faction": "FU",
+      "faction_full": "Fraktion Föderalistische Union",
+      "from": "1951-12-14",
+      "to": "1953-09-07"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000939",
+    "gnd": "https://d-nb.info/gnd/1340040212",
+    "wikipedia": "https://de.wikipedia.org/wiki/Johannes_Hoffmann_(Politiker,_1889)",
+    "viaf": null
+  }
+}

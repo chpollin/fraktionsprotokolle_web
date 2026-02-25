@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchlossHanns_1953-10-06",
+  "name": "Hanns Schloß",
+  "givenName": "Hanns",
+  "familyName": "Schloß",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1903-03-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Saarbrücken"
+  },
+  "deathDate": "1986-01-06",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Starnberg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Prokurist [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1029964823",
+    "https://de.wikipedia.org/wiki/Hanns_Schlo%C3%9F"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hanns Schloß",
+    "forename": "Hanns",
+    "surname": "Schloß",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1903-03-03",
+    "place": "Saarbrücken",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1986-01-06",
+    "place": "Starnberg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001985",
+    "gnd": "https://d-nb.info/gnd/1029964823",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hanns_Schlo%C3%9F",
+    "viaf": null
+  }
+}

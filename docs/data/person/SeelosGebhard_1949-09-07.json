@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SeelosGebhard_1949-09-07",
+  "name": "Gebhard Seelos",
+  "givenName": "Gebhard",
+  "familyName": "Seelos",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1901-03-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "deathDate": "1984-12-18",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Seehausen am Staffelsee"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Volkswirt, Jurist, Diplomat, Staatsrat a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Bayernpartei",
+        "alternateName": "BP"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1951-09-25"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/133756343",
+    "https://de.wikipedia.org/wiki/Gebhard_Seelos"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Gebhard Seelos",
+    "forename": "Gebhard",
+    "surname": "Seelos",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1901-03-13",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1984-12-18",
+    "place": "Seehausen am Staffelsee",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "BP",
+      "faction_full": "Fraktion Bayernpartei",
+      "from": "1949-09-07",
+      "to": "1951-09-25"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002141",
+    "gnd": "https://d-nb.info/gnd/133756343",
+    "wikipedia": "https://de.wikipedia.org/wiki/Gebhard_Seelos",
+    "viaf": null
+  }
+}

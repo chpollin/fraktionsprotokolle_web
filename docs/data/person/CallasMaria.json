@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "CallasMaria",
+  "name": "Maria Callas, geb. Kalogeropoulou",
+  "givenName": "Maria",
+  "familyName": "Callas",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1923-12-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "New York City"
+  },
+  "deathDate": "1977-09-16",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Opernsängerin"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118518461",
+    "https://de.wikipedia.org/wiki/Maria_Callas"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Maria Callas, geb. Kalogeropoulou",
+    "forename": "Maria",
+    "surname": "Callas",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1923-12-02",
+    "place": "New York City",
+    "country": "USA"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1977-09-16",
+    "place": "Paris",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118518461",
+    "wikipedia": "https://de.wikipedia.org/wiki/Maria_Callas",
+    "viaf": null
+  }
+}

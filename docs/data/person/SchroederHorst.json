@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchroederHorst",
+  "name": "Horst Schröder",
+  "givenName": "Horst",
+  "familyName": "Schröder",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1913-03-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bremen"
+  },
+  "deathDate": "1973-09-12",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Viareggio"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtswissenschaftler und Hochschullehrer an der Eberhard-Karls-Universität Tübingen, Mitverfasser des Kommentars zum Strafgesetzbuch (Schönke/Schröder)"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/11861083X",
+    "https://de.wikipedia.org/wiki/Horst_Schr%C3%B6der_(Jurist)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Horst Schröder",
+    "forename": "Horst",
+    "surname": "Schröder",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1913-03-09",
+    "place": "Bremen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1973-09-12",
+    "place": "Viareggio",
+    "country": "Italien"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/11861083X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Horst_Schr%C3%B6der_(Jurist)",
+    "viaf": null
+  }
+}

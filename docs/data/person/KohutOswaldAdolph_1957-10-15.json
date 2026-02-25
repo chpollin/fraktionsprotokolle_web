@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "KohutOswaldAdolph_1957-10-15",
+  "name": "Oswald Adolph Kohut",
+  "givenName": "Oswald Adolph",
+  "familyName": "Kohut",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1901-01-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "1977-07-23",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Langen (Hessen))"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Fabrikant [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1957-10-15",
+      "endDate": "1961-10-15"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/12650587X",
+    "https://de.wikipedia.org/wiki/Oswald_Adolph_Kohut"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Oswald Adolph Kohut",
+    "forename": "Oswald Adolph",
+    "surname": "Kohut",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1901-01-19",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1977-07-23",
+    "place": "Langen (Hessen))",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 3,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 4,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001169",
+    "gnd": "https://d-nb.info/gnd/12650587X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Oswald_Adolph_Kohut",
+    "viaf": null
+  }
+}

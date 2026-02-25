@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "NiebergallOtto_1949-09-07",
+  "name": "Otto Niebergall",
+  "givenName": "Otto",
+  "familyName": "Niebergall",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1904-01-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kusel"
+  },
+  "deathDate": "1977-02-13",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Mainz"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Kommunistischen Partei Deutschlands",
+        "alternateName": "KPD"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/124729630",
+    "https://de.wikipedia.org/wiki/Otto_Niebergall"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Otto Niebergall",
+    "forename": "Otto",
+    "surname": "Niebergall",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1904-01-05",
+    "place": "Kusel",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1977-02-13",
+    "place": "Mainz",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "KPD",
+      "faction_full": "Fraktion der Kommunistischen Partei Deutschlands",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001604",
+    "gnd": "https://d-nb.info/gnd/124729630",
+    "wikipedia": "https://de.wikipedia.org/wiki/Otto_Niebergall",
+    "viaf": null
+  }
+}

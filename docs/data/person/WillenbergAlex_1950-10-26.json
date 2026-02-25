@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "WillenbergAlex_1950-10-26",
+  "name": "Alex Willenberg",
+  "givenName": "Alex",
+  "familyName": "Willenberg",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1897-06-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Essen"
+  },
+  "deathDate": "1974-01-02",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Essen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Bergmann, Journalist [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Deutsche Zentrums-Partei",
+        "alternateName": "Zentrum"
+      },
+      "startDate": "1950-10-26",
+      "endDate": "1953-09-07"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Föderalistische Union",
+        "alternateName": "FU"
+      },
+      "startDate": "1951-12-14",
+      "endDate": "1953-09-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1326777807",
+    "https://de.wikipedia.org/wiki/Alex_Willenberg"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Alex Willenberg",
+    "forename": "Alex",
+    "surname": "Willenberg",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1897-06-08",
+    "place": "Essen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1974-01-02",
+    "place": "Essen",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "Zentrum",
+      "faction_full": "Fraktion Deutsche Zentrums-Partei",
+      "from": "1950-10-26",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 1,
+      "faction": "FU",
+      "faction_full": "Fraktion Föderalistische Union",
+      "from": "1951-12-14",
+      "to": "1953-09-07"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002517",
+    "gnd": "https://d-nb.info/gnd/1326777807",
+    "wikipedia": "https://de.wikipedia.org/wiki/Alex_Willenberg",
+    "viaf": null
+  }
+}

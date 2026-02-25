@@ -1,0 +1,87 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "PapenrothAlbrecht_1994-11-10",
+  "name": "Albrecht Papenroth",
+  "givenName": "Albrecht",
+  "familyName": "Papenroth",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1939-12-30",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Spremberg"
+  },
+  "deathDate": "2020-12-18",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Spremberg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Ingenieurökonom [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-10-26"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1998-10-26",
+      "endDate": "2002-10-17"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Albrecht Papenroth",
+    "forename": "Albrecht",
+    "surname": "Papenroth",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1939-12-30",
+    "place": "Spremberg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2020-12-18",
+    "place": "Spremberg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 13,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1994-11-10",
+      "to": "1998-10-26"
+    },
+    {
+      "period": 14,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1998-10-26",
+      "to": "2002-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002748",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "KoenigPeter-Michael_1969-10-20",
+  "name": "Peter-Michael Koenig",
+  "givenName": "Peter-Michael",
+  "familyName": "Koenig",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1935-08-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Aachen"
+  },
+  "deathDate": "2007-10-12",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Apotheker [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1969-10-20",
+      "endDate": "1972-09-22"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/135863791",
+    "https://de.wikipedia.org/wiki/Peter-Michael_Koenig"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Peter-Michael Koenig",
+    "forename": "Peter-Michael",
+    "surname": "Koenig",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1935-08-12",
+    "place": "Aachen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2007-10-12",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 6,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1969-10-20",
+      "to": "1972-09-22"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001157",
+    "gnd": "https://d-nb.info/gnd/135863791",
+    "wikipedia": "https://de.wikipedia.org/wiki/Peter-Michael_Koenig",
+    "viaf": null
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BaltesAndreas_1967-12-15",
+  "name": "Andreas Baltes",
+  "givenName": "Andreas",
+  "familyName": "Baltes",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1930-12-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hüttigweiler"
+  },
+  "deathDate": "2001-01-31",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Völklingen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Volkswirt, Dozent [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1967-12-15",
+      "endDate": "1969-10-19"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1314612735",
+    "https://de.wikipedia.org/wiki/Andreas_Baltes"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Andreas Baltes",
+    "forename": "Andreas",
+    "surname": "Baltes",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1930-12-19",
+    "place": "Hüttigweiler",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2001-01-31",
+    "place": "Völklingen",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 5,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1967-12-15",
+      "to": "1969-10-19"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000087",
+    "gnd": "https://d-nb.info/gnd/1314612735",
+    "wikipedia": "https://de.wikipedia.org/wiki/Andreas_Baltes",
+    "viaf": null
+  }
+}

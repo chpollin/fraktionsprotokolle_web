@@ -1,0 +1,69 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BurgmannDieter_1983-03-29",
+  "name": "Dieter Burgmann",
+  "givenName": "Dieter",
+  "familyName": "Burgmann",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1939-08-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bennerscheid/Siegkreis"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Ingenieur [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Die Grünen",
+        "alternateName": "Grüne"
+      },
+      "startDate": "1983-03-29",
+      "endDate": "1985-03-15"
+    }
+  ],
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Dieter_Burgmann"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Dieter Burgmann",
+    "forename": "Dieter",
+    "surname": "Burgmann",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1939-08-07",
+    "place": "Bennerscheid/Siegkreis",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 10,
+      "faction": "Grüne",
+      "faction_full": "Fraktion Die Grünen",
+      "from": "1983-03-29",
+      "to": "1985-03-15"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000311",
+    "gnd": null,
+    "wikipedia": "https://de.wikipedia.org/wiki/Dieter_Burgmann",
+    "viaf": null
+  }
+}

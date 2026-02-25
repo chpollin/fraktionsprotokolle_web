@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "KimminichOtto",
+  "name": "Otto Kimminich",
+  "givenName": "Otto",
+  "familyName": "Kimminich",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1932-04-01",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Niklasdorf"
+  },
+  "deathDate": "1997-08-12",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Regensburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Professor für Öffentliches Recht an den Universitäten Bochum und Regensburg"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/120903431",
+    "https://de.wikipedia.org/wiki/Otto_Kimminich"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Otto Kimminich",
+    "forename": "Otto",
+    "surname": "Kimminich",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1932-04-01",
+    "place": "Niklasdorf",
+    "country": "Tschechoslowakei"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1997-08-12",
+    "place": "Regensburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/120903431",
+    "wikipedia": "https://de.wikipedia.org/wiki/Otto_Kimminich",
+    "viaf": null
+  }
+}

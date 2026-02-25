@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "LaPiraGiorgio",
+  "name": "Giorgio La Pira",
+  "givenName": "Giorgio",
+  "familyName": "Pira",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1904-01-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Pozzallo"
+  },
+  "deathDate": "1977-11-05",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Florenz"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "italienischer Politiker (DC), 1951–1957 Oberbürgermeister von Florenz"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://it.wikipedia.org/wiki/Giorgio_La_Pira",
+    "https://viaf.org/viaf/66475500/"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Giorgio La Pira",
+    "forename": "Giorgio",
+    "surname": "Pira",
+    "prefix": "La",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1904-01-09",
+    "place": "Pozzallo",
+    "country": "Italien"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1977-11-05",
+    "place": "Florenz",
+    "country": "Italien"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": null,
+    "wikipedia": "https://it.wikipedia.org/wiki/Giorgio_La_Pira",
+    "viaf": "https://viaf.org/viaf/66475500/"
+  }
+}

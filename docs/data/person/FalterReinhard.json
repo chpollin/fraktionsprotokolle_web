@@ -1,0 +1,51 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "FalterReinhard",
+  "name": "Reinhard Falter",
+  "givenName": "Reinhard",
+  "familyName": "Falter",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1960",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Historiker und Naturphilosoph, Mitglied der ibu (Initiative politische Bildung von unten)"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/123219876",
+    "https://de.wikipedia.org/wiki/Reinhard_Falter"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Reinhard Falter",
+    "forename": "Reinhard",
+    "surname": "Falter",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1960",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/123219876",
+    "wikipedia": "https://de.wikipedia.org/wiki/Reinhard_Falter",
+    "viaf": null
+  }
+}

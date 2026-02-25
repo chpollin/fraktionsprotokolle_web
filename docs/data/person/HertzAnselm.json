@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HertzAnselm",
+  "name": "Anselm Hertz",
+  "givenName": "Anselm",
+  "familyName": "Hertz",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1924-06-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "deathDate": "2013-02-14",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Cazis"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "katholischer Theologe, Mitglied des Dominikanerordens"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/102599552X",
+    "https://de.wikipedia.org/wiki/Anselm_Hertz"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Anselm Hertz",
+    "forename": "Anselm",
+    "surname": "Hertz",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1924-06-04",
+    "place": "Hamburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2013-02-14",
+    "place": "Cazis",
+    "country": "Schweiz"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/102599552X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Anselm_Hertz",
+    "viaf": null
+  }
+}

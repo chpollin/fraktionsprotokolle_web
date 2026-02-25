@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BeethovenLudwigvan",
+  "name": "Ludwig van Beethoven",
+  "givenName": "Ludwig van",
+  "familyName": "Beethoven",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1770-12-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bonn, Kurköln"
+  },
+  "deathDate": "1827-03-26",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Wien"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Komponist"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118508288",
+    "https://de.wikipedia.org/wiki/Ludwig_van_Beethoven"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Ludwig van Beethoven",
+    "forename": "Ludwig van",
+    "surname": "Beethoven",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1770-12-17",
+    "place": "Bonn, Kurköln",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1827-03-26",
+    "place": "Wien",
+    "country": "Kaisertum Österreich"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118508288",
+    "wikipedia": "https://de.wikipedia.org/wiki/Ludwig_van_Beethoven",
+    "viaf": null
+  }
+}

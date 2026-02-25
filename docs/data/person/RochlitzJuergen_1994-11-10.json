@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "RochlitzJuergen_1994-11-10",
+  "name": "Jürgen Rochlitz",
+  "givenName": "Jürgen",
+  "familyName": "Rochlitz",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1937-07-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Wiesbaden"
+  },
+  "deathDate": "2019-09-19",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Hochschullehrer, Chemiker [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Bündnis 90/Die Grünen",
+        "alternateName": "B90/Grüne"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-10-26"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Jürgen Rochlitz",
+    "forename": "Jürgen",
+    "surname": "Rochlitz",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1937-07-24",
+    "place": "Wiesbaden",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2019-09-19",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 13,
+      "faction": "B90/Grüne",
+      "faction_full": "Fraktion Bündnis 90/Die Grünen",
+      "from": "1994-11-10",
+      "to": "1998-10-26"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002763",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

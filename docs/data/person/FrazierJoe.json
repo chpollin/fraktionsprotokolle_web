@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "FrazierJoe",
+  "name": "Joseph William »Joe« Frazier",
+  "givenName": "Joseph William »Joe«",
+  "familyName": "Frazier",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1944-01-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Beaufort, South Carolina"
+  },
+  "deathDate": "2011-11-07",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Philadelphia, Pennsylvania"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Boxer"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/119471671",
+    "https://de.wikipedia.org/wiki/Joe_Frazier"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Joseph William »Joe« Frazier",
+    "forename": "Joseph William »Joe«",
+    "surname": "Frazier",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1944-01-12",
+    "place": "Beaufort, South Carolina",
+    "country": "USA"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2011-11-07",
+    "place": "Philadelphia, Pennsylvania",
+    "country": "USA"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/119471671",
+    "wikipedia": "https://de.wikipedia.org/wiki/Joe_Frazier",
+    "viaf": null
+  }
+}

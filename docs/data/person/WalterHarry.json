@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "WalterHarry",
+  "name": "Harry Walter",
+  "givenName": "Harry",
+  "familyName": "Walter",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1929-03-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "2013-12-31",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Fort St. James, British Columbia"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Fotograf, Journalist, Werbefachmann und Politikberater, beriet mit seiner Agentur ARE (Allgemeine Reklame) u. a. Willy Brandt, Helmut Schmidt, Johannes Rau, Bruno Kreisky, Schimon Peres, Daniel Ortega und Mário Soares bei Wahlkämpfen"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/142710164",
+    "https://de.wikipedia.org/wiki/Harry_Walter_(Werbefachmann)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Harry Walter",
+    "forename": "Harry",
+    "surname": "Walter",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1929-03-20",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2013-12-31",
+    "place": "Fort St. James, British Columbia",
+    "country": "Kanada"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/142710164",
+    "wikipedia": "https://de.wikipedia.org/wiki/Harry_Walter_(Werbefachmann)",
+    "viaf": null
+  }
+}

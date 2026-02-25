@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "PetersenHelmut_1953-10-06",
+  "name": "Helmut Petersen",
+  "givenName": "Helmut",
+  "familyName": "Petersen",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1903-09-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Breslau (heute: Wrocław, Polen)"
+  },
+  "deathDate": "1982-07-26",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "üsseldorf"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Stadtrat z.Wv., Wirtschaftsjurist [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Gesamtdeutscher Block/Block der Heimatvertriebenen und Entrechteten",
+        "alternateName": "GB/BHE"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1339971445",
+    "https://de.wikipedia.org/wiki/Helmut_Petersen"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Helmut Petersen",
+    "forename": "Helmut",
+    "surname": "Petersen",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1903-09-18",
+    "place": "Breslau (heute: Wrocław, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1982-07-26",
+    "place": "üsseldorf",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "GB/BHE",
+      "faction_full": "Fraktion Gesamtdeutscher Block/Block der Heimatvertriebenen und Entrechteten",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001698",
+    "gnd": "https://d-nb.info/gnd/1339971445",
+    "wikipedia": "https://de.wikipedia.org/wiki/Helmut_Petersen",
+    "viaf": null
+  }
+}

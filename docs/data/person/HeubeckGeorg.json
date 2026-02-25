@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HeubeckGeorg",
+  "name": "Georg Heubeck",
+  "givenName": "Georg",
+  "familyName": "Heubeck",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1911-06-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Neustadt an der Aisch"
+  },
+  "deathDate": "1989-11-15",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Köln"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Versicherungsmathematiker und Begründer der »Heubeck-Richttafeln«"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118815180",
+    "https://de.wikipedia.org/wiki/Georg_Heubeck"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Georg Heubeck",
+    "forename": "Georg",
+    "surname": "Heubeck",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1911-06-24",
+    "place": "Neustadt an der Aisch",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1989-11-15",
+    "place": "Köln",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118815180",
+    "wikipedia": "https://de.wikipedia.org/wiki/Georg_Heubeck",
+    "viaf": null
+  }
+}

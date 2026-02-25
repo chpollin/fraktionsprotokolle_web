@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "StechPaul_1949-09-07",
+  "name": "Paul Stech",
+  "givenName": "Paul",
+  "familyName": "Stech",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1892-12-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Merseburg"
+  },
+  "deathDate": "1956-09-30",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Rammsee"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "kauf.Angestellter, Verwaltungsbeamter, Regierungsrat a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1316699498",
+    "https://de.wikipedia.org/wiki/Paul_Stech"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Paul Stech",
+    "forename": "Paul",
+    "surname": "Stech",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1892-12-17",
+    "place": "Merseburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1956-09-30",
+    "place": "Rammsee",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002224",
+    "gnd": "https://d-nb.info/gnd/1316699498",
+    "wikipedia": "https://de.wikipedia.org/wiki/Paul_Stech",
+    "viaf": null
+  }
+}

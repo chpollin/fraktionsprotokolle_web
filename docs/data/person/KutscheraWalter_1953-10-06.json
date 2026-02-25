@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "KutscheraWalter_1953-10-06",
+  "name": "Walter Kutschera",
+  "givenName": "Walter",
+  "familyName": "Kutschera",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1914-04-29",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Leitmeritz (heute: Litoměřice)"
+  },
+  "deathDate": "1998-06-04",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Referent [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Gesamtdeutscher Block/Block der Heimatvertriebenen und Entrechteten",
+        "alternateName": "GB/BHE"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1034931288",
+    "https://de.wikipedia.org/wiki/Walter_Kutschera_(Politiker)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Walter Kutschera",
+    "forename": "Walter",
+    "surname": "Kutschera",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1914-04-29",
+    "place": "Leitmeritz (heute: Litoměřice)",
+    "country": "Österreich-Ungarn (heute: Tschechische Republik)"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1998-06-04",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "GB/BHE",
+      "faction_full": "Fraktion Gesamtdeutscher Block/Block der Heimatvertriebenen und Entrechteten",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001264",
+    "gnd": "https://d-nb.info/gnd/1034931288",
+    "wikipedia": "https://de.wikipedia.org/wiki/Walter_Kutschera_(Politiker)",
+    "viaf": null
+  }
+}

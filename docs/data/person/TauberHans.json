@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "TauberHans",
+  "name": "Hans Tauber",
+  "givenName": "Hans",
+  "familyName": "Tauber",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1921-02-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Erlangen"
+  },
+  "deathDate": "2007-04-24",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Obermichelbach"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Politiker (CSU), 1970–1986 MdL Bayern, Kreisvorsitzender der CSU"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/136006361",
+    "https://de.wikipedia.org/wiki/Hans_Tauber_(Politiker)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans Tauber",
+    "forename": "Hans",
+    "surname": "Tauber",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1921-02-22",
+    "place": "Erlangen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2007-04-24",
+    "place": "Obermichelbach",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/136006361",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Tauber_(Politiker)",
+    "viaf": null
+  }
+}

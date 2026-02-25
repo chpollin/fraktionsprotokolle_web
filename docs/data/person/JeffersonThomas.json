@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "JeffersonThomas",
+  "name": "Thomas Jefferson",
+  "givenName": "Thomas",
+  "familyName": "Jefferson",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1743-04-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Charlottesville"
+  },
+  "deathDate": "1826-07-04",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Monticello bei Charlottesville, Virginia"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Staatstheoretiker, 1797–1801 Vizepräsident der USA, 1801–1809 Präsident der USA"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118711962",
+    "https://de.wikipedia.org/wiki/Thomas_Jefferson"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Thomas Jefferson",
+    "forename": "Thomas",
+    "surname": "Jefferson",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1743-04-13",
+    "place": "Charlottesville",
+    "country": "Kolonie Virginia"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1826-07-04",
+    "place": "Monticello bei Charlottesville, Virginia",
+    "country": "USA"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118711962",
+    "wikipedia": "https://de.wikipedia.org/wiki/Thomas_Jefferson",
+    "viaf": null
+  }
+}

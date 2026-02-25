@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "Wallenstein",
+  "name": "Wallenstein, eigentlich Albrecht Wenzel Eusebius von Waldstein",
+  "givenName": "Albrecht Wenzel Eusebius",
+  "familyName": "Waldstein",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1583-09-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hermanitz an der Elbe"
+  },
+  "deathDate": "1634-02-25",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Eger"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "böhmischer Feldherr und Politiker, zwischen 1625 und 1634 zweimal Oberbefehlshaber der kaiserlichen Armee im Dreißigjährigen Krieg, 1628-1631 als Albrecht VIII. Herzog zu Mecklenburg"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118628755",
+    "https://de.wikipedia.org/wiki/Wallenstein"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Wallenstein, eigentlich Albrecht Wenzel Eusebius von Waldstein",
+    "forename": "Albrecht Wenzel Eusebius",
+    "surname": "Waldstein",
+    "prefix": "von",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1583-09-24",
+    "place": "Hermanitz an der Elbe",
+    "country": "Böhmen"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1634-02-25",
+    "place": "Eger",
+    "country": "Böhmen"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118628755",
+    "wikipedia": "https://de.wikipedia.org/wiki/Wallenstein",
+    "viaf": null
+  }
+}

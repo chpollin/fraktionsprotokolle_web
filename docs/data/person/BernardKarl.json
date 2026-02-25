@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BernardKarl",
+  "name": "Karl Bernard",
+  "givenName": "Karl George",
+  "familyName": "Bernard",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1890-04-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "1972-01-15",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Frankfurt am Main"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1948–1957 Vorsitzender des Zentralbankrates der Bank deutscher Länder"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/133571203",
+    "https://de.wikipedia.org/wiki/Karl_Bernard"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Karl Bernard",
+    "forename": "Karl George",
+    "surname": "Bernard",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1890-04-08",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1972-01-15",
+    "place": "Frankfurt am Main",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/133571203",
+    "wikipedia": "https://de.wikipedia.org/wiki/Karl_Bernard",
+    "viaf": null
+  }
+}

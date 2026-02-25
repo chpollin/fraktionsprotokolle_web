@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "RankerFred_1985-04-11",
+  "name": "Fred Ranker",
+  "givenName": "Fred",
+  "familyName": "Ranker",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1930-04-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Neunkirchen/Saar"
+  },
+  "deathDate": "2009-07-19",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Selbständiger Kaufmann [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1985-04-11",
+      "endDate": "1987-02-18"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Fred Ranker",
+    "forename": "Fred",
+    "surname": "Ranker",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1930-04-08",
+    "place": "Neunkirchen/Saar",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2009-07-19",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 10,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1985-04-11",
+      "to": "1987-02-18"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001773",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "KurzhalsChristine_1994-11-10",
+  "name": "Christine Kurzhals",
+  "givenName": "Christine",
+  "familyName": "Kurzhals",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1950-05-31",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Böhlen"
+  },
+  "deathDate": "1998-05-04",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Ingenieurin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-05-04"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Christine Kurzhals",
+    "forename": "Christine",
+    "surname": "Kurzhals",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1950-05-31",
+    "place": "Böhlen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1998-05-04",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 13,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1994-11-10",
+      "to": "1998-05-04"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002712",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

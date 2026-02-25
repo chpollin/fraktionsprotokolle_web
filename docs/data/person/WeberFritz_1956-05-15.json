@@ -1,0 +1,114 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "WeberFritz_1956-05-15",
+  "name": "Fritz Weber",
+  "givenName": "Fritz",
+  "familyName": "Weber",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1911-02-11",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Stuttgart"
+  },
+  "deathDate": "1998-05-01",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Landwirt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1956-05-15",
+      "endDate": "1957-10-06"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1957-10-15",
+      "endDate": "1961-10-15"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1229706860",
+    "https://de.wikipedia.org/wiki/Fritz_Weber_(Politiker,_1911)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Fritz Weber",
+    "forename": "Fritz",
+    "surname": "Weber",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Untersontheim)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1911-02-11",
+    "place": "Stuttgart",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1998-05-01",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1956-05-15",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 3,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 4,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002434",
+    "gnd": "https://d-nb.info/gnd/1229706860",
+    "wikipedia": "https://de.wikipedia.org/wiki/Fritz_Weber_(Politiker,_1911)",
+    "viaf": null
+  },
+  "fraktionsprotokolle:alt_names": [
+    {
+      "reg": "Fritz Weber",
+      "forename": "Fritz",
+      "surname": "Weber",
+      "prefix": "",
+      "role_name": "",
+      "place": "(Georgenau)"
+    }
+  ]
+}

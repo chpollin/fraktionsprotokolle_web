@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "StempelHans",
+  "name": "Hans Stempel",
+  "givenName": "Hans",
+  "familyName": "Stempel",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1894-07-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Steinwenden"
+  },
+  "deathDate": "1970-11-02",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Landau in der Pfalz"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "evangelischer Theologe, 1946–1965 Kirchenpräsident der Evangelischen Kirche der Pfalz"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/13275228X",
+    "https://de.wikipedia.org/wiki/Hans_Stempel"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans Stempel",
+    "forename": "Hans",
+    "surname": "Stempel",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1894-07-08",
+    "place": "Steinwenden",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1970-11-02",
+    "place": "Landau in der Pfalz",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/13275228X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Stempel",
+    "viaf": null
+  }
+}

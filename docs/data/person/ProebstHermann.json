@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "ProebstHermann",
+  "name": "Hermann Proebst",
+  "givenName": "Hermann",
+  "familyName": "Proebst",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1904-02-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "deathDate": "1970-07-15",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist, 1947–1949 Leiter des Presse- und Informationsamtes der Bayerischen Staatskanzlei, 1949 Redakteur, 1960–1970 Chefredakteur der »SZ«"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/116292059",
+    "https://de.wikipedia.org/wiki/Hermann_Proebst"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Hermann Proebst",
+    "forename": "Hermann",
+    "surname": "Proebst",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1904-02-25",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1970-07-15",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/116292059",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hermann_Proebst",
+    "viaf": null
+  }
+}

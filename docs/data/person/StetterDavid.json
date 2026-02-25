@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "StetterDavid",
+  "name": "David Stetter",
+  "givenName": "David",
+  "familyName": "Stetter",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1882-02-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Wain"
+  },
+  "deathDate": "1963-09-17",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Stuttgart"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1948–1952 Arbeitsminister von Württemberg-Baden (SPD)"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/1012402029",
+    "https://de.wikipedia.org/wiki/David_Stetter"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "David Stetter",
+    "forename": "David",
+    "surname": "Stetter",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1882-02-17",
+    "place": "Wain",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1963-09-17",
+    "place": "Stuttgart",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/1012402029",
+    "wikipedia": "https://de.wikipedia.org/wiki/David_Stetter",
+    "viaf": null
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SeibothFrank_1953-10-06",
+  "name": "Frank Seiboth",
+  "givenName": "Frank",
+  "familyName": "Seiboth",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1912-05-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Proschwitz, Sudetenland (heute: Proseč pod Ještědem, Tschechische Republik)"
+  },
+  "deathDate": "1994-07-04",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Wiesbaden"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Gesamtdeutscher Block/Block der Heimatvertriebenen und Entrechteten",
+        "alternateName": "GB/BHE"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/129586838",
+    "https://de.wikipedia.org/wiki/Frank_Seiboth"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Frank Seiboth",
+    "forename": "Frank",
+    "surname": "Seiboth",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1912-05-09",
+    "place": "Proschwitz, Sudetenland (heute: Proseč pod Ještědem, Tschechische Republik)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1994-07-04",
+    "place": "Wiesbaden",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "GB/BHE",
+      "faction_full": "Fraktion Gesamtdeutscher Block/Block der Heimatvertriebenen und Entrechteten",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002149",
+    "gnd": "https://d-nb.info/gnd/129586838",
+    "wikipedia": "https://de.wikipedia.org/wiki/Frank_Seiboth",
+    "viaf": null
+  }
+}

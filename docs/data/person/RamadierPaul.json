@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "RamadierPaul",
+  "name": "Paul Ramadier",
+  "givenName": "Paul",
+  "familyName": "Ramadier",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1888-03-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "La Rochelle"
+  },
+  "deathDate": "1961-10-14",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Rodez"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "französischer Politiker, 1947 Ministerpräsident, 1956–1957 Wirtschafts- und Finanzminister"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/119000164",
+    "https://de.wikipedia.org/wiki/Paul_Ramadier"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Paul Ramadier",
+    "forename": "Paul",
+    "surname": "Ramadier",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1888-03-17",
+    "place": "La Rochelle",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1961-10-14",
+    "place": "Rodez",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/119000164",
+    "wikipedia": "https://de.wikipedia.org/wiki/Paul_Ramadier",
+    "viaf": null
+  }
+}

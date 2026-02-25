@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HertelGuido",
+  "name": "Guido Hertel",
+  "givenName": "Guido",
+  "familyName": "Hertel",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1903-05-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "1963-07-26",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Frankfurt am Main"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1957–1963 Präsident des Bundesrechnungshofes"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/1030422702",
+    "https://de.wikipedia.org/wiki/Guido_Hertel_(Jurist)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Guido Hertel",
+    "forename": "Guido",
+    "surname": "Hertel",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1903-05-16",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1963-07-26",
+    "place": "Frankfurt am Main",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/1030422702",
+    "wikipedia": "https://de.wikipedia.org/wiki/Guido_Hertel_(Jurist)",
+    "viaf": null
+  }
+}

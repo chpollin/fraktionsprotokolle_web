@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "StengerCarl_1957-10-15",
+  "name": "Carl Stenger",
+  "givenName": "Carl",
+  "familyName": "Stenger",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1905-11-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hetschbach/Odenwald"
+  },
+  "deathDate": "1982-06-29",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bad Vilbel"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Postoberinspektor [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1957-10-15",
+      "endDate": "1961-10-15"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1056460318",
+    "https://de.wikipedia.org/wiki/Carl_Stenger"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Carl Stenger",
+    "forename": "Carl",
+    "surname": "Stenger",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1905-11-26",
+    "place": "Hetschbach/Odenwald",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1982-06-29",
+    "place": "Bad Vilbel",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 3,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002243",
+    "gnd": "https://d-nb.info/gnd/1056460318",
+    "wikipedia": "https://de.wikipedia.org/wiki/Carl_Stenger",
+    "viaf": null
+  }
+}

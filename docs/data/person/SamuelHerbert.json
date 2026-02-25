@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SamuelHerbert",
+  "name": "Herbert Samuel",
+  "givenName": "Herbert",
+  "familyName": "Samuel",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1901-12-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "deathDate": "1982-04-16",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsanwalt, 1953–1966 Md Hamburger Bürgerschaft (FDP)"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/1019462841",
+    "https://de.wikipedia.org/wiki/Herbert_Walter_Samuel"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Herbert Samuel",
+    "forename": "Herbert",
+    "surname": "Samuel",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1901-12-26",
+    "place": "Hamburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1982-04-16",
+    "place": "Hamburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/1019462841",
+    "wikipedia": "https://de.wikipedia.org/wiki/Herbert_Walter_Samuel",
+    "viaf": null
+  }
+}

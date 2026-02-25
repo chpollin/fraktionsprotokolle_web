@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchoberKurt_1965-10-19",
+  "name": "Kurt Schober",
+  "givenName": "Kurt",
+  "familyName": "Schober",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1917-09-06",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Nukuʻalofa"
+  },
+  "deathDate": "2003-07-12",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Herford"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Verleger [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1965-10-19",
+      "endDate": "1969-10-19"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1969-10-20",
+      "endDate": "1972-09-22"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1105992659",
+    "https://de.wikipedia.org/wiki/Kurt_Schober"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Kurt Schober",
+    "forename": "Kurt",
+    "surname": "Schober",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1917-09-06",
+    "place": "Nukuʻalofa",
+    "country": "Tonga"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2003-07-12",
+    "place": "Herford",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 5,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    },
+    {
+      "period": 6,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1969-10-20",
+      "to": "1972-09-22"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002052",
+    "gnd": "https://d-nb.info/gnd/1105992659",
+    "wikipedia": "https://de.wikipedia.org/wiki/Kurt_Schober",
+    "viaf": null
+  }
+}

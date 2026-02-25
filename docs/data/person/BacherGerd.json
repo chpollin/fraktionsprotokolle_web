@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BacherGerd",
+  "name": "Gerd Bacher",
+  "givenName": "Gerd",
+  "familyName": "Bacher",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1925-11-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Salzburg"
+  },
+  "deathDate": "2015-06-27",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Salzburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "österreichischer Journalist und langjähriger Generalintendant des Österreichischen Rundfunks (ORF)"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/122609905",
+    "https://de.wikipedia.org/wiki/Gerd_Bacher"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Gerd Bacher",
+    "forename": "Gerd",
+    "surname": "Bacher",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1925-11-18",
+    "place": "Salzburg",
+    "country": "Österreich"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2015-06-27",
+    "place": "Salzburg",
+    "country": "Österreich"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/122609905",
+    "wikipedia": "https://de.wikipedia.org/wiki/Gerd_Bacher",
+    "viaf": null
+  }
+}

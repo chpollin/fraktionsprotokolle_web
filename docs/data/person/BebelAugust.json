@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BebelAugust",
+  "name": "August Bebel",
+  "givenName": "August",
+  "familyName": "Bebel",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1840-02-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Deutz bei Köln"
+  },
+  "deathDate": "1913-08-13",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Passugg, Kanton Graubünden"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Politiker und Publizist, 1867–1913 MdR (SPD), 1892–1913 Vorsitzender der SPD"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118507893",
+    "https://de.wikipedia.org/wiki/August_Bebel"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "August Bebel",
+    "forename": "August",
+    "surname": "Bebel",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1840-02-22",
+    "place": "Deutz bei Köln",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1913-08-13",
+    "place": "Passugg, Kanton Graubünden",
+    "country": "Schweiz"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118507893",
+    "wikipedia": "https://de.wikipedia.org/wiki/August_Bebel",
+    "viaf": null
+  }
+}

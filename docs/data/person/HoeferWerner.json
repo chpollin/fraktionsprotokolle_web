@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HoeferWerner",
+  "name": "Werner Höfer",
+  "givenName": "Werner",
+  "familyName": "Höfer",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1913-03-21",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kaisersesch"
+  },
+  "deathDate": "1997-11-26",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Köln"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist, Fernsehmoderator und Fernsehdirektor beim Westdeutschen Rundfunk"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118551884",
+    "https://de.wikipedia.org/wiki/Werner_H%C3%B6fer"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Werner Höfer",
+    "forename": "Werner",
+    "surname": "Höfer",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1913-03-21",
+    "place": "Kaisersesch",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1997-11-26",
+    "place": "Köln",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118551884",
+    "wikipedia": "https://de.wikipedia.org/wiki/Werner_H%C3%B6fer",
+    "viaf": null
+  }
+}

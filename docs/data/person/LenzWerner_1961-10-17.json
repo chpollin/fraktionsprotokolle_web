@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "LenzWerner_1961-10-17",
+  "name": "Werner Lenz",
+  "givenName": "Werner",
+  "familyName": "Lenz",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1927-12-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Osnabrück"
+  },
+  "deathDate": "2004-10-24",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bremerhaven"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Angestellter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/131797484",
+    "https://de.wikipedia.org/wiki/Werner_Lenz_(Politiker)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Werner Lenz",
+    "forename": "Werner",
+    "surname": "Lenz",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Bremerhaven)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1927-12-27",
+    "place": "Osnabrück",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2004-10-24",
+    "place": "Bremerhaven",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 4,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001325",
+    "gnd": "https://d-nb.info/gnd/131797484",
+    "wikipedia": "https://de.wikipedia.org/wiki/Werner_Lenz_(Politiker)",
+    "viaf": null
+  }
+}

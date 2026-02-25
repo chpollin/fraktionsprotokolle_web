@@ -1,0 +1,55 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "LuxemburgRosa",
+  "name": "Luxemburg",
+  "givenName": "Rosa",
+  "familyName": "Luxemburg",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1871-03-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Zamość, Kongresspolen"
+  },
+  "deathDate": "1919-01-15",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Politikerin, Gründungsmitglied der KPD"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118575503",
+    "https://de.wikipedia.org/wiki/Rosa_Luxemburg"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Luxemburg",
+    "forename": "Rosa",
+    "surname": "Luxemburg",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1871-03-05",
+    "place": "Zamość, Kongresspolen",
+    "country": "Kaiserreich Russland"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1919-01-15",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118575503",
+    "wikipedia": "https://de.wikipedia.org/wiki/Rosa_Luxemburg",
+    "viaf": null
+  },
+  "fraktionsprotokolle:sonstiges": "1919 ermordet"
+}

@@ -1,0 +1,107 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "NadigFrieda_1949-09-07",
+  "name": "Frieda Nadig",
+  "givenName": "Frieda",
+  "familyName": "Nadig",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1897-12-11",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Herford"
+  },
+  "deathDate": "1970-08-14",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bad Oeynhausen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Wohlfahrtpflegerin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1957-10-15",
+      "endDate": "1961-10-15"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/119290332",
+    "https://de.wikipedia.org/wiki/Friederike_Nadig"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Frieda Nadig",
+    "forename": "Frieda",
+    "surname": "Nadig",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1897-12-11",
+    "place": "Herford",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1970-08-14",
+    "place": "Bad Oeynhausen",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 2,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 3,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001578",
+    "gnd": "https://d-nb.info/gnd/119290332",
+    "wikipedia": "https://de.wikipedia.org/wiki/Friederike_Nadig",
+    "viaf": null
+  }
+}

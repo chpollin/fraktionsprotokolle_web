@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "PompidouGeorges",
+  "name": "Georges Pompidou",
+  "givenName": "Georges",
+  "familyName": "Pompidou",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1911-07-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Montboudif, Cantal"
+  },
+  "deathDate": "1974-04-02",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1962–1968 Premierminister, 1969–1974 Staatspräsident von Frankreich"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118792792",
+    "https://de.wikipedia.org/wiki/Georges_Pompidou"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Georges Pompidou",
+    "forename": "Georges",
+    "surname": "Pompidou",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1911-07-05",
+    "place": "Montboudif, Cantal",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1974-04-02",
+    "place": "Paris",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118792792",
+    "wikipedia": "https://de.wikipedia.org/wiki/Georges_Pompidou",
+    "viaf": null
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "GatzenKarl_1969-10-20",
+  "name": "Karl Gatzen",
+  "givenName": "Karl",
+  "familyName": "Gatzen",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1921-07-06",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kirchherten"
+  },
+  "deathDate": "1975-08-15",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Erkelenz"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Versicherungskaufmann [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1969-10-20",
+      "endDate": "1972-09-22"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1339578565",
+    "https://de.wikipedia.org/wiki/Karl_Gatzen"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Karl Gatzen",
+    "forename": "Karl",
+    "surname": "Gatzen",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1921-07-06",
+    "place": "Kirchherten",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1975-08-15",
+    "place": "Erkelenz",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 6,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1969-10-20",
+      "to": "1972-09-22"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000638",
+    "gnd": "https://d-nb.info/gnd/1339578565",
+    "wikipedia": "https://de.wikipedia.org/wiki/Karl_Gatzen",
+    "viaf": null
+  }
+}

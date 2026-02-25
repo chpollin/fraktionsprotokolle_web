@@ -1,0 +1,69 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SenfftHans-Werner_1985-04-03",
+  "name": "Hans-Werner Senfft",
+  "givenName": "Hans-Werner",
+  "familyName": "Senfft",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1954-06-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Warendorf/Westfalen"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Reisebürokaufmann [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Die Grünen",
+        "alternateName": "Grüne"
+      },
+      "startDate": "1985-04-03",
+      "endDate": "1987-02-18"
+    }
+  ],
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Hans-Werner_Senfft"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans-Werner Senfft",
+    "forename": "Hans-Werner",
+    "surname": "Senfft",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1954-06-03",
+    "place": "Warendorf/Westfalen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 10,
+      "faction": "Grüne",
+      "faction_full": "Fraktion Die Grünen",
+      "from": "1985-04-03",
+      "to": "1987-02-18"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002162",
+    "gnd": null,
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans-Werner_Senfft",
+    "viaf": null
+  }
+}

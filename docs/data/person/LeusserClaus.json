@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "LeusserClaus",
+  "name": "Claus Leusser",
+  "givenName": "Claus",
+  "familyName": "Leusser",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1909-10-21",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Aschaffenburg"
+  },
+  "deathDate": "1966-01-10",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1951–1963 Bevollmächtigter des Freistaates Bayern beim Bund"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/1060150808",
+    "https://de.wikipedia.org/wiki/Claus_Leusser"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Claus Leusser",
+    "forename": "Claus",
+    "surname": "Leusser",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1909-10-21",
+    "place": "Aschaffenburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1966-01-10",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/1060150808",
+    "wikipedia": "https://de.wikipedia.org/wiki/Claus_Leusser",
+    "viaf": null
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "FrankSepp",
+  "name": "Sepp Frank",
+  "givenName": "Josef August (Sepp)",
+  "familyName": "Frank",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1889-08-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Miesbach"
+  },
+  "deathDate": "1970-02-20",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Künstler, Grafiker und Glasmaler"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/116704683",
+    "https://de.wikipedia.org/wiki/Sepp_Frank_(Maler)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Sepp Frank",
+    "forename": "Josef August (Sepp)",
+    "surname": "Frank",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1889-08-28",
+    "place": "Miesbach",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1970-02-20",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/116704683",
+    "wikipedia": "https://de.wikipedia.org/wiki/Sepp_Frank_(Maler)",
+    "viaf": null
+  }
+}

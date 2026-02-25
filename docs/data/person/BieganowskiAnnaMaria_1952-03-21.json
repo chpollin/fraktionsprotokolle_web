@@ -1,0 +1,107 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BieganowskiAnnaMaria_1952-03-21",
+  "name": "Anna Maria Bieganowski",
+  "givenName": "Anna Maria",
+  "familyName": "Bieganowski",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1906-04-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "deathDate": "1986-03-16",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Angestellte [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktionslos",
+        "alternateName": "Fraktionslos"
+      },
+      "startDate": "1952-03-21",
+      "endDate": "1953-09-07"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Deutsche Partei/Deutsche Partei Bayern",
+        "alternateName": "DP/DPB"
+      },
+      "startDate": "1952-04-23",
+      "endDate": "1953-09-07"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktionslos",
+        "alternateName": "Fraktionslos"
+      },
+      "startDate": "1952-12-09",
+      "endDate": "1953-09-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1313812692",
+    "https://de.wikipedia.org/wiki/Anna_Maria_Bieganowski"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Anna Maria Bieganowski",
+    "forename": "Anna Maria",
+    "surname": "Bieganowski",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1906-04-22",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1986-03-16",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "Fraktionslos",
+      "faction_full": "Fraktionslos",
+      "from": "1952-03-21",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 1,
+      "faction": "DP/DPB",
+      "faction_full": "Fraktion Deutsche Partei/Deutsche Partei Bayern",
+      "from": "1952-04-23",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 1,
+      "faction": "Fraktionslos",
+      "faction_full": "Fraktionslos",
+      "from": "1952-12-09",
+      "to": "1953-09-07"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000174",
+    "gnd": "https://d-nb.info/gnd/1313812692",
+    "wikipedia": "https://de.wikipedia.org/wiki/Anna_Maria_Bieganowski",
+    "viaf": null
+  }
+}

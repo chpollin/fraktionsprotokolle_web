@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BachmannGeorg",
+  "name": "Georg Bachmann",
+  "givenName": "Georg",
+  "familyName": "Bachmann",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1885-12-06",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Westheim"
+  },
+  "deathDate": "1971-10-23",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Gunzenhausen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "bayerischer Landtagsabgeordneter (CSU)"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/129846422",
+    "https://de.wikipedia.org/wiki/Georg_Bachmann_(Politiker)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Georg Bachmann",
+    "forename": "Georg",
+    "surname": "Bachmann",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1885-12-06",
+    "place": "Westheim",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1971-10-23",
+    "place": "Gunzenhausen",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/129846422",
+    "wikipedia": "https://de.wikipedia.org/wiki/Georg_Bachmann_(Politiker)",
+    "viaf": null
+  }
+}

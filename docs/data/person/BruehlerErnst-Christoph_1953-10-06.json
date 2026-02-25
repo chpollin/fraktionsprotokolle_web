@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BruehlerErnst-Christoph_1953-10-06",
+  "name": "Ernst-Christoph Brühler",
+  "givenName": "Ernst-Christoph",
+  "familyName": "Brühler",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1891-02-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Mannheim"
+  },
+  "deathDate": "1961-08-30",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Freiburg im Breisgau"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Professor, Akademiedirektor [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Deutsche Partei",
+        "alternateName": "DP"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Deutsche Partei/Freie Volkspartei",
+        "alternateName": "DP/FVP"
+      },
+      "startDate": "1957-03-14",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/140745211",
+    "https://de.wikipedia.org/wiki/Ernst-Christoph_Br%C3%BChler"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Ernst-Christoph Brühler",
+    "forename": "Ernst-Christoph",
+    "surname": "Brühler",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1891-02-12",
+    "place": "Mannheim",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1961-08-30",
+    "place": "Freiburg im Breisgau",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "DP",
+      "faction_full": "Fraktion Deutsche Partei",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 2,
+      "faction": "DP/FVP",
+      "faction_full": "Fraktion Deutsche Partei/Freie Volkspartei",
+      "from": "1957-03-14",
+      "to": "1957-10-06"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000278",
+    "gnd": "https://d-nb.info/gnd/140745211",
+    "wikipedia": "https://de.wikipedia.org/wiki/Ernst-Christoph_Br%C3%BChler",
+    "viaf": null
+  }
+}

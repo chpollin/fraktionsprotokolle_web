@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "CiceroMarcusTullius",
+  "name": "Marcus Tullius Cicero",
+  "givenName": "Marcus Tullius",
+  "familyName": "Cicero",
+  "gender": "https://schema.org/Male",
+  "birthDate": null,
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Arpinum (heute: Arpino)"
+  },
+  "deathDate": null,
+  "deathPlace": {
+    "@type": "Place",
+    "name": "bei Formiae (heute: Formi)"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Politiker, Philosoph, Schriftsteller und Rechtsanwalt"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118520814",
+    "https://de.wikipedia.org/wiki/Marcus_Tullius_Cicero"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Marcus Tullius Cicero",
+    "forename": "Marcus Tullius",
+    "surname": "Cicero",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": null,
+    "place": "Arpinum (heute: Arpino)",
+    "country": "Römisches Reich (heute: Italien)"
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "bei Formiae (heute: Formi)",
+    "country": "Römisches Reich (heute: Italien)"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118520814",
+    "wikipedia": "https://de.wikipedia.org/wiki/Marcus_Tullius_Cicero",
+    "viaf": null
+  }
+}

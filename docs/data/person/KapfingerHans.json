@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "KapfingerHans",
+  "name": "Hans Kapfinger",
+  "givenName": "Hans",
+  "familyName": "Kapfinger",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1902-12-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Adldorf bei Landau an der Isar"
+  },
+  "deathDate": "1985-07-28",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Passau"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Zeitungsverleger, Herausgeber der »Passauer Neuen Presse«"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118955004",
+    "https://de.wikipedia.org/wiki/Hans_Kapfinger"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans Kapfinger",
+    "forename": "Hans",
+    "surname": "Kapfinger",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1902-12-27",
+    "place": "Adldorf bei Landau an der Isar",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1985-07-28",
+    "place": "Passau",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118955004",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Kapfinger",
+    "viaf": null
+  }
+}

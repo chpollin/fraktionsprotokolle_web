@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "MeyerHeinz-Werner_1987-02-18",
+  "name": "Heinz-Werner Meyer",
+  "givenName": "Heinz-Werner",
+  "familyName": "Meyer",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1932-08-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hamburg-Harburg"
+  },
+  "deathDate": "1994-05-09",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Vorsitzender des DGB [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1987-02-18",
+      "endDate": "1990-12-20"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Heinz-Werner Meyer",
+    "forename": "Heinz-Werner",
+    "surname": "Meyer",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1932-08-24",
+    "place": "Hamburg-Harburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1994-05-09",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 11,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1987-02-18",
+      "to": "1990-12-20"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001493",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "LiebknechtKarl",
+  "name": "Karl Liebknecht",
+  "givenName": "Karl",
+  "familyName": "Liebknecht",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1871-08-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Leipzig"
+  },
+  "deathDate": "1919-01-15",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Politiker, Gründungsmitglied der KPD"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/11857275X",
+    "https://de.wikipedia.org/wiki/Karl_Liebknecht"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Karl Liebknecht",
+    "forename": "Karl",
+    "surname": "Liebknecht",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1871-08-13",
+    "place": "Leipzig",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1919-01-15",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/11857275X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Karl_Liebknecht",
+    "viaf": null
+  },
+  "fraktionsprotokolle:sonstiges": "am 15. Januar 1919 ermordet"
+}

@@ -1,0 +1,69 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "NothhelferNorbert_1976-12-14",
+  "name": "Norbert Nothhelfer",
+  "givenName": "Norbert",
+  "familyName": "Nothhelfer",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1937-07-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Säckingen/Baden Württemberg"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Landrat [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1976-12-14",
+      "endDate": "1977-06-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1012708446"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Norbert Nothhelfer",
+    "forename": "Norbert",
+    "surname": "Nothhelfer",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1937-07-02",
+    "place": "Säckingen/Baden Württemberg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 8,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1976-12-14",
+      "to": "1977-06-06"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001626",
+    "gnd": "https://d-nb.info/gnd/1012708446",
+    "wikipedia": null,
+    "viaf": null
+  }
+}

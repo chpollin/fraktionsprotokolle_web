@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "MarcuseHerbert",
+  "name": "Herbert Marcuse",
+  "givenName": "Herbert",
+  "familyName": "Marcuse",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1898-07-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "1979-07-29",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Starnberg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutsch-amerikanischer Soziologe und Philosoph"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118577638",
+    "https://de.wikipedia.org/wiki/Herbert_Marcuse"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Herbert Marcuse",
+    "forename": "Herbert",
+    "surname": "Marcuse",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1898-07-19",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1979-07-29",
+    "place": "Starnberg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118577638",
+    "wikipedia": "https://de.wikipedia.org/wiki/Herbert_Marcuse",
+    "viaf": null
+  }
+}

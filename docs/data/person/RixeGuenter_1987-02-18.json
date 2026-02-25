@@ -1,0 +1,107 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "RixeGuenter_1987-02-18",
+  "name": "Günter Rixe",
+  "givenName": "Günter",
+  "familyName": "Rixe",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1939-06-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Brake/Krs. Bielefeld"
+  },
+  "deathDate": "2024-11-09",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Werther/Westf."
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Installateurmeister [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1987-02-18",
+      "endDate": "1990-12-20"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-10-26"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1328373460",
+    "https://de.wikipedia.org/wiki/G%C3%BCnter_Rixe"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Günter Rixe",
+    "forename": "Günter",
+    "surname": "Rixe",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1939-06-15",
+    "place": "Brake/Krs. Bielefeld",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2024-11-09",
+    "place": "Werther/Westf.",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 11,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1987-02-18",
+      "to": "1990-12-20"
+    },
+    {
+      "period": 12,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1990-12-20",
+      "to": "1994-11-10"
+    },
+    {
+      "period": 13,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1994-11-10",
+      "to": "1998-10-26"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001861",
+    "gnd": "https://d-nb.info/gnd/1328373460",
+    "wikipedia": "https://de.wikipedia.org/wiki/G%C3%BCnter_Rixe",
+    "viaf": null
+  }
+}

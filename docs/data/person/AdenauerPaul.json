@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "AdenauerPaul",
+  "name": "Paul Adenauer",
+  "givenName": "Paul",
+  "familyName": "Adenauer",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1923-01-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Köln"
+  },
+  "deathDate": "2007-08-05",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bergisch Gladbach"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Volkswirt und kath. Theologe, Priester"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/104531606"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Paul Adenauer",
+    "forename": "Paul",
+    "surname": "Adenauer",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1923-01-18",
+    "place": "Köln",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2007-08-05",
+    "place": "Bergisch Gladbach",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/104531606",
+    "wikipedia": null,
+    "viaf": null
+  },
+  "fraktionsprotokolle:sonstiges": "Sohn Konrad und Auguste Adenauers"
+}

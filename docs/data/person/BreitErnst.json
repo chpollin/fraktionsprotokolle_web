@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BreitErnst",
+  "name": "Ernst Breit",
+  "givenName": "Ernst",
+  "familyName": "Breit",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1924-08-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Rickelshof, Dithmarschen"
+  },
+  "deathDate": "2013-02-22",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Gewerkschaftsfunktionär, 1982–1990 Vorsitzender des DGB"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118673734",
+    "https://de.wikipedia.org/wiki/Ernst_Breit"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Ernst Breit",
+    "forename": "Ernst",
+    "surname": "Breit",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1924-08-20",
+    "place": "Rickelshof, Dithmarschen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2013-02-22",
+    "place": "Bonn",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118673734",
+    "wikipedia": "https://de.wikipedia.org/wiki/Ernst_Breit",
+    "viaf": null
+  }
+}

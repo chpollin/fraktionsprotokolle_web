@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "GuedeMax_1961-10-17",
+  "name": "Max Güde",
+  "givenName": "Max",
+  "familyName": "Güde",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1902-01-06",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Donaueschingen"
+  },
+  "deathDate": "1984-01-29",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Werl"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Generalbundesanwalt a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1965-10-19",
+      "endDate": "1969-10-19"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/123640628",
+    "https://de.wikipedia.org/wiki/Max_G%C3%BCde"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Max Güde",
+    "forename": "Max",
+    "surname": "Güde",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1902-01-06",
+    "place": "Donaueschingen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1984-01-29",
+    "place": "Werl",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 4,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    },
+    {
+      "period": 5,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000746",
+    "gnd": "https://d-nb.info/gnd/123640628",
+    "wikipedia": "https://de.wikipedia.org/wiki/Max_G%C3%BCde",
+    "viaf": null
+  }
+}

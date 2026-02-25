@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "MurrLeonhard_1957-10-15",
+  "name": "Leonhard Murr",
+  "givenName": "Leonhard",
+  "familyName": "Murr",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1896-08-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Moosbach"
+  },
+  "deathDate": "1967-10-02",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Moosbach"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Landwirt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1957-10-15",
+      "endDate": "1961-10-15"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1119643414",
+    "https://de.wikipedia.org/wiki/Leonhard_Murr"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Leonhard Murr",
+    "forename": "Leonhard",
+    "surname": "Murr",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1896-08-22",
+    "place": "Moosbach",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1967-10-02",
+    "place": "Moosbach",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 3,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 4,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001576",
+    "gnd": "https://d-nb.info/gnd/1119643414",
+    "wikipedia": "https://de.wikipedia.org/wiki/Leonhard_Murr",
+    "viaf": null
+  }
+}

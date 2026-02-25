@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SeattleChief",
+  "name": "Chief Noah Seattle",
+  "givenName": "Noah",
+  "familyName": "Seattle",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1786",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Blake Island"
+  },
+  "deathDate": "1866-06-07",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Suquamish-Reservation Washington"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Anführer der Suquamish und Duwamish"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/108744051",
+    "https://de.wikipedia.org/wiki/Seattle_(H%C3%A4uptling)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Chief Noah Seattle",
+    "forename": "Noah",
+    "surname": "Seattle",
+    "prefix": "",
+    "role_name": "Chief",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1786",
+    "place": "Blake Island",
+    "country": "(heute: USA)"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1866-06-07",
+    "place": "Suquamish-Reservation Washington",
+    "country": "USA"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/108744051",
+    "wikipedia": "https://de.wikipedia.org/wiki/Seattle_(H%C3%A4uptling)",
+    "viaf": null
+  }
+}

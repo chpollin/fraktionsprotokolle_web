@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HirschRobertvon",
+  "name": "Robert von Hirsch",
+  "givenName": "Robert",
+  "familyName": "Hirsch",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1883-07-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Frankfurt am Main"
+  },
+  "deathDate": "1977-11-01",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Basel"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Lederfabrikant, Kunstammler und Mäzen"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118774514",
+    "https://de.wikipedia.org/wiki/Robert_von_Hirsch"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Robert von Hirsch",
+    "forename": "Robert",
+    "surname": "Hirsch",
+    "prefix": "von",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1883-07-13",
+    "place": "Frankfurt am Main",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1977-11-01",
+    "place": "Basel",
+    "country": "Schweiz"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118774514",
+    "wikipedia": "https://de.wikipedia.org/wiki/Robert_von_Hirsch",
+    "viaf": null
+  }
+}

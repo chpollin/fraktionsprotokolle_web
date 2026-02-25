@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchumacherKurt_1949-09-07",
+  "name": "Kurt Schumacher",
+  "givenName": "Kurt",
+  "familyName": "Schumacher",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1895-10-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kulm/Weichsel (heute: Chełmno)"
+  },
+  "deathDate": "1952-08-20",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Staatswissenschaftler, SPD-Parteivorsitzender [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1952-08-20"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/118611615",
+    "https://de.wikipedia.org/wiki/Kurt_Schumacher"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Kurt Schumacher",
+    "forename": "Kurt",
+    "surname": "Schumacher",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1895-10-13",
+    "place": "Kulm/Weichsel (heute: Chełmno)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1952-08-20",
+    "place": "Bonn",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1949-09-07",
+      "to": "1952-08-20"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002113",
+    "gnd": "https://d-nb.info/gnd/118611615",
+    "wikipedia": "https://de.wikipedia.org/wiki/Kurt_Schumacher",
+    "viaf": null
+  }
+}

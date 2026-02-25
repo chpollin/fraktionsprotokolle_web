@@ -1,0 +1,82 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HartmannVerena_2017-10-24",
+  "name": "Verena Hartmann",
+  "givenName": "Verena",
+  "familyName": "Hartmann",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1974-03-29",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Räckelwitz"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Kommunikationswirtin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Alternative für Deutschland",
+        "alternateName": "AfD"
+      },
+      "startDate": "2017-10-24"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktionslos",
+        "alternateName": "Fraktionslos"
+      },
+      "startDate": "2020-01-27"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Verena Hartmann",
+    "forename": "Verena",
+    "surname": "Hartmann",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1974-03-29",
+    "place": "Räckelwitz",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 19,
+      "faction": "AfD",
+      "faction_full": "Alternative für Deutschland",
+      "from": "2017-10-24",
+      "to": ""
+    },
+    {
+      "period": 19,
+      "faction": "Fraktionslos",
+      "faction_full": "Fraktionslos",
+      "from": "2020-01-27",
+      "to": ""
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11004737",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

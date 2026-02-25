@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "WeickertStephan_1949-09-07",
+  "name": "Stephan Weickert",
+  "givenName": "Stephan",
+  "familyName": "Weickert",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1892-06-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kirchheim"
+  },
+  "deathDate": "1952-03-16",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Eßlingen am Neckar"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Industrie- und Versicherungskaufmann [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Wirtschaftliche Aufbauvereinigung",
+        "alternateName": "WAV"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1952-03-16"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Deutscher Gemeinschaftsblock der Heimatvertriebenen und Entrechteten",
+        "alternateName": "DG/BHE"
+      },
+      "startDate": "1950-10-13",
+      "endDate": "1952-03-16"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1313812676",
+    "https://de.wikipedia.org/wiki/Stephan_Weickert"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Stephan Weickert",
+    "forename": "Stephan",
+    "surname": "Weickert",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1892-06-12",
+    "place": "Kirchheim",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1952-03-16",
+    "place": "Eßlingen am Neckar",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "WAV",
+      "faction_full": "Fraktion Wirtschaftliche Aufbauvereinigung",
+      "from": "1949-09-07",
+      "to": "1952-03-16"
+    },
+    {
+      "period": 1,
+      "faction": "DG/BHE",
+      "faction_full": "Fraktion Deutscher Gemeinschaftsblock der Heimatvertriebenen und Entrechteten",
+      "from": "1950-10-13",
+      "to": "1952-03-16"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002446",
+    "gnd": "https://d-nb.info/gnd/1313812676",
+    "wikipedia": "https://de.wikipedia.org/wiki/Stephan_Weickert",
+    "viaf": null
+  }
+}

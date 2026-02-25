@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BoothbyRobert",
+  "name": "Robert Boothby",
+  "givenName": "Robert",
+  "familyName": "Boothby",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1900-02-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Edinburgh"
+  },
+  "deathDate": "1986-07-16",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "London"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "konservativer britischer Politiker, 1924–1950 und 1950–1958 Mitglied des Unterhauses"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/124824439",
+    "https://de.wikipedia.org/wiki/Bob_Boothby"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Robert Boothby",
+    "forename": "Robert",
+    "surname": "Boothby",
+    "prefix": "",
+    "role_name": "Baron",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1900-02-12",
+    "place": "Edinburgh",
+    "country": "Großbritannien"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1986-07-16",
+    "place": "London",
+    "country": "Großbritannien"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/124824439",
+    "wikipedia": "https://de.wikipedia.org/wiki/Bob_Boothby",
+    "viaf": null
+  }
+}

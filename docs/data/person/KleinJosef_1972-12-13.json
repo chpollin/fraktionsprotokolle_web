@@ -1,0 +1,69 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "KleinJosef_1972-12-13",
+  "name": "Josef Klein",
+  "givenName": "Josef",
+  "familyName": "Klein",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1940-09-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Stolberg"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Akademischer Oberrat [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1972-12-13",
+      "endDate": "1976-12-13"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1053248482"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Josef Klein",
+    "forename": "Josef",
+    "surname": "Klein",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Stolberg)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1940-09-05",
+    "place": "Stolberg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 7,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1972-12-13",
+      "to": "1976-12-13"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001118",
+    "gnd": "https://d-nb.info/gnd/1053248482",
+    "wikipedia": null,
+    "viaf": null
+  }
+}

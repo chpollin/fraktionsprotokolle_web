@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "KoblitzKurt_1972-12-13",
+  "name": "Kurt Koblitz",
+  "givenName": "Kurt",
+  "familyName": "Koblitz",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1916-09-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Waldenburg/Schlesien (heute: Wałbrzych, Polen)"
+  },
+  "deathDate": "1979-10-13",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Alsdorf"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Angestellter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1972-12-13",
+      "endDate": "1976-12-13"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1976-12-14",
+      "endDate": "1979-10-13"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1339857774",
+    "https://de.wikipedia.org/wiki/Kurt_Koblitz"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Kurt Koblitz",
+    "forename": "Kurt",
+    "surname": "Koblitz",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1916-09-27",
+    "place": "Waldenburg/Schlesien (heute: Wałbrzych, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1979-10-13",
+    "place": "Alsdorf",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 7,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1972-12-13",
+      "to": "1976-12-13"
+    },
+    {
+      "period": 8,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1976-12-14",
+      "to": "1979-10-13"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001145",
+    "gnd": "https://d-nb.info/gnd/1339857774",
+    "wikipedia": "https://de.wikipedia.org/wiki/Kurt_Koblitz",
+    "viaf": null
+  }
+}

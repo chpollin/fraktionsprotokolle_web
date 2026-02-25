@@ -1,0 +1,55 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "FrankAnne",
+  "name": "Anne Frank",
+  "givenName": "Annelies Marie",
+  "familyName": "Frank",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1929-06-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Frankfurt am Main"
+  },
+  "deathDate": "1945",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "KZ Bergen-Belsen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Schülerin"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118534734",
+    "https://de.wikipedia.org/wiki/Anne_Frank"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Anne Frank",
+    "forename": "Annelies Marie",
+    "surname": "Frank",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1929-06-12",
+    "place": "Frankfurt am Main",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1945",
+    "place": "KZ Bergen-Belsen",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118534734",
+    "wikipedia": "https://de.wikipedia.org/wiki/Anne_Frank",
+    "viaf": null
+  },
+  "fraktionsprotokolle:sonstiges": "emigierte 1934 mit ihren Eltern und ihrer Schwester Margot in die Niederlande, um der Verfolgung durch die Nazis zu entgehen, fiel kurz vor dem Ende des Zweiten Weltkriegs dem Holocaust zum Opfer, ihre Erlebnisse und Gedanken wurden nach dem Krieg als »Tagebuch der Anne Frank« von ihrem Vater Otto Frank veröffentlicht"
+}

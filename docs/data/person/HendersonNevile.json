@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HendersonNevile",
+  "name": "Sir Nevile Meyrick Henderson",
+  "givenName": "Nevile",
+  "familyName": "Henderson",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1882-06-10",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Sedgwick Park bei Horsham"
+  },
+  "deathDate": "1942-12-30",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "London"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1937 bis 1939 britischer Botschafter in Deutschland"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118710303",
+    "https://de.wikipedia.org/wiki/Nevile_Henderson"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Sir Nevile Meyrick Henderson",
+    "forename": "Nevile",
+    "surname": "Henderson",
+    "prefix": "",
+    "role_name": "Sir",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1882-06-10",
+    "place": "Sedgwick Park bei Horsham",
+    "country": "Großbritannien"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1942-12-30",
+    "place": "London",
+    "country": "Großbritannien"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118710303",
+    "wikipedia": "https://de.wikipedia.org/wiki/Nevile_Henderson",
+    "viaf": null
+  }
+}

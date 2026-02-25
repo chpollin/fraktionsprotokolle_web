@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "DanzWerner_1961-10-17",
+  "name": "Werner Danz",
+  "givenName": "Werner",
+  "familyName": "Danz",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1923-06-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Koblenz"
+  },
+  "deathDate": "1999-03-18",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bad Kreuznach"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Angestellter, Landtagsvizepräsident a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/105281212",
+    "https://de.wikipedia.org/wiki/Werner_Danz"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Werner Danz",
+    "forename": "Werner",
+    "surname": "Danz",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1923-06-03",
+    "place": "Koblenz",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1999-03-18",
+    "place": "Bad Kreuznach",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 4,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000357",
+    "gnd": "https://d-nb.info/gnd/105281212",
+    "wikipedia": "https://de.wikipedia.org/wiki/Werner_Danz",
+    "viaf": null
+  }
+}

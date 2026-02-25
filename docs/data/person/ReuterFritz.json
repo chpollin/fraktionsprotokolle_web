@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "ReuterFritz",
+  "name": "Fritz Reuter",
+  "givenName": "Fritz",
+  "familyName": "Reuter",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1810-11-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Stavenhagen"
+  },
+  "deathDate": "1874-07-12",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Eisenach"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Schriftsteller"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118599976",
+    "https://de.wikipedia.org/wiki/Fritz_Reuter"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Fritz Reuter",
+    "forename": "Fritz",
+    "surname": "Reuter",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1810-11-07",
+    "place": "Stavenhagen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1874-07-12",
+    "place": "Eisenach",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118599976",
+    "wikipedia": "https://de.wikipedia.org/wiki/Fritz_Reuter",
+    "viaf": null
+  }
+}

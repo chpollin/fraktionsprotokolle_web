@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "OchelWilly",
+  "name": "Willy Ochel",
+  "givenName": "Willy",
+  "familyName": "Ochel",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1903-01-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Wiedenest"
+  },
+  "deathDate": "1992-01-12",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Dortmund"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1960–1968 Vorstandsvorsitzender der Hoesch AG"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/121575268",
+    "https://de.wikipedia.org/wiki/Willy_Ochel"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Willy Ochel",
+    "forename": "Willy",
+    "surname": "Ochel",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1903-01-27",
+    "place": "Wiedenest",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1992-01-12",
+    "place": "Dortmund",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/121575268",
+    "wikipedia": "https://de.wikipedia.org/wiki/Willy_Ochel",
+    "viaf": null
+  }
+}

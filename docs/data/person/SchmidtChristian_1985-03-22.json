@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchmidtChristian_1985-03-22",
+  "name": "Christian Schmidt",
+  "givenName": "Christian",
+  "familyName": "Schmidt",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1943-02-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Wittenberge/Elbe"
+  },
+  "deathDate": "2021-04-05",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Lehrer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Die Grünen",
+        "alternateName": "Grüne"
+      },
+      "startDate": "1985-03-22",
+      "endDate": "1987-02-18"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1314812521",
+    "https://de.wikipedia.org/wiki/Christian_Schmidt_(Politiker,_1943)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Christian Schmidt",
+    "forename": "Christian",
+    "surname": "Schmidt",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Hamburg-Neustadt)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1943-02-23",
+    "place": "Wittenberge/Elbe",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2021-04-05",
+    "place": "Hamburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 10,
+      "faction": "Grüne",
+      "faction_full": "Fraktion Die Grünen",
+      "from": "1985-03-22",
+      "to": "1987-02-18"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002002",
+    "gnd": "https://d-nb.info/gnd/1314812521",
+    "wikipedia": "https://de.wikipedia.org/wiki/Christian_Schmidt_(Politiker,_1943)",
+    "viaf": null
+  }
+}

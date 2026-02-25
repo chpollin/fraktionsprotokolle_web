@@ -1,0 +1,107 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "MenneWAlexander_1961-10-17",
+  "name": "W. Alexander Menne",
+  "givenName": "W. Alexander",
+  "familyName": "Menne",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1904-06-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Dortmund"
+  },
+  "deathDate": "1993-03-13",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Kronberg im Taunus"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Industriekaufmann, Vorstandsmitglied [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1965-10-19",
+      "endDate": "1969-10-19"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1972-05-31",
+      "endDate": "1972-09-22"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/106614819",
+    "https://de.wikipedia.org/wiki/Alexander_Menne"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "W. Alexander Menne",
+    "forename": "W. Alexander",
+    "surname": "Menne",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Frankfurt)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1904-06-20",
+    "place": "Dortmund",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1993-03-13",
+    "place": "Kronberg im Taunus",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 4,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    },
+    {
+      "period": 5,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    },
+    {
+      "period": 6,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1972-05-31",
+      "to": "1972-09-22"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001471",
+    "gnd": "https://d-nb.info/gnd/106614819",
+    "wikipedia": "https://de.wikipedia.org/wiki/Alexander_Menne",
+    "viaf": null
+  }
+}

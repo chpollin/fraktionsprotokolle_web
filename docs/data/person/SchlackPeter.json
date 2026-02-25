@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchlackPeter",
+  "name": "Peter Schlack",
+  "givenName": "Peter",
+  "familyName": "Schlack",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1875-03-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kreuzau/Eifel"
+  },
+  "deathDate": "1957-02-04",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Köln"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Direktor der Kölner Konsumgenossenschaft; 1919–1920 und 1920–1933 MdR (Zentrum), 1947.–1949 Mitglied des Wirtschaftsrats der Bizone"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/130068586",
+    "https://de.wikipedia.org/wiki/Peter_Schlack_(Politiker)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Peter Schlack",
+    "forename": "Peter",
+    "surname": "Schlack",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1875-03-03",
+    "place": "Kreuzau/Eifel",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1957-02-04",
+    "place": "Köln",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/130068586",
+    "wikipedia": "https://de.wikipedia.org/wiki/Peter_Schlack_(Politiker)",
+    "viaf": null
+  }
+}

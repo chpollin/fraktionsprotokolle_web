@@ -1,0 +1,53 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "PapeGuenther",
+  "name": "Günther Pape",
+  "givenName": "Günther",
+  "familyName": "Pape",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1907-07-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Düsseldorf"
+  },
+  "deathDate": "1986-01-21",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Düsseldorf"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Offizier, Generalmajor der Wehrmacht und der Bundeswehr"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/G%C3%BCnther_Pape"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Günther Pape",
+    "forename": "Günther",
+    "surname": "Pape",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1907-07-14",
+    "place": "Düsseldorf",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1986-01-21",
+    "place": "Düsseldorf",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": null,
+    "wikipedia": "https://de.wikipedia.org/wiki/G%C3%BCnther_Pape",
+    "viaf": null
+  }
+}

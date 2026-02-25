@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "KorberHorst_1980-11-04",
+  "name": "Horst Korber",
+  "givenName": "Horst",
+  "familyName": "Korber",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1927-03-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Stadtroda/Thüringen"
+  },
+  "deathDate": "1981-07-02",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Jurist, Senator a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1980-11-04",
+      "endDate": "1981-07-02"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Horst Korber",
+    "forename": "Horst",
+    "surname": "Korber",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1927-03-16",
+    "place": "Stadtroda/Thüringen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1981-07-02",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 9,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1980-11-04",
+      "to": "1981-07-02"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001181",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

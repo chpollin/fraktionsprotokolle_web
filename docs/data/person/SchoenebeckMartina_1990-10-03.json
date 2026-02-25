@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchoenebeckMartina_1990-10-03",
+  "name": "Martina Schönebeck, geb. Töpfer",
+  "givenName": "Martina",
+  "familyName": "Schönebeck",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1948-09-21",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Leipzig"
+  },
+  "deathDate": "2023-10-03",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Fachpsychologin der Medizin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Gruppe der Partei des Demokratischen Sozialismus",
+        "alternateName": "Grp. PDS"
+      },
+      "startDate": "1990-10-03",
+      "endDate": "1990-12-20"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1328979962",
+    "https://de.wikipedia.org/wiki/Martina_Sch%C3%B6nebeck"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Martina Schönebeck, geb. Töpfer",
+    "forename": "Martina",
+    "surname": "Schönebeck",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1948-09-21",
+    "place": "Leipzig",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2023-10-03",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 11,
+      "faction": "Grp. PDS",
+      "faction_full": "Gruppe der Partei des Demokratischen Sozialismus",
+      "from": "1990-10-03",
+      "to": "1990-12-20"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002060",
+    "gnd": "https://d-nb.info/gnd/1328979962",
+    "wikipedia": "https://de.wikipedia.org/wiki/Martina_Sch%C3%B6nebeck",
+    "viaf": null
+  }
+}

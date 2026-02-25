@@ -1,0 +1,69 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "GottwaldGabriele_1983-03-29",
+  "name": "Gabriele Gottwald",
+  "givenName": "Gabriele",
+  "familyName": "Gottwald",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1955-07-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Wettringen"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "ohne Beruf [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Die Grünen",
+        "alternateName": "Grüne"
+      },
+      "startDate": "1983-03-29",
+      "endDate": "1985-03-31"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1232812021"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Gabriele Gottwald",
+    "forename": "Gabriele",
+    "surname": "Gottwald",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1955-07-08",
+    "place": "Wettringen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 10,
+      "faction": "Grüne",
+      "faction_full": "Fraktion Die Grünen",
+      "from": "1983-03-29",
+      "to": "1985-03-31"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000715",
+    "gnd": "https://d-nb.info/gnd/1232812021",
+    "wikipedia": null,
+    "viaf": null
+  }
+}

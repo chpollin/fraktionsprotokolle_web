@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "MorgensternHeinz_1961-10-17",
+  "name": "Heinz Morgenstern",
+  "givenName": "Heinz",
+  "familyName": "Morgenstern",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1917-07-11",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Wolfenbüttel"
+  },
+  "deathDate": "1980-09-03",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Wolfenbüttel"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsanwalt und Notar [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1965-10-19",
+      "endDate": "1966-09-14"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1035095483",
+    "https://de.wikipedia.org/wiki/Heinz_Morgenstern"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Heinz Morgenstern",
+    "forename": "Heinz",
+    "surname": "Morgenstern",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1917-07-11",
+    "place": "Wolfenbüttel",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1980-09-03",
+    "place": "Wolfenbüttel",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 4,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    },
+    {
+      "period": 5,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1965-10-19",
+      "to": "1966-09-14"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001531",
+    "gnd": "https://d-nb.info/gnd/1035095483",
+    "wikipedia": "https://de.wikipedia.org/wiki/Heinz_Morgenstern",
+    "viaf": null
+  }
+}

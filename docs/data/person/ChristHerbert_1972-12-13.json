@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "ChristHerbert_1972-12-13",
+  "name": "Herbert Christ",
+  "givenName": "Herbert",
+  "familyName": "Christ",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1941-01-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Nürnberg"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Verwaltungsoberinspektor [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1972-12-13",
+      "endDate": "1976-12-13"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1313812668",
+    "https://de.wikipedia.org/wiki/Herbert_Christ_%28Politiker%29"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Herbert Christ",
+    "forename": "Herbert",
+    "surname": "Christ",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1941-01-20",
+    "place": "Nürnberg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 7,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1972-12-13",
+      "to": "1976-12-13"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000327",
+    "gnd": "https://d-nb.info/gnd/1313812668",
+    "wikipedia": "https://de.wikipedia.org/wiki/Herbert_Christ_%28Politiker%29",
+    "viaf": null
+  }
+}

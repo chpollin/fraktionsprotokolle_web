@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BuchheimHans",
+  "name": "Hans Buchheim",
+  "givenName": "Hans",
+  "familyName": "Buchheim",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1922-01-11",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Freiberg"
+  },
+  "deathDate": "2016-11-14",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Mainz"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Historiker und Politikwissenschaftler, Professor für Politikwissenschaft an der Universität Mainz"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/119020378",
+    "https://de.wikipedia.org/wiki/Hans_Buchheim"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans Buchheim",
+    "forename": "Hans",
+    "surname": "Buchheim",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1922-01-11",
+    "place": "Freiberg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2016-11-14",
+    "place": "Mainz",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/119020378",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Buchheim",
+    "viaf": null
+  }
+}

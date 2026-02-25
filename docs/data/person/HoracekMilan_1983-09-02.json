@@ -1,0 +1,69 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HoracekMilan_1983-09-02",
+  "name": "Milan Horácek",
+  "givenName": "Milan",
+  "familyName": "Horácek",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1946-10-30",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Groß-Ullersdorf"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Elektromonteur [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Die Grünen",
+        "alternateName": "Grüne"
+      },
+      "startDate": "1983-09-02",
+      "endDate": "1985-10-03"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1100973311"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Milan Horácek",
+    "forename": "Milan",
+    "surname": "Horácek",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1946-10-30",
+    "place": "Groß-Ullersdorf",
+    "country": "Tschechoslowakei"
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 10,
+      "faction": "Grüne",
+      "faction_full": "Fraktion Die Grünen",
+      "from": "1983-09-02",
+      "to": "1985-10-03"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000956",
+    "gnd": "https://d-nb.info/gnd/1100973311",
+    "wikipedia": null,
+    "viaf": null
+  }
+}

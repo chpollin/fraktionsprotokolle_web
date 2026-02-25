@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BieligKarl_1949-09-07",
+  "name": "Karl Bielig",
+  "givenName": "Karl",
+  "familyName": "Bielig",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1898-10-10",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Meißen"
+  },
+  "deathDate": "1991-06-13",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bad Homburg vor der Höhe"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Redakteur [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/133590135",
+    "https://de.wikipedia.org/wiki/Karl_Bielig"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Karl Bielig",
+    "forename": "Karl",
+    "surname": "Bielig",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1898-10-10",
+    "place": "Meißen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1991-06-13",
+    "place": "Bad Homburg vor der Höhe",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000177",
+    "gnd": "https://d-nb.info/gnd/133590135",
+    "wikipedia": "https://de.wikipedia.org/wiki/Karl_Bielig",
+    "viaf": null
+  }
+}

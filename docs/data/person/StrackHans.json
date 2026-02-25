@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "StrackHans",
+  "name": "Hans Strack",
+  "givenName": "Hans",
+  "familyName": "Strack",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1899-07-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Essen"
+  },
+  "deathDate": "1987-07-21",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Köln"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1953–1959 Referatsleiter im Bundesministerium für Wirtschaft, 1959–1965 Botschafter in Chile"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/1031687963",
+    "https://de.wikipedia.org/wiki/Hans_Strack_(Diplomat)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans Strack",
+    "forename": "Hans",
+    "surname": "Strack",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1899-07-18",
+    "place": "Essen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1987-07-21",
+    "place": "Köln",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/1031687963",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Strack_(Diplomat)",
+    "viaf": null
+  }
+}

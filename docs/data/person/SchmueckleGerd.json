@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchmueckleGerd",
+  "name": "Gerd Schmückle",
+  "givenName": "Gerd",
+  "familyName": "Schmückle",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1917-12-01",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Stuttgart"
+  },
+  "deathDate": "2013-05-28",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Brigadegeneral, 1957–1962 Pressesprecher des Bundesverteidigungsministeriums, 1964–1968 Militärberater der deutschen NATO-Vertretung"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/1186094167",
+    "https://de.wikipedia.org/wiki/Gerd_Schm%C3%BCckle"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Gerd Schmückle",
+    "forename": "Gerd",
+    "surname": "Schmückle",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1917-12-01",
+    "place": "Stuttgart",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2013-05-28",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/1186094167",
+    "wikipedia": "https://de.wikipedia.org/wiki/Gerd_Schm%C3%BCckle",
+    "viaf": null
+  }
+}

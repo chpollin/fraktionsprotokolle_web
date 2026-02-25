@@ -1,0 +1,107 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "RinderspacherFritz_1961-10-17",
+  "name": "Fritz Rinderspacher",
+  "givenName": "Fritz",
+  "familyName": "Rinderspacher",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1909-11-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hugsweiler"
+  },
+  "deathDate": "1998-07-08",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Lahr/Schwarzwald"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Oberstudienrat i. R. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1965-10-19",
+      "endDate": "1969-10-19"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1969-10-20",
+      "endDate": "1972-09-22"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1037398971",
+    "https://de.wikipedia.org/wiki/Fritz_Rinderspacher"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Fritz Rinderspacher",
+    "forename": "Fritz",
+    "surname": "Rinderspacher",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1909-11-15",
+    "place": "Hugsweiler",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1998-07-08",
+    "place": "Lahr/Schwarzwald",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 4,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    },
+    {
+      "period": 5,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    },
+    {
+      "period": 6,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1969-10-20",
+      "to": "1972-09-22"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001852",
+    "gnd": "https://d-nb.info/gnd/1037398971",
+    "wikipedia": "https://de.wikipedia.org/wiki/Fritz_Rinderspacher",
+    "viaf": null
+  }
+}

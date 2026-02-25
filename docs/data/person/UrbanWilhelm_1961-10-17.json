@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "UrbanWilhelm_1961-10-17",
+  "name": "Wilhelm Urban",
+  "givenName": "Wilhelm",
+  "familyName": "Urban",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1908-08-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Brunebeck"
+  },
+  "deathDate": "1973-02-08",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "West-Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Erzieher, Stadtrat [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1965-10-19",
+      "endDate": "1969-10-19"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1276214685",
+    "https://de.wikipedia.org/wiki/Wilhelm_Urban_(Politiker)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Wilhelm Urban",
+    "forename": "Wilhelm",
+    "surname": "Urban",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1908-08-28",
+    "place": "Brunebeck",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1973-02-08",
+    "place": "West-Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 4,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    },
+    {
+      "period": 5,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002359",
+    "gnd": "https://d-nb.info/gnd/1276214685",
+    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_Urban_(Politiker)",
+    "viaf": null
+  }
+}

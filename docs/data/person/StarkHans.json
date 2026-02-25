@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "StarkHans",
+  "name": "Hans Stark",
+  "givenName": "Hans",
+  "familyName": "Stark",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1921-06-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Darmstadt"
+  },
+  "deathDate": "1991-03-29",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Darmstadt"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "SS-Untersturmführer und Leiter der Aufnahmeabteilung im KZ Auschwitz-Birkenau"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/1203751451",
+    "https://de.wikipedia.org/wiki/Hans_Stark_(SS-Mitglied)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans Stark",
+    "forename": "Hans",
+    "surname": "Stark",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1921-06-14",
+    "place": "Darmstadt",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1991-03-29",
+    "place": "Darmstadt",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/1203751451",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Stark_(SS-Mitglied)",
+    "viaf": null
+  }
+}

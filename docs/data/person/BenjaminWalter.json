@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BenjaminWalter",
+  "name": "Walter Benjamin",
+  "givenName": "Walter Bendix Schoenflies",
+  "familyName": "Benjamin",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1892-07-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "1940-09-26",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Portbou"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Philosoph, Kulturkritiker und Übersetzer"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118509039",
+    "https://de.wikipedia.org/wiki/Walter_Benjamin"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Walter Benjamin",
+    "forename": "Walter Bendix Schoenflies",
+    "surname": "Benjamin",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1892-07-15",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1940-09-26",
+    "place": "Portbou",
+    "country": "Spanien"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118509039",
+    "wikipedia": "https://de.wikipedia.org/wiki/Walter_Benjamin",
+    "viaf": null
+  }
+}

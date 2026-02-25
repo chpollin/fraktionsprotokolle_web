@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "GassmannWalter_1957-10-15",
+  "name": "Walter Gaßmann",
+  "givenName": "Walter",
+  "familyName": "Gaßmann",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1903-03-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Stuttgart"
+  },
+  "deathDate": "1979-01-09",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Vero Beach, Indian River, Florida"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Kaufmännischer Direktor [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1957-10-15",
+      "endDate": "1961-10-15"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1030059985",
+    "https://de.wikipedia.org/wiki/Walter_Ga%C3%9Fmann"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Walter Gaßmann",
+    "forename": "Walter",
+    "surname": "Gaßmann",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1903-03-03",
+    "place": "Stuttgart",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1979-01-09",
+    "place": "Vero Beach, Indian River, Florida",
+    "country": "USA"
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 3,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 4,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000636",
+    "gnd": "https://d-nb.info/gnd/1030059985",
+    "wikipedia": "https://de.wikipedia.org/wiki/Walter_Ga%C3%9Fmann",
+    "viaf": null
+  }
+}

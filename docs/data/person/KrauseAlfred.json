@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "KrauseAlfred",
+  "name": "Alfred Krause",
+  "givenName": "Alfred",
+  "familyName": "Krause",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1922-01-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Gelsenkirchen"
+  },
+  "deathDate": "2019-05-23",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1959–1987 Vorsitzender des Deutschen Beamtenbundes"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118819771",
+    "https://de.wikipedia.org/wiki/Alfred_Krause_(Gewerkschafter)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Alfred Krause",
+    "forename": "Alfred",
+    "surname": "Krause",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1922-01-27",
+    "place": "Gelsenkirchen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2019-05-23",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118819771",
+    "wikipedia": "https://de.wikipedia.org/wiki/Alfred_Krause_(Gewerkschafter)",
+    "viaf": null
+  }
+}

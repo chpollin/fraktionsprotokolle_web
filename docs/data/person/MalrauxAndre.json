@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "MalrauxAndre",
+  "name": "André Malraux",
+  "givenName": "André",
+  "familyName": "Malraux",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1901-11-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "deathDate": "1976-11-23",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Créteil, Val-de-Marne"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "französischer Schriftsteller und 1958–Juli 1969 Kulturminister"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118576844",
+    "https://de.wikipedia.org/wiki/Andr%C3%A9_Malraux"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "André Malraux",
+    "forename": "André",
+    "surname": "Malraux",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1901-11-03",
+    "place": "Paris",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1976-11-23",
+    "place": "Créteil, Val-de-Marne",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118576844",
+    "wikipedia": "https://de.wikipedia.org/wiki/Andr%C3%A9_Malraux",
+    "viaf": null
+  }
+}

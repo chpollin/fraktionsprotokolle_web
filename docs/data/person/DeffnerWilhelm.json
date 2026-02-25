@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "DeffnerWilhelm",
+  "name": "Wilhelm Deffner",
+  "givenName": "Wilhelm",
+  "familyName": "Deffner",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1871-05-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Deiningen"
+  },
+  "deathDate": "1977-05-12",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Augsburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1918/19 Mitglied des Provisorischen Bayerischen Nationalrates (SPD), Ehrenjubilar der SPD"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/133414671",
+    "http://viaf.org/viaf/33187267"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Wilhelm Deffner",
+    "forename": "Wilhelm",
+    "surname": "Deffner",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1871-05-12",
+    "place": "Deiningen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1977-05-12",
+    "place": "Augsburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/133414671",
+    "wikipedia": null,
+    "viaf": "http://viaf.org/viaf/33187267"
+  }
+}

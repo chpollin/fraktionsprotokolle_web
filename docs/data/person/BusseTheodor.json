@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BusseTheodor",
+  "name": "Theodor Busse",
+  "givenName": "Theodor",
+  "familyName": "Busse",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1897-12-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Frankfurt (Oder)"
+  },
+  "deathDate": "1986-10-21",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Wallerstein"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher General der Infanterie im Zweiten Weltkrieg"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/124546161",
+    "https://de.wikipedia.org/wiki/Theodor_Busse"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Theodor Busse",
+    "forename": "Theodor",
+    "surname": "Busse",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1897-12-15",
+    "place": "Frankfurt (Oder)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1986-10-21",
+    "place": "Wallerstein",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/124546161",
+    "wikipedia": "https://de.wikipedia.org/wiki/Theodor_Busse",
+    "viaf": null
+  }
+}

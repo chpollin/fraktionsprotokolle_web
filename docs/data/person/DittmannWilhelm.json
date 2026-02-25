@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "DittmannWilhelm",
+  "name": "Wilhelm Dittmann",
+  "givenName": "Wilhelm",
+  "familyName": "Dittmann",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1874-11-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Eutin"
+  },
+  "deathDate": "1954-08-07",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1912–1918 und 1920–1933 MdR (SPD/USPD)"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/119254069",
+    "https://de.wikipedia.org/wiki/Wilhelm_Dittmann"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Wilhelm Dittmann",
+    "forename": "Wilhelm",
+    "surname": "Dittmann",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1874-11-13",
+    "place": "Eutin",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1954-08-07",
+    "place": "Bonn",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/119254069",
+    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_Dittmann",
+    "viaf": null
+  }
+}

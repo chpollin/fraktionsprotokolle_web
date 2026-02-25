@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "KrausePaul_1949-09-07",
+  "name": "Paul Krause",
+  "givenName": "Paul",
+  "familyName": "Krause",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1905-12-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Glogau/Niederschlesien (heute: Głogów, Polen)"
+  },
+  "deathDate": "1950-10-18",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Lippstadt"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Redakteur [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Deutsche Zentrums-Partei",
+        "alternateName": "Zentrum"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1950-10-18"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1340042142",
+    "https://de.wikipedia.org/wiki/Paul_Krause_(Politiker,_1905)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Paul Krause",
+    "forename": "Paul",
+    "surname": "Krause",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1905-12-27",
+    "place": "Glogau/Niederschlesien (heute: Głogów, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1950-10-18",
+    "place": "Lippstadt",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "Zentrum",
+      "faction_full": "Fraktion Deutsche Zentrums-Partei",
+      "from": "1949-09-07",
+      "to": "1950-10-18"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001204",
+    "gnd": "https://d-nb.info/gnd/1340042142",
+    "wikipedia": "https://de.wikipedia.org/wiki/Paul_Krause_(Politiker,_1905)",
+    "viaf": null
+  }
+}

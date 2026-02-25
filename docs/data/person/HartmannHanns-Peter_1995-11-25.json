@@ -1,0 +1,69 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HartmannHanns-Peter_1995-11-25",
+  "name": "Hanns-Peter Hartmann",
+  "givenName": "Hanns-Peter",
+  "familyName": "Hartmann",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1943-09-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Radom"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Agraringenieur [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Gruppe der Partei des Demokratischen Sozialismus",
+        "alternateName": "Grp. PDS"
+      },
+      "startDate": "1995-11-25",
+      "endDate": "1998-10-26"
+    }
+  ],
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Hanns-Peter_Hartmann"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hanns-Peter Hartmann",
+    "forename": "Hanns-Peter",
+    "surname": "Hartmann",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1943-09-27",
+    "place": "Radom",
+    "country": "Polen"
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 13,
+      "faction": "Grp. PDS",
+      "faction_full": "Gruppe der Partei des Demokratischen Sozialismus",
+      "from": "1995-11-25",
+      "to": "1998-10-26"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002939",
+    "gnd": null,
+    "wikipedia": "https://de.wikipedia.org/wiki/Hanns-Peter_Hartmann",
+    "viaf": null
+  }
+}

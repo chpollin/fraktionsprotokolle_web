@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "KrausKarl",
+  "name": "Karl Kraus",
+  "givenName": "Karl",
+  "familyName": "Kraus",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1874-04-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Gitschin, Böhmen"
+  },
+  "deathDate": "1936-06-12",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Wien"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "österreichischer Schriftsteller, Publizist und Satiriker"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118566288",
+    "https://de.wikipedia.org/wiki/Karl_Kraus"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Karl Kraus",
+    "forename": "Karl",
+    "surname": "Kraus",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1874-04-28",
+    "place": "Gitschin, Böhmen",
+    "country": "Österreich-Ungarn"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1936-06-12",
+    "place": "Wien",
+    "country": "Österreich"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118566288",
+    "wikipedia": "https://de.wikipedia.org/wiki/Karl_Kraus",
+    "viaf": null
+  }
+}

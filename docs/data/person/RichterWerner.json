@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "RichterWerner",
+  "name": "Werner Richter",
+  "givenName": "Werner",
+  "familyName": "Richter",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1887-05-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "1960-09-19",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Germanist, 1920–1932 Ministerialrat, später Ministerialdirigent im Preußischen Ministerium für Wissenschaft, Kunst und Volksbildung, 1951–1953 Rektor der Universität Bonn"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/132563894",
+    "https://de.wikipedia.org/wiki/Werner_Richter_(Germanist)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Werner Richter",
+    "forename": "Werner",
+    "surname": "Richter",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1887-05-05",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1960-09-19",
+    "place": "Bonn",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/132563894",
+    "wikipedia": "https://de.wikipedia.org/wiki/Werner_Richter_(Germanist)",
+    "viaf": null
+  }
+}

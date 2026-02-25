@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "ReismannBernhard_1949-09-07",
+  "name": "Bernhard Reismann",
+  "givenName": "Bernhard",
+  "familyName": "Reismann",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1903-01-29",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Münster"
+  },
+  "deathDate": "1982-01-13",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Münster"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsanwalt und Notar [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Deutsche Zentrums-Partei",
+        "alternateName": "Zentrum"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Föderalistische Union",
+        "alternateName": "FU"
+      },
+      "startDate": "1951-12-14",
+      "endDate": "1953-09-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/189561920",
+    "https://de.wikipedia.org/wiki/Bernhard_Reismann"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Bernhard Reismann",
+    "forename": "Bernhard",
+    "surname": "Reismann",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1903-01-29",
+    "place": "Münster",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1982-01-13",
+    "place": "Münster",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "Zentrum",
+      "faction_full": "Fraktion Deutsche Zentrums-Partei",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 1,
+      "faction": "FU",
+      "faction_full": "Fraktion Föderalistische Union",
+      "from": "1951-12-14",
+      "to": "1953-09-07"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001815",
+    "gnd": "https://d-nb.info/gnd/189561920",
+    "wikipedia": "https://de.wikipedia.org/wiki/Bernhard_Reismann",
+    "viaf": null
+  }
+}

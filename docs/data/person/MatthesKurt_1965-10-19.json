@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "MatthesKurt_1965-10-19",
+  "name": "Kurt Matthes",
+  "givenName": "Kurt",
+  "familyName": "Matthes",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1914-08-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Barmen"
+  },
+  "deathDate": "2012-02-28",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Wuppertal"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Geschäftsführer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1965-10-19",
+      "endDate": "1969-10-19"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1969-10-20",
+      "endDate": "1972-09-22"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1120930170",
+    "https://de.wikipedia.org/wiki/Kurt_Matthes"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Kurt Matthes",
+    "forename": "Kurt",
+    "surname": "Matthes",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1914-08-19",
+    "place": "Barmen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2012-02-28",
+    "place": "Wuppertal",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 5,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    },
+    {
+      "period": 6,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1969-10-20",
+      "to": "1972-09-22"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001438",
+    "gnd": "https://d-nb.info/gnd/1120930170",
+    "wikipedia": "https://de.wikipedia.org/wiki/Kurt_Matthes",
+    "viaf": null
+  }
+}

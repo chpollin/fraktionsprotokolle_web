@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SteinerAndreas_1990-10-03",
+  "name": "Andreas Steiner",
+  "givenName": "Andreas",
+  "familyName": "Steiner",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1954-11-30",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Lichtenstein/Bezirk Chemnitz"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Härterfacharbeiter, Mechaniker [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der CDU/CSU (Gast)",
+        "alternateName": "CDU/CSU (Gast)"
+      },
+      "startDate": "1990-10-03",
+      "endDate": "1990-12-20"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Andreas Steiner",
+    "forename": "Andreas",
+    "surname": "Steiner",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Oelsnitz)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1954-11-30",
+    "place": "Lichtenstein/Bezirk Chemnitz",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 11,
+      "faction": "CDU/CSU (Gast)",
+      "faction_full": "Fraktion der CDU/CSU (Gast)",
+      "from": "1990-10-03",
+      "to": "1990-12-20"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002234",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

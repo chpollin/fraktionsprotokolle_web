@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "EhlersHermann_1949-09-07",
+  "name": "Hermann Ehlers",
+  "givenName": "Hermann",
+  "familyName": "Ehlers",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1904-10-01",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Schöneberg bei Berlin (heute: Berlin-Schöneberg)"
+  },
+  "deathDate": "1954-10-29",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Oldenburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Präsident DBT a.D., Dipl.-Ingenieurökonom, Dipl.-Staatswissenschaftler [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1954-10-29"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/118688162",
+    "https://de.wikipedia.org/wiki/Hermann_Ehlers"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hermann Ehlers",
+    "forename": "Hermann",
+    "surname": "Ehlers",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1904-10-01",
+    "place": "Schöneberg bei Berlin (heute: Berlin-Schöneberg)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1954-10-29",
+    "place": "Oldenburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 2,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1953-10-06",
+      "to": "1954-10-29"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000438",
+    "gnd": "https://d-nb.info/gnd/118688162",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hermann_Ehlers",
+    "viaf": null
+  }
+}

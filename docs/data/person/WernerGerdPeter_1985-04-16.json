@@ -1,0 +1,69 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "WernerGerdPeter_1985-04-16",
+  "name": "Gerd Peter Werner",
+  "givenName": "Gerd Peter",
+  "familyName": "Werner",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1938-09-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Wernigerode/Harz"
+  },
+  "deathDate": "2019-01-15",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Heilpraktiker [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Die Grünen",
+        "alternateName": "Grüne"
+      },
+      "startDate": "1985-04-16",
+      "endDate": "1987-02-18"
+    }
+  ],
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Gerd_Peter_Werner"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Gerd Peter Werner",
+    "forename": "Gerd Peter",
+    "surname": "Werner",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Westerland)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1938-09-16",
+    "place": "Wernigerode/Harz",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2019-01-15",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 10,
+      "faction": "Grüne",
+      "faction_full": "Fraktion Die Grünen",
+      "from": "1985-04-16",
+      "to": "1987-02-18"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002482",
+    "gnd": null,
+    "wikipedia": "https://de.wikipedia.org/wiki/Gerd_Peter_Werner",
+    "viaf": null
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "UngeheuerJosef",
+  "name": "Josef Ungeheuer",
+  "givenName": "Josef",
+  "familyName": "Ungeheuer",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1909-12-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Trier"
+  },
+  "deathDate": "1959-10-07",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bonn-Bad Godesberg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1949–1959 Leiter der Bundespressestelle der FDP, FDP-Kandidat bei den Bundestagswahlen 1953 und 1957"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/12558976X"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Josef Ungeheuer",
+    "forename": "Josef",
+    "surname": "Ungeheuer",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1909-12-23",
+    "place": "Trier",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1959-10-07",
+    "place": "Bonn-Bad Godesberg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/12558976X",
+    "wikipedia": null,
+    "viaf": null
+  }
+}

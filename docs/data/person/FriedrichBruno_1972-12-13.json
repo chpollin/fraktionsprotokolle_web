@@ -1,0 +1,96 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "FriedrichBruno_1972-12-13",
+  "name": "Bruno Friedrich",
+  "givenName": "Bruno",
+  "familyName": "Friedrich",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1927-05-31",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Helmbrechts"
+  },
+  "deathDate": "1987-06-20",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Redakteur [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1972-12-13",
+      "endDate": "1976-12-13"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1976-12-14",
+      "endDate": "1980-11-04"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1024723828"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Bruno Friedrich",
+    "forename": "Bruno",
+    "surname": "Friedrich",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1927-05-31",
+    "place": "Helmbrechts",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1987-06-20",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 7,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1972-12-13",
+      "to": "1976-12-13"
+    },
+    {
+      "period": 8,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1976-12-14",
+      "to": "1980-11-04"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000590",
+    "gnd": "https://d-nb.info/gnd/1024723828",
+    "wikipedia": null,
+    "viaf": null
+  },
+  "fraktionsprotokolle:alt_names": [
+    {
+      "reg": "Bruno Friedrich",
+      "forename": "Bruno",
+      "surname": "Friedrich",
+      "prefix": "",
+      "role_name": "",
+      "place": "(Würzburg)"
+    }
+  ]
+}

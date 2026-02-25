@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BiskyLothar_2005-10-18",
+  "name": "Lothar Bisky",
+  "givenName": "Lothar",
+  "familyName": "Bisky",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1941-08-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Zollbrück/Kreis Rummelsburg"
+  },
+  "deathDate": "2013-08-13",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Leipzig"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Prof., Medienwissenschaftler [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion DIE LINKE.",
+        "alternateName": "LINKE"
+      },
+      "startDate": "2005-10-18",
+      "endDate": "2009-07-13"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/119133342",
+    "https://de.wikipedia.org/wiki/Lothar_Bisky"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Lothar Bisky",
+    "forename": "Lothar",
+    "surname": "Bisky",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1941-08-17",
+    "place": "Zollbrück/Kreis Rummelsburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2013-08-13",
+    "place": "Leipzig",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 16,
+      "faction": "LINKE",
+      "faction_full": "Fraktion DIE LINKE.",
+      "from": "2005-10-18",
+      "to": "2009-07-13"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11003739",
+    "gnd": "https://d-nb.info/gnd/119133342",
+    "wikipedia": "https://de.wikipedia.org/wiki/Lothar_Bisky",
+    "viaf": null
+  }
+}

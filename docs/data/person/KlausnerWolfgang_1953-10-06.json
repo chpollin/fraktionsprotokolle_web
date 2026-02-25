@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "KlausnerWolfgang_1953-10-06",
+  "name": "Wolfgang Klausner",
+  "givenName": "Wolfgang",
+  "familyName": "Klausner",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1906-01-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Pfaffing bei Chieming"
+  },
+  "deathDate": "1958-04-17",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hohenstadt"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Bauer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1957-10-15",
+      "endDate": "1958-04-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1232812056",
+    "https://de.wikipedia.org/wiki/Wolfgang_Klausner"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Wolfgang Klausner",
+    "forename": "Wolfgang",
+    "surname": "Klausner",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1906-01-08",
+    "place": "Pfaffing bei Chieming",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1958-04-17",
+    "place": "Hohenstadt",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 3,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1957-10-15",
+      "to": "1958-04-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001109",
+    "gnd": "https://d-nb.info/gnd/1232812056",
+    "wikipedia": "https://de.wikipedia.org/wiki/Wolfgang_Klausner",
+    "viaf": null
+  }
+}

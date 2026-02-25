@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "OhlEckhard_1998-10-26",
+  "name": "Eckhard Ohl",
+  "givenName": "Eckhard",
+  "familyName": "Ohl",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1947-02-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Mehrstedt"
+  },
+  "deathDate": "2006-06-26",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Werkzeugmacher, Bürgermeister [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1998-10-26",
+      "endDate": "2002-10-17"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Eckhard Ohl",
+    "forename": "Eckhard",
+    "surname": "Ohl",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1947-02-25",
+    "place": "Mehrstedt",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2006-06-26",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 14,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1998-10-26",
+      "to": "2002-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11003202",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

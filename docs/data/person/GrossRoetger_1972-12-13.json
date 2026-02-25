@@ -1,0 +1,69 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "GrossRoetger_1972-12-13",
+  "name": "Rötger Groß",
+  "givenName": "Rötger",
+  "familyName": "Groß",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1933-04-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hildburghausen/Thüringen"
+  },
+  "deathDate": "2004-12-15",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Stadtdirektor a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1972-12-13",
+      "endDate": "1974-07-05"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/118542532"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Rötger Groß",
+    "forename": "Rötger",
+    "surname": "Groß",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1933-04-22",
+    "place": "Hildburghausen/Thüringen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2004-12-15",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 7,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1972-12-13",
+      "to": "1974-07-05"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000734",
+    "gnd": "https://d-nb.info/gnd/118542532",
+    "wikipedia": null,
+    "viaf": null
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "Schmidt-BottRegula_1987-02-18",
+  "name": "Regula Schmidt-Bott",
+  "givenName": "Regula",
+  "familyName": "Schmidt-Bott",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1945-06-10",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Schwäbisch Gmünd"
+  },
+  "deathDate": "2015-10-11",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Diplom Psychologin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Die Grünen",
+        "alternateName": "Grüne"
+      },
+      "startDate": "1987-02-18",
+      "endDate": "1989-02-18"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1073741354"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Regula Schmidt-Bott",
+    "forename": "Regula",
+    "surname": "Schmidt-Bott",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1945-06-10",
+    "place": "Schwäbisch Gmünd",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2015-10-11",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 11,
+      "faction": "Grüne",
+      "faction_full": "Fraktion Die Grünen",
+      "from": "1987-02-18",
+      "to": "1989-02-18"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002024",
+    "gnd": "https://d-nb.info/gnd/1073741354",
+    "wikipedia": null,
+    "viaf": null
+  }
+}

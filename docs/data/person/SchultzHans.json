@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchultzHans",
+  "name": "Hans Schultz",
+  "givenName": "Hans",
+  "familyName": "Schultz",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1912-04-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Breslau, Niederschlesien (heute: Wrocław, Polen)"
+  },
+  "deathDate": "2003-05-13",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Thun"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1959–1977 Professor für Strafrecht an der Universität Bern"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118611399",
+    "https://de.wikipedia.org/wiki/Hans_Schultz_(Jurist)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans Schultz",
+    "forename": "Hans",
+    "surname": "Schultz",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1912-04-15",
+    "place": "Breslau, Niederschlesien (heute: Wrocław, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2003-05-13",
+    "place": "Thun",
+    "country": "Schweiz"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118611399",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Schultz_(Jurist)",
+    "viaf": null
+  }
+}

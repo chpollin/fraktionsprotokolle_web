@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "VesperWalter_1949-09-07",
+  "name": "Walter Vesper",
+  "givenName": "Walter",
+  "familyName": "Vesper",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1897-06-06",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Barmen (heute: Wuppertal-Barmen)"
+  },
+  "deathDate": "1978-12-17",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Ost-Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Maurer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Kommunistischen Partei Deutschlands",
+        "alternateName": "KPD"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1952-06-30"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/140616810",
+    "https://de.wikipedia.org/wiki/Walter_Vesper"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Walter Vesper",
+    "forename": "Walter",
+    "surname": "Vesper",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1897-06-06",
+    "place": "Barmen (heute: Wuppertal-Barmen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1978-12-17",
+    "place": "Ost-Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "KPD",
+      "faction_full": "Fraktion der Kommunistischen Partei Deutschlands",
+      "from": "1949-09-07",
+      "to": "1952-06-30"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002372",
+    "gnd": "https://d-nb.info/gnd/140616810",
+    "wikipedia": "https://de.wikipedia.org/wiki/Walter_Vesper",
+    "viaf": null
+  }
+}

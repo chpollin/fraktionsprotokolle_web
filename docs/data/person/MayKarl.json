@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "MayKarl",
+  "name": "Karl May",
+  "givenName": "Karl",
+  "familyName": "May",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1842-02-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Ernstthal, Sachsen"
+  },
+  "deathDate": "1912-03-30",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Radebeul, Sachsen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Schriftsteller"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118818651",
+    "https://de.wikipedia.org/wiki/Karl_May"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Karl May",
+    "forename": "Karl",
+    "surname": "May",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1842-02-25",
+    "place": "Ernstthal, Sachsen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1912-03-30",
+    "place": "Radebeul, Sachsen",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118818651",
+    "wikipedia": "https://de.wikipedia.org/wiki/Karl_May",
+    "viaf": null
+  }
+}

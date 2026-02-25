@@ -1,0 +1,107 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "DornWolfram_1961-10-17",
+  "name": "Wolfram Dorn",
+  "givenName": "Wolfram",
+  "familyName": "Dorn",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1924-07-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Altena"
+  },
+  "deathDate": "2014-06-17",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Halver"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Parl. Staatssekretär a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1965-10-19",
+      "endDate": "1969-10-19"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1969-10-20",
+      "endDate": "1972-09-22"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/122133633",
+    "https://de.wikipedia.org/wiki/Wolfram_Dorn_(Politiker)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Wolfram Dorn",
+    "forename": "Wolfram",
+    "surname": "Dorn",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1924-07-18",
+    "place": "Altena",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2014-06-17",
+    "place": "Halver",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 4,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    },
+    {
+      "period": 5,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    },
+    {
+      "period": 6,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1969-10-20",
+      "to": "1972-09-22"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000409",
+    "gnd": "https://d-nb.info/gnd/122133633",
+    "wikipedia": "https://de.wikipedia.org/wiki/Wolfram_Dorn_(Politiker)",
+    "viaf": null
+  }
+}

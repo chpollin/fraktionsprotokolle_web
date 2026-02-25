@@ -1,0 +1,55 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "TeresaMutter",
+  "name": "Mutter Teresa, geb. Agnes Gonxha Bojaxhiu",
+  "givenName": "Agnes Gonxha",
+  "familyName": "Bojaxhiu",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1910-08-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Üsküb (heute: Skopje)"
+  },
+  "deathDate": "1997-09-05",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Kalkutta (heute: Kolkata)"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "katholische Ordensschwester, Gründerin und 1950-1997 Oberin der »Missionarinnen der Nächstenliebe«"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118642707",
+    "https://de.wikipedia.org/wiki/Mutter_Teresa"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Mutter Teresa, geb. Agnes Gonxha Bojaxhiu",
+    "forename": "Agnes Gonxha",
+    "surname": "Bojaxhiu",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1910-08-26",
+    "place": "Üsküb (heute: Skopje)",
+    "country": "Osmanisches Reich (heute: Nordmazedonien)"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1997-09-05",
+    "place": "Kalkutta (heute: Kolkata)",
+    "country": "Indien"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118642707",
+    "wikipedia": "https://de.wikipedia.org/wiki/Mutter_Teresa",
+    "viaf": null
+  },
+  "fraktionsprotokolle:sonstiges": "1979 mit dem Friedensnobelpreis ausgezeichnet"
+}

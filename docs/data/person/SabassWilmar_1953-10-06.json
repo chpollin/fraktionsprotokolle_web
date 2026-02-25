@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SabassWilmar_1953-10-06",
+  "name": "Wilmar Sabaß",
+  "givenName": "Wilmar",
+  "familyName": "Sabaß",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1902-12-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Siemianowitz, Schlesien (heute: Siemianowice Śląskie, Polen)"
+  },
+  "deathDate": "1980-04-15",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Ingenieur, Bergassessor a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1120864879",
+    "https://de.wikipedia.org/wiki/Wilmar_Saba%C3%9F"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Wilmar Sabaß",
+    "forename": "Wilmar",
+    "surname": "Sabaß",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1902-12-04",
+    "place": "Siemianowitz, Schlesien (heute: Siemianowice Śląskie, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1980-04-15",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001911",
+    "gnd": "https://d-nb.info/gnd/1120864879",
+    "wikipedia": "https://de.wikipedia.org/wiki/Wilmar_Saba%C3%9F",
+    "viaf": null
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchaffnerHans",
+  "name": "Hans Schaffner",
+  "givenName": "Hans",
+  "familyName": "Schaffner",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1908-12-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Interlaken"
+  },
+  "deathDate": "2004-11-26",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bern"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Schweizer Politiker, 1961–1969 Bundesrat (Volkswirtschaftsdepartement)"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/1014999332",
+    "https://de.wikipedia.org/wiki/Hans_Schaffner"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans Schaffner",
+    "forename": "Hans",
+    "surname": "Schaffner",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1908-12-16",
+    "place": "Interlaken",
+    "country": "Schweiz"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2004-11-26",
+    "place": "Bern",
+    "country": "Schweiz"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/1014999332",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Schaffner",
+    "viaf": null
+  }
+}

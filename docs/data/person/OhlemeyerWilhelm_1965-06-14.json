@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "OhlemeyerWilhelm_1965-06-14",
+  "name": "Wilhelm Ohlemeyer",
+  "givenName": "Wilhelm",
+  "familyName": "Ohlemeyer",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1914-12-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hahlen"
+  },
+  "deathDate": "2006-10-16",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Betriebsmeister [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1965-06-14",
+      "endDate": "1965-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1276215126",
+    "https://de.wikipedia.org/wiki/Wilhelm_Ohlemeyer"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Wilhelm Ohlemeyer",
+    "forename": "Wilhelm",
+    "surname": "Ohlemeyer",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1914-12-24",
+    "place": "Hahlen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2006-10-16",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 4,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1965-06-14",
+      "to": "1965-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001642",
+    "gnd": "https://d-nb.info/gnd/1276215126",
+    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_Ohlemeyer",
+    "viaf": null
+  }
+}

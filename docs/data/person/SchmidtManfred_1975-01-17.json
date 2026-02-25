@@ -1,0 +1,87 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchmidtManfred_1975-01-17",
+  "name": "Manfred Schmidt",
+  "givenName": "Manfred",
+  "familyName": "Schmidt",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1929-04-29",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Treptow a. Tollense (heute: Altentreptow)"
+  },
+  "deathDate": "2005-01-30",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Pfarrer im Wartestand [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1975-01-17",
+      "endDate": "1976-12-13"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1976-12-14",
+      "endDate": "1980-11-04"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1120310415",
+    "https://de.wikipedia.org/wiki/Manfred_Schmidt_%28Politiker%2C_1929%29"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Manfred Schmidt",
+    "forename": "Manfred",
+    "surname": "Schmidt",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Wuppertal)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1929-04-29",
+    "place": "Treptow a. Tollense (heute: Altentreptow)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2005-01-30",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 7,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1975-01-17",
+      "to": "1976-12-13"
+    },
+    {
+      "period": 8,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1976-12-14",
+      "to": "1980-11-04"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002012",
+    "gnd": "https://d-nb.info/gnd/1120310415",
+    "wikipedia": "https://de.wikipedia.org/wiki/Manfred_Schmidt_%28Politiker%2C_1929%29",
+    "viaf": null
+  }
+}

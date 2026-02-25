@@ -1,0 +1,107 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "ArndtClaus_1968-06-04",
+  "name": "Claus Arndt",
+  "givenName": "Claus",
+  "familyName": "Arndt",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1927-04-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Marburg/Lahn"
+  },
+  "deathDate": "2014-02-10",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Senatsdirektor a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1968-06-04",
+      "endDate": "1969-10-19"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1969-10-20",
+      "endDate": "1972-09-22"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1974-05-20",
+      "endDate": "1976-12-13"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/118822861",
+    "https://de.wikipedia.org/wiki/Claus_Arndt"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Claus Arndt",
+    "forename": "Claus",
+    "surname": "Arndt",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Hamburg)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1927-04-16",
+    "place": "Marburg/Lahn",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2014-02-10",
+    "place": "Hamburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 5,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1968-06-04",
+      "to": "1969-10-19"
+    },
+    {
+      "period": 6,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1969-10-20",
+      "to": "1972-09-22"
+    },
+    {
+      "period": 7,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1974-05-20",
+      "to": "1976-12-13"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000048",
+    "gnd": "https://d-nb.info/gnd/118822861",
+    "wikipedia": "https://de.wikipedia.org/wiki/Claus_Arndt",
+    "viaf": null
+  }
+}

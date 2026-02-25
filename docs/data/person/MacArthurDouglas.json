@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "MacArthurDouglas",
+  "name": "Douglas MacArthur",
+  "givenName": "Douglas",
+  "familyName": "MacArthur",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1880-01-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Little Rock, Arkansas"
+  },
+  "deathDate": "1964-01-26",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Washington D.C."
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "US-General, 1951 entlassen"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/11878093X",
+    "https://de.wikipedia.org/wiki/Douglas_MacArthur"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Douglas MacArthur",
+    "forename": "Douglas",
+    "surname": "MacArthur",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1880-01-25",
+    "place": "Little Rock, Arkansas",
+    "country": "USA"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1964-01-26",
+    "place": "Washington D.C.",
+    "country": "USA"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/11878093X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Douglas_MacArthur",
+    "viaf": null
+  }
+}

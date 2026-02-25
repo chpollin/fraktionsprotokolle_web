@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "WagnerHans",
+  "name": "Hans Wagner",
+  "givenName": "Hans",
+  "familyName": "Wagner",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1915-05-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Nieder-Liebersbach (Odenwald)"
+  },
+  "deathDate": "1996-02-13",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Heppenheim/Bergstraße"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1950–1982 MdL Hessen (CDU), 1966–1970, 1972–1974 Vorsitzender der CDU-Landtagsfraktion"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/137966857",
+    "https://de.wikipedia.org/wiki/Hans_Wagner_(Politiker,_1915)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans Wagner",
+    "forename": "Hans",
+    "surname": "Wagner",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1915-05-05",
+    "place": "Nieder-Liebersbach (Odenwald)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1996-02-13",
+    "place": "Heppenheim/Bergstraße",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/137966857",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Wagner_(Politiker,_1915)",
+    "viaf": null
+  }
+}

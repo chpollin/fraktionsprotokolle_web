@@ -1,0 +1,69 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "EhmkeWolfgang_1983-03-29",
+  "name": "Wolfgang Ehmke",
+  "givenName": "Wolfgang",
+  "familyName": "Ehmke",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1946-01-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kolzow-Wartow/Krs. Wollin, Pommern (heute: Kołczewo, Polen)"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Konservator a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Die Grünen",
+        "alternateName": "Grüne"
+      },
+      "startDate": "1983-03-29",
+      "endDate": "1985-03-28"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1137158174"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Wolfgang Ehmke",
+    "forename": "Wolfgang",
+    "surname": "Ehmke",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Ettlingen)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1946-01-05",
+    "place": "Kolzow-Wartow/Krs. Wollin, Pommern (heute: Kołczewo, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 10,
+      "faction": "Grüne",
+      "faction_full": "Fraktion Die Grünen",
+      "from": "1983-03-29",
+      "to": "1985-03-28"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000441",
+    "gnd": "https://d-nb.info/gnd/1137158174",
+    "wikipedia": null,
+    "viaf": null
+  }
+}

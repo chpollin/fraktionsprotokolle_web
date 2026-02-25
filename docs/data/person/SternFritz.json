@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SternFritz",
+  "name": "Fritz Stern",
+  "givenName": "Fritz",
+  "familyName": "Stern",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1926-02-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Breslau (heute: Wrocław, Polen)"
+  },
+  "deathDate": "2016-05-18",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "New York"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "US-amerikanischer Historiker deutscher Herkunft"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/119491133",
+    "https://de.wikipedia.org/wiki/Fritz_Stern"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Fritz Stern",
+    "forename": "Fritz",
+    "surname": "Stern",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1926-02-02",
+    "place": "Breslau (heute: Wrocław, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2016-05-18",
+    "place": "New York",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/119491133",
+    "wikipedia": "https://de.wikipedia.org/wiki/Fritz_Stern",
+    "viaf": null
+  }
+}

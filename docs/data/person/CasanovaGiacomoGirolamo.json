@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "CasanovaGiacomoGirolamo",
+  "name": "Giacomo Girolamo Casanova",
+  "givenName": "Giacomo Girolamo",
+  "familyName": "Casanova",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1725-04-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Venedig"
+  },
+  "deathDate": "1798-06-04",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Schloss Dux"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "venezianischer Schriftsteller"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118519417",
+    "https://de.wikipedia.org/wiki/Giacomo_Casanova"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Giacomo Girolamo Casanova",
+    "forename": "Giacomo Girolamo",
+    "surname": "Casanova",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1725-04-02",
+    "place": "Venedig",
+    "country": "Republik Venedig (Italien)"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1798-06-04",
+    "place": "Schloss Dux",
+    "country": "Königreich Böhmen"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118519417",
+    "wikipedia": "https://de.wikipedia.org/wiki/Giacomo_Casanova",
+    "viaf": null
+  }
+}

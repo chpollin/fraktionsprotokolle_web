@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "KeynesJohnM",
+  "name": "John M. Keynes",
+  "givenName": "John M.",
+  "familyName": "Keynes",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1883-06-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Cambridge"
+  },
+  "deathDate": "1946-04-21",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Tilton bei Firle, East Sussex"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "britischer Nationalökonom"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118561804",
+    "https://de.wikipedia.org/wiki/John_Maynard_Keynes"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "John M. Keynes",
+    "forename": "John M.",
+    "surname": "Keynes",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1883-06-05",
+    "place": "Cambridge",
+    "country": "Großbritannien"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1946-04-21",
+    "place": "Tilton bei Firle, East Sussex",
+    "country": "Großbritannien"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118561804",
+    "wikipedia": "https://de.wikipedia.org/wiki/John_Maynard_Keynes",
+    "viaf": null
+  }
+}

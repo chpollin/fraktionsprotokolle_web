@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "KleyGisbert_1969-10-20",
+  "name": "Gisbert Kley",
+  "givenName": "Gisbert",
+  "familyName": "Kley",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1904-08-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Meseritz (heute: Międzyrzecz, Polen)"
+  },
+  "deathDate": "2001-03-23",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Vorstandsmitglied der Siemens AG [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1969-10-20",
+      "endDate": "1972-09-22"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1035287692",
+    "https://de.wikipedia.org/wiki/Gisbert_Kley"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Gisbert Kley",
+    "forename": "Gisbert",
+    "surname": "Kley",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1904-08-03",
+    "place": "Meseritz (heute: Międzyrzecz, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2001-03-23",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 6,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1969-10-20",
+      "to": "1972-09-22"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001129",
+    "gnd": "https://d-nb.info/gnd/1035287692",
+    "wikipedia": "https://de.wikipedia.org/wiki/Gisbert_Kley",
+    "viaf": null
+  }
+}

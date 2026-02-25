@@ -1,0 +1,104 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "WittmannSimon_1984-11-20",
+  "name": "Simon Wittmann",
+  "givenName": "Simon",
+  "familyName": "Wittmann",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1947-12-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Tännesberg/Krs. Neustadt-WN, Bayern"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Studienrat a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1984-11-20",
+      "endDate": "1987-02-18"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1996-08-21"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1060161494",
+    "https://de.wikipedia.org/wiki/Simon_Wittmann"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Simon Wittmann",
+    "forename": "Simon",
+    "surname": "Wittmann",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Tännesberg)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1947-12-14",
+    "place": "Tännesberg/Krs. Neustadt-WN, Bayern",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 10,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1984-11-20",
+      "to": "1987-02-18"
+    },
+    {
+      "period": 12,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1990-12-20",
+      "to": "1994-11-10"
+    },
+    {
+      "period": 13,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1994-11-10",
+      "to": "1996-08-21"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002543",
+    "gnd": "https://d-nb.info/gnd/1060161494",
+    "wikipedia": "https://de.wikipedia.org/wiki/Simon_Wittmann",
+    "viaf": null
+  }
+}

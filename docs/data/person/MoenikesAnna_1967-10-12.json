@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "MoenikesAnna_1967-10-12",
+  "name": "Anna Mönikes, geb. Wilkes",
+  "givenName": "Anna",
+  "familyName": "Mönikes",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1905-08-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Plaidt"
+  },
+  "deathDate": "1995-05-22",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Hausfrau [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1967-10-12",
+      "endDate": "1969-10-19"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1111928991",
+    "https://de.wikipedia.org/wiki/Anna_M%C3%B6nikes"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Anna Mönikes, geb. Wilkes",
+    "forename": "Anna",
+    "surname": "Mönikes",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1905-08-16",
+    "place": "Plaidt",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1995-05-22",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 5,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1967-10-12",
+      "to": "1969-10-19"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001524",
+    "gnd": "https://d-nb.info/gnd/1111928991",
+    "wikipedia": "https://de.wikipedia.org/wiki/Anna_M%C3%B6nikes",
+    "viaf": null
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "AlltschekowPeter_1994-08-03",
+  "name": "Peter Alltschekow",
+  "givenName": "Peter",
+  "familyName": "Alltschekow",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1949-03-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Rollshausen/Krs. Duderstadt"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Ministerialrat [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1994-08-03",
+      "endDate": "1994-11-10"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1225348110",
+    "https://de.wikipedia.org/wiki/Peter_Alltschekow"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Peter Alltschekow",
+    "forename": "Peter",
+    "surname": "Alltschekow",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1949-03-28",
+    "place": "Rollshausen/Krs. Duderstadt",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 12,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1994-08-03",
+      "to": "1994-11-10"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000026",
+    "gnd": "https://d-nb.info/gnd/1225348110",
+    "wikipedia": "https://de.wikipedia.org/wiki/Peter_Alltschekow",
+    "viaf": null
+  }
+}

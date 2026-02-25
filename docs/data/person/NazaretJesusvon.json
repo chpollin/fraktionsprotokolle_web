@@ -1,0 +1,55 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "NazaretJesusvon",
+  "name": "Jesus von Nazaret, auch: Jesus Christus",
+  "givenName": "Jesus",
+  "familyName": "Nazaret",
+  "gender": "https://schema.org/Male",
+  "birthDate": "-0004",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Nazareth"
+  },
+  "deathDate": "0030",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Jerusalem"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "jüdischer Wanderprediger, Religiöser Führer, Begründer des Christentums"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118557513",
+    "https://de.wikipedia.org/wiki/Jesus_von_Nazaret"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Jesus von Nazaret, auch: Jesus Christus",
+    "forename": "Jesus",
+    "surname": "Nazaret",
+    "prefix": "von",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "-0004",
+    "place": "Nazareth",
+    "country": "Römisches Reich (heute: Israel)"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "0030",
+    "place": "Jerusalem",
+    "country": "Römisches Reich (heute: Israel)"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118557513",
+    "wikipedia": "https://de.wikipedia.org/wiki/Jesus_von_Nazaret",
+    "viaf": null
+  },
+  "fraktionsprotokolle:sonstiges": "auf Befehl des römischen Präfekten Pontius Pilatus von römischen Soldaten gekreuzigt, zentrale Figur des Christentums"
+}

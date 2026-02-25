@@ -1,0 +1,87 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "RodeHelmut_1983-03-29",
+  "name": "Helmut Rode",
+  "givenName": "Helmut",
+  "familyName": "Rode",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1931-02-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Nienburg/Weser"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Selbständiger Unternehmer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1983-03-29",
+      "endDate": "1987-02-18"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1210918641",
+    "https://de.wikipedia.org/wiki/Helmut_Rode"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Helmut Rode",
+    "forename": "Helmut",
+    "surname": "Rode",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Wietzen)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1931-02-28",
+    "place": "Nienburg/Weser",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 10,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1983-03-29",
+      "to": "1987-02-18"
+    },
+    {
+      "period": 12,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1990-12-20",
+      "to": "1994-11-10"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001864",
+    "gnd": "https://d-nb.info/gnd/1210918641",
+    "wikipedia": "https://de.wikipedia.org/wiki/Helmut_Rode",
+    "viaf": null
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "EckardtPeter_1990-12-20",
+  "name": "Peter Eckardt",
+  "givenName": "Peter",
+  "familyName": "Eckardt",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1940-10-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Apolda/Thüringen"
+  },
+  "deathDate": "2023-08-28",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Politologe [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1998-10-26",
+      "endDate": "2002-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1330231023",
+    "https://de.wikipedia.org/wiki/Peter_Eckardt"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Peter Eckardt",
+    "forename": "Peter",
+    "surname": "Eckardt",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1940-10-13",
+    "place": "Apolda/Thüringen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2023-08-28",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 12,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1990-12-20",
+      "to": "1994-11-10"
+    },
+    {
+      "period": 14,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1998-10-26",
+      "to": "2002-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000431",
+    "gnd": "https://d-nb.info/gnd/1330231023",
+    "wikipedia": "https://de.wikipedia.org/wiki/Peter_Eckardt",
+    "viaf": null
+  }
+}

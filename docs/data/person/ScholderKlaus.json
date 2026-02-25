@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "ScholderKlaus",
+  "name": "Klaus Scholder",
+  "givenName": "Klaus",
+  "familyName": "Scholder",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1930-01-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Erlangen"
+  },
+  "deathDate": "1985-04-10",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Tübingen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "evangelischer Theologe, Professor für Kirchengeschichte an der Universität Tübingen, Mitglied der FDP"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/122211375",
+    "https://de.wikipedia.org/wiki/Klaus_Scholder"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Klaus Scholder",
+    "forename": "Klaus",
+    "surname": "Scholder",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1930-01-12",
+    "place": "Erlangen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1985-04-10",
+    "place": "Tübingen",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/122211375",
+    "wikipedia": "https://de.wikipedia.org/wiki/Klaus_Scholder",
+    "viaf": null
+  }
+}

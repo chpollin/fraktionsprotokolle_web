@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "DoeSamuelKanyon",
+  "name": "Samuel Kanyon Doe",
+  "givenName": "Samuel Kanyon",
+  "familyName": "Doe",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1951-05-06",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Tuzon"
+  },
+  "deathDate": "1990-09-09",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Monrovia"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "ab 1980 Staatschef, 1986–1990 Staatspräsident Liberias"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/170816117",
+    "https://de.wikipedia.org/wiki/Samuel_K._Doe"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Samuel Kanyon Doe",
+    "forename": "Samuel Kanyon",
+    "surname": "Doe",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1951-05-06",
+    "place": "Tuzon",
+    "country": "Liberia"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1990-09-09",
+    "place": "Monrovia",
+    "country": "Liberia"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/170816117",
+    "wikipedia": "https://de.wikipedia.org/wiki/Samuel_K._Doe",
+    "viaf": null
+  }
+}

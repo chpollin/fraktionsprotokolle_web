@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SassnickWalter_1949-09-07",
+  "name": "Walter Sassnick",
+  "givenName": "Walter",
+  "familyName": "Sassnick",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1895-03-10",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "deathDate": "1955-11-06",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Nürnberg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Chefredakteur [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1955-11-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/116973587",
+    "https://de.wikipedia.org/wiki/Walter_Sassnick"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Walter Sassnick",
+    "forename": "Walter",
+    "surname": "Sassnick",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1895-03-10",
+    "place": "Bonn",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1955-11-06",
+    "place": "Nürnberg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 2,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1953-10-06",
+      "to": "1955-11-06"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001920",
+    "gnd": "https://d-nb.info/gnd/116973587",
+    "wikipedia": "https://de.wikipedia.org/wiki/Walter_Sassnick",
+    "viaf": null
+  }
+}

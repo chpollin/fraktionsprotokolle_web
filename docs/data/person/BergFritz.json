@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BergFritz",
+  "name": "Fritz Berg",
+  "givenName": "Fritz",
+  "familyName": "Berg",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1901-08-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Altena"
+  },
+  "deathDate": "1979-02-03",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Köln"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Fabrikant, 1949–1971 Präsident des Bundesverbands der Deutschen Industrie"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118655876",
+    "https://de.wikipedia.org/wiki/Fritz_Berg"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Fritz Berg",
+    "forename": "Fritz",
+    "surname": "Berg",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1901-08-27",
+    "place": "Altena",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1979-02-03",
+    "place": "Köln",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118655876",
+    "wikipedia": "https://de.wikipedia.org/wiki/Fritz_Berg",
+    "viaf": null
+  }
+}

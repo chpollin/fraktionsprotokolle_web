@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SteinhauerKarl_1957-04-12",
+  "name": "Karl Steinhauer",
+  "givenName": "Karl",
+  "familyName": "Steinhauer",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1902-08-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Saarbrücken"
+  },
+  "deathDate": "1981-03-13",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Riegelsberg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsberater [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1957-04-12",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1314612778",
+    "https://de.wikipedia.org/wiki/Karl_Steinhauer"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Karl Steinhauer",
+    "forename": "Karl",
+    "surname": "Steinhauer",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1902-08-19",
+    "place": "Saarbrücken",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1981-03-13",
+    "place": "Riegelsberg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1957-04-12",
+      "to": "1957-10-06"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002237",
+    "gnd": "https://d-nb.info/gnd/1314612778",
+    "wikipedia": "https://de.wikipedia.org/wiki/Karl_Steinhauer",
+    "viaf": null
+  }
+}

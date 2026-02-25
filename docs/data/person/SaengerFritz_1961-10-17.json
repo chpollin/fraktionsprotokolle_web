@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SaengerFritz_1961-10-17",
+  "name": "Fritz Sänger",
+  "givenName": "Fritz",
+  "familyName": "Sänger",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1901-12-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Stettin (heute: Szczecin, Polen)"
+  },
+  "deathDate": "1984-07-30",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1965-10-19",
+      "endDate": "1969-10-19"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/118604791",
+    "https://de.wikipedia.org/wiki/Fritz_S%C3%A4nger"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Fritz Sänger",
+    "forename": "Fritz",
+    "surname": "Sänger",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1901-12-24",
+    "place": "Stettin (heute: Szczecin, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1984-07-30",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 4,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    },
+    {
+      "period": 5,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001914",
+    "gnd": "https://d-nb.info/gnd/118604791",
+    "wikipedia": "https://de.wikipedia.org/wiki/Fritz_S%C3%A4nger",
+    "viaf": null
+  }
+}

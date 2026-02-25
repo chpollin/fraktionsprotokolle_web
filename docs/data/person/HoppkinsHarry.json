@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HoppkinsHarry",
+  "name": "Harry Hoppkins",
+  "givenName": "Harry",
+  "familyName": "Hoppkins",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1890-08-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Sioux City, Iowa"
+  },
+  "deathDate": "1946-01-29",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "New York"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1938–1940 amerikanischer Handelsminister"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118774913",
+    "https://de.wikipedia.org/wiki/Harry_Hopkins"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Harry Hoppkins",
+    "forename": "Harry",
+    "surname": "Hoppkins",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1890-08-17",
+    "place": "Sioux City, Iowa",
+    "country": "USA"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1946-01-29",
+    "place": "New York",
+    "country": "USA"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118774913",
+    "wikipedia": "https://de.wikipedia.org/wiki/Harry_Hopkins",
+    "viaf": null
+  }
+}

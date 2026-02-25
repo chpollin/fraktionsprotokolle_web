@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "PeterI",
+  "name": "Peter I., der Große",
+  "givenName": "Pjotr Alexejewitsch",
+  "familyName": "Romanow",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1672-06-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Moskau"
+  },
+  "deathDate": "1725-02-08",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Sankt Petersburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1682–1725 Zar und Kaiser von Russland"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118592955",
+    "https://de.wikipedia.org/wiki/Peter_der_Gro%C3%9Fe"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Peter I., der Große",
+    "forename": "Pjotr Alexejewitsch",
+    "surname": "Romanow",
+    "prefix": "",
+    "role_name": "Zar",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1672-06-09",
+    "place": "Moskau",
+    "country": "Moskauer Reich (heute: Russland)"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1725-02-08",
+    "place": "Sankt Petersburg",
+    "country": "Russisches Kaiserreich"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118592955",
+    "wikipedia": "https://de.wikipedia.org/wiki/Peter_der_Gro%C3%9Fe",
+    "viaf": null
+  }
+}

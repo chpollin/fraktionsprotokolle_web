@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BeermannHermann",
+  "name": "Hermann Beermann",
+  "givenName": "Hermann",
+  "familyName": "Beermann",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1903-08-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Linden bei Hannover"
+  },
+  "deathDate": "1973-08-18",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Neuss"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1953–1967 Vorsitzender des Verwaltungsrats bzw. Vorstandsvorsitzender der Bundesanstalt für Arbeitsvermittlung und Arbeitslosenversicherung, 1956–1969 Mitgl. des Bundesvorstands und 1962–1969 stv. Bundesvorsitzender des DGB"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/123554160",
+    "https://de.wikipedia.org/wiki/Hermann_Beermann"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Hermann Beermann",
+    "forename": "Hermann",
+    "surname": "Beermann",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1903-08-28",
+    "place": "Linden bei Hannover",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1973-08-18",
+    "place": "Neuss",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/123554160",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hermann_Beermann",
+    "viaf": null
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SalingerPierre",
+  "name": "Pierre Salinger",
+  "givenName": "Pierre",
+  "familyName": "Salinger",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1925-06-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "San Francisco, Kalifornien"
+  },
+  "deathDate": "2004-10-16",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Cavaillon"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1959–1964 Pressesprecher des US-amerikanischen Präsidenten"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/119400324",
+    "https://de.wikipedia.org/wiki/Pierre_Salinger"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Pierre Salinger",
+    "forename": "Pierre",
+    "surname": "Salinger",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1925-06-14",
+    "place": "San Francisco, Kalifornien",
+    "country": "USA"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2004-10-16",
+    "place": "Cavaillon",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/119400324",
+    "wikipedia": "https://de.wikipedia.org/wiki/Pierre_Salinger",
+    "viaf": null
+  }
+}

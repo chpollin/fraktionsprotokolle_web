@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "AquinThomasvon",
+  "name": "Thomas von Aquin",
+  "givenName": "Thomas",
+  "familyName": "Aquin",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1225",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Schloss Roccasecca bei Aquin"
+  },
+  "deathDate": "1274-03-07",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Fossanova"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dominikaner, Theologe und Philosoph"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118622110",
+    "https://de.wikipedia.org/wiki/Thomas_von_Aquin"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Thomas von Aquin",
+    "forename": "Thomas",
+    "surname": "Aquin",
+    "prefix": "von",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1225",
+    "place": "Schloss Roccasecca bei Aquin",
+    "country": "Italien"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1274-03-07",
+    "place": "Fossanova",
+    "country": "Italien"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118622110",
+    "wikipedia": "https://de.wikipedia.org/wiki/Thomas_von_Aquin",
+    "viaf": null
+  }
+}

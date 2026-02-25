@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "KuengHans",
+  "name": "Hans Küng",
+  "givenName": "Hans",
+  "familyName": "Küng",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1928-03-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Sursee, Kanton Luzern"
+  },
+  "deathDate": "2021-04-06",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Tübingen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Schweizer Theologieprofessor am Institut für ökumenische Studien der Universität Tübingen"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118567705",
+    "https://de.wikipedia.org/wiki/Hans_K%C3%BCng"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans Küng",
+    "forename": "Hans",
+    "surname": "Küng",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1928-03-19",
+    "place": "Sursee, Kanton Luzern",
+    "country": "Schweiz"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2021-04-06",
+    "place": "Tübingen",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118567705",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_K%C3%BCng",
+    "viaf": null
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "PiafEdith",
+  "name": "Édith Piaf, geb. Édith Giovanna Gassion",
+  "givenName": "Édith",
+  "familyName": "Piaf",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1915-12-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "deathDate": "1963-10-10",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Plascassier"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Chansonnière, Texterin, Komponistin und Schauspielerin"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118594125",
+    "https://de.wikipedia.org/wiki/%C3%89dith_Piaf"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Édith Piaf, geb. Édith Giovanna Gassion",
+    "forename": "Édith",
+    "surname": "Piaf",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1915-12-19",
+    "place": "Paris",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1963-10-10",
+    "place": "Plascassier",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118594125",
+    "wikipedia": "https://de.wikipedia.org/wiki/%C3%89dith_Piaf",
+    "viaf": null
+  }
+}

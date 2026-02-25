@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "StopperichHermann_1949-09-07",
+  "name": "Hermann Stopperich",
+  "givenName": "Hermann",
+  "familyName": "Stopperich",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1895-09-21",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Dahlhausen"
+  },
+  "deathDate": "1952-01-06",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Wattenscheid"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Finanz- und Verwaltungsbeamter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1952-01-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/133023104X",
+    "https://de.wikipedia.org/wiki/Hermann_Stopperich"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hermann Stopperich",
+    "forename": "Hermann",
+    "surname": "Stopperich",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1895-09-21",
+    "place": "Dahlhausen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1952-01-06",
+    "place": "Wattenscheid",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1949-09-07",
+      "to": "1952-01-06"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002263",
+    "gnd": "https://d-nb.info/gnd/133023104X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hermann_Stopperich",
+    "viaf": null
+  }
+}

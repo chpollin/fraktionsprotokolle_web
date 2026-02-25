@@ -1,0 +1,69 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "DannHeidemarie_1985-03-02",
+  "name": "Heidemarie Dann",
+  "givenName": "Heidemarie",
+  "familyName": "Dann",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1950-03-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Ludwigshafen/Rhein"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Pädagogin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Die Grünen",
+        "alternateName": "Grüne"
+      },
+      "startDate": "1985-03-02",
+      "endDate": "1987-02-18"
+    }
+  ],
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Heidemarie_Dann"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Heidemarie Dann",
+    "forename": "Heidemarie",
+    "surname": "Dann",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1950-03-27",
+    "place": "Ludwigshafen/Rhein",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 10,
+      "faction": "Grüne",
+      "faction_full": "Fraktion Die Grünen",
+      "from": "1985-03-02",
+      "to": "1987-02-18"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000354",
+    "gnd": null,
+    "wikipedia": "https://de.wikipedia.org/wiki/Heidemarie_Dann",
+    "viaf": null
+  }
+}

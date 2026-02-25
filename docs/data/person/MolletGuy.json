@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "MolletGuy",
+  "name": "Guy Mollet",
+  "givenName": "Guy",
+  "familyName": "Mollet",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1905-12-31",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Flers, Normandie"
+  },
+  "deathDate": "1975-10-03",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "frz. Politiker (SFIO), 1944–1975 Bürgermeister von Arras, 1946–1969 Generalsekretär der französischen Sozialisten, 1946–1975 Mitglied der französischen Nationalversammlung"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/119063344",
+    "https://de.wikipedia.org/wiki/Guy_Mollet"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Guy Mollet",
+    "forename": "Guy",
+    "surname": "Mollet",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1905-12-31",
+    "place": "Flers, Normandie",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1975-10-03",
+    "place": "Paris",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/119063344",
+    "wikipedia": "https://de.wikipedia.org/wiki/Guy_Mollet",
+    "viaf": null
+  }
+}

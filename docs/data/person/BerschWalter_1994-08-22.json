@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BerschWalter_1994-08-22",
+  "name": "Walter Bersch",
+  "givenName": "Walter",
+  "familyName": "Bersch",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1954-04-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Boppard"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Politologe [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1994-08-22",
+      "endDate": "1994-11-10"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1025697197",
+    "https://de.wikipedia.org/wiki/Walter_Bersch"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Walter Bersch",
+    "forename": "Walter",
+    "surname": "Bersch",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1954-04-07",
+    "place": "Boppard",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 12,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1994-08-22",
+      "to": "1994-11-10"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000162",
+    "gnd": "https://d-nb.info/gnd/1025697197",
+    "wikipedia": "https://de.wikipedia.org/wiki/Walter_Bersch",
+    "viaf": null
+  }
+}

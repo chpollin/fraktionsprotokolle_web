@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "GebhardtFred_1998-10-26",
+  "name": "Fred Gebhardt",
+  "givenName": "Fred",
+  "familyName": "Gebhardt",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1928-02-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bayreuth"
+  },
+  "deathDate": "2000-08-15",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Stadtrat a. D., Verwaltungsangestellter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Partei des Demokratischen Sozialismus",
+        "alternateName": "PDS"
+      },
+      "startDate": "1998-10-26",
+      "endDate": "2000-08-15"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Fred Gebhardt",
+    "forename": "Fred",
+    "surname": "Gebhardt",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1928-02-27",
+    "place": "Bayreuth",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2000-08-15",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 14,
+      "faction": "PDS",
+      "faction_full": "Fraktion der Partei des Demokratischen Sozialismus",
+      "from": "1998-10-26",
+      "to": "2000-08-15"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11003127",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

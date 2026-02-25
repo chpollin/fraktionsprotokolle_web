@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "GinsbergAllen",
+  "name": "Allen Ginsberg",
+  "givenName": "Allen",
+  "familyName": "Ginsberg",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1926-06-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Paterson, New Jersey"
+  },
+  "deathDate": "1997-04-05",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "New York City, New York"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "US-amerikanischer Dichter und Schriftsteller"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/11853940X",
+    "https://de.wikipedia.org/wiki/Allen_Ginsberg"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Allen Ginsberg",
+    "forename": "Allen",
+    "surname": "Ginsberg",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1926-06-03",
+    "place": "Paterson, New Jersey",
+    "country": "USA"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1997-04-05",
+    "place": "New York City, New York",
+    "country": "USA"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/11853940X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Allen_Ginsberg",
+    "viaf": null
+  }
+}

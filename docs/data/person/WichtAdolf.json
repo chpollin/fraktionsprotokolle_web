@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "WichtAdolf",
+  "name": "Adolf Wicht",
+  "givenName": "Adolf",
+  "familyName": "Wicht",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1910-01-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Danzig (heute: Gdańsk, Polen)"
+  },
+  "deathDate": "1996-04-23",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "BND-Mitarbeiter, 1958–1968 Generalstab Bundeswehr (Offz.)"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/108300915X",
+    "https://de.wikipedia.org/wiki/Adolf_Wicht"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Adolf Wicht",
+    "forename": "Adolf",
+    "surname": "Wicht",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1910-01-19",
+    "place": "Danzig (heute: Gdańsk, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1996-04-23",
+    "place": "Hamburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/108300915X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Adolf_Wicht",
+    "viaf": null
+  }
+}

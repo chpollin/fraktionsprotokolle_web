@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "VeitHermann_1949-09-07",
+  "name": "Hermann Veit",
+  "givenName": "Hermann",
+  "familyName": "Veit",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1897-04-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Karlsruhe"
+  },
+  "deathDate": "1973-03-15",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Karlsruhe"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1956–1973 MdL Baden-Württemberg (SPD), 1952–1960 Wirtschaftsminister und stellvertretender Ministerpräsident [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1953-12-10"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/132218100",
+    "https://de.wikipedia.org/wiki/Hermann_Veit"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hermann Veit",
+    "forename": "Hermann",
+    "surname": "Veit",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1897-04-13",
+    "place": "Karlsruhe",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1973-03-15",
+    "place": "Karlsruhe",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 2,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1953-10-06",
+      "to": "1953-12-10"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002364",
+    "gnd": "https://d-nb.info/gnd/132218100",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hermann_Veit",
+    "viaf": null
+  }
+}

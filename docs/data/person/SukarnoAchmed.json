@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SukarnoAchmed",
+  "name": "Achmed Sukarno",
+  "givenName": "Achmed",
+  "familyName": "Sukarno",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1901-06-06",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Surabaya"
+  },
+  "deathDate": "1970-06-21",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Jakarta"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1945/1949–1967 Präsident der Republik Indonesien"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118619985",
+    "https://de.wikipedia.org/wiki/Sukarno"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Achmed Sukarno",
+    "forename": "Achmed",
+    "surname": "Sukarno",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1901-06-06",
+    "place": "Surabaya",
+    "country": "Java, Niederländisch-Indien"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1970-06-21",
+    "place": "Jakarta",
+    "country": "Indonesien"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118619985",
+    "wikipedia": "https://de.wikipedia.org/wiki/Sukarno",
+    "viaf": null
+  }
+}

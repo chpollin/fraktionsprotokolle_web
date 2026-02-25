@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "TritzMarianne_2002-10-17",
+  "name": "Marianne Tritz",
+  "givenName": "Marianne",
+  "familyName": "Tritz",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1964-01-21",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Dannenberg/Elbe"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Erzieherin, Referentin für Kultur-Medien und Öffentlichkeitsarbeit [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Bündnis 90/Die Grünen",
+        "alternateName": "B90/Grüne"
+      },
+      "startDate": "2002-10-17",
+      "endDate": "2005-10-18"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Marianne Tritz",
+    "forename": "Marianne",
+    "surname": "Tritz",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1964-01-21",
+    "place": "Dannenberg/Elbe",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 15,
+      "faction": "B90/Grüne",
+      "faction_full": "Fraktion Bündnis 90/Die Grünen",
+      "from": "2002-10-17",
+      "to": "2005-10-18"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11003647",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

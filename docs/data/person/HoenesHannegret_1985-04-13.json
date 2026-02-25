@@ -1,0 +1,69 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HoenesHannegret_1985-04-13",
+  "name": "Hannegret Hönes",
+  "givenName": "Hannegret",
+  "familyName": "Hönes",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1946-01-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Mollnitz a. d. Elbe"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalistin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Die Grünen",
+        "alternateName": "Grüne"
+      },
+      "startDate": "1985-04-13",
+      "endDate": "1987-02-18"
+    }
+  ],
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Hannegret_H%C3%B6nes"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hannegret Hönes",
+    "forename": "Hannegret",
+    "surname": "Hönes",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1946-01-16",
+    "place": "Mollnitz a. d. Elbe",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 10,
+      "faction": "Grüne",
+      "faction_full": "Fraktion Die Grünen",
+      "from": "1985-04-13",
+      "to": "1987-02-18"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000924",
+    "gnd": null,
+    "wikipedia": "https://de.wikipedia.org/wiki/Hannegret_H%C3%B6nes",
+    "viaf": null
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "EbertFriedrich",
+  "name": "Friedrich Ebert",
+  "givenName": "Friedrich",
+  "familyName": "Ebert",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1871-02-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Heidelberg"
+  },
+  "deathDate": "1925-02-28",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Politiker (SPD), 1919–1925 erster Reichspräsident des Deutschen Reiches"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118528610",
+    "https://de.wikipedia.org/wiki/Friedrich_Ebert"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Friedrich Ebert",
+    "forename": "Friedrich",
+    "surname": "Ebert",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1871-02-04",
+    "place": "Heidelberg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1925-02-28",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118528610",
+    "wikipedia": "https://de.wikipedia.org/wiki/Friedrich_Ebert",
+    "viaf": null
+  }
+}

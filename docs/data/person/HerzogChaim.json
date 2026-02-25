@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HerzogChaim",
+  "name": "Chaim Herzog",
+  "givenName": "Chaim",
+  "familyName": "Herzog",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1918-09-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Belfast"
+  },
+  "deathDate": "1997-04-17",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Tel Aviv"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1983–1993 Präsident des Staates Israel"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/119478919",
+    "https://de.wikipedia.org/wiki/Chaim_Herzog"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Chaim Herzog",
+    "forename": "Chaim",
+    "surname": "Herzog",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1918-09-17",
+    "place": "Belfast",
+    "country": "Großbritannien"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1997-04-17",
+    "place": "Tel Aviv",
+    "country": "Israel"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/119478919",
+    "wikipedia": "https://de.wikipedia.org/wiki/Chaim_Herzog",
+    "viaf": null
+  }
+}

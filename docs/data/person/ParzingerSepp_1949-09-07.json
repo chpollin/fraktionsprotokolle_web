@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "ParzingerSepp_1949-09-07",
+  "name": "Sepp Parzinger",
+  "givenName": "Sepp",
+  "familyName": "Parzinger",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1911-05-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Altenmarkt/Osterhofen"
+  },
+  "deathDate": "1979-06-28",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Altenmarkt an der Alz"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Maurer, Unternehmer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Bayernpartei",
+        "alternateName": "BP"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Föderalistische Union",
+        "alternateName": "FU"
+      },
+      "startDate": "1951-12-14",
+      "endDate": "1953-09-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1313812811",
+    "https://de.wikipedia.org/wiki/Sepp_Parzinger"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Sepp Parzinger",
+    "forename": "Sepp",
+    "surname": "Parzinger",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1911-05-03",
+    "place": "Altenmarkt/Osterhofen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1979-06-28",
+    "place": "Altenmarkt an der Alz",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "BP",
+      "faction_full": "Fraktion Bayernpartei",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 1,
+      "faction": "FU",
+      "faction_full": "Fraktion Föderalistische Union",
+      "from": "1951-12-14",
+      "to": "1953-09-07"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001677",
+    "gnd": "https://d-nb.info/gnd/1313812811",
+    "wikipedia": "https://de.wikipedia.org/wiki/Sepp_Parzinger",
+    "viaf": null
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "Tausch-TremlFranz_1957-06-25",
+  "name": "Franz Tausch-Treml, Pseudonym: Franz Tausch",
+  "givenName": "Franz",
+  "familyName": "Tausch-Treml",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1901-07-10",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Rehberg-Schätzenreith, Sudetenland (heute: Srní, Tschechische Republik)"
+  },
+  "deathDate": "1986-07-30",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Senatsangestellter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1957-06-25",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Franz_Tausch-Treml"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Franz Tausch-Treml, Pseudonym: Franz Tausch",
+    "forename": "Franz",
+    "surname": "Tausch-Treml",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1901-07-10",
+    "place": "Rehberg-Schätzenreith, Sudetenland (heute: Srní, Tschechische Republik)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1986-07-30",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1957-06-25",
+      "to": "1957-10-06"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002301",
+    "gnd": null,
+    "wikipedia": "https://de.wikipedia.org/wiki/Franz_Tausch-Treml",
+    "viaf": null
+  }
+}

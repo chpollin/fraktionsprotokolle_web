@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "FriedErich",
+  "name": "Erich Fried",
+  "givenName": "Erich",
+  "familyName": "Fried",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1921-05-06",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Wien"
+  },
+  "deathDate": "1988-11-22",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Baden-Baden"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "österreichischer Lyriker, Übersetzer und Essayist"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118703145",
+    "https://de.wikipedia.org/wiki/Erich_Fried"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Erich Fried",
+    "forename": "Erich",
+    "surname": "Fried",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1921-05-06",
+    "place": "Wien",
+    "country": "Österreich"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1988-11-22",
+    "place": "Baden-Baden",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118703145",
+    "wikipedia": "https://de.wikipedia.org/wiki/Erich_Fried",
+    "viaf": null
+  }
+}

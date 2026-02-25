@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "LadebeckArtur_1953-10-06",
+  "name": "Artur Ladebeck",
+  "givenName": "Artur",
+  "familyName": "Ladebeck",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1891-04-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "1963-10-12",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bielefeld"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Lehrer, Rektor, Oberbürgermeister [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/116643706",
+    "https://de.wikipedia.org/wiki/Artur_Ladebeck"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Artur Ladebeck",
+    "forename": "Artur",
+    "surname": "Ladebeck",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1891-04-17",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1963-10-12",
+    "place": "Bielefeld",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001265",
+    "gnd": "https://d-nb.info/gnd/116643706",
+    "wikipedia": "https://de.wikipedia.org/wiki/Artur_Ladebeck",
+    "viaf": null
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BennemannOtto",
+  "name": "Otto Bennemann",
+  "givenName": "Otto",
+  "familyName": "Bennemann",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1903-09-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Braunschweig"
+  },
+  "deathDate": "2003-05-22",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Braunschweig"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Politiker (SPD), Oberbürgermeister Braunschweigs, niedersächsischer Innenminister"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/119073552",
+    "https://de.wikipedia.org/wiki/Otto_Bennemann"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Otto Bennemann",
+    "forename": "Otto",
+    "surname": "Bennemann",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1903-09-27",
+    "place": "Braunschweig",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2003-05-22",
+    "place": "Braunschweig",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/119073552",
+    "wikipedia": "https://de.wikipedia.org/wiki/Otto_Bennemann",
+    "viaf": null
+  }
+}

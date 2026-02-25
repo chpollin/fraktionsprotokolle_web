@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "FrieseHermann_1953-10-06",
+  "name": "Hermann Friese",
+  "givenName": "Hermann",
+  "familyName": "Friese",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1911-01-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Meppen"
+  },
+  "deathDate": "1996-01-05",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Meppen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Malermeister [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/103472455X",
+    "https://de.wikipedia.org/wiki/Hermann_Friese_(Politiker)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hermann Friese",
+    "forename": "Hermann",
+    "surname": "Friese",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1911-01-13",
+    "place": "Meppen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1996-01-05",
+    "place": "Meppen",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000596",
+    "gnd": "https://d-nb.info/gnd/103472455X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hermann_Friese_(Politiker)",
+    "viaf": null
+  }
+}

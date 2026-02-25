@@ -1,0 +1,51 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "PecherOtto",
+  "name": "Otto Pecher",
+  "givenName": "Otto",
+  "familyName": "Pecher",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1903-04-29",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Cottbus"
+  },
+  "deathDate": "1996-05-02",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Richter am Bundesarbeitsgericht in Kassel"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/1030297932",
+    "https://de.wikipedia.org/wiki/Otto_Pecher"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Otto Pecher",
+    "forename": "Otto",
+    "surname": "Pecher",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1903-04-29",
+    "place": "Cottbus",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1996-05-02",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/1030297932",
+    "wikipedia": "https://de.wikipedia.org/wiki/Otto_Pecher",
+    "viaf": null
+  }
+}

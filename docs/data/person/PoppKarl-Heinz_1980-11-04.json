@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "PoppKarl-Heinz_1980-11-04",
+  "name": "Karl-Heinz Popp",
+  "givenName": "Karl-Heinz",
+  "familyName": "Popp",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1934-09-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Regensburg"
+  },
+  "deathDate": "2012-01-14",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Ingenieur, Studiendirektor a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1980-11-04",
+      "endDate": "1983-03-29"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Karl-Heinz Popp",
+    "forename": "Karl-Heinz",
+    "surname": "Popp",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1934-09-17",
+    "place": "Regensburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2012-01-14",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 9,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1980-11-04",
+      "to": "1983-03-29"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001735",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BrauneHeinrich",
+  "name": "Heinrich",
+  "givenName": "Heinrich",
+  "familyName": "Braune",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1904-08-11",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Lüneburg"
+  },
+  "deathDate": "1990-11-14",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Chefredakteur, Drehbuchautor"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/1132365783",
+    "https://de.wikipedia.org/wiki/Heinrich_Braune"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Heinrich",
+    "forename": "Heinrich",
+    "surname": "Braune",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1904-08-11",
+    "place": "Lüneburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1990-11-14",
+    "place": "Hamburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/1132365783",
+    "wikipedia": "https://de.wikipedia.org/wiki/Heinrich_Braune",
+    "viaf": null
+  }
+}

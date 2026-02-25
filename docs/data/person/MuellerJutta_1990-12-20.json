@@ -1,0 +1,107 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "MuellerJutta_1990-12-20",
+  "name": "Jutta Müller",
+  "givenName": "Jutta",
+  "familyName": "Müller",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1957-08-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Völklingen"
+  },
+  "deathDate": "2019-01-27",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Völklingen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Sparkassenfachwirtin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-10-26"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1998-10-26",
+      "endDate": "2002-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1314612824",
+    "https://de.wikipedia.org/wiki/Jutta_M%C3%BCller_(Politikerin)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Jutta Müller",
+    "forename": "Jutta",
+    "surname": "Müller",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Völklingen)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1957-08-14",
+    "place": "Völklingen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2019-01-27",
+    "place": "Völklingen",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 12,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1990-12-20",
+      "to": "1994-11-10"
+    },
+    {
+      "period": 13,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1994-11-10",
+      "to": "1998-10-26"
+    },
+    {
+      "period": 14,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1998-10-26",
+      "to": "2002-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001556",
+    "gnd": "https://d-nb.info/gnd/1314612824",
+    "wikipedia": "https://de.wikipedia.org/wiki/Jutta_M%C3%BCller_(Politikerin)",
+    "viaf": null
+  }
+}

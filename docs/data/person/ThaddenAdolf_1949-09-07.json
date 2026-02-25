@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "ThaddenAdolf_1949-09-07",
+  "name": "Adolf von Thadden",
+  "givenName": "Adolf",
+  "familyName": "Thadden",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1921-07-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Gut Trieglaff bei Greifenberg/Pommern (heute: Trzygłów, Polen)"
+  },
+  "deathDate": "1996-07-17",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bad Oeynhausen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist, Landwirt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Deutsche Reichspartei",
+        "alternateName": "DRP"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktionslos",
+        "alternateName": "Fraktionslos"
+      },
+      "startDate": "1951-10-24",
+      "endDate": "1953-09-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/11875663X",
+    "https://de.wikipedia.org/wiki/Adolf_von_Thadden"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Adolf von Thadden",
+    "forename": "Adolf",
+    "surname": "Thadden",
+    "prefix": "von",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1921-07-07",
+    "place": "Gut Trieglaff bei Greifenberg/Pommern (heute: Trzygłów, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1996-07-17",
+    "place": "Bad Oeynhausen",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "DRP",
+      "faction_full": "Fraktion Deutsche Reichspartei",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 1,
+      "faction": "Fraktionslos",
+      "faction_full": "Fraktionslos",
+      "from": "1951-10-24",
+      "to": "1953-09-07"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002309",
+    "gnd": "https://d-nb.info/gnd/11875663X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Adolf_von_Thadden",
+    "viaf": null
+  }
+}

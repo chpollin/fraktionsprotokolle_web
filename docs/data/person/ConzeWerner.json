@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "ConzeWerner",
+  "name": "Werner Conze",
+  "givenName": "Werner",
+  "familyName": "Conze",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1910-12-31",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Neuhaus an der Elbe"
+  },
+  "deathDate": "1986-04-28",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Heidelberg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1957–1979 Professor für Neuere Geschichte an der Universität Heidelberg"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118521993",
+    "https://de.wikipedia.org/wiki/Werner_Conze"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Werner Conze",
+    "forename": "Werner",
+    "surname": "Conze",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1910-12-31",
+    "place": "Neuhaus an der Elbe",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1986-04-28",
+    "place": "Heidelberg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118521993",
+    "wikipedia": "https://de.wikipedia.org/wiki/Werner_Conze",
+    "viaf": null
+  }
+}

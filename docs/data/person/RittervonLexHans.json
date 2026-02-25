@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "RittervonLexHans",
+  "name": "Hans Ritter von Lex",
+  "givenName": "Hans",
+  "familyName": "Lex",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1893-10-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Rosenheim"
+  },
+  "deathDate": "1970-02-26",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1950–1960 beamteter Staatssekretär im Bundesministerium des Inneren, 1961–1967 Präsident des Deutschen Roten Kreuzes"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/116978198",
+    "https://de.wikipedia.org/wiki/Hans_Ritter_von_Lex"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans Ritter von Lex",
+    "forename": "Hans",
+    "surname": "Lex",
+    "prefix": "von",
+    "role_name": "Ritter",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1893-10-27",
+    "place": "Rosenheim",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1970-02-26",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/116978198",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Ritter_von_Lex",
+    "viaf": null
+  }
+}

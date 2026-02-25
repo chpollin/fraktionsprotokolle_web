@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "NeubergerJosef",
+  "name": "Josef Neuberger",
+  "givenName": "Josef",
+  "familyName": "Neuberger",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1902-10-11",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Antwerpen"
+  },
+  "deathDate": "1977-01-12",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Düsseldorf"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Justizminister des Landes Nordrhein-Westfalen (SPD)"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/12412741X",
+    "https://de.wikipedia.org/wiki/Josef_Neuberger"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Josef Neuberger",
+    "forename": "Josef",
+    "surname": "Neuberger",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1902-10-11",
+    "place": "Antwerpen",
+    "country": "Belgien"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1977-01-12",
+    "place": "Düsseldorf",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/12412741X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Josef_Neuberger",
+    "viaf": null
+  }
+}

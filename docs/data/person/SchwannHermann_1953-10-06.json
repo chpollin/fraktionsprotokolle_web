@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchwannHermann_1953-10-06",
+  "name": "Hermann Schwann",
+  "givenName": "Hermann",
+  "familyName": "Schwann",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1899-01-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Niederhöchstadt/b. Bad Soden"
+  },
+  "deathDate": "1977-01-15",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bergisch Gladbach"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Landwirt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/101793438X",
+    "https://de.wikipedia.org/wiki/Hermann_Schwann"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hermann Schwann",
+    "forename": "Hermann",
+    "surname": "Schwann",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1899-01-02",
+    "place": "Niederhöchstadt/b. Bad Soden",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1977-01-15",
+    "place": "Bergisch Gladbach",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002124",
+    "gnd": "https://d-nb.info/gnd/101793438X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hermann_Schwann",
+    "viaf": null
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "LambsdorffAlexander_2017-10-24",
+  "name": "Alexander Lambsdorff",
+  "givenName": "Alexander",
+  "familyName": "Lambsdorff",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1966-11-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Köln"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Diplomat [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "2017-10-24"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Alexander Lambsdorff",
+    "forename": "Alexander",
+    "surname": "Lambsdorff",
+    "prefix": "",
+    "role_name": "Graf",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1966-11-05",
+    "place": "Köln",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 19,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "2017-10-24",
+      "to": ""
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11004798",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

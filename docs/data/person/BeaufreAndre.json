@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BeaufreAndre",
+  "name": "André Beaufre",
+  "givenName": "André",
+  "familyName": "Beaufre",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1902-01-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Neuilly-sur-Seine"
+  },
+  "deathDate": "1975-02-13",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Belgrad"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "General der französischen Armee und Militärstrategie-Theoretiker"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/123554136",
+    "https://de.wikipedia.org/wiki/Andr%C3%A9_Beaufre"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "André Beaufre",
+    "forename": "André",
+    "surname": "Beaufre",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1902-01-25",
+    "place": "Neuilly-sur-Seine",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1975-02-13",
+    "place": "Belgrad",
+    "country": "Jugoslawien (heute: Serbien)"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/123554136",
+    "wikipedia": "https://de.wikipedia.org/wiki/Andr%C3%A9_Beaufre",
+    "viaf": null
+  }
+}

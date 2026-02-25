@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SuhrOtto_1949-09-07",
+  "name": "Otto Suhr",
+  "givenName": "Otto",
+  "familyName": "Suhr",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1894-08-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Oldenburg i. O."
+  },
+  "deathDate": "1957-08-30",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "West-Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist, Volkswirt, Präsident des Bln. Abgeordnetenhaus [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1952-01-31"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/11875775X",
+    "https://de.wikipedia.org/wiki/Otto_Suhr"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Otto Suhr",
+    "forename": "Otto",
+    "surname": "Suhr",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1894-08-17",
+    "place": "Oldenburg i. O.",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1957-08-30",
+    "place": "West-Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1949-09-07",
+      "to": "1952-01-31"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002290",
+    "gnd": "https://d-nb.info/gnd/11875775X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Otto_Suhr",
+    "viaf": null
+  }
+}

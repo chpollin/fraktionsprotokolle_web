@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BetzAnton",
+  "name": "Anton Betz",
+  "givenName": "Anton",
+  "familyName": "Betz",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1893-02-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "St. Ingbert"
+  },
+  "deathDate": "1984-12-11",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Düsseldorf"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1963–1967 Präsident des Bundesverbandes Deutscher Zeitungsverleger"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118662724",
+    "https://de.wikipedia.org/wiki/Anton_Betz"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Anton Betz",
+    "forename": "Anton",
+    "surname": "Betz",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1893-02-23",
+    "place": "St. Ingbert",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1984-12-11",
+    "place": "Düsseldorf",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118662724",
+    "wikipedia": "https://de.wikipedia.org/wiki/Anton_Betz",
+    "viaf": null
+  }
+}

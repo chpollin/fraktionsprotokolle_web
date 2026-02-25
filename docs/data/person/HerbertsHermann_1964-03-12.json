@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HerbertsHermann_1964-03-12",
+  "name": "Hermann Herberts",
+  "givenName": "Hermann",
+  "familyName": "Herberts",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1900-04-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Cronenberg (heute: Wuppertal-Cronenberg)"
+  },
+  "deathDate": "1995-12-25",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Wuppertal"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1964-03-12",
+      "endDate": "1965-10-17"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1965-10-19",
+      "endDate": "1969-10-19"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1036316734",
+    "https://de.wikipedia.org/wiki/Hermann_Herberts"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hermann Herberts",
+    "forename": "Hermann",
+    "surname": "Herberts",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1900-04-04",
+    "place": "Cronenberg (heute: Wuppertal-Cronenberg)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1995-12-25",
+    "place": "Wuppertal",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 4,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1964-03-12",
+      "to": "1965-10-17"
+    },
+    {
+      "period": 5,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000878",
+    "gnd": "https://d-nb.info/gnd/1036316734",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hermann_Herberts",
+    "viaf": null
+  }
+}

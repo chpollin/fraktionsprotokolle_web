@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SkorzenyOtto",
+  "name": "Otto Skorzeny",
+  "givenName": "Otto",
+  "familyName": "Skorzeny",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1908-06-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Wien"
+  },
+  "deathDate": "1975-07-05",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Madrid"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Ingenieur und Soldat, seit 1934 Mitglied der in Österreich illegalen Schutzstaffel (SS-Standarte 89), seit 1939 SS-Untersturmführer, seit 1943 SS-Obersturmführer und Leiter der Abteilung Schulung und Widerstandsbekämpfung im Reichssicherheitshauptamt, 1943–1945 Kommandeur von Einheiten der Waffen-SS"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118614886",
+    "https://de.wikipedia.org/wiki/Otto_Skorzeny"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Otto Skorzeny",
+    "forename": "Otto",
+    "surname": "Skorzeny",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1908-06-12",
+    "place": "Wien",
+    "country": "Österreich-Ungarn"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1975-07-05",
+    "place": "Madrid",
+    "country": "Spanien"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118614886",
+    "wikipedia": "https://de.wikipedia.org/wiki/Otto_Skorzeny",
+    "viaf": null
+  }
+}

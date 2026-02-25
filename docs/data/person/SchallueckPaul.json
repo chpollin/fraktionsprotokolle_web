@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchallueckPaul",
+  "name": "Paul Schallück",
+  "givenName": "Paul",
+  "familyName": "Schallück",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1922-06-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Warendorf"
+  },
+  "deathDate": "1976-02-29",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Köln"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Schriftsteller"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118606433",
+    "https://de.wikipedia.org/wiki/Paul_Schall%C3%BCck"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Paul Schallück",
+    "forename": "Paul",
+    "surname": "Schallück",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1922-06-17",
+    "place": "Warendorf",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1976-02-29",
+    "place": "Köln",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118606433",
+    "wikipedia": "https://de.wikipedia.org/wiki/Paul_Schall%C3%BCck",
+    "viaf": null
+  }
+}

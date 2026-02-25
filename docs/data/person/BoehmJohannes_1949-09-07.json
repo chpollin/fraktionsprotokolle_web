@@ -1,0 +1,100 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BoehmJohannes_1949-09-07",
+  "name": "Hans (eigentlich: Johannes) Böhm",
+  "givenName": "Johannes",
+  "familyName": "Böhm",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1890-04-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hochspeyer"
+  },
+  "deathDate": "1957-07-18",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Leonberg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Geschäftsführer, Möbelpolierer, Gastwirt, ab 1946 Mitglied im Zonenvorstand der Gewerkschaften, ab 1947 Mitglied im geschäftsführenden Vorstand des DGB in der Britischen Zone, 1947–1950 MdL Nordrhein-Westfalen, ab 1950 Mitglied des geschäftsführenden Bundesvorstands"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-07-18"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1023555387",
+    "https://de.wikipedia.org/wiki/Johannes_B%C3%B6hm_%28Politiker%29"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans (eigentlich: Johannes) Böhm",
+    "forename": "Johannes",
+    "surname": "Böhm",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1890-04-08",
+    "place": "Hochspeyer",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1957-07-18",
+    "place": "Leonberg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 2,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1953-10-06",
+      "to": "1957-07-18"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000217",
+    "gnd": "https://d-nb.info/gnd/1023555387",
+    "wikipedia": "https://de.wikipedia.org/wiki/Johannes_B%C3%B6hm_%28Politiker%29",
+    "viaf": null
+  },
+  "fraktionsprotokolle:alt_names": [
+    {
+      "reg": "Hans (eigentlich: Johannes) Böhm",
+      "forename": "Johannes",
+      "surname": "Böhm",
+      "prefix": "",
+      "role_name": "",
+      "place": "(Düsseldorf)"
+    }
+  ]
+}

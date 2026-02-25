@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "PohlEva_1990-12-20",
+  "name": "Eva Pohl",
+  "givenName": "Eva",
+  "familyName": "Pohl",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1937-08-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Neusalz/Oder, Niederschlesien (heute: Nowa Sól, Polen)"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Bankkauffrau, Internistin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/132162543X",
+    "https://de.wikipedia.org/wiki/Eva_Pohl"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Eva Pohl",
+    "forename": "Eva",
+    "surname": "Pohl",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1937-08-03",
+    "place": "Neusalz/Oder, Niederschlesien (heute: Nowa Sól, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 12,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1990-12-20",
+      "to": "1994-11-10"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001727",
+    "gnd": "https://d-nb.info/gnd/132162543X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Eva_Pohl",
+    "viaf": null
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "KaterHelmut_1969-10-20",
+  "name": "Helmut Kater",
+  "givenName": "Helmut",
+  "familyName": "Kater",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1927-08-30",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Danzig (heute: Gdańsk, Polen)"
+  },
+  "deathDate": "2012-09-07",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Timmendorfer Strand"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Arbeitsdirektor [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1969-10-20",
+      "endDate": "1972-09-22"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1972-12-13",
+      "endDate": "1976-12-13"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/134068041",
+    "https://de.wikipedia.org/wiki/Helmut_Kater"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Helmut Kater",
+    "forename": "Helmut",
+    "surname": "Kater",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1927-08-30",
+    "place": "Danzig (heute: Gdańsk, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2012-09-07",
+    "place": "Timmendorfer Strand",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 6,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1969-10-20",
+      "to": "1972-09-22"
+    },
+    {
+      "period": 7,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1972-12-13",
+      "to": "1976-12-13"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001071",
+    "gnd": "https://d-nb.info/gnd/134068041",
+    "wikipedia": "https://de.wikipedia.org/wiki/Helmut_Kater",
+    "viaf": null
+  }
+}

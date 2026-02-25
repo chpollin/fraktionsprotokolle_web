@@ -1,0 +1,69 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "EbermannThomas_1987-02-18",
+  "name": "Thomas Ebermann",
+  "givenName": "Thomas",
+  "familyName": "Ebermann",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1951-04-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Die Grünen",
+        "alternateName": "Grüne"
+      },
+      "startDate": "1987-02-18",
+      "endDate": "1989-02-18"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/137189516"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Thomas Ebermann",
+    "forename": "Thomas",
+    "surname": "Ebermann",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1951-04-18",
+    "place": "Hamburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 11,
+      "faction": "Grüne",
+      "faction_full": "Fraktion Die Grünen",
+      "from": "1987-02-18",
+      "to": "1989-02-18"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000427",
+    "gnd": "https://d-nb.info/gnd/137189516",
+    "wikipedia": null,
+    "viaf": null
+  }
+}

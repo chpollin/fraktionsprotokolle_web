@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "LohmuellerBernhard_1949-09-07",
+  "name": "Bernhard Lohmüller",
+  "givenName": "Bernhard",
+  "familyName": "Lohmüller",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1891-10-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Donnerschwee/Oldenburg"
+  },
+  "deathDate": "1952-03-02",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bremerhaven"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Maschinenbauer, Betriebsvorsitzender [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1952-03-02"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1034943383",
+    "https://de.wikipedia.org/wiki/Bernhard_Lohm%C3%BCller"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Bernhard Lohmüller",
+    "forename": "Bernhard",
+    "surname": "Lohmüller",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1891-10-25",
+    "place": "Donnerschwee/Oldenburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1952-03-02",
+    "place": "Bremerhaven",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1949-09-07",
+      "to": "1952-03-02"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001371",
+    "gnd": "https://d-nb.info/gnd/1034943383",
+    "wikipedia": "https://de.wikipedia.org/wiki/Bernhard_Lohm%C3%BCller",
+    "viaf": null
+  }
+}

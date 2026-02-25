@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BrandHans-Ulrich_1969-10-20",
+  "name": "Hans-Ulrich Brand",
+  "givenName": "Hans-Ulrich",
+  "familyName": "Brand",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1930-02-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Köthen"
+  },
+  "deathDate": "2002-08-09",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsanwalt und Notar [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1969-10-20",
+      "endDate": "1970-11-03"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/105405590",
+    "https://de.wikipedia.org/wiki/Hans-Ulrich_Brand"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans-Ulrich Brand",
+    "forename": "Hans-Ulrich",
+    "surname": "Brand",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Pinneberg)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1930-02-22",
+    "place": "Köthen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2002-08-09",
+    "place": "Hamburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 6,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1969-10-20",
+      "to": "1970-11-03"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000242",
+    "gnd": "https://d-nb.info/gnd/105405590",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans-Ulrich_Brand",
+    "viaf": null
+  }
+}

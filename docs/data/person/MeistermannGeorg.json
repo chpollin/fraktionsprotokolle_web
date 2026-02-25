@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "MeistermannGeorg",
+  "name": "Georg Meistermann",
+  "givenName": "Georg",
+  "familyName": "Meistermann",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1911-06-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Solingen"
+  },
+  "deathDate": "1990-06-12",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Köln"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Maler, Zeichner und Graphiker"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118580450",
+    "https://de.wikipedia.org/wiki/Georg_Meistermann"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Georg Meistermann",
+    "forename": "Georg",
+    "surname": "Meistermann",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1911-06-16",
+    "place": "Solingen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1990-06-12",
+    "place": "Köln",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118580450",
+    "wikipedia": "https://de.wikipedia.org/wiki/Georg_Meistermann",
+    "viaf": null
+  }
+}

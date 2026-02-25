@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "GriesEkkehard_1987-02-18",
+  "name": "Ekkehard Gries",
+  "givenName": "Ekkehard",
+  "familyName": "Gries",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1936-09-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Eichenberg/Krs. Witzenhausen, Hessen"
+  },
+  "deathDate": "2001-07-30",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bad Homburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsanwalt, Staatsminister a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1987-02-18",
+      "endDate": "1990-12-20"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1024837874",
+    "https://de.wikipedia.org/wiki/Ekkehard_Gries"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Ekkehard Gries",
+    "forename": "Ekkehard",
+    "surname": "Gries",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1936-09-16",
+    "place": "Eichenberg/Krs. Witzenhausen, Hessen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2001-07-30",
+    "place": "Bad Homburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 11,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1987-02-18",
+      "to": "1990-12-20"
+    },
+    {
+      "period": 12,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1990-12-20",
+      "to": "1994-11-10"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000726",
+    "gnd": "https://d-nb.info/gnd/1024837874",
+    "wikipedia": "https://de.wikipedia.org/wiki/Ekkehard_Gries",
+    "viaf": null
+  }
+}

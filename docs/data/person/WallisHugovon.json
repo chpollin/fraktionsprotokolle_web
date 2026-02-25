@@ -1,0 +1,51 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "WallisHugovon",
+  "name": "Hugo von Wallis",
+  "givenName": "Hugo",
+  "familyName": "Wallis",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1910-04-12",
+  "birthPlace": null,
+  "deathDate": "1993-05-04",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "seit 1957 Bundesrichter am Bundesfinanzhof, 1970–1978 Präsident des Bundesfinanzhofs"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118815075",
+    "https://de.wikipedia.org/wiki/Hugo_von_Wallis"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Hugo von Wallis",
+    "forename": "Hugo",
+    "surname": "Wallis",
+    "prefix": "von",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1910-04-12",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1993-05-04",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118815075",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hugo_von_Wallis",
+    "viaf": null
+  }
+}

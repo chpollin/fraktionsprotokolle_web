@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchubertKarl",
+  "name": "Karl Schubert",
+  "givenName": "Karl",
+  "familyName": "Schubert",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1905-04-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Eger"
+  },
+  "deathDate": "1986-06-11",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Straubing"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1950–1954, 1958–1966 MdL Bayern (CSU)"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/1017963703",
+    "https://de.wikipedia.org/wiki/Karl_Schubert_(Politiker)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Karl Schubert",
+    "forename": "Karl",
+    "surname": "Schubert",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1905-04-03",
+    "place": "Eger",
+    "country": "Österreich-Ungarn"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1986-06-11",
+    "place": "Straubing",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/1017963703",
+    "wikipedia": "https://de.wikipedia.org/wiki/Karl_Schubert_(Politiker)",
+    "viaf": null
+  }
+}

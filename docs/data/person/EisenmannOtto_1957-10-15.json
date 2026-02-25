@@ -1,0 +1,124 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "EisenmannOtto_1957-10-15",
+  "name": "Otto Eisenmann",
+  "givenName": "Otto",
+  "familyName": "Eisenmann",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1913-02-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Alpirsbach"
+  },
+  "deathDate": "2002-02-19",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Oelixdorf"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Versicherungskaufmann, Landesminister a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Deutsche Partei",
+        "alternateName": "DP"
+      },
+      "startDate": "1957-10-15",
+      "endDate": "1961-10-15"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1958-06-03",
+      "endDate": "1961-10-15"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1965-10-19",
+      "endDate": "1967-06-01"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1117441016",
+    "https://de.wikipedia.org/wiki/Otto_Eisenmann"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Otto Eisenmann",
+    "forename": "Otto",
+    "surname": "Eisenmann",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1913-02-26",
+    "place": "Alpirsbach",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2002-02-19",
+    "place": "Oelixdorf",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 3,
+      "faction": "DP",
+      "faction_full": "Fraktion Deutsche Partei",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 3,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1958-06-03",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 4,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    },
+    {
+      "period": 5,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1965-10-19",
+      "to": "1967-06-01"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000459",
+    "gnd": "https://d-nb.info/gnd/1117441016",
+    "wikipedia": "https://de.wikipedia.org/wiki/Otto_Eisenmann",
+    "viaf": null
+  }
+}

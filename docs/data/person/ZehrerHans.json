@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "ZehrerHans",
+  "name": "Hans Zehrer",
+  "givenName": "Hans",
+  "familyName": "Zehrer",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1899-06-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "1966-08-23",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist, 1948–1953 Chefredakteur der Wochenzeitung »Das Sonntagsblatt«, 1953–1966 Chefredakteur der Tageszeitung »Die Welt«"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/11877235X",
+    "https://de.wikipedia.org/wiki/Hans_Zehrer"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans Zehrer",
+    "forename": "Hans",
+    "surname": "Zehrer",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1899-06-22",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1966-08-23",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/11877235X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Zehrer",
+    "viaf": null
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "OrwellGeorge",
+  "name": "George Orwell, geb. als Eric Arthur Blair",
+  "givenName": "George",
+  "familyName": "Orwell",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1903-06-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Motihari, Bihar"
+  },
+  "deathDate": "1950-01-21",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "London"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "englischer Schriftsteller, Essayist und Journalist"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118590359",
+    "https://de.wikipedia.org/wiki/George_Orwell"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "George Orwell, geb. als Eric Arthur Blair",
+    "forename": "George",
+    "surname": "Orwell",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1903-06-25",
+    "place": "Motihari, Bihar",
+    "country": "Britisch-Indien"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1950-01-21",
+    "place": "London",
+    "country": "Großbritannien"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118590359",
+    "wikipedia": "https://de.wikipedia.org/wiki/George_Orwell",
+    "viaf": null
+  }
+}

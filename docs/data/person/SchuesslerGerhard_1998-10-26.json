@@ -1,0 +1,87 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchuesslerGerhard_1998-10-26",
+  "name": "Gerhard Schüßler",
+  "givenName": "Gerhard",
+  "familyName": "Schüßler",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1937-10-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Holzwickede"
+  },
+  "deathDate": "2005-11-07",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Großhandelskaufmann [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1998-10-26",
+      "endDate": "2002-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1036127753",
+    "https://de.wikipedia.org/wiki/Gerhard_Sch%C3%BC%C3%9Fler_%28Politiker%29"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Gerhard Schüßler",
+    "forename": "Gerhard",
+    "surname": "Schüßler",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1937-10-02",
+    "place": "Holzwickede",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2005-11-07",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 12,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1990-12-20",
+      "to": "1994-11-10"
+    },
+    {
+      "period": 14,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1998-10-26",
+      "to": "2002-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11003232",
+    "gnd": "https://d-nb.info/gnd/1036127753",
+    "wikipedia": "https://de.wikipedia.org/wiki/Gerhard_Sch%C3%BC%C3%9Fler_%28Politiker%29",
+    "viaf": null
+  }
+}

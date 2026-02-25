@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "GozardGilles",
+  "name": "Gilles Gozard",
+  "givenName": "Gilles",
+  "familyName": "Gozard",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1910-04-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Moulins"
+  },
+  "deathDate": "1976-05-13",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1946–1958 Mitglied der französischen Nationalversammlung"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/1212966597",
+    "https://de.wikipedia.org/wiki/Gilles_Gozard"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Gilles Gozard",
+    "forename": "Gilles",
+    "surname": "Gozard",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1910-04-24",
+    "place": "Moulins",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1976-05-13",
+    "place": "Paris",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/1212966597",
+    "wikipedia": "https://de.wikipedia.org/wiki/Gilles_Gozard",
+    "viaf": null
+  }
+}

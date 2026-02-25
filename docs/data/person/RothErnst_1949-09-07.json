@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "RothErnst_1949-09-07",
+  "name": "Ernst Roth",
+  "givenName": "Ernst",
+  "familyName": "Roth",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1901-04-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Zweibrücken-Ernstweiler"
+  },
+  "deathDate": "1951-05-14",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Straßburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1951-05-14"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/130357596",
+    "https://de.wikipedia.org/wiki/Ernst_Roth_(Politiker,_1901)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Ernst Roth",
+    "forename": "Ernst",
+    "surname": "Roth",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1901-04-28",
+    "place": "Zweibrücken-Ernstweiler",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1951-05-14",
+    "place": "Straßburg",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1949-09-07",
+      "to": "1951-05-14"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001890",
+    "gnd": "https://d-nb.info/gnd/130357596",
+    "wikipedia": "https://de.wikipedia.org/wiki/Ernst_Roth_(Politiker,_1901)",
+    "viaf": null
+  }
+}

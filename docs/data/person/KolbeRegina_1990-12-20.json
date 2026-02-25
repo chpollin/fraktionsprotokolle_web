@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "KolbeRegina_1990-12-20",
+  "name": "Regina Kolbe, geb. Peters",
+  "givenName": "Regina",
+  "familyName": "Kolbe",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1950-03-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Krs. Havelberg"
+  },
+  "deathDate": "2015-05-19",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Chemielaborantin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1323515410",
+    "https://de.wikipedia.org/wiki/Regina_Kolbe"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Regina Kolbe, geb. Peters",
+    "forename": "Regina",
+    "surname": "Kolbe",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1950-03-28",
+    "place": "Krs. Havelberg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2015-05-19",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 12,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1990-12-20",
+      "to": "1994-11-10"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001173",
+    "gnd": "https://d-nb.info/gnd/1323515410",
+    "wikipedia": "https://de.wikipedia.org/wiki/Regina_Kolbe",
+    "viaf": null
+  }
+}

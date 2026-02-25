@@ -1,0 +1,107 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SteenAntje-Marie_1990-12-20",
+  "name": "Antje-Marie Steen, geb. Kolberg",
+  "givenName": "Antje-Marie",
+  "familyName": "Steen",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1937-03-11",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berkenbrück/Spree"
+  },
+  "deathDate": "2024-12-17",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Grömitz"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Apothekenhelferin, Drogistin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-10-26"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1998-10-26",
+      "endDate": "2002-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1120816998",
+    "https://de.wikipedia.org/wiki/Antje-Marie_Steen"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Antje-Marie Steen, geb. Kolberg",
+    "forename": "Antje-Marie",
+    "surname": "Steen",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1937-03-11",
+    "place": "Berkenbrück/Spree",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2024-12-17",
+    "place": "Grömitz",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 12,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1990-12-20",
+      "to": "1994-11-10"
+    },
+    {
+      "period": 13,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1994-11-10",
+      "to": "1998-10-26"
+    },
+    {
+      "period": 14,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1998-10-26",
+      "to": "2002-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002226",
+    "gnd": "https://d-nb.info/gnd/1120816998",
+    "wikipedia": "https://de.wikipedia.org/wiki/Antje-Marie_Steen",
+    "viaf": null
+  }
+}

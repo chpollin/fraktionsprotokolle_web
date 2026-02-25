@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BaeuchleHans-Joachim_1969-10-20",
+  "name": "Hans-Joachim Baeuchle",
+  "givenName": "Hans-Joachim",
+  "familyName": "Baeuchle",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1922-04-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Freiburg"
+  },
+  "deathDate": "2007-11-11",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hinterzarten"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Bürgermeister [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1969-10-20",
+      "endDate": "1972-09-22"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1215753691",
+    "https://de.wikipedia.org/wiki/Hans-Joachim_Baeuchle"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans-Joachim Baeuchle",
+    "forename": "Hans-Joachim",
+    "surname": "Baeuchle",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1922-04-15",
+    "place": "Freiburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2007-11-11",
+    "place": "Hinterzarten",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 6,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1969-10-20",
+      "to": "1972-09-22"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000075",
+    "gnd": "https://d-nb.info/gnd/1215753691",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans-Joachim_Baeuchle",
+    "viaf": null
+  }
+}

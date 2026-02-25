@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "MuellerKurt_1949-09-07",
+  "name": "Kurt Müller",
+  "givenName": "Kurt",
+  "familyName": "Müller",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1903-12-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "1990-08-21",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Konstanz-Dingelsdorf"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Angestellter, Werkzeugmacher [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Kommunistischen Partei Deutschlands",
+        "alternateName": "KPD"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktionslos",
+        "alternateName": "Fraktionslos"
+      },
+      "startDate": "1950-05-10",
+      "endDate": "1953-09-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/119105888",
+    "https://de.wikipedia.org/wiki/Kurt_M%C3%BCller_(Politiker,_1903)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Kurt Müller",
+    "forename": "Kurt",
+    "surname": "Müller",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Hannover)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1903-12-13",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1990-08-21",
+    "place": "Konstanz-Dingelsdorf",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "KPD",
+      "faction_full": "Fraktion der Kommunistischen Partei Deutschlands",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 1,
+      "faction": "Fraktionslos",
+      "faction_full": "Fraktionslos",
+      "from": "1950-05-10",
+      "to": "1953-09-07"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001560",
+    "gnd": "https://d-nb.info/gnd/119105888",
+    "wikipedia": "https://de.wikipedia.org/wiki/Kurt_M%C3%BCller_(Politiker,_1903)",
+    "viaf": null
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchneiderManfred_1983-03-29",
+  "name": "Manfred Schneider",
+  "givenName": "Manfred",
+  "familyName": "Schneider",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1925-12-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Nahbollenbach/Krs. Birkenfeld"
+  },
+  "deathDate": "2020-11-19",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Goldschmied [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1983-03-29",
+      "endDate": "1987-02-18"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1990-02-08",
+      "endDate": "1990-12-20"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Manfred Schneider",
+    "forename": "Manfred",
+    "surname": "Schneider",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Idar-Oberstein)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1925-12-04",
+    "place": "Nahbollenbach/Krs. Birkenfeld",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2020-11-19",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 10,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1983-03-29",
+      "to": "1987-02-18"
+    },
+    {
+      "period": 11,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1990-02-08",
+      "to": "1990-12-20"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002047",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

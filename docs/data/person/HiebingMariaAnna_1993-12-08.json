@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HiebingMariaAnna_1993-12-08",
+  "name": "Maria Anna Hiebing, geb. Schepers",
+  "givenName": "Maria Anna",
+  "familyName": "Hiebing",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1953-12-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Haren"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Landfrau [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1993-12-08",
+      "endDate": "1994-11-10"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/111198851X",
+    "https://de.wikipedia.org/wiki/Maria_Anna_Hiebing"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Maria Anna Hiebing, geb. Schepers",
+    "forename": "Maria Anna",
+    "surname": "Hiebing",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1953-12-25",
+    "place": "Haren",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 12,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1993-12-08",
+      "to": "1994-11-10"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000899",
+    "gnd": "https://d-nb.info/gnd/111198851X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Maria_Anna_Hiebing",
+    "viaf": null
+  }
+}

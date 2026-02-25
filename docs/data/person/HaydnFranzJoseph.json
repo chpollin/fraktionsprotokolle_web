@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HaydnFranzJoseph",
+  "name": "Franz Joseph Haydn",
+  "givenName": "Franz Joseph",
+  "familyName": "Haydn",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1732",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Rohrau, Erzherzogtum Österreich"
+  },
+  "deathDate": "1809-05-31",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Wien"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "österreichischer Komponist"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118547356",
+    "https://de.wikipedia.org/wiki/Joseph_Haydn"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Franz Joseph Haydn",
+    "forename": "Franz Joseph",
+    "surname": "Haydn",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1732",
+    "place": "Rohrau, Erzherzogtum Österreich",
+    "country": "Habsburgermonarchie (heute: Österreich)"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1809-05-31",
+    "place": "Wien",
+    "country": "Habsburgermonarchie (heute: Österreich)"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118547356",
+    "wikipedia": "https://de.wikipedia.org/wiki/Joseph_Haydn",
+    "viaf": null
+  }
+}

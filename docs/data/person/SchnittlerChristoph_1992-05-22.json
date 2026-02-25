@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchnittlerChristoph_1992-05-22",
+  "name": "Christoph Schnittler",
+  "givenName": "Christoph",
+  "familyName": "Schnittler",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1936-04-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Ilmenau/Thüringen"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Physiker, Professor [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1992-05-22",
+      "endDate": "1994-11-10"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/132696886",
+    "https://de.wikipedia.org/wiki/Christoph_Schnittler"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Christoph Schnittler",
+    "forename": "Christoph",
+    "surname": "Schnittler",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1936-04-08",
+    "place": "Ilmenau/Thüringen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 12,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1992-05-22",
+      "to": "1994-11-10"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002051",
+    "gnd": "https://d-nb.info/gnd/132696886",
+    "wikipedia": "https://de.wikipedia.org/wiki/Christoph_Schnittler",
+    "viaf": null
+  }
+}

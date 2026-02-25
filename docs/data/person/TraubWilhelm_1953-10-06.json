@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "TraubWilhelm_1953-10-06",
+  "name": "Wilhelm Traub",
+  "givenName": "Wilhelm",
+  "familyName": "Traub",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1914-12-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Vorderbüchelberg"
+  },
+  "deathDate": "1998-09-03",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Emmendingen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Oberregierungsrat a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1955-09-08"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1012573133",
+    "https://de.wikipedia.org/wiki/Wilhelm_Traub_(Politiker)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Wilhelm Traub",
+    "forename": "Wilhelm",
+    "surname": "Traub",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1914-12-17",
+    "place": "Vorderbüchelberg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1998-09-03",
+    "place": "Emmendingen",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1953-10-06",
+      "to": "1955-09-08"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002340",
+    "gnd": "https://d-nb.info/gnd/1012573133",
+    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_Traub_(Politiker)",
+    "viaf": null
+  }
+}

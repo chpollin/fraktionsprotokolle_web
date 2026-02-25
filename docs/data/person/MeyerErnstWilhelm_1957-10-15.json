@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "MeyerErnstWilhelm_1957-10-15",
+  "name": "Ernst Wilhelm Meyer",
+  "givenName": "Ernst Wilhelm",
+  "familyName": "Meyer",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1892-04-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Leobschütz, Schlesien (heute: Głubczyce, Polen)"
+  },
+  "deathDate": "1969-05-15",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Honorarprofessor [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1957-10-15",
+      "endDate": "1961-10-15"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/106637959",
+    "https://de.wikipedia.org/wiki/Ernst_Meyer_(Jurist)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Ernst Wilhelm Meyer",
+    "forename": "Ernst Wilhelm",
+    "surname": "Meyer",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Frankfurt)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1892-04-02",
+    "place": "Leobschütz, Schlesien (heute: Głubczyce, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1969-05-15",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 3,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 4,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001491",
+    "gnd": "https://d-nb.info/gnd/106637959",
+    "wikipedia": "https://de.wikipedia.org/wiki/Ernst_Meyer_(Jurist)",
+    "viaf": null
+  }
+}

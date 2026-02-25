@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "WeyerWilli_1953-10-06",
+  "name": "Willi Weyer",
+  "givenName": "Willi",
+  "familyName": "Weyer",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1917-02-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hagen"
+  },
+  "deathDate": "1987-08-25",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Juist"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Syndikus, 1958–1975 MdL NRW (FDP), 1956–1958 stellv. Ministerpräsident und Finanzminister, 1958–1962 Vorsitzender der FDP-Fraktion im Landtag NRW, 1974–1986 Präsident des Deutschen Sportbundes [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1954-09-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/128558032",
+    "https://de.wikipedia.org/wiki/Willi_Weyer"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Willi Weyer",
+    "forename": "Willi",
+    "surname": "Weyer",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1917-02-16",
+    "place": "Hagen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1987-08-25",
+    "place": "Juist",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1953-10-06",
+      "to": "1954-09-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002497",
+    "gnd": "https://d-nb.info/gnd/128558032",
+    "wikipedia": "https://de.wikipedia.org/wiki/Willi_Weyer",
+    "viaf": null
+  }
+}

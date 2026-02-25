@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "FeldmeyerKarl",
+  "name": "Karl Feldmeyer",
+  "givenName": "Karl",
+  "familyName": "Feldmeyer",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1938-11-30",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Mindelheim"
+  },
+  "deathDate": "2016-12-18",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "dt. Journalist"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/120325616",
+    "https://de.wikipedia.org/wiki/Karl_Feldmeyer"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Karl Feldmeyer",
+    "forename": "Karl",
+    "surname": "Feldmeyer",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1938-11-30",
+    "place": "Mindelheim",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2016-12-18",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/120325616",
+    "wikipedia": "https://de.wikipedia.org/wiki/Karl_Feldmeyer",
+    "viaf": null
+  }
+}

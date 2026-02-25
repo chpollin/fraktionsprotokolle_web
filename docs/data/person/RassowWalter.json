@@ -1,0 +1,53 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "RassowWalter",
+  "name": "Walter Rassow",
+  "givenName": "Walter",
+  "familyName": "Rassow",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1924-09-11",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Leipzig"
+  },
+  "deathDate": null,
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Karlsruhe"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Jurist, 1980–1984 Richter am Bundesgerichtshof"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/1063006252"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Walter Rassow",
+    "forename": "Walter",
+    "surname": "Rassow",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1924-09-11",
+    "place": "Leipzig",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "Karlsruhe",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/1063006252",
+    "wikipedia": null,
+    "viaf": null
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "CzermakFritz_1953-10-06",
+  "name": "Fritz Czermak",
+  "givenName": "Fritz",
+  "familyName": "Czermak",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1894-03-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Prijedor"
+  },
+  "deathDate": "1966-04-09",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Wien"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsanwalt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Gesamtdeutscher Block/Block der Heimatvertriebenen und Entrechteten",
+        "alternateName": "GB/BHE"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1955-07-14",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/129160288",
+    "https://de.wikipedia.org/wiki/Fritz_Czermak"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Fritz Czermak",
+    "forename": "Fritz",
+    "surname": "Czermak",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1894-03-24",
+    "place": "Prijedor",
+    "country": "Bosnien"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1966-04-09",
+    "place": "Wien",
+    "country": "Österreich"
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "GB/BHE",
+      "faction_full": "Fraktion Gesamtdeutscher Block/Block der Heimatvertriebenen und Entrechteten",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 2,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1955-07-14",
+      "to": "1957-10-06"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000346",
+    "gnd": "https://d-nb.info/gnd/129160288",
+    "wikipedia": "https://de.wikipedia.org/wiki/Fritz_Czermak",
+    "viaf": null
+  }
+}

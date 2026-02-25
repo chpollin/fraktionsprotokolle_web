@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "RoeslerJohannesBaptist_1969-09-24",
+  "name": "Johannes Baptist Rösler",
+  "givenName": "Johannes Baptist",
+  "familyName": "Rösler",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1922-07-01",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Groß-Schönau, Sudetenland (heute: Velký Šenov, Tschechische Republik)"
+  },
+  "deathDate": "2009-04-01",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bingen am Rhein"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Oberstudienrat a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1969-09-24",
+      "endDate": "1969-10-19"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1027095828",
+    "https://de.wikipedia.org/wiki/Johannes_Baptist_R%C3%B6sler"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Johannes Baptist Rösler",
+    "forename": "Johannes Baptist",
+    "surname": "Rösler",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1922-07-01",
+    "place": "Groß-Schönau, Sudetenland (heute: Velký Šenov, Tschechische Republik)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2009-04-01",
+    "place": "Bingen am Rhein",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 5,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1969-09-24",
+      "to": "1969-10-19"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001875",
+    "gnd": "https://d-nb.info/gnd/1027095828",
+    "wikipedia": "https://de.wikipedia.org/wiki/Johannes_Baptist_R%C3%B6sler",
+    "viaf": null
+  }
+}

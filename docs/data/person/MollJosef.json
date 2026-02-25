@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "MollJosef",
+  "name": "Josef Moll",
+  "givenName": "Josef",
+  "familyName": "Moll",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1908-09-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Laupertshausen"
+  },
+  "deathDate": "1989-01-07",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Stuttgart"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Generalleutnant des Heeres der Bundeswehr, 1966–1968 Inspekteur des Heeres"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/1012397564",
+    "https://de.wikipedia.org/wiki/Josef_Moll"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Josef Moll",
+    "forename": "Josef",
+    "surname": "Moll",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1908-09-05",
+    "place": "Laupertshausen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1989-01-07",
+    "place": "Stuttgart",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/1012397564",
+    "wikipedia": "https://de.wikipedia.org/wiki/Josef_Moll",
+    "viaf": null
+  }
+}

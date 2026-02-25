@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BaumgartnerJosef_1949-09-07",
+  "name": "Josef Baumgartner",
+  "givenName": "Josef",
+  "familyName": "Baumgartner",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1904-11-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Sulzemoos"
+  },
+  "deathDate": "1964-01-21",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Staatsminister a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Bayernpartei",
+        "alternateName": "BP"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1951-01-01"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/129878081",
+    "https://de.wikipedia.org/wiki/Joseph_Baumgartner"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Josef Baumgartner",
+    "forename": "Josef",
+    "surname": "Baumgartner",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1904-11-16",
+    "place": "Sulzemoos",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1964-01-21",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "BP",
+      "faction_full": "Fraktion Bayernpartei",
+      "from": "1949-09-07",
+      "to": "1951-01-01"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000113",
+    "gnd": "https://d-nb.info/gnd/129878081",
+    "wikipedia": "https://de.wikipedia.org/wiki/Joseph_Baumgartner",
+    "viaf": null
+  }
+}

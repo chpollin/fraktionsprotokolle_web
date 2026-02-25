@@ -1,0 +1,134 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "MeyerErich_1949-09-07",
+  "name": "Erich Meyer",
+  "givenName": "Erich",
+  "familyName": "Meyer",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1900-03-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Stettin (heute: Szczecin, Polen)"
+  },
+  "deathDate": "1968-05-09",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Wanne-Eickel"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Angestellter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1957-10-15",
+      "endDate": "1961-10-15"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1119612535",
+    "https://de.wikipedia.org/wiki/Erich_Meyer_(Politiker,_1900)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Erich Meyer",
+    "forename": "Erich",
+    "surname": "Meyer",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Hagen)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1900-03-15",
+    "place": "Stettin (heute: Szczecin, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1968-05-09",
+    "place": "Wanne-Eickel",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 2,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 3,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 4,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001490",
+    "gnd": "https://d-nb.info/gnd/1119612535",
+    "wikipedia": "https://de.wikipedia.org/wiki/Erich_Meyer_(Politiker,_1900)",
+    "viaf": null
+  },
+  "fraktionsprotokolle:alt_names": [
+    {
+      "reg": "Erich Meyer",
+      "forename": "Erich",
+      "surname": "Meyer",
+      "prefix": "",
+      "role_name": "",
+      "place": "(Wanne-Eickel)"
+    }
+  ]
+}

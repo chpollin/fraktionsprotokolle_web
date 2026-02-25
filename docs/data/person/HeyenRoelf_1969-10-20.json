@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HeyenRoelf_1969-10-20",
+  "name": "Roelf Heyen",
+  "givenName": "Roelf",
+  "familyName": "Heyen",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1938-12-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Emden"
+  },
+  "deathDate": "1975-06-05",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "West-Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Redakteur [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1969-10-20",
+      "endDate": "1972-09-22"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1972-12-13",
+      "endDate": "1975-06-05"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1328974995",
+    "https://de.wikipedia.org/wiki/Roelf_Heyen"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Roelf Heyen",
+    "forename": "Roelf",
+    "surname": "Heyen",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1938-12-12",
+    "place": "Emden",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1975-06-05",
+    "place": "West-Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 6,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1969-10-20",
+      "to": "1972-09-22"
+    },
+    {
+      "period": 7,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1972-12-13",
+      "to": "1975-06-05"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000896",
+    "gnd": "https://d-nb.info/gnd/1328974995",
+    "wikipedia": "https://de.wikipedia.org/wiki/Roelf_Heyen",
+    "viaf": null
+  }
+}

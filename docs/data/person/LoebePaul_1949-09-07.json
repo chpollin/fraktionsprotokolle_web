@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "LoebePaul_1949-09-07",
+  "name": "Paul Löbe",
+  "givenName": "Paul",
+  "familyName": "Löbe",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1875-12-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Liegnitz/Schlesien (heute: Legnica, Polen)"
+  },
+  "deathDate": "1967-08-03",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Redakteur [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/118728725",
+    "https://de.wikipedia.org/wiki/Paul_L%C3%B6be"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Paul Löbe",
+    "forename": "Paul",
+    "surname": "Löbe",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1875-12-14",
+    "place": "Liegnitz/Schlesien (heute: Legnica, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1967-08-03",
+    "place": "Bonn",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001358",
+    "gnd": "https://d-nb.info/gnd/118728725",
+    "wikipedia": "https://de.wikipedia.org/wiki/Paul_L%C3%B6be",
+    "viaf": null
+  }
+}

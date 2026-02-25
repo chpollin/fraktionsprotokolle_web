@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "Platon",
+  "name": "Platon",
+  "givenName": "",
+  "familyName": "Platon",
+  "gender": "https://schema.org/Male",
+  "birthDate": "-0428",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Athen oder Aigina"
+  },
+  "deathDate": "-0348",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Athen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "antiker griechischer Philosoph"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118594893",
+    "https://de.wikipedia.org/wiki/Platon"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Platon",
+    "forename": "",
+    "surname": "Platon",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "-0428",
+    "place": "Athen oder Aigina",
+    "country": "Griechenland"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "-0348",
+    "place": "Athen",
+    "country": "Griechenland"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118594893",
+    "wikipedia": "https://de.wikipedia.org/wiki/Platon",
+    "viaf": null
+  }
+}

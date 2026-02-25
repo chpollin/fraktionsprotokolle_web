@@ -1,0 +1,53 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BeckerWerner",
+  "name": "Werner Becker",
+  "givenName": "Werner",
+  "familyName": "Becker",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1918-06-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Eitorf"
+  },
+  "deathDate": "1998-01-20",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Linz am Rhein"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1954–1986 Generalsekretär des Deutschen Weinbauverbandes"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/1013370368"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Werner Becker",
+    "forename": "Werner",
+    "surname": "Becker",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1918-06-12",
+    "place": "Eitorf",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1998-01-20",
+    "place": "Linz am Rhein",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/1013370368",
+    "wikipedia": null,
+    "viaf": null
+  }
+}

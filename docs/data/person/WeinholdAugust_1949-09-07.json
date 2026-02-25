@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "WeinholdAugust_1949-09-07",
+  "name": "August Weinhold",
+  "givenName": "August",
+  "familyName": "Weinhold",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1892-07-31",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Lublinitz/Oberschlesien (heute: Lubliniec, Polen)"
+  },
+  "deathDate": "1961-05-18",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Werste"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Gewerkschaftssekretär [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1339566567",
+    "https://de.wikipedia.org/wiki/August_Weinhold"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "August Weinhold",
+    "forename": "August",
+    "surname": "Weinhold",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1892-07-31",
+    "place": "Lublinitz/Oberschlesien (heute: Lubliniec, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1961-05-18",
+    "place": "Werste",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002453",
+    "gnd": "https://d-nb.info/gnd/1339566567",
+    "wikipedia": "https://de.wikipedia.org/wiki/August_Weinhold",
+    "viaf": null
+  }
+}

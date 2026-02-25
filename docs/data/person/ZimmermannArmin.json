@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "ZimmermannArmin",
+  "name": "Armin Zimmermann",
+  "givenName": "Armin",
+  "familyName": "Zimmermann",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1917-12-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Blumenau"
+  },
+  "deathDate": "1976-11-30",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Marineoffizier, 1972–1976 Generalinspekteur der Bundeswehr"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/1028595328",
+    "https://de.wikipedia.org/wiki/Armin_Zimmermann_(Admiral)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Armin Zimmermann",
+    "forename": "Armin",
+    "surname": "Zimmermann",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1917-12-23",
+    "place": "Blumenau",
+    "country": "Brasilien"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1976-11-30",
+    "place": "Bonn",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/1028595328",
+    "wikipedia": "https://de.wikipedia.org/wiki/Armin_Zimmermann_(Admiral)",
+    "viaf": null
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "WolfWinfried_1994-11-10",
+  "name": "Winfried Wolf",
+  "givenName": "Winfried",
+  "familyName": "Wolf",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1949-03-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Horb am Neckar"
+  },
+  "deathDate": "2023-05-22",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Gruppe der Partei des Demokratischen Sozialismus",
+        "alternateName": "Grp. PDS"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-10-26"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Partei des Demokratischen Sozialismus",
+        "alternateName": "PDS"
+      },
+      "startDate": "1998-10-26",
+      "endDate": "2002-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/128492821",
+    "https://de.wikipedia.org/wiki/Winfried_Wolf_(Politiker)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Winfried Wolf",
+    "forename": "Winfried",
+    "surname": "Wolf",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1949-03-04",
+    "place": "Horb am Neckar",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2023-05-22",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 13,
+      "faction": "Grp. PDS",
+      "faction_full": "Gruppe der Partei des Demokratischen Sozialismus",
+      "from": "1994-11-10",
+      "to": "1998-10-26"
+    },
+    {
+      "period": 14,
+      "faction": "PDS",
+      "faction_full": "Fraktion der Partei des Demokratischen Sozialismus",
+      "from": "1998-10-26",
+      "to": "2002-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002830",
+    "gnd": "https://d-nb.info/gnd/128492821",
+    "wikipedia": "https://de.wikipedia.org/wiki/Winfried_Wolf_(Politiker)",
+    "viaf": null
+  }
+}

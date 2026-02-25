@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "Oettingen-WallersteinEugen_1951-01-08",
+  "name": "Eugen Oettingen-Wallerstein",
+  "givenName": "Eugen",
+  "familyName": "Oettingen-Wallerstein",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1885-03-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Prag"
+  },
+  "deathDate": "1969-10-03",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hohenaltheim"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Jurist, Land- und Forstwirt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Bayernpartei",
+        "alternateName": "BP"
+      },
+      "startDate": "1951-01-08",
+      "endDate": "1952-09-01"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Föderalistische Union",
+        "alternateName": "FU"
+      },
+      "startDate": "1951-12-14",
+      "endDate": "1952-09-01"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/133696294",
+    "https://de.wikipedia.org/wiki/Eugen_F%C3%BCrst_zu_Oettingen-Wallerstein"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Eugen Oettingen-Wallerstein",
+    "forename": "Eugen",
+    "surname": "Oettingen-Wallerstein",
+    "prefix": "",
+    "role_name": "Fürst zu",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1885-03-22",
+    "place": "Prag",
+    "country": "Österreich-Ungarn (heute: Tschechische Republik)"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1969-10-03",
+    "place": "Hohenaltheim",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "BP",
+      "faction_full": "Fraktion Bayernpartei",
+      "from": "1951-01-08",
+      "to": "1952-09-01"
+    },
+    {
+      "period": 1,
+      "faction": "FU",
+      "faction_full": "Fraktion Föderalistische Union",
+      "from": "1951-12-14",
+      "to": "1952-09-01"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001639",
+    "gnd": "https://d-nb.info/gnd/133696294",
+    "wikipedia": "https://de.wikipedia.org/wiki/Eugen_F%C3%BCrst_zu_Oettingen-Wallerstein",
+    "viaf": null
+  }
+}

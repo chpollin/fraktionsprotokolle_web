@@ -1,0 +1,53 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "LabbeClaude",
+  "name": "Claude Labbé",
+  "givenName": "Claude",
+  "familyName": "Labbé",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1920-01-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Argenteuil"
+  },
+  "deathDate": "1993-11-29",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Argenteuil"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1967–1993 Abgeordneter der französischen Nationalversammlung"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://fr.wikipedia.org/wiki/Claude_Labb%C3%A9"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Claude Labbé",
+    "forename": "Claude",
+    "surname": "Labbé",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1920-01-27",
+    "place": "Argenteuil",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1993-11-29",
+    "place": "Argenteuil",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": null,
+    "wikipedia": "https://fr.wikipedia.org/wiki/Claude_Labb%C3%A9",
+    "viaf": null
+  }
+}

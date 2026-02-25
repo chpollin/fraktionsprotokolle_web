@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "FrankLeonhard",
+  "name": "Leonhard Frank",
+  "givenName": "Leonhard",
+  "familyName": "Frank",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1882-09-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Würzburg"
+  },
+  "deathDate": "1961-08-18",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Schriftsteller"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118534793",
+    "https://de.wikipedia.org/wiki/Leonhard_Frank"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Leonhard Frank",
+    "forename": "Leonhard",
+    "surname": "Frank",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1882-09-04",
+    "place": "Würzburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1961-08-18",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118534793",
+    "wikipedia": "https://de.wikipedia.org/wiki/Leonhard_Frank",
+    "viaf": null
+  }
+}

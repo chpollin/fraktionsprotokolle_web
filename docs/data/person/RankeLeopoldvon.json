@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "RankeLeopoldvon",
+  "name": "Leopold von Ranke",
+  "givenName": "Leopold",
+  "familyName": "Ranke",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1795-12-21",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Wiehe"
+  },
+  "deathDate": "1886-05-23",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "dt. Historiker"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118598279",
+    "https://de.wikipedia.org/wiki/Leopold_von_Ranke"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Leopold von Ranke",
+    "forename": "Leopold",
+    "surname": "Ranke",
+    "prefix": "von",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1795-12-21",
+    "place": "Wiehe",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1886-05-23",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118598279",
+    "wikipedia": "https://de.wikipedia.org/wiki/Leopold_von_Ranke",
+    "viaf": null
+  }
+}

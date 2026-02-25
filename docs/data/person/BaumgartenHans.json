@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BaumgartenHans",
+  "name": "Hans Baumgarten",
+  "givenName": "Hans",
+  "familyName": "Baumgarten",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1900-01-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "1968-03-24",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Königstein im Taunus"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist und Herausgeber, Mitbegründer der »Frankfurter Allgemeinen Zeitung«, 1949–1965 Mitherausgeber"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/1029669201",
+    "https://de.wikipedia.org/wiki/Hans_Baumgarten_(Journalist)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans Baumgarten",
+    "forename": "Hans",
+    "surname": "Baumgarten",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1900-01-04",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1968-03-24",
+    "place": "Königstein im Taunus",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/1029669201",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Baumgarten_(Journalist)",
+    "viaf": null
+  }
+}

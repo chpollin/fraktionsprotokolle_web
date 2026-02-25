@@ -1,0 +1,69 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "PotthastGabriele_1983-03-29",
+  "name": "Gabriele Potthast",
+  "givenName": "Gabriele",
+  "familyName": "Potthast",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1955-06-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Wattenscheid"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Lehrerin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Die Grünen",
+        "alternateName": "Grüne"
+      },
+      "startDate": "1983-03-29",
+      "endDate": "1985-04-03"
+    }
+  ],
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Gabriele_Potthast"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Gabriele Potthast",
+    "forename": "Gabriele",
+    "surname": "Potthast",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1955-06-03",
+    "place": "Wattenscheid",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 10,
+      "faction": "Grüne",
+      "faction_full": "Fraktion Die Grünen",
+      "from": "1983-03-29",
+      "to": "1985-04-03"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001741",
+    "gnd": null,
+    "wikipedia": "https://de.wikipedia.org/wiki/Gabriele_Potthast",
+    "viaf": null
+  }
+}

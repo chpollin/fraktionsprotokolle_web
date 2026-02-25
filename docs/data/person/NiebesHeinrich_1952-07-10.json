@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "NiebesHeinrich_1952-07-10",
+  "name": "Heinrich Niebes",
+  "givenName": "Heinrich",
+  "familyName": "Niebes",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1890-10-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Duisburg"
+  },
+  "deathDate": "1966-09-25",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Lindau"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Kaufmännischer Angestellter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Kommunistischen Partei Deutschlands",
+        "alternateName": "KPD"
+      },
+      "startDate": "1952-07-10",
+      "endDate": "1953-09-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1340040026",
+    "https://de.wikipedia.org/wiki/Heinrich_Niebes"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Heinrich Niebes",
+    "forename": "Heinrich",
+    "surname": "Niebes",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1890-10-27",
+    "place": "Duisburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1966-09-25",
+    "place": "Lindau",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "KPD",
+      "faction_full": "Fraktion der Kommunistischen Partei Deutschlands",
+      "from": "1952-07-10",
+      "to": "1953-09-07"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001605",
+    "gnd": "https://d-nb.info/gnd/1340040026",
+    "wikipedia": "https://de.wikipedia.org/wiki/Heinrich_Niebes",
+    "viaf": null
+  }
+}

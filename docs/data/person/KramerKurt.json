@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "KramerKurt",
+  "name": "Kurt Kramer",
+  "givenName": "Kurt",
+  "familyName": "Kramer",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1906-06-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Münster"
+  },
+  "deathDate": "1985-03-23",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Studienfreund von Eugen Gerstenmaier, nach 1945 Professor für Physiologie an den Universitäten Göttingen und München"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/136033229",
+    "https://de.wikipedia.org/wiki/Kurt_Kramer_(Mediziner)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Kurt Kramer",
+    "forename": "Kurt",
+    "surname": "Kramer",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1906-06-16",
+    "place": "Münster",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1985-03-23",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/136033229",
+    "wikipedia": "https://de.wikipedia.org/wiki/Kurt_Kramer_(Mediziner)",
+    "viaf": null
+  }
+}

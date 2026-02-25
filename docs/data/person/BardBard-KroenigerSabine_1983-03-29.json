@@ -1,0 +1,83 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BardBard-KroenigerSabine_1983-03-29",
+  "name": "Sabine Bard-Kröniger, geb. Katzschner",
+  "givenName": "Sabine",
+  "familyName": "Bard",
+  "gender": "https://schema.org/Female",
+  "birthDate": "1946-11-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Rinteln/Weser"
+  },
+  "deathDate": "2016-02-21",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Mittelherwigsdorf"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Tierärztin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Die Grünen",
+        "alternateName": "Grüne"
+      },
+      "startDate": "1983-03-29",
+      "endDate": "1985-03-31"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1267437510",
+    "https://de.wikipedia.org/wiki/Sabine_Bard"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Sabine Bard-Kröniger, geb. Katzschner",
+    "forename": "Sabine",
+    "surname": "Bard",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1946-11-27",
+    "place": "Rinteln/Weser",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2016-02-21",
+    "place": "Mittelherwigsdorf",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 10,
+      "faction": "Grüne",
+      "faction_full": "Fraktion Die Grünen",
+      "from": "1983-03-29",
+      "to": "1985-03-31"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000093",
+    "gnd": "https://d-nb.info/gnd/1267437510",
+    "wikipedia": "https://de.wikipedia.org/wiki/Sabine_Bard",
+    "viaf": null
+  },
+  "fraktionsprotokolle:alt_names": [
+    {
+      "reg": "Sabine Bard-Kröniger",
+      "forename": "Sabine",
+      "surname": "Bard-Kröniger",
+      "prefix": "",
+      "role_name": "",
+      "place": ""
+    }
+  ]
+}

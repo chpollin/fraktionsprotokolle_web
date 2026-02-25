@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "StresemannGustav",
+  "name": "Gustav Stresemann",
+  "givenName": "Gustav",
+  "familyName": "Stresemann",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1878-05-10",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "1929-10-03",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1923 Reichskanzler des Deutschen Reiches, 1923–1929 Reichsminister des Auswärtigen"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118619268",
+    "https://de.wikipedia.org/wiki/Gustav_Stresemann"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Gustav Stresemann",
+    "forename": "Gustav",
+    "surname": "Stresemann",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1878-05-10",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1929-10-03",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118619268",
+    "wikipedia": "https://de.wikipedia.org/wiki/Gustav_Stresemann",
+    "viaf": null
+  }
+}

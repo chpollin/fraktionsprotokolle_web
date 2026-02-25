@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchleifenbaumEckhard_1975-06-05",
+  "name": "Eckhard Schleifenbaum",
+  "givenName": "Eckhard",
+  "familyName": "Schleifenbaum",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1939-01-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Siegen"
+  },
+  "deathDate": "1981-12-13",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Siegen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Diplom Kaufmann, Geschäftsführer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1975-06-05",
+      "endDate": "1976-12-13"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1979-11-26",
+      "endDate": "1980-11-04"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1339365235",
+    "https://de.wikipedia.org/wiki/Eckhard_Schleifenbaum"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Eckhard Schleifenbaum",
+    "forename": "Eckhard",
+    "surname": "Schleifenbaum",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1939-01-18",
+    "place": "Siegen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1981-12-13",
+    "place": "Siegen",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 7,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1975-06-05",
+      "to": "1976-12-13"
+    },
+    {
+      "period": 8,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1979-11-26",
+      "to": "1980-11-04"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001981",
+    "gnd": "https://d-nb.info/gnd/1339365235",
+    "wikipedia": "https://de.wikipedia.org/wiki/Eckhard_Schleifenbaum",
+    "viaf": null
+  }
+}

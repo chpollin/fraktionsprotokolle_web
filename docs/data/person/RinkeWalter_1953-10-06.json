@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "RinkeWalter_1953-10-06",
+  "name": "Walter Rinke",
+  "givenName": "Walter",
+  "familyName": "Rinke",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1895-01-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kattowitz (heute: Katowice, Polen)"
+  },
+  "deathDate": "1983-05-21",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Rottach-Egern"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Ministerialrat a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/116551003",
+    "https://de.wikipedia.org/wiki/Walter_Rinke"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Walter Rinke",
+    "forename": "Walter",
+    "surname": "Rinke",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1895-01-05",
+    "place": "Kattowitz (heute: Katowice, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1983-05-21",
+    "place": "Rottach-Egern",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001854",
+    "gnd": "https://d-nb.info/gnd/116551003",
+    "wikipedia": "https://de.wikipedia.org/wiki/Walter_Rinke",
+    "viaf": null
+  }
+}

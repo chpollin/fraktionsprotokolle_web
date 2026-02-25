@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "FellerWolf",
+  "name": "Wolf Feller",
+  "givenName": "Wolf",
+  "familyName": "Feller",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1930-09-01",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "deathDate": "2014-02-03",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Grünwald"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Auslandskorrespondent von BR und ARD in Rom"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/1047592827",
+    "https://de.wikipedia.org/wiki/Wolf_Feller"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Wolf Feller",
+    "forename": "Wolf",
+    "surname": "Feller",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1930-09-01",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2014-02-03",
+    "place": "Grünwald",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/1047592827",
+    "wikipedia": "https://de.wikipedia.org/wiki/Wolf_Feller",
+    "viaf": null
+  }
+}

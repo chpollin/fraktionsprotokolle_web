@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "JunkerWolfgang",
+  "name": "Wolfgang Junker",
+  "givenName": "Wolfgang",
+  "familyName": "Junker",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1929-02-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Quedlinburg"
+  },
+  "deathDate": "1990-04-09",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1963–1989 Minister für Bauwesen der DDR"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/136180752",
+    "https://de.wikipedia.org/wiki/Wolfgang_Junker"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Wolfgang Junker",
+    "forename": "Wolfgang",
+    "surname": "Junker",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1929-02-23",
+    "place": "Quedlinburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1990-04-09",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/136180752",
+    "wikipedia": "https://de.wikipedia.org/wiki/Wolfgang_Junker",
+    "viaf": null
+  }
+}

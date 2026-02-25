@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "FlickFriedrich",
+  "name": "Friedrich Flick",
+  "givenName": "Friedrich",
+  "familyName": "Flick",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1883-07-10",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Ernsdorf"
+  },
+  "deathDate": "1972-07-20",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Konstanz"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Unternehmer"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118533959",
+    "https://de.wikipedia.org/wiki/Friedrich_Flick"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Friedrich Flick",
+    "forename": "Friedrich",
+    "surname": "Flick",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1883-07-10",
+    "place": "Ernsdorf",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1972-07-20",
+    "place": "Konstanz",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118533959",
+    "wikipedia": "https://de.wikipedia.org/wiki/Friedrich_Flick",
+    "viaf": null
+  }
+}

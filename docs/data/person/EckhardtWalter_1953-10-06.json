@@ -1,0 +1,192 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "EckhardtWalter_1953-10-06",
+  "name": "Walter Eckhardt",
+  "givenName": "Walter",
+  "familyName": "Eckhardt",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1906-03-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Homburg"
+  },
+  "deathDate": "1994-01-01",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Feldafing"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsanwalt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Gesamtdeutscher Block/Block der Heimatvertriebenen und Entrechteten",
+        "alternateName": "GB/BHE"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktionslos",
+        "alternateName": "Fraktionslos"
+      },
+      "startDate": "1955-07-12",
+      "endDate": "1957-10-06"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Gruppe Kraft/Oberländer",
+        "alternateName": "Grp. Kraft/Oberl."
+      },
+      "startDate": "1955-07-14",
+      "endDate": "1957-10-06"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der CDU/CSU (Gast)",
+        "alternateName": "CDU/CSU (Gast)"
+      },
+      "startDate": "1955-07-15",
+      "endDate": "1957-10-06"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1956-03-20",
+      "endDate": "1957-10-06"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1957-12-27",
+      "endDate": "1961-10-15"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1964-07-21",
+      "endDate": "1965-10-17"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1965-10-19",
+      "endDate": "1969-10-19"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/13730062X",
+    "https://de.wikipedia.org/wiki/Walter_Eckhardt"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Walter Eckhardt",
+    "forename": "Walter",
+    "surname": "Eckhardt",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1906-03-23",
+    "place": "Homburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1994-01-01",
+    "place": "Feldafing",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "GB/BHE",
+      "faction_full": "Fraktion Gesamtdeutscher Block/Block der Heimatvertriebenen und Entrechteten",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 2,
+      "faction": "Fraktionslos",
+      "faction_full": "Fraktionslos",
+      "from": "1955-07-12",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 2,
+      "faction": "Grp. Kraft/Oberl.",
+      "faction_full": "Gruppe Kraft/Oberländer",
+      "from": "1955-07-14",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 2,
+      "faction": "CDU/CSU (Gast)",
+      "faction_full": "Fraktion der CDU/CSU (Gast)",
+      "from": "1955-07-15",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 2,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1956-03-20",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 3,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1957-12-27",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 4,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1964-07-21",
+      "to": "1965-10-17"
+    },
+    {
+      "period": 5,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000433",
+    "gnd": "https://d-nb.info/gnd/13730062X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Walter_Eckhardt",
+    "viaf": null
+  }
+}

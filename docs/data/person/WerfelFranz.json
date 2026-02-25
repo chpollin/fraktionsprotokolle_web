@@ -1,0 +1,55 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "WerfelFranz",
+  "name": "Franz Werfel",
+  "givenName": "Franz Viktor",
+  "familyName": "Werfel",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1890-09-10",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Prag"
+  },
+  "deathDate": "1945-08-26",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Beverly Hills, Kalifornien"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Lektor, Schriftsteller, Übersetzer und Musiker"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118631373",
+    "https://de.wikipedia.org/wiki/Franz_Werfel"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Franz Werfel",
+    "forename": "Franz Viktor",
+    "surname": "Werfel",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1890-09-10",
+    "place": "Prag",
+    "country": "Österreich-Ungarn (heute: Tschechische Republik)"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1945-08-26",
+    "place": "Beverly Hills, Kalifornien",
+    "country": "USA"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118631373",
+    "wikipedia": "https://de.wikipedia.org/wiki/Franz_Werfel",
+    "viaf": null
+  },
+  "fraktionsprotokolle:sonstiges": "lebte 1918-1938 in Österreich, emigrierte 1938 nach Frankreich und 1940 in die USA"
+}

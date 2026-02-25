@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "WagnerJosef_1953-10-06",
+  "name": "Josef Wagner",
+  "givenName": "Josef",
+  "familyName": "Wagner",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1892-12-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Frauenthal"
+  },
+  "deathDate": "1979-01-02",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Buchhalter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1313812730",
+    "https://de.wikipedia.org/wiki/Josef_Wagner_(Politiker,_1892)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Josef Wagner",
+    "forename": "Josef",
+    "surname": "Wagner",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Deggenau)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1892-12-15",
+    "place": "Frauenthal",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1979-01-02",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002408",
+    "gnd": "https://d-nb.info/gnd/1313812730",
+    "wikipedia": "https://de.wikipedia.org/wiki/Josef_Wagner_(Politiker,_1892)",
+    "viaf": null
+  }
+}

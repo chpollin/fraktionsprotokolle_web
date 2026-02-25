@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HappeHeinrich_1949-09-07",
+  "name": "Heinrich Happe",
+  "givenName": "Heinrich",
+  "familyName": "Happe",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1894-12-31",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Essen-Altenessen"
+  },
+  "deathDate": "1979-01-12",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Landwirt, Verwaltungsangestellter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1339579375",
+    "https://de.wikipedia.org/wiki/Heinrich_Happe_(Politiker,_1894)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Heinrich Happe",
+    "forename": "Heinrich",
+    "surname": "Happe",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1894-12-31",
+    "place": "Essen-Altenessen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1979-01-12",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000810",
+    "gnd": "https://d-nb.info/gnd/1339579375",
+    "wikipedia": "https://de.wikipedia.org/wiki/Heinrich_Happe_(Politiker,_1894)",
+    "viaf": null
+  }
+}

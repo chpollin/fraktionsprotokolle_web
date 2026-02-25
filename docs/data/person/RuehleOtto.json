@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "RuehleOtto",
+  "name": "Otto Rühle",
+  "givenName": "Otto",
+  "familyName": "Rühle",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1914-02-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Zuffenhausen"
+  },
+  "deathDate": "1969-04-06",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Ost-Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1949 Abgeordneter der Provisorischen Volkskammer, 1950–1969 der Volkskammer der DDR (NDPD)"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118603914",
+    "https://de.wikipedia.org/wiki/Otto_R%C3%BChle_(Politiker,_1914)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Otto Rühle",
+    "forename": "Otto",
+    "surname": "Rühle",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1914-02-20",
+    "place": "Zuffenhausen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1969-04-06",
+    "place": "Ost-Berlin",
+    "country": "DDR"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118603914",
+    "wikipedia": "https://de.wikipedia.org/wiki/Otto_R%C3%BChle_(Politiker,_1914)",
+    "viaf": null
+  }
+}

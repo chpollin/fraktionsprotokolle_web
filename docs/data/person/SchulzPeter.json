@@ -1,0 +1,55 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchulzPeter",
+  "name": "Peter Schulz",
+  "givenName": "Peter",
+  "familyName": "Schulz",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1930-04-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Rostock"
+  },
+  "deathDate": "2013-05-17",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Jurist, 1961–1966 Abgeordneter der Hamburgischen Bürgerschaft, 1971–1974 Erster Bürgermeister der Freien und Hansestadt Hamburg"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/132685892",
+    "https://de.wikipedia.org/wiki/Peter_Schulz_(Politiker)",
+    "https://viaf.org/viaf/110676965"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Peter Schulz",
+    "forename": "Peter",
+    "surname": "Schulz",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1930-04-25",
+    "place": "Rostock",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2013-05-17",
+    "place": "Hamburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/132685892",
+    "wikipedia": "https://de.wikipedia.org/wiki/Peter_Schulz_(Politiker)",
+    "viaf": "https://viaf.org/viaf/110676965"
+  }
+}

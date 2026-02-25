@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "MunzingerOskar_1959-04-20",
+  "name": "Oskar Munzinger",
+  "givenName": "Oskar",
+  "familyName": "Munzinger",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1911-02-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Rosenkopf"
+  },
+  "deathDate": "1983-09-06",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Neustadt an der Weinstraße"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsanwalt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1959-04-20",
+      "endDate": "1959-10-01"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1120448999",
+    "https://de.wikipedia.org/wiki/Oskar_Munzinger_(Politiker,_1911)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Oskar Munzinger",
+    "forename": "Oskar",
+    "surname": "Munzinger",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1911-02-20",
+    "place": "Rosenkopf",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1983-09-06",
+    "place": "Neustadt an der Weinstraße",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 3,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1959-04-20",
+      "to": "1959-10-01"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001575",
+    "gnd": "https://d-nb.info/gnd/1120448999",
+    "wikipedia": "https://de.wikipedia.org/wiki/Oskar_Munzinger_(Politiker,_1911)",
+    "viaf": null
+  }
+}

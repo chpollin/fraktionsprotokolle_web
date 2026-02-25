@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "AdelmannRaban_1957-10-15",
+  "name": "Raban Adelmann",
+  "givenName": "Raban",
+  "familyName": "Adelmann",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1912-09-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Düsseldorf"
+  },
+  "deathDate": "1992-01-25",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Burg Schaubeck in Steinheim-Kleinbottwar in Württemberg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Landwirt, Weingutbesitzer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1957-10-15",
+      "endDate": "1961-10-15"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/107571986",
+    "https://de.wikipedia.org/wiki/Raban_Adelmann_(Politiker)"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Raban Adelmann",
+    "forename": "Raban",
+    "surname": "Adelmann",
+    "prefix": "",
+    "role_name": "Graf",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1912-09-28",
+    "place": "Düsseldorf",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1992-01-25",
+    "place": "Burg Schaubeck in Steinheim-Kleinbottwar in Württemberg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 3,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000008",
+    "gnd": "https://d-nb.info/gnd/107571986",
+    "wikipedia": "https://de.wikipedia.org/wiki/Raban_Adelmann_(Politiker)",
+    "viaf": null
+  }
+}

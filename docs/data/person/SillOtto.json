@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SillOtto",
+  "name": "Otto Sill",
+  "givenName": "Otto",
+  "familyName": "Sill",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1906-09-10",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Calw"
+  },
+  "deathDate": "1984-03-01",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1964–1971 Oberbaudirektor in Hamburg"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/1027647650",
+    "https://de.wikipedia.org/wiki/Otto_Sill_(Ingenieur)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Otto Sill",
+    "forename": "Otto",
+    "surname": "Sill",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1906-09-10",
+    "place": "Calw",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1984-03-01",
+    "place": "Hamburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/1027647650",
+    "wikipedia": "https://de.wikipedia.org/wiki/Otto_Sill_(Ingenieur)",
+    "viaf": null
+  }
+}

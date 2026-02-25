@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "StrassmannFritz",
+  "name": "Fritz Straßmann",
+  "givenName": "Fritz",
+  "familyName": "Straßmann",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1902-02-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Boppard"
+  },
+  "deathDate": "1980-04-22",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Mainz"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Chemiker, Assistent von Otto Hahn"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118618946",
+    "https://de.wikipedia.org/wiki/Fritz_Stra%C3%9Fmann"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Fritz Straßmann",
+    "forename": "Fritz",
+    "surname": "Straßmann",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1902-02-22",
+    "place": "Boppard",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1980-04-22",
+    "place": "Mainz",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118618946",
+    "wikipedia": "https://de.wikipedia.org/wiki/Fritz_Stra%C3%9Fmann",
+    "viaf": null
+  }
+}

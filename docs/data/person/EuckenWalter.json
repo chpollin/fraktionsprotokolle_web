@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "EuckenWalter",
+  "name": "Walter Eucken",
+  "givenName": "Walter",
+  "familyName": "Eucken",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1891-01-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Jena"
+  },
+  "deathDate": "1950-03-20",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "London"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Ökonom"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118682563",
+    "https://de.wikipedia.org/wiki/Walter_Eucken"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Walter Eucken",
+    "forename": "Walter",
+    "surname": "Eucken",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1891-01-17",
+    "place": "Jena",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1950-03-20",
+    "place": "London",
+    "country": "Großbritannien"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118682563",
+    "wikipedia": "https://de.wikipedia.org/wiki/Walter_Eucken",
+    "viaf": null
+  }
+}

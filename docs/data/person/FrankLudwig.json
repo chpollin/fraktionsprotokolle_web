@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "FrankLudwig",
+  "name": "Ludwig Frank",
+  "givenName": "Ludwig",
+  "familyName": "Frank",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1874-05-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Nonnenweier, Baden"
+  },
+  "deathDate": "1914-09-03",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Baccarat, Lothringen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1907–1914 MdR (SPD), im Ersten Weltkrieg gefallen"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/11923923X",
+    "https://de.wikipedia.org/wiki/Ludwig_Frank_(SPD)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Ludwig Frank",
+    "forename": "Ludwig",
+    "surname": "Frank",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1874-05-23",
+    "place": "Nonnenweier, Baden",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1914-09-03",
+    "place": "Baccarat, Lothringen",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/11923923X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Ludwig_Frank_(SPD)",
+    "viaf": null
+  }
+}

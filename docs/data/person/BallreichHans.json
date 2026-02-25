@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BallreichHans",
+  "name": "Hans Ballreich",
+  "givenName": "Hans",
+  "familyName": "Ballreich",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1913-04-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Ludwigsburg"
+  },
+  "deathDate": "1998-11-11",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bad Griesbach"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Jurist und Wissenschaftsmanager"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/170469123",
+    "https://de.wikipedia.org/wiki/Hans_Ballreich"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans Ballreich",
+    "forename": "Hans",
+    "surname": "Ballreich",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1913-04-18",
+    "place": "Ludwigsburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1998-11-11",
+    "place": "Bad Griesbach",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/170469123",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Ballreich",
+    "viaf": null
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HumphreyJohn",
+  "name": "John Humphrey",
+  "givenName": "John",
+  "familyName": "Humphrey",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1905-04-30",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hampton, New Brunswick"
+  },
+  "deathDate": "1995-03-14",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Montreal"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Direktor der Menschenrechtskommission im Generalsekretariat der Vereinten Nationen"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/119342189",
+    "https://de.wikipedia.org/wiki/John_Peters_Humphrey"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "John Humphrey",
+    "forename": "John",
+    "surname": "Humphrey",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1905-04-30",
+    "place": "Hampton, New Brunswick",
+    "country": "Kanada"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1995-03-14",
+    "place": "Montreal",
+    "country": "Kanada"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/119342189",
+    "wikipedia": "https://de.wikipedia.org/wiki/John_Peters_Humphrey",
+    "viaf": null
+  }
+}

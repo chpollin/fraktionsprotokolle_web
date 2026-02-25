@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "OpdenOrthFranz_1953-10-06",
+  "name": "Franz Op den Orth",
+  "givenName": "Franz",
+  "familyName": "Op den Orth",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1902-11-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Essen"
+  },
+  "deathDate": "1970-03-10",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Ampfing"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Redakteur [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/134030583",
+    "https://de.wikipedia.org/wiki/Franz_Op_den_Orth"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Franz Op den Orth",
+    "forename": "Franz",
+    "surname": "Op den Orth",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1902-11-28",
+    "place": "Essen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1970-03-10",
+    "place": "Ampfing",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001651",
+    "gnd": "https://d-nb.info/gnd/134030583",
+    "wikipedia": "https://de.wikipedia.org/wiki/Franz_Op_den_Orth",
+    "viaf": null
+  }
+}

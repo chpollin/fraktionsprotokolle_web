@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "LeuschnerWilhelm",
+  "name": "Wilhelm Leuschner",
+  "givenName": "Wilhelm",
+  "familyName": "Leuschner",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1890-06-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bayreuth"
+  },
+  "deathDate": "1944-09-29",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin-Plötzensee"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Gewerkschafter, sozialdemokratischer Politiker, wegen Widerstands gegen den Nationalsozialismus hingerichtet"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118572245",
+    "https://de.wikipedia.org/wiki/Wilhelm_Leuschner"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Wilhelm Leuschner",
+    "forename": "Wilhelm",
+    "surname": "Leuschner",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1890-06-15",
+    "place": "Bayreuth",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1944-09-29",
+    "place": "Berlin-Plötzensee",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118572245",
+    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_Leuschner",
+    "viaf": null
+  }
+}

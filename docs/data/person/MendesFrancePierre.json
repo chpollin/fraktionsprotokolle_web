@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "MendesFrancePierre",
+  "name": "Pierre Mendès France",
+  "givenName": "Pierre",
+  "familyName": "Mendès France",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1907-01-11",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "deathDate": "1982-10-18",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1954/55 Ministerpräsident der Französischen Republik"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118783211",
+    "https://de.wikipedia.org/wiki/Pierre_Mend%C3%A8s_France"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Pierre Mendès France",
+    "forename": "Pierre",
+    "surname": "Mendès France",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1907-01-11",
+    "place": "Paris",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1982-10-18",
+    "place": "Paris",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118783211",
+    "wikipedia": "https://de.wikipedia.org/wiki/Pierre_Mend%C3%A8s_France",
+    "viaf": null
+  }
+}

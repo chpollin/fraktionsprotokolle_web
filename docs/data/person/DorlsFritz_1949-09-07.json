@@ -1,0 +1,124 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "DorlsFritz_1949-09-07",
+  "name": "Fritz Dorls",
+  "givenName": "Fritz",
+  "familyName": "Dorls",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1910-09-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Brilon/Westfalen"
+  },
+  "deathDate": "1995-01-25",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Opponitz, Niederösterreich"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Schriftsteller, Journalist [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Deutsche Reichspartei/Nationale Rechte",
+        "alternateName": "DRP/NR"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1952-10-23"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktionslos",
+        "alternateName": "Fraktionslos"
+      },
+      "startDate": "1949-10-02",
+      "endDate": "1952-10-23"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion WAV (Gast)",
+        "alternateName": "WAV (Gast)"
+      },
+      "startDate": "1950-12-13",
+      "endDate": "1952-10-23"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktionslos",
+        "alternateName": "Fraktionslos"
+      },
+      "startDate": "1951-09-26",
+      "endDate": "1952-10-23"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/103471032X",
+    "https://de.wikipedia.org/wiki/Fritz_Dorls"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Fritz Dorls",
+    "forename": "Fritz",
+    "surname": "Dorls",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1910-09-09",
+    "place": "Brilon/Westfalen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1995-01-25",
+    "place": "Opponitz, Niederösterreich",
+    "country": "Österreich"
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "DRP/NR",
+      "faction_full": "Fraktion Deutsche Reichspartei/Nationale Rechte",
+      "from": "1949-09-07",
+      "to": "1952-10-23"
+    },
+    {
+      "period": 1,
+      "faction": "Fraktionslos",
+      "faction_full": "Fraktionslos",
+      "from": "1949-10-02",
+      "to": "1952-10-23"
+    },
+    {
+      "period": 1,
+      "faction": "WAV (Gast)",
+      "faction_full": "Fraktion WAV (Gast)",
+      "from": "1950-12-13",
+      "to": "1952-10-23"
+    },
+    {
+      "period": 1,
+      "faction": "Fraktionslos",
+      "faction_full": "Fraktionslos",
+      "from": "1951-09-26",
+      "to": "1952-10-23"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000408",
+    "gnd": "https://d-nb.info/gnd/103471032X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Fritz_Dorls",
+    "viaf": null
+  }
+}

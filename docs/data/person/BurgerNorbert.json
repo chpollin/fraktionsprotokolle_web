@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "BurgerNorbert",
+  "name": "Norbert Burger",
+  "givenName": "Norbert",
+  "familyName": "Burger",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1929-04-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kirchberg am Wechsel"
+  },
+  "deathDate": "1992-09-27",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Kirchberg am Wechsel"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "österreichischer deutschnationaler und rechtsextremer Politiker, Mitgründer des separatistischen »Befreiungsausschusses Südtirol« (BAS)"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/124544215",
+    "https://de.wikipedia.org/wiki/Norbert_Burger_(Politiker,_1929)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Norbert Burger",
+    "forename": "Norbert",
+    "surname": "Burger",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1929-04-13",
+    "place": "Kirchberg am Wechsel",
+    "country": "Österreich"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1992-09-27",
+    "place": "Kirchberg am Wechsel",
+    "country": "Österreich"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/124544215",
+    "wikipedia": "https://de.wikipedia.org/wiki/Norbert_Burger_(Politiker,_1929)",
+    "viaf": null
+  }
+}

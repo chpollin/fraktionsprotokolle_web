@@ -1,0 +1,53 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "FrankeHans",
+  "name": "Hans Franke",
+  "givenName": "Hans",
+  "familyName": "Franke",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1911",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Königshütte, Oberschlesien (heute: Chorzów, Polen)"
+  },
+  "deathDate": "2000",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Tutzing/Starnberger See"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Arzt und Schriftsteller, 1956–1982 Leiter der Würzburger Poliklinik"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/129613428"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans Franke",
+    "forename": "Hans",
+    "surname": "Franke",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1911",
+    "place": "Königshütte, Oberschlesien (heute: Chorzów, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2000",
+    "place": "Tutzing/Starnberger See",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/129613428",
+    "wikipedia": null,
+    "viaf": null
+  }
+}

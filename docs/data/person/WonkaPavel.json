@@ -1,0 +1,53 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "WonkaPavel",
+  "name": "Pavel Wonka",
+  "givenName": "Pavel",
+  "familyName": "Wonka",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1953-01-21",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Vrchlabí"
+  },
+  "deathDate": "1988-04-24",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hradec Králové"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "tschechoslowakischer Dissident"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://en.wikipedia.org/wiki/Pavel_Wonka"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Pavel Wonka",
+    "forename": "Pavel",
+    "surname": "Wonka",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1953-01-21",
+    "place": "Vrchlabí",
+    "country": "Tschechoslowakei"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1988-04-24",
+    "place": "Hradec Králové",
+    "country": "Tschechoslowakei"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": null,
+    "wikipedia": "https://en.wikipedia.org/wiki/Pavel_Wonka",
+    "viaf": null
+  }
+}

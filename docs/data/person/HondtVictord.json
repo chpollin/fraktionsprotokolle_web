@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HondtVictord",
+  "name": "Victor d'Hondt",
+  "givenName": "Victor",
+  "familyName": "Hondt",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1841-11-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Gent"
+  },
+  "deathDate": "1901-05-30",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Gent"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Professor für Zivil- und Steuerrecht an der Universität Gent"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/1107038286",
+    "https://de.wikipedia.org/wiki/Victor_D%E2%80%99Hondt"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Victor d'Hondt",
+    "forename": "Victor",
+    "surname": "Hondt",
+    "prefix": "d'",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1841-11-20",
+    "place": "Gent",
+    "country": "Belgien"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1901-05-30",
+    "place": "Gent",
+    "country": "Belgien"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/1107038286",
+    "wikipedia": "https://de.wikipedia.org/wiki/Victor_D%E2%80%99Hondt",
+    "viaf": null
+  }
+}

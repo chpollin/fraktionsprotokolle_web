@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "WolkerLudwig",
+  "name": "Ludwig Wolker",
+  "givenName": "Ludwig",
+  "familyName": "Wolker",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1887-04-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "deathDate": "1955-07-17",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Cervia/Ravenna"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "kath. Theologe"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/118634984",
+    "https://de.wikipedia.org/wiki/Ludwig_Wolker"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Ludwig Wolker",
+    "forename": "Ludwig",
+    "surname": "Wolker",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1887-04-08",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1955-07-17",
+    "place": "Cervia/Ravenna",
+    "country": "Italien"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/118634984",
+    "wikipedia": "https://de.wikipedia.org/wiki/Ludwig_Wolker",
+    "viaf": null
+  }
+}

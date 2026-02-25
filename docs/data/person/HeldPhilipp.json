@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "HeldPhilipp",
+  "name": "Philipp Held",
+  "givenName": "Philipp",
+  "familyName": "Held",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1911-12-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Regensburg"
+  },
+  "deathDate": "1993-05-22",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Wolfersdorf"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "MdL Bayern (CSU), 1966–1974 Bayerischer Justizminister"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/138219648",
+    "https://de.wikipedia.org/wiki/Philipp_Held_(Politiker)"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Philipp Held",
+    "forename": "Philipp",
+    "surname": "Held",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1911-12-02",
+    "place": "Regensburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1993-05-22",
+    "place": "Wolfersdorf",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/138219648",
+    "wikipedia": "https://de.wikipedia.org/wiki/Philipp_Held_(Politiker)",
+    "viaf": null
+  }
+}

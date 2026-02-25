@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SchiederWerner_2009-10-27",
+  "name": "Werner Schieder",
+  "givenName": "Werner",
+  "familyName": "Schieder",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1948-09-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Ellenbach"
+  },
+  "deathDate": null,
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Finanzwirt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "2009-10-27",
+      "endDate": "2013-10-22"
+    }
+  ],
+  "sameAs": null,
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Werner Schieder",
+    "forename": "Werner",
+    "surname": "Schieder",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Weiden)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1948-09-13",
+    "place": "Ellenbach",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 17,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "2009-10-27",
+      "to": "2013-10-22"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11004142",
+    "gnd": null,
+    "wikipedia": null,
+    "viaf": null
+  }
+}

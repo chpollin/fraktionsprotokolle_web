@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "MenderesAdnan",
+  "name": "Adnan Menderes",
+  "givenName": "Ali Adnan Ertekin",
+  "familyName": "Menderes",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1899",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Aydın"
+  },
+  "deathDate": "1961-09-17",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "İmralı"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1950–1960 Ministerpräsident der Türkei"
+  },
+  "memberOf": null,
+  "sameAs": [
+    "https://d-nb.info/gnd/119523035",
+    "https://de.wikipedia.org/wiki/Adnan_Menderes"
+  ],
+  "fraktionsprotokolle:personType": "Other",
+  "fraktionsprotokolle:name": {
+    "reg": "Adnan Menderes",
+    "forename": "Ali Adnan Ertekin",
+    "surname": "Menderes",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1899",
+    "place": "Aydın",
+    "country": "Osmanisches Reich"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1961-09-17",
+    "place": "İmralı",
+    "country": "Türkei"
+  },
+  "fraktionsprotokolle:affiliations": [],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": null,
+    "gnd": "https://d-nb.info/gnd/119523035",
+    "wikipedia": "https://de.wikipedia.org/wiki/Adnan_Menderes",
+    "viaf": null
+  }
+}

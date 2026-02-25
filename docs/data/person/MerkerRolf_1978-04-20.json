@@ -1,0 +1,86 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "MerkerRolf_1978-04-20",
+  "name": "Rolf Merker",
+  "givenName": "Rolf",
+  "familyName": "Merker",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1936-05-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Burgsteinfurt"
+  },
+  "deathDate": "2002-03-20",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Druckermeister [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1978-04-20",
+      "endDate": "1980-11-04"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1980-11-04",
+      "endDate": "1983-03-29"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/102649575X"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Rolf Merker",
+    "forename": "Rolf",
+    "surname": "Merker",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1936-05-05",
+    "place": "Burgsteinfurt",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2002-03-20",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 8,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1978-04-20",
+      "to": "1980-11-04"
+    },
+    {
+      "period": 9,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1980-11-04",
+      "to": "1983-03-29"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001479",
+    "gnd": "https://d-nb.info/gnd/102649575X",
+    "wikipedia": null,
+    "viaf": null
+  }
+}

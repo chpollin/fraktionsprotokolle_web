@@ -1,0 +1,69 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "SybertzManfred_1976-12-14",
+  "name": "Manfred Sybertz",
+  "givenName": "Manfred",
+  "familyName": "Sybertz",
+  "gender": "https://schema.org/Male",
+  "birthDate": "1930-01-31",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Übach"
+  },
+  "deathDate": "2009-10-26",
+  "deathPlace": null,
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Betriebsdirektor [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1976-12-14",
+      "endDate": "1980-11-04"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1123856125"
+  ],
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Manfred Sybertz",
+    "forename": "Manfred",
+    "surname": "Sybertz",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1930-01-31",
+    "place": "Übach",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2009-10-26",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 8,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1976-12-14",
+      "to": "1980-11-04"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002294",
+    "gnd": "https://d-nb.info/gnd/1123856125",
+    "wikipedia": null,
+    "viaf": null
+  }
+}
