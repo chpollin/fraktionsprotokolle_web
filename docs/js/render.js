@@ -5,7 +5,15 @@
  * Exposes: renderResultsView(), renderFacetGroup()
  */
 
-function renderResultsView(results, query, filters, unfilteredFacets, page, pageSize) {
+function renderResultsView(results, query, filters, unfilteredFacets, page, pageSize, sort) {
+  // Apply sort before slicing
+  if (sort === 'birth') {
+    results = [...results].sort((a, b) => (a.birth_year || 9999) - (b.birth_year || 9999));
+  } else if (sort === 'name' || !query) {
+    results = [...results].sort((a, b) => (a.surname || '').localeCompare(b.surname || '', 'de'));
+  }
+  // else: 'relevance' → keep MiniSearch score order (default)
+
   const totalResults = results.length;
   const totalPages = Math.ceil(totalResults / pageSize);
   const start = (page - 1) * pageSize;
@@ -19,6 +27,14 @@ function renderResultsView(results, query, filters, unfilteredFacets, page, page
   if (filters.sex) badges += renderBadge('sex', sexLabel(filters.sex));
   if (filters.decade) badges += renderBadge('decade', filters.decade);
 
+  // Sort dropdown
+  const sortOptions = query
+    ? `<option value="relevance">Relevanz</option>
+       <option value="name"${sort === 'name' ? ' selected' : ''}>Name A\u2013Z</option>
+       <option value="birth"${sort === 'birth' ? ' selected' : ''}>Geburtsjahr</option>`
+    : `<option value="name">Name A\u2013Z</option>
+       <option value="birth"${sort === 'birth' ? ' selected' : ''}>Geburtsjahr</option>`;
+
   return `
     ${badges ? `<div class="active-filters">Aktive Filter: ${badges}</div>` : ''}
     <div class="results-layout">
@@ -31,7 +47,10 @@ function renderResultsView(results, query, filters, unfilteredFacets, page, page
         ${renderFacetGroup('Geburtsjahrzehnt', 'decade', unfilteredFacets.decade, filters.decade, null, true)}
       </aside>
       <div class="results-main">
-        <p class="results-count">${totalResults.toLocaleString('de-DE')} Ergebnis${totalResults !== 1 ? 'se' : ''}</p>
+        <div class="results-header">
+          <span class="results-count">${totalResults.toLocaleString('de-DE')} Ergebnis${totalResults !== 1 ? 'se' : ''}</span>
+          <select id="sort-select" class="sort-select">${sortOptions}</select>
+        </div>
         ${pageResults.length ? renderResultsTable(pageResults) : '<p>Keine Ergebnisse gefunden.</p>'}
         ${totalPages > 1 ? renderPagination(page, totalPages) : ''}
       </div>

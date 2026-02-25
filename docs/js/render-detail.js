@@ -6,6 +6,7 @@
 
 function renderDetailView(person) {
   const p = person;
+  const id = p['@id'] || '';
   const personType = p['fraktionsprotokolle:personType'];
   const nameData = p['fraktionsprotokolle:name'];
   const birth = p['fraktionsprotokolle:birth'];
@@ -26,7 +27,79 @@ function renderDetailView(person) {
   // Alt names
   const altNames = p['fraktionsprotokolle:alt_names'] || [];
 
-  // Stammdaten table
+  // --- Profile card (Shneiderman: "Overview first") ---
+  const factions = [...new Set(affiliations.map(a => a.faction))];
+  const periods = [...new Set(affiliations.map(a => a.period))].sort((a, b) => a - b);
+
+  let profileRows = '';
+  const addProfileRow = (label, value) => {
+    if (value) profileRows += `<tr><th>${escapeHtml(label)}</th><td>${value}</td></tr>`;
+  };
+  addProfileRow('Geburt', birth && birth.date
+    ? escapeHtml([formatDate(birth.date), birth.place].filter(Boolean).join(', '))
+    : '');
+  addProfileRow('Tod', death && death.date
+    ? escapeHtml([formatDate(death.date), death.place].filter(Boolean).join(', '))
+    : '');
+  addProfileRow('Beruf', escapeHtml(occupation));
+  if (factions.length) {
+    addProfileRow('Fraktionen', factions.map(f => {
+      const bg = FACTION_COLORS[f] || '#666';
+      const fg = factionTextColor(f);
+      return `<span class="faction-badge" style="background:${bg};color:${fg}">${escapeHtml(f)}</span>`;
+    }).join(' '));
+  }
+  if (periods.length) {
+    addProfileRow('Wahlperioden', periods.map(wp => `WP\u00a0${wp}`).join(', '));
+  }
+
+  // --- Career timeline (Tufte: temporal data on a timeline) ---
+  let timelineSection = '';
+  if (affiliations.length > 0) {
+    const allYears = affiliations.flatMap(a => [
+      a.from ? parseInt(a.from.substring(0, 4), 10) : null,
+      a.to ? parseInt(a.to.substring(0, 4), 10) : null,
+    ]).filter(Boolean);
+    const minYear = Math.min(...allYears);
+    const maxYear = Math.max(...allYears);
+    const totalSpan = maxYear - minYear || 1;
+
+    let timelineRows = '';
+    for (const aff of affiliations) {
+      const fromYear = aff.from ? parseInt(aff.from.substring(0, 4), 10) : minYear;
+      const toYear = aff.to ? parseInt(aff.to.substring(0, 4), 10) : maxYear;
+      const left = ((fromYear - minYear) / totalSpan) * 100;
+      const width = Math.max(((toYear - fromYear) / totalSpan) * 100, 2);
+      const bg = FACTION_COLORS[aff.faction] || '#666';
+      const fg = factionTextColor(aff.faction);
+
+      timelineRows += `
+        <div class="timeline-row">
+          <span class="timeline-label">WP\u00a0${aff.period || '\u2014'}</span>
+          <div class="timeline-track">
+            <div class="timeline-bar" style="left:${left.toFixed(1)}%;width:${width.toFixed(1)}%;background:${bg};color:${fg}"
+                 title="${escapeHtml(aff.faction)} (${aff.from || '?'} \u2013 ${aff.to || '?'})">
+            </div>
+          </div>
+          <span class="timeline-dates">${aff.from ? aff.from.substring(0, 4) : '?'}\u2013${aff.to ? aff.to.substring(0, 4) : '?'}</span>
+        </div>`;
+    }
+
+    const yearAxis = `<div class="timeline-axis">
+      <span>${minYear}</span><span>${maxYear}</span>
+    </div>`;
+
+    timelineSection = `
+      <section>
+        <h3>Politische Karriere</h3>
+        <div class="career-timeline">
+          ${timelineRows}
+          ${yearAxis}
+        </div>
+      </section>`;
+  }
+
+  // --- Stammdaten table (collapsed – details already in profile card) ---
   let stammdaten = '';
   const addRow = (label, value) => {
     if (value) stammdaten += `<tr><th>${escapeHtml(label)}</th><td>${escapeHtml(value)}</td></tr>`;
@@ -55,7 +128,14 @@ function renderDetailView(person) {
     addRow('Berufliche Laufbahn', occTexts);
   }
 
-  // Political vita (affiliations table)
+  const stammdatenSection = stammdaten
+    ? `<details class="stammdaten-details">
+         <summary>Alle Stammdaten anzeigen</summary>
+         <table class="stammdaten-table">${stammdaten}</table>
+       </details>`
+    : '';
+
+  // --- Political vita (full table with exact dates) ---
   let vitaSection = '';
   if (affiliations.length > 0) {
     let vitaRows = '';
@@ -78,7 +158,7 @@ function renderDetailView(person) {
       </section>`;
   }
 
-  // Executive roles
+  // --- Executive roles ---
   let exekutiveSection = '';
   const exekutive = p['fraktionsprotokolle:exekutive'];
   if (exekutive) {
@@ -92,7 +172,21 @@ function renderDetailView(person) {
       </section>`;
   }
 
-  // External references
+  // --- Sonstiges ---
+  let sonstigesSection = '';
+  const sonstiges = p['fraktionsprotokolle:sonstiges'];
+  if (sonstiges) {
+    const content = Array.isArray(sonstiges)
+      ? `<ul>${sonstiges.map(s => `<li>${escapeHtml(s)}</li>`).join('')}</ul>`
+      : `<p>${escapeHtml(sonstiges)}</p>`;
+    sonstigesSection = `
+      <section>
+        <h3>Sonstiges</h3>
+        ${content}
+      </section>`;
+  }
+
+  // --- External references ---
   let refsSection = '';
   const refs = [];
   if (ids.gnd) {
@@ -109,7 +203,6 @@ function renderDetailView(person) {
     const viafUrl = ids.viaf.startsWith('http') ? ids.viaf : `https://viaf.org/viaf/${ids.viaf}`;
     refs.push(`<li><a href="${escapeHtml(viafUrl)}" target="_blank" rel="noopener">VIAF</a></li>`);
   }
-  // sameAs URLs not already covered
   if (p.sameAs) {
     for (const url of p.sameAs) {
       const covered = [ids.gnd, ids.wikipedia, ids.viaf].some(v => v && url.includes(v));
@@ -118,7 +211,6 @@ function renderDetailView(person) {
       }
     }
   }
-
   if (refs.length) {
     refsSection = `
       <section>
@@ -127,34 +219,54 @@ function renderDetailView(person) {
       </section>`;
   }
 
-  // Sonstiges
-  let sonstigesSection = '';
-  const sonstiges = p['fraktionsprotokolle:sonstiges'];
-  if (sonstiges) {
-    const content = Array.isArray(sonstiges)
-      ? `<ul>${sonstiges.map(s => `<li>${escapeHtml(s)}</li>`).join('')}</ul>`
-      : `<p>${escapeHtml(sonstiges)}</p>`;
-    sonstigesSection = `
-      <section>
-        <h3>Sonstiges</h3>
-        ${content}
-      </section>`;
-  }
+  // --- Citation (FAIR: Reusable) ---
+  const today = new Date().toISOString().substring(0, 10);
+  const citeName = p.name || id;
+  const citeYear = birth && birth.date ? birth.date.substring(0, 4) : '';
+  const citeLifespan = citeYear
+    ? ` (${citeYear}\u2013${death && death.date ? death.date.substring(0, 4) : ''})`
+    : '';
 
+  const citePlain = `${citeName}${citeLifespan}, in: ParlaBio \u2013 Personendatenbank der Fraktionsprotokolle, hrsg. von der Kommission f\u00fcr Geschichte des Parlamentarismus und der politischen Parteien (KGParl), ${window.location.href}, abgerufen am ${today}.`;
+
+  const citeBibtex = `@misc{parlabio_${(id || '').replace(/[^a-zA-Z0-9]/g, '_')},
+  author = {KGParl},
+  title = {${citeName}},
+  year = {2026},
+  url = {${window.location.href}},
+  note = {ParlaBio -- Personendatenbank der Fraktionsprotokolle}
+}`;
+
+  const citationSection = `
+    <section class="citation-section">
+      <h3>Zitieren</h3>
+      <div class="citation-box">
+        <p class="citation-text">${escapeHtml(citePlain)}</p>
+        <pre class="citation-bibtex" hidden>${escapeHtml(citeBibtex)}</pre>
+        <div class="citation-actions">
+          <button type="button" class="citation-copy" data-cite="plain">Kopieren</button>
+          <button type="button" class="citation-copy" data-cite="bibtex">BibTeX kopieren</button>
+        </div>
+      </div>
+    </section>`;
+
+  // --- Assemble page ---
   return `
     <nav class="detail-nav">
-      <a href="#" id="back-link">&larr; Zurück</a>
+      <a href="#" id="back-link">&larr; Zur\u00fcck</a>
     </nav>
     <article class="person-detail">
       <h2>${escapeHtml(p.name)}</h2>
       ${subtitleParts.length ? `<p class="person-subtitle">${escapeHtml(subtitleParts.join(' \u00b7 '))}</p>` : ''}
-      <section>
-        <h3>Stammdaten</h3>
-        <table class="stammdaten-table">${stammdaten}</table>
+      <section class="profile-card">
+        <table class="profile-table">${profileRows}</table>
       </section>
+      ${timelineSection}
+      ${stammdatenSection}
       ${vitaSection}
       ${exekutiveSection}
       ${sonstigesSection}
       ${refsSection}
+      ${citationSection}
     </article>`;
 }

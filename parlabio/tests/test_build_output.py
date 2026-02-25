@@ -221,5 +221,50 @@ class TestBeacon(unittest.TestCase):
         )
 
 
+@unittest.skipUnless((_REPO_ROOT / "docs" / "index.html").exists(), "docs/ not found")
+class TestFrontendAssets(unittest.TestCase):
+    """Static checks on frontend files (AP3 Phase 2)."""
+
+    def test_favicon_exists(self):
+        """Favicon SVG must exist."""
+        self.assertTrue(
+            (_REPO_ROOT / "docs" / "img" / "favicon.svg").exists(),
+            "docs/img/favicon.svg not found",
+        )
+
+    def test_favicon_referenced_in_html(self):
+        """index.html must reference the favicon."""
+        html = (_REPO_ROOT / "docs" / "index.html").read_text(encoding="utf-8")
+        self.assertIn('rel="icon"', html, "No favicon link in index.html")
+        self.assertIn("favicon.svg", html, "Favicon link does not point to favicon.svg")
+
+    def test_page_guard_in_app(self):
+        """app.js must use replaceState for page-out-of-range correction."""
+        js = (_REPO_ROOT / "docs" / "js" / "app.js").read_text(encoding="utf-8")
+        self.assertIn("replaceState", js)
+
+    def test_error_handling_in_app(self):
+        """app.js must have separate error messages for fetch vs render errors."""
+        js = (_REPO_ROOT / "docs" / "js" / "app.js").read_text(encoding="utf-8")
+        self.assertIn("Netzwerkfehler", js)
+        self.assertIn("Fehler bei der Darstellung", js)
+
+    def test_career_timeline_in_detail(self):
+        """render-detail.js must contain career timeline markup."""
+        js = (_REPO_ROOT / "docs" / "js" / "render-detail.js").read_text(encoding="utf-8")
+        self.assertIn("career-timeline", js)
+
+    def test_citation_in_detail(self):
+        """render-detail.js must contain citation section with BibTeX."""
+        js = (_REPO_ROOT / "docs" / "js" / "render-detail.js").read_text(encoding="utf-8")
+        self.assertIn("citation-section", js)
+        self.assertIn("BibTeX", js)
+
+    def test_sort_select_in_render(self):
+        """render.js must contain sort dropdown."""
+        js = (_REPO_ROOT / "docs" / "js" / "render.js").read_text(encoding="utf-8")
+        self.assertIn("sort-select", js)
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -101,6 +101,7 @@ function parseHash() {
       sex: params.get('sex') || '',
       decade: params.get('decade') || '',
       page: parseInt(params.get('page') || '1', 10),
+      sort: params.get('sort') || '',
     };
   }
   return { view: 'start' };
@@ -116,6 +117,7 @@ function buildSearchHash(state) {
   if (state.sex) params.set('sex', state.sex);
   if (state.decade) params.set('decade', state.decade);
   if (state.page && state.page > 1) params.set('page', state.page);
+  if (state.sort && state.sort !== 'relevance') params.set('sort', state.sort);
   const qs = params.toString();
   return '#/search' + (qs ? '?' + qs : '');
 }

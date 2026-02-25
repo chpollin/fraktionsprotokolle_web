@@ -71,13 +71,21 @@ function showSearchView(state) {
     sex: state.sex || '',
     decade: state.decade || '',
   };
-  const page = state.page || 1;
+  let page = state.page || 1;
   const pageSize = CONFIG.PAGE_SIZE;
 
   const results = performSearch(state.q, filters);
   const unfilteredFacets = computeUnfilteredFacets(state.q, filters);
 
-  appEl.innerHTML = renderResultsView(results, state.q, filters, unfilteredFacets, page, pageSize);
+  // Clamp page to valid range (guard against stale bookmarks)
+  const totalPages = Math.ceil(results.length / pageSize) || 1;
+  page = Math.min(Math.max(1, page), totalPages);
+  if (page !== (state.page || 1)) {
+    history.replaceState(null, '', buildSearchHash({ ...state, page }));
+  }
+
+  const sort = state.sort || (state.q ? 'relevance' : 'name');
+  appEl.innerHTML = renderResultsView(results, state.q, filters, unfilteredFacets, page, pageSize, sort);
 
   // Remember this search state for back navigation
   APP.lastSearchState = { ...state };
@@ -96,14 +104,31 @@ async function showDetailView(id) {
   const appEl = document.getElementById('app');
   appEl.innerHTML = '<p aria-busy="true">Lade Personendaten\u2026</p>';
 
+  let person;
   try {
-    const person = await loadPersonDetail(id);
+    person = await loadPersonDetail(id);
+  } catch (err) {
+    const isNotFound = err.message && err.message.includes('not found');
+    appEl.innerHTML = isNotFound
+      ? `<p>Person nicht gefunden: ${escapeHtml(id)}</p>
+         <p><a href="#/">Zur Startseite</a></p>`
+      : `<p>Netzwerkfehler \u2013 bitte erneut versuchen.</p>
+         <p><a href="#/">Zur Startseite</a></p>`;
+    console.error('Fetch error for person', id, err);
+    const headerInput = document.getElementById('header-search-input');
+    if (headerInput) headerInput.value = '';
+    return;
+  }
+
+  try {
     appEl.innerHTML = renderDetailView(person);
     bindDetailEvents();
     document.title = `${person.name} \u2013 ParlaBio`;
   } catch (err) {
-    appEl.innerHTML = `<p>Person nicht gefunden: ${escapeHtml(id)}</p>
+    appEl.innerHTML = `<p>Fehler bei der Darstellung \u2013 bitte melden Sie das Problem.</p>
+      <p><small>Person-ID: ${escapeHtml(id)}</small></p>
       <p><a href="#/">Zur Startseite</a></p>`;
+    console.error('Render error for person', id, err);
   }
 
   // Clear header search on detail view
@@ -174,6 +199,14 @@ function bindSearchEvents(state) {
     });
   });
 
+  // Sort select
+  const sortSelect = document.getElementById('sort-select');
+  if (sortSelect) {
+    sortSelect.addEventListener('change', () => {
+      window.location.hash = buildSearchHash({ ...state, sort: sortSelect.value, page: 1 });
+    });
+  }
+
   // Pagination links
   document.querySelectorAll('.page-link').forEach(link => {
     link.addEventListener('click', (e) => {
@@ -199,6 +232,24 @@ function bindDetailEvents() {
       }
     });
   }
+
+  // Citation copy buttons
+  document.querySelectorAll('.citation-copy').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const format = btn.dataset.cite;
+      const section = btn.closest('.citation-section');
+      const text = format === 'bibtex'
+        ? section.querySelector('.citation-bibtex').textContent
+        : section.querySelector('.citation-text').textContent;
+      if (text) {
+        navigator.clipboard.writeText(text).then(() => {
+          const original = btn.textContent;
+          btn.textContent = 'Kopiert!';
+          setTimeout(() => { btn.textContent = original; }, 2000);
+        });
+      }
+    });
+  });
 }
 
 // Listen for hash changes
