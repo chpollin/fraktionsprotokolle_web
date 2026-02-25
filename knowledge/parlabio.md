@@ -118,7 +118,7 @@ Personen.xml ──→ parlabio/build.py (Python/lxml) ──→ JSON-Artefakte 
 
 ## Code-Struktur
 
-Alle ParlaBio-Dateien liegen in `parlabio/`:
+### Build-Pipeline (`parlabio/`)
 
 ```
 parlabio/
@@ -130,6 +130,23 @@ parlabio/
 ├── tests/test_build.py   # Unit- und Integrationstests
 ├── data/                 # Generierter Output (gitignored)
 └── docs/                 # pipeline.md, testing.md
+```
+
+### Frontend (`docs/`)
+
+```
+docs/
+├── index.html            # SPA-Shell (7 Script-Tags)
+├── css/parlabio.css      # Teal-Grün-Theme (#048263)
+├── js/
+│   ├── config.js         # Zentrale Konstanten (URLs, Page-Size)
+│   ├── utils.js          # Hilfsfunktionen, Farb-Mapping
+│   ├── search.js         # MiniSearch, Facetten, Overview-Stats
+│   ├── render.js         # Ergebnisliste + Render-Helfer
+│   ├── render-overview.js # Overview-Dashboard
+│   ├── render-detail.js  # Detailseite
+│   └── app.js            # Routing, State, Events
+└── data/                 # Generiert von build.py
 ```
 
 ## Verwandte Dokumente

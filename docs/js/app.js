@@ -1,11 +1,18 @@
 /**
  * ParlaBio – Application (Routing, State, Events)
+ * Depends on: config.js (CONFIG), utils.js (parseHash, buildSearchHash, escapeHtml),
+ *             search.js (initSearch, performSearch, computeOverviewStats, computeUnfilteredFacets),
+ *             render.js (renderResultsView), render-overview.js (renderOverviewView),
+ *             render-detail.js (renderDetailView)
+ * Exposes: init() (auto-called on DOMContentLoaded)
  */
 
 const APP = {
   totalCount: 0,
   overviewStats: null,
-  lastSearchState: null, // Remember last search for back navigation
+  // Back-Navigation: hash-basiertes Routing verliert den Suchzustand beim
+  // Wechsel zur Detailseite. Gespeicherter State ermöglicht "Zurück zur Suche".
+  lastSearchState: null,
 };
 
 // Initialize the application
@@ -65,12 +72,12 @@ function showSearchView(state) {
     decade: state.decade || '',
   };
   const page = state.page || 1;
-  const pageSize = 50;
+  const pageSize = CONFIG.PAGE_SIZE;
 
   const results = performSearch(state.q, filters);
-  const facets = computeFacets(results);
+  const unfilteredFacets = computeUnfilteredFacets(state.q, filters);
 
-  appEl.innerHTML = renderResultsView(results, state.q, filters, facets, page, pageSize);
+  appEl.innerHTML = renderResultsView(results, state.q, filters, unfilteredFacets, page, pageSize);
 
   // Remember this search state for back navigation
   APP.lastSearchState = { ...state };

@@ -1,155 +1,11 @@
 /**
- * ParlaBio – HTML Rendering (3 Views)
- * Pure functions: data in → HTML string out
+ * ParlaBio – Results View Rendering & Shared Render Helpers
+ * Depends on: config.js (CONFIG), utils.js (escapeHtml, typeLabel, sexLabel,
+ *             formatLifespan, factionTextColor, FACTION_COLORS)
+ * Exposes: renderResultsView(), renderFacetGroup()
  */
 
-function renderOverviewView(stats) {
-  const total = stats.total;
-  const typeMdB = stats.types['MdB'] || 0;
-  const typeSonstige = stats.types['Sonstige'] || 0;
-  const typeKGParl = stats.types['KGParl'] || 0;
-
-  const pct = (n) => total > 0 ? (n / total * 100).toFixed(1).replace('.', ',') : '0';
-
-  // Factions: sorted by count descending
-  const factionEntries = Object.entries(stats.factions).sort((a, b) => b[1] - a[1]);
-  const factionMax = factionEntries.length > 0 ? factionEntries[0][1] : 1;
-  const topFactions = factionEntries.slice(0, 8);
-  const moreFactions = factionEntries.slice(8);
-
-  function renderBarRows(entries, max, filterKey) {
-    return entries.map(([label, count]) => {
-      const widthPct = Math.round((count / max) * 100);
-      const href = `#/search?${filterKey}=${encodeURIComponent(label)}`;
-      return `<a class="bar-row" href="${href}">
-        <span class="bar-label">${escapeHtml(label)}</span>
-        <div class="bar-track"><div class="bar-fill" style="width:${widthPct}%"></div></div>
-        <span class="bar-value">${count.toLocaleString('de-DE')}</span>
-      </a>`;
-    }).join('');
-  }
-
-  // Periods: sorted numerically
-  const periodEntries = Object.entries(stats.periods)
-    .map(([k, v]) => [parseInt(k, 10), v])
-    .sort((a, b) => a[0] - b[0]);
-  const periodMax = Math.max(...periodEntries.map(e => e[1]), 1);
-
-  function renderMinibars(entries, max, filterKey, labelFn) {
-    return entries.map(([key, count]) => {
-      const heightPct = Math.max(Math.round((count / max) * 100), 3);
-      const label = labelFn ? labelFn(key) : String(key);
-      const href = `#/search?${filterKey}=${encodeURIComponent(key)}`;
-      return `<a class="minibar" href="${href}" style="height:${heightPct}%" title="${label}: ${count.toLocaleString('de-DE')}">
-        <span class="minibar-label">${escapeHtml(label)}</span>
-      </a>`;
-    }).join('');
-  }
-
-  // Decades: sorted numerically, filtered to main range
-  const decadeEntries = Object.entries(stats.decades)
-    .map(([k, v]) => [k, v])
-    .sort((a, b) => parseInt(a[0]) - parseInt(b[0]));
-  const decadeMax = Math.max(...decadeEntries.map(e => e[1]), 1);
-
-  // Sex
-  const sexEntries = Object.entries(stats.sex).sort((a, b) => b[1] - a[1]);
-  const sexMax = sexEntries.length > 0 ? sexEntries[0][1] : 1;
-
-  function renderSexBars(entries, max) {
-    return entries.map(([code, count]) => {
-      const widthPct = Math.round((count / max) * 100);
-      const label = sexLabel(code);
-      const href = `#/search?sex=${encodeURIComponent(code)}`;
-      return `<a class="bar-row" href="${href}">
-        <span class="bar-label">${escapeHtml(label)}</span>
-        <div class="bar-track"><div class="bar-fill" style="width:${widthPct}%"></div></div>
-        <span class="bar-value">${count.toLocaleString('de-DE')}</span>
-      </a>`;
-    }).join('');
-  }
-
-  const moreFactionRows = moreFactions.length > 0
-    ? `<div class="bar-chart-more" id="more-factions">${renderBarRows(moreFactions, factionMax, 'faction')}</div>
-       <button class="bar-toggle" id="toggle-factions" type="button">\u25b8 ${moreFactions.length} weitere anzeigen</button>`
-    : '';
-
-  return `
-    <section class="overview-hero">
-      <h1>ParlaBio</h1>
-      <p class="subtitle">Personendatenbank der Fraktionsprotokolle</p>
-      <p class="stats">${total.toLocaleString('de-DE')} Personen &middot; 1949\u20132005</p>
-    </section>
-
-    <section class="overview-section">
-      <h2>Personentypen</h2>
-      <div class="stat-cards">
-        <a class="stat-card" href="#/search?type=MdB">
-          <div class="stat-number">${typeMdB.toLocaleString('de-DE')}</div>
-          <div class="stat-label">MdB</div>
-          <div class="stat-percent">${pct(typeMdB)} %</div>
-        </a>
-        <a class="stat-card" href="#/search?type=Sonstige">
-          <div class="stat-number">${typeSonstige.toLocaleString('de-DE')}</div>
-          <div class="stat-label">Sonstige</div>
-          <div class="stat-percent">${pct(typeSonstige)} %</div>
-        </a>
-        <a class="stat-card" href="#/search?type=KGParl">
-          <div class="stat-number">${typeKGParl.toLocaleString('de-DE')}</div>
-          <div class="stat-label">KGParl-MA</div>
-          <div class="stat-percent">${pct(typeKGParl)} %</div>
-        </a>
-      </div>
-    </section>
-
-    <section class="overview-section">
-      <h2>Fraktionen (nur MdB)</h2>
-      <div class="bar-chart">
-        ${renderBarRows(topFactions, factionMax, 'faction')}
-        ${moreFactionRows}
-      </div>
-    </section>
-
-    <div class="minibar-row">
-      <div class="overview-section">
-        <h2>Wahlperioden</h2>
-        <div class="minibar-group-container">
-          <div class="minibar-group">
-            ${renderMinibars(periodEntries, periodMax, 'period', (k) => String(k))}
-          </div>
-        </div>
-      </div>
-      <div class="overview-section">
-        <h2>Geburtsjahrzehnte</h2>
-        <div class="minibar-group-container">
-          <div class="minibar-group">
-            ${renderMinibars(decadeEntries, decadeMax, 'decade', (k) => k)}
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <section class="overview-section">
-      <h2>Geschlecht</h2>
-      <div class="bar-chart">
-        ${renderSexBars(sexEntries, sexMax)}
-      </div>
-    </section>
-
-    <details class="overview-about">
-      <summary>\u25b8 \u00dcber ParlaBio</summary>
-      <p>ParlaBio erschlie\u00dft das Personenregister der Edition
-      <a href="https://fraktionsprotokolle.de" target="_blank" rel="noopener">fraktionsprotokolle.de</a>.
-      Die Datenbank umfasst alle Personen, die in den Fraktionsprotokollen des Deutschen Bundestages
-      (1949\u20132005) erw\u00e4hnt werden: Abgeordnete, Minister, Journalisten, ausl\u00e4ndische Staatsg\u00e4ste
-      und viele mehr.</p>
-      <p>Herausgegeben von der
-      <a href="https://kgparl.de" target="_blank" rel="noopener">Kommission f\u00fcr Geschichte des
-      Parlamentarismus und der politischen Parteien</a> (KGParl).</p>
-    </details>`;
-}
-
-function renderResultsView(results, query, filters, facets, page, pageSize) {
+function renderResultsView(results, query, filters, unfilteredFacets, page, pageSize) {
   const totalResults = results.length;
   const totalPages = Math.ceil(totalResults / pageSize);
   const start = (page - 1) * pageSize;
@@ -162,10 +18,6 @@ function renderResultsView(results, query, filters, facets, page, pageSize) {
   if (filters.period) badges += renderBadge('period', `WP ${filters.period}`);
   if (filters.sex) badges += renderBadge('sex', sexLabel(filters.sex));
   if (filters.decade) badges += renderBadge('decade', filters.decade);
-
-  // Compute facets without the currently active filter for each category
-  // (so counts reflect what you'd get after removing just that filter)
-  const unfilteredFacets = computeUnfilteredFacets(query, filters);
 
   return `
     ${badges ? `<div class="active-filters">Aktive Filter: ${badges}</div>` : ''}
@@ -212,6 +64,15 @@ function renderResultsTable(results) {
   </table>`;
 }
 
+/**
+ * Render a collapsible facet filter group for the sidebar.
+ * @param {string} title - Display title (e.g. 'Fraktion')
+ * @param {string} key - Filter key for URL params (e.g. 'faction')
+ * @param {Object} facetValues - {value: count} map
+ * @param {string} activeValue - Currently selected value (or falsy)
+ * @param {Function} [formatFn] - Label formatter; defaults to identity
+ * @param {boolean} [sortNumeric] - Sort by numeric key instead of count
+ */
 function renderFacetGroup(title, key, facetValues, activeValue, formatFn, sortNumeric) {
   if (!facetValues || Object.keys(facetValues).length === 0) return '';
 
@@ -257,27 +118,9 @@ function formatSexFacet(value) {
   return sexLabel(value);
 }
 
-// Compute facets from unfiltered-per-category results
-// For each filter category, we compute facets without that specific filter applied
-function computeUnfilteredFacets(query, filters) {
-  // For efficiency: compute once with all filters removed per category
-  const categories = ['type', 'faction', 'period', 'sex', 'decade'];
-  const result = {};
-
-  for (const cat of categories) {
-    const filtersWithout = { ...filters };
-    filtersWithout[cat] = '';
-    const catResults = performSearch(query, filtersWithout);
-    const allFacets = computeFacets(catResults);
-    result[cat] = allFacets[cat];
-  }
-
-  return result;
-}
-
 function renderPagination(currentPage, totalPages) {
   let pages = '';
-  const range = 2;
+  const range = CONFIG.PAGINATION_RANGE;
 
   // Always show first page
   if (currentPage > range + 1) {
@@ -304,153 +147,4 @@ function renderPagination(currentPage, totalPages) {
     ${pages}
     ${currentPage < totalPages ? `<a href="#" class="page-link" data-page="${currentPage + 1}">&raquo;</a>` : ''}
   </nav>`;
-}
-
-function renderDetailView(person) {
-  const p = person;
-  const personType = p['fraktionsprotokolle:personType'];
-  const nameData = p['fraktionsprotokolle:name'];
-  const birth = p['fraktionsprotokolle:birth'];
-  const death = p['fraktionsprotokolle:death'];
-  const affiliations = p['fraktionsprotokolle:affiliations'] || [];
-  const ids = p['fraktionsprotokolle:ids'] || {};
-  const occupation = p.hasOccupation ? p.hasOccupation.name : '';
-
-  // Subtitle
-  const subtitleParts = [];
-  if (personType === 'MdB') subtitleParts.push('MdB');
-  if (personType === 'KGParl') subtitleParts.push('KGParl-Mitarbeiter');
-  const lifeParts = [];
-  if (birth && birth.date) lifeParts.push(formatDate(birth.date));
-  if (death && death.date) lifeParts.push(formatDate(death.date));
-  if (lifeParts.length) subtitleParts.push(lifeParts.join(' \u2013 '));
-
-  // Alt names
-  const altNames = p['fraktionsprotokolle:alt_names'] || [];
-
-  // Stammdaten table
-  let stammdaten = '';
-  const addRow = (label, value) => {
-    if (value) stammdaten += `<tr><th>${escapeHtml(label)}</th><td>${escapeHtml(value)}</td></tr>`;
-  };
-  addRow('Geburtsdatum', birth ? formatDate(birth.date) : '');
-  addRow('Geburtsort', birth ? [birth.place, birth.country].filter(Boolean).join(', ') : '');
-  addRow('Sterbedatum', death ? formatDate(death.date) : '');
-  addRow('Sterbeort', death ? [death.place, death.country].filter(Boolean).join(', ') : '');
-  addRow('Geschlecht', genderLabel(p.gender));
-  addRow('Beruf', occupation);
-  if (nameData && nameData.prefix) addRow('Namenspräfix', nameData.prefix);
-  if (nameData && nameData.role_name) addRow('Funktionsbezeichnung', nameData.role_name);
-  if (altNames.length) addRow('Weitere Namen', altNames.join('; '));
-
-  // Structured occupation (KGParl)
-  const occupationKgparl = p['fraktionsprotokolle:occupation_kgparl'];
-  if (occupationKgparl && occupationKgparl.length) {
-    const occTexts = occupationKgparl.map(o => {
-      const parts = [];
-      if (o.occupation) parts.push(o.occupation);
-      if (o.from || o.to) parts.push(`(${o.from || '?'}\u2013${o.to || '?'})`);
-      return parts.join(' ');
-    }).join('; ');
-    addRow('Berufliche Laufbahn', occTexts);
-  }
-
-  // Political vita (affiliations table)
-  let vitaSection = '';
-  if (affiliations.length > 0) {
-    let vitaRows = '';
-    for (const aff of affiliations) {
-      const bg = FACTION_COLORS[aff.faction] || '#666';
-      const fg = factionTextColor(aff.faction);
-      vitaRows += `<tr>
-        <td>${aff.period || '\u2014'}</td>
-        <td><span class="faction-badge" style="background:${bg};color:${fg}">${escapeHtml(aff.faction)}</span></td>
-        <td>${formatDate(aff.from) || '\u2014'} \u2013 ${formatDate(aff.to) || '\u2014'}</td>
-      </tr>`;
-    }
-    vitaSection = `
-      <section>
-        <h3>Politische Vita</h3>
-        <table>
-          <thead><tr><th>WP</th><th>Fraktion</th><th>Zeitraum</th></tr></thead>
-          <tbody>${vitaRows}</tbody>
-        </table>
-      </section>`;
-  }
-
-  // Executive roles
-  let exekutiveSection = '';
-  const exekutive = p['fraktionsprotokolle:exekutive'];
-  if (exekutive && exekutive.length) {
-    const items = exekutive.map(e => `<li>${escapeHtml(e)}</li>`).join('');
-    exekutiveSection = `
-      <section>
-        <h3>Exekutive Funktionen</h3>
-        <ul>${items}</ul>
-      </section>`;
-  }
-
-  // External references
-  let refsSection = '';
-  const refs = [];
-  if (ids.gnd) {
-    const gndUrl = ids.gnd.startsWith('http') ? ids.gnd : `https://d-nb.info/gnd/${ids.gnd}`;
-    refs.push(`<li><a href="${escapeHtml(gndUrl)}" target="_blank" rel="noopener">GND (Deutsche Nationalbibliothek)</a></li>`);
-  }
-  if (ids.wikipedia) {
-    refs.push(`<li><a href="${escapeHtml(ids.wikipedia)}" target="_blank" rel="noopener">Wikipedia</a></li>`);
-  }
-  if (ids.mdb_stammdaten) {
-    refs.push(`<li><a href="https://www.bundestag.de/abgeordnete/biografien/${escapeHtml(ids.mdb_stammdaten)}" target="_blank" rel="noopener">MdB-Stammdaten (Bundestag)</a></li>`);
-  }
-  if (ids.viaf) {
-    const viafUrl = ids.viaf.startsWith('http') ? ids.viaf : `https://viaf.org/viaf/${ids.viaf}`;
-    refs.push(`<li><a href="${escapeHtml(viafUrl)}" target="_blank" rel="noopener">VIAF</a></li>`);
-  }
-  // sameAs URLs not already covered
-  if (p.sameAs) {
-    for (const url of p.sameAs) {
-      const covered = [ids.gnd, ids.wikipedia, ids.viaf].some(v => v && url.includes(v));
-      if (!covered) {
-        refs.push(`<li><a href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(url)}</a></li>`);
-      }
-    }
-  }
-
-  if (refs.length) {
-    refsSection = `
-      <section>
-        <h3>Externe Referenzen</h3>
-        <ul>${refs.join('')}</ul>
-      </section>`;
-  }
-
-  // Sonstiges
-  let sonstigesSection = '';
-  const sonstiges = p['fraktionsprotokolle:sonstiges'];
-  if (sonstiges && sonstiges.length) {
-    const items = sonstiges.map(s => `<li>${escapeHtml(s)}</li>`).join('');
-    sonstigesSection = `
-      <section>
-        <h3>Sonstiges</h3>
-        <ul>${items}</ul>
-      </section>`;
-  }
-
-  return `
-    <nav class="detail-nav">
-      <a href="#" id="back-link">&larr; Zurück</a>
-    </nav>
-    <article class="person-detail">
-      <h2>${escapeHtml(p.name)}</h2>
-      ${subtitleParts.length ? `<p class="person-subtitle">${escapeHtml(subtitleParts.join(' \u00b7 '))}</p>` : ''}
-      <section>
-        <h3>Stammdaten</h3>
-        <table class="stammdaten-table">${stammdaten}</table>
-      </section>
-      ${vitaSection}
-      ${exekutiveSection}
-      ${sonstigesSection}
-      ${refsSection}
-    </article>`;
 }

@@ -61,7 +61,7 @@ parlabio/                        ← Build-Pipeline (Python/lxml)
 docs/                            ← Frontend (GitHub Pages Root)
 ├── index.html                   ← SPA-Shell
 ├── css/parlabio.css             ← Teal-Grün-Theme (#048263)
-├── js/                          ← app.js, search.js, render.js, utils.js
+├── js/                          ← config, utils, search, render, render-overview, render-detail, app
 └── data/                        ← Generiert von build.py (Suchindex + Detail-JSONs)
 ```
 

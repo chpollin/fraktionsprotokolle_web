@@ -1,5 +1,8 @@
 /**
- * ParlaBio – Search & Faceting (MiniSearch + Array.filter)
+ * ParlaBio – Search & Faceting
+ * Depends on: config.js (CONFIG), utils.js (normalizeUmlauts, birthDecade)
+ * Exposes: initSearch(), performSearch(), computeFacets(), computeOverviewStats(),
+ *          computeUnfilteredFacets(), loadPersonDetail()
  */
 
 let allPersons = [];
@@ -7,7 +10,8 @@ let miniSearch = null;
 
 // Load search index and initialize MiniSearch
 async function initSearch() {
-  const resp = await fetch('data/search-index.json');
+  const resp = await fetch(CONFIG.SEARCH_INDEX_URL);
+  if (!resp.ok) throw new Error(`HTTP ${resp.status} beim Laden des Suchindex`);
   allPersons = await resp.json();
 
   miniSearch = new MiniSearch({
@@ -20,8 +24,9 @@ async function initSearch() {
       fuzzy: 0.2,
       prefix: true,
     },
+    // Umlaut-Normalisierung in Index und Query: historische Quellen und
+    // internationale Nutzer schreiben oft "Mueller" statt "Müller"
     processTerm: (term) => {
-      // Normalize umlauts so "Mueller" finds "Müller"
       term = term.toLowerCase();
       term = normalizeUmlauts(term);
       return term || null;
@@ -32,7 +37,17 @@ async function initSearch() {
   return allPersons.length;
 }
 
-// Perform search with text query and facet filters
+/**
+ * Full-text search with facet filtering.
+ * @param {string} query - Free-text search query (empty = all persons)
+ * @param {Object} filters - Active facet filters
+ * @param {string} [filters.type] - Person type: 'MdB', 'Sonstige', 'KGParl'
+ * @param {string} [filters.faction] - Faction name, e.g. 'CDU/CSU'
+ * @param {string} [filters.period] - Wahlperiode number as string, e.g. '7'
+ * @param {string} [filters.sex] - 'm' or 'f'
+ * @param {string} [filters.decade] - Birth decade, e.g. '1920er'
+ * @returns {Array} Matching person objects with _score field
+ */
 function performSearch(query, filters) {
   let results;
 
@@ -132,52 +147,44 @@ function computeFacets(results) {
 
 // Compute overview statistics for the dashboard
 function computeOverviewStats() {
-  const stats = {
+  const allFacets = computeFacets(allPersons);
+  const mdbFacets = computeFacets(allPersons.filter(p => p.type === 'MdB'));
+  return {
     total: allPersons.length,
-    types: {},
-    factions: {},
-    periods: {},
-    decades: {},
-    sex: {},
+    types: allFacets.type,
+    factions: mdbFacets.faction,
+    periods: allFacets.period,
+    decades: allFacets.decade,
+    sex: allFacets.sex,
   };
+}
 
-  for (const p of allPersons) {
-    // Types
-    const t = p.type || 'Sonstige';
-    stats.types[t] = (stats.types[t] || 0) + 1;
+/**
+ * Compute facets from unfiltered-per-category results.
+ * For each filter category, computes facets without that specific filter applied,
+ * so sidebar counts reflect what you'd get after removing just that filter.
+ * @param {string} query - Current search query
+ * @param {Object} filters - Active filters {type, faction, period, sex, decade}
+ * @returns {Object} Facets per category, each with counts from unfiltered-for-that-category results
+ */
+function computeUnfilteredFacets(query, filters) {
+  const categories = ['type', 'faction', 'period', 'sex', 'decade'];
+  const result = {};
 
-    // Factions (only for MdB)
-    if (p.type === 'MdB' && p.factions) {
-      for (const f of p.factions) {
-        stats.factions[f] = (stats.factions[f] || 0) + 1;
-      }
-    }
-
-    // Periods
-    if (p.periods) {
-      for (const wp of p.periods) {
-        stats.periods[wp] = (stats.periods[wp] || 0) + 1;
-      }
-    }
-
-    // Decades
-    const dec = birthDecade(p.birth_year);
-    if (dec) {
-      stats.decades[dec] = (stats.decades[dec] || 0) + 1;
-    }
-
-    // Sex
-    if (p.sex) {
-      stats.sex[p.sex] = (stats.sex[p.sex] || 0) + 1;
-    }
+  for (const cat of categories) {
+    const filtersWithout = { ...filters };
+    filtersWithout[cat] = '';
+    const catResults = performSearch(query, filtersWithout);
+    const allFacets = computeFacets(catResults);
+    result[cat] = allFacets[cat];
   }
 
-  return stats;
+  return result;
 }
 
 // Load a single person's detail JSON
 async function loadPersonDetail(id) {
-  const resp = await fetch(`data/person/${encodeURIComponent(id)}.json`);
+  const resp = await fetch(`${CONFIG.PERSON_DETAIL_URL}${encodeURIComponent(id)}.json`);
   if (!resp.ok) throw new Error(`Person not found: ${id}`);
   return resp.json();
 }
