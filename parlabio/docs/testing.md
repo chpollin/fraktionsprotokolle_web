@@ -11,10 +11,14 @@ pip install lxml
 Vom Repository-Root:
 
 ```bash
+# Unit- und Integrationstests (Pipeline-Logik)
 python parlabio/tests/test_build.py
+
+# Smoke-Tests (Datenvertrag Pipeline ↔ Frontend)
+python -m pytest parlabio/tests/test_build_output.py -v
 ```
 
-### Enthaltene Tests
+### test_build.py – Unit- und Integrationstests
 
 | Test | Typ | Beschreibung |
 |------|-----|-------------|
@@ -24,6 +28,26 @@ python parlabio/tests/test_build.py
 | `test_beacon` | Unit | BEACON-Generierung mit GND-Filterung |
 | `test_full_parse` | Integration | Vollständiges Parsen der Personen.xml (~11.225 Personen) |
 | `test_edge_cases` | Integration | Maidennamen, VIAF-Inkonsistenz, Adelstitel, Ortszusätze |
+
+### test_build_output.py – Smoke-Tests gegen Build-Ausgabe
+
+Prüft den Datenvertrag zwischen Pipeline-Output und Frontend-Erwartungen. Setzt voraus, dass `docs/data/` existiert (nach `build.py --output docs/data`).
+
+| Test | Beschreibung |
+|------|-------------|
+| `test_index_not_empty` | Suchindex enthält Einträge |
+| `test_all_three_types_present` | Alle 3 Typen (`MdB`, `Other`, `Mitarbeiter-KGParl`) vorhanden |
+| `test_type_counts_plausible` | Mindestanzahl pro Typ (MdB >3000, Other >5000, KGParl >10) |
+| `test_required_fields_present` | Jeder Index-Eintrag hat `id`, `name`, `type` |
+| `test_no_unknown_types` | Keine unbekannten Typen im Index |
+| `test_mdb_details` | 5 MdB-Detail-JSONs: Pflichtfelder + Identifier |
+| `test_other_details` | 5 Other-Detail-JSONs: Pflichtfelder + Identifier |
+| `test_kgparl_details` | 5 KGParl-Detail-JSONs: Pflichtfelder + Identifier |
+| `test_exekutive_is_string_or_list` | `exekutive`-Feld ist String oder Array |
+| `test_sonstiges_is_string_or_list` | `sonstiges`-Feld ist String oder Array |
+| `test_alt_names_structure` | `alt_names`-Einträge sind Strings oder Objekte mit `reg` |
+| `test_occupation_kgparl_structure` | `occupation_kgparl` ist Dict oder Liste mit `role` |
+| `test_beacon_line_count_matches_gnd_count` | BEACON-Zeilen == GND-Einträge im Index |
 
 **Erwartete Ausgabe:**
 ```
