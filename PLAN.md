@@ -13,14 +13,14 @@ Stand: 25. Februar 2026
 | AP5 | Qualitätssicherung & Abnahme | Offen |
 
 **Build-Pipeline**: Fehlerfrei, 4,8 s, 11.225 Personen, 134 bekannte Quality-Issues.
-**Git**: Branch `main`, clean, 4 Commits nicht gepusht.
+**Git**: Branch `main`, clean, 6 Commits nicht gepusht.
 **KGParl-Fragen**: 7 offene Fragen (Domain, Hosting, etc.) – betreffen erst AP4, blockieren AP3 nicht.
 
 ---
 
-## Phase 1: 6 Frontend-Bugs fixen
+## Phase 1: 6 Frontend-Bugs fixen – ABGESCHLOSSEN (25.02.2026)
 
-Frontend-Audit vom 25.02.2026 – alle Bugs verifiziert gegen Code + Daten.
+Frontend-Audit vom 25.02.2026 – alle Bugs verifiziert gegen Code + Daten. Committed in `8a3462694`.
 
 ### Bug 1 – Type-Key-Mismatch (KRITISCH)
 

@@ -19,6 +19,16 @@ Strukturierte Übersicht über die Entwicklung der Edition. Detaillierte Fassung
   - Dark Mode deaktiviert (nur helles Theme)
   - Suchfeld aus der Startseite in den Header verschoben (auf allen Views erreichbar)
   - Dashboard: Stat-Cards (Personentypen), Balkencharts (Fraktionen, Geschlecht), Minibars (WP, Jahrzehnte)
+- **ParlaBio AP3** (begonnen): Frontend-Audit und Bugfixes
+  - 6 Bugs identifiziert, verifiziert und gefixt:
+    1. Type-Key-Mismatch: Stat-Cards zeigten 0 für 7.139 Personen (Other/Mitarbeiter-KGParl)
+    2. `.map()` auf Strings: 324 Detailseiten crashten (exekutive/sonstiges)
+    3. Toggle-Crash: "Weitere anzeigen" crashte beim Schließen (Regex auf null)
+    4. `[object Object]` bei alt_names (255 Personen)
+    5. MdB-Stammdaten-Links 404 → ID als Text (4.084 Personen)
+    6. `occupation_kgparl` nie sichtbar (59 KGParl-Personen)
+  - Smoke-Test `test_build_output.py` geschrieben (13 Tests, prüft Datenvertrag Pipeline↔Frontend)
+  - Implementierungsplan (`PLAN.md`) und Status-Checkliste (`STATUS.md`) angelegt
 
 ### Januar 2026
 - **SPD 8. WP** (1976–1980): Veröffentlichung von 144 edierten Sitzungsprotokollen
