@@ -39,14 +39,16 @@ function renderDetailView(person) {
   addRow('Beruf', occupation);
   if (nameData && nameData.prefix) addRow('Namenspräfix', nameData.prefix);
   if (nameData && nameData.role_name) addRow('Funktionsbezeichnung', nameData.role_name);
-  if (altNames.length) addRow('Weitere Namen', altNames.join('; '));
+  if (altNames.length) addRow('Weitere Namen', altNames.map(n => typeof n === 'string' ? n : n.reg).join('; '));
 
   // Structured occupation (KGParl)
   const occupationKgparl = p['fraktionsprotokolle:occupation_kgparl'];
-  if (occupationKgparl && occupationKgparl.length) {
-    const occTexts = occupationKgparl.map(o => {
+  if (occupationKgparl) {
+    const occList = Array.isArray(occupationKgparl) ? occupationKgparl : [occupationKgparl];
+    const occTexts = occList.map(o => {
       const parts = [];
-      if (o.occupation) parts.push(o.occupation);
+      if (o.role) parts.push(o.role);
+      if (o.organisation) parts.push(o.organisation);
       if (o.from || o.to) parts.push(`(${o.from || '?'}\u2013${o.to || '?'})`);
       return parts.join(' ');
     }).join('; ');
@@ -79,12 +81,14 @@ function renderDetailView(person) {
   // Executive roles
   let exekutiveSection = '';
   const exekutive = p['fraktionsprotokolle:exekutive'];
-  if (exekutive && exekutive.length) {
-    const items = exekutive.map(e => `<li>${escapeHtml(e)}</li>`).join('');
+  if (exekutive) {
+    const content = Array.isArray(exekutive)
+      ? `<ul>${exekutive.map(e => `<li>${escapeHtml(e)}</li>`).join('')}</ul>`
+      : `<p>${escapeHtml(exekutive)}</p>`;
     exekutiveSection = `
       <section>
         <h3>Exekutive Funktionen</h3>
-        <ul>${items}</ul>
+        ${content}
       </section>`;
   }
 
@@ -99,7 +103,7 @@ function renderDetailView(person) {
     refs.push(`<li><a href="${escapeHtml(ids.wikipedia)}" target="_blank" rel="noopener">Wikipedia</a></li>`);
   }
   if (ids.mdb_stammdaten) {
-    refs.push(`<li><a href="https://www.bundestag.de/abgeordnete/biografien/${escapeHtml(ids.mdb_stammdaten)}" target="_blank" rel="noopener">MdB-Stammdaten (Bundestag)</a></li>`);
+    refs.push(`<li>MdB-Stammdaten-ID: ${escapeHtml(ids.mdb_stammdaten)}</li>`);
   }
   if (ids.viaf) {
     const viafUrl = ids.viaf.startsWith('http') ? ids.viaf : `https://viaf.org/viaf/${ids.viaf}`;
@@ -126,12 +130,14 @@ function renderDetailView(person) {
   // Sonstiges
   let sonstigesSection = '';
   const sonstiges = p['fraktionsprotokolle:sonstiges'];
-  if (sonstiges && sonstiges.length) {
-    const items = sonstiges.map(s => `<li>${escapeHtml(s)}</li>`).join('');
+  if (sonstiges) {
+    const content = Array.isArray(sonstiges)
+      ? `<ul>${sonstiges.map(s => `<li>${escapeHtml(s)}</li>`).join('')}</ul>`
+      : `<p>${escapeHtml(sonstiges)}</p>`;
     sonstigesSection = `
       <section>
         <h3>Sonstiges</h3>
-        <ul>${items}</ul>
+        ${content}
       </section>`;
   }
 

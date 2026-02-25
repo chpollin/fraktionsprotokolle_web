@@ -39,8 +39,8 @@ function renderMinibars(entries, max, filterKey, labelFn) {
 function renderOverviewView(stats) {
   const total = stats.total;
   const typeMdB = stats.types['MdB'] || 0;
-  const typeSonstige = stats.types['Sonstige'] || 0;
-  const typeKGParl = stats.types['KGParl'] || 0;
+  const typeSonstige = stats.types['Other'] || 0;
+  const typeKGParl = stats.types['Mitarbeiter-KGParl'] || 0;
 
   const pct = (n) => total > 0 ? (n / total * 100).toFixed(1).replace('.', ',') : '0';
 
@@ -69,7 +69,7 @@ function renderOverviewView(stats) {
 
   const moreFactionRows = moreFactions.length > 0
     ? `<div class="bar-chart-more" id="more-factions">${renderBarRows(moreFactions, factionMax, 'faction')}</div>
-       <button class="bar-toggle" id="toggle-factions" type="button">\u25b8 ${moreFactions.length} weitere anzeigen</button>`
+       <button class="bar-toggle" id="toggle-factions" type="button" data-count="${moreFactions.length}">\u25b8 ${moreFactions.length} weitere anzeigen</button>`
     : '';
 
   return `
@@ -87,12 +87,12 @@ function renderOverviewView(stats) {
           <div class="stat-label">MdB</div>
           <div class="stat-percent">${pct(typeMdB)} %</div>
         </a>
-        <a class="stat-card" href="#/search?type=Sonstige">
+        <a class="stat-card" href="#/search?type=Other">
           <div class="stat-number">${typeSonstige.toLocaleString('de-DE')}</div>
           <div class="stat-label">Sonstige</div>
           <div class="stat-percent">${pct(typeSonstige)} %</div>
         </a>
-        <a class="stat-card" href="#/search?type=KGParl">
+        <a class="stat-card" href="#/search?type=Mitarbeiter-KGParl">
           <div class="stat-number">${typeKGParl.toLocaleString('de-DE')}</div>
           <div class="stat-label">KGParl-MA</div>
           <div class="stat-percent">${pct(typeKGParl)} %</div>

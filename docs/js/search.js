@@ -41,7 +41,7 @@ async function initSearch() {
  * Full-text search with facet filtering.
  * @param {string} query - Free-text search query (empty = all persons)
  * @param {Object} filters - Active facet filters
- * @param {string} [filters.type] - Person type: 'MdB', 'Sonstige', 'KGParl'
+ * @param {string} [filters.type] - Person type: 'MdB', 'Other', 'Mitarbeiter-KGParl'
  * @param {string} [filters.faction] - Faction name, e.g. 'CDU/CSU'
  * @param {string} [filters.period] - Wahlperiode number as string, e.g. '7'
  * @param {string} [filters.sex] - 'm' or 'f'

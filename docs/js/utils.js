@@ -162,6 +162,7 @@ function genderLabel(url) {
 // Type labels for display
 function typeLabel(type) {
   if (type === 'MdB') return 'MdB';
-  if (type === 'KGParl') return 'KGParl-Mitarbeiter';
-  return 'Sonstige';
+  if (type === 'Mitarbeiter-KGParl') return 'KGParl-Mitarbeiter';
+  if (type === 'Other') return 'Sonstige';
+  return type || 'Sonstige';
 }

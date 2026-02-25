@@ -133,9 +133,10 @@ function bindOverviewEvents() {
       const more = document.getElementById('more-factions');
       if (more) {
         const isOpen = more.classList.toggle('open');
+        const count = toggleBtn.dataset.count;
         toggleBtn.textContent = isOpen
           ? '\u25be Weniger anzeigen'
-          : '\u25b8 ' + toggleBtn.textContent.match(/\d+/)[0] + ' weitere anzeigen';
+          : '\u25b8 ' + count + ' weitere anzeigen';
       }
     });
   }
