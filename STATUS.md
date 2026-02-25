@@ -14,7 +14,7 @@ Webbasierte Personendatenbank über das Personenregister der Edition "Fraktionen
 
 - [x] **AP1** – Build-Pipeline (TEI-XML → JSON): fehlerfrei, 4,8 s, 11.225 Personen
 - [x] **AP2** – Prototyp & Redesign: Dashboard, Teal-Grün, Suchfeld im Header
-- [ ] **AP3** – Weboberfläche fertigstellen (in Arbeit)
+- [x] **AP3** – Weboberfläche fertigstellen (4 Phasen: Bugfixes, UX, a11y, UI/DSGVO)
 - [ ] **AP4** – Deployment auf KGParl-Server
 - [ ] **AP5** – Qualitätssicherung & Abnahme
 
@@ -46,20 +46,35 @@ Webbasierte Personendatenbank über das Personenregister der Edition "Fraktionen
 - [x] Committed (`f11634c91`, `72eeeaee2`)
 - [ ] Manuelle Verifikation aller Features im Browser
 
-## Phase 3: UI-Redesign (nächster Schritt)
+## Phase 3: Barrierefreiheit (a11y) – ABGESCHLOSSEN (25.02.2026)
 
-- [ ] CSS-Audit und Refactoring (einheitliches Design-System)
-- [ ] Professionelles, wissenschaftlich begründetes UI
-- [ ] Responsive Design verbessern
-- [ ] Verwaistes CSS aufräumen
+- [x] Skip-Link für Tastaturnavigation
+- [x] aria-Labels auf allen Formularelementen (Suchfeld, Sort-Select, Filter)
+- [x] Focus-Management bei Route-Wechsel, focus-visible-Outlines
+- [x] Screen-Reader-Announce via aria-live-Region
+- [x] WCAG-konforme Touch-Targets (min 44px)
+- [x] Committed (`c76390575`)
 
-## Phase 4: AP4 – Deployment
+## Phase 4: UI/UX-Verbesserungen + DSGVO Self-Hosting – ABGESCHLOSSEN (25.02.2026)
+
+- [x] Fraktionsfarben im Dashboard-Balkenchart (27 Farben aus FACTION_COLORS)
+- [x] Geschlecht-Balken: Teal (männlich) / Mauve (weiblich)
+- [x] Geburtsjahrzehnte-Labels: Rotation + Kurzform ('70, '80, ...)
+- [x] Mobile Suche ermöglicht (480px-Breakpoint umgeschrieben)
+- [x] Ergebnistabelle: Zebra-Striping, größere Badges, Suchterm-Highlighting
+- [x] Detailseite: Zurück-Button, subtilere h3-Linien, Stammdaten-Card
+- [x] DSGVO: Google Fonts, Pico CSS, MiniSearch lokal self-hosted (0 externe Requests)
+- [x] Committed (UI/UX + DSGVO Self-Hosting)
+
+## AP3 – ABGESCHLOSSEN (14 Commits, 4 Phasen)
+
+## Nächste Schritte: AP4 – Deployment
 
 - [ ] Offene KGParl-Fragen klären (siehe unten)
 - [ ] Statische Dateien auf KGParl-Server (NGINX/Apache)
 - [ ] HTTPS einrichten
 
-## Phase 5: AP5 – QS & Abnahme
+## Danach: AP5 – QS & Abnahme
 
 - [ ] Qualitätssicherung durch KGParl
 - [ ] Abnahme
@@ -67,7 +82,7 @@ Webbasierte Personendatenbank über das Personenregister der Edition "Fraktionen
 ## Git-Status
 
 - Branch: `main`, clean
-- 10 Commits ahead of `origin/main` (noch nicht gepusht)
+- Mehrere Commits ahead of `origin/main` (noch nicht gepusht)
 
 ## Offene KGParl-Fragen (betreffen AP4+)
 
@@ -78,8 +93,3 @@ Webbasierte Personendatenbank über das Personenregister der Edition "Fraktionen
 5. Welche BEACON-Quellen sollen eingebunden werden?
 6. Soll die KGParl-MA-Kategorie (59 Personen) sichtbar sein?
 7. Gibt es Vorgaben zum Hosting-Pfad?
-
-## Zurückgestellt
-
-- CSS-Cleanup (`.search-form-results`) – kein Nutzer-Impact
-- `aria-expanded` auf Toggle – erst wenn Barrierefreiheit als Anforderung bestätigt

@@ -82,11 +82,11 @@ ParlaBio ist ein oeffentlich gefoerdertes Forschungsinfrastrukturprojekt (Foerde
 |---|---|---|
 | Semantisches HTML | Landmarks (`header`, `nav`, `main`, `footer`), korrekte Heading-Hierarchie | Grundstruktur vorhanden |
 | Tastaturnavigation | Alle interaktiven Elemente muessen fokussierbar und bedienbar sein | Teilweise (native HTML-Elemente) |
-| Screenreader | `aria-label` auf Formularelementen, `aria-live` fuer dynamische Inhalte, Skip-Link | Lueckenhaft |
+| Screenreader | `aria-label` auf Formularelementen, `aria-live` fuer dynamische Inhalte, Skip-Link | Umgesetzt (Skip-Link, aria-labels, aria-live-Region) |
 | Kontraste | Mindestens 4.5:1 fuer Text, 3:1 fuer grosse Schrift (WCAG AA) | Erfuellt (Primary #048263 auf Weiss = 5.3:1) |
-| Focus-Management | Nach Route-Wechsel muss der Fokus auf den neuen Inhalt gesetzt werden | Fehlt |
-| Touch-Targets | Mindestens 44x44px fuer interaktive Elemente (WCAG 2.5.5) | Teilweise zu klein |
-| Formulare | Alle Eingabefelder mit sichtbarem oder programmatischem Label | Lueckenhaft (Sort-Select ohne Label) |
+| Focus-Management | Nach Route-Wechsel muss der Fokus auf den neuen Inhalt gesetzt werden | Umgesetzt (focus-visible-Outlines, Route-Wechsel) |
+| Touch-Targets | Mindestens 44x44px fuer interaktive Elemente (WCAG 2.5.5) | Umgesetzt (WCAG-konforme min 44px) |
+| Formulare | Alle Eingabefelder mit sichtbarem oder programmatischem Label | Umgesetzt (aria-label auf Sort-Select und Suchfeld) |
 
 ### Fraktionsfarben und Farbenblindheit
 
@@ -96,7 +96,7 @@ Die 20+ Fraktionsfarben nutzen automatische Kontrastberechnung (Schwarz oder Wei
 
 | Element | Font | Groesse | Begründung |
 |---|---|---|---|
-| Ueberschriften | Oswald (Google Fonts) | h1: 2.5rem, h2: 1.1rem, h3: 1.0rem | Konsistent mit fraktionsprotokolle.de |
+| Ueberschriften | Oswald (self-hosted, Variable Font WOFF2) | h1: 2.5rem, h2: 1.1rem, h3: 1.0rem | Konsistent mit fraktionsprotokolle.de |
 | Fliesstext | System-Font (Pico CSS Default) | 16px / 1rem | Lesbarkeit, kein externer Font noetig |
 | Stat-Card-Zahlen | Oswald 600 | 2rem | Visuelle Dominanz fuer Kennzahlen |
 

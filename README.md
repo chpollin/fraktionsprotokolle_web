@@ -46,8 +46,9 @@ ParlaBio ist eine webbasierte Personendatenbank, die das TEI-XML-Personenregiste
 ### Technik
 
 - **Build-Pipeline**: `python parlabio/build.py` transformiert `Personen.xml` in JSON-Artefakte (Suchindex, 11.225 Detail-JSONs, BEACON-Datei)
-- **Frontend**: Statische SPA in `docs/` (Vanilla JS, Pico CSS, MiniSearch) – direkt via GitHub Pages deploybar, kein Build-Step nötig
+- **Frontend**: Statische SPA in `docs/` (Vanilla JS, Pico CSS, MiniSearch – alle self-hosted, 0 externe Requests) – direkt via GitHub Pages deploybar, kein Build-Step nötig
 - **Suche**: MiniSearch v7 mit Fuzzy-Search und Umlaut-Normalisierung (Muller → Müller)
+- **DSGVO**: Alle Abhängigkeiten (Fonts, CSS, JS) lokal – keine Datenübermittlung an Dritte
 
 ### Verzeichnisstruktur
 
@@ -60,8 +61,9 @@ parlabio/                        ← Build-Pipeline (Python/lxml)
 
 docs/                            ← Frontend (GitHub Pages Root)
 ├── index.html                   ← SPA-Shell
-├── css/parlabio.css             ← Teal-Grün-Theme (#048263)
-├── js/                          ← config, utils, search, render, render-overview, render-detail, app
+├── css/                         ← Pico CSS (self-hosted) + parlabio.css (Teal-Grün #048263)
+├── fonts/                       ← Oswald Variable Font (self-hosted, DSGVO)
+├── js/                          ← config, utils, search, render, app + minisearch.min.js (self-hosted)
 └── data/                        ← Generiert von build.py (Suchindex + Detail-JSONs)
 ```
 

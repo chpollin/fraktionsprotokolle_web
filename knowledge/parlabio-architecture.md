@@ -63,7 +63,7 @@ Stand: Februar 2026. Dokumentation der getroffenen und offenen Architekturentsch
 
 ### CSS-Framework
 
-**Pico CSS v2 (classless)** via CDN + eigene `parlabio.css` für Layout-Overrides (Grid, Badges, Dashboard-Komponenten, Print). Kein Build-Step. Dark Mode explizit deaktiviert (`color-scheme: light`), alle `--pico-primary-*` Variablen auf Teal-Grün (`#048263`) überschrieben.
+**Pico CSS v2 (classless)**, self-hosted (`docs/css/pico.classless.min.css`), + eigene `parlabio.css` für Layout-Overrides (Grid, Badges, Dashboard-Komponenten, Print, @font-face). Kein Build-Step. Dark Mode explizit deaktiviert (`color-scheme: light`), alle `--pico-primary-*` Variablen auf Teal-Grün (`#048263`) überschrieben. **DSGVO-konform**: Null externe Requests (Fonts, CSS, JS lokal).
 
 | Kriterium | Tailwind (Lastenheft) | Pico CSS (gewählt) |
 |---|---|---|
@@ -103,7 +103,7 @@ Abgeleitet vom Logo des Editionsprogramms:
 
 ### Bibliothek-Entscheidung
 
-**MiniSearch v7** via CDN.
+**MiniSearch v7**, self-hosted (`docs/js/minisearch.min.js`).
 
 | Bibliothek | Bundle | Geschwindigkeit | Boolean | Fuzzy | Gewählt |
 |---|---|---|---|---|---|
@@ -179,21 +179,29 @@ Architektonisch vorbereitet, aber nicht im aktuellen Scope:
 ### Verzeichnisstruktur (Implementiert)
 
 ```
-docs/                           ← GitHub Pages Root
-├── index.html                  ← SPA-Shell (einziger Entry Point)
+docs/                                ← GitHub Pages Root
+├── index.html                       ← SPA-Shell (einziger Entry Point)
 ├── css/
-│   └── parlabio.css            ← Custom Styles (Grid, Badges, Print)
+│   ├── parlabio.css                 ← Custom Styles (Grid, Badges, Print, @font-face)
+│   └── pico.classless.min.css       ← Pico CSS v2 (self-hosted, DSGVO)
+├── fonts/
+│   ├── oswald-latin.woff2           ← Oswald Variable Font (self-hosted)
+│   └── oswald-latin-ext.woff2       ← Oswald Variable Font (Erweiterung)
 ├── js/
-│   ├── app.js                  ← Routing, State, Init, Events
-│   ├── search.js               ← MiniSearch-Konfiguration + Facetten
-│   ├── render.js               ← HTML-Rendering (3 Views)
-│   └── utils.js                ← Hilfsfunktionen
+│   ├── app.js                       ← Routing, State, Init, Events
+│   ├── config.js                    ← Zentrale Konstanten (URLs, Page-Size)
+│   ├── search.js                    ← MiniSearch-Konfiguration + Facetten
+│   ├── render.js                    ← Ergebnisliste + Suchterm-Highlighting
+│   ├── render-overview.js           ← Overview-Dashboard + Fraktionsfarben
+│   ├── render-detail.js             ← Detailseite + Karriere-Timeline
+│   ├── utils.js                     ← Hilfsfunktionen, Farb-Mapping
+│   └── minisearch.min.js            ← MiniSearch v7 (self-hosted, DSGVO)
 ├── img/
 │   └── logo_editionsprogramm.svg
-└── data/                       ← Generiert von build.py --output docs/data
-    ├── search-index.json       ← 2,9 MB
+└── data/                            ← Generiert von build.py --output docs/data
+    ├── search-index.json            ← 2,9 MB
     ├── beacon.txt
-    └── person/                 ← 11.225 JSON-LD-Dateien
+    └── person/                      ← 11.225 JSON-LD-Dateien
 ```
 
 ## Verwandte Dokumente

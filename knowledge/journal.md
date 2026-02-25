@@ -35,6 +35,17 @@ Strukturierte Übersicht über die Entwicklung der Edition. Detaillierte Fassung
     - Sortieroptionen (Relevanz/Name/Geburtsjahr), Karriere-Timeline (Tufte)
     - Zitations-Export: Klartext + BibTeX (FAIR-Prinzipien)
     - 7 neue Tests (TestFrontendAssets), gesamt 20/20 grün
+  - Phase 3 – Barrierefreiheit (a11y):
+    - Skip-Link, aria-Labels, Focus-Management, Screen-Reader-Announce
+    - WCAG-konforme Touch-Targets (min 44px), focus-visible-Outlines
+    - Neue Dokumentation: `knowledge/design.md`
+  - Phase 4 – UI/UX-Verbesserungen + DSGVO Self-Hosting:
+    - Fraktionsfarben im Dashboard-Balkenchart, Geschlecht Teal/Mauve
+    - Geburtsjahrzehnte-Labels: Rotation + Kurzform, Mobile Suche ermöglicht
+    - Ergebnistabelle: Zebra-Striping, größere Badges, Suchterm-Highlighting
+    - Detailseite: Zurück-Button, subtilere h3-Linien, Stammdaten-Card
+    - DSGVO: Google Fonts, Pico CSS, MiniSearch lokal (0 externe Requests)
+- **ParlaBio AP3 abgeschlossen** (4 Phasen, 14 Commits)
 
 ### Januar 2026
 - **SPD 8. WP** (1976–1980): Veröffentlichung von 144 edierten Sitzungsprotokollen

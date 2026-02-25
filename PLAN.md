@@ -8,12 +8,12 @@ Stand: 25. Februar 2026
 |---|---|---|
 | AP1 | Build-Pipeline (TEI-XML → JSON) | Abgeschlossen |
 | AP2 | Prototyp & Redesign | Abgeschlossen |
-| **AP3** | **Weboberfläche (SPA-Frontend)** | **In Arbeit** |
+| **AP3** | **Weboberfläche (SPA-Frontend)** | **Abgeschlossen** |
 | AP4 | Deployment & Dokumentation | Offen |
 | AP5 | Qualitätssicherung & Abnahme | Offen |
 
 **Build-Pipeline**: Fehlerfrei, 4,8 s, 11.225 Personen, 134 bekannte Quality-Issues.
-**Git**: Branch `main`, clean, 6 Commits nicht gepusht.
+**Git**: Branch `main`, clean, mehrere Commits nicht gepusht.
 **KGParl-Fragen**: 7 offene Fragen (Domain, Hosting, etc.) – betreffen erst AP4, blockieren AP3 nicht.
 
 ---
@@ -125,20 +125,51 @@ Frontend-Audit vom 25.02.2026 – alle Bugs verifiziert gegen Code + Daten. Comm
 
 ---
 
-## Phase 3: UI-Redesign (nächster Schritt)
+## Phase 3: Barrierefreiheit (a11y) – ABGESCHLOSSEN (25.02.2026)
 
-Professionelles, wissenschaftlich begründetes UI mit einheitlichem CSS/HTML. Noch zu planen.
+Committed in `c76390575`.
+
+- [x] Skip-Link für Tastaturnavigation
+- [x] aria-Labels auf Formularelementen (Suchfeld, Sort-Select, Filter-Buttons)
+- [x] Focus-Management bei Route-Wechsel, focus-visible-Outlines
+- [x] Screen-Reader-Announce via aria-live-Region
+- [x] WCAG-konforme Touch-Targets (min 44px)
+- [x] Design-Dokumentation (`knowledge/design.md`) erstellt
 
 ---
 
-## Phase 3: AP4 – Deployment (abhängig von KGParl-Antworten)
+## Phase 4: UI/UX-Verbesserungen + DSGVO Self-Hosting – ABGESCHLOSSEN (25.02.2026)
+
+6 UI/UX-Verbesserungen aus dem Frontend-Audit + DSGVO-Compliance durch Self-Hosting.
+
+### UI/UX
+- [x] Fraktionsfarben im Dashboard-Balkenchart (27 Farben, FACTION_COLORS)
+- [x] Geschlecht-Balken: Teal/Mauve statt monotones Teal
+- [x] Geburtsjahrzehnte-Labels: Rotation 50° + Kurzform ('70, '80, ...)
+- [x] Mobile Suche: 480px-Breakpoint umgeschrieben (flex-wrap statt display:none)
+- [x] Ergebnistabelle: Zebra-Striping, größere Badges, Suchterm-Highlighting (`<mark>`)
+- [x] Detailseite: Zurück-Button, subtilere h3-Linien, Stammdaten-Card
+
+### DSGVO Self-Hosting
+- [x] Google Fonts → `docs/fonts/oswald-latin*.woff2` (Variable Font, @font-face)
+- [x] Pico CSS CDN → `docs/css/pico.classless.min.css`
+- [x] MiniSearch CDN → `docs/js/minisearch.min.js`
+- [x] Ergebnis: 0 externe Requests, DSGVO Art. 44ff konform
+
+---
+
+## AP3 – ABGESCHLOSSEN (4 Phasen, 14 Commits)
+
+---
+
+## AP4 – Deployment (nächster Schritt, abhängig von KGParl-Antworten)
 
 - Statische Dateien auf KGParl-Server (NGINX/Apache)
 - HTTPS
 - Kein Container nötig
 - Offene Fragen: Domain/Pfad, Hosting-Vorgaben
 
-## Phase 4: AP5 – QS & Abnahme
+## AP5 – QS & Abnahme
 
 - Qualitätssicherung durch KGParl
 - Abnahme

@@ -67,7 +67,7 @@ Personen.xml ──→ parlabio/build.py (Python/lxml) ──→ JSON-Artefakte 
 |---|---|---|---|
 | AP1 | Build-Pipeline (TEI-XML → JSON) | – | **Abgeschlossen** |
 | AP2 | Prototyp und Designabstimmung | AP1 | **Abgeschlossen** |
-| AP3 | Weboberfläche (SPA-Frontend) | AP2 | **In Arbeit** (Phase 1+2 done, UI-Redesign offen) |
+| AP3 | Weboberfläche (SPA-Frontend) | AP2 | **Abgeschlossen** (4 Phasen: Bugfixes, UX, a11y, UI/DSGVO) |
 | AP4 | Deployment und Dokumentation | AP3 | Offen |
 | AP5 | Qualitätssicherung und Abnahme | AP4 | Offen |
 
@@ -83,11 +83,11 @@ Personen.xml ──→ parlabio/build.py (Python/lxml) ──→ JSON-Artefakte 
 ### AP2 – Ergebnisse
 
 - **Frontend**: Vanilla JS SPA mit Hash-Routing, 3 Views (Overview-Dashboard, Ergebnisliste, Detailseite)
-- **CSS**: Pico CSS v2 (classless) via CDN + eigene `parlabio.css` (Oswald-Font, Teal-Grün `#048263` aus dem Logo, Grid, Print). Dark Mode explizit deaktiviert (nur helles Theme).
+- **CSS**: Pico CSS v2 (classless, self-hosted) + eigene `parlabio.css` (Oswald Variable Font self-hosted, Teal-Grün `#048263` aus dem Logo, Grid, Print). Dark Mode explizit deaktiviert (nur helles Theme).
 - **Einstieg**: Overview-Dashboard nach Shneiderman-Mantra ("Overview first, zoom and filter, then details on demand") – Stat-Cards (Personentypen), horizontale Balkencharts (Fraktionen, Geschlecht), vertikale Minibars (Wahlperioden, Geburtsjahrzehnte). Jedes Element klickbar → navigiert zur gefilterten Ergebnisliste.
-- **Suche**: MiniSearch v7 via CDN mit Fuzzy-Search und Umlaut-Normalisierung. Suchfeld im Header (auf allen Views erreichbar), nicht mehr als zentrales Startelement.
+- **Suche**: MiniSearch v7 (self-hosted) mit Fuzzy-Search und Umlaut-Normalisierung. Suchfeld im Header (auf allen Views erreichbar), nicht mehr als zentrales Startelement.
 - **Facetten**: Typ, Fraktion, Wahlperiode, Geschlecht, Geburtsjahrzehnt – berechnet via `Array.filter()`
-- **Deployment**: GitHub Pages (`docs/`), kein Build-Step nötig
+- **Deployment**: GitHub Pages (`docs/`), kein Build-Step nötig, 0 externe Requests (DSGVO-konform)
 - **Design-Prinzip**: Namenszentriert (nicht fraktionszentriert), da 63% der Personen keine Fraktionszugehörigkeit haben. Explorativer Einstieg über Datenverteilungen statt Volltextsuche.
 - **Daten**: `python parlabio/build.py --output docs/data` generiert ~13 MB direkt in das Deployment-Verzeichnis
 
@@ -136,17 +136,23 @@ parlabio/
 
 ```
 docs/
-├── index.html            # SPA-Shell (7 Script-Tags)
-├── css/parlabio.css      # Teal-Grün-Theme (#048263)
+├── index.html                # SPA-Shell (7 Script-Tags)
+├── css/
+│   ├── parlabio.css          # Teal-Grün-Theme (#048263), @font-face
+│   └── pico.classless.min.css # Pico CSS v2 (self-hosted, DSGVO)
+├── fonts/
+│   ├── oswald-latin.woff2    # Oswald Variable Font (self-hosted)
+│   └── oswald-latin-ext.woff2
 ├── js/
-│   ├── config.js         # Zentrale Konstanten (URLs, Page-Size)
-│   ├── utils.js          # Hilfsfunktionen, Farb-Mapping
-│   ├── search.js         # MiniSearch, Facetten, Overview-Stats
-│   ├── render.js         # Ergebnisliste + Render-Helfer
-│   ├── render-overview.js # Overview-Dashboard
-│   ├── render-detail.js  # Detailseite
-│   └── app.js            # Routing, State, Events
-└── data/                 # Generiert von build.py
+│   ├── config.js             # Zentrale Konstanten (URLs, Page-Size)
+│   ├── utils.js              # Hilfsfunktionen, Farb-Mapping
+│   ├── search.js             # MiniSearch, Facetten, Overview-Stats
+│   ├── render.js             # Ergebnisliste + Suchterm-Highlighting
+│   ├── render-overview.js    # Overview-Dashboard + Fraktionsfarben
+│   ├── render-detail.js      # Detailseite + Karriere-Timeline
+│   ├── minisearch.min.js     # MiniSearch v7 (self-hosted, DSGVO)
+│   └── app.js                # Routing, State, Events
+└── data/                     # Generiert von build.py
 ```
 
 ## Verwandte Dokumente
