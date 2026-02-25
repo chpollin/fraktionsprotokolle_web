@@ -1,7 +1,23 @@
 /* ParlaBio – Custom Styles (Teal-Grün + Light Theme) */
 
-/* Oswald font for headings (matching fraktionsprotokolle.de) */
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&display=swap');
+/* Oswald font – self-hosted (DSGVO-konform, kein Google-Fonts-CDN) */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400 600;
+  font-display: swap;
+  src: url('../fonts/oswald-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400 600;
+  font-display: swap;
+  src: url('../fonts/oswald-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
 
 /* Force light theme – override Pico dark mode */
 :root,
@@ -421,17 +437,18 @@ footer.site-footer a {
 }
 
 .minibar-label {
-  font-size: 0.7rem;
-  text-align: center;
+  font-size: 0.65rem;
   color: var(--pico-muted-color);
   position: absolute;
-  bottom: -16px;
-  left: 0;
-  right: 0;
+  bottom: -6px;
+  left: 50%;
+  white-space: nowrap;
+  transform: rotate(-50deg);
+  transform-origin: top center;
 }
 
 .minibar-group-container {
-  padding-bottom: 20px;
+  padding-bottom: 45px;
 }
 
 /* ═══════════════════════════════════════════
@@ -594,15 +611,27 @@ footer.site-footer a {
   vertical-align: middle;
 }
 
+.results-table tbody tr:nth-child(odd) {
+  background: var(--pb-bg-subtle);
+}
+
 /* Faction badges */
 .faction-badge {
   display: inline-block;
-  padding: 0.1rem 0.4rem;
+  padding: 0.2rem 0.5rem;
   border-radius: 3px;
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   font-weight: 600;
   white-space: nowrap;
   line-height: 1.4;
+}
+
+/* Search term highlighting */
+mark {
+  background: rgba(4, 130, 99, 0.15);
+  padding: 0.1em 0.2em;
+  border-radius: 2px;
+  color: inherit;
 }
 
 /* Pagination */
@@ -657,6 +686,19 @@ footer.site-footer a {
 .detail-nav a {
   text-decoration: none;
   color: var(--pico-primary);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.35rem 0.75rem;
+  border: 1px solid var(--pico-primary);
+  border-radius: 4px;
+  font-size: 0.875rem;
+  transition: background 0.15s, color 0.15s;
+}
+
+.detail-nav a:hover {
+  background: var(--pico-primary);
+  color: #fff;
 }
 
 .person-detail h2 {
@@ -676,7 +718,7 @@ footer.site-footer a {
 
 .person-detail h3 {
   font-size: 1.1rem;
-  border-bottom: 2px solid var(--pico-primary);
+  border-bottom: 1px solid var(--pb-border-subtle);
   padding-bottom: 0.25rem;
   margin-bottom: 0.75rem;
 }
@@ -740,8 +782,15 @@ footer.site-footer a {
 }
 
 @media (max-width: 480px) {
+  header.site-header nav {
+    flex-wrap: wrap;
+  }
+
   .header-search-form {
-    display: none;
+    max-width: 100%;
+    flex-basis: 100%;
+    order: 3;
+    margin-top: 0.25rem;
   }
 }
 
@@ -844,12 +893,34 @@ footer.site-footer a {
 
 .stammdaten-details {
   margin-bottom: 1.5rem;
+  border: 1px solid var(--pb-border-subtle);
+  border-radius: 8px;
+  padding: 0;
 }
 
 .stammdaten-details summary {
   cursor: pointer;
-  color: var(--pico-primary, #048263);
+  color: var(--pico-primary);
   font-weight: 500;
+  padding: 0.75rem 1rem;
+  list-style: none;
+}
+
+.stammdaten-details summary::before {
+  content: '\25b8 ';
+}
+
+.stammdaten-details[open] summary::before {
+  content: '\25be ';
+}
+
+.stammdaten-details summary::-webkit-details-marker {
+  display: none;
+}
+
+.stammdaten-details .stammdaten-table {
+  margin: 0 1rem 1rem;
+  width: calc(100% - 2rem);
 }
 
 /* ═══════════════════════════════════════════

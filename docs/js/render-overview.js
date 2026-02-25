@@ -11,15 +11,19 @@
  * @param {number} max - Maximum count (for width calculation)
  * @param {string} filterKey - URL filter parameter name (e.g. 'faction', 'sex')
  * @param {Function} [labelFn] - Optional label formatter; defaults to identity
+ * @param {Function} [colorFn] - Optional color function (key → CSS color); defaults to theme primary
  */
-function renderBarRows(entries, max, filterKey, labelFn) {
+function renderBarRows(entries, max, filterKey, labelFn, colorFn) {
   return entries.map(([key, count]) => {
     const widthPct = Math.round((count / max) * 100);
     const label = labelFn ? labelFn(key) : key;
     const href = `#/search?${filterKey}=${encodeURIComponent(key)}`;
+    const barStyle = colorFn
+      ? `width:${widthPct}%;background:${colorFn(key)}`
+      : `width:${widthPct}%`;
     return `<a class="bar-row" href="${href}">
       <span class="bar-label">${escapeHtml(label)}</span>
-      <div class="bar-track"><div class="bar-fill" style="width:${widthPct}%"></div></div>
+      <div class="bar-track"><div class="bar-fill" style="${barStyle}"></div></div>
       <span class="bar-value">${count.toLocaleString('de-DE')}</span>
     </a>`;
   }).join('');
@@ -30,7 +34,7 @@ function renderMinibars(entries, max, filterKey, labelFn) {
     const heightPct = Math.max(Math.round((count / max) * 100), 3);
     const label = labelFn ? labelFn(key) : String(key);
     const href = `#/search?${filterKey}=${encodeURIComponent(key)}`;
-    return `<a class="minibar" href="${href}" style="height:${heightPct}%" title="${label}: ${count.toLocaleString('de-DE')}">
+    return `<a class="minibar" href="${href}" style="height:${heightPct}%" title="${escapeHtml(String(key))}: ${count.toLocaleString('de-DE')}">
       <span class="minibar-label">${escapeHtml(label)}</span>
     </a>`;
   }).join('');
@@ -68,7 +72,7 @@ function renderOverviewView(stats) {
   const sexMax = sexEntries.length > 0 ? sexEntries[0][1] : 1;
 
   const moreFactionRows = moreFactions.length > 0
-    ? `<div class="bar-chart-more" id="more-factions">${renderBarRows(moreFactions, factionMax, 'faction')}</div>
+    ? `<div class="bar-chart-more" id="more-factions">${renderBarRows(moreFactions, factionMax, 'faction', null, (k) => FACTION_COLORS[k] || '#048263')}</div>
        <button class="bar-toggle" id="toggle-factions" type="button" data-count="${moreFactions.length}">\u25b8 ${moreFactions.length} weitere anzeigen</button>`
     : '';
 
@@ -103,7 +107,7 @@ function renderOverviewView(stats) {
     <section class="overview-section">
       <h2>Fraktionen (nur MdB)</h2>
       <div class="bar-chart">
-        ${renderBarRows(topFactions, factionMax, 'faction')}
+        ${renderBarRows(topFactions, factionMax, 'faction', null, (k) => FACTION_COLORS[k] || '#048263')}
         ${moreFactionRows}
       </div>
     </section>
@@ -121,7 +125,7 @@ function renderOverviewView(stats) {
         <h2>Geburtsjahrzehnte</h2>
         <div class="minibar-group-container">
           <div class="minibar-group">
-            ${renderMinibars(decadeEntries, decadeMax, 'decade', (k) => k)}
+            ${renderMinibars(decadeEntries, decadeMax, 'decade', (k) => "'" + k.replace(/er$/, '').slice(-2))}
           </div>
         </div>
       </div>
@@ -130,7 +134,7 @@ function renderOverviewView(stats) {
     <section class="overview-section">
       <h2>Geschlecht</h2>
       <div class="bar-chart">
-        ${renderBarRows(sexEntries, sexMax, 'sex', sexLabel)}
+        ${renderBarRows(sexEntries, sexMax, 'sex', sexLabel, (k) => k === 'm' ? '#048263' : '#b05c91')}
       </div>
     </section>
 

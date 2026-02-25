@@ -53,7 +53,7 @@ function renderResultsView(results, query, filters, unfilteredFacets, page, page
           <span class="results-count">${totalResults.toLocaleString('de-DE')} Ergebnis${totalResults !== 1 ? 'se' : ''}</span>
           <select id="sort-select" class="sort-select" aria-label="Sortierung">${sortOptions}</select>
         </div>
-        ${pageResults.length ? renderResultsTable(pageResults) : '<p>Keine Ergebnisse gefunden.</p>'}
+        ${pageResults.length ? renderResultsTable(pageResults, query) : '<p>Keine Ergebnisse gefunden.</p>'}
         ${totalPages > 1 ? renderPagination(page, totalPages) : ''}
       </div>
     </div>`;
@@ -63,7 +63,20 @@ function renderBadge(filterKey, label) {
   return `<span class="filter-badge" data-filter="${filterKey}">${escapeHtml(label)} <button type="button" aria-label="${escapeHtml(label)} entfernen">&times;</button></span>`;
 }
 
-function renderResultsTable(results) {
+function renderResultsTable(results, query) {
+  // Build highlight function: wraps matching substrings in <mark> tags
+  let highlight = (text) => escapeHtml(text);
+  if (query && query.trim()) {
+    const terms = query.trim().split(/\s+/).map(t =>
+      t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+    );
+    const re = new RegExp('(' + terms.join('|') + ')', 'gi');
+    highlight = (text) => {
+      if (!text) return '';
+      return escapeHtml(text).replace(re, '<mark>$1</mark>');
+    };
+  }
+
   let rows = '';
   for (const p of results) {
     const factionBadges = (p.factions || []).map(f => {
@@ -73,7 +86,7 @@ function renderResultsTable(results) {
     }).join(' ');
 
     rows += `<tr>
-      <td><a href="#/person/${encodeURIComponent(p.id)}">${escapeHtml(p.name)}</a></td>
+      <td><a href="#/person/${encodeURIComponent(p.id)}">${highlight(p.name)}</a></td>
       <td>${formatLifespan(p.birth_year, p.death_year)}</td>
       <td>${factionBadges || '\u2014'}</td>
     </tr>`;
