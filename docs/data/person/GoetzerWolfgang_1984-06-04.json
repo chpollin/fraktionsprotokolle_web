@@ -1,18 +1,94 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GoetzerWolfgang_1984-06-04",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GoetzerWolfgang_1984-06-04",
   "name": "Wolfgang Götzer",
   "givenName": "Wolfgang",
   "familyName": "Götzer",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Wolfgang Götzer",
+    "forename": "Wolfgang",
+    "surname": "Götzer",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1955-01-10",
+    "place": "Landshut",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 10,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1984-06-04",
+      "to": "1987-02-18"
+    },
+    {
+      "period": 12,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1990-12-20",
+      "to": "1994-11-10"
+    },
+    {
+      "period": 13,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1994-11-10",
+      "to": "1998-10-26"
+    },
+    {
+      "period": 14,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1998-10-26",
+      "to": "2002-10-17"
+    },
+    {
+      "period": 15,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "2002-10-17",
+      "to": "2005-10-18"
+    },
+    {
+      "period": 16,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "2005-10-18",
+      "to": "2009-10-27"
+    },
+    {
+      "period": 17,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "2009-10-27",
+      "to": "2013-10-22"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000707",
+    "gnd": "https://d-nb.info/gnd/111498562",
+    "wikipedia": "https://de.wikipedia.org/wiki/Wolfgang_G%C3%B6tzer"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1955-01-10",
   "birthPlace": {
     "@type": "Place",
     "name": "Landshut"
   },
-  "deathDate": null,
-  "deathPlace": null,
   "hasOccupation": {
     "@type": "Occupation",
     "name": "Rechtsanwalt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
@@ -92,81 +168,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/111498562",
     "https://de.wikipedia.org/wiki/Wolfgang_G%C3%B6tzer"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Wolfgang Götzer",
-    "forename": "Wolfgang",
-    "surname": "Götzer",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1955-01-10",
-    "place": "Landshut",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": null,
-    "place": "",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 10,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1984-06-04",
-      "to": "1987-02-18"
-    },
-    {
-      "period": 12,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1990-12-20",
-      "to": "1994-11-10"
-    },
-    {
-      "period": 13,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1994-11-10",
-      "to": "1998-10-26"
-    },
-    {
-      "period": 14,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1998-10-26",
-      "to": "2002-10-17"
-    },
-    {
-      "period": 15,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "2002-10-17",
-      "to": "2005-10-18"
-    },
-    {
-      "period": 16,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "2005-10-18",
-      "to": "2009-10-27"
-    },
-    {
-      "period": 17,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "2009-10-27",
-      "to": "2013-10-22"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11000707",
-    "gnd": "https://d-nb.info/gnd/111498562",
-    "wikipedia": "https://de.wikipedia.org/wiki/Wolfgang_G%C3%B6tzer",
-    "viaf": null
-  }
+  ]
 }

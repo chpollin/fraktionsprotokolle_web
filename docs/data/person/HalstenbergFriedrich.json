@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HalstenbergFriedrich",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HalstenbergFriedrich",
   "name": "Friedrich Halstenberg",
   "givenName": "Friedrich",
   "familyName": "Halstenberg",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1920-06-12",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Werfen, Westfalen"
-  },
-  "deathDate": "2010-11-03",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Köln"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1972–1980 MdL Nordrhein-Westfalen (SPD), 1966–1972 Staatssekretär und Chef der Staatskanzlei von Nordrhein-Westfalen, 1972–1975 Minister für Bundesangelegenheiten, 1975–1978 Finanzminister von Nordrhein-Westfalen, 1978–1984 Bundesschatzmeister der SPD"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118720090",
-    "https://de.wikipedia.org/wiki/Friedrich_Halstenberg"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Friedrich Halstenberg",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118720090",
-    "wikipedia": "https://de.wikipedia.org/wiki/Friedrich_Halstenberg",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Friedrich_Halstenberg"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1920-06-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Werfen, Westfalen"
+  },
+  "deathDate": "2010-11-03",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Köln"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1972–1980 MdL Nordrhein-Westfalen (SPD), 1966–1972 Staatssekretär und Chef der Staatskanzlei von Nordrhein-Westfalen, 1972–1975 Minister für Bundesangelegenheiten, 1975–1978 Finanzminister von Nordrhein-Westfalen, 1978–1984 Bundesschatzmeister der SPD"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118720090",
+    "https://de.wikipedia.org/wiki/Friedrich_Halstenberg"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchmidtEberhard",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchmidtEberhard",
   "name": "Eberhard Schmidt",
   "givenName": "Eberhard",
   "familyName": "Schmidt",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1891-03-16",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Jüterbog"
-  },
-  "deathDate": "1977-06-17",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Heidelberg"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1935–1948 Prof. für Strafrecht, Strafprozeßrecht und Rechtsgeschichte an der Universität Göttingen, nach 1948 an der Universität Heidelberg, Mitglied der »Großen Strafrechtskommission«"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118759590",
-    "https://de.wikipedia.org/wiki/Eberhard_Schmidt_(Rechtswissenschaftler)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Eberhard Schmidt",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118759590",
-    "wikipedia": "https://de.wikipedia.org/wiki/Eberhard_Schmidt_(Rechtswissenschaftler)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Eberhard_Schmidt_(Rechtswissenschaftler)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1891-03-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Jüterbog"
+  },
+  "deathDate": "1977-06-17",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Heidelberg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1935–1948 Prof. für Strafrecht, Strafprozeßrecht und Rechtsgeschichte an der Universität Göttingen, nach 1948 an der Universität Heidelberg, Mitglied der »Großen Strafrechtskommission«"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118759590",
+    "https://de.wikipedia.org/wiki/Eberhard_Schmidt_(Rechtswissenschaftler)"
+  ]
 }

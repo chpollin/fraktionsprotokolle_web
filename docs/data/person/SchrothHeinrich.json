@@ -1,29 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchrothHeinrich",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchrothHeinrich",
   "name": "Heinrich Schroth",
   "givenName": "Heinrich",
   "familyName": "Schroth",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1902-11-03",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Ohligs, Kreis Solingen"
-  },
-  "deathDate": "1957-09-13",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Solingen"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1954–1957 MDL NRW (SPD)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Heinrich_Schroth_(Politiker)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Heinrich Schroth",
@@ -45,9 +29,24 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://de.wikipedia.org/wiki/Heinrich_Schroth_(Politiker)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Heinrich_Schroth_(Politiker)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1902-11-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Ohligs, Kreis Solingen"
+  },
+  "deathDate": "1957-09-13",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Solingen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1954–1957 MDL NRW (SPD)"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Heinrich_Schroth_(Politiker)"
+  ]
 }

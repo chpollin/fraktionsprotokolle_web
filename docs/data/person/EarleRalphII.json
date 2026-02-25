@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "EarleRalphII",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/EarleRalphII",
   "name": "Ralph Earle II",
   "givenName": "Ralph",
   "familyName": "Earle",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1928-09-26",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Bryn Mawr, PA"
-  },
-  "deathDate": "2020-01-23",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Leiter der amerikanischen Delegation bei den SALT-II-Verhandlungen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1169952798",
-    "https://en.wikipedia.org/wiki/Ralph_Earle_(ambassador)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Ralph Earle II",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1169952798",
-    "wikipedia": "https://en.wikipedia.org/wiki/Ralph_Earle_(ambassador)",
-    "viaf": null
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/Ralph_Earle_(ambassador)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1928-09-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bryn Mawr, PA"
+  },
+  "deathDate": "2020-01-23",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Leiter der amerikanischen Delegation bei den SALT-II-Verhandlungen"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1169952798",
+    "https://en.wikipedia.org/wiki/Ralph_Earle_(ambassador)"
+  ]
 }

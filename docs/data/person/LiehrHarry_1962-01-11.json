@@ -1,58 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "LiehrHarry_1962-01-11",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/LiehrHarry_1962-01-11",
   "name": "Harry Liehr",
   "givenName": "Harry",
   "familyName": "Liehr",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1927-05-15",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "deathDate": "2022-08-24",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Technischer Angestellter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1962-01-11",
-      "endDate": "1965-10-17"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1965-10-19",
-      "endDate": "1969-10-19"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1969-10-20",
-      "endDate": "1971-07-16"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1120412781",
-    "https://de.wikipedia.org/wiki/Harry_Liehr"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Harry Liehr",
@@ -98,7 +53,53 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001341",
     "gnd": "https://d-nb.info/gnd/1120412781",
-    "wikipedia": "https://de.wikipedia.org/wiki/Harry_Liehr",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Harry_Liehr"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1927-05-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "2022-08-24",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Technischer Angestellter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1962-01-11",
+      "endDate": "1965-10-17"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1965-10-19",
+      "endDate": "1969-10-19"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1969-10-20",
+      "endDate": "1971-07-16"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1120412781",
+    "https://de.wikipedia.org/wiki/Harry_Liehr"
+  ]
 }

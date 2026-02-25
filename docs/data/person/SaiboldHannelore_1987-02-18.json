@@ -1,58 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SaiboldHannelore_1987-02-18",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SaiboldHannelore_1987-02-18",
   "name": "Halo Saibold, geb. Kulessa",
   "givenName": "Hannelore",
   "familyName": "Saibold",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1943-10-01",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Bankau, Oberschlesien (heute: Bąków, Polen)"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Gesundheitsberaterin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion Die Grünen",
-        "alternateName": "Grüne"
-      },
-      "startDate": "1987-02-18",
-      "endDate": "1990-12-20"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion Die Grünen/Bündnis 90",
-        "alternateName": "Grüne/B90"
-      },
-      "startDate": "1990-10-04",
-      "endDate": "1990-12-20"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion Bündnis 90/Die Grünen",
-        "alternateName": "B90/Grüne"
-      },
-      "startDate": "1994-11-10",
-      "endDate": "1998-10-26"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1027005896",
-    "https://de.wikipedia.org/wiki/Halo_Saibold"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Halo Saibold, geb. Kulessa",
@@ -98,8 +53,53 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001915",
     "gnd": "https://d-nb.info/gnd/1027005896",
-    "wikipedia": "https://de.wikipedia.org/wiki/Halo_Saibold",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Halo_Saibold"
   },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1943-10-01",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bankau, Oberschlesien (heute: Bąków, Polen)"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Gesundheitsberaterin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Die Grünen",
+        "alternateName": "Grüne"
+      },
+      "startDate": "1987-02-18",
+      "endDate": "1990-12-20"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Die Grünen/Bündnis 90",
+        "alternateName": "Grüne/B90"
+      },
+      "startDate": "1990-10-04",
+      "endDate": "1990-12-20"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Bündnis 90/Die Grünen",
+        "alternateName": "B90/Grüne"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-10-26"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1027005896",
+    "https://de.wikipedia.org/wiki/Halo_Saibold"
+  ],
   "fraktionsprotokolle:sonstiges": "Gründungsmitglied der Grünen, 1979-1982 Mitglied des Landesvorstands Bayern, 1980-1981 Mitglied des Bundesvortands, 1983-1987 Mitarbeiterin der Grünen-Bundestagsfraktion (Arbeitskreis V)"
 }

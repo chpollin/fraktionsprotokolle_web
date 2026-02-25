@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KrelleWilhelm",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KrelleWilhelm",
   "name": "Wilhelm Krelle",
   "givenName": "Wilhelm",
   "familyName": "Krelle",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1916-12-24",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Magdeburg"
-  },
-  "deathDate": "2004-06-23",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bonn"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Professor für Wirtschaftsliche Staatswissenschaften an der Universität Bonn"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118566539",
-    "https://de.wikipedia.org/wiki/Wilhelm_Krelle"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Wilhelm Krelle",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118566539",
-    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_Krelle",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_Krelle"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1916-12-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Magdeburg"
+  },
+  "deathDate": "2004-06-23",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Professor für Wirtschaftsliche Staatswissenschaften an der Universität Bonn"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118566539",
+    "https://de.wikipedia.org/wiki/Wilhelm_Krelle"
+  ]
 }

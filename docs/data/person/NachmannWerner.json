@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "NachmannWerner",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/NachmannWerner",
   "name": "Werner Nachmann",
   "givenName": "Werner",
   "familyName": "Nachmann",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1925-08-12",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Karlsruhe"
-  },
-  "deathDate": "1988-01-21",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Karlsruhe"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1969–1988 Vorsitzender des Zentralrats der Juden in Deutschland"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/138189420",
-    "https://de.wikipedia.org/wiki/Werner_Nachmann"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Werner Nachmann",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/138189420",
-    "wikipedia": "https://de.wikipedia.org/wiki/Werner_Nachmann",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Werner_Nachmann"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1925-08-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Karlsruhe"
+  },
+  "deathDate": "1988-01-21",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Karlsruhe"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1969–1988 Vorsitzender des Zentralrats der Juden in Deutschland"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/138189420",
+    "https://de.wikipedia.org/wiki/Werner_Nachmann"
+  ]
 }

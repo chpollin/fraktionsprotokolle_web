@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "StrougalLubomir",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/StrougalLubomir",
   "name": "Lubomír Štrougal",
   "givenName": "Lubomír",
   "familyName": "Štrougal",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1924-10-19",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Veselí nad Lužnicí"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "kommunistischer Funktionär und Politiker der Tschechoslowakei, 1970–1988 Ministerpräsident der Tschechoslowakischen Sozialistischen Republik"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/140381929",
-    "https://de.wikipedia.org/wiki/Lubom%C3%ADr_%C5%A0trougal"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Lubomír Štrougal",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/140381929",
-    "wikipedia": "https://de.wikipedia.org/wiki/Lubom%C3%ADr_%C5%A0trougal",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Lubom%C3%ADr_%C5%A0trougal"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1924-10-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Veselí nad Lužnicí"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "kommunistischer Funktionär und Politiker der Tschechoslowakei, 1970–1988 Ministerpräsident der Tschechoslowakischen Sozialistischen Republik"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/140381929",
+    "https://de.wikipedia.org/wiki/Lubom%C3%ADr_%C5%A0trougal"
+  ]
 }

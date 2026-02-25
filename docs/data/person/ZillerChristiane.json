@@ -1,26 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ZillerChristiane",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ZillerChristiane",
   "name": "Christiane Ziller",
   "givenName": "Christiane",
   "familyName": "Ziller",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1963-01-03",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Elbingerode, Kreis Wernigerode (Harz)"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Musikwissenschaftlerin und Operndramaturgin, 1989–1990 Geschäftsführung, Presse- und Öffentlichkeitsarbeit beim Demokratischen Aufbruch, 1990 Geschäftsführung sowie Mitglied im Sprecherrat von Demokratie Jetzt, 1990-1995 wiss. Mitarbeiterin in der Volkskammer und im Deutschen Bundestag (Schwerpunkte Kultur und Medien), 1993-1997 Mitglied des Grünen-Bundesvorstands"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/133909247"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Christiane Ziller",
@@ -42,9 +29,19 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/133909247",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/133909247"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1963-01-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Elbingerode, Kreis Wernigerode (Harz)"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Musikwissenschaftlerin und Operndramaturgin, 1989–1990 Geschäftsführung, Presse- und Öffentlichkeitsarbeit beim Demokratischen Aufbruch, 1990 Geschäftsführung sowie Mitglied im Sprecherrat von Demokratie Jetzt, 1990-1995 wiss. Mitarbeiterin in der Volkskammer und im Deutschen Bundestag (Schwerpunkte Kultur und Medien), 1993-1997 Mitglied des Grünen-Bundesvorstands"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/133909247"
+  ]
 }

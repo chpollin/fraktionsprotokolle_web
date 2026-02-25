@@ -1,29 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RobinsonCharlesW",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RobinsonCharlesW",
   "name": "Charles W. Robinson",
   "givenName": "Charles W.",
   "familyName": "Robinson",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1919-09-07",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Long Beach, Kalifornien"
-  },
-  "deathDate": "2014-05-20",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Santa Fe, New Mexico"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Wirtschaftsmanager und Unternehmer, 1975/76 Under Secretary of State for Economic Affairs im amerikanischen Außenministerium"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Charles_W._Robinson"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Charles W. Robinson",
@@ -45,9 +29,24 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://de.wikipedia.org/wiki/Charles_W._Robinson",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Charles_W._Robinson"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1919-09-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Long Beach, Kalifornien"
+  },
+  "deathDate": "2014-05-20",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Santa Fe, New Mexico"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Wirtschaftsmanager und Unternehmer, 1975/76 Under Secretary of State for Economic Affairs im amerikanischen Außenministerium"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Charles_W._Robinson"
+  ]
 }

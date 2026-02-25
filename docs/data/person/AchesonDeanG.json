@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "AchesonDeanG",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/AchesonDeanG",
   "name": "Dean G. Acheson",
   "givenName": "Dean G.",
   "familyName": "Acheson",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1893-04-11",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Middletown, Connecticut"
-  },
-  "deathDate": "1971-10-12",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Sandy Spring, Maryland"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1949–1953 Außenminister der USA"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118643665",
-    "https://de.wikipedia.org/wiki/Dean_Acheson"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Dean G. Acheson",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118643665",
-    "wikipedia": "https://de.wikipedia.org/wiki/Dean_Acheson",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Dean_Acheson"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1893-04-11",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Middletown, Connecticut"
+  },
+  "deathDate": "1971-10-12",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Sandy Spring, Maryland"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1949–1953 Außenminister der USA"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118643665",
+    "https://de.wikipedia.org/wiki/Dean_Acheson"
+  ]
 }

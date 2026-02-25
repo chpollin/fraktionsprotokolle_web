@@ -1,65 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchmidtSilvia_1998-10-26",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchmidtSilvia_1998-10-26",
   "name": "Silvia Schmidt",
   "givenName": "Silvia",
   "familyName": "Schmidt",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1954-03-25",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Klostermansfeld/Landkreis Mansfelder Land"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Diplomsozialarbeiterin, Behindertenbeauftragte der SPD-Bundestagsfraktion [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1998-10-26",
-      "endDate": "2002-10-17"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "2002-10-17",
-      "endDate": "2005-10-18"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "2005-10-18",
-      "endDate": "2009-10-27"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "2009-10-27",
-      "endDate": "2013-10-22"
-    }
-  ],
-  "sameAs": null,
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Silvia Schmidt",
@@ -110,9 +58,58 @@
     }
   ],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11003217",
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
-  }
+    "mdb_stammdaten": "11003217"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1954-03-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Klostermansfeld/Landkreis Mansfelder Land"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Diplomsozialarbeiterin, Behindertenbeauftragte der SPD-Bundestagsfraktion [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1998-10-26",
+      "endDate": "2002-10-17"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "2002-10-17",
+      "endDate": "2005-10-18"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "2005-10-18",
+      "endDate": "2009-10-27"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "2009-10-27",
+      "endDate": "2013-10-22"
+    }
+  ]
 }

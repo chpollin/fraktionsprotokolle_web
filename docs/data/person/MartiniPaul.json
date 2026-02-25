@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MartiniPaul",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MartiniPaul",
   "name": "Paul Martini",
   "givenName": "Paul",
   "familyName": "Martini",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1889-01-25",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Frankenthal (Pfalz)"
-  },
-  "deathDate": "1964-09-08",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Galenberg"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Arzt, 1932–1959 Professor für Innere Medizin an der Universität Bonn"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/116810904",
-    "https://de.wikipedia.org/wiki/Paul_Martini_(Mediziner)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Paul Martini",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/116810904",
-    "wikipedia": "https://de.wikipedia.org/wiki/Paul_Martini_(Mediziner)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Paul_Martini_(Mediziner)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1889-01-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Frankenthal (Pfalz)"
+  },
+  "deathDate": "1964-09-08",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Galenberg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Arzt, 1932–1959 Professor für Innere Medizin an der Universität Bonn"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/116810904",
+    "https://de.wikipedia.org/wiki/Paul_Martini_(Mediziner)"
+  ]
 }

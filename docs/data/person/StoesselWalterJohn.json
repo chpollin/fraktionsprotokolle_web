@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "StoesselWalterJohn",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/StoesselWalterJohn",
   "name": "Walter John Stoessel",
   "givenName": "Walter John",
   "familyName": "Stoessel",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1920-01-24",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Manhattan, Kansas"
-  },
-  "deathDate": "1986-12-09",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Washington, D.C."
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "US-amerikanischer Diplomat, 1972–1974 Assistant Secretary of State für Angelegenheiten von Europa und Eurasien im amerikanischen Außenministerium, 1974–1976 Botschafter in der UdSSR, 1976–1981 Botschafter in der Bundesrepublik Deutschland"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1197944486",
-    "https://de.wikipedia.org/wiki/Walter_John_Stoessel"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Walter John Stoessel",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1197944486",
-    "wikipedia": "https://de.wikipedia.org/wiki/Walter_John_Stoessel",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Walter_John_Stoessel"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1920-01-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Manhattan, Kansas"
+  },
+  "deathDate": "1986-12-09",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Washington, D.C."
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "US-amerikanischer Diplomat, 1972–1974 Assistant Secretary of State für Angelegenheiten von Europa und Eurasien im amerikanischen Außenministerium, 1974–1976 Botschafter in der UdSSR, 1976–1981 Botschafter in der Bundesrepublik Deutschland"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1197944486",
+    "https://de.wikipedia.org/wiki/Walter_John_Stoessel"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BracherKarlDietrich",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BracherKarlDietrich",
   "name": "Karl Dietrich Bracher",
   "givenName": "Karl Dietrich",
   "familyName": "Bracher",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1922-03-13",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Stuttgart"
-  },
-  "deathDate": "2016-09-19",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bonn"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1959–1987 Professor für Wissenschaft von der Politik und Zeitgeschichte in Bonn"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118809865",
-    "https://de.wikipedia.org/wiki/Karl_Dietrich_Bracher"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Karl Dietrich Bracher",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118809865",
-    "wikipedia": "https://de.wikipedia.org/wiki/Karl_Dietrich_Bracher",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Karl_Dietrich_Bracher"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1922-03-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Stuttgart"
+  },
+  "deathDate": "2016-09-19",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1959–1987 Professor für Wissenschaft von der Politik und Zeitgeschichte in Bonn"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118809865",
+    "https://de.wikipedia.org/wiki/Karl_Dietrich_Bracher"
+  ]
 }

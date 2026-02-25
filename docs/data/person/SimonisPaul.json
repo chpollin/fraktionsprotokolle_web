@@ -1,29 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SimonisPaul",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SimonisPaul",
   "name": "Paul Simonis",
   "givenName": "Paul",
   "familyName": "Simonis",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1912-04-20",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Merzig"
-  },
-  "deathDate": "1996-12-06",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Merzig"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1962–1967 Landesvorsitzender der Freien Demokratischen Partei/Demokratische Partei Saar (FDP/DPS), 1955–1970 MdL Saarland, 1956–1957 Vorsitzender der DPS-Landtagsfraktion, 1961–1970 Minister für Arbeit und Sozialwesen des Saarlandes"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Paul_Simonis"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Paul Simonis",
@@ -45,9 +29,24 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://de.wikipedia.org/wiki/Paul_Simonis",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Paul_Simonis"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1912-04-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Merzig"
+  },
+  "deathDate": "1996-12-06",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Merzig"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1962–1967 Landesvorsitzender der Freien Demokratischen Partei/Demokratische Partei Saar (FDP/DPS), 1955–1970 MdL Saarland, 1956–1957 Vorsitzender der DPS-Landtagsfraktion, 1961–1970 Minister für Arbeit und Sozialwesen des Saarlandes"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Paul_Simonis"
+  ]
 }

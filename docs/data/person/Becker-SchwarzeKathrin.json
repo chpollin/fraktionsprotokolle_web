@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "Becker-SchwarzeKathrin",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/Becker-SchwarzeKathrin",
   "name": "Kathrin Becker-Schwarze",
   "givenName": "Kathrin",
   "familyName": "Becker-Schwarze",
-  "gender": "https://schema.org/Female",
-  "birthDate": null,
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Juristin, in der 11. Wahlperiode Mitarbeiterin der Grünen-Bundestagsfraktion (Justitiariat), seit 2008 Professorin für Familien- und Jugendrecht sowie Recht der Sozialen Arbeit am Fachbereich Sozialwesen und seit 2014 Vizepräsidentin für Lehre und Studium an der Hochschule Fulda"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/136908802"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Kathrin Becker-Schwarze",
@@ -39,9 +29,14 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/136908802",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/136908802"
+  },
+  "gender": "https://schema.org/Female",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Juristin, in der 11. Wahlperiode Mitarbeiterin der Grünen-Bundestagsfraktion (Justitiariat), seit 2008 Professorin für Familien- und Jugendrecht sowie Recht der Sozialen Arbeit am Fachbereich Sozialwesen und seit 2014 Vizepräsidentin für Lehre und Studium an der Hochschule Fulda"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/136908802"
+  ]
 }

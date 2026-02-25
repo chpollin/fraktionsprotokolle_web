@@ -1,10 +1,58 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RueddelErwin_2009-10-27",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RueddelErwin_2009-10-27",
   "name": "Erwin Rüddel",
   "givenName": "Erwin",
   "familyName": "Rüddel",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Erwin Rüddel",
+    "forename": "Erwin",
+    "surname": "Rüddel",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1955-12-21",
+    "place": "Bonn",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2025-02-03",
+    "place": "Ansbach",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 17,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "2009-10-27",
+      "to": "2013-10-22"
+    },
+    {
+      "period": 18,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "2013-10-22",
+      "to": "2017-10-24"
+    },
+    {
+      "period": 19,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "2017-10-24",
+      "to": ""
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11004139"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1955-12-21",
   "birthPlace": {
@@ -50,54 +98,5 @@
       },
       "startDate": "2017-10-24"
     }
-  ],
-  "sameAs": null,
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Erwin Rüddel",
-    "forename": "Erwin",
-    "surname": "Rüddel",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1955-12-21",
-    "place": "Bonn",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "2025-02-03",
-    "place": "Ansbach",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 17,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "2009-10-27",
-      "to": "2013-10-22"
-    },
-    {
-      "period": 18,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "2013-10-22",
-      "to": "2017-10-24"
-    },
-    {
-      "period": 19,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "2017-10-24",
-      "to": ""
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11004139",
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
-  }
+  ]
 }

@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KerschensteinerAnton",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KerschensteinerAnton",
   "name": "Anton Kerschensteiner",
   "givenName": "Anton",
   "familyName": "Kerschensteiner",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1884",
-  "birthPlace": null,
-  "deathDate": "1972",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1949–1952 Präsident des Landesarbeitsgerichts in München"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/133514900"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Anton Kerschensteiner",
@@ -39,9 +29,16 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/133514900",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/133514900"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1884",
+  "deathDate": "1972",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1949–1952 Präsident des Landesarbeitsgerichts in München"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/133514900"
+  ]
 }

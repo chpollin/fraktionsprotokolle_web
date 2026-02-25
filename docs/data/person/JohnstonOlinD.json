@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "JohnstonOlinD",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/JohnstonOlinD",
   "name": "Olin D. Johnston",
   "givenName": "Olin DeWitt Talmadge",
   "familyName": "Johnston",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1896-11-18",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Honea Path, South Carolina"
-  },
-  "deathDate": "1965-04-18",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Columbia, South Carolina"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1945–1965 Senator des amerikanischen Bundesstaates South Carolina"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1183014724",
-    "https://de.wikipedia.org/wiki/Olin_D._Johnston"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Olin D. Johnston",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1183014724",
-    "wikipedia": "https://de.wikipedia.org/wiki/Olin_D._Johnston",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Olin_D._Johnston"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1896-11-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Honea Path, South Carolina"
+  },
+  "deathDate": "1965-04-18",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Columbia, South Carolina"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1945–1965 Senator des amerikanischen Bundesstaates South Carolina"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1183014724",
+    "https://de.wikipedia.org/wiki/Olin_D._Johnston"
+  ]
 }

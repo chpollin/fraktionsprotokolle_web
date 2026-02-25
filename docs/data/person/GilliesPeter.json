@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GilliesPeter",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GilliesPeter",
   "name": "Peter Gillies",
   "givenName": "Peter",
   "familyName": "Gillies",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1939-05-29",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Journalist, Bonner Korrespondent der Tageszeitung »Die Welt«, 1981–1985 stellvertretender Chefredakteur, 1985–1989 und 1992–1992 Chefredakteur"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/120442426",
-    "https://de.wikipedia.org/wiki/Peter_Gillies"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Peter Gillies",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/120442426",
-    "wikipedia": "https://de.wikipedia.org/wiki/Peter_Gillies",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Peter_Gillies"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1939-05-29",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist, Bonner Korrespondent der Tageszeitung »Die Welt«, 1981–1985 stellvertretender Chefredakteur, 1985–1989 und 1992–1992 Chefredakteur"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/120442426",
+    "https://de.wikipedia.org/wiki/Peter_Gillies"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FraserJohnMalcolm",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FraserJohnMalcolm",
   "name": "John Malcolm Fraser",
   "givenName": "John Malcolm",
   "familyName": "Fraser",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1930-05-21",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Melbourne, Victoria"
-  },
-  "deathDate": "2015-03-20",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Melbourne, Victoria"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1975–1983 australischer Premierminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118954938",
-    "https://de.wikipedia.org/wiki/Malcolm_Fraser"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "John Malcolm Fraser",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118954938",
-    "wikipedia": "https://de.wikipedia.org/wiki/Malcolm_Fraser",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Malcolm_Fraser"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1930-05-21",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Melbourne, Victoria"
+  },
+  "deathDate": "2015-03-20",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Melbourne, Victoria"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1975–1983 australischer Premierminister"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118954938",
+    "https://de.wikipedia.org/wiki/Malcolm_Fraser"
+  ]
 }

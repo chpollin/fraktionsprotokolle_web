@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BestWerner",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BestWerner",
   "name": "Werner Best",
   "givenName": "Werner",
   "familyName": "Best",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1927-06-07",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Waldgirmes"
-  },
-  "deathDate": "1993-01-10",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Waldgirmes"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1958–1978 MdL Hessen (SPD), 1969–1970 Vorsitzender der SPD-Landtagsfraktion, 1970–1973 Landwirtschaftsminister von Hessen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1102942995",
-    "https://de.wikipedia.org/wiki/Werner_Best_(Politiker,_1927)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Werner Best",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1102942995",
-    "wikipedia": "https://de.wikipedia.org/wiki/Werner_Best_(Politiker,_1927)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Werner_Best_(Politiker,_1927)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1927-06-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Waldgirmes"
+  },
+  "deathDate": "1993-01-10",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Waldgirmes"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1958–1978 MdL Hessen (SPD), 1969–1970 Vorsitzender der SPD-Landtagsfraktion, 1970–1973 Landwirtschaftsminister von Hessen"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1102942995",
+    "https://de.wikipedia.org/wiki/Werner_Best_(Politiker,_1927)"
+  ]
 }

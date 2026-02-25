@@ -1,29 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "IronsiJohnsonTUAguiyi",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/IronsiJohnsonTUAguiyi",
   "name": "Johnson T. U. Aguiyi Ironsi",
   "givenName": "Johnson T. U. Aguiyi",
   "familyName": "Ironsi",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1924-03-03",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Umuahia"
-  },
-  "deathDate": "1966-07-29",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Ibadan"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "nigerianischer General, Jan.–Juli 1966 Präsident"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Johnson_Aguiyi-Ironsi"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Johnson T. U. Aguiyi Ironsi",
@@ -45,9 +29,24 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://de.wikipedia.org/wiki/Johnson_Aguiyi-Ironsi",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Johnson_Aguiyi-Ironsi"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1924-03-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Umuahia"
+  },
+  "deathDate": "1966-07-29",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Ibadan"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "nigerianischer General, Jan.–Juli 1966 Präsident"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Johnson_Aguiyi-Ironsi"
+  ]
 }

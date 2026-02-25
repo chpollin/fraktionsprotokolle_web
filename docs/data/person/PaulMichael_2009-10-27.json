@@ -1,35 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PaulMichael_2009-10-27",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PaulMichael_2009-10-27",
   "name": "Michael Paul",
   "givenName": "Michael",
   "familyName": "Paul",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1964-02-10",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Jugenheim"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Angestellter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "2009-10-27",
-      "endDate": "2013-10-22"
-    }
-  ],
-  "sameAs": null,
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Michael Paul",
@@ -59,9 +37,28 @@
     }
   ],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11004126",
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
-  }
+    "mdb_stammdaten": "11004126"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1964-02-10",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Jugenheim"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Angestellter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "2009-10-27",
+      "endDate": "2013-10-22"
+    }
+  ]
 }

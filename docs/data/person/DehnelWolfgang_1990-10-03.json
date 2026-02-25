@@ -1,68 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DehnelWolfgang_1990-10-03",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DehnelWolfgang_1990-10-03",
   "name": "Wolfgang Dehnel",
   "givenName": "Wolfgang",
   "familyName": "Dehnel",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1945-02-11",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Schwarzenberg/Erzgebirge, Bezirk Chemnitz"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Dipl.-Ingenieur (FH) für Maschinenbau Werkzeugmacher [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1990-10-03",
-      "endDate": "1990-12-20"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1990-12-20",
-      "endDate": "1994-11-10"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1994-11-10",
-      "endDate": "1998-10-26"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1998-10-26",
-      "endDate": "2002-10-17"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1187295728",
-    "https://de.wikipedia.org/wiki/Wolfgang_Dehnel"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Wolfgang Dehnel",
@@ -115,7 +60,62 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000366",
     "gnd": "https://d-nb.info/gnd/1187295728",
-    "wikipedia": "https://de.wikipedia.org/wiki/Wolfgang_Dehnel",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Wolfgang_Dehnel"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1945-02-11",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Schwarzenberg/Erzgebirge, Bezirk Chemnitz"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Ingenieur (FH) für Maschinenbau Werkzeugmacher [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1990-10-03",
+      "endDate": "1990-12-20"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-10-26"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1998-10-26",
+      "endDate": "2002-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1187295728",
+    "https://de.wikipedia.org/wiki/Wolfgang_Dehnel"
+  ]
 }

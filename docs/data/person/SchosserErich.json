@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchosserErich",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchosserErich",
   "name": "Erich Schosser",
   "givenName": "Erich",
   "familyName": "Schosser",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1924-09-07",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "deathDate": "2013-09-27",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1966–1994 MdL Bayern (CSU), 1973–2003 Vorsitzender des bayerischen Landesdenkmalrats"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/120936895",
-    "https://de.wikipedia.org/wiki/Erich_Schosser"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Erich Schosser",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/120936895",
-    "wikipedia": "https://de.wikipedia.org/wiki/Erich_Schosser",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Erich_Schosser"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1924-09-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "deathDate": "2013-09-27",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1966–1994 MdL Bayern (CSU), 1973–2003 Vorsitzender des bayerischen Landesdenkmalrats"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/120936895",
+    "https://de.wikipedia.org/wiki/Erich_Schosser"
+  ]
 }

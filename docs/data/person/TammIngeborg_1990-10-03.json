@@ -1,45 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "TammIngeborg_1990-10-03",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/TammIngeborg_1990-10-03",
   "name": "Ingeborg Tamm",
   "givenName": "Ingeborg",
   "familyName": "Tamm",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1939-01-17",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Hagenow/Meckenburg"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Oberin, Pflegedienstleitung des Kreiskrankenhauses Hagenow [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1990-10-03",
-      "endDate": "1990-12-20"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1990-10-03",
-      "endDate": "1990-12-20"
-    }
-  ],
-  "sameAs": null,
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Ingeborg Tamm",
@@ -76,9 +44,38 @@
     }
   ],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11002298",
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
-  }
+    "mdb_stammdaten": "11002298"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1939-01-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hagenow/Meckenburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Oberin, Pflegedienstleitung des Kreiskrankenhauses Hagenow [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1990-10-03",
+      "endDate": "1990-12-20"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1990-10-03",
+      "endDate": "1990-12-20"
+    }
+  ]
 }

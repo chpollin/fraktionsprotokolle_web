@@ -1,21 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GatIsrael",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GatIsrael",
   "name": "Israel Gat",
   "givenName": "Israel",
   "familyName": "Gat",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1936",
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Politiker und Diplomat, 1972–2003 internationaler Sekretär der Awoda (davon 1972–1974 in London)"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Israel Gat",
@@ -36,10 +28,11 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Male",
+  "birthDate": "1936",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Politiker und Diplomat, 1972–2003 internationaler Sekretär der Awoda (davon 1972–1974 in London)"
   }
 }

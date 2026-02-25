@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DonkerLeendert",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DonkerLeendert",
   "name": "Leendert Donker",
   "givenName": "Leendert Antonie",
   "familyName": "Donker",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1899-09-07",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Almkerk"
-  },
-  "deathDate": "1956-02-04",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Rotterdam"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "niederländischer Politiker, 1952–1956 Justizminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://nl.wikipedia.org/wiki/Leendert_Antonie_Donker",
-    "https://viaf.org/viaf/290169102/"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Leendert Donker",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
     "wikipedia": "https://nl.wikipedia.org/wiki/Leendert_Antonie_Donker",
     "viaf": "https://viaf.org/viaf/290169102/"
-  }
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1899-09-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Almkerk"
+  },
+  "deathDate": "1956-02-04",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Rotterdam"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "niederländischer Politiker, 1952–1956 Justizminister"
+  },
+  "sameAs": [
+    "https://nl.wikipedia.org/wiki/Leendert_Antonie_Donker",
+    "https://viaf.org/viaf/290169102/"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SeydouxFornierdeClausonneRoger",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SeydouxFornierdeClausonneRoger",
   "name": "Roger Seydoux Fornier de Clausonne",
   "givenName": "Roger",
   "familyName": "Seydoux Fornier de Clausonne",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1908-03-28",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Paris"
-  },
-  "deathDate": "1985-07-03",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Paris"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "französischer Diplomat, 1956 in Tunesien, 1960–1962 in Marokko, 1962–1967 Repräsentant bei den Vereinten Nationen, 1967–1968 bei der NATO in Brüssel, 1968–1972 Botschafter in der Sowjetunion, Moskau"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1216145830",
-    "https://en.wikipedia.org/wiki/Roger_Seydoux"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Roger Seydoux Fornier de Clausonne",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1216145830",
-    "wikipedia": "https://en.wikipedia.org/wiki/Roger_Seydoux",
-    "viaf": null
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/Roger_Seydoux"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1908-03-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "deathDate": "1985-07-03",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "französischer Diplomat, 1956 in Tunesien, 1960–1962 in Marokko, 1962–1967 Repräsentant bei den Vereinten Nationen, 1967–1968 bei der NATO in Brüssel, 1968–1972 Botschafter in der Sowjetunion, Moskau"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1216145830",
+    "https://en.wikipedia.org/wiki/Roger_Seydoux"
+  ]
 }

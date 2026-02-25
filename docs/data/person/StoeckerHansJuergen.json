@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "StoeckerHansJuergen",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/StoeckerHansJuergen",
   "name": "Hans Jürgen Stöcker",
   "givenName": "Hans Jürgen",
   "familyName": "Stöcker",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1928-11-11",
-  "birthPlace": null,
-  "deathDate": "2004-11-12",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Hamburg"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1954–1964 Leiter der Geschäftstelle Bonn des Verbandes Deutscher Reeder, 1962 stv. Geschäftsführer des Verbandes"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1207157082",
-    "https://de.wikipedia.org/wiki/Hans_J%C3%BCrgen_St%C3%B6cker"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hans Jürgen Stöcker",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1207157082",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hans_J%C3%BCrgen_St%C3%B6cker",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_J%C3%BCrgen_St%C3%B6cker"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1928-11-11",
+  "deathDate": "2004-11-12",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1954–1964 Leiter der Geschäftstelle Bonn des Verbandes Deutscher Reeder, 1962 stv. Geschäftsführer des Verbandes"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1207157082",
+    "https://de.wikipedia.org/wiki/Hans_J%C3%BCrgen_St%C3%B6cker"
+  ]
 }

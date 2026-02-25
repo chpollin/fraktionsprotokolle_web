@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchachtHjalmar",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchachtHjalmar",
   "name": "Hjalmar Schacht",
   "givenName": "Hjalmar",
   "familyName": "Schacht",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1877-01-22",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Tingleff, Nordschleswig"
-  },
-  "deathDate": "1970-06-03",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1923–1930, 1933–1939 Reichsbankpräsident, 1934–1937 Reichswirtschaftsminister (DDP, seit 1926 parteilos, seit 1937 NSDAP)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118606026",
-    "https://de.wikipedia.org/wiki/Hjalmar_Schacht"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hjalmar Schacht",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118606026",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hjalmar_Schacht",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hjalmar_Schacht"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1877-01-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Tingleff, Nordschleswig"
+  },
+  "deathDate": "1970-06-03",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1923–1930, 1933–1939 Reichsbankpräsident, 1934–1937 Reichswirtschaftsminister (DDP, seit 1926 parteilos, seit 1937 NSDAP)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118606026",
+    "https://de.wikipedia.org/wiki/Hjalmar_Schacht"
+  ]
 }

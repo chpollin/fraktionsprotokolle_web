@@ -1,10 +1,60 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KoenigswarterWilhelm_1952-02-01",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KoenigswarterWilhelm_1952-02-01",
   "name": "Wilhelm Königswarter",
   "givenName": "Wilhelm",
   "familyName": "Königswarter",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Wilhelm Königswarter",
+    "forename": "Wilhelm",
+    "surname": "Königswarter",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1890-08-30",
+    "place": "Hannover",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1966-12-12",
+    "place": "West-Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1952-02-01",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 2,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 3,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001158",
+    "gnd": "https://d-nb.info/gnd/1125919574",
+    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_K%C3%B6nigswarter_(Politiker)"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1890-08-30",
   "birthPlace": {
@@ -55,53 +105,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/1125919574",
     "https://de.wikipedia.org/wiki/Wilhelm_K%C3%B6nigswarter_(Politiker)"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Wilhelm Königswarter",
-    "forename": "Wilhelm",
-    "surname": "Königswarter",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1890-08-30",
-    "place": "Hannover",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1966-12-12",
-    "place": "West-Berlin",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 1,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1952-02-01",
-      "to": "1953-09-07"
-    },
-    {
-      "period": 2,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1953-10-06",
-      "to": "1957-10-06"
-    },
-    {
-      "period": 3,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1957-10-15",
-      "to": "1961-10-15"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11001158",
-    "gnd": "https://d-nb.info/gnd/1125919574",
-    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_K%C3%B6nigswarter_(Politiker)",
-    "viaf": null
-  }
+  ]
 }

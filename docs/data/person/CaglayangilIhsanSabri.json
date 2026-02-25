@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "CaglayangilIhsanSabri",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/CaglayangilIhsanSabri",
   "name": "Ihsan Sabri Çaglayangil",
   "givenName": "Ihsan Sabri",
   "familyName": "Çaglayangil",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1908",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Istanbul"
-  },
-  "deathDate": "1993-12-30",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Ankara"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1965–1971, 1975–1977, 1977/78 türkischer Außenminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118969870",
-    "https://de.wikipedia.org/wiki/%C4%B0hsan_Sabri_%C3%87a%C4%9Flayangil"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Ihsan Sabri Çaglayangil",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118969870",
-    "wikipedia": "https://de.wikipedia.org/wiki/%C4%B0hsan_Sabri_%C3%87a%C4%9Flayangil",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/%C4%B0hsan_Sabri_%C3%87a%C4%9Flayangil"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1908",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Istanbul"
+  },
+  "deathDate": "1993-12-30",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Ankara"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1965–1971, 1975–1977, 1977/78 türkischer Außenminister"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118969870",
+    "https://de.wikipedia.org/wiki/%C4%B0hsan_Sabri_%C3%87a%C4%9Flayangil"
+  ]
 }

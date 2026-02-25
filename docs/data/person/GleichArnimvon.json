@@ -1,28 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GleichArnimvon",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GleichArnimvon",
   "name": "Arnim von Gleich",
   "givenName": "Arnim",
   "familyName": "Gleich",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1949-09-18",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Ellwangen (Jagst)"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Biologe und Politologe, 1983–1985 Mitarbeiter der Grünen-Bundestagsfraktion, 1994–2002 Professor für Technikbewertung an der FH Hamburg, 2003–2016 Professor am artec Zentrum für Nachhaltigkeitsforschung der Universität Bremen, Mitbegründer und langjähriger wissenschaftlicher Mitarbeiter des Instituts für ökologische Wirtschaftsforschung (IÖW)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/115644148",
-    "https://de.wikipedia.org/wiki/Arnim_von_Gleich",
-    "http://viaf.org/viaf/93986841"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Arnim von Gleich",
@@ -44,9 +29,23 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/115644148",
     "wikipedia": "https://de.wikipedia.org/wiki/Arnim_von_Gleich",
     "viaf": "http://viaf.org/viaf/93986841"
-  }
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1949-09-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Ellwangen (Jagst)"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Biologe und Politologe, 1983–1985 Mitarbeiter der Grünen-Bundestagsfraktion, 1994–2002 Professor für Technikbewertung an der FH Hamburg, 2003–2016 Professor am artec Zentrum für Nachhaltigkeitsforschung der Universität Bremen, Mitbegründer und langjähriger wissenschaftlicher Mitarbeiter des Instituts für ökologische Wirtschaftsforschung (IÖW)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/115644148",
+    "https://de.wikipedia.org/wiki/Arnim_von_Gleich",
+    "http://viaf.org/viaf/93986841"
+  ]
 }

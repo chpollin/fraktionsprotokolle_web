@@ -1,24 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GoyAlexandra",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GoyAlexandra",
   "name": "Alexandra Goy",
   "givenName": "Alexandra",
   "familyName": "Goy",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1944",
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Rechtsanwältin und Feministin; 1976 Mitbegründerin des ersten Frauenhauses in Berlin (West)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1061702359",
-    "https://de.wikipedia.org/wiki/Alexandra_Goy"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Alexandra Goy",
@@ -40,9 +29,17 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1061702359",
-    "wikipedia": "https://de.wikipedia.org/wiki/Alexandra_Goy",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Alexandra_Goy"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1944",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsanwältin und Feministin; 1976 Mitbegründerin des ersten Frauenhauses in Berlin (West)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1061702359",
+    "https://de.wikipedia.org/wiki/Alexandra_Goy"
+  ]
 }

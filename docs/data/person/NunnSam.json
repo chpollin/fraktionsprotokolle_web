@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "NunnSam",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/NunnSam",
   "name": "Sam Nunn",
   "givenName": "Samuel Augustus jr.",
   "familyName": "Nunn",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1938-09-08",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Macon, Georgia"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1972–1997 Senator des US-Bundesstaates Georgia (Demokratische Partei)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1089596049",
-    "https://de.wikipedia.org/wiki/Sam_Nunn"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Sam Nunn",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1089596049",
-    "wikipedia": "https://de.wikipedia.org/wiki/Sam_Nunn",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Sam_Nunn"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1938-09-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Macon, Georgia"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1972–1997 Senator des US-Bundesstaates Georgia (Demokratische Partei)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1089596049",
+    "https://de.wikipedia.org/wiki/Sam_Nunn"
+  ]
 }

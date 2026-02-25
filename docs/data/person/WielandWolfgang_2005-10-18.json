@@ -1,48 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WielandWolfgang_2005-10-18",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WielandWolfgang_2005-10-18",
   "name": "Wolfgang Wieland",
   "givenName": "Wolfgang",
   "familyName": "Wieland",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1948-03-09",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "deathDate": "2023-12-05",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Rechtsanwalt, Senator a. D., Bürgermeister a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion Bündnis 90/Die Grünen",
-        "alternateName": "B90/Grüne"
-      },
-      "startDate": "2005-10-18",
-      "endDate": "2009-10-27"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion Bündnis 90/Die Grünen",
-        "alternateName": "B90/Grüne"
-      },
-      "startDate": "2009-10-27",
-      "endDate": "2013-10-22"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1118099818",
-    "https://de.wikipedia.org/wiki/Wolfgang_Wieland"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Wolfgang Wieland",
@@ -81,7 +46,43 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11003863",
     "gnd": "https://d-nb.info/gnd/1118099818",
-    "wikipedia": "https://de.wikipedia.org/wiki/Wolfgang_Wieland",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Wolfgang_Wieland"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1948-03-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "2023-12-05",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsanwalt, Senator a. D., Bürgermeister a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Bündnis 90/Die Grünen",
+        "alternateName": "B90/Grüne"
+      },
+      "startDate": "2005-10-18",
+      "endDate": "2009-10-27"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Bündnis 90/Die Grünen",
+        "alternateName": "B90/Grüne"
+      },
+      "startDate": "2009-10-27",
+      "endDate": "2013-10-22"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1118099818",
+    "https://de.wikipedia.org/wiki/Wolfgang_Wieland"
+  ]
 }

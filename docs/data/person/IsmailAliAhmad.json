@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "IsmailAliAhmad",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/IsmailAliAhmad",
   "name": "Ahmad Ismail Ali",
   "givenName": "Ahmad",
   "familyName": "Ismail Ali",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1917-10-14",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Kairo"
-  },
-  "deathDate": "1974-12-25",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "London"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "ägyptischer Feldmarschall, 1972–1974 ägyptischer Verteidigungsminister, Oberbefehlshaber im Jom-Kippur-Krieg 1973"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://en.wikipedia.org/wiki/Ahmad_Ismail_Ali",
-    "http://viaf.org/viaf/60947672"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Ahmad Ismail Ali",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
     "wikipedia": "https://en.wikipedia.org/wiki/Ahmad_Ismail_Ali",
     "viaf": "http://viaf.org/viaf/60947672"
-  }
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1917-10-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kairo"
+  },
+  "deathDate": "1974-12-25",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "London"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "ägyptischer Feldmarschall, 1972–1974 ägyptischer Verteidigungsminister, Oberbefehlshaber im Jom-Kippur-Krieg 1973"
+  },
+  "sameAs": [
+    "https://en.wikipedia.org/wiki/Ahmad_Ismail_Ali",
+    "http://viaf.org/viaf/60947672"
+  ]
 }

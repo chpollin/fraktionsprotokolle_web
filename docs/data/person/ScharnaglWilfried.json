@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ScharnaglWilfried",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ScharnaglWilfried",
   "name": "Wilfried Scharnagl",
   "givenName": "Wilfried",
   "familyName": "Scharnagl",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1938-10-26",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Hinterkotten, Landkreis Tachau, Sudetenland (heute: Zadní Chodov, Tschechische Republik)"
-  },
-  "deathDate": "2018-10-16",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Freising"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Journalist, Buchautor und Politiker der CSU, ab 1964 Mitarbeiter der CSU-Landesleitung und der CSU-Parteizeitung, Chefredakteur des »Bayern-Kurier«"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/117109584",
-    "https://de.wikipedia.org/wiki/Wilfried_Scharnagl"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Wilfried Scharnagl",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/117109584",
-    "wikipedia": "https://de.wikipedia.org/wiki/Wilfried_Scharnagl",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Wilfried_Scharnagl"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1938-10-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hinterkotten, Landkreis Tachau, Sudetenland (heute: Zadní Chodov, Tschechische Republik)"
+  },
+  "deathDate": "2018-10-16",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Freising"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist, Buchautor und Politiker der CSU, ab 1964 Mitarbeiter der CSU-Landesleitung und der CSU-Parteizeitung, Chefredakteur des »Bayern-Kurier«"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/117109584",
+    "https://de.wikipedia.org/wiki/Wilfried_Scharnagl"
+  ]
 }

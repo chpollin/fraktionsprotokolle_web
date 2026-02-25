@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RodriguezErdoizaManuel",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RodriguezErdoizaManuel",
   "name": "Manuel Rodríguez Erdoíza",
   "givenName": "Manuel Javier",
   "familyName": "Rodríguez Erdoíza",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1785-02-24",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Santiago de Chile"
-  },
-  "deathDate": "1818-05-26",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Tiltil"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "chilenischer Rechtsanwalt, Militär, Revolutionär und Politiker"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1020929065",
-    "https://de.wikipedia.org/wiki/Manuel_Rodr%C3%ADguez_Erdo%C3%ADza"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Manuel Rodríguez Erdoíza",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1020929065",
-    "wikipedia": "https://de.wikipedia.org/wiki/Manuel_Rodr%C3%ADguez_Erdo%C3%ADza",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Manuel_Rodr%C3%ADguez_Erdo%C3%ADza"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1785-02-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Santiago de Chile"
+  },
+  "deathDate": "1818-05-26",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Tiltil"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "chilenischer Rechtsanwalt, Militär, Revolutionär und Politiker"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1020929065",
+    "https://de.wikipedia.org/wiki/Manuel_Rodr%C3%ADguez_Erdo%C3%ADza"
+  ]
 }

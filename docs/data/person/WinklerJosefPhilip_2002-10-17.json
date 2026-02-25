@@ -1,55 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WinklerJosefPhilip_2002-10-17",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WinklerJosefPhilip_2002-10-17",
   "name": "Josef Philip Winkler",
   "givenName": "Josef Philip",
   "familyName": "Winkler",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1974-04-05",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Koblenz"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Krankenpfleger [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion Bündnis 90/Die Grünen",
-        "alternateName": "B90/Grüne"
-      },
-      "startDate": "2002-10-17",
-      "endDate": "2005-10-18"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion Bündnis 90/Die Grünen",
-        "alternateName": "B90/Grüne"
-      },
-      "startDate": "2005-10-18",
-      "endDate": "2009-10-27"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion Bündnis 90/Die Grünen",
-        "alternateName": "B90/Grüne"
-      },
-      "startDate": "2009-10-27",
-      "endDate": "2013-10-22"
-    }
-  ],
-  "sameAs": null,
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Josef Philip Winkler",
@@ -93,9 +51,48 @@
     }
   ],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11003660",
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
-  }
+    "mdb_stammdaten": "11003660"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1974-04-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Koblenz"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Krankenpfleger [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Bündnis 90/Die Grünen",
+        "alternateName": "B90/Grüne"
+      },
+      "startDate": "2002-10-17",
+      "endDate": "2005-10-18"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Bündnis 90/Die Grünen",
+        "alternateName": "B90/Grüne"
+      },
+      "startDate": "2005-10-18",
+      "endDate": "2009-10-27"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Bündnis 90/Die Grünen",
+        "alternateName": "B90/Grüne"
+      },
+      "startDate": "2009-10-27",
+      "endDate": "2013-10-22"
+    }
+  ]
 }

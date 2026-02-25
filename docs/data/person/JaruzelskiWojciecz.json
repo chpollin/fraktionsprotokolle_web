@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "JaruzelskiWojciecz",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/JaruzelskiWojciecz",
   "name": "Wojciecz Jaruzelski",
   "givenName": "Wojciecz",
   "familyName": "Jaruzelski",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1923-07-06",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Kurow bei Lublin"
-  },
-  "deathDate": "2014-05-25",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Warschau"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "seit 1968 Verteidigungsminister der Volksrepublik Polen, 1981–1989 Vorsitzender der Polnischen Vereinigten Arbeiterpartei, 1981–1985 Ministerpräsident, 1985–1989 Staatsratsvorsitzender, 1989–1990 Staatspräsident"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118938398",
-    "https://de.wikipedia.org/wiki/Wojciech_Jaruzelski#In_der_Volksrepublik_Polen"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Wojciecz Jaruzelski",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118938398",
-    "wikipedia": "https://de.wikipedia.org/wiki/Wojciech_Jaruzelski#In_der_Volksrepublik_Polen",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Wojciech_Jaruzelski#In_der_Volksrepublik_Polen"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1923-07-06",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kurow bei Lublin"
+  },
+  "deathDate": "2014-05-25",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Warschau"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "seit 1968 Verteidigungsminister der Volksrepublik Polen, 1981–1989 Vorsitzender der Polnischen Vereinigten Arbeiterpartei, 1981–1985 Ministerpräsident, 1985–1989 Staatsratsvorsitzender, 1989–1990 Staatspräsident"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118938398",
+    "https://de.wikipedia.org/wiki/Wojciech_Jaruzelski#In_der_Volksrepublik_Polen"
+  ]
 }

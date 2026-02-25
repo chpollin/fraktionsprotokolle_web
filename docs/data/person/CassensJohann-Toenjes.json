@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "CassensJohann-Toenjes",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/CassensJohann-Toenjes",
   "name": "Johann-Tönjes Cassens",
   "givenName": "Johann-Tönjes",
   "familyName": "Cassens",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1932-10-30",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Aurich-Oldendorf"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "deutscher Jurist und Politiker (CDU), 1963 bis 1981 Mitglied der Bremischen Bürgerschaft, 1981–1990 Minister für Wissenschaft und Kunst im Land Niedersachsen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/105874833",
-    "https://de.wikipedia.org/wiki/Johann-T%C3%B6njes_Cassens"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Johann-Tönjes Cassens",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/105874833",
-    "wikipedia": "https://de.wikipedia.org/wiki/Johann-T%C3%B6njes_Cassens",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Johann-T%C3%B6njes_Cassens"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1932-10-30",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Aurich-Oldendorf"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Jurist und Politiker (CDU), 1963 bis 1981 Mitglied der Bremischen Bürgerschaft, 1981–1990 Minister für Wissenschaft und Kunst im Land Niedersachsen"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/105874833",
+    "https://de.wikipedia.org/wiki/Johann-T%C3%B6njes_Cassens"
+  ]
 }

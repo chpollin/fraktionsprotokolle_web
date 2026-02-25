@@ -1,26 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RochauLothar",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RochauLothar",
   "name": "Lothar Rochau",
   "givenName": "Lothar",
   "familyName": "Rochau",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1952-09-02",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Weißensee/Thüringen"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Werkzeugmacher, Theologe, in den 1970er Jahren Jugenddiakon, DDR-Oppositioneller, 1984-1989 Tätigkeit bei der evangelischen Kirche in Darmstadt und als Honorarreferenz beim Gesamtdeutschen Institut, 1990-2008 Leiter des Jugendamtes der Stadt Halle/Saale, seit 2007 Tätigkeit im Wirtschaftsdezernat der Stadt Halle/Saale"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119354977"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Lothar Rochau",
@@ -42,10 +29,20 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/119354977",
-    "wikipedia": null,
-    "viaf": null
+    "gnd": "https://d-nb.info/gnd/119354977"
   },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1952-09-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Weißensee/Thüringen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Werkzeugmacher, Theologe, in den 1970er Jahren Jugenddiakon, DDR-Oppositioneller, 1984-1989 Tätigkeit bei der evangelischen Kirche in Darmstadt und als Honorarreferenz beim Gesamtdeutschen Institut, 1990-2008 Leiter des Jugendamtes der Stadt Halle/Saale, seit 2007 Tätigkeit im Wirtschaftsdezernat der Stadt Halle/Saale"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119354977"
+  ],
   "fraktionsprotokolle:sonstiges": "1983 wegen »staatsfeindlicher Hetze« zu mehrjähriger Haftstrafe verurteilt und aus der DDR ausgebürgert"
 }

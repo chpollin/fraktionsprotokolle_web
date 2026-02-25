@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DelcasseTheophil",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DelcasseTheophil",
   "name": "Théophil Delcassé",
   "givenName": "Théophil",
   "familyName": "Delcassé",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1852-03-01",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Pamiers, Département Ariège"
-  },
-  "deathDate": "1923-02-22",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Nizza"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1898–1905 und 1914/15 französischer Außenminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118671332",
-    "https://de.wikipedia.org/wiki/Th%C3%A9ophile_Delcass%C3%A9"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Théophil Delcassé",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118671332",
-    "wikipedia": "https://de.wikipedia.org/wiki/Th%C3%A9ophile_Delcass%C3%A9",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Th%C3%A9ophile_Delcass%C3%A9"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1852-03-01",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Pamiers, Département Ariège"
+  },
+  "deathDate": "1923-02-22",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Nizza"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1898–1905 und 1914/15 französischer Außenminister"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118671332",
+    "https://de.wikipedia.org/wiki/Th%C3%A9ophile_Delcass%C3%A9"
+  ]
 }

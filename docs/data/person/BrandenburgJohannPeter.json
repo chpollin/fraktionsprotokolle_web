@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BrandenburgJohannPeter",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BrandenburgJohannPeter",
   "name": "Johann Peter Brandenburg",
   "givenName": "Johann Peter",
   "familyName": "Brandenburg",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1905-03-25",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Kronenburg"
-  },
-  "deathDate": "1977-03-03",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Pforzheim"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1946–1952 MdL Württemberg-Baden (FDP/DVP), 1952–1956 und 1960–1976 MdL Baden-Württemberg, 1960–1968 Vizepräsident des Landtages"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/117757748",
-    "https://de.wikipedia.org/wiki/Johann_Peter_Brandenburg"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Johann Peter Brandenburg",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/117757748",
-    "wikipedia": "https://de.wikipedia.org/wiki/Johann_Peter_Brandenburg",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Johann_Peter_Brandenburg"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1905-03-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kronenburg"
+  },
+  "deathDate": "1977-03-03",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Pforzheim"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1946–1952 MdL Württemberg-Baden (FDP/DVP), 1952–1956 und 1960–1976 MdL Baden-Württemberg, 1960–1968 Vizepräsident des Landtages"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/117757748",
+    "https://de.wikipedia.org/wiki/Johann_Peter_Brandenburg"
+  ]
 }

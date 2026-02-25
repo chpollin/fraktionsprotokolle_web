@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchmollerGustavvon",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchmollerGustavvon",
   "name": "Gustav von Schmoller",
   "givenName": "Gustav",
   "familyName": "Schmoller",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1907-02-07",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Deutsch-Wilmersdorf bei Berlin"
-  },
-  "deathDate": "1991-02-11",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Vortragender Legationsrat I. Klasse im Auswärtigen Amt"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/123562473",
-    "https://de.wikipedia.org/wiki/Gustav_von_Schmoller_(Diplomat)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Gustav von Schmoller",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/123562473",
-    "wikipedia": "https://de.wikipedia.org/wiki/Gustav_von_Schmoller_(Diplomat)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Gustav_von_Schmoller_(Diplomat)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1907-02-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Deutsch-Wilmersdorf bei Berlin"
+  },
+  "deathDate": "1991-02-11",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Vortragender Legationsrat I. Klasse im Auswärtigen Amt"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/123562473",
+    "https://de.wikipedia.org/wiki/Gustav_von_Schmoller_(Diplomat)"
+  ]
 }

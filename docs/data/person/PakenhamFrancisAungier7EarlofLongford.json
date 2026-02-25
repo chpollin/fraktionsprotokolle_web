@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PakenhamFrancisAungier7EarlofLongford",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PakenhamFrancisAungier7EarlofLongford",
   "name": "Frank Pakenham, 7. Earl of Longford",
   "givenName": "Francis Aungier (Frank)",
   "familyName": "Pakenham",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1905-12-05",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "London"
-  },
-  "deathDate": "2001-08-03",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "London"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Mitglied des britischen Oberhauses und Labour-Politiker, 1947–1948 Leiter des Kontrollamtes für Deutschland und Österreich, 1948–1950 Minister für Zivilluftfahrt"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119471906",
-    "https://de.wikipedia.org/wiki/Frank_Pakenham,_7._Earl_of_Longford"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Frank Pakenham, 7. Earl of Longford",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119471906",
-    "wikipedia": "https://de.wikipedia.org/wiki/Frank_Pakenham,_7._Earl_of_Longford",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Frank_Pakenham,_7._Earl_of_Longford"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1905-12-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "London"
+  },
+  "deathDate": "2001-08-03",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "London"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Mitglied des britischen Oberhauses und Labour-Politiker, 1947–1948 Leiter des Kontrollamtes für Deutschland und Österreich, 1948–1950 Minister für Zivilluftfahrt"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119471906",
+    "https://de.wikipedia.org/wiki/Frank_Pakenham,_7._Earl_of_Longford"
+  ]
 }

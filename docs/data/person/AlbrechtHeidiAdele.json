@@ -1,29 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "AlbrechtHeidiAdele",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/AlbrechtHeidiAdele",
   "name": "Heidi Adele Albrecht, geb. Stromeyer",
   "givenName": "Heidi Adele",
   "familyName": "Albrecht",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1927-07-31",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Horn bei Bremen"
-  },
-  "deathDate": "2002-07-06",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Burgdorf-Beinhorn"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Germanistin und Kulturjournalistin, (mindestens) 1953 Theaterkritikerin beim Bonner »General-Anzeiger«"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/104887907"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Heidi Adele Albrecht, geb. Stromeyer",
@@ -45,10 +29,25 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/104887907",
-    "wikipedia": null,
-    "viaf": null
+    "gnd": "https://d-nb.info/gnd/104887907"
   },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1927-07-31",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Horn bei Bremen"
+  },
+  "deathDate": "2002-07-06",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Burgdorf-Beinhorn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Germanistin und Kulturjournalistin, (mindestens) 1953 Theaterkritikerin beim Bonner »General-Anzeiger«"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/104887907"
+  ],
   "fraktionsprotokolle:sonstiges": "Ehefrau des niedersächsischen Ministerpräsidenten Ernst Albrecht"
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HagedornWerner",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HagedornWerner",
   "name": "Werner Hagedorn",
   "givenName": "Werner",
   "familyName": "Hagedorn",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1929-09-01",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Remscheid"
-  },
-  "deathDate": "2019-02-17",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Wuppertal"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "seit 1969 stellvertretender Vorsitzender der Deutschen Steuergewerkschaft, 1979 bis 1987 Vorsitzender der Deutschen Steuer-Gewerkschaft"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/17140291X",
-    "https://de.wikipedia.org/wiki/Werner_Hagedorn_(Gewerkschafter)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Werner Hagedorn",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/17140291X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Werner_Hagedorn_(Gewerkschafter)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Werner_Hagedorn_(Gewerkschafter)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1929-09-01",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Remscheid"
+  },
+  "deathDate": "2019-02-17",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Wuppertal"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "seit 1969 stellvertretender Vorsitzender der Deutschen Steuergewerkschaft, 1979 bis 1987 Vorsitzender der Deutschen Steuer-Gewerkschaft"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/17140291X",
+    "https://de.wikipedia.org/wiki/Werner_Hagedorn_(Gewerkschafter)"
+  ]
 }

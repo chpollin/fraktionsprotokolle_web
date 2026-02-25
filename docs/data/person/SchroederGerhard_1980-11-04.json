@@ -1,18 +1,79 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchroederGerhard_1980-11-04",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchroederGerhard_1980-11-04",
   "name": "Gerhard Schröder",
   "givenName": "Gerhard",
   "familyName": "Schröder",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Gerhard Schröder",
+    "forename": "Gerhard",
+    "surname": "Schröder",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Hannover)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1944-04-07",
+    "place": "Mossenberg/Krs. Detmold",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 9,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1980-11-04",
+      "to": "1983-03-29"
+    },
+    {
+      "period": 10,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1983-03-29",
+      "to": "1986-07-01"
+    },
+    {
+      "period": 14,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1998-10-26",
+      "to": "2002-10-17"
+    },
+    {
+      "period": 15,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "2002-10-17",
+      "to": "2005-10-18"
+    },
+    {
+      "period": 16,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "2005-10-18",
+      "to": "2005-11-23"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002078",
+    "gnd": "https://d-nb.info/gnd/118570528"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1944-04-07",
   "birthPlace": {
     "@type": "Place",
     "name": "Mossenberg/Krs. Detmold"
   },
-  "deathDate": null,
-  "deathPlace": null,
   "hasOccupation": {
     "@type": "Occupation",
     "name": "Bundeskanzler a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
@@ -72,68 +133,6 @@
   "sameAs": [
     "https://d-nb.info/gnd/118570528"
   ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Gerhard Schröder",
-    "forename": "Gerhard",
-    "surname": "Schröder",
-    "prefix": "",
-    "role_name": "",
-    "place": "(Hannover)"
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1944-04-07",
-    "place": "Mossenberg/Krs. Detmold",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": null,
-    "place": "",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 9,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1980-11-04",
-      "to": "1983-03-29"
-    },
-    {
-      "period": 10,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1983-03-29",
-      "to": "1986-07-01"
-    },
-    {
-      "period": 14,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1998-10-26",
-      "to": "2002-10-17"
-    },
-    {
-      "period": 15,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "2002-10-17",
-      "to": "2005-10-18"
-    },
-    {
-      "period": 16,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "2005-10-18",
-      "to": "2005-11-23"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11002078",
-    "gnd": "https://d-nb.info/gnd/118570528",
-    "wikipedia": null,
-    "viaf": null
-  },
   "fraktionsprotokolle:alt_names": [
     {
       "reg": "Gerhard Schröder",

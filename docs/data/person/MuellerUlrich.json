@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MuellerUlrich",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MuellerUlrich",
   "name": "Ulrich Müller",
   "givenName": "Ulrich",
   "familyName": "Müller",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1929-07-29",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Schwedt"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1969 bis 1973 Chef der Senatskanzlei von West-Berlin, 1973 bis 1991 Präsident des Rechnungshofes von Berlin"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1217570098",
-    "https://de.wikipedia.org/wiki/Ulrich_M%C3%BCller_(Verwaltungsjurist)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Ulrich Müller",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1217570098",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ulrich_M%C3%BCller_(Verwaltungsjurist)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ulrich_M%C3%BCller_(Verwaltungsjurist)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1929-07-29",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Schwedt"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1969 bis 1973 Chef der Senatskanzlei von West-Berlin, 1973 bis 1991 Präsident des Rechnungshofes von Berlin"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1217570098",
+    "https://de.wikipedia.org/wiki/Ulrich_M%C3%BCller_(Verwaltungsjurist)"
+  ]
 }

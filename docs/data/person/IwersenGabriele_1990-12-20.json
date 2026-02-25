@@ -1,10 +1,60 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "IwersenGabriele_1990-12-20",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/IwersenGabriele_1990-12-20",
   "name": "Gabriele Iwersen, geb. Grigoleit",
   "givenName": "Gabriele",
   "familyName": "Iwersen",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Gabriele Iwersen, geb. Grigoleit",
+    "forename": "Gabriele",
+    "surname": "Iwersen",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1939-10-25",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2025-12-07",
+    "place": "Oldenburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 12,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1990-12-20",
+      "to": "1994-11-10"
+    },
+    {
+      "period": 13,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1994-11-10",
+      "to": "1998-10-26"
+    },
+    {
+      "period": 14,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1998-10-26",
+      "to": "2002-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000998",
+    "gnd": "https://d-nb.info/gnd/1339591359",
+    "wikipedia": "https://de.wikipedia.org/wiki/Gabriele_Iwersen"
+  },
   "gender": "https://schema.org/Female",
   "birthDate": "1939-10-25",
   "birthPlace": {
@@ -55,53 +105,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/1339591359",
     "https://de.wikipedia.org/wiki/Gabriele_Iwersen"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Gabriele Iwersen, geb. Grigoleit",
-    "forename": "Gabriele",
-    "surname": "Iwersen",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1939-10-25",
-    "place": "Berlin",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "2025-12-07",
-    "place": "Oldenburg",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 12,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1990-12-20",
-      "to": "1994-11-10"
-    },
-    {
-      "period": 13,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1994-11-10",
-      "to": "1998-10-26"
-    },
-    {
-      "period": 14,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1998-10-26",
-      "to": "2002-10-17"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11000998",
-    "gnd": "https://d-nb.info/gnd/1339591359",
-    "wikipedia": "https://de.wikipedia.org/wiki/Gabriele_Iwersen",
-    "viaf": null
-  }
+  ]
 }

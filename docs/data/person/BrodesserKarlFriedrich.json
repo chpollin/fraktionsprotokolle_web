@@ -1,26 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BrodesserKarlFriedrich",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BrodesserKarlFriedrich",
   "name": "Karl Friedrich Brodeßer",
   "givenName": "Karl Friedrich",
   "familyName": "Brodeßer",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1931-02-15",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Essen"
-  },
-  "deathDate": "2006-05-22",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1960–1963 Persönlicher Referent des FDP-Bundestagsfraktions- und Bundesvorsitzenden, 1963–1966 Persönlicher Referent des Bundesministers für gesamtdeutsche Fragen Erich Mende, 1966–1967 beurlaubt zur Dienstleistung bei der FDP-Bundestagsfraktion, 1967–1970 Persönlicher Referent des Innenministers und stellvertretenden Ministerpräsidenten von Nordrhein-Westfalen Willi Weyer, 1970–1974 Leiter der Abteilung III (Innere Angelegenheiten) im Bundeskanzleramt, 1974–1982 Staatssekretär im Innenministerium von Nordrhein-Westfalen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Karl_Friedrich_Brode%C3%9Fer"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Karl Friedrich Brodeßer",
@@ -42,9 +29,20 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://de.wikipedia.org/wiki/Karl_Friedrich_Brode%C3%9Fer",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Karl_Friedrich_Brode%C3%9Fer"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1931-02-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Essen"
+  },
+  "deathDate": "2006-05-22",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1960–1963 Persönlicher Referent des FDP-Bundestagsfraktions- und Bundesvorsitzenden, 1963–1966 Persönlicher Referent des Bundesministers für gesamtdeutsche Fragen Erich Mende, 1966–1967 beurlaubt zur Dienstleistung bei der FDP-Bundestagsfraktion, 1967–1970 Persönlicher Referent des Innenministers und stellvertretenden Ministerpräsidenten von Nordrhein-Westfalen Willi Weyer, 1970–1974 Leiter der Abteilung III (Innere Angelegenheiten) im Bundeskanzleramt, 1974–1982 Staatssekretär im Innenministerium von Nordrhein-Westfalen"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Karl_Friedrich_Brode%C3%9Fer"
+  ]
 }

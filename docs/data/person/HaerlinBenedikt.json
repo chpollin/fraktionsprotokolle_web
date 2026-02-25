@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HaerlinBenedikt",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HaerlinBenedikt",
   "name": "Benedikt »Benny« Härlin",
   "givenName": "Benedikt",
   "familyName": "Härlin",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1957-01-01",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Stuttgart"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Journalist, Freier Autor und Berater (Schwerpunkt Gentechnik), 1984–1990 MdEP (Regenbogenfraktion), seit 2002 Leiter des Berliner Büros der Zukunftsstiftung Landwirtschaft"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/124572391",
-    "https://de.wikipedia.org/wiki/Benedikt_H%C3%A4rlin"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Benedikt »Benny« Härlin",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/124572391",
-    "wikipedia": "https://de.wikipedia.org/wiki/Benedikt_H%C3%A4rlin",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Benedikt_H%C3%A4rlin"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1957-01-01",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Stuttgart"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist, Freier Autor und Berater (Schwerpunkt Gentechnik), 1984–1990 MdEP (Regenbogenfraktion), seit 2002 Leiter des Berliner Büros der Zukunftsstiftung Landwirtschaft"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/124572391",
+    "https://de.wikipedia.org/wiki/Benedikt_H%C3%A4rlin"
+  ]
 }

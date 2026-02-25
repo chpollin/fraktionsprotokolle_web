@@ -1,29 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HakeHans-Joachimvon",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HakeHans-Joachimvon",
   "name": "Hans-Joachim von Hake",
   "givenName": "Hans-Joachim",
   "familyName": "Hake",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1900-09-07",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "deathDate": "1976-01-21",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Diplomat"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/116393750"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hans-Joachim von Hake",
@@ -45,9 +29,24 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/116393750",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/116393750"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1900-09-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "1976-01-21",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Diplomat"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/116393750"
+  ]
 }

@@ -1,69 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "AmrehnFranz_1969-10-20",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/AmrehnFranz_1969-10-20",
   "name": "Franz Amrehn",
   "givenName": "Franz",
   "familyName": "Amrehn",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1912-11-23",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "deathDate": "1981-10-04",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Rechtsanwalt und Notar [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1969-10-20",
-      "endDate": "1972-09-22"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1972-12-13",
-      "endDate": "1976-12-13"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1976-12-14",
-      "endDate": "1980-11-04"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1980-11-04",
-      "endDate": "1981-10-04"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/118648896",
-    "https://de.wikipedia.org/wiki/Franz_Amrehn",
-    "https://viaf.org/viaf/805686/"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Franz Amrehn",
@@ -118,5 +62,63 @@
     "gnd": "https://d-nb.info/gnd/118648896",
     "wikipedia": "https://de.wikipedia.org/wiki/Franz_Amrehn",
     "viaf": "https://viaf.org/viaf/805686/"
-  }
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1912-11-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "1981-10-04",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsanwalt und Notar [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1969-10-20",
+      "endDate": "1972-09-22"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1972-12-13",
+      "endDate": "1976-12-13"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1976-12-14",
+      "endDate": "1980-11-04"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1980-11-04",
+      "endDate": "1981-10-04"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/118648896",
+    "https://de.wikipedia.org/wiki/Franz_Amrehn",
+    "https://viaf.org/viaf/805686/"
+  ]
 }

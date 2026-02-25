@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FockJenoe",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FockJenoe",
   "name": "Jenö Fock",
   "givenName": "Jenö",
   "familyName": "Fock",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1916-05-17",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Budapest"
-  },
-  "deathDate": "2001-05-22",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Budapest"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1967–1975 Ministerpräsident der Volksrepublik Ungarn"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Jen%C5%91_Fock",
-    "https://viaf.org/viaf/121447909/"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Jenö Fock",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
     "wikipedia": "https://de.wikipedia.org/wiki/Jen%C5%91_Fock",
     "viaf": "https://viaf.org/viaf/121447909/"
-  }
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1916-05-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Budapest"
+  },
+  "deathDate": "2001-05-22",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Budapest"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1967–1975 Ministerpräsident der Volksrepublik Ungarn"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Jen%C5%91_Fock",
+    "https://viaf.org/viaf/121447909/"
+  ]
 }

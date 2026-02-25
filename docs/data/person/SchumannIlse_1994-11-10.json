@@ -1,45 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchumannIlse_1994-11-10",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchumannIlse_1994-11-10",
   "name": "Ilse Schumann",
   "givenName": "Ilse",
   "familyName": "Schumann",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1939-02-22",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Augsdorf/Mansfelder Land"
-  },
-  "deathDate": "2000-08-09",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Chemieingenieurin, Bürgermeisterin a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1994-11-10",
-      "endDate": "1998-10-26"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1998-10-26",
-      "endDate": "2000-08-09"
-    }
-  ],
-  "sameAs": null,
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Ilse Schumann",
@@ -76,9 +44,39 @@
     }
   ],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11002794",
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
-  }
+    "mdb_stammdaten": "11002794"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1939-02-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Augsdorf/Mansfelder Land"
+  },
+  "deathDate": "2000-08-09",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Chemieingenieurin, Bürgermeisterin a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-10-26"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1998-10-26",
+      "endDate": "2000-08-09"
+    }
+  ]
 }

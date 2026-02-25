@@ -1,10 +1,53 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DoeringWolfgang_1957-10-15",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DoeringWolfgang_1957-10-15",
   "name": "Wolfgang Döring",
   "givenName": "Wolfgang",
   "familyName": "Döring",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Wolfgang Döring",
+    "forename": "Wolfgang",
+    "surname": "Döring",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Düsseldorf)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1919-11-11",
+    "place": "Leipzig",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1963-01-17",
+    "place": "Düsseldorf",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 3,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 4,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1961-10-17",
+      "to": "1963-01-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000398",
+    "gnd": "https://d-nb.info/gnd/118680099",
+    "wikipedia": "https://de.wikipedia.org/wiki/Wolfgang_D%C3%B6ring_(Politiker)"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1919-11-11",
   "birthPlace": {
@@ -45,46 +88,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/118680099",
     "https://de.wikipedia.org/wiki/Wolfgang_D%C3%B6ring_(Politiker)"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Wolfgang Döring",
-    "forename": "Wolfgang",
-    "surname": "Döring",
-    "prefix": "",
-    "role_name": "",
-    "place": "(Düsseldorf)"
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1919-11-11",
-    "place": "Leipzig",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1963-01-17",
-    "place": "Düsseldorf",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 3,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1957-10-15",
-      "to": "1961-10-15"
-    },
-    {
-      "period": 4,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1961-10-17",
-      "to": "1963-01-17"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11000398",
-    "gnd": "https://d-nb.info/gnd/118680099",
-    "wikipedia": "https://de.wikipedia.org/wiki/Wolfgang_D%C3%B6ring_(Politiker)",
-    "viaf": null
-  }
+  ]
 }

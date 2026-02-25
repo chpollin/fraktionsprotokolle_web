@@ -1,45 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "AkenJan_2009-10-27",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/AkenJan_2009-10-27",
   "name": "Jan van Aken",
   "givenName": "Jan",
   "familyName": "Aken",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1961-05-01",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Reinbek"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Biologe [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion DIE LINKE.",
-        "alternateName": "LINKE"
-      },
-      "startDate": "2009-10-27",
-      "endDate": "2013-10-22"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion DIE LINKE.",
-        "alternateName": "LINKE"
-      },
-      "startDate": "2013-10-22",
-      "endDate": "2017-10-24"
-    }
-  ],
-  "sameAs": null,
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Jan van Aken",
@@ -76,9 +44,38 @@
     }
   ],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11004001",
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
-  }
+    "mdb_stammdaten": "11004001"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1961-05-01",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Reinbek"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Biologe [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion DIE LINKE.",
+        "alternateName": "LINKE"
+      },
+      "startDate": "2009-10-27",
+      "endDate": "2013-10-22"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion DIE LINKE.",
+        "alternateName": "LINKE"
+      },
+      "startDate": "2013-10-22",
+      "endDate": "2017-10-24"
+    }
+  ]
 }

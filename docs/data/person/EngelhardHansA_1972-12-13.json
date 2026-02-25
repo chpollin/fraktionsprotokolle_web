@@ -1,10 +1,80 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "EngelhardHansA_1972-12-13",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/EngelhardHansA_1972-12-13",
   "name": "Hans A. Engelhard",
   "givenName": "Hans A.",
   "familyName": "Engelhard",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans A. Engelhard",
+    "forename": "Hans A.",
+    "surname": "Engelhard",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1934-09-16",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2008-03-11",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 8,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1976-12-14",
+      "to": "1980-11-04"
+    },
+    {
+      "period": 9,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1980-11-04",
+      "to": "1983-03-29"
+    },
+    {
+      "period": 10,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1983-03-29",
+      "to": "1987-02-18"
+    },
+    {
+      "period": 11,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1987-02-18",
+      "to": "1990-12-20"
+    },
+    {
+      "period": 12,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1990-12-20",
+      "to": "1994-11-10"
+    },
+    {
+      "period": 7,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1972-12-13",
+      "to": "1976-12-13"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000472",
+    "gnd": "https://d-nb.info/gnd/134062078"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1934-09-16",
   "birthPlace": {
@@ -12,7 +82,6 @@
     "name": "München"
   },
   "deathDate": "2008-03-11",
-  "deathPlace": null,
   "hasOccupation": {
     "@type": "Occupation",
     "name": "Rechtsanwalt, Bundesminister a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
@@ -81,74 +150,5 @@
   ],
   "sameAs": [
     "https://d-nb.info/gnd/134062078"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Hans A. Engelhard",
-    "forename": "Hans A.",
-    "surname": "Engelhard",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1934-09-16",
-    "place": "München",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "2008-03-11",
-    "place": "",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 8,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1976-12-14",
-      "to": "1980-11-04"
-    },
-    {
-      "period": 9,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1980-11-04",
-      "to": "1983-03-29"
-    },
-    {
-      "period": 10,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1983-03-29",
-      "to": "1987-02-18"
-    },
-    {
-      "period": 11,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1987-02-18",
-      "to": "1990-12-20"
-    },
-    {
-      "period": 12,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1990-12-20",
-      "to": "1994-11-10"
-    },
-    {
-      "period": 7,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1972-12-13",
-      "to": "1976-12-13"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11000472",
-    "gnd": "https://d-nb.info/gnd/134062078",
-    "wikipedia": null,
-    "viaf": null
-  }
+  ]
 }

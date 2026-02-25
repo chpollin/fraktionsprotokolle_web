@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KunstHermann",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KunstHermann",
   "name": "Hermann Kunst",
   "givenName": "Hermann",
   "familyName": "Kunst",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1907-01-21",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Ottersberg"
-  },
-  "deathDate": "1999-11-06",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bonn"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1949–1977 Bevollmächtigter der EKD bei der Bundesregierung, 1956–1972 Militärbischof"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118568078",
-    "https://de.wikipedia.org/wiki/Hermann_Kunst"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hermann Kunst",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118568078",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hermann_Kunst",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hermann_Kunst"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1907-01-21",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Ottersberg"
+  },
+  "deathDate": "1999-11-06",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1949–1977 Bevollmächtigter der EKD bei der Bundesregierung, 1956–1972 Militärbischof"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118568078",
+    "https://de.wikipedia.org/wiki/Hermann_Kunst"
+  ]
 }

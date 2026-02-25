@@ -1,58 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "JanzIlse_1990-12-20",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/JanzIlse_1990-12-20",
   "name": "Ilse Janz",
   "givenName": "Ilse",
   "familyName": "Janz",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1945-04-23",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Norden/Ostfriesland"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Reno-Gehilfin, Sachbearbeiterin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1990-12-20",
-      "endDate": "1994-11-10"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1994-11-10",
-      "endDate": "1998-10-26"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1998-10-26",
-      "endDate": "2002-10-17"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1208662341",
-    "https://de.wikipedia.org/wiki/Ilse_Janz"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Ilse Janz",
@@ -98,7 +53,52 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001019",
     "gnd": "https://d-nb.info/gnd/1208662341",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ilse_Janz",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ilse_Janz"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1945-04-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Norden/Ostfriesland"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Reno-Gehilfin, Sachbearbeiterin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-10-26"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1998-10-26",
+      "endDate": "2002-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1208662341",
+    "https://de.wikipedia.org/wiki/Ilse_Janz"
+  ]
 }

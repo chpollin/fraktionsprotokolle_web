@@ -1,58 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KlemmerSiegrun_1990-12-20",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KlemmerSiegrun_1990-12-20",
   "name": "Siegrun Klemmer, geb. Schulz",
   "givenName": "Siegrun",
   "familyName": "Klemmer",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1939-06-13",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Danzig (heute: Gdańsk, Polen)"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Dipl.-Bibliothekarin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1990-12-20",
-      "endDate": "1994-11-10"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1994-11-10",
-      "endDate": "1998-10-26"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1998-10-26",
-      "endDate": "2002-10-17"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1025590694",
-    "https://de.wikipedia.org/wiki/Siegrun_Klemmer"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Siegrun Klemmer, geb. Schulz",
@@ -98,7 +53,52 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001125",
     "gnd": "https://d-nb.info/gnd/1025590694",
-    "wikipedia": "https://de.wikipedia.org/wiki/Siegrun_Klemmer",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Siegrun_Klemmer"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1939-06-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Danzig (heute: Gdańsk, Polen)"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Bibliothekarin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-10-26"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1998-10-26",
+      "endDate": "2002-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1025590694",
+    "https://de.wikipedia.org/wiki/Siegrun_Klemmer"
+  ]
 }

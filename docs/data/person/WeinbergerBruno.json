@@ -1,24 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WeinbergerBruno",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WeinbergerBruno",
   "name": "Bruno Weinberger",
   "givenName": "Bruno",
   "familyName": "Weinberger",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1920-02-13",
-  "birthPlace": null,
-  "deathDate": "2012-09-30",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "seit 1960 Erster Beigeordneter und Finanzdezernent beim Deutschen Städtetag, 1968 bis zum Eintritt in den Ruhestand dessen Geschäftsführendes Präsidialmitglied"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/124934129",
-    "https://de.wikipedia.org/wiki/Bruno_Weinberger"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Bruno Weinberger",
@@ -40,9 +29,18 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/124934129",
-    "wikipedia": "https://de.wikipedia.org/wiki/Bruno_Weinberger",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Bruno_Weinberger"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1920-02-13",
+  "deathDate": "2012-09-30",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "seit 1960 Erster Beigeordneter und Finanzdezernent beim Deutschen Städtetag, 1968 bis zum Eintritt in den Ruhestand dessen Geschäftsführendes Präsidialmitglied"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/124934129",
+    "https://de.wikipedia.org/wiki/Bruno_Weinberger"
+  ]
 }

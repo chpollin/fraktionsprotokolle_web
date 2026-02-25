@@ -1,10 +1,81 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ErhardBenno_1965-10-19",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ErhardBenno_1965-10-19",
   "name": "Benno Erhard",
   "givenName": "Benno",
   "familyName": "Erhard",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Benno Erhard",
+    "forename": "Benno",
+    "surname": "Erhard",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Bad Schwalbach)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1923-02-22",
+    "place": "Bad Schwalbach",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2011-11-01",
+    "place": "Bad Schwalbach",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 5,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    },
+    {
+      "period": 6,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1969-10-20",
+      "to": "1972-09-22"
+    },
+    {
+      "period": 7,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1972-12-13",
+      "to": "1976-12-13"
+    },
+    {
+      "period": 8,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1976-12-14",
+      "to": "1980-11-04"
+    },
+    {
+      "period": 9,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1980-11-04",
+      "to": "1983-03-29"
+    },
+    {
+      "period": 10,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1983-03-29",
+      "to": "1987-02-18"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000485",
+    "gnd": "https://d-nb.info/gnd/1036678857",
+    "wikipedia": "https://de.wikipedia.org/wiki/Benno_Erhard"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1923-02-22",
   "birthPlace": {
@@ -85,74 +156,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/1036678857",
     "https://de.wikipedia.org/wiki/Benno_Erhard"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Benno Erhard",
-    "forename": "Benno",
-    "surname": "Erhard",
-    "prefix": "",
-    "role_name": "",
-    "place": "(Bad Schwalbach)"
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1923-02-22",
-    "place": "Bad Schwalbach",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "2011-11-01",
-    "place": "Bad Schwalbach",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 5,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1965-10-19",
-      "to": "1969-10-19"
-    },
-    {
-      "period": 6,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1969-10-20",
-      "to": "1972-09-22"
-    },
-    {
-      "period": 7,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1972-12-13",
-      "to": "1976-12-13"
-    },
-    {
-      "period": 8,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1976-12-14",
-      "to": "1980-11-04"
-    },
-    {
-      "period": 9,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1980-11-04",
-      "to": "1983-03-29"
-    },
-    {
-      "period": 10,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1983-03-29",
-      "to": "1987-02-18"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11000485",
-    "gnd": "https://d-nb.info/gnd/1036678857",
-    "wikipedia": "https://de.wikipedia.org/wiki/Benno_Erhard",
-    "viaf": null
-  }
+  ]
 }

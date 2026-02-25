@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KeuschJohannes",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KeuschJohannes",
   "name": "Johannes Keusch",
   "givenName": "Johannes",
   "familyName": "Keusch",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1912-10-05",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Dresden"
-  },
-  "deathDate": "1973-12-08",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1963–1970 Botschafter der DDR in Bulgarien"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1061905446",
-    "https://de.wikipedia.org/wiki/Johannes_Keusch"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Johannes Keusch",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1061905446",
-    "wikipedia": "https://de.wikipedia.org/wiki/Johannes_Keusch",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Johannes_Keusch"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1912-10-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Dresden"
+  },
+  "deathDate": "1973-12-08",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1963–1970 Botschafter der DDR in Bulgarien"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1061905446",
+    "https://de.wikipedia.org/wiki/Johannes_Keusch"
+  ]
 }

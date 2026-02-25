@@ -1,24 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GerwaldJosef",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GerwaldJosef",
   "name": "Josef M. Gerwald",
   "givenName": "Josef M.",
   "familyName": "Gerwald",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1932-01-25",
-  "birthPlace": null,
-  "deathDate": "2022-02-11",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Journalist, 1962-1974 Redakteur beim Deutschlandfunk, (mindestens) 1976 bis 1981 FDP-Sprecher bzw. Sprecher von Hans-Dietrich Genscher, seit 1982 Chefredakteur bzw. seit 1987 Programmdirektor der Deutschen Welle"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1167351363",
-    "https://de.wikipedia.org/wiki/Josef_M._Gerwald"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Josef M. Gerwald",
@@ -40,9 +29,18 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1167351363",
-    "wikipedia": "https://de.wikipedia.org/wiki/Josef_M._Gerwald",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Josef_M._Gerwald"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1932-01-25",
+  "deathDate": "2022-02-11",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist, 1962-1974 Redakteur beim Deutschlandfunk, (mindestens) 1976 bis 1981 FDP-Sprecher bzw. Sprecher von Hans-Dietrich Genscher, seit 1982 Chefredakteur bzw. seit 1987 Programmdirektor der Deutschen Welle"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1167351363",
+    "https://de.wikipedia.org/wiki/Josef_M._Gerwald"
+  ]
 }

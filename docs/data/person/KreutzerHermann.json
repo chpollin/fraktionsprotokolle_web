@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KreutzerHermann",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KreutzerHermann",
   "name": "Hermann Kreutzer",
   "givenName": "Hermann",
   "familyName": "Kreutzer",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1924-05-03",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Saalfeld/Saale"
-  },
-  "deathDate": "2007-03-28",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Publizist, politischer Häftling im Nationalsozialismus und in der DDR, 1945 Mitbegründer der SPD in Thüringen, nach 1956 in der BRD Beauftragter der SPD für politische Häftlinge, 1966-1980 Ministerialdirektor im Bundesministerium für gesamtdeutsche bzw. innerdeutsche Fragen (u. a. für den Häftlingsfreikauf zuständig)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/123301912",
-    "https://de.wikipedia.org/wiki/Hermann_Kreutzer"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hermann Kreutzer",
@@ -46,10 +29,27 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/123301912",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hermann_Kreutzer",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Hermann_Kreutzer"
   },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1924-05-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Saalfeld/Saale"
+  },
+  "deathDate": "2007-03-28",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Publizist, politischer Häftling im Nationalsozialismus und in der DDR, 1945 Mitbegründer der SPD in Thüringen, nach 1956 in der BRD Beauftragter der SPD für politische Häftlinge, 1966-1980 Ministerialdirektor im Bundesministerium für gesamtdeutsche bzw. innerdeutsche Fragen (u. a. für den Häftlingsfreikauf zuständig)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/123301912",
+    "https://de.wikipedia.org/wiki/Hermann_Kreutzer"
+  ],
   "fraktionsprotokolle:sonstiges": "äußerte 1979 die These, dass in westdeutschen Rundfunkräten, der SPD, den Gewerkschaften sowie den Kirchen 10.000 bis 12.000 »Einflussagenten« der DDR tätig seien"
 }

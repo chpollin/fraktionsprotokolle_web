@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FrankeWalter",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FrankeWalter",
   "name": "Walter Franke",
   "givenName": "Walter",
   "familyName": "Franke",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1926-11-20",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Bleckenstedt"
-  },
-  "deathDate": "2015-11-01",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Bremer Politiker (SPD), Bremer Senator und Bürgermeister in Bremen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/137559232",
-    "https://de.wikipedia.org/wiki/Walter_Franke_(Politiker,_1926)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Walter Franke",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/137559232",
-    "wikipedia": "https://de.wikipedia.org/wiki/Walter_Franke_(Politiker,_1926)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Walter_Franke_(Politiker,_1926)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1926-11-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bleckenstedt"
+  },
+  "deathDate": "2015-11-01",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Bremer Politiker (SPD), Bremer Senator und Bürgermeister in Bremen"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/137559232",
+    "https://de.wikipedia.org/wiki/Walter_Franke_(Politiker,_1926)"
+  ]
 }

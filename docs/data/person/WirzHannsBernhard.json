@@ -1,21 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WirzHannsBernhard",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WirzHannsBernhard",
   "name": "Hanns Bernhard Wirz",
   "givenName": "Hanns Bernhard",
   "familyName": "Wirz",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1911-08-03",
-  "birthPlace": null,
-  "deathDate": "1992-01-21",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1958–1963 Direktor beim Bundeskartellamt und Vorsitzender der Zweiten Beschlussabteilung, 1963–1965 Staatssekretär im niedersächsischen Ministerium für Wirtschaft und Verkehr (FDP), seit 1967 geschäftsführendes Vorstandsmitglied des Bundes der Steuerzahler"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hanns Bernhard Wirz",
@@ -36,10 +28,12 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Male",
+  "birthDate": "1911-08-03",
+  "deathDate": "1992-01-21",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1958–1963 Direktor beim Bundeskartellamt und Vorsitzender der Zweiten Beschlussabteilung, 1963–1965 Staatssekretär im niedersächsischen Ministerium für Wirtschaft und Verkehr (FDP), seit 1967 geschäftsführendes Vorstandsmitglied des Bundes der Steuerzahler"
   }
 }

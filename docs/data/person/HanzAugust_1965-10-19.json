@@ -1,10 +1,74 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HanzAugust_1965-10-19",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HanzAugust_1965-10-19",
   "name": "August Hanz",
   "givenName": "August",
   "familyName": "Hanz",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "August Hanz",
+    "forename": "August",
+    "surname": "Hanz",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Dahlen)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1925-04-03",
+    "place": "Hinterkirchen/Westerwald",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2008-02-06",
+    "place": "Meudt-Dahlen (Westerwald)",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 5,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    },
+    {
+      "period": 6,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1969-10-20",
+      "to": "1972-09-22"
+    },
+    {
+      "period": 8,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1976-12-14",
+      "to": "1980-11-04"
+    },
+    {
+      "period": 9,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1980-11-04",
+      "to": "1983-03-29"
+    },
+    {
+      "period": 10,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1983-03-29",
+      "to": "1987-02-18"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000809",
+    "gnd": "https://d-nb.info/gnd/118997920",
+    "wikipedia": "https://de.wikipedia.org/wiki/August_Hanz"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1925-04-03",
   "birthPlace": {
@@ -76,68 +140,6 @@
     "https://d-nb.info/gnd/118997920",
     "https://de.wikipedia.org/wiki/August_Hanz"
   ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "August Hanz",
-    "forename": "August",
-    "surname": "Hanz",
-    "prefix": "",
-    "role_name": "",
-    "place": "(Dahlen)"
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1925-04-03",
-    "place": "Hinterkirchen/Westerwald",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "2008-02-06",
-    "place": "Meudt-Dahlen (Westerwald)",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 5,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1965-10-19",
-      "to": "1969-10-19"
-    },
-    {
-      "period": 6,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1969-10-20",
-      "to": "1972-09-22"
-    },
-    {
-      "period": 8,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1976-12-14",
-      "to": "1980-11-04"
-    },
-    {
-      "period": 9,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1980-11-04",
-      "to": "1983-03-29"
-    },
-    {
-      "period": 10,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1983-03-29",
-      "to": "1987-02-18"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11000809",
-    "gnd": "https://d-nb.info/gnd/118997920",
-    "wikipedia": "https://de.wikipedia.org/wiki/August_Hanz",
-    "viaf": null
-  },
   "fraktionsprotokolle:alt_names": [
     {
       "reg": "August Hanz",

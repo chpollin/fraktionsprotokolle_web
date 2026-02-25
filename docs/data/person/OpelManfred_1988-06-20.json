@@ -1,68 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "OpelManfred_1988-06-20",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/OpelManfred_1988-06-20",
   "name": "Manfred Opel",
   "givenName": "Manfred",
   "familyName": "Opel",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1938-07-27",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Bayreuth/Oberfranken"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Dipl.-Ingenieur, M.A., Soldat a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1988-06-20",
-      "endDate": "1990-12-20"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1990-12-20",
-      "endDate": "1994-11-10"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1994-11-10",
-      "endDate": "1998-10-26"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1998-10-26",
-      "endDate": "2002-10-17"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1120310520",
-    "https://de.wikipedia.org/wiki/Manfred_Opel"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Manfred Opel",
@@ -115,7 +60,62 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001652",
     "gnd": "https://d-nb.info/gnd/1120310520",
-    "wikipedia": "https://de.wikipedia.org/wiki/Manfred_Opel",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Manfred_Opel"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1938-07-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bayreuth/Oberfranken"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Ingenieur, M.A., Soldat a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1988-06-20",
+      "endDate": "1990-12-20"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-10-26"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1998-10-26",
+      "endDate": "2002-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1120310520",
+    "https://de.wikipedia.org/wiki/Manfred_Opel"
+  ]
 }

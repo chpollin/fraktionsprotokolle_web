@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ConnallyTom",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ConnallyTom",
   "name": "Tom Connally",
   "givenName": "Tom",
   "familyName": "Connally",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1877-08-19",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "bei Hewitt, Texas"
-  },
-  "deathDate": "1963-10-28",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Washington, D.C."
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1929–1953 US-Senator für Texas sowie 1941–1947 und 1949–1953 Vorsitzender des Senatsausschusses für auswärtige Angelegenheiten"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Tom_Connally",
-    "https://viaf.org/viaf/28723983/"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Tom Connally",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
     "wikipedia": "https://de.wikipedia.org/wiki/Tom_Connally",
     "viaf": "https://viaf.org/viaf/28723983/"
-  }
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1877-08-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "bei Hewitt, Texas"
+  },
+  "deathDate": "1963-10-28",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Washington, D.C."
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1929–1953 US-Senator für Texas sowie 1941–1947 und 1949–1953 Vorsitzender des Senatsausschusses für auswärtige Angelegenheiten"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Tom_Connally",
+    "https://viaf.org/viaf/28723983/"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FrostRobertLee",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FrostRobertLee",
   "name": "Robert Lee Frost",
   "givenName": "Robert Lee",
   "familyName": "Frost",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1874-03-26",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "San Francisco, Kalifornien"
-  },
-  "deathDate": "1963-01-29",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Boston"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "US-amerikanischer Lyriker und Schriftsteller"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118703366",
-    "https://de.wikipedia.org/wiki/Robert_Frost"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Robert Lee Frost",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118703366",
-    "wikipedia": "https://de.wikipedia.org/wiki/Robert_Frost",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Robert_Frost"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1874-03-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "San Francisco, Kalifornien"
+  },
+  "deathDate": "1963-01-29",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Boston"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "US-amerikanischer Lyriker und Schriftsteller"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118703366",
+    "https://de.wikipedia.org/wiki/Robert_Frost"
+  ]
 }

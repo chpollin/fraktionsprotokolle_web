@@ -1,10 +1,67 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RulandFranz_1957-01-04",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RulandFranz_1957-01-04",
   "name": "Franz Ruland",
   "givenName": "Franz",
   "familyName": "Ruland",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Franz Ruland",
+    "forename": "Franz",
+    "surname": "Ruland",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1901-06-23",
+    "place": "Saarbrücken",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1964-09-28",
+    "place": "Saarbrücken",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "Fraktionslos",
+      "faction_full": "Fraktionslos",
+      "from": "1957-01-04",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 2,
+      "faction": "CDU/CSU (Gast)",
+      "faction_full": "Fraktion der CDU/CSU (Gast)",
+      "from": "1957-05-23",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 3,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 4,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1962-02-19",
+      "to": "1964-09-28"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001903",
+    "gnd": "https://d-nb.info/gnd/1194114717",
+    "wikipedia": "https://de.wikipedia.org/wiki/Franz_Ruland_(Politiker)"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1901-06-23",
   "birthPlace": {
@@ -65,60 +122,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/1194114717",
     "https://de.wikipedia.org/wiki/Franz_Ruland_(Politiker)"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Franz Ruland",
-    "forename": "Franz",
-    "surname": "Ruland",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1901-06-23",
-    "place": "Saarbrücken",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1964-09-28",
-    "place": "Saarbrücken",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 2,
-      "faction": "Fraktionslos",
-      "faction_full": "Fraktionslos",
-      "from": "1957-01-04",
-      "to": "1957-10-06"
-    },
-    {
-      "period": 2,
-      "faction": "CDU/CSU (Gast)",
-      "faction_full": "Fraktion der CDU/CSU (Gast)",
-      "from": "1957-05-23",
-      "to": "1957-10-06"
-    },
-    {
-      "period": 3,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1957-10-15",
-      "to": "1961-10-15"
-    },
-    {
-      "period": 4,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1962-02-19",
-      "to": "1964-09-28"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11001903",
-    "gnd": "https://d-nb.info/gnd/1194114717",
-    "wikipedia": "https://de.wikipedia.org/wiki/Franz_Ruland_(Politiker)",
-    "viaf": null
-  }
+  ]
 }

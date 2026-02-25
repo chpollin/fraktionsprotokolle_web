@@ -1,10 +1,109 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DollingerWerner_1953-10-06",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DollingerWerner_1953-10-06",
   "name": "Werner Dollinger",
   "givenName": "Werner",
   "familyName": "Dollinger",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Werner Dollinger",
+    "forename": "Werner",
+    "surname": "Dollinger",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1918-10-10",
+    "place": "Neustadt a. d. Aisch",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2008-01-03",
+    "place": "Neustadt a. d. Aisch",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 3,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 4,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    },
+    {
+      "period": 5,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    },
+    {
+      "period": 6,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1969-10-20",
+      "to": "1972-09-22"
+    },
+    {
+      "period": 7,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1972-12-13",
+      "to": "1976-12-13"
+    },
+    {
+      "period": 8,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1976-12-14",
+      "to": "1980-11-04"
+    },
+    {
+      "period": 9,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1980-11-04",
+      "to": "1983-03-29"
+    },
+    {
+      "period": 10,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1983-03-29",
+      "to": "1987-02-18"
+    },
+    {
+      "period": 11,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1987-02-18",
+      "to": "1990-12-20"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000403",
+    "gnd": "https://d-nb.info/gnd/11852657X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Werner_Dollinger"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1918-10-10",
   "birthPlace": {
@@ -125,102 +224,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/11852657X",
     "https://de.wikipedia.org/wiki/Werner_Dollinger"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Werner Dollinger",
-    "forename": "Werner",
-    "surname": "Dollinger",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1918-10-10",
-    "place": "Neustadt a. d. Aisch",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "2008-01-03",
-    "place": "Neustadt a. d. Aisch",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 2,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1953-10-06",
-      "to": "1957-10-06"
-    },
-    {
-      "period": 3,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1957-10-15",
-      "to": "1961-10-15"
-    },
-    {
-      "period": 4,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1961-10-17",
-      "to": "1965-10-17"
-    },
-    {
-      "period": 5,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1965-10-19",
-      "to": "1969-10-19"
-    },
-    {
-      "period": 6,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1969-10-20",
-      "to": "1972-09-22"
-    },
-    {
-      "period": 7,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1972-12-13",
-      "to": "1976-12-13"
-    },
-    {
-      "period": 8,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1976-12-14",
-      "to": "1980-11-04"
-    },
-    {
-      "period": 9,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1980-11-04",
-      "to": "1983-03-29"
-    },
-    {
-      "period": 10,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1983-03-29",
-      "to": "1987-02-18"
-    },
-    {
-      "period": 11,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1987-02-18",
-      "to": "1990-12-20"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11000403",
-    "gnd": "https://d-nb.info/gnd/11852657X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Werner_Dollinger",
-    "viaf": null
-  }
+  ]
 }

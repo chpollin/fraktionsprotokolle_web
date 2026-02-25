@@ -1,78 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HellwigRenate_1980-11-04",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HellwigRenate_1980-11-04",
   "name": "Renate Hellwig",
   "givenName": "Renate",
   "familyName": "Hellwig",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1940-02-19",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Beuthen/Oberschlesien (heute: Bytom, Polen)"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Staatssekretärin a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1980-11-04",
-      "endDate": "1983-03-29"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1983-03-29",
-      "endDate": "1987-02-18"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1987-02-18",
-      "endDate": "1990-12-20"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1990-12-20",
-      "endDate": "1994-11-10"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1994-11-10",
-      "endDate": "1998-10-26"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1012379744",
-    "https://de.wikipedia.org/wiki/Renate_Hellwig"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Renate Hellwig",
@@ -132,7 +67,72 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000861",
     "gnd": "https://d-nb.info/gnd/1012379744",
-    "wikipedia": "https://de.wikipedia.org/wiki/Renate_Hellwig",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Renate_Hellwig"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1940-02-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Beuthen/Oberschlesien (heute: Bytom, Polen)"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Staatssekretärin a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1980-11-04",
+      "endDate": "1983-03-29"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1983-03-29",
+      "endDate": "1987-02-18"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1987-02-18",
+      "endDate": "1990-12-20"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-10-26"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1012379744",
+    "https://de.wikipedia.org/wiki/Renate_Hellwig"
+  ]
 }

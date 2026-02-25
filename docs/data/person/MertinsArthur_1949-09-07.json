@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MertinsArthur_1949-09-07",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MertinsArthur_1949-09-07",
   "name": "Arthur Mertins",
   "givenName": "Arthur",
   "familyName": "Mertins",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1898-04-25",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Tilsit (heute: Sowetsk, Russland)"
-  },
-  "deathDate": "1979-12-09",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Otterndorf"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Schriftsteller, Lehrer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1949-09-07",
-      "endDate": "1953-09-07"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/106628321",
-    "https://de.wikipedia.org/wiki/Arthur_Mertins"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Arthur Mertins",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001484",
     "gnd": "https://d-nb.info/gnd/106628321",
-    "wikipedia": "https://de.wikipedia.org/wiki/Arthur_Mertins",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Arthur_Mertins"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1898-04-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Tilsit (heute: Sowetsk, Russland)"
+  },
+  "deathDate": "1979-12-09",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Otterndorf"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Schriftsteller, Lehrer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/106628321",
+    "https://de.wikipedia.org/wiki/Arthur_Mertins"
+  ]
 }

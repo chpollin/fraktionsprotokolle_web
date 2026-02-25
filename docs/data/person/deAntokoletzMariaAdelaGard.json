@@ -1,29 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "deAntokoletzMariaAdelaGard",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/deAntokoletzMariaAdelaGard",
   "name": "María Adela Gard de Antokoletz",
   "givenName": "María Adela Gard",
   "familyName": "Antokoletz",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1911-10-11",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "San Nicolás de los Arroyos"
-  },
-  "deathDate": "2002-07-23",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Buenos Aires"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Mitbegründerin der argentinischen Mütterbewegung der verschwundenen Angehörigen (Madres de Plaza de Mayo)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://en.wikipedia.org/wiki/Mar%C3%ADa_Adela_Gard_de_Antokoletz"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "María Adela Gard de Antokoletz",
@@ -45,9 +29,24 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://en.wikipedia.org/wiki/Mar%C3%ADa_Adela_Gard_de_Antokoletz",
-    "viaf": null
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/Mar%C3%ADa_Adela_Gard_de_Antokoletz"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1911-10-11",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "San Nicolás de los Arroyos"
+  },
+  "deathDate": "2002-07-23",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Buenos Aires"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Mitbegründerin der argentinischen Mütterbewegung der verschwundenen Angehörigen (Madres de Plaza de Mayo)"
+  },
+  "sameAs": [
+    "https://en.wikipedia.org/wiki/Mar%C3%ADa_Adela_Gard_de_Antokoletz"
+  ]
 }

@@ -1,21 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SottongKarl-Heinz",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SottongKarl-Heinz",
   "name": "Karl-Heinz Sottong",
   "givenName": "Karl-Heinz",
   "familyName": "Sottong",
-  "gender": "https://schema.org/Male",
-  "birthDate": null,
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Leiter der Außenstelle des Landesverbandes der Bayerischen Industrie"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Karl-Heinz Sottong",
@@ -36,10 +28,10 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Male",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Leiter der Außenstelle des Landesverbandes der Bayerischen Industrie"
   }
 }

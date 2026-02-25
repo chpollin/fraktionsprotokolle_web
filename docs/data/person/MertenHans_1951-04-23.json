@@ -1,10 +1,74 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MertenHans_1951-04-23",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MertenHans_1951-04-23",
   "name": "Hans Merten",
   "givenName": "Hans",
   "familyName": "Merten",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans Merten",
+    "forename": "Hans",
+    "surname": "Merten",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1908-09-01",
+    "place": "Wiesbaden",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1967-12-12",
+    "place": "Bad Godesberg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1951-04-23",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 2,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 3,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 4,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    },
+    {
+      "period": 5,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1965-10-19",
+      "to": "1967-12-12"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001480",
+    "gnd": "https://d-nb.info/gnd/1031764437",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Merten"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1908-09-01",
   "birthPlace": {
@@ -75,67 +139,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/1031764437",
     "https://de.wikipedia.org/wiki/Hans_Merten"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Hans Merten",
-    "forename": "Hans",
-    "surname": "Merten",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1908-09-01",
-    "place": "Wiesbaden",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1967-12-12",
-    "place": "Bad Godesberg",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 1,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1951-04-23",
-      "to": "1953-09-07"
-    },
-    {
-      "period": 2,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1953-10-06",
-      "to": "1957-10-06"
-    },
-    {
-      "period": 3,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1957-10-15",
-      "to": "1961-10-15"
-    },
-    {
-      "period": 4,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1961-10-17",
-      "to": "1965-10-17"
-    },
-    {
-      "period": 5,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1965-10-19",
-      "to": "1967-12-12"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11001480",
-    "gnd": "https://d-nb.info/gnd/1031764437",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Merten",
-    "viaf": null
-  }
+  ]
 }

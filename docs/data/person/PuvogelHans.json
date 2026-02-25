@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PuvogelHans",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PuvogelHans",
   "name": "Hans Puvogel",
   "givenName": "Hans",
   "familyName": "Puvogel",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1911-09-25",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Bremen"
-  },
-  "deathDate": "1999-06-11",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1963–1978 MdL Niedersachsen (CDU), 1967–1975 stellvertretender Fraktionsvorsitzender, 1976–1978 niedersächsischer Justizminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/12573980X",
-    "https://de.wikipedia.org/wiki/Hans_Puvogel"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hans Puvogel",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/12573980X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Puvogel",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Puvogel"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1911-09-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bremen"
+  },
+  "deathDate": "1999-06-11",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1963–1978 MdL Niedersachsen (CDU), 1967–1975 stellvertretender Fraktionsvorsitzender, 1976–1978 niedersächsischer Justizminister"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/12573980X",
+    "https://de.wikipedia.org/wiki/Hans_Puvogel"
+  ]
 }

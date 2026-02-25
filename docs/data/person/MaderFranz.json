@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MaderFranz",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MaderFranz",
   "name": "Franz Mader",
   "givenName": "Franz",
   "familyName": "Mader",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1912-01-28",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Rokitnitz, Adlergebirge"
-  },
-  "deathDate": "1988-10-24",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bielefeld"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "MdL Nordrhein-Westfalen (FDP, ab Okt. 1970 fraktionslos, ab Dez. 1971 CDU), Ehrenvorsitzender des Bundesvorstandes der Landsmannschaft Schlesien"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1120369096",
-    "https://de.wikipedia.org/wiki/Franz_Mader_(Jurist)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Franz Mader",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1120369096",
-    "wikipedia": "https://de.wikipedia.org/wiki/Franz_Mader_(Jurist)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Franz_Mader_(Jurist)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1912-01-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Rokitnitz, Adlergebirge"
+  },
+  "deathDate": "1988-10-24",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bielefeld"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "MdL Nordrhein-Westfalen (FDP, ab Okt. 1970 fraktionslos, ab Dez. 1971 CDU), Ehrenvorsitzender des Bundesvorstandes der Landsmannschaft Schlesien"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1120369096",
+    "https://de.wikipedia.org/wiki/Franz_Mader_(Jurist)"
+  ]
 }

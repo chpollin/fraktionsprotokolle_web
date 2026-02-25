@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "JessupPhilipC",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/JessupPhilipC",
   "name": "Philip C. Jessup",
   "givenName": "Philip C.",
   "familyName": "Jessup",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1897-01-05",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "New York City"
-  },
-  "deathDate": "1986-01-31",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "New York City"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1949/50 Botschafter und Leiter der US-amerikanischen Ständigen Vertretung bei der UNO in New York"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118776177",
-    "https://de.wikipedia.org/wiki/Philip_Jessup"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Philip C. Jessup",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118776177",
-    "wikipedia": "https://de.wikipedia.org/wiki/Philip_Jessup",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Philip_Jessup"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1897-01-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "New York City"
+  },
+  "deathDate": "1986-01-31",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "New York City"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1949/50 Botschafter und Leiter der US-amerikanischen Ständigen Vertretung bei der UNO in New York"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118776177",
+    "https://de.wikipedia.org/wiki/Philip_Jessup"
+  ]
 }

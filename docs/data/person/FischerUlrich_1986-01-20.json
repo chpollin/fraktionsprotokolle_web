@@ -1,37 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FischerUlrich_1986-01-20",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FischerUlrich_1986-01-20",
   "name": "Ulrich Fischer",
   "givenName": "Ulrich",
   "familyName": "Fischer",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1942-12-11",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Vöcklabruck"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Politologe [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion Die Grünen",
-        "alternateName": "Grüne"
-      },
-      "startDate": "1986-01-20",
-      "endDate": "1987-02-18"
-    }
-  ],
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Ulrich_Fischer_(Politiker,_1942)"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Ulrich Fischer",
@@ -62,8 +38,31 @@
   ],
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000556",
-    "gnd": null,
-    "wikipedia": "https://de.wikipedia.org/wiki/Ulrich_Fischer_(Politiker,_1942)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ulrich_Fischer_(Politiker,_1942)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1942-12-11",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Vöcklabruck"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Politologe [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Die Grünen",
+        "alternateName": "Grüne"
+      },
+      "startDate": "1986-01-20",
+      "endDate": "1987-02-18"
+    }
+  ],
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Ulrich_Fischer_(Politiker,_1942)"
+  ]
 }

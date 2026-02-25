@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WaldenMatthias",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WaldenMatthias",
   "name": "Matthias Walden, geb. Eugen Wilhelm Otto Baron von Saß",
   "givenName": "Matthias",
   "familyName": "Walden",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1927-05-16",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Dresden"
-  },
-  "deathDate": "1984-11-17",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Journalist (u. a. Leiter der Lokalredaktion und Gerichtsreporter der Dresdner Tageszeitung »Die Union«, 1950–1956 Rundfunk-Kommentator beim RIAS, anschließend bis Ende der 1970er Jahre Chefredakteur und zum Chefkommentator beim SFB, seit 1980 Mitherausgeber der Tageszeitung »Die Welt«)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/117118532",
-    "https://de.wikipedia.org/wiki/Matthias_Walden"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Matthias Walden, geb. Eugen Wilhelm Otto Baron von Saß",
@@ -46,10 +29,27 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/117118532",
-    "wikipedia": "https://de.wikipedia.org/wiki/Matthias_Walden",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Matthias_Walden"
   },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1927-05-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Dresden"
+  },
+  "deathDate": "1984-11-17",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist (u. a. Leiter der Lokalredaktion und Gerichtsreporter der Dresdner Tageszeitung »Die Union«, 1950–1956 Rundfunk-Kommentator beim RIAS, anschließend bis Ende der 1970er Jahre Chefredakteur und zum Chefkommentator beim SFB, seit 1980 Mitherausgeber der Tageszeitung »Die Welt«)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/117118532",
+    "https://de.wikipedia.org/wiki/Matthias_Walden"
+  ],
   "fraktionsprotokolle:sonstiges": "1950 Flucht in die BRD"
 }

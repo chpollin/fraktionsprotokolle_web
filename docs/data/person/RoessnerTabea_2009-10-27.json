@@ -1,54 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RoessnerTabea_2009-10-27",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RoessnerTabea_2009-10-27",
   "name": "Tabea Rößner",
   "givenName": "Tabea",
   "familyName": "Rößner",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1966-12-07",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Sassenberg"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Journalistin und Redakteurin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion Bündnis 90/Die Grünen",
-        "alternateName": "B90/Grüne"
-      },
-      "startDate": "2009-10-27",
-      "endDate": "2013-10-22"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion Bündnis 90/Die Grünen",
-        "alternateName": "B90/Grüne"
-      },
-      "startDate": "2013-10-22",
-      "endDate": "2017-10-24"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion Bündnis 90/Die Grünen",
-        "alternateName": "B90/Grüne"
-      },
-      "startDate": "2017-10-24"
-    }
-  ],
-  "sameAs": null,
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Tabea Rößner",
@@ -92,9 +51,47 @@
     }
   ],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11004138",
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
-  }
+    "mdb_stammdaten": "11004138"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1966-12-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Sassenberg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalistin und Redakteurin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Bündnis 90/Die Grünen",
+        "alternateName": "B90/Grüne"
+      },
+      "startDate": "2009-10-27",
+      "endDate": "2013-10-22"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Bündnis 90/Die Grünen",
+        "alternateName": "B90/Grüne"
+      },
+      "startDate": "2013-10-22",
+      "endDate": "2017-10-24"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Bündnis 90/Die Grünen",
+        "alternateName": "B90/Grüne"
+      },
+      "startDate": "2017-10-24"
+    }
+  ]
 }

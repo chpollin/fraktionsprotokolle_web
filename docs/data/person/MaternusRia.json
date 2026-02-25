@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MaternusRia",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MaternusRia",
   "name": "Ria Maternus",
   "givenName": "Maria »Ria«",
   "familyName": "Maternus",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1914-10-13",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Neuwied"
-  },
-  "deathDate": "2001-11-24",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bonn"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "seit 1951 Gastwirtin und Inhaberin des Prominentenlokals Weinhaus Maternus in Bad Godesberg"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1260866092",
-    "https://de.wikipedia.org/wiki/Ria_Maternus"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Ria Maternus",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1260866092",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ria_Maternus",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ria_Maternus"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1914-10-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Neuwied"
+  },
+  "deathDate": "2001-11-24",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "seit 1951 Gastwirtin und Inhaberin des Prominentenlokals Weinhaus Maternus in Bad Godesberg"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1260866092",
+    "https://de.wikipedia.org/wiki/Ria_Maternus"
+  ]
 }

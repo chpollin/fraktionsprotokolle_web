@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchmidtGeorg",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchmidtGeorg",
   "name": "Georg Schmidt",
   "givenName": "Georg",
   "familyName": "Schmidt",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1875-11-22",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Biebrich"
-  },
-  "deathDate": "1946-02-22",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1920–1933 MdR (SPD), 1909–1933 Vorsitzender des Deutschen Landarbeiterverbands"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/130070467",
-    "https://de.wikipedia.org/wiki/Georg_Schmidt_(Politiker,_1875)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Georg Schmidt",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/130070467",
-    "wikipedia": "https://de.wikipedia.org/wiki/Georg_Schmidt_(Politiker,_1875)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Georg_Schmidt_(Politiker,_1875)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1875-11-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Biebrich"
+  },
+  "deathDate": "1946-02-22",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1920–1933 MdR (SPD), 1909–1933 Vorsitzender des Deutschen Landarbeiterverbands"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/130070467",
+    "https://de.wikipedia.org/wiki/Georg_Schmidt_(Politiker,_1875)"
+  ]
 }

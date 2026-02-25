@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BlockAugust",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BlockAugust",
   "name": "August Block",
   "givenName": "August",
   "familyName": "Block",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1877-12-16",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Bolsehle"
-  },
-  "deathDate": "1956-12-12",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Gronau"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1946–1952 MdL Niedersachsen (DP), 1946–1948 niedersächsischer Landwirtschaftsminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/126210241",
-    "https://de.wikipedia.org/wiki/August_Block"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "August Block",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/126210241",
-    "wikipedia": "https://de.wikipedia.org/wiki/August_Block",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/August_Block"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1877-12-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bolsehle"
+  },
+  "deathDate": "1956-12-12",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Gronau"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1946–1952 MdL Niedersachsen (DP), 1946–1948 niedersächsischer Landwirtschaftsminister"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/126210241",
+    "https://de.wikipedia.org/wiki/August_Block"
+  ]
 }

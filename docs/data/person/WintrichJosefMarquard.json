@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WintrichJosefMarquard",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WintrichJosefMarquard",
   "name": "Josef Marquard Wintrich",
   "givenName": "Josef Marquard",
   "familyName": "Wintrich",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1891-02-15",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "deathDate": "1958-10-19",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Ebersberg"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1954–1958 Präsident des Bundesverfassungsgerichts"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/102107297",
-    "https://de.wikipedia.org/wiki/Josef_Wintrich"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Josef Marquard Wintrich",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/102107297",
-    "wikipedia": "https://de.wikipedia.org/wiki/Josef_Wintrich",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Josef_Wintrich"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1891-02-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "deathDate": "1958-10-19",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Ebersberg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1954–1958 Präsident des Bundesverfassungsgerichts"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/102107297",
+    "https://de.wikipedia.org/wiki/Josef_Wintrich"
+  ]
 }

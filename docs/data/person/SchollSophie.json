@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchollSophie",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchollSophie",
   "name": "Sophie Scholl",
   "givenName": "Sophie",
   "familyName": "Scholl",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1921-05-09",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Forchtenberg"
-  },
-  "deathDate": "1943-02-22",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "wegen Widerstands gegen den Nationalsozialismus hingerichtet"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118610317",
-    "https://de.wikipedia.org/wiki/Sophie_Scholl"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Sophie Scholl",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118610317",
-    "wikipedia": "https://de.wikipedia.org/wiki/Sophie_Scholl",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Sophie_Scholl"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1921-05-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Forchtenberg"
+  },
+  "deathDate": "1943-02-22",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "wegen Widerstands gegen den Nationalsozialismus hingerichtet"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118610317",
+    "https://de.wikipedia.org/wiki/Sophie_Scholl"
+  ]
 }

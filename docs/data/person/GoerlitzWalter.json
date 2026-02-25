@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GoerlitzWalter",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GoerlitzWalter",
   "name": "Walter Görlitz, Pseudonym: Otto Julius Frauendorf",
   "givenName": "Walter",
   "familyName": "Görlitz",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1913-02-24",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Frauendorf, Kreis Randow"
-  },
-  "deathDate": "1991-10-04",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Hamburg"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Schriftsteller, Publizist"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/116724307",
-    "https://de.wikipedia.org/wiki/Walter_G%C3%B6rlitz"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Walter Görlitz, Pseudonym: Otto Julius Frauendorf",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/116724307",
-    "wikipedia": "https://de.wikipedia.org/wiki/Walter_G%C3%B6rlitz",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Walter_G%C3%B6rlitz"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1913-02-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Frauendorf, Kreis Randow"
+  },
+  "deathDate": "1991-10-04",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Schriftsteller, Publizist"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/116724307",
+    "https://de.wikipedia.org/wiki/Walter_G%C3%B6rlitz"
+  ]
 }

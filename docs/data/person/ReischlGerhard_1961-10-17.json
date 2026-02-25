@@ -1,10 +1,60 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ReischlGerhard_1961-10-17",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ReischlGerhard_1961-10-17",
   "name": "Gerhard Reischl",
   "givenName": "Gerhard",
   "familyName": "Reischl",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Gerhard Reischl",
+    "forename": "Gerhard",
+    "surname": "Reischl",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1918-07-17",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1998-04-16",
+    "place": "Bonn",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 4,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    },
+    {
+      "period": 5,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    },
+    {
+      "period": 6,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1969-10-20",
+      "to": "1972-09-22"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001813",
+    "gnd": "https://d-nb.info/gnd/1060154625",
+    "wikipedia": "https://de.wikipedia.org/wiki/Gerhard_Reischl"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1918-07-17",
   "birthPlace": {
@@ -55,53 +105,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/1060154625",
     "https://de.wikipedia.org/wiki/Gerhard_Reischl"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Gerhard Reischl",
-    "forename": "Gerhard",
-    "surname": "Reischl",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1918-07-17",
-    "place": "München",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1998-04-16",
-    "place": "Bonn",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 4,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1961-10-17",
-      "to": "1965-10-17"
-    },
-    {
-      "period": 5,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1965-10-19",
-      "to": "1969-10-19"
-    },
-    {
-      "period": 6,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1969-10-20",
-      "to": "1972-09-22"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11001813",
-    "gnd": "https://d-nb.info/gnd/1060154625",
-    "wikipedia": "https://de.wikipedia.org/wiki/Gerhard_Reischl",
-    "viaf": null
-  }
+  ]
 }

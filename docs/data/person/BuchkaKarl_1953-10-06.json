@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BuchkaKarl_1953-10-06",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BuchkaKarl_1953-10-06",
   "name": "Karl von Buchka",
   "givenName": "Karl",
   "familyName": "Buchka",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1885-09-23",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Göttingen"
-  },
-  "deathDate": "1960-02-11",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Freiburg/Elbe"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Landrat i. R. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1953-10-06",
-      "endDate": "1957-10-06"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/124925618",
-    "https://de.wikipedia.org/wiki/Karl_von_Buchka_(Politiker)"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Karl von Buchka",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000289",
     "gnd": "https://d-nb.info/gnd/124925618",
-    "wikipedia": "https://de.wikipedia.org/wiki/Karl_von_Buchka_(Politiker)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Karl_von_Buchka_(Politiker)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1885-09-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Göttingen"
+  },
+  "deathDate": "1960-02-11",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Freiburg/Elbe"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Landrat i. R. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/124925618",
+    "https://de.wikipedia.org/wiki/Karl_von_Buchka_(Politiker)"
+  ]
 }

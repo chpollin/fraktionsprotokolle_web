@@ -1,10 +1,60 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "VeharMax_1957-10-15",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/VeharMax_1957-10-15",
   "name": "Max Vehar",
   "givenName": "Max",
   "familyName": "Vehar",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Max Vehar",
+    "forename": "Max",
+    "surname": "Vehar",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1910-10-01",
+    "place": "Wien",
+    "country": "Österreich"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1992-09-25",
+    "place": "Mülheim an der Ruhr",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 3,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 6,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1969-10-20",
+      "to": "1972-09-22"
+    },
+    {
+      "period": 7,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1972-12-13",
+      "to": "1976-12-13"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002363",
+    "gnd": "https://d-nb.info/gnd/1030406618",
+    "wikipedia": "https://de.wikipedia.org/wiki/Max_Vehar"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1910-10-01",
   "birthPlace": {
@@ -55,53 +105,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/1030406618",
     "https://de.wikipedia.org/wiki/Max_Vehar"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Max Vehar",
-    "forename": "Max",
-    "surname": "Vehar",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1910-10-01",
-    "place": "Wien",
-    "country": "Österreich"
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1992-09-25",
-    "place": "Mülheim an der Ruhr",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 3,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1957-10-15",
-      "to": "1961-10-15"
-    },
-    {
-      "period": 6,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1969-10-20",
-      "to": "1972-09-22"
-    },
-    {
-      "period": 7,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1972-12-13",
-      "to": "1976-12-13"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11002363",
-    "gnd": "https://d-nb.info/gnd/1030406618",
-    "wikipedia": "https://de.wikipedia.org/wiki/Max_Vehar",
-    "viaf": null
-  }
+  ]
 }

@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RuehlLothar",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RuehlLothar",
   "name": "Lothar Rühl",
   "givenName": "Lothar",
   "familyName": "Rühl",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1927-01-14",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Köln"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "deutscher Politikwissenschaftler, Journalist und Publizist, 1982–1989 Staatssekretär im Bundesverteidigungsministerium"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/121945804",
-    "https://de.wikipedia.org/wiki/Lothar_R%C3%BChl"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Lothar Rühl",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/121945804",
-    "wikipedia": "https://de.wikipedia.org/wiki/Lothar_R%C3%BChl",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Lothar_R%C3%BChl"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1927-01-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Köln"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Politikwissenschaftler, Journalist und Publizist, 1982–1989 Staatssekretär im Bundesverteidigungsministerium"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/121945804",
+    "https://de.wikipedia.org/wiki/Lothar_R%C3%BChl"
+  ]
 }

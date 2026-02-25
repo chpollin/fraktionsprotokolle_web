@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "LaytonWalterThomas",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/LaytonWalterThomas",
   "name": "Walter Thomas Layton",
   "givenName": "Walter Thomas",
   "familyName": "Layton",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1884-03-15",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "London"
-  },
-  "deathDate": "1966-02-14",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "London"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "britischer Nationalökonom und Verleger, 1944–1963 Geschäftsführer der The Economist Newspaper Ltd., 1949–1957 Vizepräsident der Beratenden Versammlung des Europarats"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/124371655",
-    "https://de.wikipedia.org/wiki/Walter_Layton,_1._Baron_Layton"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Walter Thomas Layton",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/124371655",
-    "wikipedia": "https://de.wikipedia.org/wiki/Walter_Layton,_1._Baron_Layton",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Walter_Layton,_1._Baron_Layton"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1884-03-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "London"
+  },
+  "deathDate": "1966-02-14",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "London"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "britischer Nationalökonom und Verleger, 1944–1963 Geschäftsführer der The Economist Newspaper Ltd., 1949–1957 Vizepräsident der Beratenden Versammlung des Europarats"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/124371655",
+    "https://de.wikipedia.org/wiki/Walter_Layton,_1._Baron_Layton"
+  ]
 }

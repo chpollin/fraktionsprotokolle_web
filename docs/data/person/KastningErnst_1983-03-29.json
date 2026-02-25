@@ -1,68 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KastningErnst_1983-03-29",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KastningErnst_1983-03-29",
   "name": "Ernst Kastning",
   "givenName": "Ernst",
   "familyName": "Kastning",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1938-08-01",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Bückeburg/Krs. Schaumburg"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Dipl.-Politologe [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1983-03-29",
-      "endDate": "1987-02-18"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1987-02-18",
-      "endDate": "1990-12-20"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1990-12-20",
-      "endDate": "1994-11-10"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1994-11-10",
-      "endDate": "1998-10-26"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1019624272",
-    "https://de.wikipedia.org/wiki/Ernst_Kastning"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Ernst Kastning",
@@ -115,7 +60,62 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001070",
     "gnd": "https://d-nb.info/gnd/1019624272",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ernst_Kastning",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ernst_Kastning"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1938-08-01",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bückeburg/Krs. Schaumburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Politologe [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1983-03-29",
+      "endDate": "1987-02-18"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1987-02-18",
+      "endDate": "1990-12-20"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-10-26"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1019624272",
+    "https://de.wikipedia.org/wiki/Ernst_Kastning"
+  ]
 }

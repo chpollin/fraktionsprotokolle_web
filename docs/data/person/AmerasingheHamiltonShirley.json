@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "AmerasingheHamiltonShirley",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/AmerasingheHamiltonShirley",
   "name": "Hamilton Shirley Amerasinghe",
   "givenName": "Hamilton Shirley",
   "familyName": "Amerasinghe",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1913-03-18",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Colombo"
-  },
-  "deathDate": "1980-12-04",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Diplomat und Politiker aus Sri Lanka, 1973–1980 Präsident der UNO-Seerechtskonferenz, 1976–1977 Präsident der UN-Generalversammlung"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Hamilton_Shirley_Amerasinghe",
-    "https://viaf.org/viaf/16459921/"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hamilton Shirley Amerasinghe",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
     "wikipedia": "https://de.wikipedia.org/wiki/Hamilton_Shirley_Amerasinghe",
     "viaf": "https://viaf.org/viaf/16459921/"
-  }
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1913-03-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Colombo"
+  },
+  "deathDate": "1980-12-04",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Diplomat und Politiker aus Sri Lanka, 1973–1980 Präsident der UNO-Seerechtskonferenz, 1976–1977 Präsident der UN-Generalversammlung"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Hamilton_Shirley_Amerasinghe",
+    "https://viaf.org/viaf/16459921/"
+  ]
 }

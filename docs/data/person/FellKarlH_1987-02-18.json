@@ -1,10 +1,60 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FellKarlH_1987-02-18",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FellKarlH_1987-02-18",
   "name": "Karl H. Fell",
   "givenName": "Karl H.",
   "familyName": "Fell",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Karl H. Fell",
+    "forename": "Karl H.",
+    "surname": "Fell",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1936-12-16",
+    "place": "Erkelenz/Krs. Erkelenz",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1996-12-05",
+    "place": "Bonn",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 11,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1987-02-18",
+      "to": "1990-12-20"
+    },
+    {
+      "period": 12,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1990-12-20",
+      "to": "1994-11-10"
+    },
+    {
+      "period": 13,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1994-11-10",
+      "to": "1996-12-05"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000531",
+    "gnd": "https://d-nb.info/gnd/1024167305",
+    "wikipedia": "https://de.wikipedia.org/wiki/Karl_H._Fell"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1936-12-16",
   "birthPlace": {
@@ -55,53 +105,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/1024167305",
     "https://de.wikipedia.org/wiki/Karl_H._Fell"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Karl H. Fell",
-    "forename": "Karl H.",
-    "surname": "Fell",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1936-12-16",
-    "place": "Erkelenz/Krs. Erkelenz",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1996-12-05",
-    "place": "Bonn",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 11,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1987-02-18",
-      "to": "1990-12-20"
-    },
-    {
-      "period": 12,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1990-12-20",
-      "to": "1994-11-10"
-    },
-    {
-      "period": 13,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1994-11-10",
-      "to": "1996-12-05"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11000531",
-    "gnd": "https://d-nb.info/gnd/1024167305",
-    "wikipedia": "https://de.wikipedia.org/wiki/Karl_H._Fell",
-    "viaf": null
-  }
+  ]
 }

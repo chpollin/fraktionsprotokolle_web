@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BenzGeorg",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BenzGeorg",
   "name": "Georg Benz",
   "givenName": "Georg",
   "familyName": "Benz",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1921",
-  "birthPlace": null,
-  "deathDate": "2006",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Mitarbeiter der IG Metall"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119201062"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Georg Benz",
@@ -39,9 +29,16 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/119201062",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/119201062"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1921",
+  "deathDate": "2006",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Mitarbeiter der IG Metall"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119201062"
+  ]
 }

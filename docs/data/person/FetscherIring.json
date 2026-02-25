@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FetscherIring",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FetscherIring",
   "name": "Iring Fetscher",
   "givenName": "Iring",
   "familyName": "Fetcher",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1922-03-04",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Marbach am Neckar"
-  },
-  "deathDate": "2014-07-19",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Frankfurt am Main"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1963–1987 Professor für Politikwissenschaft und Sozialphilosophie an der Universität Frankfurt am Main"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118683497",
-    "https://de.wikipedia.org/wiki/Iring_Fetscher"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Iring Fetscher",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118683497",
-    "wikipedia": "https://de.wikipedia.org/wiki/Iring_Fetscher",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Iring_Fetscher"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1922-03-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Marbach am Neckar"
+  },
+  "deathDate": "2014-07-19",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Frankfurt am Main"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1963–1987 Professor für Politikwissenschaft und Sozialphilosophie an der Universität Frankfurt am Main"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118683497",
+    "https://de.wikipedia.org/wiki/Iring_Fetscher"
+  ]
 }

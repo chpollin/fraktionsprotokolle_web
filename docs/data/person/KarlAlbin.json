@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KarlAlbin",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KarlAlbin",
   "name": "Albin Karl",
   "givenName": "Albin",
   "familyName": "Karl",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1889-02-05",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Rothenhof bei Coburg"
-  },
-  "deathDate": "1976-01-04",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Hannover"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1949–1956 Mitglied des DGB-Bundesvorstands"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/124427049",
-    "https://de.wikipedia.org/wiki/Albin_Karl"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Albin Karl",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/124427049",
-    "wikipedia": "https://de.wikipedia.org/wiki/Albin_Karl",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Albin_Karl"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1889-02-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Rothenhof bei Coburg"
+  },
+  "deathDate": "1976-01-04",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hannover"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1949–1956 Mitglied des DGB-Bundesvorstands"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/124427049",
+    "https://de.wikipedia.org/wiki/Albin_Karl"
+  ]
 }

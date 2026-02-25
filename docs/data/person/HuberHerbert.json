@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HuberHerbert",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HuberHerbert",
   "name": "Herbert Huber",
   "givenName": "Herbert",
   "familyName": "Huber",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1935-02-03",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Landshut"
-  },
-  "deathDate": "2016-01-03",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Landshut"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1970–1996 MdL Bayern (CSU)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/139128204",
-    "https://de.wikipedia.org/wiki/Herbert_Huber_(Politiker,_1935)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Herbert Huber",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/139128204",
-    "wikipedia": "https://de.wikipedia.org/wiki/Herbert_Huber_(Politiker,_1935)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Herbert_Huber_(Politiker,_1935)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1935-02-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Landshut"
+  },
+  "deathDate": "2016-01-03",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Landshut"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1970–1996 MdL Bayern (CSU)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/139128204",
+    "https://de.wikipedia.org/wiki/Herbert_Huber_(Politiker,_1935)"
+  ]
 }

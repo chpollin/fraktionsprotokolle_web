@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BraunOtto",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BraunOtto",
   "name": "Otto Braun",
   "givenName": "Otto",
   "familyName": "Braun",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1872-01-28",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Königsberg, Preußen (heute: Kaliningrad, Russland)"
-  },
-  "deathDate": "1955-12-15",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Locarno"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Buchdrucker, Redakteur, sozialdemokratischer Politiker in der Weimarer Republik, 1920–1932 (mit Unterbrechungen) Ministerpräsident des Freistaates Preußen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118514636",
-    "https://de.wikipedia.org/wiki/Otto_Braun"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Otto Braun",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118514636",
-    "wikipedia": "https://de.wikipedia.org/wiki/Otto_Braun",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Otto_Braun"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1872-01-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Königsberg, Preußen (heute: Kaliningrad, Russland)"
+  },
+  "deathDate": "1955-12-15",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Locarno"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Buchdrucker, Redakteur, sozialdemokratischer Politiker in der Weimarer Republik, 1920–1932 (mit Unterbrechungen) Ministerpräsident des Freistaates Preußen"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118514636",
+    "https://de.wikipedia.org/wiki/Otto_Braun"
+  ]
 }

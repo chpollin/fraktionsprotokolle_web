@@ -1,10 +1,60 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KeuningDietrich_1949-09-07",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KeuningDietrich_1949-09-07",
   "name": "Dietrich Keuning",
   "givenName": "Dietrich",
   "familyName": "Keuning",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Dietrich Keuning",
+    "forename": "Dietrich",
+    "surname": "Keuning",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1908-09-27",
+    "place": "Dortmund",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1980-03-23",
+    "place": "Dortmund",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 2,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 3,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001090",
+    "gnd": "https://d-nb.info/gnd/116152257",
+    "wikipedia": "https://de.wikipedia.org/wiki/Dietrich_Keuning"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1908-09-27",
   "birthPlace": {
@@ -55,53 +105,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/116152257",
     "https://de.wikipedia.org/wiki/Dietrich_Keuning"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Dietrich Keuning",
-    "forename": "Dietrich",
-    "surname": "Keuning",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1908-09-27",
-    "place": "Dortmund",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1980-03-23",
-    "place": "Dortmund",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 1,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1949-09-07",
-      "to": "1953-09-07"
-    },
-    {
-      "period": 2,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1953-10-06",
-      "to": "1957-10-06"
-    },
-    {
-      "period": 3,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1957-10-15",
-      "to": "1961-10-15"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11001090",
-    "gnd": "https://d-nb.info/gnd/116152257",
-    "wikipedia": "https://de.wikipedia.org/wiki/Dietrich_Keuning",
-    "viaf": null
-  }
+  ]
 }

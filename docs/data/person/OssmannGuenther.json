@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "OssmannGuenther",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/OssmannGuenther",
   "name": "Günther Ossmann",
   "givenName": "Günther",
   "familyName": "Ossmann",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1919",
-  "birthPlace": null,
-  "deathDate": "2007",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Rechtsanwalt, seit 1964 Übernahme der juristischen Vertretung von Franz Josef Strauß"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1036679497"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Günther Ossmann",
@@ -39,9 +29,16 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/1036679497",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/1036679497"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1919",
+  "deathDate": "2007",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsanwalt, seit 1964 Übernahme der juristischen Vertretung von Franz Josef Strauß"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1036679497"
+  ]
 }

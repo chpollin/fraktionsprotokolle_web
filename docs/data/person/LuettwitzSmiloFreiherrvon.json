@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "LuettwitzSmiloFreiherrvon",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/LuettwitzSmiloFreiherrvon",
   "name": "Smilo Freiherr von Lüttwitz",
   "givenName": "Smilo",
   "familyName": "Lüttwitz",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1895-12-23",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Straßburg, Elsass-Lothringen (heute: Strasbourg, Frankreich)"
-  },
-  "deathDate": "1975-05-19",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Koblenz"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1954–1957 und 1960–1963 Hauptgeschäftsführer Johanniter Unfall-Hilfe, 1957–1960 Kommandierender General III. Heereskorps der Bundeswehr, 1963–1968 Präsident der Johanniter Unfall-Hilfe"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118843788",
-    "https://de.wikipedia.org/wiki/Smilo_von_L%C3%BCttwitz"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Smilo Freiherr von Lüttwitz",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118843788",
-    "wikipedia": "https://de.wikipedia.org/wiki/Smilo_von_L%C3%BCttwitz",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Smilo_von_L%C3%BCttwitz"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1895-12-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Straßburg, Elsass-Lothringen (heute: Strasbourg, Frankreich)"
+  },
+  "deathDate": "1975-05-19",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Koblenz"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1954–1957 und 1960–1963 Hauptgeschäftsführer Johanniter Unfall-Hilfe, 1957–1960 Kommandierender General III. Heereskorps der Bundeswehr, 1963–1968 Präsident der Johanniter Unfall-Hilfe"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118843788",
+    "https://de.wikipedia.org/wiki/Smilo_von_L%C3%BCttwitz"
+  ]
 }

@@ -1,26 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WuelffingGisela",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WuelffingGisela",
   "name": "Gisela Wülffing",
   "givenName": "Gisela",
   "familyName": "Wülffing",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1946",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Bonn"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Publizistin, Frauenrechtlerin, Mitarbeiterin der Grünen-Bundestagsfraktion in der 11. Wahlperiode, 1986–2008 Pressesprecherin der Bevollmächtigten für Frauenangelegenheiten in Hessen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Gisela_W%C3%BClffing"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Gisela Wülffing",
@@ -42,9 +29,19 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://de.wikipedia.org/wiki/Gisela_W%C3%BClffing",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Gisela_W%C3%BClffing"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1946",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Publizistin, Frauenrechtlerin, Mitarbeiterin der Grünen-Bundestagsfraktion in der 11. Wahlperiode, 1986–2008 Pressesprecherin der Bevollmächtigten für Frauenangelegenheiten in Hessen"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Gisela_W%C3%BClffing"
+  ]
 }

@@ -1,34 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "OrtlebJosephine_2017-10-24",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/OrtlebJosephine_2017-10-24",
   "name": "Josephine Ortleb",
   "givenName": "Josephine",
   "familyName": "Ortleb",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1986-11-25",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Saarbrücken"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Fachwirtin im Gastgewerbe [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "2017-10-24"
-    }
-  ],
-  "sameAs": null,
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Josephine Ortleb",
@@ -58,9 +37,27 @@
     }
   ],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11004844",
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
-  }
+    "mdb_stammdaten": "11004844"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1986-11-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Saarbrücken"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Fachwirtin im Gastgewerbe [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "2017-10-24"
+    }
+  ]
 }

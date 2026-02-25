@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "OrtoliFrancois-Xavier",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/OrtoliFrancois-Xavier",
   "name": "Francois-Xavier Ortoli",
   "givenName": "Francois-Xavier",
   "familyName": "Ortoli",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1925-02-16",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Ajaccio auf Korsika"
-  },
-  "deathDate": "2007-11-30",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Paris"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1967/68 Minister für Wohnungsbau der Französischen Republik, dann Minister für Wirtschaft und Finanzen, 1973–1977 Präsident der Europäischen Kommission"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/108274934",
-    "https://de.wikipedia.org/wiki/Fran%C3%A7ois-Xavier_Ortoli"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Francois-Xavier Ortoli",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/108274934",
-    "wikipedia": "https://de.wikipedia.org/wiki/Fran%C3%A7ois-Xavier_Ortoli",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Fran%C3%A7ois-Xavier_Ortoli"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1925-02-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Ajaccio auf Korsika"
+  },
+  "deathDate": "2007-11-30",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1967/68 Minister für Wohnungsbau der Französischen Republik, dann Minister für Wirtschaft und Finanzen, 1973–1977 Präsident der Europäischen Kommission"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/108274934",
+    "https://de.wikipedia.org/wiki/Fran%C3%A7ois-Xavier_Ortoli"
+  ]
 }

@@ -1,48 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MeitingerFranzXaver_1951-09-26",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MeitingerFranzXaver_1951-09-26",
   "name": "Franz Xaver Meitinger",
   "givenName": "Franz Xaver",
   "familyName": "Meitinger",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1905-05-10",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Ried"
-  },
-  "deathDate": "1966-07-25",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Gastwirt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion Bayernpartei",
-        "alternateName": "BP"
-      },
-      "startDate": "1951-09-26",
-      "endDate": "1953-09-07"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion Föderalistische Union",
-        "alternateName": "FU"
-      },
-      "startDate": "1951-12-14",
-      "endDate": "1953-09-07"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1015207421",
-    "https://de.wikipedia.org/wiki/Franz_Xaver_Meitinger"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Franz Xaver Meitinger",
@@ -81,7 +46,43 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001463",
     "gnd": "https://d-nb.info/gnd/1015207421",
-    "wikipedia": "https://de.wikipedia.org/wiki/Franz_Xaver_Meitinger",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Franz_Xaver_Meitinger"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1905-05-10",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Ried"
+  },
+  "deathDate": "1966-07-25",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Gastwirt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Bayernpartei",
+        "alternateName": "BP"
+      },
+      "startDate": "1951-09-26",
+      "endDate": "1953-09-07"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Föderalistische Union",
+        "alternateName": "FU"
+      },
+      "startDate": "1951-12-14",
+      "endDate": "1953-09-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1015207421",
+    "https://de.wikipedia.org/wiki/Franz_Xaver_Meitinger"
+  ]
 }

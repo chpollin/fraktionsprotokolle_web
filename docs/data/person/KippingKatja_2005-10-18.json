@@ -1,64 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KippingKatja_2005-10-18",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KippingKatja_2005-10-18",
   "name": "Katja Kipping",
   "givenName": "Katja",
   "familyName": "Kipping",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1978-01-18",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Dresden"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Slawistin, Literaturwissenschaftlerin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion DIE LINKE.",
-        "alternateName": "LINKE"
-      },
-      "startDate": "2005-10-18",
-      "endDate": "2009-10-27"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion DIE LINKE.",
-        "alternateName": "LINKE"
-      },
-      "startDate": "2009-10-27",
-      "endDate": "2013-10-22"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion DIE LINKE.",
-        "alternateName": "LINKE"
-      },
-      "startDate": "2013-10-22",
-      "endDate": "2017-10-24"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion DIE LINKE.",
-        "alternateName": "LINKE"
-      },
-      "startDate": "2017-10-24"
-    }
-  ],
-  "sameAs": null,
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Katja Kipping",
@@ -109,9 +58,57 @@
     }
   ],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11003786",
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
-  }
+    "mdb_stammdaten": "11003786"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1978-01-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Dresden"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Slawistin, Literaturwissenschaftlerin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion DIE LINKE.",
+        "alternateName": "LINKE"
+      },
+      "startDate": "2005-10-18",
+      "endDate": "2009-10-27"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion DIE LINKE.",
+        "alternateName": "LINKE"
+      },
+      "startDate": "2009-10-27",
+      "endDate": "2013-10-22"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion DIE LINKE.",
+        "alternateName": "LINKE"
+      },
+      "startDate": "2013-10-22",
+      "endDate": "2017-10-24"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion DIE LINKE.",
+        "alternateName": "LINKE"
+      },
+      "startDate": "2017-10-24"
+    }
+  ]
 }

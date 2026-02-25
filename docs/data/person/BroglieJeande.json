@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BroglieJeande",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BroglieJeande",
   "name": "Jean Marie François Ferdinand de Broglie",
   "givenName": "Jean Marie François Ferdinand",
   "familyName": "Broglie",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1921-06-21",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Paris"
-  },
-  "deathDate": "1976-12-24",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Paris"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "französischer Politiker, 1958–1962 und 1967–1976 Abgeordneter der französischen Nationalversammlung; 1969–1973 Vorsitzender ihres Auswärtigen Ausschusses"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/123193168",
-    "https://de.wikipedia.org/wiki/Jean_de_Broglie"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Jean Marie François Ferdinand de Broglie",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/123193168",
-    "wikipedia": "https://de.wikipedia.org/wiki/Jean_de_Broglie",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Jean_de_Broglie"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1921-06-21",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "deathDate": "1976-12-24",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "französischer Politiker, 1958–1962 und 1967–1976 Abgeordneter der französischen Nationalversammlung; 1969–1973 Vorsitzender ihres Auswärtigen Ausschusses"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/123193168",
+    "https://de.wikipedia.org/wiki/Jean_de_Broglie"
+  ]
 }

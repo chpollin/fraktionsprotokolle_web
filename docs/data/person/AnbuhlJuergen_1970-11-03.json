@@ -1,48 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "AnbuhlJuergen_1970-11-03",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/AnbuhlJuergen_1970-11-03",
   "name": "Jürgen Anbuhl",
   "givenName": "Jürgen",
   "familyName": "Anbuhl",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1940-05-05",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "deathDate": "2022-01-30",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Studienrat [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1970-11-03",
-      "endDate": "1972-09-22"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1972-12-13",
-      "endDate": "1976-12-13"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1153566222",
-    "https://de.wikipedia.org/wiki/J%C3%BCrgen_Anbuhl"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Jürgen Anbuhl",
@@ -81,7 +46,43 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000036",
     "gnd": "https://d-nb.info/gnd/1153566222",
-    "wikipedia": "https://de.wikipedia.org/wiki/J%C3%BCrgen_Anbuhl",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/J%C3%BCrgen_Anbuhl"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1940-05-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "2022-01-30",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Studienrat [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1970-11-03",
+      "endDate": "1972-09-22"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1972-12-13",
+      "endDate": "1976-12-13"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1153566222",
+    "https://de.wikipedia.org/wiki/J%C3%BCrgen_Anbuhl"
+  ]
 }

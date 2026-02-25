@@ -1,10 +1,67 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BeckmannKlaus_1980-11-04",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BeckmannKlaus_1980-11-04",
   "name": "Klaus Beckmann",
   "givenName": "Klaus",
   "familyName": "Beckmann",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Klaus Beckmann",
+    "forename": "Klaus",
+    "surname": "Beckmann",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1944-08-11",
+    "place": "Ennigloh/Krs. Herford heute: Bünde/Krs. Herford)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1994-05-27",
+    "place": "Essen",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 9,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1980-11-04",
+      "to": "1983-03-29"
+    },
+    {
+      "period": 10,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1983-03-29",
+      "to": "1987-02-18"
+    },
+    {
+      "period": 11,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1987-02-18",
+      "to": "1990-12-20"
+    },
+    {
+      "period": 12,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1990-12-20",
+      "to": "1994-05-27"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000133",
+    "gnd": "https://d-nb.info/gnd/1023212617",
+    "wikipedia": "https://de.wikipedia.org/wiki/Klaus_Beckmann_(Politiker)"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1944-08-11",
   "birthPlace": {
@@ -65,60 +122,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/1023212617",
     "https://de.wikipedia.org/wiki/Klaus_Beckmann_(Politiker)"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Klaus Beckmann",
-    "forename": "Klaus",
-    "surname": "Beckmann",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1944-08-11",
-    "place": "Ennigloh/Krs. Herford heute: Bünde/Krs. Herford)",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1994-05-27",
-    "place": "Essen",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 9,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1980-11-04",
-      "to": "1983-03-29"
-    },
-    {
-      "period": 10,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1983-03-29",
-      "to": "1987-02-18"
-    },
-    {
-      "period": 11,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1987-02-18",
-      "to": "1990-12-20"
-    },
-    {
-      "period": 12,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1990-12-20",
-      "to": "1994-05-27"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11000133",
-    "gnd": "https://d-nb.info/gnd/1023212617",
-    "wikipedia": "https://de.wikipedia.org/wiki/Klaus_Beckmann_(Politiker)",
-    "viaf": null
-  }
+  ]
 }

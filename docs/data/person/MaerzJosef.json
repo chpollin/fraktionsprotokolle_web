@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MaerzJosef",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MaerzJosef",
   "name": "Josef März",
   "givenName": "Josef",
   "familyName": "März",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1925-07-26",
-  "birthPlace": null,
-  "deathDate": "1988-04-12",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Rosenheim"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Unternehmer, Fleischfabrikant"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1060151820",
-    "https://de.wikipedia.org/wiki/Josef_M%C3%A4rz_(Unternehmer)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Josef März",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1060151820",
-    "wikipedia": "https://de.wikipedia.org/wiki/Josef_M%C3%A4rz_(Unternehmer)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Josef_M%C3%A4rz_(Unternehmer)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1925-07-26",
+  "deathDate": "1988-04-12",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Rosenheim"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Unternehmer, Fleischfabrikant"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1060151820",
+    "https://de.wikipedia.org/wiki/Josef_M%C3%A4rz_(Unternehmer)"
+  ]
 }

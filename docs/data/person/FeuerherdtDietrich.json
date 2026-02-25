@@ -1,21 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FeuerherdtDietrich",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FeuerherdtDietrich",
   "name": "Dietrich Feuerherdt",
   "givenName": "Dietrich",
   "familyName": "Feuerherdt",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1931-02-21",
-  "birthPlace": null,
-  "deathDate": "2009-01-24",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1962 Referent für Presse und Fernsehen der FDP-Fraktion im Bundestag, 1970–1996 Leiter des Presseamts des Bundestages"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Dietrich Feuerherdt",
@@ -36,10 +28,12 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Male",
+  "birthDate": "1931-02-21",
+  "deathDate": "2009-01-24",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1962 Referent für Presse und Fernsehen der FDP-Fraktion im Bundestag, 1970–1996 Leiter des Presseamts des Bundestages"
   }
 }

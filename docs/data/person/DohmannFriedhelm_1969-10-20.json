@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DohmannFriedhelm_1969-10-20",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DohmannFriedhelm_1969-10-20",
   "name": "Friedhelm Dohmann",
   "givenName": "Friedhelm",
   "familyName": "Dohmann",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1931-08-24",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Dortmund"
-  },
-  "deathDate": "1970-02-20",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Dortmund"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Geschäftsführer BKK Krupp [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1969-10-20",
-      "endDate": "1970-02-20"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1340044390",
-    "https://de.wikipedia.org/wiki/Friedhelm_Dohmann"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Friedhelm Dohmann",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000400",
     "gnd": "https://d-nb.info/gnd/1340044390",
-    "wikipedia": "https://de.wikipedia.org/wiki/Friedhelm_Dohmann",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Friedhelm_Dohmann"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1931-08-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Dortmund"
+  },
+  "deathDate": "1970-02-20",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Dortmund"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Geschäftsführer BKK Krupp [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1969-10-20",
+      "endDate": "1970-02-20"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1340044390",
+    "https://de.wikipedia.org/wiki/Friedhelm_Dohmann"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "JaroszewiczPiotr",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/JaroszewiczPiotr",
   "name": "Piotr Jaroszewicz",
   "givenName": "Piotr",
   "familyName": "Jaroszewicz",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1909-10-08",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Nieśwież"
-  },
-  "deathDate": "1992-09-01",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Warschau"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "General und Politiker, 1952–1970 stv. sowie 1970–1980 polnischer Ministerpräsident"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/128630841",
-    "https://de.wikipedia.org/wiki/Piotr_Jaroszewicz"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Piotr Jaroszewicz",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/128630841",
-    "wikipedia": "https://de.wikipedia.org/wiki/Piotr_Jaroszewicz",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Piotr_Jaroszewicz"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1909-10-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Nieśwież"
+  },
+  "deathDate": "1992-09-01",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Warschau"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "General und Politiker, 1952–1970 stv. sowie 1970–1980 polnischer Ministerpräsident"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/128630841",
+    "https://de.wikipedia.org/wiki/Piotr_Jaroszewicz"
+  ]
 }

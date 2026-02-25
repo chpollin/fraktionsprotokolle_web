@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "NevenduMontJuergen",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/NevenduMontJuergen",
   "name": "Jürgen Neven du Mont",
   "givenName": "Jürgen",
   "familyName": "Neven du Mont",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1921-09-13",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "deathDate": "1979-07-14",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1956–1962 Fernseh-Chefreporter beim Hessischen Rundfunk, 1962–1966 beim Norddeutschen Rundfunk"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/138522154",
-    "https://de.wikipedia.org/wiki/J%C3%BCrgen_Neven-du_Mont"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Jürgen Neven du Mont",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/138522154",
-    "wikipedia": "https://de.wikipedia.org/wiki/J%C3%BCrgen_Neven-du_Mont",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/J%C3%BCrgen_Neven-du_Mont"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1921-09-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "deathDate": "1979-07-14",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1956–1962 Fernseh-Chefreporter beim Hessischen Rundfunk, 1962–1966 beim Norddeutschen Rundfunk"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/138522154",
+    "https://de.wikipedia.org/wiki/J%C3%BCrgen_Neven-du_Mont"
+  ]
 }

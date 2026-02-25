@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KlinkeHeinz",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KlinkeHeinz",
   "name": "Heinz Klinke",
   "givenName": "Heinz",
   "familyName": "Klinke",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1925-12-01",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Breslau, Niederschlesien (heute: Wrocław, Polen)"
-  },
-  "deathDate": "2010-09-18",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Lutterbek"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Lehrer und Sonderschulkonrektor, 1962–1979 MdL Schleswig-Holstein (SPD), 1967–1970 Präsident der schleswig-holsteinischen Landesorganisation des Arbeiter-Samariter-Bundes Deutschland (ASB), 1979 Mitglied der 7. Bundesversammlung"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1121509479",
-    "https://de.wikipedia.org/wiki/Heinz_Klinke"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Heinz Klinke",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1121509479",
-    "wikipedia": "https://de.wikipedia.org/wiki/Heinz_Klinke",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Heinz_Klinke"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1925-12-01",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Breslau, Niederschlesien (heute: Wrocław, Polen)"
+  },
+  "deathDate": "2010-09-18",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Lutterbek"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Lehrer und Sonderschulkonrektor, 1962–1979 MdL Schleswig-Holstein (SPD), 1967–1970 Präsident der schleswig-holsteinischen Landesorganisation des Arbeiter-Samariter-Bundes Deutschland (ASB), 1979 Mitglied der 7. Bundesversammlung"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1121509479",
+    "https://de.wikipedia.org/wiki/Heinz_Klinke"
+  ]
 }

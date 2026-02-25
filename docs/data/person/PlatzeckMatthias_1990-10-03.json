@@ -1,37 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PlatzeckMatthias_1990-10-03",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PlatzeckMatthias_1990-10-03",
   "name": "Matthias Platzeck",
   "givenName": "Matthias",
   "familyName": "Platzeck",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1953-12-29",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Potsdam"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Mitglied der Volkskammer, Diplomingenieur [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion Die Grünen/Bündnis 90",
-        "alternateName": "Grüne/B90"
-      },
-      "startDate": "1990-10-03",
-      "endDate": "1990-12-20"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/114200971"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Matthias Platzeck",
@@ -62,8 +38,31 @@
   ],
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001722",
-    "gnd": "https://d-nb.info/gnd/114200971",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/114200971"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1953-12-29",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Potsdam"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Mitglied der Volkskammer, Diplomingenieur [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Die Grünen/Bündnis 90",
+        "alternateName": "Grüne/B90"
+      },
+      "startDate": "1990-10-03",
+      "endDate": "1990-12-20"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/114200971"
+  ]
 }

@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KruppBruno",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KruppBruno",
   "name": "Bruno Krupp",
   "givenName": "Bruno",
   "familyName": "Krupp",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1928-02-05",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Köln-Merkenich"
-  },
-  "deathDate": "2015-04-14",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1966-1975 MdL NRW (SPD), 1975-1989 Oberstadtdirektor von Leverkusen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1120019761",
-    "https://de.wikipedia.org/wiki/Bruno_Krupp"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Bruno Krupp",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1120019761",
-    "wikipedia": "https://de.wikipedia.org/wiki/Bruno_Krupp",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Bruno_Krupp"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1928-02-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Köln-Merkenich"
+  },
+  "deathDate": "2015-04-14",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1966-1975 MdL NRW (SPD), 1975-1989 Oberstadtdirektor von Leverkusen"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1120019761",
+    "https://de.wikipedia.org/wiki/Bruno_Krupp"
+  ]
 }

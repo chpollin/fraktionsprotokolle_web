@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WolkwitzOtto",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WolkwitzOtto",
   "name": "Otto Wolkwitz",
   "givenName": "Otto",
   "familyName": "Wolkwitz",
-  "gender": "https://schema.org/Male",
-  "birthDate": null,
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Senatsrat, Mitarbeiter des Bevollmächtigten des Landes Berlin in Bonn"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/127599053"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Otto Wolkwitz",
@@ -39,9 +29,14 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/127599053",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/127599053"
+  },
+  "gender": "https://schema.org/Male",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Senatsrat, Mitarbeiter des Bevollmächtigten des Landes Berlin in Bonn"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/127599053"
+  ]
 }

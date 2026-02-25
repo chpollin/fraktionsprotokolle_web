@@ -1,10 +1,88 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HaefeleHansjoerg_1965-10-19",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HaefeleHansjoerg_1965-10-19",
   "name": "Hansjörg Häfele",
   "givenName": "Hansjörg",
   "familyName": "Häfele",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hansjörg Häfele",
+    "forename": "Hansjörg",
+    "surname": "Häfele",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1932-03-06",
+    "place": "Uttenweiler/Krs. Biberach",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2025-04-26",
+    "place": "Bad Dürrheim",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 5,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    },
+    {
+      "period": 6,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1969-10-20",
+      "to": "1972-09-22"
+    },
+    {
+      "period": 7,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1972-12-13",
+      "to": "1976-12-13"
+    },
+    {
+      "period": 8,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1976-12-14",
+      "to": "1980-11-04"
+    },
+    {
+      "period": 9,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1980-11-04",
+      "to": "1983-03-29"
+    },
+    {
+      "period": 10,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1983-03-29",
+      "to": "1987-02-18"
+    },
+    {
+      "period": 11,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1987-02-18",
+      "to": "1990-12-20"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000774",
+    "gnd": "https://d-nb.info/gnd/11854442X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hansj%C3%B6rg_H%C3%A4fele"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1932-03-06",
   "birthPlace": {
@@ -95,81 +173,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/11854442X",
     "https://de.wikipedia.org/wiki/Hansj%C3%B6rg_H%C3%A4fele"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Hansjörg Häfele",
-    "forename": "Hansjörg",
-    "surname": "Häfele",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1932-03-06",
-    "place": "Uttenweiler/Krs. Biberach",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "2025-04-26",
-    "place": "Bad Dürrheim",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 5,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1965-10-19",
-      "to": "1969-10-19"
-    },
-    {
-      "period": 6,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1969-10-20",
-      "to": "1972-09-22"
-    },
-    {
-      "period": 7,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1972-12-13",
-      "to": "1976-12-13"
-    },
-    {
-      "period": 8,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1976-12-14",
-      "to": "1980-11-04"
-    },
-    {
-      "period": 9,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1980-11-04",
-      "to": "1983-03-29"
-    },
-    {
-      "period": 10,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1983-03-29",
-      "to": "1987-02-18"
-    },
-    {
-      "period": 11,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1987-02-18",
-      "to": "1990-12-20"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11000774",
-    "gnd": "https://d-nb.info/gnd/11854442X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hansj%C3%B6rg_H%C3%A4fele",
-    "viaf": null
-  }
+  ]
 }

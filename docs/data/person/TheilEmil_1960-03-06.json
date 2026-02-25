@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "TheilEmil_1960-03-06",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/TheilEmil_1960-03-06",
   "name": "Emil Theil",
   "givenName": "Emil",
   "familyName": "Theil",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1892-07-23",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Leipzig"
-  },
-  "deathDate": "1968-12-27",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bremen"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Senator a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1960-03-06",
-      "endDate": "1961-10-15"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/128165383",
-    "https://de.wikipedia.org/wiki/Emil_Theil"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Emil Theil",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11002313",
     "gnd": "https://d-nb.info/gnd/128165383",
-    "wikipedia": "https://de.wikipedia.org/wiki/Emil_Theil",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Emil_Theil"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1892-07-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Leipzig"
+  },
+  "deathDate": "1968-12-27",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bremen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Senator a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1960-03-06",
+      "endDate": "1961-10-15"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/128165383",
+    "https://de.wikipedia.org/wiki/Emil_Theil"
+  ]
 }

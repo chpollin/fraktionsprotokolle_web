@@ -1,67 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RonneburgerUwe_1972-12-13",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RonneburgerUwe_1972-12-13",
   "name": "Uwe Ronneburger",
   "givenName": "Uwe",
   "familyName": "Ronneburger",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1920-11-23",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Kiel"
-  },
-  "deathDate": "2007-10-01",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Landwirt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Freien Demokratischen Partei",
-        "alternateName": "FDP"
-      },
-      "startDate": "1972-12-13",
-      "endDate": "1975-06-12"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Freien Demokratischen Partei",
-        "alternateName": "FDP"
-      },
-      "startDate": "1980-11-04",
-      "endDate": "1983-03-29"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Freien Demokratischen Partei",
-        "alternateName": "FDP"
-      },
-      "startDate": "1983-03-29",
-      "endDate": "1987-02-18"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Freien Demokratischen Partei",
-        "alternateName": "FDP"
-      },
-      "startDate": "1987-02-18",
-      "endDate": "1990-12-20"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/110705815"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Uwe Ronneburger",
@@ -113,8 +59,62 @@
   ],
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001881",
-    "gnd": "https://d-nb.info/gnd/110705815",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/110705815"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1920-11-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kiel"
+  },
+  "deathDate": "2007-10-01",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Landwirt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1972-12-13",
+      "endDate": "1975-06-12"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1980-11-04",
+      "endDate": "1983-03-29"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1983-03-29",
+      "endDate": "1987-02-18"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1987-02-18",
+      "endDate": "1990-12-20"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/110705815"
+  ]
 }

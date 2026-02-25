@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SpeiserEliahu",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SpeiserEliahu",
   "name": "Eliahu Speiser",
   "givenName": "Eliahu",
   "familyName": "Speiser",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1930-03-23",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Haifa"
-  },
-  "deathDate": "2009-11-12",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Direktor der Internationalen Abteilung der Mapai"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/115804562X",
-    "https://de.wikipedia.org/wiki/Eliahu_Speiser"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Eliahu Speiser",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/115804562X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Eliahu_Speiser",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Eliahu_Speiser"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1930-03-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Haifa"
+  },
+  "deathDate": "2009-11-12",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Direktor der Internationalen Abteilung der Mapai"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/115804562X",
+    "https://de.wikipedia.org/wiki/Eliahu_Speiser"
+  ]
 }

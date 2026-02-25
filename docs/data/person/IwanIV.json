@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "IwanIV",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/IwanIV",
   "name": "Iwan IV. Wassiljewitsch, der Schreckliche",
   "givenName": "Iwan",
   "familyName": "",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1530-08-15",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Kolomenskoje"
-  },
-  "deathDate": "1548-03-28",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Moskau"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1533–1584 Zar von Russland"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118556150",
-    "https://de.wikipedia.org/wiki/Iwan_IV._(Russland)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Iwan IV. Wassiljewitsch, der Schreckliche",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118556150",
-    "wikipedia": "https://de.wikipedia.org/wiki/Iwan_IV._(Russland)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Iwan_IV._(Russland)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1530-08-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kolomenskoje"
+  },
+  "deathDate": "1548-03-28",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Moskau"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1533–1584 Zar von Russland"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118556150",
+    "https://de.wikipedia.org/wiki/Iwan_IV._(Russland)"
+  ]
 }

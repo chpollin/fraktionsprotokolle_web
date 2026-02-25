@@ -1,21 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HaberlUlrike",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HaberlUlrike",
   "name": "Ulrike Haberl",
   "givenName": "Ulrike",
   "familyName": "Haberl",
-  "gender": "https://schema.org/Female",
-  "birthDate": null,
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "2022 Mitarbeiterin der Abteilung Forschungsförderung an der Universität Passau, 2018 im Vorstand der BI „Natur ja – Nordtangente Nein e. V.“ (Bayern)"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Ulrike Haberl",
@@ -36,10 +28,10 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Female",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "2022 Mitarbeiterin der Abteilung Forschungsförderung an der Universität Passau, 2018 im Vorstand der BI „Natur ja – Nordtangente Nein e. V.“ (Bayern)"
   }
 }

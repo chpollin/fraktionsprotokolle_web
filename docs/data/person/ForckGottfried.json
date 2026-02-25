@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ForckGottfried",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ForckGottfried",
   "name": "Gottfried Forck",
   "givenName": "Gottfried",
   "familyName": "Forck",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1923-10-06",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Ilmenau"
-  },
-  "deathDate": "1996-12-24",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Rheinsberg"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "ev. Theologe, 1952–1954 Assistent an der Kirchlichen Hochschule in Berlin-Zehlendorf und Vikar, 1954–1959 Studentenpfarrer in Ost-Berlin, 1959–1963 Pfarrer in Lautawerk, 1963–1972 Leiter des Predigerseminars Brandenburg, 1972–1981 General-Superintendent des Sprengels Cottbus, 1981–1991 Bischof der Evangelischen Kirche in Berlin-Brandenburg – Bereich Ost, 1984–1985 Ratsvorsitzende der Evangelischen Kirche der Union (EKU)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119453851",
-    "https://de.wikipedia.org/wiki/Gottfried_Forck"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Gottfried Forck",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119453851",
-    "wikipedia": "https://de.wikipedia.org/wiki/Gottfried_Forck",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Gottfried_Forck"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1923-10-06",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Ilmenau"
+  },
+  "deathDate": "1996-12-24",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Rheinsberg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "ev. Theologe, 1952–1954 Assistent an der Kirchlichen Hochschule in Berlin-Zehlendorf und Vikar, 1954–1959 Studentenpfarrer in Ost-Berlin, 1959–1963 Pfarrer in Lautawerk, 1963–1972 Leiter des Predigerseminars Brandenburg, 1972–1981 General-Superintendent des Sprengels Cottbus, 1981–1991 Bischof der Evangelischen Kirche in Berlin-Brandenburg – Bereich Ost, 1984–1985 Ratsvorsitzende der Evangelischen Kirche der Union (EKU)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119453851",
+    "https://de.wikipedia.org/wiki/Gottfried_Forck"
+  ]
 }

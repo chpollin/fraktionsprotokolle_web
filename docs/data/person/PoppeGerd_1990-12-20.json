@@ -1,48 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PoppeGerd_1990-12-20",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PoppeGerd_1990-12-20",
   "name": "Gerd Poppe",
   "givenName": "Gerd",
   "familyName": "Poppe",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1941-03-25",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Rostock"
-  },
-  "deathDate": "2025-03-29",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Dipl.-Physiker [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Gruppe Bündnis 90/Die Grünen",
-        "alternateName": "Grp. B90/Grüne"
-      },
-      "startDate": "1990-12-20",
-      "endDate": "1994-11-10"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion Bündnis 90/Die Grünen",
-        "alternateName": "B90/Grüne"
-      },
-      "startDate": "1994-11-10",
-      "endDate": "1998-10-26"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/133908860",
-    "https://de.wikipedia.org/wiki/Gerd_Poppe"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Gerd Poppe",
@@ -81,7 +46,43 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001736",
     "gnd": "https://d-nb.info/gnd/133908860",
-    "wikipedia": "https://de.wikipedia.org/wiki/Gerd_Poppe",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Gerd_Poppe"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1941-03-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Rostock"
+  },
+  "deathDate": "2025-03-29",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Physiker [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Gruppe Bündnis 90/Die Grünen",
+        "alternateName": "Grp. B90/Grüne"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Bündnis 90/Die Grünen",
+        "alternateName": "B90/Grüne"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-10-26"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/133908860",
+    "https://de.wikipedia.org/wiki/Gerd_Poppe"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "CollingEmile",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/CollingEmile",
   "name": "Émile Colling",
   "givenName": "Émile",
   "familyName": "Colling",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1899-04-12",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Clerf"
-  },
-  "deathDate": "1981-09-16",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bofferdingen, Lorentzweiler"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "luxemburgischer Politiker, CSV, 1959–1964 Arbeits- und Gesundheitsminister, 1964–1967 Landwirtschafts- und Familienminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/127426035",
-    "https://de.wikipedia.org/wiki/Emile_Colling"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Émile Colling",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/127426035",
-    "wikipedia": "https://de.wikipedia.org/wiki/Emile_Colling",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Emile_Colling"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1899-04-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Clerf"
+  },
+  "deathDate": "1981-09-16",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bofferdingen, Lorentzweiler"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "luxemburgischer Politiker, CSV, 1959–1964 Arbeits- und Gesundheitsminister, 1964–1967 Landwirtschafts- und Familienminister"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/127426035",
+    "https://de.wikipedia.org/wiki/Emile_Colling"
+  ]
 }

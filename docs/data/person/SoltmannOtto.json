@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SoltmannOtto",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SoltmannOtto",
   "name": "Otto Soltmann",
   "givenName": "Otto",
   "familyName": "Soltmann",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1913-05-23",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Koblenz"
-  },
-  "deathDate": "2001-09-10",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Vortragender Legationsrat I. Klasse und Leiter des Referats »Internationale Wirtschaftsfragen der Verteidigung, des Verkehrs, des Post- und Fernmeldewesens und des Fremdenverkehrs« im Auswärtigen Amt"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/13312567X",
-    "https://de.wikipedia.org/wiki/Otto_Soltmann_(Diplomat)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Otto Soltmann",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/13312567X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Otto_Soltmann_(Diplomat)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Otto_Soltmann_(Diplomat)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1913-05-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Koblenz"
+  },
+  "deathDate": "2001-09-10",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Vortragender Legationsrat I. Klasse und Leiter des Referats »Internationale Wirtschaftsfragen der Verteidigung, des Verkehrs, des Post- und Fernmeldewesens und des Fremdenverkehrs« im Auswärtigen Amt"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/13312567X",
+    "https://de.wikipedia.org/wiki/Otto_Soltmann_(Diplomat)"
+  ]
 }

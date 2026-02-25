@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KolbRudolf",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KolbRudolf",
   "name": "Rudolf Kolb",
   "givenName": "Rudolf",
   "familyName": "Kolb",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1927-04-19",
-  "birthPlace": null,
-  "deathDate": "2020-08-01",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1967-1973 Vorsitzender der Landesversicherungsanstalt Oberbayern, 1973-1992 Geschäftsführer des Verbandes Deutscher Rentenversicherungsträger (VDR)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/170167194"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Rudolf Kolb",
@@ -39,9 +29,16 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/170167194",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/170167194"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1927-04-19",
+  "deathDate": "2020-08-01",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1967-1973 Vorsitzender der Landesversicherungsanstalt Oberbayern, 1973-1992 Geschäftsführer des Verbandes Deutscher Rentenversicherungsträger (VDR)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/170167194"
+  ]
 }

@@ -1,38 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FeigeKlaus-Dieter_1990-12-20",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FeigeKlaus-Dieter_1990-12-20",
   "name": "Klaus-Dieter Feige",
   "givenName": "Klaus-Dieter",
   "familyName": "Feige",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1950-09-30",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Parchim/Krs. Parchim"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Diplom Mathematiker [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Gruppe Bündnis 90/Die Grünen",
-        "alternateName": "Grp. B90/Grüne"
-      },
-      "startDate": "1990-12-20",
-      "endDate": "1994-11-10"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/170941418",
-    "https://de.wikipedia.org/wiki/Klaus-Dieter_Feige"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Klaus-Dieter Feige",
@@ -64,7 +39,32 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000523",
     "gnd": "https://d-nb.info/gnd/170941418",
-    "wikipedia": "https://de.wikipedia.org/wiki/Klaus-Dieter_Feige",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Klaus-Dieter_Feige"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1950-09-30",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Parchim/Krs. Parchim"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Diplom Mathematiker [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Gruppe Bündnis 90/Die Grünen",
+        "alternateName": "Grp. B90/Grüne"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/170941418",
+    "https://de.wikipedia.org/wiki/Klaus-Dieter_Feige"
+  ]
 }

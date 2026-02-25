@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SimoneitFerdinand",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SimoneitFerdinand",
   "name": "Ferdinand Simoneit",
   "givenName": "Ferdinand",
   "familyName": "Simoneit",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1925-06-14",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Duisburg"
-  },
-  "deathDate": "2010-04-03",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Löffingen"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Journalist, 1971–1974 Chefredakteur der Zeitschrift »Capital«"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/10787928X",
-    "https://de.wikipedia.org/wiki/Ferdinand_Simoneit"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Ferdinand Simoneit",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/10787928X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ferdinand_Simoneit",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ferdinand_Simoneit"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1925-06-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Duisburg"
+  },
+  "deathDate": "2010-04-03",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Löffingen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist, 1971–1974 Chefredakteur der Zeitschrift »Capital«"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/10787928X",
+    "https://de.wikipedia.org/wiki/Ferdinand_Simoneit"
+  ]
 }

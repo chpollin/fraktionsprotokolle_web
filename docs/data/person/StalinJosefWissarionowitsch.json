@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "StalinJosefWissarionowitsch",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/StalinJosefWissarionowitsch",
   "name": "Josef Wissarionowitsch Stalin, eigentlich: Josef Wissarionowitsch Dschugaschwili",
   "givenName": "Josef Wissarionowitsch",
   "familyName": "Stalin",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1878-12-18",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Gori, Gouvernement Tiflis"
-  },
-  "deathDate": "1953-03-05",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Kunzewo bei Moskau"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1922–1953 Generalsekretär des Zentralkomitees der KPdSU, 1941 Vorsitzender des Rats der Volkskommissare, seit 1946 des Ministerrats der UdSSR"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118642499",
-    "https://de.wikipedia.org/wiki/Josef_Stalin"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Josef Wissarionowitsch Stalin, eigentlich: Josef Wissarionowitsch Dschugaschwili",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118642499",
-    "wikipedia": "https://de.wikipedia.org/wiki/Josef_Stalin",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Josef_Stalin"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1878-12-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Gori, Gouvernement Tiflis"
+  },
+  "deathDate": "1953-03-05",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Kunzewo bei Moskau"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1922–1953 Generalsekretär des Zentralkomitees der KPdSU, 1941 Vorsitzender des Rats der Volkskommissare, seit 1946 des Ministerrats der UdSSR"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118642499",
+    "https://de.wikipedia.org/wiki/Josef_Stalin"
+  ]
 }

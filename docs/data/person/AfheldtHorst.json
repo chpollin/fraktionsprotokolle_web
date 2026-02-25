@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "AfheldtHorst",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/AfheldtHorst",
   "name": "Horst Afheldt",
   "givenName": "Horst",
   "familyName": "Afheldt",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1924-10-10",
-  "birthPlace": null,
-  "deathDate": "2016-03-07",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Hamburg"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Wirtschaftswissenschaftler, Publizist, 1960–1970 Geschäftsführer der Vereinigung deutscher Wissenschaftler, 1970–1980 Leiter der sicherheitspolitischen Arbeitsgruppe am Max-Planck-Institut zur Erforschung der Lebensbedingungen der wissenschaftlich-technischen Welt in Starnberg, seit 1984 Leiter der Arbeitsgruppe Afheldt in der Max-Planck-Gesellschaft mit Sitz in Starnberg"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118500910",
-    "https://de.wikipedia.org/wiki/Horst_Afheldt"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Horst Afheldt",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118500910",
-    "wikipedia": "https://de.wikipedia.org/wiki/Horst_Afheldt",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Horst_Afheldt"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1924-10-10",
+  "deathDate": "2016-03-07",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Wirtschaftswissenschaftler, Publizist, 1960–1970 Geschäftsführer der Vereinigung deutscher Wissenschaftler, 1970–1980 Leiter der sicherheitspolitischen Arbeitsgruppe am Max-Planck-Institut zur Erforschung der Lebensbedingungen der wissenschaftlich-technischen Welt in Starnberg, seit 1984 Leiter der Arbeitsgruppe Afheldt in der Max-Planck-Gesellschaft mit Sitz in Starnberg"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118500910",
+    "https://de.wikipedia.org/wiki/Horst_Afheldt"
+  ]
 }

@@ -1,10 +1,53 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "StachowaAngela_1990-12-20",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/StachowaAngela_1990-12-20",
   "name": "Angela Stachowa, geb. Mirtschink",
   "givenName": "Angela",
   "familyName": "Stachowa",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Angela Stachowa, geb. Mirtschink",
+    "forename": "Angela",
+    "surname": "Stachowa",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1948-08-16",
+    "place": "Prag",
+    "country": "Tschechoslowakei"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2022-03-29",
+    "place": "Leipzig",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 12,
+      "faction": "Grp. PDS/LL",
+      "faction_full": "Gruppe der Partei des Demokratischen Sozialismus/Linke Liste",
+      "from": "1990-12-20",
+      "to": "1994-11-10"
+    },
+    {
+      "period": 12,
+      "faction": "Fraktionslos",
+      "faction_full": "Fraktionslos",
+      "from": "1994-06-15",
+      "to": "1994-11-10"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002211",
+    "gnd": "https://d-nb.info/gnd/172382920",
+    "wikipedia": "https://de.wikipedia.org/wiki/Angela_Stachowa"
+  },
   "gender": "https://schema.org/Female",
   "birthDate": "1948-08-16",
   "birthPlace": {
@@ -45,46 +88,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/172382920",
     "https://de.wikipedia.org/wiki/Angela_Stachowa"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Angela Stachowa, geb. Mirtschink",
-    "forename": "Angela",
-    "surname": "Stachowa",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1948-08-16",
-    "place": "Prag",
-    "country": "Tschechoslowakei"
-  },
-  "fraktionsprotokolle:death": {
-    "date": "2022-03-29",
-    "place": "Leipzig",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 12,
-      "faction": "Grp. PDS/LL",
-      "faction_full": "Gruppe der Partei des Demokratischen Sozialismus/Linke Liste",
-      "from": "1990-12-20",
-      "to": "1994-11-10"
-    },
-    {
-      "period": 12,
-      "faction": "Fraktionslos",
-      "faction_full": "Fraktionslos",
-      "from": "1994-06-15",
-      "to": "1994-11-10"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11002211",
-    "gnd": "https://d-nb.info/gnd/172382920",
-    "wikipedia": "https://de.wikipedia.org/wiki/Angela_Stachowa",
-    "viaf": null
-  }
+  ]
 }

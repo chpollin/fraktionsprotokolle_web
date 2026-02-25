@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FrantzJustus",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FrantzJustus",
   "name": "Justus Frantz",
   "givenName": "Justus",
   "familyName": "Frantz",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1944-05-18",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Hohensalza (heute: Inowrocław, Polen)"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Pianist, Dirigent, Intendant, Musikpädagoge und Musikmanager, seit 1986 Professor an der Hamburger Musikhochschule, 1989 Berufung zum Sonderbotschafter des Hohen Flüchtlingskommissars der UNO"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/129369586",
-    "https://de.wikipedia.org/wiki/Justus_Frantz"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Justus Frantz",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/129369586",
-    "wikipedia": "https://de.wikipedia.org/wiki/Justus_Frantz",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Justus_Frantz"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1944-05-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hohensalza (heute: Inowrocław, Polen)"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Pianist, Dirigent, Intendant, Musikpädagoge und Musikmanager, seit 1986 Professor an der Hamburger Musikhochschule, 1989 Berufung zum Sonderbotschafter des Hohen Flüchtlingskommissars der UNO"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/129369586",
+    "https://de.wikipedia.org/wiki/Justus_Frantz"
+  ]
 }

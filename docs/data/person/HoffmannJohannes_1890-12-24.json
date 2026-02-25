@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HoffmannJohannes_1890-12-24",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HoffmannJohannes_1890-12-24",
   "name": "Johannes Hoffmann",
   "givenName": "Johannes",
   "familyName": "Hoffmann",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1890-12-23",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Landsweiler-Reden"
-  },
-  "deathDate": "1967-09-21",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Völklingen"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1946–1956 Vorsitzender der Christlichen Volkspartei des Saarlandes, 1947–1955 Ministerpräsident des Saarlandes"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118944959",
-    "https://de.wikipedia.org/wiki/Johannes_Hoffmann_(Politiker,_1890)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Johannes Hoffmann",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118944959",
-    "wikipedia": "https://de.wikipedia.org/wiki/Johannes_Hoffmann_(Politiker,_1890)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Johannes_Hoffmann_(Politiker,_1890)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1890-12-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Landsweiler-Reden"
+  },
+  "deathDate": "1967-09-21",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Völklingen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1946–1956 Vorsitzender der Christlichen Volkspartei des Saarlandes, 1947–1955 Ministerpräsident des Saarlandes"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118944959",
+    "https://de.wikipedia.org/wiki/Johannes_Hoffmann_(Politiker,_1890)"
+  ]
 }

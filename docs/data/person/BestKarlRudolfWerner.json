@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BestKarlRudolfWerner",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BestKarlRudolfWerner",
   "name": "Karl Rudolf Werner Best",
   "givenName": "Karl Rudolf Werner",
   "familyName": "Best",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1903-07-10",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Darmstadt"
-  },
-  "deathDate": "1989-06-23",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Mülheim an der Ruhr"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1942–1945 Bevollmächtigter des Deutschen Reichs in Dänemark"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118844458",
-    "https://de.wikipedia.org/wiki/Werner_Best_(NSDAP)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Karl Rudolf Werner Best",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118844458",
-    "wikipedia": "https://de.wikipedia.org/wiki/Werner_Best_(NSDAP)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Werner_Best_(NSDAP)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1903-07-10",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Darmstadt"
+  },
+  "deathDate": "1989-06-23",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Mülheim an der Ruhr"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1942–1945 Bevollmächtigter des Deutschen Reichs in Dänemark"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118844458",
+    "https://de.wikipedia.org/wiki/Werner_Best_(NSDAP)"
+  ]
 }

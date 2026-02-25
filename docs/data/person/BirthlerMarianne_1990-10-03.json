@@ -1,37 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BirthlerMarianne_1990-10-03",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BirthlerMarianne_1990-10-03",
   "name": "Marianne Birthler",
   "givenName": "Marianne",
   "familyName": "Birthler",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1948-01-22",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Landesministerin a. D. (BB), ehem. Bundesbeauftragte für die Stasiunterlagen [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion Die Grünen/Bündnis 90",
-        "alternateName": "Grüne/B90"
-      },
-      "startDate": "1990-10-03",
-      "endDate": "1990-12-20"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/128621877"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Marianne Birthler",
@@ -62,8 +38,31 @@
   ],
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000184",
-    "gnd": "https://d-nb.info/gnd/128621877",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/128621877"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1948-01-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Landesministerin a. D. (BB), ehem. Bundesbeauftragte für die Stasiunterlagen [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Die Grünen/Bündnis 90",
+        "alternateName": "Grüne/B90"
+      },
+      "startDate": "1990-10-03",
+      "endDate": "1990-12-20"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/128621877"
+  ]
 }

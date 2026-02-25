@@ -1,10 +1,53 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ProchazkaHerbert_1965-10-19",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ProchazkaHerbert_1965-10-19",
   "name": "Herbert Prochazka",
   "givenName": "Herbert",
   "familyName": "Prochazka",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Herbert Prochazka",
+    "forename": "Herbert",
+    "surname": "Prochazka",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1923-08-23",
+    "place": "Groß-Priesen/Elbe (heute: Velké Březno, Tschechische Republik)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2007-03-11",
+    "place": "Bruckmühl",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 5,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    },
+    {
+      "period": 6,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1972-09-18",
+      "to": "1972-09-22"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001755",
+    "gnd": "https://d-nb.info/gnd/101652885X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Herbert_Prochazka"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1923-08-23",
   "birthPlace": {
@@ -45,46 +88,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/101652885X",
     "https://de.wikipedia.org/wiki/Herbert_Prochazka"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Herbert Prochazka",
-    "forename": "Herbert",
-    "surname": "Prochazka",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1923-08-23",
-    "place": "Groß-Priesen/Elbe (heute: Velké Březno, Tschechische Republik)",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "2007-03-11",
-    "place": "Bruckmühl",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 5,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1965-10-19",
-      "to": "1969-10-19"
-    },
-    {
-      "period": 6,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1972-09-18",
-      "to": "1972-09-22"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11001755",
-    "gnd": "https://d-nb.info/gnd/101652885X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Herbert_Prochazka",
-    "viaf": null
-  }
+  ]
 }

@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RappAlfred",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RappAlfred",
   "name": "Alfred Rapp",
   "givenName": "Alfred",
   "familyName": "Rapp",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1903-01-03",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Karlsruhe"
-  },
-  "deathDate": "1991",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1949–1975 Bonner Korrespondent der »FAZ«, 1953–1965 Vorsitzender des Presseclubs Bonn"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1107647495",
-    "https://de.wikipedia.org/wiki/Alfred_Rapp"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Alfred Rapp",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1107647495",
-    "wikipedia": "https://de.wikipedia.org/wiki/Alfred_Rapp",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Alfred_Rapp"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1903-01-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Karlsruhe"
+  },
+  "deathDate": "1991",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1949–1975 Bonner Korrespondent der »FAZ«, 1953–1965 Vorsitzender des Presseclubs Bonn"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1107647495",
+    "https://de.wikipedia.org/wiki/Alfred_Rapp"
+  ]
 }

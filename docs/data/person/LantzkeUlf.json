@@ -1,29 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "LantzkeUlf",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/LantzkeUlf",
   "name": "Ulf Lantzke",
   "givenName": "Ulf",
   "familyName": "Lantzke",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1927-06-09",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Reierort/Mark Brandenburg"
-  },
-  "deathDate": "1986-01-31",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Paris"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Jurist, 1957–1968 Leiter der Abteilung Wettbewerbsfragen in der Europäischen Gemeinschaft für Kohle und Stahl im Bundesministerium für Wirtschaft, 1968–1974 Abteilungsleiter Energiepolitik und Grundstoffe, 1974–1984 Executive director der International Energy Agency der OECD in Paris, 1977 FDP-Stadtverordneter in Bonn"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/170013138"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Ulf Lantzke",
@@ -45,9 +29,24 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/170013138",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/170013138"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1927-06-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Reierort/Mark Brandenburg"
+  },
+  "deathDate": "1986-01-31",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Jurist, 1957–1968 Leiter der Abteilung Wettbewerbsfragen in der Europäischen Gemeinschaft für Kohle und Stahl im Bundesministerium für Wirtschaft, 1968–1974 Abteilungsleiter Energiepolitik und Grundstoffe, 1974–1984 Executive director der International Energy Agency der OECD in Paris, 1977 FDP-Stadtverordneter in Bonn"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/170013138"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MeinsHolger",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MeinsHolger",
   "name": "Holger Meins",
   "givenName": "Holger Klaus",
   "familyName": "Meins",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1941-10-26",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Hamburg-Eimsbüttel"
-  },
-  "deathDate": "1974-11-09",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Wittlich"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Filmemacher"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/11858023X",
-    "https://de.wikipedia.org/wiki/Holger_Meins"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Holger Meins",
@@ -46,10 +29,27 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/11858023X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Holger_Meins",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Holger_Meins"
   },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1941-10-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hamburg-Eimsbüttel"
+  },
+  "deathDate": "1974-11-09",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Wittlich"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Filmemacher"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/11858023X",
+    "https://de.wikipedia.org/wiki/Holger_Meins"
+  ],
   "fraktionsprotokolle:sonstiges": "Mitglied der terroristischen Vereinigung »Rote Armee Fraktion« (RAF)"
 }

@@ -1,24 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ReinhardtHermann",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ReinhardtHermann",
   "name": "Hermann Reinhardt",
   "givenName": "Hermann",
   "familyName": "Reinhardt",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1898",
-  "birthPlace": null,
-  "deathDate": "1972",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Ministerialdirektor, Leiter der Abteilung »Außenwirtschaft und Entwicklungshilfe« im Bundesministerium für Wirtschaft"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1030229015",
-    "https://de.wikipedia.org/wiki/Hermann_Reinhardt_(Beamter)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hermann Reinhardt",
@@ -40,9 +29,18 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1030229015",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hermann_Reinhardt_(Beamter)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hermann_Reinhardt_(Beamter)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1898",
+  "deathDate": "1972",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Ministerialdirektor, Leiter der Abteilung »Außenwirtschaft und Entwicklungshilfe« im Bundesministerium für Wirtschaft"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1030229015",
+    "https://de.wikipedia.org/wiki/Hermann_Reinhardt_(Beamter)"
+  ]
 }

@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BlechKlaus",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BlechKlaus",
   "name": "Klaus Wolfgang Günther Blech",
   "givenName": "Klaus Wolfgang Günther",
   "familyName": "Blech",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1928-08-14",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Stuttgart"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "politischer Beamter und Diplomat, 1974 – Mai 1977 Ministerialdirektor und Leiter des Planungsstabs im Auswärtigen Amt, dann bis 1981 Leiter der Abteilung 2 »Politische Abteilung«, 1984–1989 Chef des Bundespräsidialamts"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/105452521",
-    "https://de.wikipedia.org/wiki/Klaus_Blech"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Klaus Wolfgang Günther Blech",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/105452521",
-    "wikipedia": "https://de.wikipedia.org/wiki/Klaus_Blech",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Klaus_Blech"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1928-08-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Stuttgart"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "politischer Beamter und Diplomat, 1974 – Mai 1977 Ministerialdirektor und Leiter des Planungsstabs im Auswärtigen Amt, dann bis 1981 Leiter der Abteilung 2 »Politische Abteilung«, 1984–1989 Chef des Bundespräsidialamts"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/105452521",
+    "https://de.wikipedia.org/wiki/Klaus_Blech"
+  ]
 }

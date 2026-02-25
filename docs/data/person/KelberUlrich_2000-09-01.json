@@ -1,18 +1,85 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KelberUlrich_2000-09-01",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KelberUlrich_2000-09-01",
   "name": "Ulrich Kelber",
   "givenName": "Ulrich",
   "familyName": "Kelber",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Ulrich Kelber",
+    "forename": "Ulrich",
+    "surname": "Kelber",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1968-03-29",
+    "place": "Bamberg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 14,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "2000-09-01",
+      "to": "2002-10-17"
+    },
+    {
+      "period": 15,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "2002-10-17",
+      "to": "2005-10-18"
+    },
+    {
+      "period": 16,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "2005-10-18",
+      "to": "2009-10-27"
+    },
+    {
+      "period": 17,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "2009-10-27",
+      "to": "2013-10-22"
+    },
+    {
+      "period": 18,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "2013-10-22",
+      "to": "2017-10-24"
+    },
+    {
+      "period": 19,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "2017-10-24",
+      "to": "2019-01-06"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11003450"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1968-03-29",
   "birthPlace": {
     "@type": "Place",
     "name": "Bamberg"
   },
-  "deathDate": null,
-  "deathPlace": null,
   "hasOccupation": {
     "@type": "Occupation",
     "name": "Dipl.-Informatiker [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
@@ -78,75 +145,5 @@
       "startDate": "2017-10-24",
       "endDate": "2019-01-06"
     }
-  ],
-  "sameAs": null,
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Ulrich Kelber",
-    "forename": "Ulrich",
-    "surname": "Kelber",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1968-03-29",
-    "place": "Bamberg",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": null,
-    "place": "",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 14,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "2000-09-01",
-      "to": "2002-10-17"
-    },
-    {
-      "period": 15,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "2002-10-17",
-      "to": "2005-10-18"
-    },
-    {
-      "period": 16,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "2005-10-18",
-      "to": "2009-10-27"
-    },
-    {
-      "period": 17,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "2009-10-27",
-      "to": "2013-10-22"
-    },
-    {
-      "period": 18,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "2013-10-22",
-      "to": "2017-10-24"
-    },
-    {
-      "period": 19,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "2017-10-24",
-      "to": "2019-01-06"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11003450",
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
-  }
+  ]
 }

@@ -1,58 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ScharrenbroichHeribert_1985-06-19",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ScharrenbroichHeribert_1985-06-19",
   "name": "Heribert Scharrenbroich",
   "givenName": "Heribert",
   "familyName": "Scharrenbroich",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1940-03-08",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Köln"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Geschäftsführer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1985-06-19",
-      "endDate": "1987-02-18"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1987-02-18",
-      "endDate": "1990-12-20"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1990-12-20",
-      "endDate": "1994-03-23"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1029148260",
-    "https://de.wikipedia.org/wiki/Heribert_Scharrenbroich"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Heribert Scharrenbroich",
@@ -98,8 +53,53 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001945",
     "gnd": "https://d-nb.info/gnd/1029148260",
-    "wikipedia": "https://de.wikipedia.org/wiki/Heribert_Scharrenbroich",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Heribert_Scharrenbroich"
   },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1940-03-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Köln"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Geschäftsführer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1985-06-19",
+      "endDate": "1987-02-18"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1987-02-18",
+      "endDate": "1990-12-20"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-03-23"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1029148260",
+    "https://de.wikipedia.org/wiki/Heribert_Scharrenbroich"
+  ],
   "fraktionsprotokolle:sonstiges": "1977–1985 Hauptgeschäftsführer der Christlich-Demokratischen Arbeitnehmerschaft Deutschlands (CDA), Vorsitzender des Kuratoriums von CARE Deutschland"
 }

@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "LeibingChristian_1955-08-08",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/LeibingChristian_1955-08-08",
   "name": "Christian Leibing",
   "givenName": "Christian",
   "familyName": "Leibing",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1905-11-23",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Radelstetten/b. Ulm, Donau"
-  },
-  "deathDate": "1997-07-21",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Ulm"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Bauer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1955-08-08",
-      "endDate": "1957-10-06"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1119854695",
-    "https://de.wikipedia.org/wiki/Christian_Leibing"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Christian Leibing",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001308",
     "gnd": "https://d-nb.info/gnd/1119854695",
-    "wikipedia": "https://de.wikipedia.org/wiki/Christian_Leibing",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Christian_Leibing"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1905-11-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Radelstetten/b. Ulm, Donau"
+  },
+  "deathDate": "1997-07-21",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Ulm"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Bauer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1955-08-08",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1119854695",
+    "https://de.wikipedia.org/wiki/Christian_Leibing"
+  ]
 }

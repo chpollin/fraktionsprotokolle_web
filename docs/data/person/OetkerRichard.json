@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "OetkerRichard",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/OetkerRichard",
   "name": "Richard Oetker",
   "givenName": "Richard",
   "familyName": "Oetker",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1951-01-04",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Bielefeld"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Brau- und Agrarwissenschaftler, Unternehmer, seit 1996 Geschäftsführer der Nahrungsmittelsparte der Dr. August Oetker KG, Beisitzer und Vorstand der Hilfsorganisation Weißer Ring e. V. für Kriminalitätsopfer und ihre Familien"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119519542",
-    "https://de.wikipedia.org/wiki/Richard_Oetker"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Richard Oetker",
@@ -43,10 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119519542",
-    "wikipedia": "https://de.wikipedia.org/wiki/Richard_Oetker",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Richard_Oetker"
   },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1951-01-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bielefeld"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Brau- und Agrarwissenschaftler, Unternehmer, seit 1996 Geschäftsführer der Nahrungsmittelsparte der Dr. August Oetker KG, Beisitzer und Vorstand der Hilfsorganisation Weißer Ring e. V. für Kriminalitätsopfer und ihre Familien"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119519542",
+    "https://de.wikipedia.org/wiki/Richard_Oetker"
+  ],
   "fraktionsprotokolle:sonstiges": "wurde am 14. Dezember 1976 entführt und nach der Zahlung von 21 Millionen DM Lösegeld am 16. Dezember 1976 schwer verletzt freigelassen"
 }

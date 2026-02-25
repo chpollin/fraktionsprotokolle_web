@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BergmannRudi",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BergmannRudi",
   "name": "Rudi Bergmann",
   "givenName": "Rudi",
   "familyName": "Bergmann",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1916-03-15",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Braunsberg, Ostpreußen (heute: Braniewo, Polen)"
-  },
-  "deathDate": "2003-01-19",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1957–1978 Mitglied der CDU-Fraktion in der Hamburgischen Bürgerschaft"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1013780760",
-    "https://de.wikipedia.org/wiki/Rudi_Bergmann"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Rudi Bergmann",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1013780760",
-    "wikipedia": "https://de.wikipedia.org/wiki/Rudi_Bergmann",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Rudi_Bergmann"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1916-03-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Braunsberg, Ostpreußen (heute: Braniewo, Polen)"
+  },
+  "deathDate": "2003-01-19",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1957–1978 Mitglied der CDU-Fraktion in der Hamburgischen Bürgerschaft"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1013780760",
+    "https://de.wikipedia.org/wiki/Rudi_Bergmann"
+  ]
 }

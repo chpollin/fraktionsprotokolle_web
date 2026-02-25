@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HalaczErichvon",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HalaczErichvon",
   "name": "Erich von Halacz",
   "givenName": "Erich Cedrick",
   "familyName": "Halacz",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1929-11-29",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Düsseldorf"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "deutscher Sprengstoff-Attentäter; 1952 verurteilt"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1034746057",
-    "https://de.wikipedia.org/wiki/Erich_von_Halacz"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Erich von Halacz",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1034746057",
-    "wikipedia": "https://de.wikipedia.org/wiki/Erich_von_Halacz",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Erich_von_Halacz"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1929-11-29",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Düsseldorf"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Sprengstoff-Attentäter; 1952 verurteilt"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1034746057",
+    "https://de.wikipedia.org/wiki/Erich_von_Halacz"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "StrickrodtGeorg",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/StrickrodtGeorg",
   "name": "Georg Strickrodt",
   "givenName": "Georg",
   "familyName": "Strickrodt",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1902-03-05",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Kassel"
-  },
-  "deathDate": "1989-02-28",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Darmstadt"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1946–1950 niedersächsischer Finanzminister und 1947–1951 MdL Niedersachsen (CDU), 1951–1954 leitende Tätigkeit in der chemischen Industrie (Merck), 1954–1965 Professor für Finanz- und Steuerrecht an der TU Darmstadt"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/105032468",
-    "https://de.wikipedia.org/wiki/Georg_Strickrodt"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Georg Strickrodt",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/105032468",
-    "wikipedia": "https://de.wikipedia.org/wiki/Georg_Strickrodt",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Georg_Strickrodt"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1902-03-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kassel"
+  },
+  "deathDate": "1989-02-28",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Darmstadt"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1946–1950 niedersächsischer Finanzminister und 1947–1951 MdL Niedersachsen (CDU), 1951–1954 leitende Tätigkeit in der chemischen Industrie (Merck), 1954–1965 Professor für Finanz- und Steuerrecht an der TU Darmstadt"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/105032468",
+    "https://de.wikipedia.org/wiki/Georg_Strickrodt"
+  ]
 }

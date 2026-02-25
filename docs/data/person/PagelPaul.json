@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PagelPaul",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PagelPaul",
   "name": "Paul Pagel",
   "givenName": "Paul",
   "familyName": "Pagel",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1894-12-29",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Bredenfelde/Mecklenburg"
-  },
-  "deathDate": "1955-08-11",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Kiel"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1946–1947 und 1950–1955 MdL Schleswig-Holstein (CDU), 1950–1955 Innenminister und bis 1954 zugleich Kultusminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/116015535",
-    "https://de.wikipedia.org/wiki/Paul_Pagel"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Paul Pagel",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/116015535",
-    "wikipedia": "https://de.wikipedia.org/wiki/Paul_Pagel",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Paul_Pagel"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1894-12-29",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bredenfelde/Mecklenburg"
+  },
+  "deathDate": "1955-08-11",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Kiel"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1946–1947 und 1950–1955 MdL Schleswig-Holstein (CDU), 1950–1955 Innenminister und bis 1954 zugleich Kultusminister"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/116015535",
+    "https://de.wikipedia.org/wiki/Paul_Pagel"
+  ]
 }

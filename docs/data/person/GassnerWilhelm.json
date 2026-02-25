@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GassnerWilhelm",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GassnerWilhelm",
   "name": "Wilhelm Gaßner",
   "givenName": "Wilhelm",
   "familyName": "Gaßner",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1906-04-05",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Stammham bei Ingolstadt"
-  },
-  "deathDate": "1959-06-14",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Neuburg a.d. Donau"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Landrat des Landkreises Neuburg a.d. Donau, MdL (CSU)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/137559631",
-    "https://de.wikipedia.org/wiki/Wilhelm_Ga%C3%9Fner"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Wilhelm Gaßner",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/137559631",
-    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_Ga%C3%9Fner",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_Ga%C3%9Fner"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1906-04-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Stammham bei Ingolstadt"
+  },
+  "deathDate": "1959-06-14",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Neuburg a.d. Donau"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Landrat des Landkreises Neuburg a.d. Donau, MdL (CSU)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/137559631",
+    "https://de.wikipedia.org/wiki/Wilhelm_Ga%C3%9Fner"
+  ]
 }

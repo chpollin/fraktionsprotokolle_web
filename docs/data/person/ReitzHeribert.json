@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ReitzHeribert",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ReitzHeribert",
   "name": "Heribert Reitz",
   "givenName": "Heribert",
   "familyName": "Reitz",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1930-06-01",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Offheim (heute: Limburg-Offheim)"
-  },
-  "deathDate": "2018-03-11",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Limburg-Offheim"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1962–1991 MdL Hessen (davon 1968–1970 Vorsitzender des Haushaltsausschusses sowie 1970–1972 Vorsitzender der SPD-Fraktion), 1972–1984 Finanzminister des Landes Hessen, 1982–1984 kommissarische Leitung des hessischen Ministeriums für Wirtschaft und Technik"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/116432616",
-    "https://de.wikipedia.org/wiki/Heribert_Reitz"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Heribert Reitz",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/116432616",
-    "wikipedia": "https://de.wikipedia.org/wiki/Heribert_Reitz",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Heribert_Reitz"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1930-06-01",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Offheim (heute: Limburg-Offheim)"
+  },
+  "deathDate": "2018-03-11",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Limburg-Offheim"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1962–1991 MdL Hessen (davon 1968–1970 Vorsitzender des Haushaltsausschusses sowie 1970–1972 Vorsitzender der SPD-Fraktion), 1972–1984 Finanzminister des Landes Hessen, 1982–1984 kommissarische Leitung des hessischen Ministeriums für Wirtschaft und Technik"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/116432616",
+    "https://de.wikipedia.org/wiki/Heribert_Reitz"
+  ]
 }

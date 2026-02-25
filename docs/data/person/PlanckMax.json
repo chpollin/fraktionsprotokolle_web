@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PlanckMax",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PlanckMax",
   "name": "Max Planck",
   "givenName": "Max",
   "familyName": "Planck",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1858-04-23",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Kiel"
-  },
-  "deathDate": "1947-10-04",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Göttingen"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "deutscher Physiker, 1918 Nobelpreis für Physik"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118594818",
-    "https://de.wikipedia.org/wiki/Max_Planck"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Max Planck",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118594818",
-    "wikipedia": "https://de.wikipedia.org/wiki/Max_Planck",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Max_Planck"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1858-04-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kiel"
+  },
+  "deathDate": "1947-10-04",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Göttingen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Physiker, 1918 Nobelpreis für Physik"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118594818",
+    "https://de.wikipedia.org/wiki/Max_Planck"
+  ]
 }

@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "NoelBakerFrancisEdward",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/NoelBakerFrancisEdward",
   "name": "Francis Edward Noel-Baker",
   "givenName": "Francis Edward",
   "familyName": "Noel-Baker",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1920-01-07",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "London"
-  },
-  "deathDate": "2009-09-29",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1945–1950 und 1955–1969 Abgeordneter des britischen Unterhauses"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118992279",
-    "https://en.wikipedia.org/wiki/Francis_Noel-Baker"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Francis Edward Noel-Baker",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118992279",
-    "wikipedia": "https://en.wikipedia.org/wiki/Francis_Noel-Baker",
-    "viaf": null
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/Francis_Noel-Baker"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1920-01-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "London"
+  },
+  "deathDate": "2009-09-29",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1945–1950 und 1955–1969 Abgeordneter des britischen Unterhauses"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118992279",
+    "https://en.wikipedia.org/wiki/Francis_Noel-Baker"
+  ]
 }

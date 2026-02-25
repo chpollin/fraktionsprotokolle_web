@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchornsteinJohannes",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchornsteinJohannes",
   "name": "Johannes Schornstein",
   "givenName": "Johannes",
   "familyName": "Schornstein",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1909-03-23",
-  "birthPlace": null,
-  "deathDate": "1976-01-30",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1965–1969 Staatssekretär im Bundesministerium für Wohnungswesen und Städtebau"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/13644184X"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Johannes Schornstein",
@@ -39,9 +29,16 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/13644184X",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/13644184X"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1909-03-23",
+  "deathDate": "1976-01-30",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1965–1969 Staatssekretär im Bundesministerium für Wohnungswesen und Städtebau"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/13644184X"
+  ]
 }

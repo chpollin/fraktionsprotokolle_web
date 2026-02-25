@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PollackWerner",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PollackWerner",
   "name": "Werner Pollack",
   "givenName": "Werner",
   "familyName": "Pollack",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1886-08-02",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Gumbinnen, Ostpreußen (heute: Gussew, Russische Oblast Kaliningrad)"
-  },
-  "deathDate": "1979-11-21",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Wiesbaden"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Verwaltungsjurist"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/124953956",
-    "https://de.wikipedia.org/wiki/Werner_Pollack"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Werner Pollack",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/124953956",
-    "wikipedia": "https://de.wikipedia.org/wiki/Werner_Pollack",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Werner_Pollack"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1886-08-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Gumbinnen, Ostpreußen (heute: Gussew, Russische Oblast Kaliningrad)"
+  },
+  "deathDate": "1979-11-21",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Wiesbaden"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Verwaltungsjurist"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/124953956",
+    "https://de.wikipedia.org/wiki/Werner_Pollack"
+  ]
 }

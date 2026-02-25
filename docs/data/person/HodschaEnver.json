@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HodschaEnver",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HodschaEnver",
   "name": "Enver Hodscha",
   "givenName": "Enver",
   "familyName": "Hodscha",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1908-10-16",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Gjirokastra"
-  },
-  "deathDate": "1985-04-11",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Tirana"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1944–1985 Generalsekretär des Zentralkomitees der Albanischen Arbeiterpartei"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118553879",
-    "https://de.wikipedia.org/wiki/Enver_Hoxha"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Enver Hodscha",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118553879",
-    "wikipedia": "https://de.wikipedia.org/wiki/Enver_Hoxha",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Enver_Hoxha"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1908-10-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Gjirokastra"
+  },
+  "deathDate": "1985-04-11",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Tirana"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1944–1985 Generalsekretär des Zentralkomitees der Albanischen Arbeiterpartei"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118553879",
+    "https://de.wikipedia.org/wiki/Enver_Hoxha"
+  ]
 }

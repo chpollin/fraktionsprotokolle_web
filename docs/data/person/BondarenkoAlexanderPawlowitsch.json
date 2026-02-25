@@ -1,21 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BondarenkoAlexanderPawlowitsch",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BondarenkoAlexanderPawlowitsch",
   "name": "Alexander Pawlowitsch Bondarenko",
   "givenName": "Alexander Pawlowitsch",
   "familyName": "Bondarenko",
-  "gender": "https://schema.org/Male",
-  "birthDate": null,
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1967–1971 Gesandter und Vertreter des Botschafters an der sowjetischen Botschaft in Bonn; 1971–1991 Leiter der III. Europäischen Abteilung im sowjetischen Außenministerium"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Alexander Pawlowitsch Bondarenko",
@@ -36,10 +28,10 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Male",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1967–1971 Gesandter und Vertreter des Botschafters an der sowjetischen Botschaft in Bonn; 1971–1991 Leiter der III. Europäischen Abteilung im sowjetischen Außenministerium"
   }
 }

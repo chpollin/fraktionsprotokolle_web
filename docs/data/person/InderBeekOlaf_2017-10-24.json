@@ -1,34 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "InderBeekOlaf_2017-10-24",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/InderBeekOlaf_2017-10-24",
   "name": "Olaf In der Beek",
   "givenName": "Olaf",
   "familyName": "In der Beek",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1967-07-31",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Bochum"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "selbst. Unternehmer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Freien Demokratischen Partei",
-        "alternateName": "FDP"
-      },
-      "startDate": "2017-10-24"
-    }
-  ],
-  "sameAs": null,
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Olaf In der Beek",
@@ -58,9 +37,27 @@
     }
   ],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11004667",
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
-  }
+    "mdb_stammdaten": "11004667"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1967-07-31",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bochum"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "selbst. Unternehmer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "2017-10-24"
+    }
+  ]
 }

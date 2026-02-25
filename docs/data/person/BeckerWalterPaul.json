@@ -1,24 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BeckerWalterPaul",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BeckerWalterPaul",
   "name": "Walter Paul",
   "givenName": "Walter Paul",
   "familyName": "Becker",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1928-04-15",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Trier"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Direktor beim Landtag von Rheinland-Pfalz"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Walter Paul",
@@ -39,10 +28,15 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Male",
+  "birthDate": "1928-04-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Trier"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Direktor beim Landtag von Rheinland-Pfalz"
   }
 }

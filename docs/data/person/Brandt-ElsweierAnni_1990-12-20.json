@@ -1,10 +1,60 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "Brandt-ElsweierAnni_1990-12-20",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/Brandt-ElsweierAnni_1990-12-20",
   "name": "Anni Brandt-Elsweier",
   "givenName": "Anni",
   "familyName": "Brandt-Elsweier",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Anni Brandt-Elsweier",
+    "forename": "Anni",
+    "surname": "Brandt-Elsweier",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1932-03-02",
+    "place": "Duisburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2017-09-01",
+    "place": "Neuss",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 12,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1990-12-20",
+      "to": "1994-11-10"
+    },
+    {
+      "period": 13,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1994-11-10",
+      "to": "1998-10-26"
+    },
+    {
+      "period": 14,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1998-10-26",
+      "to": "2002-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000247",
+    "gnd": "https://d-nb.info/gnd/1120310644",
+    "wikipedia": "https://de.wikipedia.org/wiki/Anni_Brandt-Elsweier"
+  },
   "gender": "https://schema.org/Female",
   "birthDate": "1932-03-02",
   "birthPlace": {
@@ -55,53 +105,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/1120310644",
     "https://de.wikipedia.org/wiki/Anni_Brandt-Elsweier"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Anni Brandt-Elsweier",
-    "forename": "Anni",
-    "surname": "Brandt-Elsweier",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1932-03-02",
-    "place": "Duisburg",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "2017-09-01",
-    "place": "Neuss",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 12,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1990-12-20",
-      "to": "1994-11-10"
-    },
-    {
-      "period": 13,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1994-11-10",
-      "to": "1998-10-26"
-    },
-    {
-      "period": 14,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1998-10-26",
-      "to": "2002-10-17"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11000247",
-    "gnd": "https://d-nb.info/gnd/1120310644",
-    "wikipedia": "https://de.wikipedia.org/wiki/Anni_Brandt-Elsweier",
-    "viaf": null
-  }
+  ]
 }

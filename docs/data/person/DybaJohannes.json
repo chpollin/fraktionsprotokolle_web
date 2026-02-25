@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DybaJohannes",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DybaJohannes",
   "name": "Johannes Dyba",
   "givenName": "Johannes",
   "familyName": "Dyba",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1929-09-15",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "deathDate": "2000-07-23",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Fulda"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "römisch-katholischer Erzbischof, diplomatischer Dienst für die römische Kurie, u. a. in Monrovia, 1983–2000 Bischof von Fulda, 1990–2000 auch Militärbischof der Bundeswehr"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119089246",
-    "https://de.wikipedia.org/wiki/Johannes_Dyba"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Johannes Dyba",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119089246",
-    "wikipedia": "https://de.wikipedia.org/wiki/Johannes_Dyba",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Johannes_Dyba"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1929-09-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "2000-07-23",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Fulda"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "römisch-katholischer Erzbischof, diplomatischer Dienst für die römische Kurie, u. a. in Monrovia, 1983–2000 Bischof von Fulda, 1990–2000 auch Militärbischof der Bundeswehr"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119089246",
+    "https://de.wikipedia.org/wiki/Johannes_Dyba"
+  ]
 }

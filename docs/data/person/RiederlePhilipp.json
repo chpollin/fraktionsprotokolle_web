@@ -1,21 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RiederlePhilipp",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RiederlePhilipp",
   "name": "Philipp Riederle",
   "givenName": "Philipp",
   "familyName": "Riederle",
-  "gender": "https://schema.org/Male",
-  "birthDate": null,
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Geschäftsführer des Bundesverbands Deutscher Zeitungsverleger"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Philipp Riederle",
@@ -36,10 +28,10 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Male",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Geschäftsführer des Bundesverbands Deutscher Zeitungsverleger"
   }
 }

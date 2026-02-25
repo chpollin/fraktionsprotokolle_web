@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KennedyEdward",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KennedyEdward",
   "name": "Edward Kennedy",
   "givenName": "Edward",
   "familyName": "Kennedy",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1932-02-22",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Boston, Massachusetts"
-  },
-  "deathDate": "2009-08-25",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Hyannis Port, Massachusetts"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "US-Senator für den Bundesstaat Massachusetts"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/11877705X",
-    "https://de.wikipedia.org/wiki/Edward_Kennedy"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Edward Kennedy",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/11877705X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Edward_Kennedy",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Edward_Kennedy"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1932-02-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Boston, Massachusetts"
+  },
+  "deathDate": "2009-08-25",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hyannis Port, Massachusetts"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "US-Senator für den Bundesstaat Massachusetts"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/11877705X",
+    "https://de.wikipedia.org/wiki/Edward_Kennedy"
+  ]
 }

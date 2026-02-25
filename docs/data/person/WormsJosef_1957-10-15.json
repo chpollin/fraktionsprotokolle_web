@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WormsJosef_1957-10-15",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WormsJosef_1957-10-15",
   "name": "Josef Worms",
   "givenName": "Josef",
   "familyName": "Worms",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1895-02-23",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Beverungen/Weser"
-  },
-  "deathDate": "1985-07-03",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Hanau"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Hauptlehrer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1957-10-15",
-      "endDate": "1961-10-15"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1246429721",
-    "https://de.wikipedia.org/wiki/Josef_Worms"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Josef Worms",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11002564",
     "gnd": "https://d-nb.info/gnd/1246429721",
-    "wikipedia": "https://de.wikipedia.org/wiki/Josef_Worms",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Josef_Worms"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1895-02-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Beverungen/Weser"
+  },
+  "deathDate": "1985-07-03",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hanau"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Hauptlehrer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1957-10-15",
+      "endDate": "1961-10-15"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1246429721",
+    "https://de.wikipedia.org/wiki/Josef_Worms"
+  ]
 }

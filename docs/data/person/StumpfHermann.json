@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "StumpfHermann",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/StumpfHermann",
   "name": "Hermann Stumpf",
   "givenName": "Hermann",
   "familyName": "Stumpf",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1912-10-09",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Germersheim"
-  },
-  "deathDate": "1997-03-18",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Köln"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Jurist, 1964–1977 Senatspräsident, 1977–1980 Vizepräsident des Bundesarbeitsgerichts"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118619691",
-    "https://de.wikipedia.org/wiki/Hermann_Stumpf"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hermann Stumpf",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118619691",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hermann_Stumpf",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hermann_Stumpf"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1912-10-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Germersheim"
+  },
+  "deathDate": "1997-03-18",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Köln"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Jurist, 1964–1977 Senatspräsident, 1977–1980 Vizepräsident des Bundesarbeitsgerichts"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118619691",
+    "https://de.wikipedia.org/wiki/Hermann_Stumpf"
+  ]
 }

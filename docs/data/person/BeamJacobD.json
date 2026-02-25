@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BeamJacobD",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BeamJacobD",
   "name": "Jacob D. Beam",
   "givenName": "Jacob D.",
   "familyName": "Beam",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1908",
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1961–1966 stellvertretender Direktor der US-amerikanischen Abrüstungsbehörde, 1966–1969 Botschafter in der Tschechoslowakei"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/123554101"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Jacob D. Beam",
@@ -39,9 +29,15 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/123554101",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/123554101"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1908",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1961–1966 stellvertretender Direktor der US-amerikanischen Abrüstungsbehörde, 1966–1969 Botschafter in der Tschechoslowakei"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/123554101"
+  ]
 }

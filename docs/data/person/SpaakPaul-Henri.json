@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SpaakPaul-Henri",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SpaakPaul-Henri",
   "name": "Paul-Henri Spaak",
   "givenName": "Paul-Henri",
   "familyName": "Spaak",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1899-01-25",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Schaerbeek bei Brüssel"
-  },
-  "deathDate": "1972-07-31",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Braine-l`Alleud"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1938/39, 1946, 1947–1949 belgischer Premierminister, 1952–1954 Präsident der Gemeinsamen Versammlung der EGKS, 1956–1961 Generalsekretär des NATO-Rates, 1961–1966 belgischer Außenminister, stv. Premierminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/117485691",
-    "https://de.wikipedia.org/wiki/Paul-Henri_Spaak"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Paul-Henri Spaak",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/117485691",
-    "wikipedia": "https://de.wikipedia.org/wiki/Paul-Henri_Spaak",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Paul-Henri_Spaak"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1899-01-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Schaerbeek bei Brüssel"
+  },
+  "deathDate": "1972-07-31",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Braine-l`Alleud"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1938/39, 1946, 1947–1949 belgischer Premierminister, 1952–1954 Präsident der Gemeinsamen Versammlung der EGKS, 1956–1961 Generalsekretär des NATO-Rates, 1961–1966 belgischer Außenminister, stv. Premierminister"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/117485691",
+    "https://de.wikipedia.org/wiki/Paul-Henri_Spaak"
+  ]
 }

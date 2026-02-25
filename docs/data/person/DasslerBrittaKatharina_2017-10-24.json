@@ -1,34 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DasslerBrittaKatharina_2017-10-24",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DasslerBrittaKatharina_2017-10-24",
   "name": "Britta Katharina Dassler",
   "givenName": "Britta Katharina",
   "familyName": "Dassler",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1964-07-22",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Jülich"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Unternehmerin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Freien Demokratischen Partei",
-        "alternateName": "FDP"
-      },
-      "startDate": "2017-10-24"
-    }
-  ],
-  "sameAs": null,
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Britta Katharina Dassler",
@@ -58,9 +37,27 @@
     }
   ],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11004700",
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
-  }
+    "mdb_stammdaten": "11004700"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1964-07-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Jülich"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Unternehmerin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "2017-10-24"
+    }
+  ]
 }

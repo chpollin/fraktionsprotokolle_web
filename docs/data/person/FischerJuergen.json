@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FischerJuergen",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FischerJuergen",
   "name": "Jürgen Fischer",
   "givenName": "Jürgen",
   "familyName": "Fischer",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1923-07-22",
-  "birthPlace": null,
-  "deathDate": "1994-06-06",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Köln"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "deutscher Wissenschaftsmanager, 1954–1980 Generalsekretär der Westdeutschen Rektorenkonferenz"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1024210650",
-    "https://de.wikipedia.org/wiki/J%C3%BCrgen_Fischer_(Manager)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Jürgen Fischer",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1024210650",
-    "wikipedia": "https://de.wikipedia.org/wiki/J%C3%BCrgen_Fischer_(Manager)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/J%C3%BCrgen_Fischer_(Manager)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1923-07-22",
+  "deathDate": "1994-06-06",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Köln"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Wissenschaftsmanager, 1954–1980 Generalsekretär der Westdeutschen Rektorenkonferenz"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1024210650",
+    "https://de.wikipedia.org/wiki/J%C3%BCrgen_Fischer_(Manager)"
+  ]
 }

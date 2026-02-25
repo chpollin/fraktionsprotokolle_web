@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WinklerAugustChristian",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WinklerAugustChristian",
   "name": "August Christian Winkler",
   "givenName": "August Christian",
   "familyName": "Winkler",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1900-01-09",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Köln-Ehrenfeld"
-  },
-  "deathDate": "1961-10-31",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Kaufmännischer Angestellter, Gewerkschaftsfunktionär und aktivistischer Katholik, 1930–1933 MdR (Zentrum), 1954–1961 MdL Bayern (CSU), 1947–1961 Geschäftsführer des Bayerischen Handwerkstags"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/13014553X",
-    "https://de.wikipedia.org/wiki/August_Christian_Winkler"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "August Christian Winkler",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/13014553X",
-    "wikipedia": "https://de.wikipedia.org/wiki/August_Christian_Winkler",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/August_Christian_Winkler"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1900-01-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Köln-Ehrenfeld"
+  },
+  "deathDate": "1961-10-31",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Kaufmännischer Angestellter, Gewerkschaftsfunktionär und aktivistischer Katholik, 1930–1933 MdR (Zentrum), 1954–1961 MdL Bayern (CSU), 1947–1961 Geschäftsführer des Bayerischen Handwerkstags"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/13014553X",
+    "https://de.wikipedia.org/wiki/August_Christian_Winkler"
+  ]
 }

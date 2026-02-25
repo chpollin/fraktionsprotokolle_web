@@ -1,10 +1,53 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WaechterGerold_1961-10-17",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WaechterGerold_1961-10-17",
   "name": "Gerold Wächter",
   "givenName": "Gerold",
   "familyName": "Wächter",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Gerold Wächter",
+    "forename": "Gerold",
+    "surname": "Wächter",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1906-02-15",
+    "place": "Esenshamm/Oldenburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1992-09-10",
+    "place": "Nordenham",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 4,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    },
+    {
+      "period": 5,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002402",
+    "gnd": "https://d-nb.info/gnd/1206138300",
+    "wikipedia": "https://de.wikipedia.org/wiki/Gerold_W%C3%A4chter"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1906-02-15",
   "birthPlace": {
@@ -45,46 +88,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/1206138300",
     "https://de.wikipedia.org/wiki/Gerold_W%C3%A4chter"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Gerold Wächter",
-    "forename": "Gerold",
-    "surname": "Wächter",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1906-02-15",
-    "place": "Esenshamm/Oldenburg",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1992-09-10",
-    "place": "Nordenham",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 4,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1961-10-17",
-      "to": "1965-10-17"
-    },
-    {
-      "period": 5,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1965-10-19",
-      "to": "1969-10-19"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11002402",
-    "gnd": "https://d-nb.info/gnd/1206138300",
-    "wikipedia": "https://de.wikipedia.org/wiki/Gerold_W%C3%A4chter",
-    "viaf": null
-  }
+  ]
 }

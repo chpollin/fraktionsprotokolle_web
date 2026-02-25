@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "McCarthyJoseph",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/McCarthyJoseph",
   "name": "Joseph McCarthy",
   "givenName": "Joseph Raymond",
   "familyName": "McCarthy",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1908-11-14",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Grand Chute, Wisconsin"
-  },
-  "deathDate": "1957-05-02",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bethesda, Maryland"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "US-amerikanischer Politiker (Republikanische Partei), 1947–1957 US-Senator für Wisconsin"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118575678",
-    "https://de.wikipedia.org/wiki/Joseph_McCarthy"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Joseph McCarthy",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118575678",
-    "wikipedia": "https://de.wikipedia.org/wiki/Joseph_McCarthy",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Joseph_McCarthy"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1908-11-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Grand Chute, Wisconsin"
+  },
+  "deathDate": "1957-05-02",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bethesda, Maryland"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "US-amerikanischer Politiker (Republikanische Partei), 1947–1957 US-Senator für Wisconsin"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118575678",
+    "https://de.wikipedia.org/wiki/Joseph_McCarthy"
+  ]
 }

@@ -1,38 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GrunnerJosef_1957-06-11",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GrunnerJosef_1957-06-11",
   "name": "Josef Grunner",
   "givenName": "Josef",
   "familyName": "Grunner",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1904-06-10",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Atzelsdorf"
-  },
-  "deathDate": "1984-11-27",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Redakteur [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1957-06-11",
-      "endDate": "1957-06-21"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/132836514X",
-    "https://de.wikipedia.org/wiki/Josef_Grunner"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Josef Grunner",
@@ -64,7 +39,33 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000744",
     "gnd": "https://d-nb.info/gnd/132836514X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Josef_Grunner",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Josef_Grunner"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1904-06-10",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Atzelsdorf"
+  },
+  "deathDate": "1984-11-27",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Redakteur [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1957-06-11",
+      "endDate": "1957-06-21"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/132836514X",
+    "https://de.wikipedia.org/wiki/Josef_Grunner"
+  ]
 }

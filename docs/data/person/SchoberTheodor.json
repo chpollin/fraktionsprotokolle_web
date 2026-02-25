@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchoberTheodor",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchoberTheodor",
   "name": "Theodor Schober",
   "givenName": "Theodor",
   "familyName": "Schober",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1918-08-10",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Zirndorf bei Nürnberg"
-  },
-  "deathDate": "2010-07-26",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Loßburg bei Freudenstadt"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "ev.-luth. Pfarrer und Sozialpolitiker, 1955–1963 Rektor des Diakoniewerkes Neuendettelsau, 1963–1984 Präsident des Diakonischen Werkes der Evangelischen Kirche in Deutschland, 1979–1988 Präsident des Internationalen Verbandes für Innere Mission und Diakonie, 1980–1981 Präsident der Deutschen Krankenhausgesellschaft (DKG)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118609858",
-    "https://de.wikipedia.org/wiki/Theodor_Schober_(Pfarrer)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Theodor Schober",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118609858",
-    "wikipedia": "https://de.wikipedia.org/wiki/Theodor_Schober_(Pfarrer)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Theodor_Schober_(Pfarrer)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1918-08-10",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Zirndorf bei Nürnberg"
+  },
+  "deathDate": "2010-07-26",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Loßburg bei Freudenstadt"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "ev.-luth. Pfarrer und Sozialpolitiker, 1955–1963 Rektor des Diakoniewerkes Neuendettelsau, 1963–1984 Präsident des Diakonischen Werkes der Evangelischen Kirche in Deutschland, 1979–1988 Präsident des Internationalen Verbandes für Innere Mission und Diakonie, 1980–1981 Präsident der Deutschen Krankenhausgesellschaft (DKG)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118609858",
+    "https://de.wikipedia.org/wiki/Theodor_Schober_(Pfarrer)"
+  ]
 }

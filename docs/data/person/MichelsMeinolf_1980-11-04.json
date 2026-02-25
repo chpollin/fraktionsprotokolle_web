@@ -1,10 +1,80 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MichelsMeinolf_1980-11-04",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MichelsMeinolf_1980-11-04",
   "name": "Meinolf Michels",
   "givenName": "Meinolf",
   "familyName": "Michels",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Meinolf Michels",
+    "forename": "Meinolf",
+    "surname": "Michels",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1935-11-02",
+    "place": "Großeneder/Krs. Höxter",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2019-03-04",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 9,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1980-11-04",
+      "to": "1983-03-29"
+    },
+    {
+      "period": 10,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1983-03-29",
+      "to": "1987-02-18"
+    },
+    {
+      "period": 11,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1987-02-18",
+      "to": "1990-12-20"
+    },
+    {
+      "period": 12,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1990-12-20",
+      "to": "1994-11-10"
+    },
+    {
+      "period": 13,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1994-11-10",
+      "to": "1998-10-26"
+    },
+    {
+      "period": 14,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1998-10-26",
+      "to": "2002-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001502",
+    "gnd": "https://d-nb.info/gnd/189549068"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1935-11-02",
   "birthPlace": {
@@ -12,7 +82,6 @@
     "name": "Großeneder/Krs. Höxter"
   },
   "deathDate": "2019-03-04",
-  "deathPlace": null,
   "hasOccupation": {
     "@type": "Occupation",
     "name": "Landwirt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
@@ -81,74 +150,5 @@
   ],
   "sameAs": [
     "https://d-nb.info/gnd/189549068"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Meinolf Michels",
-    "forename": "Meinolf",
-    "surname": "Michels",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1935-11-02",
-    "place": "Großeneder/Krs. Höxter",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "2019-03-04",
-    "place": "",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 9,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1980-11-04",
-      "to": "1983-03-29"
-    },
-    {
-      "period": 10,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1983-03-29",
-      "to": "1987-02-18"
-    },
-    {
-      "period": 11,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1987-02-18",
-      "to": "1990-12-20"
-    },
-    {
-      "period": 12,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1990-12-20",
-      "to": "1994-11-10"
-    },
-    {
-      "period": 13,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1994-11-10",
-      "to": "1998-10-26"
-    },
-    {
-      "period": 14,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1998-10-26",
-      "to": "2002-10-17"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11001502",
-    "gnd": "https://d-nb.info/gnd/189549068",
-    "wikipedia": null,
-    "viaf": null
-  }
+  ]
 }

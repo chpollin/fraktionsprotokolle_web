@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HindenburgPaulvonBeneckendorffundvon",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HindenburgPaulvonBeneckendorffundvon",
   "name": "Paul von Beneckendorff und von Hindenburg",
   "givenName": "Paul",
   "familyName": "Beneckendorff und Hindenburg",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1847-10-02",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Posen, Südpreußen (heute: Poznań, Polen)"
-  },
-  "deathDate": "1934-08-02",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Gut Neudeck, Ostpreußen (heute: Ogrodzieniec, Polen)"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Generalfeldmarschall, 1925–1934 Reichspräsident"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118551264",
-    "https://de.wikipedia.org/wiki/Paul_von_Hindenburg"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Paul von Beneckendorff und von Hindenburg",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118551264",
-    "wikipedia": "https://de.wikipedia.org/wiki/Paul_von_Hindenburg",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Paul_von_Hindenburg"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1847-10-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Posen, Südpreußen (heute: Poznań, Polen)"
+  },
+  "deathDate": "1934-08-02",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Gut Neudeck, Ostpreußen (heute: Ogrodzieniec, Polen)"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Generalfeldmarschall, 1925–1934 Reichspräsident"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118551264",
+    "https://de.wikipedia.org/wiki/Paul_von_Hindenburg"
+  ]
 }

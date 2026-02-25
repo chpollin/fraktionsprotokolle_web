@@ -1,10 +1,74 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BesoldAnton_1949-09-07",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BesoldAnton_1949-09-07",
   "name": "Anton Besold",
   "givenName": "Anton",
   "familyName": "Besold",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Anton Besold",
+    "forename": "Anton",
+    "surname": "Besold",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1904-01-13",
+    "place": "Weßling/Oberbayern",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1991-09-20",
+    "place": "Oberhaching",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "BP",
+      "faction_full": "Fraktion Bayernpartei",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 1,
+      "faction": "FU",
+      "faction_full": "Fraktion Föderalistische Union",
+      "from": "1951-12-14",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 3,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 4,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    },
+    {
+      "period": 5,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000166",
+    "gnd": "https://d-nb.info/gnd/123429919",
+    "wikipedia": "https://de.wikipedia.org/wiki/Anton_Besold"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1904-01-13",
   "birthPlace": {
@@ -75,67 +139,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/123429919",
     "https://de.wikipedia.org/wiki/Anton_Besold"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Anton Besold",
-    "forename": "Anton",
-    "surname": "Besold",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1904-01-13",
-    "place": "Weßling/Oberbayern",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1991-09-20",
-    "place": "Oberhaching",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 1,
-      "faction": "BP",
-      "faction_full": "Fraktion Bayernpartei",
-      "from": "1949-09-07",
-      "to": "1953-09-07"
-    },
-    {
-      "period": 1,
-      "faction": "FU",
-      "faction_full": "Fraktion Föderalistische Union",
-      "from": "1951-12-14",
-      "to": "1953-09-07"
-    },
-    {
-      "period": 3,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1957-10-15",
-      "to": "1961-10-15"
-    },
-    {
-      "period": 4,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1961-10-17",
-      "to": "1965-10-17"
-    },
-    {
-      "period": 5,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1965-10-19",
-      "to": "1969-10-19"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11000166",
-    "gnd": "https://d-nb.info/gnd/123429919",
-    "wikipedia": "https://de.wikipedia.org/wiki/Anton_Besold",
-    "viaf": null
-  }
+  ]
 }

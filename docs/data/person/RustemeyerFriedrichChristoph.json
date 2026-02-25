@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RustemeyerFriedrichChristoph",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RustemeyerFriedrichChristoph",
   "name": "Friedrich Christoph Rustemeyer",
   "givenName": "Friedrich Christoph",
   "familyName": "Rustemeyer",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1934",
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Diplomlandwirt, in den 1960er Jahren Tätigkeit am Institut für landwirtschaftliche Marktlehre der Universität Göttingen, seit 1981 Parlamentsreferent des Bundesministeriums für Ernährung, Landwirtschaft und Forsten"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1211108546"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Friedrich Christoph Rustemeyer",
@@ -39,9 +29,15 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/1211108546",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/1211108546"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1934",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Diplomlandwirt, in den 1960er Jahren Tätigkeit am Institut für landwirtschaftliche Marktlehre der Universität Göttingen, seit 1981 Parlamentsreferent des Bundesministeriums für Ernährung, Landwirtschaft und Forsten"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1211108546"
+  ]
 }

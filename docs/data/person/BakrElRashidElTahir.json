@@ -1,26 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BakrElRashidElTahir",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BakrElRashidElTahir",
   "name": "El Rashid El Tahir Bakr, auch: ar-Raschid at-Tahir Bakr",
   "givenName": "El Rashid El Tahir",
   "familyName": "Bakr",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1932",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Karkaudsch, Provinz an-Nil al-azraq (heute: Bundesstaat Sannar)"
-  },
-  "deathDate": "1988-03-11",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "sudanesischer Politiker, von 1974 an Vorsitzender der Nationalversammlung, 1976–1977 Premierminister, 1977–1980 sudanesischer Außenminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Raschid_Bakr"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "El Rashid El Tahir Bakr, auch: ar-Raschid at-Tahir Bakr",
@@ -42,9 +29,20 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://de.wikipedia.org/wiki/Raschid_Bakr",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Raschid_Bakr"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1932",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Karkaudsch, Provinz an-Nil al-azraq (heute: Bundesstaat Sannar)"
+  },
+  "deathDate": "1988-03-11",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "sudanesischer Politiker, von 1974 an Vorsitzender der Nationalversammlung, 1976–1977 Premierminister, 1977–1980 sudanesischer Außenminister"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Raschid_Bakr"
+  ]
 }

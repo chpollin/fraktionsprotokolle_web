@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WeberRobert",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WeberRobert",
   "name": "Robert Weber",
   "givenName": "Robert",
   "familyName": "Weber",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1906-01-24",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Karlsruhe"
-  },
-  "deathDate": "1987-08-17",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Heidelberg"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1958–1966 Oberbürgermeister von Heidelberg"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1012773477",
-    "https://de.wikipedia.org/wiki/Robert_Weber_(Politiker)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Robert Weber",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1012773477",
-    "wikipedia": "https://de.wikipedia.org/wiki/Robert_Weber_(Politiker)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Robert_Weber_(Politiker)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1906-01-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Karlsruhe"
+  },
+  "deathDate": "1987-08-17",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Heidelberg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1958–1966 Oberbürgermeister von Heidelberg"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1012773477",
+    "https://de.wikipedia.org/wiki/Robert_Weber_(Politiker)"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FrankAnne",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FrankAnne",
   "name": "Anne Frank",
   "givenName": "Annelies Marie",
   "familyName": "Frank",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1929-06-12",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Frankfurt am Main"
-  },
-  "deathDate": "1945",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "KZ Bergen-Belsen"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Schülerin"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118534734",
-    "https://de.wikipedia.org/wiki/Anne_Frank"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Anne Frank",
@@ -46,10 +29,27 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118534734",
-    "wikipedia": "https://de.wikipedia.org/wiki/Anne_Frank",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Anne_Frank"
   },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1929-06-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Frankfurt am Main"
+  },
+  "deathDate": "1945",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "KZ Bergen-Belsen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Schülerin"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118534734",
+    "https://de.wikipedia.org/wiki/Anne_Frank"
+  ],
   "fraktionsprotokolle:sonstiges": "emigierte 1934 mit ihren Eltern und ihrer Schwester Margot in die Niederlande, um der Verfolgung durch die Nazis zu entgehen, fiel kurz vor dem Ende des Zweiten Weltkriegs dem Holocaust zum Opfer, ihre Erlebnisse und Gedanken wurden nach dem Krieg als »Tagebuch der Anne Frank« von ihrem Vater Otto Frank veröffentlicht"
 }

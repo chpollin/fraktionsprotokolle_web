@@ -1,34 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KonradCarina_2017-10-24",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KonradCarina_2017-10-24",
   "name": "Carina Konrad",
   "givenName": "Carina",
   "familyName": "Konrad",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1982-09-19",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Simmern/ Hunsrück"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Dipl.-Agraringenieurin (FH) [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Freien Demokratischen Partei",
-        "alternateName": "FDP"
-      },
-      "startDate": "2017-10-24"
-    }
-  ],
-  "sameAs": null,
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Carina Konrad",
@@ -58,9 +37,27 @@
     }
   ],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11004789",
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
-  }
+    "mdb_stammdaten": "11004789"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1982-09-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Simmern/ Hunsrück"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Agraringenieurin (FH) [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "2017-10-24"
+    }
+  ]
 }

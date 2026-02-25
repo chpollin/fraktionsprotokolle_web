@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "Keese-PhilippsHenning",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/Keese-PhilippsHenning",
   "name": "Henning Keese-Philipps",
   "givenName": "Henning",
   "familyName": "Keese-Philipps",
-  "gender": "https://schema.org/Male",
-  "birthDate": null,
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Pädagoge, Mitglied der Bundesarbeitsgemeinschaft »Bildung« der Grünen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1156968887"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Henning Keese-Philipps",
@@ -39,9 +29,14 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/1156968887",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/1156968887"
+  },
+  "gender": "https://schema.org/Male",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Pädagoge, Mitglied der Bundesarbeitsgemeinschaft »Bildung« der Grünen"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1156968887"
+  ]
 }

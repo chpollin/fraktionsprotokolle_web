@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "TernJuergen",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/TernJuergen",
   "name": "Jürgen Tern",
   "givenName": "Jürgen",
   "familyName": "Tern",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1909-07-01",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Nordleda"
-  },
-  "deathDate": "1975-02-20",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Frankfurt am Main"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Journalist, Publizist und politischer Kommentator, 1960–1970 Mitherausgeber der »Frankfurter Allgemeinen Zeitung«"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/117273309",
-    "https://de.wikipedia.org/wiki/J%C3%BCrgen_Tern"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Jürgen Tern",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/117273309",
-    "wikipedia": "https://de.wikipedia.org/wiki/J%C3%BCrgen_Tern",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/J%C3%BCrgen_Tern"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1909-07-01",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Nordleda"
+  },
+  "deathDate": "1975-02-20",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Frankfurt am Main"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist, Publizist und politischer Kommentator, 1960–1970 Mitherausgeber der »Frankfurter Allgemeinen Zeitung«"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/117273309",
+    "https://de.wikipedia.org/wiki/J%C3%BCrgen_Tern"
+  ]
 }

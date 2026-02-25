@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "StudnitzHansGeorgvon",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/StudnitzHansGeorgvon",
   "name": "Hans Georg von Studnitz",
   "givenName": "Hans Georg",
   "familyName": "Studnitz",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1907-08-31",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Potsdam"
-  },
-  "deathDate": "1993-07-16",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Rimsting/Chiemsee"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Journalist und Publizist, 1940–1945 wissenschaftlicher Mitarbeiter der Presseabteilung des Auswärtigen Amtes, 1955–1961 Pressechef der Lufthansa, anschließend fester Mitarbeiter der Zeitungen »Christ und Welt« und »Welt am Sonntag«, später u. a. Kolumnist für den »Bayernkurier«"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118756184",
-    "https://de.wikipedia.org/wiki/Hans_Georg_von_Studnitz"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hans Georg von Studnitz",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118756184",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Georg_von_Studnitz",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Georg_von_Studnitz"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1907-08-31",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Potsdam"
+  },
+  "deathDate": "1993-07-16",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Rimsting/Chiemsee"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist und Publizist, 1940–1945 wissenschaftlicher Mitarbeiter der Presseabteilung des Auswärtigen Amtes, 1955–1961 Pressechef der Lufthansa, anschließend fester Mitarbeiter der Zeitungen »Christ und Welt« und »Welt am Sonntag«, später u. a. Kolumnist für den »Bayernkurier«"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118756184",
+    "https://de.wikipedia.org/wiki/Hans_Georg_von_Studnitz"
+  ]
 }

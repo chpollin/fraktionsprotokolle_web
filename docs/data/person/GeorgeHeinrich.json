@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GeorgeHeinrich",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GeorgeHeinrich",
   "name": "Heinrich George, geb. Georg August Friedrich Hermann Schulz",
   "givenName": "Heinrich",
   "familyName": "George",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1893-10-09",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Stettin (heute: Szczecin, Polen)"
-  },
-  "deathDate": "1946-09-25",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Speziallager Sachsenhausen, Oranienburg"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Schauspieler"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118690507",
-    "https://de.wikipedia.org/wiki/Heinrich_George"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Heinrich George, geb. Georg August Friedrich Hermann Schulz",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118690507",
-    "wikipedia": "https://de.wikipedia.org/wiki/Heinrich_George",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Heinrich_George"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1893-10-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Stettin (heute: Szczecin, Polen)"
+  },
+  "deathDate": "1946-09-25",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Speziallager Sachsenhausen, Oranienburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Schauspieler"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118690507",
+    "https://de.wikipedia.org/wiki/Heinrich_George"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ZechWalther",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ZechWalther",
   "name": "Walther Zech",
   "givenName": "Walther",
   "familyName": "Zech",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1918-11-12",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Stettin (heute: Szczecin, Polen)"
-  },
-  "deathDate": "2010-03-08",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Mainz"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Bankkaufmann und Verleger, seit 1962 Geschäftsführer bzw. Herausgeber der Mainzer Verlagsanstalt (MVA) und Druckerei Will & Rothe KG/Allgemeinen Zeitung (später umbenannt in Verlagsgruppe Rhein Main), seit 1982 Geschäftsführer des Verlags Haase & Köhler, 1974–1981 Vizepräsident des BDZV und Mitglied des Hauptvorstandes im Bundesverband Druck"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1117616088",
-    "https://de.wikipedia.org/wiki/Walther_Zech"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Walther Zech",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1117616088",
-    "wikipedia": "https://de.wikipedia.org/wiki/Walther_Zech",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Walther_Zech"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1918-11-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Stettin (heute: Szczecin, Polen)"
+  },
+  "deathDate": "2010-03-08",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Mainz"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Bankkaufmann und Verleger, seit 1962 Geschäftsführer bzw. Herausgeber der Mainzer Verlagsanstalt (MVA) und Druckerei Will & Rothe KG/Allgemeinen Zeitung (später umbenannt in Verlagsgruppe Rhein Main), seit 1982 Geschäftsführer des Verlags Haase & Köhler, 1974–1981 Vizepräsident des BDZV und Mitglied des Hauptvorstandes im Bundesverband Druck"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1117616088",
+    "https://de.wikipedia.org/wiki/Walther_Zech"
+  ]
 }

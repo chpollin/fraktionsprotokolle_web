@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SelbertElisabeth",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SelbertElisabeth",
   "name": "Elisabeth Selbert, geb. Rohde",
   "givenName": "Martha Elisabeth",
   "familyName": "Selbert",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1896-09-22",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Kassel"
-  },
-  "deathDate": "1986-06-09",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Kassel"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Juristin, SPD-Politikerin, Mitglied des Parlamentarischen Rates 1948/49 (eine der vier »Mütter des Grundgesetzes«)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118977253",
-    "https://de.wikipedia.org/wiki/Elisabeth_Selbert"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Elisabeth Selbert, geb. Rohde",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118977253",
-    "wikipedia": "https://de.wikipedia.org/wiki/Elisabeth_Selbert",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Elisabeth_Selbert"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1896-09-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kassel"
+  },
+  "deathDate": "1986-06-09",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Kassel"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Juristin, SPD-Politikerin, Mitglied des Parlamentarischen Rates 1948/49 (eine der vier »Mütter des Grundgesetzes«)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118977253",
+    "https://de.wikipedia.org/wiki/Elisabeth_Selbert"
+  ]
 }

@@ -1,10 +1,53 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MaierReinhold_1953-10-06",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MaierReinhold_1953-10-06",
   "name": "Reinhold Maier",
   "givenName": "Reinhold",
   "familyName": "Maier",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Reinhold Maier",
+    "forename": "Reinhold",
+    "surname": "Maier",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Stuttgart)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1889-10-16",
+    "place": "Schorndorf",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1971-08-19",
+    "place": "Stuttgart",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1953-10-06",
+      "to": "1956-05-14"
+    },
+    {
+      "period": 3,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1957-10-15",
+      "to": "1959-09-30"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001413",
+    "gnd": "https://d-nb.info/gnd/118576410",
+    "wikipedia": "https://de.wikipedia.org/wiki/Reinhold_Maier"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1889-10-16",
   "birthPlace": {
@@ -45,46 +88,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/118576410",
     "https://de.wikipedia.org/wiki/Reinhold_Maier"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Reinhold Maier",
-    "forename": "Reinhold",
-    "surname": "Maier",
-    "prefix": "",
-    "role_name": "",
-    "place": "(Stuttgart)"
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1889-10-16",
-    "place": "Schorndorf",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1971-08-19",
-    "place": "Stuttgart",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 2,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1953-10-06",
-      "to": "1956-05-14"
-    },
-    {
-      "period": 3,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1957-10-15",
-      "to": "1959-09-30"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11001413",
-    "gnd": "https://d-nb.info/gnd/118576410",
-    "wikipedia": "https://de.wikipedia.org/wiki/Reinhold_Maier",
-    "viaf": null
-  }
+  ]
 }

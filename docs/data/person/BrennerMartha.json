@@ -1,21 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BrennerMartha",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BrennerMartha",
   "name": "Martha Brenner, geb. Werner",
   "givenName": "Martha Marie",
   "familyName": "Brenner",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1908-03-13",
-  "birthPlace": null,
-  "deathDate": "1980-06-24",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Arbeiterin, Hausfrau und Funktionärin der Arbeiterbewegung (SAJ, SPD, SAP sowie Fabrikarbeiterverband (FAV))"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Martha Brenner, geb. Werner",
@@ -36,10 +28,12 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Female",
+  "birthDate": "1908-03-13",
+  "deathDate": "1980-06-24",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Arbeiterin, Hausfrau und Funktionärin der Arbeiterbewegung (SAJ, SPD, SAP sowie Fabrikarbeiterverband (FAV))"
   }
 }

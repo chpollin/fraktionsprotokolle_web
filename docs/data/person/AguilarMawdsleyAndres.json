@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "AguilarMawdsleyAndres",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/AguilarMawdsleyAndres",
   "name": "Andrés Aguilar Mawdsley",
   "givenName": "Andrés",
   "familyName": "Aguilar Mawdsley",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1924-07-10",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Caracas"
-  },
-  "deathDate": "1995-10-24",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Den Haag"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "venezolanischer Jurist und Diplomat, 1958–1962 Justizminister Venezuelas, 1969 bis 1972 als ständiger Vertreter beim UN-Hauptquartier in New York City, Ausschussvorsitzender bei der UNO-Seerechtskonferenz, 1981 im UN-Menschenrechtsausschuss, 1991–1995 Richter am Internationalen Gerichtshof in Den Haag"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/131660330",
-    "https://de.wikipedia.org/wiki/Andr%C3%A9s_Aguilar_Mawdsley"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Andrés Aguilar Mawdsley",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/131660330",
-    "wikipedia": "https://de.wikipedia.org/wiki/Andr%C3%A9s_Aguilar_Mawdsley",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Andr%C3%A9s_Aguilar_Mawdsley"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1924-07-10",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Caracas"
+  },
+  "deathDate": "1995-10-24",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Den Haag"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "venezolanischer Jurist und Diplomat, 1958–1962 Justizminister Venezuelas, 1969 bis 1972 als ständiger Vertreter beim UN-Hauptquartier in New York City, Ausschussvorsitzender bei der UNO-Seerechtskonferenz, 1981 im UN-Menschenrechtsausschuss, 1991–1995 Richter am Internationalen Gerichtshof in Den Haag"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/131660330",
+    "https://de.wikipedia.org/wiki/Andr%C3%A9s_Aguilar_Mawdsley"
+  ]
 }

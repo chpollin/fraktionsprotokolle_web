@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "JellinekWalter",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/JellinekWalter",
   "name": "Walter Jellinek",
   "givenName": "Walter",
   "familyName": "Jellinek",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1885-07-12",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Wien"
-  },
-  "deathDate": "1995-06-09",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Heidelberg"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Professor für Öffentliches Recht an der Universität Heidelberg"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118711997",
-    "https://de.wikipedia.org/wiki/Walter_Jellinek"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Walter Jellinek",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118711997",
-    "wikipedia": "https://de.wikipedia.org/wiki/Walter_Jellinek",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Walter_Jellinek"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1885-07-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Wien"
+  },
+  "deathDate": "1995-06-09",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Heidelberg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Professor für Öffentliches Recht an der Universität Heidelberg"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118711997",
+    "https://de.wikipedia.org/wiki/Walter_Jellinek"
+  ]
 }

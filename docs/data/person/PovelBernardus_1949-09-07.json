@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PovelBernardus_1949-09-07",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PovelBernardus_1949-09-07",
   "name": "Bernardus Povel",
   "givenName": "Bernardus",
   "familyName": "Povel",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1897-08-28",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Amsterdam"
-  },
-  "deathDate": "1952-10-21",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Staatswissenschaftler, Unternehmer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1949-09-07",
-      "endDate": "1952-10-21"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/128254785",
-    "https://de.wikipedia.org/wiki/Bernard_Povel"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Bernardus Povel",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001742",
     "gnd": "https://d-nb.info/gnd/128254785",
-    "wikipedia": "https://de.wikipedia.org/wiki/Bernard_Povel",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Bernard_Povel"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1897-08-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Amsterdam"
+  },
+  "deathDate": "1952-10-21",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Staatswissenschaftler, Unternehmer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1952-10-21"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/128254785",
+    "https://de.wikipedia.org/wiki/Bernard_Povel"
+  ]
 }

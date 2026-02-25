@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RaischPeter",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RaischPeter",
   "name": "Peter Raisch",
   "givenName": "Peter",
   "familyName": "Raisch",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1925-04-19",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Pforzheim"
-  },
-  "deathDate": "2008-11-18",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Jurist, 1977–1990 Professor für Bürgerliches, Handels- und Wirtschaftsrecht an der Fern-Universität Hagen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119254565",
-    "https://de.wikipedia.org/wiki/Peter_Raisch_(Jurist)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Peter Raisch",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119254565",
-    "wikipedia": "https://de.wikipedia.org/wiki/Peter_Raisch_(Jurist)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Peter_Raisch_(Jurist)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1925-04-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Pforzheim"
+  },
+  "deathDate": "2008-11-18",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Jurist, 1977–1990 Professor für Bürgerliches, Handels- und Wirtschaftsrecht an der Fern-Universität Hagen"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119254565",
+    "https://de.wikipedia.org/wiki/Peter_Raisch_(Jurist)"
+  ]
 }

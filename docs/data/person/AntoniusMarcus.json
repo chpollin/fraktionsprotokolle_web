@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "AntoniusMarcus",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/AntoniusMarcus",
   "name": "Marcus Antonius",
   "givenName": "Marcus",
   "familyName": "Antonius",
-  "gender": "https://schema.org/Male",
-  "birthDate": "-0086-01-14",
-  "birthPlace": null,
-  "deathDate": "-0030-08-01",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Alexandria"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "römischer Politiker und Feldherr"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118503529",
-    "https://de.wikipedia.org/wiki/Marcus_Antonius"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Marcus Antonius",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118503529",
-    "wikipedia": "https://de.wikipedia.org/wiki/Marcus_Antonius",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Marcus_Antonius"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "-0086-01-14",
+  "deathDate": "-0030-08-01",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Alexandria"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "römischer Politiker und Feldherr"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118503529",
+    "https://de.wikipedia.org/wiki/Marcus_Antonius"
+  ]
 }

@@ -1,10 +1,53 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchusterJohann_1949-09-07",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchusterJohann_1949-09-07",
   "name": "Johann Schuster",
   "givenName": "Johann",
   "familyName": "Schuster",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Johann Schuster",
+    "forename": "Johann",
+    "surname": "Schuster",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1912-10-18",
+    "place": "Kirchheim/Schwaben",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1975-01-09",
+    "place": "Augsburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "WAV",
+      "faction_full": "Fraktion Wirtschaftliche Aufbauvereinigung",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 1,
+      "faction": "DPB",
+      "faction_full": "Fraktion Deutsche Partei Bayern",
+      "from": "1951-12-06",
+      "to": "1953-09-07"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002117",
+    "gnd": "https://d-nb.info/gnd/1313812714",
+    "wikipedia": "https://de.wikipedia.org/wiki/Johann_Schuster_(Politiker,_1912)"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1912-10-18",
   "birthPlace": {
@@ -45,46 +88,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/1313812714",
     "https://de.wikipedia.org/wiki/Johann_Schuster_(Politiker,_1912)"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Johann Schuster",
-    "forename": "Johann",
-    "surname": "Schuster",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1912-10-18",
-    "place": "Kirchheim/Schwaben",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1975-01-09",
-    "place": "Augsburg",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 1,
-      "faction": "WAV",
-      "faction_full": "Fraktion Wirtschaftliche Aufbauvereinigung",
-      "from": "1949-09-07",
-      "to": "1953-09-07"
-    },
-    {
-      "period": 1,
-      "faction": "DPB",
-      "faction_full": "Fraktion Deutsche Partei Bayern",
-      "from": "1951-12-06",
-      "to": "1953-09-07"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11002117",
-    "gnd": "https://d-nb.info/gnd/1313812714",
-    "wikipedia": "https://de.wikipedia.org/wiki/Johann_Schuster_(Politiker,_1912)",
-    "viaf": null
-  }
+  ]
 }

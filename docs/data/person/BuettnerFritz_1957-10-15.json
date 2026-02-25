@@ -1,10 +1,60 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BuettnerFritz_1957-10-15",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BuettnerFritz_1957-10-15",
   "name": "Fritz Büttner",
   "givenName": "Fritz",
   "familyName": "Büttner",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Fritz Büttner",
+    "forename": "Fritz",
+    "surname": "Büttner",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1908-12-26",
+    "place": "Weißstein (heute: Biały Kamień, Wałbrzyc, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1983-10-29",
+    "place": "Moers",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 3,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 4,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    },
+    {
+      "period": 5,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000301",
+    "gnd": "https://d-nb.info/gnd/124582869X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Fritz_B%C3%BCttner"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1908-12-26",
   "birthPlace": {
@@ -55,53 +105,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/124582869X",
     "https://de.wikipedia.org/wiki/Fritz_B%C3%BCttner"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Fritz Büttner",
-    "forename": "Fritz",
-    "surname": "Büttner",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1908-12-26",
-    "place": "Weißstein (heute: Biały Kamień, Wałbrzyc, Polen)",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1983-10-29",
-    "place": "Moers",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 3,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1957-10-15",
-      "to": "1961-10-15"
-    },
-    {
-      "period": 4,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1961-10-17",
-      "to": "1965-10-17"
-    },
-    {
-      "period": 5,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1965-10-19",
-      "to": "1969-10-19"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11000301",
-    "gnd": "https://d-nb.info/gnd/124582869X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Fritz_B%C3%BCttner",
-    "viaf": null
-  }
+  ]
 }

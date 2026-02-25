@@ -1,26 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ShopeGertrude",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ShopeGertrude",
   "name": "Gertrude Shope",
   "givenName": "Gertrude",
   "familyName": "Shope",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1925-08-15",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Johannesburg"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Politaktivistin und -funktionärin, wurde 1954 Mitglied im Afrikanischen Nationalkongress (ANC), 1966–1990 im Exil, 1981–1991 Kopf der ANC Women’s Section, ab 1985 Mitglied des National Executive Committee (NEC) der ANC, 1991–1993 Präsidentin der ANC’s Women’s League"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://en.wikipedia.org/wiki/Gertrude_Shope"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Gertrude Shope",
@@ -42,9 +29,19 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://en.wikipedia.org/wiki/Gertrude_Shope",
-    "viaf": null
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/Gertrude_Shope"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1925-08-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Johannesburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Politaktivistin und -funktionärin, wurde 1954 Mitglied im Afrikanischen Nationalkongress (ANC), 1966–1990 im Exil, 1981–1991 Kopf der ANC Women’s Section, ab 1985 Mitglied des National Executive Committee (NEC) der ANC, 1991–1993 Präsidentin der ANC’s Women’s League"
+  },
+  "sameAs": [
+    "https://en.wikipedia.org/wiki/Gertrude_Shope"
+  ]
 }

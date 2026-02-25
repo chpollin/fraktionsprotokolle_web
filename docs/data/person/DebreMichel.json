@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DebreMichel",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DebreMichel",
   "name": "Michel Debré",
   "givenName": "Michel",
   "familyName": "Debré",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1912-01-15",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Paris"
-  },
-  "deathDate": "1996-08-02",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Montlouis-sur-Loire"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "französischer Politiker, 1958–1959 Justizminister, 1959–1962 Premierminister, 1966–1968 Finanz- und Wirtschaftsminister, 1968/69 Außenminister, 1969–1973 Verteidigungsminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/11917975X",
-    "https://de.wikipedia.org/wiki/Michel_Debr%C3%A9"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Michel Debré",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/11917975X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Michel_Debr%C3%A9",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Michel_Debr%C3%A9"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1912-01-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "deathDate": "1996-08-02",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Montlouis-sur-Loire"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "französischer Politiker, 1958–1959 Justizminister, 1959–1962 Premierminister, 1966–1968 Finanz- und Wirtschaftsminister, 1968/69 Außenminister, 1969–1973 Verteidigungsminister"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/11917975X",
+    "https://de.wikipedia.org/wiki/Michel_Debr%C3%A9"
+  ]
 }

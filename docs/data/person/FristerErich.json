@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FristerErich",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FristerErich",
   "name": "Erich Frister",
   "givenName": "Erich",
   "familyName": "Frister",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1927-10-20",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "deathDate": "2005-10-30",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Lehrer und Gewerkschafter. 1968–1981 Bundesvorsitzender der Gewerkschaft Erziehung und Wissenschaft (GEW), Mitglied des DGB-Bundesvorstands"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1029886903",
-    "https://de.wikipedia.org/wiki/Erich_Frister"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Erich Frister",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1029886903",
-    "wikipedia": "https://de.wikipedia.org/wiki/Erich_Frister",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Erich_Frister"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1927-10-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "2005-10-30",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Lehrer und Gewerkschafter. 1968–1981 Bundesvorsitzender der Gewerkschaft Erziehung und Wissenschaft (GEW), Mitglied des DGB-Bundesvorstands"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1029886903",
+    "https://de.wikipedia.org/wiki/Erich_Frister"
+  ]
 }

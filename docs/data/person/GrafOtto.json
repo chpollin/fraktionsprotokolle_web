@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GrafOtto",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GrafOtto",
   "name": "Otto Graf",
   "givenName": "Otto",
   "familyName": "Graf",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1894-12-20",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Ludwigshafen am Rhein"
-  },
-  "deathDate": "1953-12-23",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bonn"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1932–1933 MdR (BVP), seit 1935 Mitglied der NSDAP, 1937–1945 Regierungspräsident in Ansbach, dann Außenstelle des Reichswirtschaftsministeriums in Fürth, 1947–1949 Präsident des Bayerischen Landeswirtschaftsamtes, 1949–1952 Ministerialdirigent im Bundesministerium für Wirtschaft, dort Leiter der Abteilung I (Wirtschaftspolitik), seit Aug. 1951 auch der Abteilung IV (Gewerbliche Wirtschaft)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/125265573",
-    "https://de.wikipedia.org/wiki/Otto_Graf_(Politiker,_1894)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Otto Graf",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/125265573",
-    "wikipedia": "https://de.wikipedia.org/wiki/Otto_Graf_(Politiker,_1894)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Otto_Graf_(Politiker,_1894)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1894-12-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Ludwigshafen am Rhein"
+  },
+  "deathDate": "1953-12-23",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1932–1933 MdR (BVP), seit 1935 Mitglied der NSDAP, 1937–1945 Regierungspräsident in Ansbach, dann Außenstelle des Reichswirtschaftsministeriums in Fürth, 1947–1949 Präsident des Bayerischen Landeswirtschaftsamtes, 1949–1952 Ministerialdirigent im Bundesministerium für Wirtschaft, dort Leiter der Abteilung I (Wirtschaftspolitik), seit Aug. 1951 auch der Abteilung IV (Gewerbliche Wirtschaft)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/125265573",
+    "https://de.wikipedia.org/wiki/Otto_Graf_(Politiker,_1894)"
+  ]
 }

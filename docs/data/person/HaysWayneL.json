@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HaysWayneL",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HaysWayneL",
   "name": "Wayne L. Hays",
   "givenName": "Wayne Levere",
   "familyName": "Hays",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1911-05-13",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Bannock, Ohio"
-  },
-  "deathDate": "1989-02-10",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Wheeling, West Virginia"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1949–1976 Mitglied des US-Repräsentantenhauses (Democratic Party), 1956 Vorsitzender der NATO-Parlamentarierkonferenz in Paris"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1030245487",
-    "https://en.wikipedia.org/wiki/Wayne_Hays"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Wayne L. Hays",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1030245487",
-    "wikipedia": "https://en.wikipedia.org/wiki/Wayne_Hays",
-    "viaf": null
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/Wayne_Hays"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1911-05-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bannock, Ohio"
+  },
+  "deathDate": "1989-02-10",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Wheeling, West Virginia"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1949–1976 Mitglied des US-Repräsentantenhauses (Democratic Party), 1956 Vorsitzender der NATO-Parlamentarierkonferenz in Paris"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1030245487",
+    "https://en.wikipedia.org/wiki/Wayne_Hays"
+  ]
 }

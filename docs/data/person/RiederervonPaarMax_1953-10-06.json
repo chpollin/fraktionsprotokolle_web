@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RiederervonPaarMax_1953-10-06",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RiederervonPaarMax_1953-10-06",
   "name": "Max Freiherr Riederer von Paar",
   "givenName": "Max",
   "familyName": "Riederer von Paar",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1897-09-02",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Wien"
-  },
-  "deathDate": "1964-01-04",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Schönau"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Gutsbesitzer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1953-10-06",
-      "endDate": "1957-10-06"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/127905529",
-    "https://de.wikipedia.org/wiki/Max_Riederer_von_Paar"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Max Freiherr Riederer von Paar",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001842",
     "gnd": "https://d-nb.info/gnd/127905529",
-    "wikipedia": "https://de.wikipedia.org/wiki/Max_Riederer_von_Paar",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Max_Riederer_von_Paar"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1897-09-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Wien"
+  },
+  "deathDate": "1964-01-04",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Schönau"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Gutsbesitzer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/127905529",
+    "https://de.wikipedia.org/wiki/Max_Riederer_von_Paar"
+  ]
 }

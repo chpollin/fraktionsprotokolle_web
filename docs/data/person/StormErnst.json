@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "StormErnst",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/StormErnst",
   "name": "Ernst Storm",
   "givenName": "Ernst",
   "familyName": "Storm",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1894-01-12",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Tarnowitz, Oberschlesien (heute: Tarnowskie Góry, Polen)"
-  },
-  "deathDate": "1980-05-23",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Wangen im Allgäu"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Hochschullehrer für Berg- und Volkswirtschaftslehre"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/133888223",
-    "https://de.wikipedia.org/wiki/Ernst_Storm"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Ernst Storm",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/133888223",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ernst_Storm",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ernst_Storm"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1894-01-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Tarnowitz, Oberschlesien (heute: Tarnowskie Góry, Polen)"
+  },
+  "deathDate": "1980-05-23",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Wangen im Allgäu"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Hochschullehrer für Berg- und Volkswirtschaftslehre"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/133888223",
+    "https://de.wikipedia.org/wiki/Ernst_Storm"
+  ]
 }

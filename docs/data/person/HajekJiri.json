@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HajekJiri",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HajekJiri",
   "name": "Jiri Hajek",
   "givenName": "Jiri",
   "familyName": "Hajek",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1913-06-06",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Khranice bei Benesov"
-  },
-  "deathDate": "1993-10-22",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Prag"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "April–Sept. 1968 tschechoslowakischer Außenminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119541467",
-    "https://de.wikipedia.org/wiki/Ji%C5%99%C3%AD_H%C3%A1jek"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Jiri Hajek",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119541467",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ji%C5%99%C3%AD_H%C3%A1jek",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ji%C5%99%C3%AD_H%C3%A1jek"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1913-06-06",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Khranice bei Benesov"
+  },
+  "deathDate": "1993-10-22",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Prag"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "April–Sept. 1968 tschechoslowakischer Außenminister"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119541467",
+    "https://de.wikipedia.org/wiki/Ji%C5%99%C3%AD_H%C3%A1jek"
+  ]
 }

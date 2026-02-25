@@ -1,29 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KostandovLeonidArkadevic",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KostandovLeonidArkadevic",
   "name": "Leonid Arkad'evič Kostandov",
   "givenName": "Leonid Arkad'evič",
   "familyName": "Kostandov",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1915-11-27",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Kerki (ehemals Atamyrat)"
-  },
-  "deathDate": "1984-09-05",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Moskau"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "stellvertretender Vorsitzender des Ministerrats der Sowjetunion, Geboren: 27. November 1915, , Verstorben: 5. September 1984, Moskau"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://it.wikipedia.org/wiki/Leonid_Arkad%27evi%C4%8D_Kostandov"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Leonid Arkad'evič Kostandov",
@@ -45,9 +29,24 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://it.wikipedia.org/wiki/Leonid_Arkad%27evi%C4%8D_Kostandov",
-    "viaf": null
-  }
+    "wikipedia": "https://it.wikipedia.org/wiki/Leonid_Arkad%27evi%C4%8D_Kostandov"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1915-11-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kerki (ehemals Atamyrat)"
+  },
+  "deathDate": "1984-09-05",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Moskau"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "stellvertretender Vorsitzender des Ministerrats der Sowjetunion, Geboren: 27. November 1915, , Verstorben: 5. September 1984, Moskau"
+  },
+  "sameAs": [
+    "https://it.wikipedia.org/wiki/Leonid_Arkad%27evi%C4%8D_Kostandov"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WoelberHans-Otto",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WoelberHans-Otto",
   "name": "Hans-Otto Wölber",
   "givenName": "Hans-Otto",
   "familyName": "Wölber",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1913-12-22",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Hamburg"
-  },
-  "deathDate": "1989-08-10",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Hamburg"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "evangelischer Theologe und Landesbischof der Evangelisch-Lutherischen Kirche im Hamburgischen Staate bzw. Bischof des Sprengels Hamburg der Nordelbischen Evangelisch-Lutherischen Kirche, Leitender Bischof der Vereinigten Evangelisch-Lutherischen Kirche Deutschlands"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118769731",
-    "https://de.wikipedia.org/wiki/Hans-Otto_W%C3%B6lber"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hans-Otto Wölber",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118769731",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hans-Otto_W%C3%B6lber",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans-Otto_W%C3%B6lber"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1913-12-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "deathDate": "1989-08-10",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "evangelischer Theologe und Landesbischof der Evangelisch-Lutherischen Kirche im Hamburgischen Staate bzw. Bischof des Sprengels Hamburg der Nordelbischen Evangelisch-Lutherischen Kirche, Leitender Bischof der Vereinigten Evangelisch-Lutherischen Kirche Deutschlands"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118769731",
+    "https://de.wikipedia.org/wiki/Hans-Otto_W%C3%B6lber"
+  ]
 }

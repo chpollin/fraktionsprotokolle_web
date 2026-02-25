@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "NeuberFriedel",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/NeuberFriedel",
   "name": "Friedel Neuber",
   "givenName": "Friedel",
   "familyName": "Neuber",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1935-07-10",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Rheinhausen"
-  },
-  "deathDate": "2004-10-23",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Duisburg"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Präsident des Rheinischen Sparkassen- und Giroverbandes, Vorstandsmitglied des Deutschen Sparkassen- und Giroverbandes"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/112857000",
-    "https://de.wikipedia.org/wiki/Friedel_Neuber"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Friedel Neuber",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/112857000",
-    "wikipedia": "https://de.wikipedia.org/wiki/Friedel_Neuber",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Friedel_Neuber"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1935-07-10",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Rheinhausen"
+  },
+  "deathDate": "2004-10-23",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Duisburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Präsident des Rheinischen Sparkassen- und Giroverbandes, Vorstandsmitglied des Deutschen Sparkassen- und Giroverbandes"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/112857000",
+    "https://de.wikipedia.org/wiki/Friedel_Neuber"
+  ]
 }

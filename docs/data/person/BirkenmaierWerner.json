@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BirkenmaierWerner",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BirkenmaierWerner",
   "name": "Werner Birkenmaier",
   "givenName": "Werner",
   "familyName": "Birkenmaier",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1934",
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Journalist, Leiter des Ressorts Innenpolitik bei der Stuttgarter Zeitung"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/107825600"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Werner Birkenmaier",
@@ -39,9 +29,15 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/107825600",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/107825600"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1934",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist, Leiter des Ressorts Innenpolitik bei der Stuttgarter Zeitung"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/107825600"
+  ]
 }

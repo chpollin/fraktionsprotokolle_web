@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WechmarRuedigerFreiherrvon",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WechmarRuedigerFreiherrvon",
   "name": "Rüdiger Freiherr von Wechmar",
   "givenName": "Rüdiger",
   "familyName": "Wechmar",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1923-11-15",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "deathDate": "2007-10-17",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Journalist, Diplomat, 1969–1972 Ministerialdirektor und stellv. Chef des Presse- und Informationsamts der Bundesregierung, 1972–1974 Staatssekretär und Chef des Presse- und Informationsamts, 1974–1981 ständiger Vertreter der Bundesrepublik bei den Vereinten Nationen, 1981–1983 Botschafter in Rom, 1983–1988 in London, 1989–1994 MdEP (FDP)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/109202325",
-    "https://de.wikipedia.org/wiki/R%C3%BCdiger_von_Wechmar"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Rüdiger Freiherr von Wechmar",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/109202325",
-    "wikipedia": "https://de.wikipedia.org/wiki/R%C3%BCdiger_von_Wechmar",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/R%C3%BCdiger_von_Wechmar"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1923-11-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "2007-10-17",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist, Diplomat, 1969–1972 Ministerialdirektor und stellv. Chef des Presse- und Informationsamts der Bundesregierung, 1972–1974 Staatssekretär und Chef des Presse- und Informationsamts, 1974–1981 ständiger Vertreter der Bundesrepublik bei den Vereinten Nationen, 1981–1983 Botschafter in Rom, 1983–1988 in London, 1989–1994 MdEP (FDP)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/109202325",
+    "https://de.wikipedia.org/wiki/R%C3%BCdiger_von_Wechmar"
+  ]
 }

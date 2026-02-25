@@ -1,10 +1,53 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchleifenbaumEckhard_1975-06-05",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchleifenbaumEckhard_1975-06-05",
   "name": "Eckhard Schleifenbaum",
   "givenName": "Eckhard",
   "familyName": "Schleifenbaum",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Eckhard Schleifenbaum",
+    "forename": "Eckhard",
+    "surname": "Schleifenbaum",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1939-01-18",
+    "place": "Siegen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1981-12-13",
+    "place": "Siegen",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 7,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1975-06-05",
+      "to": "1976-12-13"
+    },
+    {
+      "period": 8,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1979-11-26",
+      "to": "1980-11-04"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001981",
+    "gnd": "https://d-nb.info/gnd/1339365235",
+    "wikipedia": "https://de.wikipedia.org/wiki/Eckhard_Schleifenbaum"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1939-01-18",
   "birthPlace": {
@@ -45,46 +88,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/1339365235",
     "https://de.wikipedia.org/wiki/Eckhard_Schleifenbaum"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Eckhard Schleifenbaum",
-    "forename": "Eckhard",
-    "surname": "Schleifenbaum",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1939-01-18",
-    "place": "Siegen",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1981-12-13",
-    "place": "Siegen",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 7,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1975-06-05",
-      "to": "1976-12-13"
-    },
-    {
-      "period": 8,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1979-11-26",
-      "to": "1980-11-04"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11001981",
-    "gnd": "https://d-nb.info/gnd/1339365235",
-    "wikipedia": "https://de.wikipedia.org/wiki/Eckhard_Schleifenbaum",
-    "viaf": null
-  }
+  ]
 }

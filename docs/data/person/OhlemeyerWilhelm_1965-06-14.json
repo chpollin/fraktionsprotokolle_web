@@ -1,38 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "OhlemeyerWilhelm_1965-06-14",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/OhlemeyerWilhelm_1965-06-14",
   "name": "Wilhelm Ohlemeyer",
   "givenName": "Wilhelm",
   "familyName": "Ohlemeyer",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1914-12-24",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Hahlen"
-  },
-  "deathDate": "2006-10-16",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Betriebsmeister [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1965-06-14",
-      "endDate": "1965-10-17"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1276215126",
-    "https://de.wikipedia.org/wiki/Wilhelm_Ohlemeyer"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Wilhelm Ohlemeyer",
@@ -64,7 +39,33 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001642",
     "gnd": "https://d-nb.info/gnd/1276215126",
-    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_Ohlemeyer",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_Ohlemeyer"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1914-12-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hahlen"
+  },
+  "deathDate": "2006-10-16",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Betriebsmeister [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1965-06-14",
+      "endDate": "1965-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1276215126",
+    "https://de.wikipedia.org/wiki/Wilhelm_Ohlemeyer"
+  ]
 }

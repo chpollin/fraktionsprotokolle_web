@@ -1,35 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SeilerTill_2011-06-06",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SeilerTill_2011-06-06",
   "name": "Till Seiler",
   "givenName": "Till",
   "familyName": "Seiler",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1981-04-12",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Haren an der Ems"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Studienrat [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion Bündnis 90/Die Grünen",
-        "alternateName": "B90/Grüne"
-      },
-      "startDate": "2011-06-06",
-      "endDate": "2011-12-02"
-    }
-  ],
-  "sameAs": null,
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Till Seiler",
@@ -59,9 +37,28 @@
     }
   ],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11004216",
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
-  }
+    "mdb_stammdaten": "11004216"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1981-04-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Haren an der Ems"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Studienrat [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Bündnis 90/Die Grünen",
+        "alternateName": "B90/Grüne"
+      },
+      "startDate": "2011-06-06",
+      "endDate": "2011-12-02"
+    }
+  ]
 }

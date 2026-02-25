@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BaeumlerErnst",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BaeumlerErnst",
   "name": "Ernst Bäumler",
   "givenName": "Ernst",
   "familyName": "Bäumler",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1926-01-26",
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Journalist, Redakteur der »Süddeutschen Zeitung«, später Leiter der Öffentlichkeitsarbeit der Hoechst AG"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1014566142"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Ernst Bäumler",
@@ -39,9 +29,15 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/1014566142",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/1014566142"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1926-01-26",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist, Redakteur der »Süddeutschen Zeitung«, später Leiter der Öffentlichkeitsarbeit der Hoechst AG"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1014566142"
+  ]
 }

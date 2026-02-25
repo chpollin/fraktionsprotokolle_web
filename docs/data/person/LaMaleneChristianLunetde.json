@@ -1,26 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "LaMaleneChristianLunetde",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/LaMaleneChristianLunetde",
   "name": "Christian Lunet de La Malène",
   "givenName": "Christian Lunet",
   "familyName": "La Malène",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1920-12-05",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Nîmes, Département Gard"
-  },
-  "deathDate": "2007-09-26",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "französischer Politiker (UNR), 1958–1961 und 1962–1977 Mitglied der französischen Nationalversammlung"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Christian_de_La_Mal%C3%A8ne"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Christian Lunet de La Malène",
@@ -42,9 +29,20 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://de.wikipedia.org/wiki/Christian_de_La_Mal%C3%A8ne",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Christian_de_La_Mal%C3%A8ne"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1920-12-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Nîmes, Département Gard"
+  },
+  "deathDate": "2007-09-26",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "französischer Politiker (UNR), 1958–1961 und 1962–1977 Mitglied der französischen Nationalversammlung"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Christian_de_La_Mal%C3%A8ne"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "VlahovicVeljko",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/VlahovicVeljko",
   "name": "Veljko Vlahović",
   "givenName": "Veljko",
   "familyName": "Vlahović",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1914-09-02",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Trmanje"
-  },
-  "deathDate": "1975-03-07",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Genf"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Vorsitzender der Kommission für Auslandsbeziehungen des Sozialistischen Bundes Jugoslawiens"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/121796876",
-    "https://en.wikipedia.org/wiki/Veljko_Vlahovi%C4%87"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Veljko Vlahović",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/121796876",
-    "wikipedia": "https://en.wikipedia.org/wiki/Veljko_Vlahovi%C4%87",
-    "viaf": null
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/Veljko_Vlahovi%C4%87"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1914-09-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Trmanje"
+  },
+  "deathDate": "1975-03-07",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Genf"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Vorsitzender der Kommission für Auslandsbeziehungen des Sozialistischen Bundes Jugoslawiens"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/121796876",
+    "https://en.wikipedia.org/wiki/Veljko_Vlahovi%C4%87"
+  ]
 }

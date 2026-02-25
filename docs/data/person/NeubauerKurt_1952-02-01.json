@@ -1,10 +1,67 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "NeubauerKurt_1952-02-01",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/NeubauerKurt_1952-02-01",
   "name": "Kurt Neubauer",
   "givenName": "Kurt",
   "familyName": "Neubauer",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Kurt Neubauer",
+    "forename": "Kurt",
+    "surname": "Neubauer",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1922-09-30",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2012-12-09",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1952-02-01",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 2,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 3,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 4,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1961-10-17",
+      "to": "1963-04-16"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001588",
+    "gnd": "https://d-nb.info/gnd/1031598847",
+    "wikipedia": "https://de.wikipedia.org/wiki/Kurt_Neubauer_(Politiker)"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1922-09-30",
   "birthPlace": {
@@ -65,60 +122,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/1031598847",
     "https://de.wikipedia.org/wiki/Kurt_Neubauer_(Politiker)"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Kurt Neubauer",
-    "forename": "Kurt",
-    "surname": "Neubauer",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1922-09-30",
-    "place": "Berlin",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "2012-12-09",
-    "place": "Berlin",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 1,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1952-02-01",
-      "to": "1953-09-07"
-    },
-    {
-      "period": 2,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1953-10-06",
-      "to": "1957-10-06"
-    },
-    {
-      "period": 3,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1957-10-15",
-      "to": "1961-10-15"
-    },
-    {
-      "period": 4,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1961-10-17",
-      "to": "1963-04-16"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11001588",
-    "gnd": "https://d-nb.info/gnd/1031598847",
-    "wikipedia": "https://de.wikipedia.org/wiki/Kurt_Neubauer_(Politiker)",
-    "viaf": null
-  }
+  ]
 }

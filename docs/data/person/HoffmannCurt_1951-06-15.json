@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HoffmannCurt_1951-06-15",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HoffmannCurt_1951-06-15",
   "name": "Curt Hoffmann",
   "givenName": "Curt",
   "familyName": "Hoffmann",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1897-11-16",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Greifenhagen/Pommern (heute: Gryfino, Polen)"
-  },
-  "deathDate": "1961-11-29",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Lübeck"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Handelskammersyndikus a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Freien Demokratischen Partei",
-        "alternateName": "FDP"
-      },
-      "startDate": "1951-06-15",
-      "endDate": "1953-09-07"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/105290940X",
-    "https://de.wikipedia.org/wiki/Curt_Hoffmann_%28Politiker%29"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Curt Hoffmann",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000936",
     "gnd": "https://d-nb.info/gnd/105290940X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Curt_Hoffmann_%28Politiker%29",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Curt_Hoffmann_%28Politiker%29"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1897-11-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Greifenhagen/Pommern (heute: Gryfino, Polen)"
+  },
+  "deathDate": "1961-11-29",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Lübeck"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Handelskammersyndikus a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1951-06-15",
+      "endDate": "1953-09-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/105290940X",
+    "https://de.wikipedia.org/wiki/Curt_Hoffmann_%28Politiker%29"
+  ]
 }

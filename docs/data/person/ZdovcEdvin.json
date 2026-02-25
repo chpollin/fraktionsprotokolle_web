@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ZdovcEdvin",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ZdovcEdvin",
   "name": "Edvin Zdovc",
   "givenName": "Edvin",
   "familyName": "Zdovc",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1931-03-01",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Črnomelj"
-  },
-  "deathDate": "1976-02-07",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Frankfurt am Main"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "jugoslawischer Diplomat, 1971–1976 jugoslawischer Konsul in Frankfurt am Main"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Edvin Zdovc",
@@ -42,11 +28,21 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Male",
+  "birthDate": "1931-03-01",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Črnomelj"
+  },
+  "deathDate": "1976-02-07",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Frankfurt am Main"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "jugoslawischer Diplomat, 1971–1976 jugoslawischer Konsul in Frankfurt am Main"
   },
   "fraktionsprotokolle:sonstiges": "am 7. Februar 1976 ermordet"
 }

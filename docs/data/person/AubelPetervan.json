@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "AubelPetervan",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/AubelPetervan",
   "name": "Peter van Aubel",
   "givenName": "Peter",
   "familyName": "Aubel",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1894-06-05",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Düsseldorf"
-  },
-  "deathDate": "1964-04-10",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Düsseldorf"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1946–1951 Hauptgeschäftsführer des Deutschen Städtetages, 1947–1959 Vorstandsvorsitzender der Studienstiftung des deutschen Volkes, 1949–1956 Vorsitzender der Deutschen Krankenhausgesellschaft"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118650920",
-    "https://de.wikipedia.org/wiki/Peter_van_Aubel"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Peter van Aubel",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118650920",
-    "wikipedia": "https://de.wikipedia.org/wiki/Peter_van_Aubel",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Peter_van_Aubel"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1894-06-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Düsseldorf"
+  },
+  "deathDate": "1964-04-10",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Düsseldorf"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1946–1951 Hauptgeschäftsführer des Deutschen Städtetages, 1947–1959 Vorstandsvorsitzender der Studienstiftung des deutschen Volkes, 1949–1956 Vorsitzender der Deutschen Krankenhausgesellschaft"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118650920",
+    "https://de.wikipedia.org/wiki/Peter_van_Aubel"
+  ]
 }

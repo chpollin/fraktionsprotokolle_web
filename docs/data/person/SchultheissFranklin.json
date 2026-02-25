@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchultheissFranklin",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchultheissFranklin",
   "name": "Franklin Schultheiß",
   "givenName": "Franklin",
   "familyName": "Schultheiß",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1928-12-18",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Oberlind"
-  },
-  "deathDate": "2006-05-03",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Referent für politische Bildung beim Parteivorstand der SPD, 1974 bis 1992 Geschäftsführender Direktor der Bundeszentrale für politische Bildung (bpb)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1029197725",
-    "https://de.wikipedia.org/wiki/Franklin_Schulthei%C3%9F"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Franklin Schultheiß",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1029197725",
-    "wikipedia": "https://de.wikipedia.org/wiki/Franklin_Schulthei%C3%9F",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Franklin_Schulthei%C3%9F"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1928-12-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Oberlind"
+  },
+  "deathDate": "2006-05-03",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Referent für politische Bildung beim Parteivorstand der SPD, 1974 bis 1992 Geschäftsführender Direktor der Bundeszentrale für politische Bildung (bpb)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1029197725",
+    "https://de.wikipedia.org/wiki/Franklin_Schulthei%C3%9F"
+  ]
 }

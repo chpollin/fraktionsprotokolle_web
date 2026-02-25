@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HanfTheodor",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HanfTheodor",
   "name": "Theodor Hanf",
   "givenName": "Theodor",
   "familyName": "Hanf",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1936-03-20",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Düsseldorf"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Politologe und Soziologe, 1972–2006 Direktor des Arnold-Bergstraesser-Instituts in Freiburg"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/105774138",
-    "https://de.wikipedia.org/wiki/Theodor_Hanf"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Theodor Hanf",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/105774138",
-    "wikipedia": "https://de.wikipedia.org/wiki/Theodor_Hanf",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Theodor_Hanf"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1936-03-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Düsseldorf"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Politologe und Soziologe, 1972–2006 Direktor des Arnold-Bergstraesser-Instituts in Freiburg"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/105774138",
+    "https://de.wikipedia.org/wiki/Theodor_Hanf"
+  ]
 }

@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ZumachAndreas",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ZumachAndreas",
   "name": "Andreas Zumach",
   "givenName": "Andreas",
   "familyName": "Zumach",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1954-07-30",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Köln"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Journalist, 1981–1987 Referent der Aktion Sühnezeichen Friedensdienste"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/114158193",
-    "https://de.wikipedia.org/wiki/Andreas_Zumach"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Andreas Zumach",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/114158193",
-    "wikipedia": "https://de.wikipedia.org/wiki/Andreas_Zumach",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Andreas_Zumach"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1954-07-30",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Köln"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist, 1981–1987 Referent der Aktion Sühnezeichen Friedensdienste"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/114158193",
+    "https://de.wikipedia.org/wiki/Andreas_Zumach"
+  ]
 }

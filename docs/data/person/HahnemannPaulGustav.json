@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HahnemannPaulGustav",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HahnemannPaulGustav",
   "name": "Paul Gustav Hahnemann, genannt: Nischen-Paule",
   "givenName": "Paul Gustav",
   "familyName": "Hahnemann",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1912-10-31",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Straßburg, Elsass (heute: Strasbourg, Frankreich)"
-  },
-  "deathDate": "1997-01-23",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1961–1971 Vertriebsvorstand der Bayerischen Motoren Werke AG"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1060145812",
-    "https://de.wikipedia.org/wiki/Paul_G._Hahnemann"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Paul Gustav Hahnemann, genannt: Nischen-Paule",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1060145812",
-    "wikipedia": "https://de.wikipedia.org/wiki/Paul_G._Hahnemann",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Paul_G._Hahnemann"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1912-10-31",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Straßburg, Elsass (heute: Strasbourg, Frankreich)"
+  },
+  "deathDate": "1997-01-23",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1961–1971 Vertriebsvorstand der Bayerischen Motoren Werke AG"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1060145812",
+    "https://de.wikipedia.org/wiki/Paul_G._Hahnemann"
+  ]
 }

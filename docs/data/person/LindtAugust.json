@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "LindtAugust",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/LindtAugust",
   "name": "August Lindt",
   "givenName": "August",
   "familyName": "Lindt",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1905-08-05",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Bern"
-  },
-  "deathDate": "2000-04-14",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bern"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Schweizer Jurist und Diplomat, 1956–1960 Hochkommissar der Vereinten Nationen für Flüchtlinge"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119046296",
-    "https://de.wikipedia.org/wiki/August_R._Lindt"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "August Lindt",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119046296",
-    "wikipedia": "https://de.wikipedia.org/wiki/August_R._Lindt",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/August_R._Lindt"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1905-08-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bern"
+  },
+  "deathDate": "2000-04-14",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bern"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Schweizer Jurist und Diplomat, 1956–1960 Hochkommissar der Vereinten Nationen für Flüchtlinge"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119046296",
+    "https://de.wikipedia.org/wiki/August_R._Lindt"
+  ]
 }

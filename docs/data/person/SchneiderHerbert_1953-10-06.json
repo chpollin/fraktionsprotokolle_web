@@ -1,10 +1,81 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchneiderHerbert_1953-10-06",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchneiderHerbert_1953-10-06",
   "name": "Herbert Schneider",
   "givenName": "Herbert",
   "familyName": "Schneider",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Herbert Schneider",
+    "forename": "Herbert",
+    "surname": "Schneider",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Bremerhaven)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1915-11-23",
+    "place": "Straßburg, Elsass (heute: Strasbourg, Frankreich)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1995-12-12",
+    "place": "Königswinter",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "DP",
+      "faction_full": "Fraktion Deutsche Partei",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 2,
+      "faction": "DP/FVP",
+      "faction_full": "Fraktion Deutsche Partei/Freie Volkspartei",
+      "from": "1957-03-14",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 3,
+      "faction": "DP",
+      "faction_full": "Fraktion Deutsche Partei",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 3,
+      "faction": "Grp. DP",
+      "faction_full": "Gruppe Deutsche Partei",
+      "from": "1960-07-02",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 3,
+      "faction": "Fraktionslos",
+      "faction_full": "Fraktionslos",
+      "from": "1961-05-03",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 6,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1969-10-20",
+      "to": "1972-09-22"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002045",
+    "gnd": "https://d-nb.info/gnd/1030023956",
+    "wikipedia": "https://de.wikipedia.org/wiki/Herbert_Schneider_%28Politiker%2C_1915%29"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1915-11-23",
   "birthPlace": {
@@ -86,75 +157,6 @@
     "https://d-nb.info/gnd/1030023956",
     "https://de.wikipedia.org/wiki/Herbert_Schneider_%28Politiker%2C_1915%29"
   ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Herbert Schneider",
-    "forename": "Herbert",
-    "surname": "Schneider",
-    "prefix": "",
-    "role_name": "",
-    "place": "(Bremerhaven)"
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1915-11-23",
-    "place": "Straßburg, Elsass (heute: Strasbourg, Frankreich)",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1995-12-12",
-    "place": "Königswinter",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 2,
-      "faction": "DP",
-      "faction_full": "Fraktion Deutsche Partei",
-      "from": "1953-10-06",
-      "to": "1957-10-06"
-    },
-    {
-      "period": 2,
-      "faction": "DP/FVP",
-      "faction_full": "Fraktion Deutsche Partei/Freie Volkspartei",
-      "from": "1957-03-14",
-      "to": "1957-10-06"
-    },
-    {
-      "period": 3,
-      "faction": "DP",
-      "faction_full": "Fraktion Deutsche Partei",
-      "from": "1957-10-15",
-      "to": "1961-10-15"
-    },
-    {
-      "period": 3,
-      "faction": "Grp. DP",
-      "faction_full": "Gruppe Deutsche Partei",
-      "from": "1960-07-02",
-      "to": "1961-10-15"
-    },
-    {
-      "period": 3,
-      "faction": "Fraktionslos",
-      "faction_full": "Fraktionslos",
-      "from": "1961-05-03",
-      "to": "1961-10-15"
-    },
-    {
-      "period": 6,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1969-10-20",
-      "to": "1972-09-22"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11002045",
-    "gnd": "https://d-nb.info/gnd/1030023956",
-    "wikipedia": "https://de.wikipedia.org/wiki/Herbert_Schneider_%28Politiker%2C_1915%29",
-    "viaf": null
-  },
   "fraktionsprotokolle:alt_names": [
     {
       "reg": "Herbert Schneider",

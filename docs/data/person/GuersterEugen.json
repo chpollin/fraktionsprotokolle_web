@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GuersterEugen",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GuersterEugen",
   "name": "Eugen Gürster",
   "givenName": "Eugen",
   "familyName": "Gürster",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1895-06-23",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Fürth"
-  },
-  "deathDate": "1980-05-01",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "deutscher Schriftsteller, 1952–1959 Kulturattaché in London, dann bis 1962 in Wien"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/116916664",
-    "https://de.wikipedia.org/wiki/Eugen_G%C3%BCrster"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Eugen Gürster",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/116916664",
-    "wikipedia": "https://de.wikipedia.org/wiki/Eugen_G%C3%BCrster",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Eugen_G%C3%BCrster"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1895-06-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Fürth"
+  },
+  "deathDate": "1980-05-01",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Schriftsteller, 1952–1959 Kulturattaché in London, dann bis 1962 in Wien"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/116916664",
+    "https://de.wikipedia.org/wiki/Eugen_G%C3%BCrster"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PiccoliFlaminio",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PiccoliFlaminio",
   "name": "Flaminio Piccoli",
   "givenName": "Flaminio",
   "familyName": "Piccoli",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1915-12-28",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Kirchbichl"
-  },
-  "deathDate": "2000-04-11",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Rom"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1958-1992 Mitglied der italienischen Abgeordnetenkammer (Democrazia Cristiana), 1992-1994 Mitglied des Senats, 1970-1972 Minister für staatliche Industriebeteiligungen, 1972-1978 Fraktionsvorsitzender der DC in der Abgeordnetenkammer, 1969 und 1980-1982 Generalsekretär der Democrazia Cristiana"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/135970091",
-    "https://de.wikipedia.org/wiki/Flaminio_Piccoli"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Flaminio Piccoli",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/135970091",
-    "wikipedia": "https://de.wikipedia.org/wiki/Flaminio_Piccoli",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Flaminio_Piccoli"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1915-12-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kirchbichl"
+  },
+  "deathDate": "2000-04-11",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Rom"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1958-1992 Mitglied der italienischen Abgeordnetenkammer (Democrazia Cristiana), 1992-1994 Mitglied des Senats, 1970-1972 Minister für staatliche Industriebeteiligungen, 1972-1978 Fraktionsvorsitzender der DC in der Abgeordnetenkammer, 1969 und 1980-1982 Generalsekretär der Democrazia Cristiana"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/135970091",
+    "https://de.wikipedia.org/wiki/Flaminio_Piccoli"
+  ]
 }

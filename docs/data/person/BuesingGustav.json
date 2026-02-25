@@ -1,26 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BuesingGustav",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BuesingGustav",
   "name": "Gustav Büsing",
   "givenName": "Gustav",
   "familyName": "Büsing",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1944-02-23",
-  "birthPlace": null,
-  "deathDate": "2015-06-29",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Paris"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Motorsportjournalist, Mitarbeiter der FDP-Bundesgeschäftsstelle"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/110991524"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Gustav Büsing",
@@ -42,9 +29,20 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/110991524",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/110991524"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1944-02-23",
+  "deathDate": "2015-06-29",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Motorsportjournalist, Mitarbeiter der FDP-Bundesgeschäftsstelle"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/110991524"
+  ]
 }

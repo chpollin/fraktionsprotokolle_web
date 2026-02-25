@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "Mueller-MareinJosef",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/Mueller-MareinJosef",
   "name": "Josef Müller-Marein",
   "givenName": "Josef",
   "familyName": "Müller-Marein",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1907-09-12",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Marienheide"
-  },
-  "deathDate": "1981-10-17",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Thimory bei Lorris"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "deutscher Journalist, 1957–1968 Chefredakteur der Wochenzeitung »Die Zeit«"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/106754726",
-    "https://de.wikipedia.org/wiki/Josef_M%C3%BCller-Marein"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Josef Müller-Marein",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/106754726",
-    "wikipedia": "https://de.wikipedia.org/wiki/Josef_M%C3%BCller-Marein",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Josef_M%C3%BCller-Marein"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1907-09-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Marienheide"
+  },
+  "deathDate": "1981-10-17",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Thimory bei Lorris"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Journalist, 1957–1968 Chefredakteur der Wochenzeitung »Die Zeit«"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/106754726",
+    "https://de.wikipedia.org/wiki/Josef_M%C3%BCller-Marein"
+  ]
 }

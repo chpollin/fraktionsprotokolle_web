@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "NiedlichWendelin",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/NiedlichWendelin",
   "name": "Wendelin Niedlich",
   "givenName": "Wendelin",
   "familyName": "Niedlich",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1927-08-31",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Berlin-Friedrichsfelde"
-  },
-  "deathDate": "2022-03-07",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Buchhändler, Verleger und Galerist"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/117000604",
-    "https://de.wikipedia.org/wiki/Wendelin_Niedlich"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Wendelin Niedlich",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/117000604",
-    "wikipedia": "https://de.wikipedia.org/wiki/Wendelin_Niedlich",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Wendelin_Niedlich"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1927-08-31",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin-Friedrichsfelde"
+  },
+  "deathDate": "2022-03-07",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Buchhändler, Verleger und Galerist"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/117000604",
+    "https://de.wikipedia.org/wiki/Wendelin_Niedlich"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SalgadoZenhaFrancisco",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SalgadoZenhaFrancisco",
   "name": "Francisco Salgado Zenha",
   "givenName": "Francisco",
   "familyName": "Salgado Zenha",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1923-05-02",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Braga"
-  },
-  "deathDate": "1993-11-01",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Lissabon"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "portugiesischer Politiker (Sozialistische Partei), 1974–1975 portugiesischer Justizminister, 1975–1976 Finanzminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1157236022",
-    "https://en.wikipedia.org/wiki/Salgado_Zenha"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Francisco Salgado Zenha",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1157236022",
-    "wikipedia": "https://en.wikipedia.org/wiki/Salgado_Zenha",
-    "viaf": null
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/Salgado_Zenha"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1923-05-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Braga"
+  },
+  "deathDate": "1993-11-01",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Lissabon"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "portugiesischer Politiker (Sozialistische Partei), 1974–1975 portugiesischer Justizminister, 1975–1976 Finanzminister"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1157236022",
+    "https://en.wikipedia.org/wiki/Salgado_Zenha"
+  ]
 }

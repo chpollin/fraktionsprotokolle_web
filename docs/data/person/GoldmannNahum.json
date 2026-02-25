@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GoldmannNahum",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GoldmannNahum",
   "name": "Nahum Goldmann",
   "givenName": "Nahum",
   "familyName": "Goldmann",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1895-07-10",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Wischnewo, Gouvernement Wilna"
-  },
-  "deathDate": "1982-08-29",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bad Reichenhall"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1949–1978 Präsident des Jüdischen Weltkongresses, 1956–1968 Präsident der Zionistischen Weltorganisation"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118540491",
-    "https://de.wikipedia.org/wiki/Nahum_Goldmann"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Nahum Goldmann",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118540491",
-    "wikipedia": "https://de.wikipedia.org/wiki/Nahum_Goldmann",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Nahum_Goldmann"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1895-07-10",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Wischnewo, Gouvernement Wilna"
+  },
+  "deathDate": "1982-08-29",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bad Reichenhall"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1949–1978 Präsident des Jüdischen Weltkongresses, 1956–1968 Präsident der Zionistischen Weltorganisation"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118540491",
+    "https://de.wikipedia.org/wiki/Nahum_Goldmann"
+  ]
 }

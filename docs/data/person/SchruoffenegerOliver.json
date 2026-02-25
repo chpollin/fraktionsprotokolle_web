@@ -1,26 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchruoffenegerOliver",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchruoffenegerOliver",
   "name": "Oliver Schruoffeneger",
   "givenName": "Oliver",
   "familyName": "Schruoffeneger",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1962-05-30",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Politologe und Politiker der Partei Bündnis 90/Die Grünen Berlin, 1985-2001 Bezirksverordneter im Bezirk Reinickendorf, 1994-2001 Mitarbeiter der Fraktion von Bündnis 90/Die Grünen im Berliner Abgeordnetenhaus, 2001-2011 sowie 2013-2016 MdA Berlin"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Oliver_Schruoffeneger"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Oliver Schruoffeneger",
@@ -42,9 +29,19 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://de.wikipedia.org/wiki/Oliver_Schruoffeneger",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Oliver_Schruoffeneger"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1962-05-30",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Politologe und Politiker der Partei Bündnis 90/Die Grünen Berlin, 1985-2001 Bezirksverordneter im Bezirk Reinickendorf, 1994-2001 Mitarbeiter der Fraktion von Bündnis 90/Die Grünen im Berliner Abgeordnetenhaus, 2001-2011 sowie 2013-2016 MdA Berlin"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Oliver_Schruoffeneger"
+  ]
 }

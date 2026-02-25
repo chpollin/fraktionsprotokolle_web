@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BokassaJean-Bedel",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BokassaJean-Bedel",
   "name": "Jean-Bédel Bokassa, Kaiser Bokassa I.",
   "givenName": "Jean-Bédel",
   "familyName": "Bokassa",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1921-02-22",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Bobangui"
-  },
-  "deathDate": "1996-11-03",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bangui"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1966–1976 Präsident der Zentralafrikanischen Republik, dann bis 1979 Kaiser des Zentralafrikanischen Kaiserreichs"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118661159",
-    "https://de.wikipedia.org/wiki/Jean-B%C3%A9del_Bokassa"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Jean-Bédel Bokassa, Kaiser Bokassa I.",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118661159",
-    "wikipedia": "https://de.wikipedia.org/wiki/Jean-B%C3%A9del_Bokassa",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Jean-B%C3%A9del_Bokassa"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1921-02-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bobangui"
+  },
+  "deathDate": "1996-11-03",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bangui"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1966–1976 Präsident der Zentralafrikanischen Republik, dann bis 1979 Kaiser des Zentralafrikanischen Kaiserreichs"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118661159",
+    "https://de.wikipedia.org/wiki/Jean-B%C3%A9del_Bokassa"
+  ]
 }

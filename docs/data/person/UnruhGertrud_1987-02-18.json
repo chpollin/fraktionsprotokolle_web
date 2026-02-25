@@ -1,10 +1,53 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "UnruhGertrud_1987-02-18",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/UnruhGertrud_1987-02-18",
   "name": "Gertrud »Trude« Unruh, geb. Kremer",
   "givenName": "Gertrud »Trude«",
   "familyName": "Unruh",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Gertrud »Trude« Unruh, geb. Kremer",
+    "forename": "Gertrud »Trude«",
+    "surname": "Unruh",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1925-03-07",
+    "place": "Essen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2021-11-30",
+    "place": "Wuppertal",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 11,
+      "faction": "Grüne",
+      "faction_full": "Fraktion Die Grünen",
+      "from": "1987-02-18",
+      "to": "1990-12-20"
+    },
+    {
+      "period": 11,
+      "faction": "Fraktionslos",
+      "faction_full": "Fraktionslos",
+      "from": "1989-09-13",
+      "to": "1990-12-20"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002358",
+    "gnd": "https://d-nb.info/gnd/143754742",
+    "wikipedia": "https://de.wikipedia.org/wiki/Trude_Unruh"
+  },
   "gender": "https://schema.org/Female",
   "birthDate": "1925-03-07",
   "birthPlace": {
@@ -45,46 +88,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/143754742",
     "https://de.wikipedia.org/wiki/Trude_Unruh"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Gertrud »Trude« Unruh, geb. Kremer",
-    "forename": "Gertrud »Trude«",
-    "surname": "Unruh",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1925-03-07",
-    "place": "Essen",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "2021-11-30",
-    "place": "Wuppertal",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 11,
-      "faction": "Grüne",
-      "faction_full": "Fraktion Die Grünen",
-      "from": "1987-02-18",
-      "to": "1990-12-20"
-    },
-    {
-      "period": 11,
-      "faction": "Fraktionslos",
-      "faction_full": "Fraktionslos",
-      "from": "1989-09-13",
-      "to": "1990-12-20"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11002358",
-    "gnd": "https://d-nb.info/gnd/143754742",
-    "wikipedia": "https://de.wikipedia.org/wiki/Trude_Unruh",
-    "viaf": null
-  }
+  ]
 }

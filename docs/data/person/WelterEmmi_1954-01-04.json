@@ -1,10 +1,60 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WelterEmmi_1954-01-04",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WelterEmmi_1954-01-04",
   "name": "Emmi Welter, geb. Merten",
   "givenName": "Emmi",
   "familyName": "Welter",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Emmi Welter, geb. Merten",
+    "forename": "Emmi",
+    "surname": "Welter",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Aachen)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1887-08-07",
+    "place": "Köln",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1971-03-10",
+    "place": "Aachen",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1954-01-04",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 3,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 4,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002473",
+    "gnd": "https://d-nb.info/gnd/189433906",
+    "wikipedia": "https://de.wikipedia.org/wiki/Emmi_Welter"
+  },
   "gender": "https://schema.org/Female",
   "birthDate": "1887-08-07",
   "birthPlace": {
@@ -55,53 +105,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/189433906",
     "https://de.wikipedia.org/wiki/Emmi_Welter"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Emmi Welter, geb. Merten",
-    "forename": "Emmi",
-    "surname": "Welter",
-    "prefix": "",
-    "role_name": "",
-    "place": "(Aachen)"
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1887-08-07",
-    "place": "Köln",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1971-03-10",
-    "place": "Aachen",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 2,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1954-01-04",
-      "to": "1957-10-06"
-    },
-    {
-      "period": 3,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1957-10-15",
-      "to": "1961-10-15"
-    },
-    {
-      "period": 4,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1961-10-17",
-      "to": "1965-10-17"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11002473",
-    "gnd": "https://d-nb.info/gnd/189433906",
-    "wikipedia": "https://de.wikipedia.org/wiki/Emmi_Welter",
-    "viaf": null
-  }
+  ]
 }

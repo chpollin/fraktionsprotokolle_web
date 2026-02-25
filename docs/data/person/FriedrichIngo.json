@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FriedrichIngo",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FriedrichIngo",
   "name": "Ingo Friedrich",
   "givenName": "Ingo",
   "familyName": "Friedrich",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1942-01-24",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Kutno/Wartheland"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Politiker (CSU), stellvertretender CSU-Parteivorsitzender und ehemaliger Abgeordneter des Europäischen Parlaments"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1060144115",
-    "https://de.wikipedia.org/wiki/Ingo_Friedrich"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Ingo Friedrich",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1060144115",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ingo_Friedrich",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ingo_Friedrich"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1942-01-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kutno/Wartheland"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Politiker (CSU), stellvertretender CSU-Parteivorsitzender und ehemaliger Abgeordneter des Europäischen Parlaments"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1060144115",
+    "https://de.wikipedia.org/wiki/Ingo_Friedrich"
+  ]
 }

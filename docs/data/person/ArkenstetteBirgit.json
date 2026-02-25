@@ -1,21 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ArkenstetteBirgit",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ArkenstetteBirgit",
   "name": "Birgit Arkenstette",
   "givenName": "Birgit",
   "familyName": "Arkenstette",
-  "gender": "https://schema.org/Female",
-  "birthDate": null,
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Lehrerin und Unternehmerin, in der 10. Wahlperiode Grünen-Nachrückerin für den Bundestag, (mindestens) 1987 Jahre Mitglied des Geschäftsführenden Ausschusses der Alternativen Liste (AL) in Berlin, im September 1990 aus Protest gegen die Koalition von SPD und AL Austritt aus der AL, bis 2021 Geschäftsführerin einer Reinigungsfirma in Berlin"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Birgit Arkenstette",
@@ -36,10 +28,10 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Female",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Lehrerin und Unternehmerin, in der 10. Wahlperiode Grünen-Nachrückerin für den Bundestag, (mindestens) 1987 Jahre Mitglied des Geschäftsführenden Ausschusses der Alternativen Liste (AL) in Berlin, im September 1990 aus Protest gegen die Koalition von SPD und AL Austritt aus der AL, bis 2021 Geschäftsführerin einer Reinigungsfirma in Berlin"
   }
 }

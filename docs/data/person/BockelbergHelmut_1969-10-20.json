@@ -1,10 +1,53 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BockelbergHelmut_1969-10-20",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BockelbergHelmut_1969-10-20",
   "name": "Helmut von Bockelberg",
   "givenName": "Helmut",
   "familyName": "Bockelberg",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Helmut von Bockelberg",
+    "forename": "Helmut",
+    "surname": "Bockelberg",
+    "prefix": "von",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1911-10-20",
+    "place": "Deutsch-Wilmersdorf bei Berlin (heute: Berlin-Wilmersdorf)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1996-03-29",
+    "place": "Staffelstein (heute: Bad Staffelstein)",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 6,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1969-10-20",
+      "to": "1972-09-22"
+    },
+    {
+      "period": 7,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1972-12-13",
+      "to": "1976-12-13"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000211",
+    "gnd": "https://d-nb.info/gnd/1328376044",
+    "wikipedia": "https://de.wikipedia.org/wiki/Helmut_von_Bockelberg"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1911-10-20",
   "birthPlace": {
@@ -45,46 +88,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/1328376044",
     "https://de.wikipedia.org/wiki/Helmut_von_Bockelberg"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Helmut von Bockelberg",
-    "forename": "Helmut",
-    "surname": "Bockelberg",
-    "prefix": "von",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1911-10-20",
-    "place": "Deutsch-Wilmersdorf bei Berlin (heute: Berlin-Wilmersdorf)",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1996-03-29",
-    "place": "Staffelstein (heute: Bad Staffelstein)",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 6,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1969-10-20",
-      "to": "1972-09-22"
-    },
-    {
-      "period": 7,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1972-12-13",
-      "to": "1976-12-13"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11000211",
-    "gnd": "https://d-nb.info/gnd/1328376044",
-    "wikipedia": "https://de.wikipedia.org/wiki/Helmut_von_Bockelberg",
-    "viaf": null
-  }
+  ]
 }

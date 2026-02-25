@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KreipeWerner",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KreipeWerner",
   "name": "Werner Kreipe",
   "givenName": "Werner",
   "familyName": "Kreipe",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1904-04-12",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Hannover"
-  },
-  "deathDate": "1967-09-07",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Badenweiler"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "deutscher Offizier, Generalstabschef der Luftwaffe der Wehrmacht, Ministerialdirektor im Bundesministerium für Verkehr"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1026185645",
-    "https://de.wikipedia.org/wiki/Werner_Kreipe"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Werner Kreipe",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1026185645",
-    "wikipedia": "https://de.wikipedia.org/wiki/Werner_Kreipe",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Werner_Kreipe"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1904-04-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hannover"
+  },
+  "deathDate": "1967-09-07",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Badenweiler"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Offizier, Generalstabschef der Luftwaffe der Wehrmacht, Ministerialdirektor im Bundesministerium für Verkehr"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1026185645",
+    "https://de.wikipedia.org/wiki/Werner_Kreipe"
+  ]
 }

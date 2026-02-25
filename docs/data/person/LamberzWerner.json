@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "LamberzWerner",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/LamberzWerner",
   "name": "Werner Lamberz",
   "givenName": "Werner",
   "familyName": "Lamberz",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1929-04-14",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Mayen"
-  },
-  "deathDate": "1978-03-06",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Wadi Suf al-Jin"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1953–1963 Mitglied und Sekrretär des Zentralrats der FDJ, 1963–1966 Mitglied des Agitations-Kommission beim Politbüro, 1966–1971 Leiter der Abteilung Agitation beim ZK der SED"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/124666779",
-    "https://de.wikipedia.org/wiki/Werner_Lamberz"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Werner Lamberz",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/124666779",
-    "wikipedia": "https://de.wikipedia.org/wiki/Werner_Lamberz",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Werner_Lamberz"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1929-04-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Mayen"
+  },
+  "deathDate": "1978-03-06",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Wadi Suf al-Jin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1953–1963 Mitglied und Sekrretär des Zentralrats der FDJ, 1963–1966 Mitglied des Agitations-Kommission beim Politbüro, 1966–1971 Leiter der Abteilung Agitation beim ZK der SED"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/124666779",
+    "https://de.wikipedia.org/wiki/Werner_Lamberz"
+  ]
 }

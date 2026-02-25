@@ -1,10 +1,81 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchmidtHansheinrich_1961-10-17",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchmidtHansheinrich_1961-10-17",
   "name": "Hansheinrich Schmidt",
   "givenName": "Hansheinrich",
   "familyName": "Schmidt",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hansheinrich Schmidt",
+    "forename": "Hansheinrich",
+    "surname": "Schmidt",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Kempten)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1922-09-06",
+    "place": "Leipzig",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1994-03-12",
+    "place": "Grünwald",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 4,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    },
+    {
+      "period": 5,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    },
+    {
+      "period": 6,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1969-10-20",
+      "to": "1972-09-22"
+    },
+    {
+      "period": 7,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1972-12-13",
+      "to": "1976-12-13"
+    },
+    {
+      "period": 8,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1976-12-14",
+      "to": "1980-11-04"
+    },
+    {
+      "period": 9,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1980-11-04",
+      "to": "1983-03-29"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002006",
+    "gnd": "https://d-nb.info/gnd/1029298076",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hansheinrich_Schmidt"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1922-09-06",
   "birthPlace": {
@@ -85,74 +156,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/1029298076",
     "https://de.wikipedia.org/wiki/Hansheinrich_Schmidt"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Hansheinrich Schmidt",
-    "forename": "Hansheinrich",
-    "surname": "Schmidt",
-    "prefix": "",
-    "role_name": "",
-    "place": "(Kempten)"
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1922-09-06",
-    "place": "Leipzig",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1994-03-12",
-    "place": "Grünwald",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 4,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1961-10-17",
-      "to": "1965-10-17"
-    },
-    {
-      "period": 5,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1965-10-19",
-      "to": "1969-10-19"
-    },
-    {
-      "period": 6,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1969-10-20",
-      "to": "1972-09-22"
-    },
-    {
-      "period": 7,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1972-12-13",
-      "to": "1976-12-13"
-    },
-    {
-      "period": 8,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1976-12-14",
-      "to": "1980-11-04"
-    },
-    {
-      "period": 9,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1980-11-04",
-      "to": "1983-03-29"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11002006",
-    "gnd": "https://d-nb.info/gnd/1029298076",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hansheinrich_Schmidt",
-    "viaf": null
-  }
+  ]
 }

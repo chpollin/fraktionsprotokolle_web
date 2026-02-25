@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ChowdhuryAbuSayeed",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ChowdhuryAbuSayeed",
   "name": "Abu Sayeed Chowdhury, auch: Choudhury, bengalisch:  Ābu Sāīd Caudhurī",
   "givenName": "Abu Sayeed",
   "familyName": "Choudhury",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1921-01-31",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Nagbari, Bengalen"
-  },
-  "deathDate": "1987-08-01",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "London"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Politiker aus Bangladesch, 1971 als Vertreter Pakistans in der UN-Menschenrechtskommission in Genf, Jan. 1972–1973 Staatspräsident der Demokratischen Republik Bangladesch"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1067832793",
-    "https://de.wikipedia.org/wiki/Abu_Sayeed_Chowdhury"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Abu Sayeed Chowdhury, auch: Choudhury, bengalisch:  Ābu Sāīd Caudhurī",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1067832793",
-    "wikipedia": "https://de.wikipedia.org/wiki/Abu_Sayeed_Chowdhury",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Abu_Sayeed_Chowdhury"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1921-01-31",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Nagbari, Bengalen"
+  },
+  "deathDate": "1987-08-01",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "London"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Politiker aus Bangladesch, 1971 als Vertreter Pakistans in der UN-Menschenrechtskommission in Genf, Jan. 1972–1973 Staatspräsident der Demokratischen Republik Bangladesch"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1067832793",
+    "https://de.wikipedia.org/wiki/Abu_Sayeed_Chowdhury"
+  ]
 }

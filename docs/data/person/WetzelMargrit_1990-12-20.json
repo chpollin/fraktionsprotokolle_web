@@ -1,68 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WetzelMargrit_1990-12-20",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WetzelMargrit_1990-12-20",
   "name": "Margrit Wetzel, geb. Brüggen",
   "givenName": "Margrit",
   "familyName": "Wetzel",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1950-04-08",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Hamburg"
-  },
-  "deathDate": "2021-05-14",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Dipl.-Volkswirtin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1990-12-20",
-      "endDate": "1994-11-10"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1998-10-26",
-      "endDate": "2002-10-17"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "2002-10-17",
-      "endDate": "2005-10-18"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "2005-10-18",
-      "endDate": "2009-10-27"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1035169851",
-    "https://de.wikipedia.org/wiki/Margrit_Wetzel"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Margrit Wetzel, geb. Brüggen",
@@ -115,7 +60,63 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11002494",
     "gnd": "https://d-nb.info/gnd/1035169851",
-    "wikipedia": "https://de.wikipedia.org/wiki/Margrit_Wetzel",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Margrit_Wetzel"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1950-04-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "deathDate": "2021-05-14",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Volkswirtin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1998-10-26",
+      "endDate": "2002-10-17"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "2002-10-17",
+      "endDate": "2005-10-18"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "2005-10-18",
+      "endDate": "2009-10-27"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1035169851",
+    "https://de.wikipedia.org/wiki/Margrit_Wetzel"
+  ]
 }

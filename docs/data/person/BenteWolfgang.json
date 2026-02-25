@@ -1,24 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BenteWolfgang",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BenteWolfgang",
   "name": "Wolfgang Bente",
   "givenName": "Wolfgang",
   "familyName": "Bente",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1927-12-14",
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Legationsrat I. Klasse und bis Okt. 1968 Leiter des deutschen Stabes an der französischen Botschaft in Beirut (Schutzmachtvertretung), dann im Referat »Naher Osten und Nordafrika« des Auswärtigen Amts"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1081378530",
-    "https://de.wikipedia.org/wiki/Wolfgang_Bente"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Wolfgang Bente",
@@ -40,9 +29,17 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1081378530",
-    "wikipedia": "https://de.wikipedia.org/wiki/Wolfgang_Bente",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Wolfgang_Bente"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1927-12-14",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Legationsrat I. Klasse und bis Okt. 1968 Leiter des deutschen Stabes an der französischen Botschaft in Beirut (Schutzmachtvertretung), dann im Referat »Naher Osten und Nordafrika« des Auswärtigen Amts"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1081378530",
+    "https://de.wikipedia.org/wiki/Wolfgang_Bente"
+  ]
 }

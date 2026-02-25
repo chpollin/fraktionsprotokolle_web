@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RobertoHolden",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RobertoHolden",
   "name": "Holden Roberto",
   "givenName": "Álvaro Holden",
   "familyName": "Roberto",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1923-01-12",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "São Salvador do Congo (heute: M’banza Kongo, Angola)"
-  },
-  "deathDate": "2007-08-02",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Luanda"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Politiker und Guerilla-Führer, in den 1940er Jahren Tätigkeit für das belgische Finanzministerium in Léopoldville, Bukavu und Stanleyville (Kolonie Belgisch-Kongo), 1954–2007 Gründer und Präsident der União das Populações do Norte de Angola (UPNA) bzw. seit 1962 der Frente Nacional de Libertação de Angola (FNLA), 1962–1975 Präsident der Revolutionären Regierung von Angola im Exil, 1975–1976 (gemeinsam mit Jonas Savimbi) Präsident der Nationalen Union für die völlige Unabhängigkeit Angolas (UNITA), 1992 Kandidat für die Präsidentschaftswahlen in Angola"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1056474971",
-    "https://de.wikipedia.org/wiki/Holden_Roberto"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Holden Roberto",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1056474971",
-    "wikipedia": "https://de.wikipedia.org/wiki/Holden_Roberto",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Holden_Roberto"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1923-01-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "São Salvador do Congo (heute: M’banza Kongo, Angola)"
+  },
+  "deathDate": "2007-08-02",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Luanda"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Politiker und Guerilla-Führer, in den 1940er Jahren Tätigkeit für das belgische Finanzministerium in Léopoldville, Bukavu und Stanleyville (Kolonie Belgisch-Kongo), 1954–2007 Gründer und Präsident der União das Populações do Norte de Angola (UPNA) bzw. seit 1962 der Frente Nacional de Libertação de Angola (FNLA), 1962–1975 Präsident der Revolutionären Regierung von Angola im Exil, 1975–1976 (gemeinsam mit Jonas Savimbi) Präsident der Nationalen Union für die völlige Unabhängigkeit Angolas (UNITA), 1992 Kandidat für die Präsidentschaftswahlen in Angola"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1056474971",
+    "https://de.wikipedia.org/wiki/Holden_Roberto"
+  ]
 }

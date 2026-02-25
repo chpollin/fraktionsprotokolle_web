@@ -1,48 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchuesslerGerhard_1998-10-26",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchuesslerGerhard_1998-10-26",
   "name": "Gerhard Schüßler",
   "givenName": "Gerhard",
   "familyName": "Schüßler",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1937-10-02",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Holzwickede"
-  },
-  "deathDate": "2005-11-07",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Großhandelskaufmann [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Freien Demokratischen Partei",
-        "alternateName": "FDP"
-      },
-      "startDate": "1990-12-20",
-      "endDate": "1994-11-10"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Freien Demokratischen Partei",
-        "alternateName": "FDP"
-      },
-      "startDate": "1998-10-26",
-      "endDate": "2002-10-17"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1036127753",
-    "https://de.wikipedia.org/wiki/Gerhard_Sch%C3%BC%C3%9Fler_%28Politiker%29"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Gerhard Schüßler",
@@ -81,7 +46,43 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11003232",
     "gnd": "https://d-nb.info/gnd/1036127753",
-    "wikipedia": "https://de.wikipedia.org/wiki/Gerhard_Sch%C3%BC%C3%9Fler_%28Politiker%29",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Gerhard_Sch%C3%BC%C3%9Fler_%28Politiker%29"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1937-10-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Holzwickede"
+  },
+  "deathDate": "2005-11-07",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Großhandelskaufmann [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1998-10-26",
+      "endDate": "2002-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1036127753",
+    "https://de.wikipedia.org/wiki/Gerhard_Sch%C3%BC%C3%9Fler_%28Politiker%29"
+  ]
 }

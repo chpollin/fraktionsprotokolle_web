@@ -1,24 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DucheneFrancois",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DucheneFrancois",
   "name": "François Duchêne",
   "givenName": "François",
   "familyName": "Duchêne",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1927-02-17",
-  "birthPlace": null,
-  "deathDate": "2005-07-12",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1969–1974 Direktor des International Institute for Strategic Studies, dann bis 1984 Direktor des Centre for European Research an der Universität Sussex"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/17007109X",
-    "https://en.wikipedia.org/wiki/Fran%C3%A7ois_Duch%C3%AAne"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "François Duchêne",
@@ -40,9 +29,18 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/17007109X",
-    "wikipedia": "https://en.wikipedia.org/wiki/Fran%C3%A7ois_Duch%C3%AAne",
-    "viaf": null
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/Fran%C3%A7ois_Duch%C3%AAne"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1927-02-17",
+  "deathDate": "2005-07-12",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1969–1974 Direktor des International Institute for Strategic Studies, dann bis 1984 Direktor des Centre for European Research an der Universität Sussex"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/17007109X",
+    "https://en.wikipedia.org/wiki/Fran%C3%A7ois_Duch%C3%AAne"
+  ]
 }

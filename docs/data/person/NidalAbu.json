@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "NidalAbu",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/NidalAbu",
   "name": "Abu Nidal, eigentlich: Sabri Chalil al-Banna",
   "givenName": "Sabri Chalil",
   "familyName": "al-Banna",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1937",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Jaffa (heute: Tel Aviv)"
-  },
-  "deathDate": "2002-08-16",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bagdad"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "palästinensischer Terrorist, 1974 Begründer der Abu-Nidal-Organisation, einer Abspaltung der PLO"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119021676",
-    "https://de.wikipedia.org/wiki/Abu_Nidal"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Abu Nidal, eigentlich: Sabri Chalil al-Banna",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119021676",
-    "wikipedia": "https://de.wikipedia.org/wiki/Abu_Nidal",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Abu_Nidal"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1937",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Jaffa (heute: Tel Aviv)"
+  },
+  "deathDate": "2002-08-16",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bagdad"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "palästinensischer Terrorist, 1974 Begründer der Abu-Nidal-Organisation, einer Abspaltung der PLO"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119021676",
+    "https://de.wikipedia.org/wiki/Abu_Nidal"
+  ]
 }

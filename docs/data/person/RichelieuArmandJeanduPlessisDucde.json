@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RichelieuArmandJeanduPlessisDucde",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RichelieuArmandJeanduPlessisDucde",
   "name": "Armand Jean du Plessis Duc de Richelieu",
   "givenName": "Armand Jean du Plessis",
   "familyName": "Richelieu",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1585-09-09",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Paris"
-  },
-  "deathDate": "1642-12-04",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Paris"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1622–1642 frz. Kardinal"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118600354",
-    "https://de.wikipedia.org/wiki/Armand-Jean_du_Plessis,_duc_de_Richelieu"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Armand Jean du Plessis Duc de Richelieu",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118600354",
-    "wikipedia": "https://de.wikipedia.org/wiki/Armand-Jean_du_Plessis,_duc_de_Richelieu",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Armand-Jean_du_Plessis,_duc_de_Richelieu"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1585-09-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "deathDate": "1642-12-04",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1622–1642 frz. Kardinal"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118600354",
+    "https://de.wikipedia.org/wiki/Armand-Jean_du_Plessis,_duc_de_Richelieu"
+  ]
 }

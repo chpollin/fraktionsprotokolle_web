@@ -1,26 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WackerhagenHilde",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WackerhagenHilde",
   "name": "Hilde Wackerhagen",
   "givenName": "Hilde",
   "familyName": "Wackerhagen",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1945",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Frankfurt am Main"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "politische Kabarettistin, Autorin und Regisseurin"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Hilde_Wackerhagen"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hilde Wackerhagen",
@@ -42,9 +29,19 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://de.wikipedia.org/wiki/Hilde_Wackerhagen",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hilde_Wackerhagen"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1945",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Frankfurt am Main"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "politische Kabarettistin, Autorin und Regisseurin"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Hilde_Wackerhagen"
+  ]
 }

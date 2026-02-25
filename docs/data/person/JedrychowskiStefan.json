@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "JedrychowskiStefan",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/JedrychowskiStefan",
   "name": "Stefan Jêdrychowski",
   "givenName": "Stefan",
   "familyName": "Jêdrychowski",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1910-05-19",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Warschau"
-  },
-  "deathDate": "1996-05-26",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Warschau"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Dez. 1968–1971 polnischer Außenminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/170708950",
-    "https://de.wikipedia.org/wiki/Stefan_J%C4%99drychowski"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Stefan Jêdrychowski",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/170708950",
-    "wikipedia": "https://de.wikipedia.org/wiki/Stefan_J%C4%99drychowski",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Stefan_J%C4%99drychowski"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1910-05-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Warschau"
+  },
+  "deathDate": "1996-05-26",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Warschau"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dez. 1968–1971 polnischer Außenminister"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/170708950",
+    "https://de.wikipedia.org/wiki/Stefan_J%C4%99drychowski"
+  ]
 }

@@ -204,17 +204,18 @@ def test_edge_cases():
     if abelein:
         detail = build_detail_entry(abelein, report)
         # Schema.org fields
-        assert detail["@context"] == "https://schema.org"
+        assert detail["@context"]["@vocab"] == "https://schema.org/"
+        assert detail["@context"]["fraktionsprotokolle"] == "https://fraktionsprotokolle.de/ns/"
         assert detail["@type"] == "Person"
-        assert detail["@id"] == "AbeleinManfred_1965-10-19"
+        assert detail["@id"] == "https://fraktionsprotokolle.de/parlabio/#/person/AbeleinManfred_1965-10-19"
         assert detail["familyName"] == "Abelein"
         assert detail["givenName"] == "Manfred"
         assert detail["birthDate"] == "1930-10-20"
         assert detail["gender"] == "https://schema.org/Male"
         assert detail["birthPlace"]["@type"] == "Place"
-        assert detail["memberOf"] is not None
+        assert "memberOf" in detail
         assert len(detail["memberOf"]) > 0
-        assert detail["sameAs"] is not None
+        assert "sameAs" in detail
         # Project-specific fields
         affs = detail["fraktionsprotokolle:affiliations"]
         assert affs[0]["faction"] == "CDU/CSU"

@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PeymannClaus",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PeymannClaus",
   "name": "Claus Peymann, geb. Klaus Eberhard Peymann",
   "givenName": "Claus",
   "familyName": "Peymann",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1937-06-07",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Bremen"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Theaterregisseur; 1974–1979 Schauspieldirektor in Stuttgart; 1979–1986 Intendant am Bochumer Schauspielhaus; 1986–1999 Direktion des Burgtheaters in Wien; 1999–2017 Intendant des Berliner Ensembles"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118963414",
-    "https://de.wikipedia.org/wiki/Claus_Peymann"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Claus Peymann, geb. Klaus Eberhard Peymann",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118963414",
-    "wikipedia": "https://de.wikipedia.org/wiki/Claus_Peymann",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Claus_Peymann"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1937-06-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bremen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Theaterregisseur; 1974–1979 Schauspieldirektor in Stuttgart; 1979–1986 Intendant am Bochumer Schauspielhaus; 1986–1999 Direktion des Burgtheaters in Wien; 1999–2017 Intendant des Berliner Ensembles"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118963414",
+    "https://de.wikipedia.org/wiki/Claus_Peymann"
+  ]
 }

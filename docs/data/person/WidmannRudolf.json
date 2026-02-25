@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WidmannRudolf",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WidmannRudolf",
   "name": "Rudolf Widmann",
   "givenName": "Rudolf",
   "familyName": "Widmann",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1929-09-17",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Starnberg"
-  },
-  "deathDate": "2000-04-14",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Starnberg"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Rechtsanwalt und FDP-Politiker, Mitglied des Bezirksvorstandes der FDP Oberbayern sowie des FDP-Bundesausschusses für Kommunalpolitik, 1969-1996 Landrat im Landkreis Starnberg, 1962–1966 MdL Bayern"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/136114075",
-    "https://de.wikipedia.org/wiki/Rudolf_Widmann_(Politiker)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Rudolf Widmann",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/136114075",
-    "wikipedia": "https://de.wikipedia.org/wiki/Rudolf_Widmann_(Politiker)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Rudolf_Widmann_(Politiker)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1929-09-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Starnberg"
+  },
+  "deathDate": "2000-04-14",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Starnberg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsanwalt und FDP-Politiker, Mitglied des Bezirksvorstandes der FDP Oberbayern sowie des FDP-Bundesausschusses für Kommunalpolitik, 1969-1996 Landrat im Landkreis Starnberg, 1962–1966 MdL Bayern"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/136114075",
+    "https://de.wikipedia.org/wiki/Rudolf_Widmann_(Politiker)"
+  ]
 }

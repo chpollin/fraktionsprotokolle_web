@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DelekatFriedrich",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DelekatFriedrich",
   "name": "Friedrich Delekat",
   "givenName": "Friedrich",
   "familyName": "Delekat",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1892-04-04",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Stühren"
-  },
-  "deathDate": "1970-01-30",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Mainz"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "deutscher evangelischer Theologe, Professor für Systematische Theologie, Pädagogik, Philosophie und Politik an der Universität Mainz"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118671340",
-    "https://de.wikipedia.org/wiki/Friedrich_Delekat"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Friedrich Delekat",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118671340",
-    "wikipedia": "https://de.wikipedia.org/wiki/Friedrich_Delekat",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Friedrich_Delekat"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1892-04-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Stühren"
+  },
+  "deathDate": "1970-01-30",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Mainz"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher evangelischer Theologe, Professor für Systematische Theologie, Pädagogik, Philosophie und Politik an der Universität Mainz"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118671340",
+    "https://de.wikipedia.org/wiki/Friedrich_Delekat"
+  ]
 }

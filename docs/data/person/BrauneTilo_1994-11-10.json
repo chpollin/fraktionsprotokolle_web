@@ -1,35 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BrauneTilo_1994-11-10",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BrauneTilo_1994-11-10",
   "name": "Tilo Braune",
   "givenName": "Tilo",
   "familyName": "Braune",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1954-08-11",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Rochlitz/Sachsen"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Arzt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1994-11-10",
-      "endDate": "1998-10-26"
-    }
-  ],
-  "sameAs": null,
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Tilo Braune",
@@ -59,9 +37,28 @@
     }
   ],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11002635",
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
-  }
+    "mdb_stammdaten": "11002635"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1954-08-11",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Rochlitz/Sachsen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Arzt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-10-26"
+    }
+  ]
 }

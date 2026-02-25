@@ -1,10 +1,67 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KoenenWilly_1953-10-06",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KoenenWilly_1953-10-06",
   "name": "Willy Könen",
   "givenName": "Willy",
   "familyName": "Könen",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Willy Könen",
+    "forename": "Willy",
+    "surname": "Könen",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Düsseldorf)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1908-04-08",
+    "place": "Düsseldorf",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1980-06-28",
+    "place": "Düsseldorf",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 3,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 4,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    },
+    {
+      "period": 5,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001156",
+    "gnd": "https://d-nb.info/gnd/116288442",
+    "wikipedia": "https://de.wikipedia.org/wiki/Willy_K%C3%B6nen"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1908-04-08",
   "birthPlace": {
@@ -65,60 +122,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/116288442",
     "https://de.wikipedia.org/wiki/Willy_K%C3%B6nen"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Willy Könen",
-    "forename": "Willy",
-    "surname": "Könen",
-    "prefix": "",
-    "role_name": "",
-    "place": "(Düsseldorf)"
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1908-04-08",
-    "place": "Düsseldorf",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1980-06-28",
-    "place": "Düsseldorf",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 2,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1953-10-06",
-      "to": "1957-10-06"
-    },
-    {
-      "period": 3,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1957-10-15",
-      "to": "1961-10-15"
-    },
-    {
-      "period": 4,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1961-10-17",
-      "to": "1965-10-17"
-    },
-    {
-      "period": 5,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1965-10-19",
-      "to": "1969-10-19"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11001156",
-    "gnd": "https://d-nb.info/gnd/116288442",
-    "wikipedia": "https://de.wikipedia.org/wiki/Willy_K%C3%B6nen",
-    "viaf": null
-  }
+  ]
 }

@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MehaigneriePierre",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MehaigneriePierre",
   "name": "Pierre Méhaignerie",
   "givenName": "Pierre",
   "familyName": "Méhaignerie",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1939-05-04",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Balazé"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1973-1976, 1981-1986, 1988-1993 und 1995-2012 christdemokratischer Abgeordneter der französischen Nationalversammlung, 1977-1981 Landwirtschaftsminister, 1986-1988 Minister für Bau und Verkehr, 1993-1995 Justizminister, 1982-1994 Vorsitzender des Centre des démocrates sociaux (CDS), 2007-2009 Generalsekretär der Union pour un mouvement populaire (UMO)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/139673261",
-    "https://de.wikipedia.org/wiki/Pierre_M%C3%A9haignerie"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Pierre Méhaignerie",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/139673261",
-    "wikipedia": "https://de.wikipedia.org/wiki/Pierre_M%C3%A9haignerie",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Pierre_M%C3%A9haignerie"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1939-05-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Balazé"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1973-1976, 1981-1986, 1988-1993 und 1995-2012 christdemokratischer Abgeordneter der französischen Nationalversammlung, 1977-1981 Landwirtschaftsminister, 1986-1988 Minister für Bau und Verkehr, 1993-1995 Justizminister, 1982-1994 Vorsitzender des Centre des démocrates sociaux (CDS), 2007-2009 Generalsekretär der Union pour un mouvement populaire (UMO)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/139673261",
+    "https://de.wikipedia.org/wiki/Pierre_M%C3%A9haignerie"
+  ]
 }

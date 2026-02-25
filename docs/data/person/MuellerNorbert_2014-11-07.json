@@ -1,44 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MuellerNorbert_2014-11-07",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MuellerNorbert_2014-11-07",
   "name": "Norbert Müller",
   "givenName": "Norbert",
   "familyName": "Müller",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1986-02-10",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Wriezen"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Student [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion DIE LINKE.",
-        "alternateName": "LINKE"
-      },
-      "startDate": "2014-11-07",
-      "endDate": "2017-10-24"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion DIE LINKE.",
-        "alternateName": "LINKE"
-      },
-      "startDate": "2017-10-24"
-    }
-  ],
-  "sameAs": null,
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Norbert Müller",
@@ -75,9 +44,37 @@
     }
   ],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11004613",
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
-  }
+    "mdb_stammdaten": "11004613"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1986-02-10",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Wriezen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Student [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion DIE LINKE.",
+        "alternateName": "LINKE"
+      },
+      "startDate": "2014-11-07",
+      "endDate": "2017-10-24"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion DIE LINKE.",
+        "alternateName": "LINKE"
+      },
+      "startDate": "2017-10-24"
+    }
+  ]
 }

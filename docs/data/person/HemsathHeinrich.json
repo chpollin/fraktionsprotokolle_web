@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HemsathHeinrich",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HemsathHeinrich",
   "name": "Heinrich Hemsath",
   "givenName": "Heinrich",
   "familyName": "Hemsath",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1902-11-24",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Münster"
-  },
-  "deathDate": "1978-04-14",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Wiesbaden"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1959–1969 hessischer Minister für Arbeit, Volkswohlfahrt und Gesundheitswesen, 1962–1970 MdL Hessen (SPD)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1031834095",
-    "https://de.wikipedia.org/wiki/Heinrich_Hemsath"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Heinrich Hemsath",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1031834095",
-    "wikipedia": "https://de.wikipedia.org/wiki/Heinrich_Hemsath",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Heinrich_Hemsath"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1902-11-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Münster"
+  },
+  "deathDate": "1978-04-14",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Wiesbaden"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1959–1969 hessischer Minister für Arbeit, Volkswohlfahrt und Gesundheitswesen, 1962–1970 MdL Hessen (SPD)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1031834095",
+    "https://de.wikipedia.org/wiki/Heinrich_Hemsath"
+  ]
 }

@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "LuchsingerFred",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/LuchsingerFred",
   "name": "Fred Luchsinger",
   "givenName": "Fred",
   "familyName": "Luchsinger",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1921-07-09",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "St. Gallen"
-  },
-  "deathDate": "2009-05-09",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1955–1963 Korrespondent der »Neuen Zürcher Zeitung« in Bonn, 1966–1968 Chef der Auslandsredaktion, dann bis 1984 Chefredaktor der NZZ"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/107580373",
-    "https://de.wikipedia.org/wiki/Fred_Luchsinger"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Fred Luchsinger",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/107580373",
-    "wikipedia": "https://de.wikipedia.org/wiki/Fred_Luchsinger",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Fred_Luchsinger"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1921-07-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "St. Gallen"
+  },
+  "deathDate": "2009-05-09",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1955–1963 Korrespondent der »Neuen Zürcher Zeitung« in Bonn, 1966–1968 Chef der Auslandsredaktion, dann bis 1984 Chefredaktor der NZZ"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/107580373",
+    "https://de.wikipedia.org/wiki/Fred_Luchsinger"
+  ]
 }

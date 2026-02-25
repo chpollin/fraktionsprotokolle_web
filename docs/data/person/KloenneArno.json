@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KloenneArno",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KloenneArno",
   "name": "Arno Klönne",
   "givenName": "Arno",
   "familyName": "Klönne",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1931-05-04",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Bochum"
-  },
-  "deathDate": "2015-06-04",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Paderborn"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Soziologe, Politikwissenschaftler, 1978–1995 Professor an der Universität Paderborn"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/124574157",
-    "https://de.wikipedia.org/wiki/Arno_Kl%C3%B6nne"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Arno Klönne",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/124574157",
-    "wikipedia": "https://de.wikipedia.org/wiki/Arno_Kl%C3%B6nne",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Arno_Kl%C3%B6nne"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1931-05-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bochum"
+  },
+  "deathDate": "2015-06-04",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Paderborn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Soziologe, Politikwissenschaftler, 1978–1995 Professor an der Universität Paderborn"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/124574157",
+    "https://de.wikipedia.org/wiki/Arno_Kl%C3%B6nne"
+  ]
 }

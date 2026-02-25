@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "EhrlichSimcha",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/EhrlichSimcha",
   "name": "Simcha Ehrlich",
   "givenName": "Simcha",
   "familyName": "Ehrlich",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1915-12-15",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Bychawa (heute: Bachów)"
-  },
-  "deathDate": "1983-06-19",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Jerusalem"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1962–1965 Bürgermeister von Tel Aviv, 1969–1974 (Gahal) und 1974–1983 (Likud) Abgeordneter der Knesset, 1975–1983 Vorsitzender der Miflaga Liberalit Jisra'elit, 1977–1983 stv. Premierminister, 1977–1979 Finanzminister sowie 1981–1983 Landwirtschaftsminister Israels"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1159581916",
-    "https://de.wikipedia.org/wiki/Simcha_Ehrlich"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Simcha Ehrlich",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1159581916",
-    "wikipedia": "https://de.wikipedia.org/wiki/Simcha_Ehrlich",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Simcha_Ehrlich"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1915-12-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bychawa (heute: Bachów)"
+  },
+  "deathDate": "1983-06-19",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Jerusalem"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1962–1965 Bürgermeister von Tel Aviv, 1969–1974 (Gahal) und 1974–1983 (Likud) Abgeordneter der Knesset, 1975–1983 Vorsitzender der Miflaga Liberalit Jisra'elit, 1977–1983 stv. Premierminister, 1977–1979 Finanzminister sowie 1981–1983 Landwirtschaftsminister Israels"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1159581916",
+    "https://de.wikipedia.org/wiki/Simcha_Ehrlich"
+  ]
 }

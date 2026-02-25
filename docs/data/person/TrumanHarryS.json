@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "TrumanHarryS",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/TrumanHarryS",
   "name": "Harry S. Truman",
   "givenName": "Harry S.",
   "familyName": "Truman",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1884-05-08",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Lamar, Missouri"
-  },
-  "deathDate": "1972-12-26",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Kansas City, Missouri"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "US-amerikanischer Politiker der Demokratischen Partei, 1945–1953 Präsident der Vereinigten Staaten"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118624210",
-    "https://de.wikipedia.org/wiki/Harry_S._Truman"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Harry S. Truman",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118624210",
-    "wikipedia": "https://de.wikipedia.org/wiki/Harry_S._Truman",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Harry_S._Truman"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1884-05-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Lamar, Missouri"
+  },
+  "deathDate": "1972-12-26",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Kansas City, Missouri"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "US-amerikanischer Politiker der Demokratischen Partei, 1945–1953 Präsident der Vereinigten Staaten"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118624210",
+    "https://de.wikipedia.org/wiki/Harry_S._Truman"
+  ]
 }

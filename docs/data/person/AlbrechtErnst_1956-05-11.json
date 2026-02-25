@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "AlbrechtErnst_1956-05-11",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/AlbrechtErnst_1956-05-11",
   "name": "Ernst Albrecht",
   "givenName": "Ernst",
   "familyName": "Albrecht",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1914-07-28",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Greifswald"
-  },
-  "deathDate": "1991-12-01",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Schleswig"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Kaufmann [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1956-05-11",
-      "endDate": "1957-10-06"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1011821850",
-    "https://de.wikipedia.org/wiki/Ernst_Albrecht_(Politiker,_28._Juli_1914)"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Ernst Albrecht",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000023",
     "gnd": "https://d-nb.info/gnd/1011821850",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ernst_Albrecht_(Politiker,_28._Juli_1914)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ernst_Albrecht_(Politiker,_28._Juli_1914)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1914-07-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Greifswald"
+  },
+  "deathDate": "1991-12-01",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Schleswig"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Kaufmann [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1956-05-11",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1011821850",
+    "https://de.wikipedia.org/wiki/Ernst_Albrecht_(Politiker,_28._Juli_1914)"
+  ]
 }

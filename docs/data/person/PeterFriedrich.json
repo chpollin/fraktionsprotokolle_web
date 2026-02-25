@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PeterFriedrich",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PeterFriedrich",
   "name": "Friedrich Peter",
   "givenName": "Friedrich",
   "familyName": "Peter",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1921-07-13",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Attnang-Puchheim"
-  },
-  "deathDate": "2005-09-25",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Wien"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "im Zweiten Weltkrieg SS-Obersturmführer, bis 1968 Volks- und Sonderschullehrer, 1968 Landesschulinspektor für allgemeine Pflichtschulen, Hofrat, Schriftleiter der Zeitschrift des Österreichischen Lehrerverbandes, 1955–1966 Abgeordneter zum Oberösterreichischen Landtag (VdU, FPÖ), 1958–1978 FPÖ-Bundesparteiobmann, 1966–1986 Abgeordneter zum Nationalrat (FPÖ), 1970–1986 FPÖ-Klubobmann"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1199288055",
-    "https://de.wikipedia.org/wiki/Friedrich_Peter_(Politiker)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Friedrich Peter",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1199288055",
-    "wikipedia": "https://de.wikipedia.org/wiki/Friedrich_Peter_(Politiker)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Friedrich_Peter_(Politiker)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1921-07-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Attnang-Puchheim"
+  },
+  "deathDate": "2005-09-25",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Wien"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "im Zweiten Weltkrieg SS-Obersturmführer, bis 1968 Volks- und Sonderschullehrer, 1968 Landesschulinspektor für allgemeine Pflichtschulen, Hofrat, Schriftleiter der Zeitschrift des Österreichischen Lehrerverbandes, 1955–1966 Abgeordneter zum Oberösterreichischen Landtag (VdU, FPÖ), 1958–1978 FPÖ-Bundesparteiobmann, 1966–1986 Abgeordneter zum Nationalrat (FPÖ), 1970–1986 FPÖ-Klubobmann"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1199288055",
+    "https://de.wikipedia.org/wiki/Friedrich_Peter_(Politiker)"
+  ]
 }

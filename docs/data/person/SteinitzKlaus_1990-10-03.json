@@ -1,35 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SteinitzKlaus_1990-10-03",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SteinitzKlaus_1990-10-03",
   "name": "Klaus Steinitz",
   "givenName": "Klaus",
   "familyName": "Steinitz",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1932-11-12",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Dipl.-Wirtschaftler, Stellv. Direktor eines Forschungsinstitut der Akademie der Wissensch. Berlin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Gruppe der Partei des Demokratischen Sozialismus",
-        "alternateName": "Grp. PDS"
-      },
-      "startDate": "1990-10-03",
-      "endDate": "1990-12-20"
-    }
-  ],
-  "sameAs": null,
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Klaus Steinitz",
@@ -59,9 +37,28 @@
     }
   ],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11002241",
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
-  }
+    "mdb_stammdaten": "11002241"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1932-11-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Wirtschaftler, Stellv. Direktor eines Forschungsinstitut der Akademie der Wissensch. Berlin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Gruppe der Partei des Demokratischen Sozialismus",
+        "alternateName": "Grp. PDS"
+      },
+      "startDate": "1990-10-03",
+      "endDate": "1990-12-20"
+    }
+  ]
 }

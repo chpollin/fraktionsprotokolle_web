@@ -1,29 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ArrighiPascal",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ArrighiPascal",
   "name": "Pascal Arrighi",
   "givenName": "Pascal",
   "familyName": "Arrighi",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1921-06-16",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Vico, Korsika"
-  },
-  "deathDate": "2004-05-19",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Toulon"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1954–1962 und 1986–1988 Abgeordneter der französischen Nationalversammlung"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://fr.wikipedia.org/wiki/Pascal_Arrighi"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Pascal Arrighi",
@@ -45,9 +29,24 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://fr.wikipedia.org/wiki/Pascal_Arrighi",
-    "viaf": null
-  }
+    "wikipedia": "https://fr.wikipedia.org/wiki/Pascal_Arrighi"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1921-06-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Vico, Korsika"
+  },
+  "deathDate": "2004-05-19",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Toulon"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1954–1962 und 1986–1988 Abgeordneter der französischen Nationalversammlung"
+  },
+  "sameAs": [
+    "https://fr.wikipedia.org/wiki/Pascal_Arrighi"
+  ]
 }

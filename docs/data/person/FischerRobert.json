@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FischerRobert",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FischerRobert",
   "name": "Robert Fischer",
   "givenName": "Robert",
   "familyName": "Fischer",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1911-08-22",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Gießen"
-  },
-  "deathDate": "1983-03-04",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Präsident des Bundesgerichtshofes"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118533460",
-    "https://de.wikipedia.org/wiki/Robert_Fischer_(Richter)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Robert Fischer",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118533460",
-    "wikipedia": "https://de.wikipedia.org/wiki/Robert_Fischer_(Richter)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Robert_Fischer_(Richter)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1911-08-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Gießen"
+  },
+  "deathDate": "1983-03-04",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Präsident des Bundesgerichtshofes"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118533460",
+    "https://de.wikipedia.org/wiki/Robert_Fischer_(Richter)"
+  ]
 }

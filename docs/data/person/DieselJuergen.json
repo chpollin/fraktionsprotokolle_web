@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DieselJuergen",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DieselJuergen",
   "name": "Jürgen Diesel",
   "givenName": "Jürgen",
   "familyName": "Diesel",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1926-01-04",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "deathDate": "1993-11-05",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Pech, Wachtberg"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Diplomat, Aug. 1971–1973 Ministerialdirigent und Leiter der »Unterabteilung II A« in der »Politischen Abteilung« des Auswärtigen Amts, 1977–1982 Botschafter der Bundesrepublik in Prag"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1095235516",
-    "https://de.wikipedia.org/wiki/J%C3%BCrgen_Diesel"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Jürgen Diesel",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1095235516",
-    "wikipedia": "https://de.wikipedia.org/wiki/J%C3%BCrgen_Diesel",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/J%C3%BCrgen_Diesel"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1926-01-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "1993-11-05",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Pech, Wachtberg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Diplomat, Aug. 1971–1973 Ministerialdirigent und Leiter der »Unterabteilung II A« in der »Politischen Abteilung« des Auswärtigen Amts, 1977–1982 Botschafter der Bundesrepublik in Prag"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1095235516",
+    "https://de.wikipedia.org/wiki/J%C3%BCrgen_Diesel"
+  ]
 }

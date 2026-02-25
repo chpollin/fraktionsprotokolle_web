@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ElmenauJohannesvon",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ElmenauJohannesvon",
   "name": "Johannes von Elmenau",
   "givenName": "Johannes",
   "familyName": "Elmenau",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1906",
-  "birthPlace": null,
-  "deathDate": "1998",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1948–1949 Bevollmächtigter Bayerns beim Vereinigten Wirtschaftsgebiet, dann bis 1974 im bayerischen Kultusministerium, zuletzt als Ministerialdirigent"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/121095193"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Johannes von Elmenau",
@@ -39,9 +29,16 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/121095193",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/121095193"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1906",
+  "deathDate": "1998",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1948–1949 Bevollmächtigter Bayerns beim Vereinigten Wirtschaftsgebiet, dann bis 1974 im bayerischen Kultusministerium, zuletzt als Ministerialdirigent"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/121095193"
+  ]
 }

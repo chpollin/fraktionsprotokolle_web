@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KekkonenUrho",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KekkonenUrho",
   "name": "Urho Kekkonen",
   "givenName": "Urho",
   "familyName": "Kekkonen",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1900-09-03",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Pielavesi"
-  },
-  "deathDate": "1986-08-31",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Helsinki"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1950–1956 Ministerpräsident, 1956–1981 Staatspräsident Finnlands"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118777017",
-    "https://de.wikipedia.org/wiki/Urho_Kekkonen#Staatspr%C3%A4sident"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Urho Kekkonen",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118777017",
-    "wikipedia": "https://de.wikipedia.org/wiki/Urho_Kekkonen#Staatspr%C3%A4sident",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Urho_Kekkonen#Staatspr%C3%A4sident"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1900-09-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Pielavesi"
+  },
+  "deathDate": "1986-08-31",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Helsinki"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1950–1956 Ministerpräsident, 1956–1981 Staatspräsident Finnlands"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118777017",
+    "https://de.wikipedia.org/wiki/Urho_Kekkonen#Staatspr%C3%A4sident"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SihanoukSamdechNorodom",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SihanoukSamdechNorodom",
   "name": "Samdech Norodom Sihanouk",
   "givenName": "Samdech Norodom",
   "familyName": "Sihanouk",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1922-10-31",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Phnom Penh"
-  },
-  "deathDate": "2012-10-15",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Peking"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1941–1955, 1993–2004 König sowie 1960–1970, 1975–1976 und 1991–1993 Staatsoberhaupt von Kambodscha"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118588621",
-    "https://de.wikipedia.org/wiki/Norodom_Sihanouk"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Samdech Norodom Sihanouk",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118588621",
-    "wikipedia": "https://de.wikipedia.org/wiki/Norodom_Sihanouk",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Norodom_Sihanouk"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1922-10-31",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Phnom Penh"
+  },
+  "deathDate": "2012-10-15",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Peking"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1941–1955, 1993–2004 König sowie 1960–1970, 1975–1976 und 1991–1993 Staatsoberhaupt von Kambodscha"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118588621",
+    "https://de.wikipedia.org/wiki/Norodom_Sihanouk"
+  ]
 }

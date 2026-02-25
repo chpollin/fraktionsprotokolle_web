@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FehrenbachGustav",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FehrenbachGustav",
   "name": "Gustav Fehrenbach",
   "givenName": "Gustav",
   "familyName": "Fehrenbach",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1925-02-17",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Lörrach"
-  },
-  "deathDate": "2001-05-06",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Kronberg im Taunus"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1982–1990 stellvertretender Vorsitzender im DGB-Vorstand"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1012393631",
-    "https://de.wikipedia.org/wiki/Gustav_Fehrenbach"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Gustav Fehrenbach",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1012393631",
-    "wikipedia": "https://de.wikipedia.org/wiki/Gustav_Fehrenbach",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Gustav_Fehrenbach"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1925-02-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Lörrach"
+  },
+  "deathDate": "2001-05-06",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Kronberg im Taunus"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1982–1990 stellvertretender Vorsitzender im DGB-Vorstand"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1012393631",
+    "https://de.wikipedia.org/wiki/Gustav_Fehrenbach"
+  ]
 }

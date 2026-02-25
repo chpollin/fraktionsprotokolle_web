@@ -1,10 +1,74 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchranzHelmuth_1953-10-06",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchranzHelmuth_1953-10-06",
   "name": "Helmuth Schranz",
   "givenName": "Helmuth",
   "familyName": "Schranz",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Helmuth Schranz",
+    "forename": "Helmuth",
+    "surname": "Schranz",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1897-01-07",
+    "place": "Haiger",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1968-05-07",
+    "place": "Offenbach am Main",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "DP",
+      "faction_full": "Fraktion Deutsche Partei",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 2,
+      "faction": "DP/FVP",
+      "faction_full": "Fraktion Deutsche Partei/Freie Volkspartei",
+      "from": "1957-03-14",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 3,
+      "faction": "DP",
+      "faction_full": "Fraktion Deutsche Partei",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 3,
+      "faction": "Grp. DP",
+      "faction_full": "Gruppe Deutsche Partei",
+      "from": "1960-07-02",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 3,
+      "faction": "Fraktionslos",
+      "faction_full": "Fraktionslos",
+      "from": "1961-05-03",
+      "to": "1961-10-15"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002068",
+    "gnd": "https://d-nb.info/gnd/1014479460",
+    "wikipedia": "https://de.wikipedia.org/wiki/Helmuth_Schranz"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1897-01-07",
   "birthPlace": {
@@ -75,67 +139,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/1014479460",
     "https://de.wikipedia.org/wiki/Helmuth_Schranz"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Helmuth Schranz",
-    "forename": "Helmuth",
-    "surname": "Schranz",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1897-01-07",
-    "place": "Haiger",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1968-05-07",
-    "place": "Offenbach am Main",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 2,
-      "faction": "DP",
-      "faction_full": "Fraktion Deutsche Partei",
-      "from": "1953-10-06",
-      "to": "1957-10-06"
-    },
-    {
-      "period": 2,
-      "faction": "DP/FVP",
-      "faction_full": "Fraktion Deutsche Partei/Freie Volkspartei",
-      "from": "1957-03-14",
-      "to": "1957-10-06"
-    },
-    {
-      "period": 3,
-      "faction": "DP",
-      "faction_full": "Fraktion Deutsche Partei",
-      "from": "1957-10-15",
-      "to": "1961-10-15"
-    },
-    {
-      "period": 3,
-      "faction": "Grp. DP",
-      "faction_full": "Gruppe Deutsche Partei",
-      "from": "1960-07-02",
-      "to": "1961-10-15"
-    },
-    {
-      "period": 3,
-      "faction": "Fraktionslos",
-      "faction_full": "Fraktionslos",
-      "from": "1961-05-03",
-      "to": "1961-10-15"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11002068",
-    "gnd": "https://d-nb.info/gnd/1014479460",
-    "wikipedia": "https://de.wikipedia.org/wiki/Helmuth_Schranz",
-    "viaf": null
-  }
+  ]
 }

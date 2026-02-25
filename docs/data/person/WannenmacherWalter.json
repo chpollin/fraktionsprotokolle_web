@@ -1,26 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WannenmacherWalter",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WannenmacherWalter",
   "name": "Walter Wannenmacher",
   "givenName": "Walter",
   "familyName": "Wannenmacher",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1902-07-11",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Iglau (heute: Jihlava, Tschechische Republik)"
-  },
-  "deathDate": "1985-08-25",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Journalist"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/129031534"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Walter Wannenmacher",
@@ -42,9 +29,20 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/129031534",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/129031534"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1902-07-11",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Iglau (heute: Jihlava, Tschechische Republik)"
+  },
+  "deathDate": "1985-08-25",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/129031534"
+  ]
 }

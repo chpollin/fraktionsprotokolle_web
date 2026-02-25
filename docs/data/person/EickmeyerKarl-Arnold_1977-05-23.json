@@ -1,67 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "EickmeyerKarl-Arnold_1977-05-23",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/EickmeyerKarl-Arnold_1977-05-23",
   "name": "Karl-Arnold Eickmeyer",
   "givenName": "Karl-Arnold",
   "familyName": "Eickmeyer",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1925-06-07",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Lüdingworth/Krs. Land Hadeln (Niedersachsen)"
-  },
-  "deathDate": "2007-10-12",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Rektor i. R. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1977-05-23",
-      "endDate": "1980-11-04"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1980-11-04",
-      "endDate": "1983-03-29"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktionslos",
-        "alternateName": "Fraktionslos"
-      },
-      "startDate": "1986-10-27",
-      "endDate": "1987-02-18"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1985-08-23",
-      "endDate": "1987-02-18"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1118917944"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Karl-Arnold Eickmeyer",
@@ -113,8 +59,62 @@
   ],
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000453",
-    "gnd": "https://d-nb.info/gnd/1118917944",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/1118917944"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1925-06-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Lüdingworth/Krs. Land Hadeln (Niedersachsen)"
+  },
+  "deathDate": "2007-10-12",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rektor i. R. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1977-05-23",
+      "endDate": "1980-11-04"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1980-11-04",
+      "endDate": "1983-03-29"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktionslos",
+        "alternateName": "Fraktionslos"
+      },
+      "startDate": "1986-10-27",
+      "endDate": "1987-02-18"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1985-08-23",
+      "endDate": "1987-02-18"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1118917944"
+  ]
 }

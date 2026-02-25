@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "JahnRoland",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/JahnRoland",
   "name": "Roland Jahn",
   "givenName": "Roland",
   "familyName": "Jahn",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1953-07-14",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Jena"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Journalist und DDR-Bürgerrechtler; 1983 Mitbegründer der Friedensgemeinschaft Jena; 2010–2021 Bundesbeauftragter für die Unterlagen des Staatssicherheitsdienstes der ehemaligen DDR"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119422182",
-    "https://de.wikipedia.org/wiki/Roland_Jahn"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Roland Jahn",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119422182",
-    "wikipedia": "https://de.wikipedia.org/wiki/Roland_Jahn",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Roland_Jahn"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1953-07-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Jena"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist und DDR-Bürgerrechtler; 1983 Mitbegründer der Friedensgemeinschaft Jena; 2010–2021 Bundesbeauftragter für die Unterlagen des Staatssicherheitsdienstes der ehemaligen DDR"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119422182",
+    "https://de.wikipedia.org/wiki/Roland_Jahn"
+  ]
 }

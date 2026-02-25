@@ -1,26 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MarkowskyBernd",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MarkowskyBernd",
   "name": "Bernd Markowsky",
   "givenName": "Bernd",
   "familyName": "Markowsky",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1951-07-05",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Greifswald"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Fotograf, Drucker, DDR-Oppositioneller, 1978 Mitinitiator des »Komitee für die Freilassung Rudolf Bahros«"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119327147"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Bernd Markowsky",
@@ -42,10 +29,20 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/119327147",
-    "wikipedia": null,
-    "viaf": null
+    "gnd": "https://d-nb.info/gnd/119327147"
   },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1951-07-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Greifswald"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Fotograf, Drucker, DDR-Oppositioneller, 1978 Mitinitiator des »Komitee für die Freilassung Rudolf Bahros«"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119327147"
+  ],
   "fraktionsprotokolle:sonstiges": "1976 in Jena nach Protest gegen die Ausbürgerung Wolf Biermanns verhaftet und 1977 aus der DDR ausgebürgert, lebt seit 2002 in Portugal und gründete dort die Umweltbewegung »Terra Queimada«"
 }

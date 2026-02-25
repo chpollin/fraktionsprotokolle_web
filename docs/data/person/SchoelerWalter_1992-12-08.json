@@ -1,68 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchoelerWalter_1992-12-08",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchoelerWalter_1992-12-08",
   "name": "Walter Schöler",
   "givenName": "Walter",
   "familyName": "Schöler",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1947-03-10",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "St. Tönis/Krs. Viersen"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Stadtverwaltungsrat a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1992-12-08",
-      "endDate": "1994-11-10"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1994-11-10",
-      "endDate": "1998-10-26"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1998-10-26",
-      "endDate": "2002-10-17"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "2002-10-17",
-      "endDate": "2005-10-18"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1117136051",
-    "https://de.wikipedia.org/wiki/Walter_Sch%C3%B6ler_%28Politiker%29"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Walter Schöler",
@@ -115,7 +60,62 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11002056",
     "gnd": "https://d-nb.info/gnd/1117136051",
-    "wikipedia": "https://de.wikipedia.org/wiki/Walter_Sch%C3%B6ler_%28Politiker%29",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Walter_Sch%C3%B6ler_%28Politiker%29"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1947-03-10",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "St. Tönis/Krs. Viersen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Stadtverwaltungsrat a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1992-12-08",
+      "endDate": "1994-11-10"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-10-26"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1998-10-26",
+      "endDate": "2002-10-17"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "2002-10-17",
+      "endDate": "2005-10-18"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1117136051",
+    "https://de.wikipedia.org/wiki/Walter_Sch%C3%B6ler_%28Politiker%29"
+  ]
 }

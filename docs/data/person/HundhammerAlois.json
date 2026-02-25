@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HundhammerAlois",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HundhammerAlois",
   "name": "Alois Hundhammer",
   "givenName": "Alois",
   "familyName": "Hundhammer",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1900-02-25",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Moos, Landkreis Ebersberg"
-  },
-  "deathDate": "1974-08-01",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "MdL (CSU), 1946–1950 Bayerischer Staatsminister für Unterricht und Kultus, 1957–1969 Staatsminister für Landwirtschaft und Forsten"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118708104",
-    "https://de.wikipedia.org/wiki/Alois_Hundhammer"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Alois Hundhammer",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118708104",
-    "wikipedia": "https://de.wikipedia.org/wiki/Alois_Hundhammer",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Alois_Hundhammer"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1900-02-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Moos, Landkreis Ebersberg"
+  },
+  "deathDate": "1974-08-01",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "MdL (CSU), 1946–1950 Bayerischer Staatsminister für Unterricht und Kultus, 1957–1969 Staatsminister für Landwirtschaft und Forsten"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118708104",
+    "https://de.wikipedia.org/wiki/Alois_Hundhammer"
+  ]
 }

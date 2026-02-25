@@ -1,29 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "OldenburgJuergen",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/OldenburgJuergen",
   "name": "Jürgen Oldenburg",
   "givenName": "Jürgen",
   "familyName": "Oldenburg",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1926-12-03",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Altona"
-  },
-  "deathDate": "1991-08-12",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Neumünster"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Studiendirektor, 1971–1975 MdL Schleswig-Holstein (SPD)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/J%C3%BCrgen_Oldenburg"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Jürgen Oldenburg",
@@ -45,9 +29,24 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://de.wikipedia.org/wiki/J%C3%BCrgen_Oldenburg",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/J%C3%BCrgen_Oldenburg"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1926-12-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Altona"
+  },
+  "deathDate": "1991-08-12",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Neumünster"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Studiendirektor, 1971–1975 MdL Schleswig-Holstein (SPD)"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/J%C3%BCrgen_Oldenburg"
+  ]
 }

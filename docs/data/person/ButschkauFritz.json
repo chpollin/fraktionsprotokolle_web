@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ButschkauFritz",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ButschkauFritz",
   "name": "Fritz Butschkau",
   "givenName": "Fritz",
   "familyName": "Butschkau",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1901-03-13",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Wilmersdorf bei Berlin (heute: Berlin)"
-  },
-  "deathDate": "1971-10-10",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Düsseldorf"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Bankmanager, 1951–1967 Präsident des Deutschen Sparkassen- und Giroverbands (DSGV)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118665588",
-    "https://de.wikipedia.org/wiki/Fritz_Butschkau"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Fritz Butschkau",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118665588",
-    "wikipedia": "https://de.wikipedia.org/wiki/Fritz_Butschkau",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Fritz_Butschkau"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1901-03-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Wilmersdorf bei Berlin (heute: Berlin)"
+  },
+  "deathDate": "1971-10-10",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Düsseldorf"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Bankmanager, 1951–1967 Präsident des Deutschen Sparkassen- und Giroverbands (DSGV)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118665588",
+    "https://de.wikipedia.org/wiki/Fritz_Butschkau"
+  ]
 }

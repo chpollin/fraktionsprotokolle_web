@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SeilerMichael",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SeilerMichael",
   "name": "Michael Seiler",
   "givenName": "Michael",
   "familyName": "Seiler",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1953-10-28",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Nürnberg"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Chemiker, Nuklearexperte, 1999–2014 Mitglied, 2002–2006 Leiter der deutschen Reaktorsicherheitskommission, 1980–2019 Öko-Institut e. V., dort bis 2009 Leiter des Bereichs Nukleartechnik & Anlagensicherheit, 2009–2019 Sprecher der Geschäftsführung des Instituts, 2014–2016 Mitglied in der Kommission Lagerung hoch radioaktiver Abfallstoffe (Endlagerkommission) gemäß § 3 Standortauswahlgesetz"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1128737744",
-    "https://de.wikipedia.org/wiki/Michael_Sailer_(Chemiker)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Michael Seiler",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1128737744",
-    "wikipedia": "https://de.wikipedia.org/wiki/Michael_Sailer_(Chemiker)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Michael_Sailer_(Chemiker)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1953-10-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Nürnberg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Chemiker, Nuklearexperte, 1999–2014 Mitglied, 2002–2006 Leiter der deutschen Reaktorsicherheitskommission, 1980–2019 Öko-Institut e. V., dort bis 2009 Leiter des Bereichs Nukleartechnik & Anlagensicherheit, 2009–2019 Sprecher der Geschäftsführung des Instituts, 2014–2016 Mitglied in der Kommission Lagerung hoch radioaktiver Abfallstoffe (Endlagerkommission) gemäß § 3 Standortauswahlgesetz"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1128737744",
+    "https://de.wikipedia.org/wiki/Michael_Sailer_(Chemiker)"
+  ]
 }

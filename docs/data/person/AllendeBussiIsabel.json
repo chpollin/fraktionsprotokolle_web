@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "AllendeBussiIsabel",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/AllendeBussiIsabel",
   "name": "Isabel Allende Bussi",
   "givenName": "Marie Isabel",
   "familyName": "Allende Bussi",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1945-01-18",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Santiago de Chile"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "chilenische Soziologin und Politikerin, 1994–2010 Mitglied des Abgeordnetenhauses von Chile (Sozialistische Partei) und 2003–2004 dessen Präsidentin, ab 2010 Mitglied des Senats von Chile und 2014–2015 dessen Präsidentin"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1062480821",
-    "https://de.wikipedia.org/wiki/Isabel_Allende_(Politikerin)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Isabel Allende Bussi",
@@ -43,10 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1062480821",
-    "wikipedia": "https://de.wikipedia.org/wiki/Isabel_Allende_(Politikerin)",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Isabel_Allende_(Politikerin)"
   },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1945-01-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Santiago de Chile"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "chilenische Soziologin und Politikerin, 1994–2010 Mitglied des Abgeordnetenhauses von Chile (Sozialistische Partei) und 2003–2004 dessen Präsidentin, ab 2010 Mitglied des Senats von Chile und 2014–2015 dessen Präsidentin"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1062480821",
+    "https://de.wikipedia.org/wiki/Isabel_Allende_(Politikerin)"
+  ],
   "fraktionsprotokolle:sonstiges": "Tochter Salvador Allendes"
 }

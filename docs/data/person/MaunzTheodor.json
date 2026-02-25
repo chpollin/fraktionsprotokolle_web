@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MaunzTheodor",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MaunzTheodor",
   "name": "Theodor Maunz",
   "givenName": "Theodor",
   "familyName": "Maunz",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1901-09-01",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Dachau"
-  },
-  "deathDate": "1993-09-10",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Jurist, Verwaltungs- und Staatsrechtler, 1952–1969 Professor für Öffentliches Recht an der Universität München, 1957–1964 bayerischer Staatsminister für Unterricht und Kultus (CSU)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118579193",
-    "https://de.wikipedia.org/wiki/Theodor_Maunz"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Theodor Maunz",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118579193",
-    "wikipedia": "https://de.wikipedia.org/wiki/Theodor_Maunz",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Theodor_Maunz"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1901-09-01",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Dachau"
+  },
+  "deathDate": "1993-09-10",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Jurist, Verwaltungs- und Staatsrechtler, 1952–1969 Professor für Öffentliches Recht an der Universität München, 1957–1964 bayerischer Staatsminister für Unterricht und Kultus (CSU)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118579193",
+    "https://de.wikipedia.org/wiki/Theodor_Maunz"
+  ]
 }

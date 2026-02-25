@@ -1,10 +1,60 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GruenbeckJosef_1983-03-29",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GruenbeckJosef_1983-03-29",
   "name": "Josef Grünbeck",
   "givenName": "Josef",
   "familyName": "Grünbeck",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Josef Grünbeck",
+    "forename": "Josef",
+    "surname": "Grünbeck",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1925-09-17",
+    "place": "Haan/Krs. Dux, Sudetenland (heute: Háj u Duchcova, Tschechische Republik)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2012-10-15",
+    "place": "Höchstädt an der Donau",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 10,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1983-03-29",
+      "to": "1987-02-18"
+    },
+    {
+      "period": 11,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1987-02-18",
+      "to": "1990-12-20"
+    },
+    {
+      "period": 12,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1990-12-20",
+      "to": "1994-11-10"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000737",
+    "gnd": "https://d-nb.info/gnd/120654601",
+    "wikipedia": "https://de.wikipedia.org/wiki/Josef_Gr%C3%BCnbeck_%28Politiker%2C_1925%29"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1925-09-17",
   "birthPlace": {
@@ -55,53 +105,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/120654601",
     "https://de.wikipedia.org/wiki/Josef_Gr%C3%BCnbeck_%28Politiker%2C_1925%29"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Josef Grünbeck",
-    "forename": "Josef",
-    "surname": "Grünbeck",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1925-09-17",
-    "place": "Haan/Krs. Dux, Sudetenland (heute: Háj u Duchcova, Tschechische Republik)",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "2012-10-15",
-    "place": "Höchstädt an der Donau",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 10,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1983-03-29",
-      "to": "1987-02-18"
-    },
-    {
-      "period": 11,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1987-02-18",
-      "to": "1990-12-20"
-    },
-    {
-      "period": 12,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1990-12-20",
-      "to": "1994-11-10"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11000737",
-    "gnd": "https://d-nb.info/gnd/120654601",
-    "wikipedia": "https://de.wikipedia.org/wiki/Josef_Gr%C3%BCnbeck_%28Politiker%2C_1925%29",
-    "viaf": null
-  }
+  ]
 }

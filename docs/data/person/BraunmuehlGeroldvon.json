@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BraunmuehlGeroldvon",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BraunmuehlGeroldvon",
   "name": "Gerold von Braunmühl",
   "givenName": "Gerold (Gero) Hermann Johannes",
   "familyName": "Braunmühl",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1935-09-15",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Breslau (heute: Wrocław, Polen)"
-  },
-  "deathDate": "1986-10-10",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bonn"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Vortragender Legationsrat, später Ministerialdirektor im Auswärtigen Amt"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118825194",
-    "https://de.wikipedia.org/wiki/Gerold_von_Braunm%C3%BChl"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Gerold von Braunmühl",
@@ -46,10 +29,27 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118825194",
-    "wikipedia": "https://de.wikipedia.org/wiki/Gerold_von_Braunm%C3%BChl",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Gerold_von_Braunm%C3%BChl"
   },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1935-09-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Breslau (heute: Wrocław, Polen)"
+  },
+  "deathDate": "1986-10-10",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Vortragender Legationsrat, später Ministerialdirektor im Auswärtigen Amt"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118825194",
+    "https://de.wikipedia.org/wiki/Gerold_von_Braunm%C3%BChl"
+  ],
   "fraktionsprotokolle:sonstiges": "1986 von der terroristischen Vereinigung »Rote Armee Fraktion« (RAF) ermordet"
 }

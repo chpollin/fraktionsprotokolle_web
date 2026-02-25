@@ -1,35 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MisselwitzHans-Juergen_1990-10-03",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MisselwitzHans-Juergen_1990-10-03",
   "name": "Hans-Jürgen Misselwitz",
   "givenName": "Hans-Jürgen",
   "familyName": "Misselwitz",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1950-03-29",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Altenburg"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Pfarrer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1990-10-03",
-      "endDate": "1990-12-20"
-    }
-  ],
-  "sameAs": null,
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Hans-Jürgen Misselwitz",
@@ -59,9 +37,28 @@
     }
   ],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11001514",
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
-  }
+    "mdb_stammdaten": "11001514"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1950-03-29",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Altenburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Pfarrer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1990-10-03",
+      "endDate": "1990-12-20"
+    }
+  ]
 }

@@ -1,35 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KalzManfred_1990-10-03",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KalzManfred_1990-10-03",
   "name": "Manfred Kalz",
   "givenName": "Manfred",
   "familyName": "Kalz",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1937-12-05",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "deathDate": "2015-01-20",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Facharzt für Kinderheilkunde, Chefarzt der Kinderklinik [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1990-10-03",
-      "endDate": "1990-12-20"
-    }
-  ],
-  "sameAs": null,
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Manfred Kalz",
@@ -59,9 +37,29 @@
     }
   ],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11001060",
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
-  }
+    "mdb_stammdaten": "11001060"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1937-12-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "2015-01-20",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Facharzt für Kinderheilkunde, Chefarzt der Kinderklinik [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1990-10-03",
+      "endDate": "1990-12-20"
+    }
+  ]
 }

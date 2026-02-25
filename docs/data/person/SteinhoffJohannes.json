@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SteinhoffJohannes",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SteinhoffJohannes",
   "name": "Johannes Steinhoff",
   "givenName": "Johannes",
   "familyName": "Steinhoff",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1913-09-15",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Bottendorf, Landkreis Querfurt"
-  },
-  "deathDate": "1994-02-21",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Wachtberg-Pech"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Generalleutnant, Offizier der Wehrmacht und Bundeswehr, 1960–1963 Vertreter der Bundesrepublik im NATO-Militärausschusses, 1963–1965 Kommandierender General der Luftflotte, 1966–1970 Inspekteur der Luftwaffe, 1971–1974 Vorsitzender des NATO-Militärausschusses"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118617508",
-    "https://de.wikipedia.org/wiki/Johannes_Steinhoff"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Johannes Steinhoff",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118617508",
-    "wikipedia": "https://de.wikipedia.org/wiki/Johannes_Steinhoff",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Johannes_Steinhoff"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1913-09-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bottendorf, Landkreis Querfurt"
+  },
+  "deathDate": "1994-02-21",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Wachtberg-Pech"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Generalleutnant, Offizier der Wehrmacht und Bundeswehr, 1960–1963 Vertreter der Bundesrepublik im NATO-Militärausschusses, 1963–1965 Kommandierender General der Luftflotte, 1966–1970 Inspekteur der Luftwaffe, 1971–1974 Vorsitzender des NATO-Militärausschusses"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118617508",
+    "https://de.wikipedia.org/wiki/Johannes_Steinhoff"
+  ]
 }

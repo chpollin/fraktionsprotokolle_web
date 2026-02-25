@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RiegerWalter_1961-10-17",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RiegerWalter_1961-10-17",
   "name": "Walter Rieger",
   "givenName": "Walter",
   "familyName": "Rieger",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1908-12-05",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Köln"
-  },
-  "deathDate": "1989-08-01",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Köln"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Regierungspräsident z. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Freien Demokratischen Partei",
-        "alternateName": "FDP"
-      },
-      "startDate": "1961-10-17",
-      "endDate": "1965-10-17"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1055322507",
-    "https://de.wikipedia.org/wiki/Walter_Rieger_(Politiker)"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Walter Rieger",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001846",
     "gnd": "https://d-nb.info/gnd/1055322507",
-    "wikipedia": "https://de.wikipedia.org/wiki/Walter_Rieger_(Politiker)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Walter_Rieger_(Politiker)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1908-12-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Köln"
+  },
+  "deathDate": "1989-08-01",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Köln"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Regierungspräsident z. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1055322507",
+    "https://de.wikipedia.org/wiki/Walter_Rieger_(Politiker)"
+  ]
 }

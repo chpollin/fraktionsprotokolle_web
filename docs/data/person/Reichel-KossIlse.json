@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "Reichel-KossIlse",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/Reichel-KossIlse",
   "name": "Ilse Reichel-Koß",
   "givenName": "Ilse",
   "familyName": "Reichel-Koß",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1925-07-13",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "deathDate": "1993-12-17",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1975-1979 und 1981-1989 MdA Berlin (SPD), 1971-1981 Berliner Senatorin für Familie, Jugend und Sport"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/11937613X",
-    "https://de.wikipedia.org/wiki/Ilse_Reichel-Ko%C3%9F"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Ilse Reichel-Koß",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/11937613X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ilse_Reichel-Ko%C3%9F",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ilse_Reichel-Ko%C3%9F"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1925-07-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "1993-12-17",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1975-1979 und 1981-1989 MdA Berlin (SPD), 1971-1981 Berliner Senatorin für Familie, Jugend und Sport"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/11937613X",
+    "https://de.wikipedia.org/wiki/Ilse_Reichel-Ko%C3%9F"
+  ]
 }

@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MaierJuergen",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MaierJuergen",
   "name": "Jürgen Maier",
   "givenName": "Jürgen",
   "familyName": "Maier",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1963",
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Politikwissenschaftler; 1987–1991 Bundesvorstandsmitglied der Grünen; 1993–1996 Geschäftsführer der Asienstiftung"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1062758641"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Jürgen Maier",
@@ -39,9 +29,15 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/1062758641",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/1062758641"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1963",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Politikwissenschaftler; 1987–1991 Bundesvorstandsmitglied der Grünen; 1993–1996 Geschäftsführer der Asienstiftung"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1062758641"
+  ]
 }

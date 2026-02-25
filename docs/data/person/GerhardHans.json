@@ -1,26 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GerhardHans",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GerhardHans",
   "name": "Hans Gerhard",
   "givenName": "Hans",
   "familyName": "Gerhard",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1888-09-14",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "deathDate": "1978-02-14",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1923–1931 Oberbürgermeister des Stadtkreises Zella-Mehlis, 1931–1933 Bürgermeister der Kreisstadt Melle, 1934–1945 Bürgermeister der Stadt Leichlingen (Rheinland), 1950–1954 MdL Nordrhein-Westfalen (FDP)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Hans_Gerhard_(Politiker)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hans Gerhard",
@@ -42,9 +29,20 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Gerhard_(Politiker)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Gerhard_(Politiker)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1888-09-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "1978-02-14",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1923–1931 Oberbürgermeister des Stadtkreises Zella-Mehlis, 1931–1933 Bürgermeister der Kreisstadt Melle, 1934–1945 Bürgermeister der Stadt Leichlingen (Rheinland), 1950–1954 MdL Nordrhein-Westfalen (FDP)"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Hans_Gerhard_(Politiker)"
+  ]
 }

@@ -1,47 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "Oesterle-SchwerinJutta_1987-02-18",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/Oesterle-SchwerinJutta_1987-02-18",
   "name": "Jutta Oesterle-Schwerin",
   "givenName": "Jutta",
   "familyName": "Oesterle-Schwerin",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1941-02-25",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Jerusalem"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Freie Innenarchitektin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion Die Grünen",
-        "alternateName": "Grüne"
-      },
-      "startDate": "1987-02-18",
-      "endDate": "1990-12-20"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion Die Grünen/Bündnis 90",
-        "alternateName": "Grüne/B90"
-      },
-      "startDate": "1990-10-04",
-      "endDate": "1990-12-20"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/140914331"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Jutta Oesterle-Schwerin",
@@ -79,8 +45,41 @@
   ],
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001637",
-    "gnd": "https://d-nb.info/gnd/140914331",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/140914331"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1941-02-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Jerusalem"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Freie Innenarchitektin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Die Grünen",
+        "alternateName": "Grüne"
+      },
+      "startDate": "1987-02-18",
+      "endDate": "1990-12-20"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Die Grünen/Bündnis 90",
+        "alternateName": "Grüne/B90"
+      },
+      "startDate": "1990-10-04",
+      "endDate": "1990-12-20"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/140914331"
+  ]
 }

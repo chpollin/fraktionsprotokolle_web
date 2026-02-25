@@ -1,38 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HappeHeinrich_1949-09-07",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HappeHeinrich_1949-09-07",
   "name": "Heinrich Happe",
   "givenName": "Heinrich",
   "familyName": "Happe",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1894-12-31",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Essen-Altenessen"
-  },
-  "deathDate": "1979-01-12",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Landwirt, Verwaltungsangestellter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1949-09-07",
-      "endDate": "1953-09-07"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1339579375",
-    "https://de.wikipedia.org/wiki/Heinrich_Happe_(Politiker,_1894)"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Heinrich Happe",
@@ -64,7 +39,33 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000810",
     "gnd": "https://d-nb.info/gnd/1339579375",
-    "wikipedia": "https://de.wikipedia.org/wiki/Heinrich_Happe_(Politiker,_1894)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Heinrich_Happe_(Politiker,_1894)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1894-12-31",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Essen-Altenessen"
+  },
+  "deathDate": "1979-01-12",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Landwirt, Verwaltungsangestellter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1339579375",
+    "https://de.wikipedia.org/wiki/Heinrich_Happe_(Politiker,_1894)"
+  ]
 }

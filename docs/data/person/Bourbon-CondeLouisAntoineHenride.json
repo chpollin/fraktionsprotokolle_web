@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "Bourbon-CondeLouisAntoineHenride",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/Bourbon-CondeLouisAntoineHenride",
   "name": "Louis Antoine Henri de Bourbon-Condé, duc d’Enghien",
   "givenName": "Louis Antoine Henri",
   "familyName": "Bourbon-Condé",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1772-08-02",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Chantilly"
-  },
-  "deathDate": "1804-03-21",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Schloss Vincennes"
-  },
-  "hasOccupation": null,
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118684884",
-    "https://de.wikipedia.org/wiki/Louis_Antoine_Henri_de_Bourbon-Cond%C3%A9,_duc_d%E2%80%99Enghien"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Louis Antoine Henri de Bourbon-Condé, duc d’Enghien",
@@ -43,10 +29,23 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118684884",
-    "wikipedia": "https://de.wikipedia.org/wiki/Louis_Antoine_Henri_de_Bourbon-Cond%C3%A9,_duc_d%E2%80%99Enghien",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Louis_Antoine_Henri_de_Bourbon-Cond%C3%A9,_duc_d%E2%80%99Enghien"
   },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1772-08-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Chantilly"
+  },
+  "deathDate": "1804-03-21",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Schloss Vincennes"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118684884",
+    "https://de.wikipedia.org/wiki/Louis_Antoine_Henri_de_Bourbon-Cond%C3%A9,_duc_d%E2%80%99Enghien"
+  ],
   "fraktionsprotokolle:sonstiges": "auf Geheiß Napoleon Bonapartes verschleppt und nach einem Scheinprozess erschossen"
 }

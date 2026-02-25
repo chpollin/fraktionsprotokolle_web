@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GuevenKemal",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GuevenKemal",
   "name": "Kemal Güven",
   "givenName": "Kemal",
   "familyName": "Güven",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1921",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Erzincan"
-  },
-  "deathDate": "2013-07-10",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Ankara"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "türkischer Politiker, Dez. 1973–1977 Präsident der Türkischen Nationalversammlung"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Kemal_G%C3%BCven",
-    "http://viaf.org/viaf/245890022"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Kemal Güven",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
     "wikipedia": "https://de.wikipedia.org/wiki/Kemal_G%C3%BCven",
     "viaf": "http://viaf.org/viaf/245890022"
-  }
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1921",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Erzincan"
+  },
+  "deathDate": "2013-07-10",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Ankara"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "türkischer Politiker, Dez. 1973–1977 Präsident der Türkischen Nationalversammlung"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Kemal_G%C3%BCven",
+    "http://viaf.org/viaf/245890022"
+  ]
 }

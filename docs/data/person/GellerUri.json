@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GellerUri",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GellerUri",
   "name": "Uri Geller, ursprünglich: György Gellér",
   "givenName": "Uri",
   "familyName": "Geller",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1946-12-20",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Tel Aviv"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Unterhaltungs- und Illusionskünstler"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118538314",
-    "https://de.wikipedia.org/wiki/Uri_Geller"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Uri Geller, ursprünglich: György Gellér",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118538314",
-    "wikipedia": "https://de.wikipedia.org/wiki/Uri_Geller",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Uri_Geller"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1946-12-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Tel Aviv"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Unterhaltungs- und Illusionskünstler"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118538314",
+    "https://de.wikipedia.org/wiki/Uri_Geller"
+  ]
 }

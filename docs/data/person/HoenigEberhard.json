@@ -1,21 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HoenigEberhard",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HoenigEberhard",
   "name": "Eberhard Hönig",
   "givenName": "Eberhard",
   "familyName": "Hönig",
-  "gender": "https://schema.org/Male",
-  "birthDate": null,
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "(mindestens) 1965–1971 Justitiar des Deutschen Entwicklungsdiensts (DED), (mindestens) 1971 und 1977 FDP-Stadtverordneter in Bonn"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Eberhard Hönig",
@@ -36,10 +28,10 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Male",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "(mindestens) 1965–1971 Justitiar des Deutschen Entwicklungsdiensts (DED), (mindestens) 1971 und 1977 FDP-Stadtverordneter in Bonn"
   }
 }

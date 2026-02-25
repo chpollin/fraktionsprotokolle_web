@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BurgessGuy",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BurgessGuy",
   "name": "Guy Burgess",
   "givenName": "Guy Francis",
   "familyName": "Burgess",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1911-04-16",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Devonport"
-  },
-  "deathDate": "1963-08-30",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Moskau"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Mitarbeiter des  britischen Außenministeriums und sowjetischer Agent, 1951 in die Sowjetunion abgesetzt"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118517627",
-    "https://en.wikipedia.org/wiki/Guy_Burgess"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Guy Burgess",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118517627",
-    "wikipedia": "https://en.wikipedia.org/wiki/Guy_Burgess",
-    "viaf": null
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/Guy_Burgess"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1911-04-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Devonport"
+  },
+  "deathDate": "1963-08-30",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Moskau"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Mitarbeiter des  britischen Außenministeriums und sowjetischer Agent, 1951 in die Sowjetunion abgesetzt"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118517627",
+    "https://en.wikipedia.org/wiki/Guy_Burgess"
+  ]
 }

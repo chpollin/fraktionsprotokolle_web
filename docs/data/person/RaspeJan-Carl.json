@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RaspeJan-Carl",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RaspeJan-Carl",
   "name": "Jan-Carl Raspe",
   "givenName": "Jan-Carl",
   "familyName": "Raspe",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1944-07-24",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Seefeld in Tirol"
-  },
-  "deathDate": "1977-10-18",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Stuttgart-Stammheim"
-  },
-  "hasOccupation": null,
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118598368",
-    "https://de.wikipedia.org/wiki/Jan-Carl_Raspe"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Jan-Carl Raspe",
@@ -43,10 +29,23 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118598368",
-    "wikipedia": "https://de.wikipedia.org/wiki/Jan-Carl_Raspe",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Jan-Carl_Raspe"
   },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1944-07-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Seefeld in Tirol"
+  },
+  "deathDate": "1977-10-18",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Stuttgart-Stammheim"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118598368",
+    "https://de.wikipedia.org/wiki/Jan-Carl_Raspe"
+  ],
   "fraktionsprotokolle:sonstiges": "Mitglied der terroristischen Vereinigung »Rote Armee Fraktion« (RAF)"
 }

@@ -1,10 +1,60 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SteckerJosef_1957-10-15",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SteckerJosef_1957-10-15",
   "name": "Josef Stecker",
   "givenName": "Josef",
   "familyName": "Stecker",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Josef Stecker",
+    "forename": "Josef",
+    "surname": "Stecker",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1916-12-07",
+    "place": "Wehm/Emsland",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2008-01-24",
+    "place": "Meppen",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 3,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 4,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    },
+    {
+      "period": 5,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002225",
+    "gnd": "https://d-nb.info/gnd/1035154161",
+    "wikipedia": "https://de.wikipedia.org/wiki/Josef_Stecker"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1916-12-07",
   "birthPlace": {
@@ -55,53 +105,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/1035154161",
     "https://de.wikipedia.org/wiki/Josef_Stecker"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Josef Stecker",
-    "forename": "Josef",
-    "surname": "Stecker",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1916-12-07",
-    "place": "Wehm/Emsland",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "2008-01-24",
-    "place": "Meppen",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 3,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1957-10-15",
-      "to": "1961-10-15"
-    },
-    {
-      "period": 4,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1961-10-17",
-      "to": "1965-10-17"
-    },
-    {
-      "period": 5,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1965-10-19",
-      "to": "1969-10-19"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11002225",
-    "gnd": "https://d-nb.info/gnd/1035154161",
-    "wikipedia": "https://de.wikipedia.org/wiki/Josef_Stecker",
-    "viaf": null
-  }
+  ]
 }

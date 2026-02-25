@@ -1,48 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KoltzschRolf_1987-02-18",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KoltzschRolf_1987-02-18",
   "name": "Rolf Koltzsch",
   "givenName": "Rolf",
   "familyName": "Koltzsch",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1928-07-16",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Leipzig"
-  },
-  "deathDate": "2023-09-15",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Versicherungskaufmann [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1987-02-18",
-      "endDate": "1990-12-20"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1990-12-20",
-      "endDate": "1994-11-10"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1025801881",
-    "https://de.wikipedia.org/wiki/Rolf_Koltzsch"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Rolf Koltzsch",
@@ -81,7 +46,43 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001176",
     "gnd": "https://d-nb.info/gnd/1025801881",
-    "wikipedia": "https://de.wikipedia.org/wiki/Rolf_Koltzsch",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Rolf_Koltzsch"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1928-07-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Leipzig"
+  },
+  "deathDate": "2023-09-15",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Versicherungskaufmann [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1987-02-18",
+      "endDate": "1990-12-20"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1025801881",
+    "https://de.wikipedia.org/wiki/Rolf_Koltzsch"
+  ]
 }

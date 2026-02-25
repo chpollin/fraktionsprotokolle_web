@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DenningerErhard",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DenningerErhard",
   "name": "Erhard Denninger",
   "givenName": "Erhard",
   "familyName": "Denninger",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1932-06-20",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Kortrijk"
-  },
-  "deathDate": "2021-12-01",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Königstein im Taunus"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Staatsrechtslehrer und Publizist, 1967–1999 Professor für Öffentliches Recht und Rechtsphilosophie in Frankfurt a.M., 1995–2000 stv. Richter am Thüringer Verfassungsgerichtshof"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/120144867",
-    "https://de.wikipedia.org/wiki/Erhard_Denninger"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Erhard Denninger",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/120144867",
-    "wikipedia": "https://de.wikipedia.org/wiki/Erhard_Denninger",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Erhard_Denninger"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1932-06-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kortrijk"
+  },
+  "deathDate": "2021-12-01",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Königstein im Taunus"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Staatsrechtslehrer und Publizist, 1967–1999 Professor für Öffentliches Recht und Rechtsphilosophie in Frankfurt a.M., 1995–2000 stv. Richter am Thüringer Verfassungsgerichtshof"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/120144867",
+    "https://de.wikipedia.org/wiki/Erhard_Denninger"
+  ]
 }

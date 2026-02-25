@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "Zia-ul-HaqMohammad",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/Zia-ul-HaqMohammad",
   "name": "Mohammad Zia-ul-Haq",
   "givenName": "Mohammad",
   "familyName": "Zia-ul-Haq",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1924-08-12",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Jalandhar, Punjab"
-  },
-  "deathDate": "1988-08-17",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bahawalpur"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1978–1988 Präsident von Pakistan"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118845101",
-    "https://de.wikipedia.org/wiki/Mohammed_Zia-ul-Haq"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Mohammad Zia-ul-Haq",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118845101",
-    "wikipedia": "https://de.wikipedia.org/wiki/Mohammed_Zia-ul-Haq",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Mohammed_Zia-ul-Haq"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1924-08-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Jalandhar, Punjab"
+  },
+  "deathDate": "1988-08-17",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bahawalpur"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1978–1988 Präsident von Pakistan"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118845101",
+    "https://de.wikipedia.org/wiki/Mohammed_Zia-ul-Haq"
+  ]
 }

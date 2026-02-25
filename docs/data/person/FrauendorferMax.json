@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FrauendorferMax",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FrauendorferMax",
   "name": "Max Frauendorfer",
   "givenName": "Max",
   "familyName": "Frauendorfer",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1909-06-14",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "deathDate": "1989-07-25",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Tutzing"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "SS-Obersturmbannführer, 2. Schatzmeister der CSU"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/122684885",
-    "https://de.wikipedia.org/wiki/Max_Frauendorfer"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Max Frauendorfer",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/122684885",
-    "wikipedia": "https://de.wikipedia.org/wiki/Max_Frauendorfer",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Max_Frauendorfer"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1909-06-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "deathDate": "1989-07-25",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Tutzing"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "SS-Obersturmbannführer, 2. Schatzmeister der CSU"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/122684885",
+    "https://de.wikipedia.org/wiki/Max_Frauendorfer"
+  ]
 }

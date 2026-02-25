@@ -1,26 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "AdenauerLotte",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/AdenauerLotte",
   "name": "Charlotte »Lotte« Multhaupt, geb. Adenauer",
   "givenName": "Charlotte",
   "familyName": "Adenauer",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1925-04-30",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Köln"
-  },
-  "deathDate": "2018-06-21",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Dr. phil."
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/116007699"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Charlotte »Lotte« Multhaupt, geb. Adenauer",
@@ -42,10 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/116007699",
-    "wikipedia": null,
-    "viaf": null
+    "gnd": "https://d-nb.info/gnd/116007699"
   },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1925-04-30",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Köln"
+  },
+  "deathDate": "2018-06-21",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dr. phil."
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/116007699"
+  ],
   "fraktionsprotokolle:sonstiges": "Tochter Konrad und Auguste Adenauers"
 }

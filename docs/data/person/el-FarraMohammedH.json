@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "el-FarraMohammedH",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/el-FarraMohammedH",
   "name": "Mohammed H. el-Farra",
   "givenName": "Mohammed H.",
   "familyName": "el-Farra",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1927-04-20",
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1965–1971 Leiter der jordanischen Ständigen Vertretung bei der UNO in New York"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://en.wikipedia.org/wiki/Muhammad_Hussain_El-Farra"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Mohammed H. el-Farra",
@@ -39,9 +29,15 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://en.wikipedia.org/wiki/Muhammad_Hussain_El-Farra",
-    "viaf": null
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/Muhammad_Hussain_El-Farra"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1927-04-20",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1965–1971 Leiter der jordanischen Ständigen Vertretung bei der UNO in New York"
+  },
+  "sameAs": [
+    "https://en.wikipedia.org/wiki/Muhammad_Hussain_El-Farra"
+  ]
 }

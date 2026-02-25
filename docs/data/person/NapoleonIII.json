@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "NapoleonIII",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/NapoleonIII",
   "name": "Napoléon III.",
   "givenName": "Charles-Louis-Napoléon",
   "familyName": "Bonaparte",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1808-04-20",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Paris"
-  },
-  "deathDate": "1873-01-09",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Chislehurst (heute: London)"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1848–1852 französischer Staatspräsident und 1852–1870 als Napoléon III. Kaiser der Franzosen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118586416",
-    "https://de.wikipedia.org/wiki/Napoleon_III."
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Napoléon III.",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118586416",
-    "wikipedia": "https://de.wikipedia.org/wiki/Napoleon_III.",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Napoleon_III."
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1808-04-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "deathDate": "1873-01-09",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Chislehurst (heute: London)"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1848–1852 französischer Staatspräsident und 1852–1870 als Napoléon III. Kaiser der Franzosen"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118586416",
+    "https://de.wikipedia.org/wiki/Napoleon_III."
+  ]
 }

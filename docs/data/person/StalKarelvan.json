@@ -1,18 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "StalKarelvan",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/StalKarelvan",
   "name": "Karel van Stal",
   "givenName": "Karel",
   "familyName": "Stal",
-  "gender": "https://schema.org/Male",
-  "birthDate": null,
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": null,
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Karel van Stal",
@@ -33,11 +28,7 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
-  },
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Male",
   "fraktionsprotokolle:sonstiges": "1959/60 niederländischer Vorsitzender einer internationalen Kommission (sog. Lemberg-Kommission) zur Untersuchung der Vorwürfe gegen Bundesminister Oberländer"
 }

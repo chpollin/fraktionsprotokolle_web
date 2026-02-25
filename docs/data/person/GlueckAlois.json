@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GlueckAlois",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GlueckAlois",
   "name": "Alois Glück",
   "givenName": "Alois",
   "familyName": "Glück",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1940-01-24",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Traunwalchen"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1970–2008 MdL Bayern (CSU), 2003–2008 Landtagspräsident, 2009–2015 Präsident des Zentralkomitees der deutschen Katholiken"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/12109569X",
-    "https://de.wikipedia.org/wiki/Alois_Gl%C3%BCck"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Alois Glück",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/12109569X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Alois_Gl%C3%BCck",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Alois_Gl%C3%BCck"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1940-01-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Traunwalchen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1970–2008 MdL Bayern (CSU), 2003–2008 Landtagspräsident, 2009–2015 Präsident des Zentralkomitees der deutschen Katholiken"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/12109569X",
+    "https://de.wikipedia.org/wiki/Alois_Gl%C3%BCck"
+  ]
 }

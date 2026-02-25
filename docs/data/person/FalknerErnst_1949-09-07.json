@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FalknerErnst_1949-09-07",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FalknerErnst_1949-09-07",
   "name": "Ernst Falkner",
   "givenName": "Ernst",
   "familyName": "Falkner",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1909-02-24",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "deathDate": "1950-10-27",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Leipheim"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Philologe, Jurist [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion Bayernpartei",
-        "alternateName": "BP"
-      },
-      "startDate": "1949-09-07",
-      "endDate": "1950-10-27"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/143268554",
-    "https://de.wikipedia.org/wiki/Ernst_Falkner"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Ernst Falkner",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000515",
     "gnd": "https://d-nb.info/gnd/143268554",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ernst_Falkner",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ernst_Falkner"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1909-02-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "deathDate": "1950-10-27",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Leipheim"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Philologe, Jurist [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Bayernpartei",
+        "alternateName": "BP"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1950-10-27"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/143268554",
+    "https://de.wikipedia.org/wiki/Ernst_Falkner"
+  ]
 }

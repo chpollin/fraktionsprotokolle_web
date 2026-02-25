@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BullHansPeter",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BullHansPeter",
   "name": "Hans Peter Bull",
   "givenName": "Hans Peter",
   "familyName": "Bull",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1936-10-17",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Lübben im Spreewald"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Jurist, 1973-1978, 1983-1988 und 1995-2002 Professor für Öffentliches Recht an der Universität Hamburg, 1978-1983 erster Bundesbeauftragter für den Datenschutz, 1988-1995 Innenminister des Landes Schleswig-Holstein (SPD), seit 2021 Mitglied im Netzwerk Wissenschaftsfreiheit"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/123487579",
-    "https://de.wikipedia.org/wiki/Hans_Peter_Bull"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hans Peter Bull",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/123487579",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Peter_Bull",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Peter_Bull"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1936-10-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Lübben im Spreewald"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Jurist, 1973-1978, 1983-1988 und 1995-2002 Professor für Öffentliches Recht an der Universität Hamburg, 1978-1983 erster Bundesbeauftragter für den Datenschutz, 1988-1995 Innenminister des Landes Schleswig-Holstein (SPD), seit 2021 Mitglied im Netzwerk Wissenschaftsfreiheit"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/123487579",
+    "https://de.wikipedia.org/wiki/Hans_Peter_Bull"
+  ]
 }

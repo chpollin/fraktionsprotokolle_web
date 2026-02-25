@@ -1,29 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BernbacherChristine",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BernbacherChristine",
   "name": "Christine »Christa« Bernbacher, geb. Eschner",
   "givenName": "Christine »Christa«",
   "familyName": "Bernbacher",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1930-12-19",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Hannover"
-  },
-  "deathDate": "2013-09-12",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bremen"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Krankenschwester und Hebamme, Ende der 1970er-Jahre Mitbegründerin der Bremer Grünen Liste (BGL), 1983–1987 und 1991–1999 MdBB (Die Grünen), seit 1988 Mitglied des Grünen-Bundesvorstands"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Christa_Bernbacher"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Christine »Christa« Bernbacher, geb. Eschner",
@@ -45,9 +29,24 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://de.wikipedia.org/wiki/Christa_Bernbacher",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Christa_Bernbacher"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1930-12-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hannover"
+  },
+  "deathDate": "2013-09-12",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bremen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Krankenschwester und Hebamme, Ende der 1970er-Jahre Mitbegründerin der Bremer Grünen Liste (BGL), 1983–1987 und 1991–1999 MdBB (Die Grünen), seit 1988 Mitglied des Grünen-Bundesvorstands"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Christa_Bernbacher"
+  ]
 }

@@ -1,10 +1,67 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WeltnerErnst_1949-09-07",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WeltnerErnst_1949-09-07",
   "name": "Ernst Weltner",
   "givenName": "Ernst",
   "familyName": "Weltner",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Ernst Weltner",
+    "forename": "Ernst",
+    "surname": "Weltner",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1898-11-05",
+    "place": "Ippinghausen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1969-06-21",
+    "place": "Rinteln",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 2,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 3,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 4,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002474",
+    "gnd": "https://d-nb.info/gnd/1118093135",
+    "wikipedia": "https://de.wikipedia.org/wiki/Ernst_Weltner"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1898-11-05",
   "birthPlace": {
@@ -66,61 +123,6 @@
     "https://d-nb.info/gnd/1118093135",
     "https://de.wikipedia.org/wiki/Ernst_Weltner"
   ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Ernst Weltner",
-    "forename": "Ernst",
-    "surname": "Weltner",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1898-11-05",
-    "place": "Ippinghausen",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1969-06-21",
-    "place": "Rinteln",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 1,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1949-09-07",
-      "to": "1953-09-07"
-    },
-    {
-      "period": 2,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1953-10-06",
-      "to": "1957-10-06"
-    },
-    {
-      "period": 3,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1957-10-15",
-      "to": "1961-10-15"
-    },
-    {
-      "period": 4,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1961-10-17",
-      "to": "1965-10-17"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11002474",
-    "gnd": "https://d-nb.info/gnd/1118093135",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ernst_Weltner",
-    "viaf": null
-  },
   "fraktionsprotokolle:alt_names": [
     {
       "reg": "Ernst Weltner",

@@ -1,68 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KemperHans-Peter_1993-05-03",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KemperHans-Peter_1993-05-03",
   "name": "Hans-Peter Kemper",
   "givenName": "Hans-Peter",
   "familyName": "Kemper",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1944-05-12",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Heiden/Krs. Borken"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Kriminalbeamter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1993-05-03",
-      "endDate": "1994-11-10"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1994-11-10",
-      "endDate": "1998-10-26"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1998-10-26",
-      "endDate": "2002-10-17"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "2002-10-17",
-      "endDate": "2005-10-18"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1110261160",
-    "https://de.wikipedia.org/wiki/Hans-Peter_Kemper"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Hans-Peter Kemper",
@@ -115,7 +60,62 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001083",
     "gnd": "https://d-nb.info/gnd/1110261160",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hans-Peter_Kemper",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans-Peter_Kemper"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1944-05-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Heiden/Krs. Borken"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Kriminalbeamter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1993-05-03",
+      "endDate": "1994-11-10"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-10-26"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1998-10-26",
+      "endDate": "2002-10-17"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "2002-10-17",
+      "endDate": "2005-10-18"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1110261160",
+    "https://de.wikipedia.org/wiki/Hans-Peter_Kemper"
+  ]
 }

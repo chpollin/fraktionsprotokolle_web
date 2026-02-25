@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RiddlebergerJamesW",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RiddlebergerJamesW",
   "name": "James W. Riddleberger",
   "givenName": "James Williams",
   "familyName": "Riddleberger",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1904-09-22",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Washington D.C."
-  },
-  "deathDate": "1982-10-17",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Woodstock, Virginia"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "US-amerikanischer Diplomat, 1949–1950 Direktor des Amtes für politische Angelegenheiten im US-Hochkommissariat für Deutschland, 1952–1953 Leiter der Deutschlandabteilung im Außenministerium, 1953–1955 Botschafter in Belgrad"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1121209017",
-    "http://viaf.org/viaf/35983662"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "James W. Riddleberger",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
     "wikipedia": "https://d-nb.info/gnd/1121209017",
     "viaf": "http://viaf.org/viaf/35983662"
-  }
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1904-09-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Washington D.C."
+  },
+  "deathDate": "1982-10-17",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Woodstock, Virginia"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "US-amerikanischer Diplomat, 1949–1950 Direktor des Amtes für politische Angelegenheiten im US-Hochkommissariat für Deutschland, 1952–1953 Leiter der Deutschlandabteilung im Außenministerium, 1953–1955 Botschafter in Belgrad"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1121209017",
+    "http://viaf.org/viaf/35983662"
+  ]
 }

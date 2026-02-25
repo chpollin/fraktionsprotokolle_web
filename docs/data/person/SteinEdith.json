@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SteinEdith",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SteinEdith",
   "name": "Edith Stein",
   "givenName": "Edith",
   "familyName": "Stein",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1891-10-12",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Breslau (heute: Wrocław, Polen)"
-  },
-  "deathDate": "1942-08-09",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "KZ Auschwitz-Birkenau"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Philosophin und Frauenrechtlerin"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118617230",
-    "https://de.wikipedia.org/wiki/Edith_Stein"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Edith Stein",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118617230",
-    "wikipedia": "https://de.wikipedia.org/wiki/Edith_Stein",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Edith_Stein"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1891-10-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Breslau (heute: Wrocław, Polen)"
+  },
+  "deathDate": "1942-08-09",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "KZ Auschwitz-Birkenau"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Philosophin und Frauenrechtlerin"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118617230",
+    "https://de.wikipedia.org/wiki/Edith_Stein"
+  ]
 }

@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BayerWolfgang",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BayerWolfgang",
   "name": "Wolfgang Bayer",
   "givenName": "Wolfgang",
   "familyName": "Bayer",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1948",
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Mitarbeiter der Grünen-Bundestagsfraktion in der 11. Wahlperiode"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/170071510"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Wolfgang Bayer",
@@ -39,9 +29,15 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/170071510",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/170071510"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1948",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Mitarbeiter der Grünen-Bundestagsfraktion in der 11. Wahlperiode"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/170071510"
+  ]
 }

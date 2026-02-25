@@ -1,10 +1,60 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "AugeHeinrich_1957-10-15",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/AugeHeinrich_1957-10-15",
   "name": "Heinrich Auge",
   "givenName": "Heinrich",
   "familyName": "Auge",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Heinrich Auge",
+    "forename": "Heinrich",
+    "surname": "Auge",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1898-02-03",
+    "place": "Recklinghausen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1977-02-21",
+    "place": "Recklinghausen",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 3,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 4,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    },
+    {
+      "period": 5,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000059",
+    "gnd": "https://d-nb.info/gnd/1101136952",
+    "wikipedia": "https://de.wikipedia.org/wiki/Heinrich_Auge"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1898-02-03",
   "birthPlace": {
@@ -55,53 +105,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/1101136952",
     "https://de.wikipedia.org/wiki/Heinrich_Auge"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Heinrich Auge",
-    "forename": "Heinrich",
-    "surname": "Auge",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1898-02-03",
-    "place": "Recklinghausen",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1977-02-21",
-    "place": "Recklinghausen",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 3,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1957-10-15",
-      "to": "1961-10-15"
-    },
-    {
-      "period": 4,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1961-10-17",
-      "to": "1965-10-17"
-    },
-    {
-      "period": 5,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1965-10-19",
-      "to": "1969-10-19"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11000059",
-    "gnd": "https://d-nb.info/gnd/1101136952",
-    "wikipedia": "https://de.wikipedia.org/wiki/Heinrich_Auge",
-    "viaf": null
-  }
+  ]
 }

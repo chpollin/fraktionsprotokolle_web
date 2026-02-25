@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HongwenWang",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HongwenWang",
   "name": "Wang Hongwen",
   "givenName": "Wang",
   "familyName": "Hongwen",
-  "gender": "https://schema.org/Male",
-  "birthDate": null,
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Changchun"
-  },
-  "deathDate": "1992-08-03",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Peking"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "ehemaliger stellvertretender Vorsitzender der Kommunistischen Partei Chinas"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/129406805",
-    "https://de.wikipedia.org/wiki/Wang_Hongwen"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Wang Hongwen",
@@ -46,9 +29,25 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/129406805",
-    "wikipedia": "https://de.wikipedia.org/wiki/Wang_Hongwen",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Wang_Hongwen"
+  },
+  "gender": "https://schema.org/Male",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Changchun"
+  },
+  "deathDate": "1992-08-03",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Peking"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "ehemaliger stellvertretender Vorsitzender der Kommunistischen Partei Chinas"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/129406805",
+    "https://de.wikipedia.org/wiki/Wang_Hongwen"
+  ]
 }

@@ -1,78 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "JunkerHeinrich_1961-10-17",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/JunkerHeinrich_1961-10-17",
   "name": "Heinrich Junker",
   "givenName": "Heinrich",
   "familyName": "Junker",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1923-04-15",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Liemke"
-  },
-  "deathDate": "2012-12-30",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Volkswirt (grad.) [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1961-10-17",
-      "endDate": "1965-10-17"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1965-10-19",
-      "endDate": "1969-10-19"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1969-10-20",
-      "endDate": "1972-09-22"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1972-12-13",
-      "endDate": "1976-12-13"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1976-12-14",
-      "endDate": "1980-11-04"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1148662278",
-    "https://de.wikipedia.org/wiki/Heinrich_Junker_(Politiker,_1923)"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Heinrich Junker",
@@ -132,7 +67,73 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001048",
     "gnd": "https://d-nb.info/gnd/1148662278",
-    "wikipedia": "https://de.wikipedia.org/wiki/Heinrich_Junker_(Politiker,_1923)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Heinrich_Junker_(Politiker,_1923)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1923-04-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Liemke"
+  },
+  "deathDate": "2012-12-30",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Volkswirt (grad.) [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1965-10-19",
+      "endDate": "1969-10-19"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1969-10-20",
+      "endDate": "1972-09-22"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1972-12-13",
+      "endDate": "1976-12-13"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1976-12-14",
+      "endDate": "1980-11-04"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1148662278",
+    "https://de.wikipedia.org/wiki/Heinrich_Junker_(Politiker,_1923)"
+  ]
 }

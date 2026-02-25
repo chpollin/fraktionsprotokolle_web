@@ -1,21 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "EckertEhrhardt",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/EckertEhrhardt",
   "name": "Ehrhardt Eckert",
   "givenName": "Ehrhardt",
   "familyName": "Eckert",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1910-10-01",
-  "birthPlace": null,
-  "deathDate": "1982-03-16",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1949–1976 Redakteur bzw. seit 1970 Chefredakteur des »Sozialdemokratischen Pressedienstes« und des »Parlamentarisch-Politischen Pressedienstes«"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Ehrhardt Eckert",
@@ -36,10 +28,12 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Male",
+  "birthDate": "1910-10-01",
+  "deathDate": "1982-03-16",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1949–1976 Redakteur bzw. seit 1970 Chefredakteur des »Sozialdemokratischen Pressedienstes« und des »Parlamentarisch-Politischen Pressedienstes«"
   }
 }

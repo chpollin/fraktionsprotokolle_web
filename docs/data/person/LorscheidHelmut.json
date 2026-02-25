@@ -1,26 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "LorscheidHelmut",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/LorscheidHelmut",
   "name": "Helmut Lorscheid",
   "givenName": "Helmut",
   "familyName": "Lorscheid",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1955-08-05",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Oberwindhagen"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Journalist, 1981 Mitglied der Bundespressekonferenz, 1996-1998 wissenschaftlicher Mitarbeiter im „Plutonium“-Untersuchungsausschuss des Bundestages für die Fraktion Bündndis90/Die Grünen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/111251206"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Helmut Lorscheid",
@@ -42,9 +29,19 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/111251206",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/111251206"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1955-08-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Oberwindhagen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist, 1981 Mitglied der Bundespressekonferenz, 1996-1998 wissenschaftlicher Mitarbeiter im „Plutonium“-Untersuchungsausschuss des Bundestages für die Fraktion Bündndis90/Die Grünen"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/111251206"
+  ]
 }

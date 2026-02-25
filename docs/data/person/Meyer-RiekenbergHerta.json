@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "Meyer-RiekenbergHerta",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/Meyer-RiekenbergHerta",
   "name": "Herta Meyer-Riekenberg",
   "givenName": "Herta",
   "familyName": "Meyer-Riekenberg",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1910-07-04",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Neukloster"
-  },
-  "deathDate": "1984-12-21",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Glinde"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Gewerkschaftsfunktionärin, 1955–1971 Bundesfrauenleiterin und Vorstandsmitglied der Deutschen Angestellten-Gewerkschaft (DAG)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/110764092X",
-    "https://de.wikipedia.org/wiki/Herta_Meyer-Riekenberg"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Herta Meyer-Riekenberg",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/110764092X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Herta_Meyer-Riekenberg",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Herta_Meyer-Riekenberg"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1910-07-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Neukloster"
+  },
+  "deathDate": "1984-12-21",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Glinde"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Gewerkschaftsfunktionärin, 1955–1971 Bundesfrauenleiterin und Vorstandsmitglied der Deutschen Angestellten-Gewerkschaft (DAG)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/110764092X",
+    "https://de.wikipedia.org/wiki/Herta_Meyer-Riekenberg"
+  ]
 }

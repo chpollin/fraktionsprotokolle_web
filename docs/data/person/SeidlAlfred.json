@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SeidlAlfred",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SeidlAlfred",
   "name": "Alfred Seidl",
   "givenName": "Alfred",
   "familyName": "Seidl",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1911-01-30",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "deathDate": "1993-11-25",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "MdL Bayern, 1970–1974 stellv., dann Vorsitzender der CSU-Landtagsfraktion, 1974–1977 Staatssekretär im Staatsministerium der Justiz, 1977/78 Staatsminister des Innern"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/124894232",
-    "https://de.wikipedia.org/wiki/Alfred_Seidl"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Alfred Seidl",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/124894232",
-    "wikipedia": "https://de.wikipedia.org/wiki/Alfred_Seidl",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Alfred_Seidl"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1911-01-30",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "deathDate": "1993-11-25",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "MdL Bayern, 1970–1974 stellv., dann Vorsitzender der CSU-Landtagsfraktion, 1974–1977 Staatssekretär im Staatsministerium der Justiz, 1977/78 Staatsminister des Innern"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/124894232",
+    "https://de.wikipedia.org/wiki/Alfred_Seidl"
+  ]
 }

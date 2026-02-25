@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SkytteKarl",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SkytteKarl",
   "name": "Karl Skytte",
   "givenName": "Karl",
   "familyName": "Skytte",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1908-03-31",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Køng-Højrup, Glamsbjerg"
-  },
-  "deathDate": "1986-06-09",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1957–1964 dänischer Landwirtschaftsminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119367084",
-    "https://de.wikipedia.org/wiki/Karl_Skytte"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Karl Skytte",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119367084",
-    "wikipedia": "https://de.wikipedia.org/wiki/Karl_Skytte",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Karl_Skytte"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1908-03-31",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Køng-Højrup, Glamsbjerg"
+  },
+  "deathDate": "1986-06-09",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1957–1964 dänischer Landwirtschaftsminister"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119367084",
+    "https://de.wikipedia.org/wiki/Karl_Skytte"
+  ]
 }

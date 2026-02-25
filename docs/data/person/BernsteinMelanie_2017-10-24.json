@@ -1,34 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BernsteinMelanie_2017-10-24",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BernsteinMelanie_2017-10-24",
   "name": "Melanie Bernstein",
   "givenName": "Melanie",
   "familyName": "Bernstein",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1976-09-28",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Buchholz in der Nordheide"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Kulturwissenschaftlerin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "2017-10-24"
-    }
-  ],
-  "sameAs": null,
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Melanie Bernstein",
@@ -58,9 +37,27 @@
     }
   ],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11004670",
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
-  }
+    "mdb_stammdaten": "11004670"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1976-09-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Buchholz in der Nordheide"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Kulturwissenschaftlerin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "2017-10-24"
+    }
+  ]
 }

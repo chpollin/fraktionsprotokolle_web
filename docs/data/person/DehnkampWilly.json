@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DehnkampWilly",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DehnkampWilly",
   "name": "Willy Dehnkamp",
   "givenName": "Willy",
   "familyName": "Dehnkamp",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1903-07-22",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Altona"
-  },
-  "deathDate": "1985-11-12",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bremen"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1951–1965 Bremer Bildungssenator (SPD), 1965–1967 Präsident des Senats und Bürgermeister von Bremen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/116054786",
-    "https://de.wikipedia.org/wiki/Willy_Dehnkamp"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Willy Dehnkamp",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/116054786",
-    "wikipedia": "https://de.wikipedia.org/wiki/Willy_Dehnkamp",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Willy_Dehnkamp"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1903-07-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Altona"
+  },
+  "deathDate": "1985-11-12",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bremen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1951–1965 Bremer Bildungssenator (SPD), 1965–1967 Präsident des Senats und Bürgermeister von Bremen"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/116054786",
+    "https://de.wikipedia.org/wiki/Willy_Dehnkamp"
+  ]
 }

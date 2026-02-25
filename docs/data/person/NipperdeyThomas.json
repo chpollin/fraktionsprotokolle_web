@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "NipperdeyThomas",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/NipperdeyThomas",
   "name": "Thomas Nipperdey",
   "givenName": "Thomas",
   "familyName": "Nipperdey",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1927-10-27",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Köln"
-  },
-  "deathDate": "1992-06-14",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Historiker, 1971–1992 Professor an der Ludwig-Maximilians-Universität München"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/11910444X",
-    "https://de.wikipedia.org/wiki/Thomas_Nipperdey"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Thomas Nipperdey",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/11910444X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Thomas_Nipperdey",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Thomas_Nipperdey"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1927-10-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Köln"
+  },
+  "deathDate": "1992-06-14",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Historiker, 1971–1992 Professor an der Ludwig-Maximilians-Universität München"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/11910444X",
+    "https://de.wikipedia.org/wiki/Thomas_Nipperdey"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchneiderKarl",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchneiderKarl",
   "name": "Karl Schneider",
   "givenName": "Karl",
   "familyName": "Schneider",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1887-02-26",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Schöneberg"
-  },
-  "deathDate": "1969-04-02",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bonn"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1951–1953 Staatsekretär im Bundesministerium für das Post- und Fernmeldewesen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/133755398",
-    "https://de.wikipedia.org/wiki/Karl_Schneider_(Staatssekret%C3%A4r)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Karl Schneider",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/133755398",
-    "wikipedia": "https://de.wikipedia.org/wiki/Karl_Schneider_(Staatssekret%C3%A4r)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Karl_Schneider_(Staatssekret%C3%A4r)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1887-02-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Schöneberg"
+  },
+  "deathDate": "1969-04-02",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1951–1953 Staatsekretär im Bundesministerium für das Post- und Fernmeldewesen"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/133755398",
+    "https://de.wikipedia.org/wiki/Karl_Schneider_(Staatssekret%C3%A4r)"
+  ]
 }

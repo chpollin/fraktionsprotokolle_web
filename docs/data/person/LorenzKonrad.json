@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "LorenzKonrad",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/LorenzKonrad",
   "name": "Konrad Lorenz",
   "givenName": "Konrad",
   "familyName": "Lorenz",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1903-11-07",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Wien"
-  },
-  "deathDate": "1989-02-27",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Wien"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "österreichischer Zoologe, Medizin-Nobelpreisträger, 1961–1973 Direktor des Max-Planck-Instituts für Verhaltensphysiologie"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118574337",
-    "https://de.wikipedia.org/wiki/Konrad_Lorenz"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Konrad Lorenz",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118574337",
-    "wikipedia": "https://de.wikipedia.org/wiki/Konrad_Lorenz",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Konrad_Lorenz"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1903-11-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Wien"
+  },
+  "deathDate": "1989-02-27",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Wien"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "österreichischer Zoologe, Medizin-Nobelpreisträger, 1961–1973 Direktor des Max-Planck-Instituts für Verhaltensphysiologie"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118574337",
+    "https://de.wikipedia.org/wiki/Konrad_Lorenz"
+  ]
 }

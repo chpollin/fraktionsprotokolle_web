@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FischerHeinz",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FischerHeinz",
   "name": "Heinz Fischer",
   "givenName": "Heinz",
   "familyName": "Fischer",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1938-10-09",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Graz"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "österreichischer Politiker (SPÖ), 1971–1983 und 1987–2004 Abgeordneter des Österreichischen Nationalrates (SPÖ), 1983–1987 Wissenschaftsminister, 1990–2002 Präsident des Österreichischen Nationalrates, 2002–2004 Zweiter Präsident des Österreichischen Nationalrates, 2004–2016 Bundespräsident der Republik Österreich"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/120668890",
-    "https://de.wikipedia.org/wiki/Heinz_Fischer"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Heinz Fischer",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/120668890",
-    "wikipedia": "https://de.wikipedia.org/wiki/Heinz_Fischer",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Heinz_Fischer"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1938-10-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Graz"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "österreichischer Politiker (SPÖ), 1971–1983 und 1987–2004 Abgeordneter des Österreichischen Nationalrates (SPÖ), 1983–1987 Wissenschaftsminister, 1990–2002 Präsident des Österreichischen Nationalrates, 2002–2004 Zweiter Präsident des Österreichischen Nationalrates, 2004–2016 Bundespräsident der Republik Österreich"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/120668890",
+    "https://de.wikipedia.org/wiki/Heinz_Fischer"
+  ]
 }

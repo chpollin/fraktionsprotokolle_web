@@ -1,58 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FinkConrad_1949-09-07",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FinkConrad_1949-09-07",
   "name": "Conrad Fink",
   "givenName": "Conrad",
   "familyName": "Fink",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1900-07-07",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "deathDate": "1981-07-25",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Landrat a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion Bayernpartei",
-        "alternateName": "BP"
-      },
-      "startDate": "1949-09-07",
-      "endDate": "1953-09-07"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion Föderalistische Union",
-        "alternateName": "FU"
-      },
-      "startDate": "1951-12-14",
-      "endDate": "1953-09-07"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1952-01-05",
-      "endDate": "1953-09-07"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/116519584",
-    "https://de.wikipedia.org/wiki/Conrad_Fink"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Conrad Fink",
@@ -98,7 +53,53 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000545",
     "gnd": "https://d-nb.info/gnd/116519584",
-    "wikipedia": "https://de.wikipedia.org/wiki/Conrad_Fink",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Conrad_Fink"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1900-07-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "deathDate": "1981-07-25",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Landrat a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Bayernpartei",
+        "alternateName": "BP"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Föderalistische Union",
+        "alternateName": "FU"
+      },
+      "startDate": "1951-12-14",
+      "endDate": "1953-09-07"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1952-01-05",
+      "endDate": "1953-09-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/116519584",
+    "https://de.wikipedia.org/wiki/Conrad_Fink"
+  ]
 }

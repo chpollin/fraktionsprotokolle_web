@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BeaAugustin",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BeaAugustin",
   "name": "Augustin Bea",
   "givenName": "Augustin",
   "familyName": "Bea",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1881-05-28",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Riedböhringen bei Donaueschingen"
-  },
-  "deathDate": "1968-11-16",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Rom"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Kardinal der römischen Kurie und 1960–1968 Leiter des Sekretariats für die Förderung der Einheit der Christen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118654144",
-    "https://de.wikipedia.org/wiki/Augustin_Bea"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Augustin Bea",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118654144",
-    "wikipedia": "https://de.wikipedia.org/wiki/Augustin_Bea",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Augustin_Bea"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1881-05-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Riedböhringen bei Donaueschingen"
+  },
+  "deathDate": "1968-11-16",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Rom"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Kardinal der römischen Kurie und 1960–1968 Leiter des Sekretariats für die Förderung der Einheit der Christen"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118654144",
+    "https://de.wikipedia.org/wiki/Augustin_Bea"
+  ]
 }

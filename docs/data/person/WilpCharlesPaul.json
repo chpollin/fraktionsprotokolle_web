@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WilpCharlesPaul",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WilpCharlesPaul",
   "name": "Charles Paul Wilp",
   "givenName": "Charles Paul",
   "familyName": "Wilp",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1932-09-15",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Witten"
-  },
-  "deathDate": "2005-01-02",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Düsseldorf"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Werbefachmann, Künstler, Fotograf (Band: Bundeskanzleramt, 1970) und Regisseur von Kurzfilmen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/124257968",
-    "https://de.wikipedia.org/wiki/Charles_Paul_Wilp"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Charles Paul Wilp",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/124257968",
-    "wikipedia": "https://de.wikipedia.org/wiki/Charles_Paul_Wilp",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Charles_Paul_Wilp"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1932-09-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Witten"
+  },
+  "deathDate": "2005-01-02",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Düsseldorf"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Werbefachmann, Künstler, Fotograf (Band: Bundeskanzleramt, 1970) und Regisseur von Kurzfilmen"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/124257968",
+    "https://de.wikipedia.org/wiki/Charles_Paul_Wilp"
+  ]
 }

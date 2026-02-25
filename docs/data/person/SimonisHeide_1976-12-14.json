@@ -1,10 +1,67 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SimonisHeide_1976-12-14",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SimonisHeide_1976-12-14",
   "name": "Heide Simonis, geb. Steinhardt",
   "givenName": "Heide",
   "familyName": "Simonis",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Heide Simonis, geb. Steinhardt",
+    "forename": "Heide",
+    "surname": "Simonis",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1943-07-04",
+    "place": "Bonn",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2023-07-12",
+    "place": "Kiel",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 8,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1976-12-14",
+      "to": "1980-11-04"
+    },
+    {
+      "period": 9,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1980-11-04",
+      "to": "1983-03-29"
+    },
+    {
+      "period": 10,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1983-03-29",
+      "to": "1987-02-18"
+    },
+    {
+      "period": 11,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1987-02-18",
+      "to": "1988-06-08"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002178",
+    "gnd": "https://d-nb.info/gnd/119135787",
+    "wikipedia": "https://de.wikipedia.org/wiki/Heide_Simonis"
+  },
   "gender": "https://schema.org/Female",
   "birthDate": "1943-07-04",
   "birthPlace": {
@@ -65,60 +122,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/119135787",
     "https://de.wikipedia.org/wiki/Heide_Simonis"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Heide Simonis, geb. Steinhardt",
-    "forename": "Heide",
-    "surname": "Simonis",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1943-07-04",
-    "place": "Bonn",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "2023-07-12",
-    "place": "Kiel",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 8,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1976-12-14",
-      "to": "1980-11-04"
-    },
-    {
-      "period": 9,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1980-11-04",
-      "to": "1983-03-29"
-    },
-    {
-      "period": 10,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1983-03-29",
-      "to": "1987-02-18"
-    },
-    {
-      "period": 11,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1987-02-18",
-      "to": "1988-06-08"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11002178",
-    "gnd": "https://d-nb.info/gnd/119135787",
-    "wikipedia": "https://de.wikipedia.org/wiki/Heide_Simonis",
-    "viaf": null
-  }
+  ]
 }

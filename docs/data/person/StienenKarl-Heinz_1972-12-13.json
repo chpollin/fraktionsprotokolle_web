@@ -1,47 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "StienenKarl-Heinz_1972-12-13",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/StienenKarl-Heinz_1972-12-13",
   "name": "Karl-Heinz Stienen",
   "givenName": "Karl-Heinz",
   "familyName": "Stienen",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1932-07-11",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Duisburg"
-  },
-  "deathDate": "2004-02-17",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Rechtsanwalt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1972-12-13",
-      "endDate": "1976-12-13"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktionslos",
-        "alternateName": "Fraktionslos"
-      },
-      "startDate": "1976-12-08",
-      "endDate": "1976-12-13"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1145543073"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Karl-Heinz Stienen",
@@ -79,8 +45,42 @@
   ],
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11002249",
-    "gnd": "https://d-nb.info/gnd/1145543073",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/1145543073"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1932-07-11",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Duisburg"
+  },
+  "deathDate": "2004-02-17",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsanwalt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1972-12-13",
+      "endDate": "1976-12-13"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktionslos",
+        "alternateName": "Fraktionslos"
+      },
+      "startDate": "1976-12-08",
+      "endDate": "1976-12-13"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1145543073"
+  ]
 }

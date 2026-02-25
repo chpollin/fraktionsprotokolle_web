@@ -1,18 +1,92 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MichelbachHans_1994-11-10",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MichelbachHans_1994-11-10",
   "name": "Hans Michelbach",
   "givenName": "Hans",
   "familyName": "Michelbach",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans Michelbach",
+    "forename": "Hans",
+    "surname": "Michelbach",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1949-05-03",
+    "place": "Gemünden am Main",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 13,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1994-11-10",
+      "to": "1998-10-26"
+    },
+    {
+      "period": 14,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1998-10-26",
+      "to": "2002-10-17"
+    },
+    {
+      "period": 15,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "2002-10-17",
+      "to": "2005-10-18"
+    },
+    {
+      "period": 16,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "2005-10-18",
+      "to": "2009-10-27"
+    },
+    {
+      "period": 17,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "2009-10-27",
+      "to": "2013-10-22"
+    },
+    {
+      "period": 18,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "2013-10-22",
+      "to": "2017-10-24"
+    },
+    {
+      "period": 19,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "2017-10-24",
+      "to": ""
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002738"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1949-05-03",
   "birthPlace": {
     "@type": "Place",
     "name": "Gemünden am Main"
   },
-  "deathDate": null,
-  "deathPlace": null,
   "hasOccupation": {
     "@type": "Occupation",
     "name": "Selbständiger Unternehmer, Bürgermeister a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
@@ -88,83 +162,6 @@
       "startDate": "2017-10-24"
     }
   ],
-  "sameAs": null,
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Hans Michelbach",
-    "forename": "Hans",
-    "surname": "Michelbach",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1949-05-03",
-    "place": "Gemünden am Main",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": null,
-    "place": "",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 13,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1994-11-10",
-      "to": "1998-10-26"
-    },
-    {
-      "period": 14,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1998-10-26",
-      "to": "2002-10-17"
-    },
-    {
-      "period": 15,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "2002-10-17",
-      "to": "2005-10-18"
-    },
-    {
-      "period": 16,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "2005-10-18",
-      "to": "2009-10-27"
-    },
-    {
-      "period": 17,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "2009-10-27",
-      "to": "2013-10-22"
-    },
-    {
-      "period": 18,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "2013-10-22",
-      "to": "2017-10-24"
-    },
-    {
-      "period": 19,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "2017-10-24",
-      "to": ""
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11002738",
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
-  },
   "fraktionsprotokolle:alt_names": [
     {
       "reg": "Hans Michelbach",

@@ -1,26 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RufflerWalter",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RufflerWalter",
   "name": "Walter Ruffler",
   "givenName": "Walter",
   "familyName": "Ruffler",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1949",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Algermissen"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Lehrer in der Erwachsenenbildung, 1991–1995 Mitglied der Bremischen Bürgerschaft (Die Grünen)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Walter_Ruffler"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Walter Ruffler",
@@ -42,9 +29,19 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://de.wikipedia.org/wiki/Walter_Ruffler",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Walter_Ruffler"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1949",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Algermissen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Lehrer in der Erwachsenenbildung, 1991–1995 Mitglied der Bremischen Bürgerschaft (Die Grünen)"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Walter_Ruffler"
+  ]
 }

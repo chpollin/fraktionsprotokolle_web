@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KraemerConradoJose",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KraemerConradoJose",
   "name": "Conrado José Kraémer",
   "givenName": "Conrado José",
   "familyName": "Kraémer",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1902-11-02",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Beirut"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "während des Zweiten Weltkriegs Leiter eines wehrwirtschaftlichen Betriebes in Prag, später Finanzberater, ab 1957 Repräsentant der Rüstungsfirma Hispano-Suiza"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1030063923",
-    "https://de.wikipedia.org/wiki/Conrado_Jos%C3%A9_Kra%C3%A9mer"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Conrado José Kraémer",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1030063923",
-    "wikipedia": "https://de.wikipedia.org/wiki/Conrado_Jos%C3%A9_Kra%C3%A9mer",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Conrado_Jos%C3%A9_Kra%C3%A9mer"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1902-11-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Beirut"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "während des Zweiten Weltkriegs Leiter eines wehrwirtschaftlichen Betriebes in Prag, später Finanzberater, ab 1957 Repräsentant der Rüstungsfirma Hispano-Suiza"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1030063923",
+    "https://de.wikipedia.org/wiki/Conrado_Jos%C3%A9_Kra%C3%A9mer"
+  ]
 }

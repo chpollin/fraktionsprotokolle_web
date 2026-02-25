@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchneiderFriedrich",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchneiderFriedrich",
   "name": "Friedrich Schneider",
   "givenName": "Friedrich",
   "familyName": "Schneider",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1913-05-09",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "deathDate": "1981-05-06",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Jurist, Forschungsreferent und Wissenschaftsmanager, 1946-1958 Tätigkeit in der Verwaltung der Universität Köln (1954 Kanzler), 1958–1966 (erster) Generalsekretär des neu gegründeten Wissenschaftsrates, 1966–1976 Generalsekretär der Max-Planck-Gesellschaft zur Förderung der Wissenschaften, 1975-1979 Generalsekretär der Europäischen Wissenschaftsstiftung"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118758624",
-    "https://de.wikipedia.org/wiki/Friedrich_Schneider_(Manager)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Friedrich Schneider",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118758624",
-    "wikipedia": "https://de.wikipedia.org/wiki/Friedrich_Schneider_(Manager)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Friedrich_Schneider_(Manager)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1913-05-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "1981-05-06",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Jurist, Forschungsreferent und Wissenschaftsmanager, 1946-1958 Tätigkeit in der Verwaltung der Universität Köln (1954 Kanzler), 1958–1966 (erster) Generalsekretär des neu gegründeten Wissenschaftsrates, 1966–1976 Generalsekretär der Max-Planck-Gesellschaft zur Förderung der Wissenschaften, 1975-1979 Generalsekretär der Europäischen Wissenschaftsstiftung"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118758624",
+    "https://de.wikipedia.org/wiki/Friedrich_Schneider_(Manager)"
+  ]
 }

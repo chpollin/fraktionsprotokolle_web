@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FordGerald",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FordGerald",
   "name": "Gerald Rudolph Ford, Jr., geb. als Leslie Lynch King, Jr.",
   "givenName": "Gerald",
   "familyName": "Ford",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1913-07-14",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Omaha, Nebraska"
-  },
-  "deathDate": "2006-12-26",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Rancho Mirage, Kalifornien"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1974–1977 Präsident der Vereinigten Staaten"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118534297",
-    "https://de.wikipedia.org/wiki/Gerald_Ford"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Gerald Rudolph Ford, Jr., geb. als Leslie Lynch King, Jr.",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118534297",
-    "wikipedia": "https://de.wikipedia.org/wiki/Gerald_Ford",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Gerald_Ford"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1913-07-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Omaha, Nebraska"
+  },
+  "deathDate": "2006-12-26",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Rancho Mirage, Kalifornien"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1974–1977 Präsident der Vereinigten Staaten"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118534297",
+    "https://de.wikipedia.org/wiki/Gerald_Ford"
+  ]
 }

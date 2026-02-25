@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "AbelinPierre",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/AbelinPierre",
   "name": "Pierre Louis Ernest Armand Abelin",
   "givenName": "Pierre Louis Ernest Armand",
   "familyName": "Abelin",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1909-05-16",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Poitiers, Département Vienne"
-  },
-  "deathDate": "1977-05-23",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Poitiers, Département Vienne"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "März 1973–Juni 1974 Abgeordneter in der französischen Nationalversammlung, dann bis Jan. 1976 Minister für Zusammenarbeit"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Pierre_Abelin",
-    "https://viaf.org/viaf/46890230/"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Pierre Louis Ernest Armand Abelin",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
     "wikipedia": "https://de.wikipedia.org/wiki/Pierre_Abelin",
     "viaf": "https://viaf.org/viaf/46890230/"
-  }
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1909-05-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Poitiers, Département Vienne"
+  },
+  "deathDate": "1977-05-23",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Poitiers, Département Vienne"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "März 1973–Juni 1974 Abgeordneter in der französischen Nationalversammlung, dann bis Jan. 1976 Minister für Zusammenarbeit"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Pierre_Abelin",
+    "https://viaf.org/viaf/46890230/"
+  ]
 }

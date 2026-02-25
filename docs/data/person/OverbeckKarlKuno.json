@@ -1,29 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "OverbeckKarlKuno",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/OverbeckKarlKuno",
   "name": "Karl Kuno Overbeck",
   "givenName": "Karl Kuno",
   "familyName": "Overbeck",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1909-08-26",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Stromberg (Hunsrück)"
-  },
-  "deathDate": "1972-01-02",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1963–1969 Ministerialdirigent im Auswärtigen Amt und Vertreter des Leiters der »Kulturabteilung«"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Karl_Overbeck"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Karl Kuno Overbeck",
@@ -45,9 +29,24 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://de.wikipedia.org/wiki/Karl_Overbeck",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Karl_Overbeck"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1909-08-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Stromberg (Hunsrück)"
+  },
+  "deathDate": "1972-01-02",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1963–1969 Ministerialdirigent im Auswärtigen Amt und Vertreter des Leiters der »Kulturabteilung«"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Karl_Overbeck"
+  ]
 }

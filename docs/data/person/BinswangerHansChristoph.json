@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BinswangerHansChristoph",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BinswangerHansChristoph",
   "name": "Hans Christoph Binswanger",
   "givenName": "Hans Christoph",
   "familyName": "Binswanger",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1929-06-19",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Zürich"
-  },
-  "deathDate": "2018-01-18",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "St. Gallen"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Schweizer Wirtschaftswissenschaftler, 1969-1994 Professor für Volkswirtschaftslehre an der Universität St. Gallen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/104827335",
-    "https://de.wikipedia.org/wiki/Hans_Christoph_Binswanger"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hans Christoph Binswanger",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/104827335",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Christoph_Binswanger",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Christoph_Binswanger"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1929-06-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Zürich"
+  },
+  "deathDate": "2018-01-18",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "St. Gallen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Schweizer Wirtschaftswissenschaftler, 1969-1994 Professor für Volkswirtschaftslehre an der Universität St. Gallen"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/104827335",
+    "https://de.wikipedia.org/wiki/Hans_Christoph_Binswanger"
+  ]
 }

@@ -1,37 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "StroscheJohannes-Helmut_1953-10-06",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/StroscheJohannes-Helmut_1953-10-06",
   "name": "Johannes-Helmut Strosche",
   "givenName": "Johannes-Helmut",
   "familyName": "Strosche",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1912-01-29",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Teplitz-Schönau, Sudetenland (heute: Teplice, Tschechische Republik)"
-  },
-  "deathDate": "1996-05-26",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Studienrat a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion Gesamtdeutscher Block/Block der Heimatvertriebenen und Entrechteten",
-        "alternateName": "GB/BHE"
-      },
-      "startDate": "1953-10-06",
-      "endDate": "1957-10-06"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/135999286"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Johannes-Helmut Strosche",
@@ -62,8 +38,32 @@
   ],
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11002276",
-    "gnd": "https://d-nb.info/gnd/135999286",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/135999286"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1912-01-29",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Teplitz-Schönau, Sudetenland (heute: Teplice, Tschechische Republik)"
+  },
+  "deathDate": "1996-05-26",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Studienrat a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Gesamtdeutscher Block/Block der Heimatvertriebenen und Entrechteten",
+        "alternateName": "GB/BHE"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/135999286"
+  ]
 }

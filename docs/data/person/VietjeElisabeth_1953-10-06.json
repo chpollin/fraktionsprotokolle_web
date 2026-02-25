@@ -1,10 +1,60 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "VietjeElisabeth_1953-10-06",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/VietjeElisabeth_1953-10-06",
   "name": "Elisabeth Vietje",
   "givenName": "Elisabeth",
   "familyName": "Vietje",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Elisabeth Vietje",
+    "forename": "Elisabeth",
+    "surname": "Vietje",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1902-05-11",
+    "place": "Hannover",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1963-05-02",
+    "place": "Hannover",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 3,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1960-05-06",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 4,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1961-10-17",
+      "to": "1963-05-02"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002373",
+    "gnd": "https://d-nb.info/gnd/1035166976",
+    "wikipedia": "https://de.wikipedia.org/wiki/Elisabeth_Vietje"
+  },
   "gender": "https://schema.org/Female",
   "birthDate": "1902-05-11",
   "birthPlace": {
@@ -55,53 +105,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/1035166976",
     "https://de.wikipedia.org/wiki/Elisabeth_Vietje"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Elisabeth Vietje",
-    "forename": "Elisabeth",
-    "surname": "Vietje",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1902-05-11",
-    "place": "Hannover",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1963-05-02",
-    "place": "Hannover",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 2,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1953-10-06",
-      "to": "1957-10-06"
-    },
-    {
-      "period": 3,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1960-05-06",
-      "to": "1961-10-15"
-    },
-    {
-      "period": 4,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1961-10-17",
-      "to": "1963-05-02"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11002373",
-    "gnd": "https://d-nb.info/gnd/1035166976",
-    "wikipedia": "https://de.wikipedia.org/wiki/Elisabeth_Vietje",
-    "viaf": null
-  }
+  ]
 }

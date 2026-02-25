@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SharettMoshe",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SharettMoshe",
   "name": "Moshe Sharett",
   "givenName": "Moshe",
   "familyName": "Sharett",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1894-10-15",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Cherson"
-  },
-  "deathDate": "1965-07-07",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Jerusalem"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1948–1956 israelischer Außenminister, dabei 1953–1955 auch Ministerpräsident des Staates Israel"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119376113",
-    "https://de.wikipedia.org/wiki/Mosche_Scharet"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Moshe Sharett",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119376113",
-    "wikipedia": "https://de.wikipedia.org/wiki/Mosche_Scharet",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Mosche_Scharet"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1894-10-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Cherson"
+  },
+  "deathDate": "1965-07-07",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Jerusalem"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1948–1956 israelischer Außenminister, dabei 1953–1955 auch Ministerpräsident des Staates Israel"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119376113",
+    "https://de.wikipedia.org/wiki/Mosche_Scharet"
+  ]
 }

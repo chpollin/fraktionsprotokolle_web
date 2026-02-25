@@ -1,47 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BrauerHans-Jochim_1987-02-18",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BrauerHans-Jochim_1987-02-18",
   "name": "Hans-Jochim Brauer",
   "givenName": "Hans-Jochim",
   "familyName": "Brauer",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1945-08-26",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Helmstedt"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Lehrer a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion Die Grünen",
-        "alternateName": "Grüne"
-      },
-      "startDate": "1987-02-18",
-      "endDate": "1990-12-20"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion Die Grünen/Bündnis 90",
-        "alternateName": "Grüne/B90"
-      },
-      "startDate": "1990-10-04",
-      "endDate": "1990-12-20"
-    }
-  ],
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Hans-Jochim_Brauer"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Hans-Jochim Brauer",
@@ -79,8 +45,41 @@
   ],
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000248",
-    "gnd": null,
-    "wikipedia": "https://de.wikipedia.org/wiki/Hans-Jochim_Brauer",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans-Jochim_Brauer"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1945-08-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Helmstedt"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Lehrer a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Die Grünen",
+        "alternateName": "Grüne"
+      },
+      "startDate": "1987-02-18",
+      "endDate": "1990-12-20"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Die Grünen/Bündnis 90",
+        "alternateName": "Grüne/B90"
+      },
+      "startDate": "1990-10-04",
+      "endDate": "1990-12-20"
+    }
+  ],
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Hans-Jochim_Brauer"
+  ]
 }

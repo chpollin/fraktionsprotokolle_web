@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "StommaStanislaw",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/StommaStanislaw",
   "name": "Stanisław Stomma",
   "givenName": "Stanisław",
   "familyName": "Stomma",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1908-01-18",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Szacuny bei Kiejdany"
-  },
-  "deathDate": "2005-07-21",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Warschau"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "polnischer Publizist, 1957–1976 Abgeordneter des polnischen Parlaments"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119265834",
-    "https://de.wikipedia.org/wiki/Stanis%C5%82aw_Stomma"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Stanisław Stomma",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119265834",
-    "wikipedia": "https://de.wikipedia.org/wiki/Stanis%C5%82aw_Stomma",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Stanis%C5%82aw_Stomma"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1908-01-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Szacuny bei Kiejdany"
+  },
+  "deathDate": "2005-07-21",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Warschau"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "polnischer Publizist, 1957–1976 Abgeordneter des polnischen Parlaments"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119265834",
+    "https://de.wikipedia.org/wiki/Stanis%C5%82aw_Stomma"
+  ]
 }

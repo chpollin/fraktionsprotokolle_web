@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HaeckelHorakIngeborg_1976-09-28",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HaeckelHorakIngeborg_1976-09-28",
   "name": "Ingeborg Horak, geb. Häckel",
   "givenName": "Ingeborg",
   "familyName": "Häckel",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1937-01-08",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Saalfeld/Saale"
-  },
-  "deathDate": "2023-09-05",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Mosbach"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Redakteurin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1976-09-28",
-      "endDate": "1976-12-13"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1331209404",
-    "https://de.wikipedia.org/wiki/Ingeborg_H%C3%A4ckel"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Ingeborg Horak, geb. Häckel",
@@ -67,9 +39,39 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000773",
     "gnd": "https://d-nb.info/gnd/1331209404",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ingeborg_H%C3%A4ckel",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Ingeborg_H%C3%A4ckel"
   },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1937-01-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Saalfeld/Saale"
+  },
+  "deathDate": "2023-09-05",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Mosbach"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Redakteurin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1976-09-28",
+      "endDate": "1976-12-13"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1331209404",
+    "https://de.wikipedia.org/wiki/Ingeborg_H%C3%A4ckel"
+  ],
   "fraktionsprotokolle:alt_names": [
     {
       "reg": "Ingeborg Horak",

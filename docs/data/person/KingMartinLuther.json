@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KingMartinLuther",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KingMartinLuther",
   "name": "Martin Luther King",
   "givenName": "Martin Luther",
   "familyName": "King",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1929-01-05",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Atlanta, Georgia"
-  },
-  "deathDate": "1968-04-04",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Memphis, Tennessee"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "US-amerikanischer Theologe, Führer der gewaltlosen Bürgerrechtsbewegung"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118562215",
-    "https://de.wikipedia.org/wiki/Martin_Luther_King"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Martin Luther King",
@@ -46,10 +29,27 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118562215",
-    "wikipedia": "https://de.wikipedia.org/wiki/Martin_Luther_King",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Martin_Luther_King"
   },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1929-01-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Atlanta, Georgia"
+  },
+  "deathDate": "1968-04-04",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Memphis, Tennessee"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "US-amerikanischer Theologe, Führer der gewaltlosen Bürgerrechtsbewegung"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118562215",
+    "https://de.wikipedia.org/wiki/Martin_Luther_King"
+  ],
   "fraktionsprotokolle:sonstiges": "Friedensnobelpreis 1964, am 4. April 1968 in Memphis (Tennessee) ermordet"
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PoherAlain",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PoherAlain",
   "name": "Alain Émile Louis Marie Poher",
   "givenName": "Alain Émile Louis Marie",
   "familyName": "Poher",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1909-04-17",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Ablon-sur-Seine, Département Val-de-Marne"
-  },
-  "deathDate": "1996-12-09",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Paris"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1968–1992 Präsident des französischen Senats, April–Juni 1969 und April-Mai 1974 interimistischer Staatspräsident der Französischen Republik"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119231867",
-    "https://de.wikipedia.org/wiki/Alain_Poher"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Alain Émile Louis Marie Poher",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119231867",
-    "wikipedia": "https://de.wikipedia.org/wiki/Alain_Poher",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Alain_Poher"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1909-04-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Ablon-sur-Seine, Département Val-de-Marne"
+  },
+  "deathDate": "1996-12-09",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1968–1992 Präsident des französischen Senats, April–Juni 1969 und April-Mai 1974 interimistischer Staatspräsident der Französischen Republik"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119231867",
+    "https://de.wikipedia.org/wiki/Alain_Poher"
+  ]
 }

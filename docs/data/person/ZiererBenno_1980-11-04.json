@@ -1,10 +1,81 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ZiererBenno_1980-11-04",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ZiererBenno_1980-11-04",
   "name": "Benno Zierer",
   "givenName": "Benno",
   "familyName": "Zierer",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Benno Zierer",
+    "forename": "Benno",
+    "surname": "Zierer",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1934-03-24",
+    "place": "Lintach, Landkrs. Amberg/Sulzbach",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2021-04-27",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 12,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1990-12-20",
+      "to": "1994-11-10"
+    },
+    {
+      "period": 13,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1994-11-10",
+      "to": "1998-10-26"
+    },
+    {
+      "period": 14,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1998-10-26",
+      "to": "2002-10-17"
+    },
+    {
+      "period": 9,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1980-11-04",
+      "to": "1983-03-29"
+    },
+    {
+      "period": 10,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1983-03-29",
+      "to": "1987-02-18"
+    },
+    {
+      "period": 11,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1987-02-18",
+      "to": "1990-12-20"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002594",
+    "gnd": "https://d-nb.info/gnd/139996109",
+    "wikipedia": "https://de.wikipedia.org/wiki/Benno_Zierer_%28Politiker%2C_1934%29"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1934-03-24",
   "birthPlace": {
@@ -12,7 +83,6 @@
     "name": "Lintach, Landkrs. Amberg/Sulzbach"
   },
   "deathDate": "2021-04-27",
-  "deathPlace": null,
   "hasOccupation": {
     "@type": "Occupation",
     "name": "Dipl.-Verwaltungswirt (FH) [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
@@ -82,74 +152,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/139996109",
     "https://de.wikipedia.org/wiki/Benno_Zierer_%28Politiker%2C_1934%29"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Benno Zierer",
-    "forename": "Benno",
-    "surname": "Zierer",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1934-03-24",
-    "place": "Lintach, Landkrs. Amberg/Sulzbach",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "2021-04-27",
-    "place": "",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 12,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1990-12-20",
-      "to": "1994-11-10"
-    },
-    {
-      "period": 13,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1994-11-10",
-      "to": "1998-10-26"
-    },
-    {
-      "period": 14,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1998-10-26",
-      "to": "2002-10-17"
-    },
-    {
-      "period": 9,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1980-11-04",
-      "to": "1983-03-29"
-    },
-    {
-      "period": 10,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1983-03-29",
-      "to": "1987-02-18"
-    },
-    {
-      "period": 11,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1987-02-18",
-      "to": "1990-12-20"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11002594",
-    "gnd": "https://d-nb.info/gnd/139996109",
-    "wikipedia": "https://de.wikipedia.org/wiki/Benno_Zierer_%28Politiker%2C_1934%29",
-    "viaf": null
-  }
+  ]
 }

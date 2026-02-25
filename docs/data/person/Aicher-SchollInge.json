@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "Aicher-SchollInge",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/Aicher-SchollInge",
   "name": "Inge Aicher-Scholl",
   "givenName": "Inge",
   "familyName": "Aicher-Scholl",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1917-08-17",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Ingersheim-Altenmünster (heute: Crailsheim)"
-  },
-  "deathDate": "1998-09-04",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Leutkirch im Allgäu"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1946–1978 Gründerin und Leiterin der Ulmer Volkshochschule, Mitgründerin der Hochschule für Gestaltung Ulm und Schriftstellerin."
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/116272678",
-    "https://de.wikipedia.org/wiki/Inge_Aicher-Scholl"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Inge Aicher-Scholl",
@@ -46,10 +29,27 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/116272678",
-    "wikipedia": "https://de.wikipedia.org/wiki/Inge_Aicher-Scholl",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Inge_Aicher-Scholl"
   },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1917-08-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Ingersheim-Altenmünster (heute: Crailsheim)"
+  },
+  "deathDate": "1998-09-04",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Leutkirch im Allgäu"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1946–1978 Gründerin und Leiterin der Ulmer Volkshochschule, Mitgründerin der Hochschule für Gestaltung Ulm und Schriftstellerin."
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/116272678",
+    "https://de.wikipedia.org/wiki/Inge_Aicher-Scholl"
+  ],
   "fraktionsprotokolle:sonstiges": "älteste Schwester der von den Nationalsozialisten hingerichteten Geschwister Scholl"
 }

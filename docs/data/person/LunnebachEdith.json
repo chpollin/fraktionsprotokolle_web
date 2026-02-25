@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "LunnebachEdith",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/LunnebachEdith",
   "name": "Edith Lunnebach",
   "givenName": "Edith",
   "familyName": "Lunnebach",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1950-10-31",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Köln-Ehrenfeld"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Rechtsanwältin, u. a. Verteidigerin der ehem. »EMMA«-Redakteurin Ingrid Strobl und 1989–1991 im Großprozess gegen Mitglieder der Arbeiterpartei Kurdistans (PKK) vor dem OLG Düsseldorf sowie 2001 Anwältin von Opfern des Nationalsozialistischen Untergrunds (NSU) während des NSU-Prozesses in Köln["
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/189455616",
-    "https://en.wikipedia.org/wiki/Edith_Lunnebach"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Edith Lunnebach",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/189455616",
-    "wikipedia": "https://en.wikipedia.org/wiki/Edith_Lunnebach",
-    "viaf": null
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/Edith_Lunnebach"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1950-10-31",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Köln-Ehrenfeld"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsanwältin, u. a. Verteidigerin der ehem. »EMMA«-Redakteurin Ingrid Strobl und 1989–1991 im Großprozess gegen Mitglieder der Arbeiterpartei Kurdistans (PKK) vor dem OLG Düsseldorf sowie 2001 Anwältin von Opfern des Nationalsozialistischen Untergrunds (NSU) während des NSU-Prozesses in Köln["
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/189455616",
+    "https://en.wikipedia.org/wiki/Edith_Lunnebach"
+  ]
 }

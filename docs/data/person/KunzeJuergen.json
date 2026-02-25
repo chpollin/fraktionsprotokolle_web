@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KunzeJuergen",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KunzeJuergen",
   "name": "Jürgen Kunze",
   "givenName": "Jürgen",
   "familyName": "Kunze",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1945-04-08",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Professor für Finanzdienstleistungen und Volkswirtschaftslehre, 1969–1972 Landesvorsitzender der Berliner Jungdemokraten, 1976–1985 MdA Berlin (FDP), ab 1977 Professor an der Fachhochschule für Wirtschaft (Berlin), 1981 FDP-Landesvorsitzender in Berlin, Gründungsrektor der OTA Hochschule Berlin"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/170707121",
-    "https://de.wikipedia.org/wiki/J%C3%BCrgen_Kunze_(Volkswirt)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Jürgen Kunze",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/170707121",
-    "wikipedia": "https://de.wikipedia.org/wiki/J%C3%BCrgen_Kunze_(Volkswirt)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/J%C3%BCrgen_Kunze_(Volkswirt)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1945-04-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Professor für Finanzdienstleistungen und Volkswirtschaftslehre, 1969–1972 Landesvorsitzender der Berliner Jungdemokraten, 1976–1985 MdA Berlin (FDP), ab 1977 Professor an der Fachhochschule für Wirtschaft (Berlin), 1981 FDP-Landesvorsitzender in Berlin, Gründungsrektor der OTA Hochschule Berlin"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/170707121",
+    "https://de.wikipedia.org/wiki/J%C3%BCrgen_Kunze_(Volkswirt)"
+  ]
 }

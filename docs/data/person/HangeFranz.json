@@ -1,24 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HangeFranz",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HangeFranz",
   "name": "Franz Hange",
   "givenName": "Franz",
   "familyName": "Hange",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1921-08-19",
-  "birthPlace": null,
-  "deathDate": "2011-10-05",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Journalist, 1949–1965 dpa-Chefkorrespondent, Bonn, ständiger journalistischer Begleiter Adenauers, 1965–1969 Referent im Bundeskanzleramt"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1030394008",
-    "https://de.wikipedia.org/wiki/Franz_Hange"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Franz Hange",
@@ -40,9 +29,18 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1030394008",
-    "wikipedia": "https://de.wikipedia.org/wiki/Franz_Hange",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Franz_Hange"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1921-08-19",
+  "deathDate": "2011-10-05",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist, 1949–1965 dpa-Chefkorrespondent, Bonn, ständiger journalistischer Begleiter Adenauers, 1965–1969 Referent im Bundeskanzleramt"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1030394008",
+    "https://de.wikipedia.org/wiki/Franz_Hange"
+  ]
 }

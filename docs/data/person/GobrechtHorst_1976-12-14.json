@@ -1,57 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GobrechtHorst_1976-12-14",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GobrechtHorst_1976-12-14",
   "name": "Horst Gobrecht",
   "givenName": "Horst",
   "familyName": "Gobrecht",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1936-11-19",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Hamburg"
-  },
-  "deathDate": "2015-01-26",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Steuerberater [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1976-12-14",
-      "endDate": "1980-11-04"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1980-11-04",
-      "endDate": "1983-03-29"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1983-03-29",
-      "endDate": "1984-06-29"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/170156133"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Horst Gobrecht",
@@ -96,8 +52,52 @@
   ],
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000695",
-    "gnd": "https://d-nb.info/gnd/170156133",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/170156133"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1936-11-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "deathDate": "2015-01-26",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Steuerberater [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1976-12-14",
+      "endDate": "1980-11-04"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1980-11-04",
+      "endDate": "1983-03-29"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1983-03-29",
+      "endDate": "1984-06-29"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/170156133"
+  ]
 }

@@ -1,31 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GarriguesyDiaz-CanabateAntonio",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GarriguesyDiaz-CanabateAntonio",
   "name": "Antonio Garrigues y Díaz-Cañabate",
   "givenName": "Antonio",
   "familyName": "Garrigues y Díaz-Cañabate",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1904-01-09",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Madrid"
-  },
-  "deathDate": "2004-02-24",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Madrid"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "spanischer Politiker, Rechtsanwalt und Diplomat, Dez. 1975–Juli 1976 spanischer Justizminister, 1962–1964 Botschafter in Washington"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/137190395",
-    "https://fr.wikipedia.org/wiki/Antonio_Garrigues",
-    "http://viaf.org/viaf/52968095"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Antonio Garrigues y Díaz-Cañabate",
@@ -47,9 +29,28 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/137190395",
     "wikipedia": "https://fr.wikipedia.org/wiki/Antonio_Garrigues",
     "viaf": "http://viaf.org/viaf/52968095"
-  }
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1904-01-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Madrid"
+  },
+  "deathDate": "2004-02-24",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Madrid"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "spanischer Politiker, Rechtsanwalt und Diplomat, Dez. 1975–Juli 1976 spanischer Justizminister, 1962–1964 Botschafter in Washington"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/137190395",
+    "https://fr.wikipedia.org/wiki/Antonio_Garrigues",
+    "http://viaf.org/viaf/52968095"
+  ]
 }

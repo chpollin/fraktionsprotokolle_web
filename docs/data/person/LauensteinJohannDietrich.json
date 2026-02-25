@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "LauensteinJohannDietrich",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/LauensteinJohannDietrich",
   "name": "Johann Dietrich Lauenstein",
   "givenName": "Johann Dietrich",
   "familyName": "Lauenstein",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1893-03-20",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Aurich"
-  },
-  "deathDate": "1973-12-15",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Ministerialbeamter, 1950–1951 Beauftragter der Bundesregierung für das Emsland, 1951–1963 Geschäftsführer der Emsland GmbH, Generalsekretär der Deutschen Partei"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/133544672",
-    "https://de.wikipedia.org/wiki/Johann_Dietrich_Lauenstein"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Johann Dietrich Lauenstein",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/133544672",
-    "wikipedia": "https://de.wikipedia.org/wiki/Johann_Dietrich_Lauenstein",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Johann_Dietrich_Lauenstein"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1893-03-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Aurich"
+  },
+  "deathDate": "1973-12-15",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Ministerialbeamter, 1950–1951 Beauftragter der Bundesregierung für das Emsland, 1951–1963 Geschäftsführer der Emsland GmbH, Generalsekretär der Deutschen Partei"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/133544672",
+    "https://de.wikipedia.org/wiki/Johann_Dietrich_Lauenstein"
+  ]
 }

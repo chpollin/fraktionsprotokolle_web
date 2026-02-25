@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WeinholdAugust_1949-09-07",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WeinholdAugust_1949-09-07",
   "name": "August Weinhold",
   "givenName": "August",
   "familyName": "Weinhold",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1892-07-31",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Lublinitz/Oberschlesien (heute: Lubliniec, Polen)"
-  },
-  "deathDate": "1961-05-18",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Werste"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Gewerkschaftssekretär [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1949-09-07",
-      "endDate": "1953-09-07"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1339566567",
-    "https://de.wikipedia.org/wiki/August_Weinhold"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "August Weinhold",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11002453",
     "gnd": "https://d-nb.info/gnd/1339566567",
-    "wikipedia": "https://de.wikipedia.org/wiki/August_Weinhold",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/August_Weinhold"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1892-07-31",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Lublinitz/Oberschlesien (heute: Lubliniec, Polen)"
+  },
+  "deathDate": "1961-05-18",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Werste"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Gewerkschaftssekretär [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1339566567",
+    "https://de.wikipedia.org/wiki/August_Weinhold"
+  ]
 }

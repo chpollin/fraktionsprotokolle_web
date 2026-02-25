@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GoldschmidtDietrich",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GoldschmidtDietrich",
   "name": "Dietrich Goldschmidt",
   "givenName": "Dietrich",
   "familyName": "Goldschmidt",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1914-11-04",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Freiburg im Breisgau"
-  },
-  "deathDate": "1998-05-20",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1963–1982 Direktor am Max-Planck-Institut für Bildungsforschung in Berlin"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/120961350",
-    "https://de.wikipedia.org/wiki/Dietrich_Goldschmidt"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Dietrich Goldschmidt",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/120961350",
-    "wikipedia": "https://de.wikipedia.org/wiki/Dietrich_Goldschmidt",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Dietrich_Goldschmidt"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1914-11-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Freiburg im Breisgau"
+  },
+  "deathDate": "1998-05-20",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1963–1982 Direktor am Max-Planck-Institut für Bildungsforschung in Berlin"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/120961350",
+    "https://de.wikipedia.org/wiki/Dietrich_Goldschmidt"
+  ]
 }

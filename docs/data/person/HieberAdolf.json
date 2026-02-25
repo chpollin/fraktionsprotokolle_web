@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HieberAdolf",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HieberAdolf",
   "name": "Adolf Hieber",
   "givenName": "Adolf",
   "familyName": "Hieber",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1898-03-15",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "deathDate": "1977-12-25",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Musikalienhändler und Musikverleger, Zweiter Bürgermeister der Stadt München"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/116796693",
-    "https://de.wikipedia.org/wiki/Adolf_Hieber"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Adolf Hieber",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/116796693",
-    "wikipedia": "https://de.wikipedia.org/wiki/Adolf_Hieber",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Adolf_Hieber"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1898-03-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "deathDate": "1977-12-25",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Musikalienhändler und Musikverleger, Zweiter Bürgermeister der Stadt München"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/116796693",
+    "https://de.wikipedia.org/wiki/Adolf_Hieber"
+  ]
 }

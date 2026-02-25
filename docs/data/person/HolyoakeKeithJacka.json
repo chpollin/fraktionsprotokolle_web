@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HolyoakeKeithJacka",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HolyoakeKeithJacka",
   "name": "Keith Jacka Holyoake",
   "givenName": "Keith Jacka",
   "familyName": "Holyoake",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1904-02-11",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Pahiatua"
-  },
-  "deathDate": "1983-12-08",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Wellington"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1957, 1960–1972 Ministerpräsident und Außenminister von Neuseeland"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/135959950",
-    "https://de.wikipedia.org/wiki/Keith_Holyoake"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Keith Jacka Holyoake",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/135959950",
-    "wikipedia": "https://de.wikipedia.org/wiki/Keith_Holyoake",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Keith_Holyoake"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1904-02-11",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Pahiatua"
+  },
+  "deathDate": "1983-12-08",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Wellington"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1957, 1960–1972 Ministerpräsident und Außenminister von Neuseeland"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/135959950",
+    "https://de.wikipedia.org/wiki/Keith_Holyoake"
+  ]
 }

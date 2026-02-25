@@ -1,38 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "JanzenUlrich_1990-12-20",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/JanzenUlrich_1990-12-20",
   "name": "Ulrich Janzen",
   "givenName": "Ulrich",
   "familyName": "Janzen",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1930-10-08",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Bergen auf Rügen"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Dipl.-Ingenieur, Architekt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1990-12-20",
-      "endDate": "1994-11-10"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1276237367",
-    "https://de.wikipedia.org/wiki/Ulrich_Janzen"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Ulrich Janzen",
@@ -64,7 +39,32 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001020",
     "gnd": "https://d-nb.info/gnd/1276237367",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ulrich_Janzen",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ulrich_Janzen"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1930-10-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bergen auf Rügen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Ingenieur, Architekt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1276237367",
+    "https://de.wikipedia.org/wiki/Ulrich_Janzen"
+  ]
 }

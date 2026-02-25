@@ -1,10 +1,60 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MaibaumWilhelm_1963-05-22",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MaibaumWilhelm_1963-05-22",
   "name": "Wilhelm Maibaum",
   "givenName": "Wilhelm",
   "familyName": "Maibaum",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Wilhelm Maibaum",
+    "forename": "Wilhelm",
+    "surname": "Maibaum",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1919-07-08",
+    "place": "Ennigerloh/Westfalen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1994-07-14",
+    "place": "Neustadt in Holstein",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 4,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1963-05-22",
+      "to": "1965-10-17"
+    },
+    {
+      "period": 5,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    },
+    {
+      "period": 6,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1969-10-20",
+      "to": "1972-09-22"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001410",
+    "gnd": "https://d-nb.info/gnd/1276215339",
+    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_Maibaum"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1919-07-08",
   "birthPlace": {
@@ -55,53 +105,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/1276215339",
     "https://de.wikipedia.org/wiki/Wilhelm_Maibaum"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Wilhelm Maibaum",
-    "forename": "Wilhelm",
-    "surname": "Maibaum",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1919-07-08",
-    "place": "Ennigerloh/Westfalen",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1994-07-14",
-    "place": "Neustadt in Holstein",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 4,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1963-05-22",
-      "to": "1965-10-17"
-    },
-    {
-      "period": 5,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1965-10-19",
-      "to": "1969-10-19"
-    },
-    {
-      "period": 6,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1969-10-20",
-      "to": "1972-09-22"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11001410",
-    "gnd": "https://d-nb.info/gnd/1276215339",
-    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_Maibaum",
-    "viaf": null
-  }
+  ]
 }

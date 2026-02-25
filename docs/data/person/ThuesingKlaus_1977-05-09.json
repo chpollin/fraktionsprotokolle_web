@@ -1,47 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ThuesingKlaus_1977-05-09",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ThuesingKlaus_1977-05-09",
   "name": "Klaus Thüsing",
   "givenName": "Klaus",
   "familyName": "Thüsing",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1940-02-22",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Balve/Sauerland"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Sozialwissenschaftler [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1977-05-09",
-      "endDate": "1980-11-04"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1980-11-04",
-      "endDate": "1983-03-29"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1027346308"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Klaus Thüsing",
@@ -79,8 +45,41 @@
   ],
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11002322",
-    "gnd": "https://d-nb.info/gnd/1027346308",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/1027346308"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1940-02-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Balve/Sauerland"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Sozialwissenschaftler [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1977-05-09",
+      "endDate": "1980-11-04"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1980-11-04",
+      "endDate": "1983-03-29"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1027346308"
+  ]
 }

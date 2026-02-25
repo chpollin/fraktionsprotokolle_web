@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MuzorewaAbel",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MuzorewaAbel",
   "name": "Abel Muzorewa",
   "givenName": "Abel",
   "familyName": "Muzorewa",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1925-04-14",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Umtali"
-  },
-  "deathDate": "2010-04-08",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Borrowdale bei Harare"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "evangelisch-methodistischer Bischof, rhodesischer bzw. simbabwischer Politiker des United African National Council (UANC), Juni-Dezember 1979 Premierminister von Simbabwe-Rhodesien"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/122311078",
-    "https://de.wikipedia.org/wiki/Abel_Muzorewa"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Abel Muzorewa",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/122311078",
-    "wikipedia": "https://de.wikipedia.org/wiki/Abel_Muzorewa",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Abel_Muzorewa"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1925-04-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Umtali"
+  },
+  "deathDate": "2010-04-08",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Borrowdale bei Harare"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "evangelisch-methodistischer Bischof, rhodesischer bzw. simbabwischer Politiker des United African National Council (UANC), Juni-Dezember 1979 Premierminister von Simbabwe-Rhodesien"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/122311078",
+    "https://de.wikipedia.org/wiki/Abel_Muzorewa"
+  ]
 }

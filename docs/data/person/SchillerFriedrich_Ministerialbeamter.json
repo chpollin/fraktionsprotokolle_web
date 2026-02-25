@@ -1,26 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchillerFriedrich_Ministerialbeamter",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchillerFriedrich_Ministerialbeamter",
   "name": "Friedrich Schiller",
   "givenName": "Friedrich",
   "familyName": "Schiller",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1895-04-17",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Heilbronn"
-  },
-  "deathDate": "1990",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1949–1960 Ministerialdirektor im Bundesministerium für Verkehr und Stellvertreter des Staatssekretärs"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1028285248"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Friedrich Schiller",
@@ -42,9 +29,20 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/1028285248",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/1028285248"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1895-04-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Heilbronn"
+  },
+  "deathDate": "1990",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1949–1960 Ministerialdirektor im Bundesministerium für Verkehr und Stellvertreter des Staatssekretärs"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1028285248"
+  ]
 }

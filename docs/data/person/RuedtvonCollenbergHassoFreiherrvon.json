@@ -1,29 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RuedtvonCollenbergHassoFreiherrvon",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RuedtvonCollenbergHassoFreiherrvon",
   "name": "Hasso Freiherr von Rüdt von Collenberg",
   "givenName": "Hasso",
   "familyName": "Rüdt Collenberg",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1932-10-13",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Buchen"
-  },
-  "deathDate": "1968-05-05",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Saigon"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Botschaftsrat an der Botschaft der Bundesrepublik Deutschland in Saigon"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Hasso_R%C3%BCdt_von_Collenberg"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hasso Freiherr von Rüdt von Collenberg",
@@ -45,10 +29,25 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://de.wikipedia.org/wiki/Hasso_R%C3%BCdt_von_Collenberg",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Hasso_R%C3%BCdt_von_Collenberg"
   },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1932-10-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Buchen"
+  },
+  "deathDate": "1968-05-05",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Saigon"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Botschaftsrat an der Botschaft der Bundesrepublik Deutschland in Saigon"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Hasso_R%C3%BCdt_von_Collenberg"
+  ],
   "fraktionsprotokolle:sonstiges": "am 5. Mai 1968 erschossen"
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WallenreiterChristian",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WallenreiterChristian",
   "name": "Christian Wallenreiter",
   "givenName": "Christian",
   "familyName": "Wallenreiter",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1900-07-25",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Friedberg bei Augsburg"
-  },
-  "deathDate": "1980-08-18",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Verwaltungsjurist, 1960–1972 Intendant des Bayerischen Rundfunks, 1967–1969 ARD-Vorsitzender"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/117126071",
-    "https://de.wikipedia.org/wiki/Christian_Wallenreiter"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Christian Wallenreiter",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/117126071",
-    "wikipedia": "https://de.wikipedia.org/wiki/Christian_Wallenreiter",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Christian_Wallenreiter"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1900-07-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Friedberg bei Augsburg"
+  },
+  "deathDate": "1980-08-18",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Verwaltungsjurist, 1960–1972 Intendant des Bayerischen Rundfunks, 1967–1969 ARD-Vorsitzender"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/117126071",
+    "https://de.wikipedia.org/wiki/Christian_Wallenreiter"
+  ]
 }

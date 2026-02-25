@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "CouvedeMurvilleMaurice",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/CouvedeMurvilleMaurice",
   "name": "Maurice Couve de Murville",
   "givenName": "Maurice",
   "familyName": "Couve de Murville",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1907-01-24",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Reims"
-  },
-  "deathDate": "1999-12-24",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Paris"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1958–1968 französischer Außenminister, im Juni 1968 Finanz- und Wirtschaftsminister, Juli 1968–Juni 1969 Ministerpräsident der Französischen Republik"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118677152",
-    "https://de.wikipedia.org/wiki/Maurice_Couve_de_Murville_(Politiker)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Maurice Couve de Murville",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118677152",
-    "wikipedia": "https://de.wikipedia.org/wiki/Maurice_Couve_de_Murville_(Politiker)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Maurice_Couve_de_Murville_(Politiker)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1907-01-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Reims"
+  },
+  "deathDate": "1999-12-24",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1958–1968 französischer Außenminister, im Juni 1968 Finanz- und Wirtschaftsminister, Juli 1968–Juni 1969 Ministerpräsident der Französischen Republik"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118677152",
+    "https://de.wikipedia.org/wiki/Maurice_Couve_de_Murville_(Politiker)"
+  ]
 }

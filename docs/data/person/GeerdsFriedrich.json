@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GeerdsFriedrich",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GeerdsFriedrich",
   "name": "Friedrich Geerds",
   "givenName": "Friedrich",
   "familyName": "Geerds",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1925-08-29",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Lübeck"
-  },
-  "deathDate": "2000-04-26",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Frankfurt am Main"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Professor für Kriminologie, Strafrecht und Strafprozessrecht an der Universität Frankfurt a. M."
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119277875",
-    "https://de.wikipedia.org/wiki/Friedrich_Geerds"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Friedrich Geerds",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119277875",
-    "wikipedia": "https://de.wikipedia.org/wiki/Friedrich_Geerds",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Friedrich_Geerds"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1925-08-29",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Lübeck"
+  },
+  "deathDate": "2000-04-26",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Frankfurt am Main"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Professor für Kriminologie, Strafrecht und Strafprozessrecht an der Universität Frankfurt a. M."
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119277875",
+    "https://de.wikipedia.org/wiki/Friedrich_Geerds"
+  ]
 }

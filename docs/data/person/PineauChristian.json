@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PineauChristian",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PineauChristian",
   "name": "Christian Pineau",
   "givenName": "Christian",
   "familyName": "Pineau",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1914-10-14",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Chaumont"
-  },
-  "deathDate": "1995-04-05",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Paris"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1956–1958 französischer Außenminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/116186461",
-    "https://fr.wikipedia.org/wiki/Christian_Pineau"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Christian Pineau",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/116186461",
-    "wikipedia": "https://fr.wikipedia.org/wiki/Christian_Pineau",
-    "viaf": null
-  }
+    "wikipedia": "https://fr.wikipedia.org/wiki/Christian_Pineau"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1914-10-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Chaumont"
+  },
+  "deathDate": "1995-04-05",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1956–1958 französischer Außenminister"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/116186461",
+    "https://fr.wikipedia.org/wiki/Christian_Pineau"
+  ]
 }

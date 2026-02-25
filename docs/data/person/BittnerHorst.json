@@ -1,29 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BittnerHorst",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BittnerHorst",
   "name": "Horst Bittner",
   "givenName": "Horst",
   "familyName": "Bittner",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1927-06-14",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Taucha bei Leipzig"
-  },
-  "deathDate": "2013-04-16",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "deutscher Politiker (SED) und Diplomat, 1965–1974 Botschafter der DDR in der Sowjetunion"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Horst_Bittner"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Horst Bittner",
@@ -45,9 +29,24 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://de.wikipedia.org/wiki/Horst_Bittner",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Horst_Bittner"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1927-06-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Taucha bei Leipzig"
+  },
+  "deathDate": "2013-04-16",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Politiker (SED) und Diplomat, 1965–1974 Botschafter der DDR in der Sowjetunion"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Horst_Bittner"
+  ]
 }

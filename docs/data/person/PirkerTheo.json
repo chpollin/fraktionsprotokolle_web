@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PirkerTheo",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PirkerTheo",
   "name": "Theo Pirker",
   "givenName": "Theo",
   "familyName": "Pirker",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1922-03-02",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "deathDate": "1995-08-31",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Professor für empirische Methodenlehre und Statistik am Institut für Soziologie der FU Berlin"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/11874271X",
-    "https://de.wikipedia.org/wiki/Theo_Pirker"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Theo Pirker",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/11874271X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Theo_Pirker",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Theo_Pirker"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1922-03-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "deathDate": "1995-08-31",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Professor für empirische Methodenlehre und Statistik am Institut für Soziologie der FU Berlin"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/11874271X",
+    "https://de.wikipedia.org/wiki/Theo_Pirker"
+  ]
 }

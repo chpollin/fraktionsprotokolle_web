@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MonroeJames",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MonroeJames",
   "name": "James Monroe",
   "givenName": "James",
   "familyName": "Monroe",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1758-04-28",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Monroe Hall, Westmoreland County"
-  },
-  "deathDate": "1831-07-04",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "New York City"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1817–1825 Präsident der Vereinigten Staaten"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118784595",
-    "https://de.wikipedia.org/wiki/James_Monroe"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "James Monroe",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118784595",
-    "wikipedia": "https://de.wikipedia.org/wiki/James_Monroe",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/James_Monroe"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1758-04-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Monroe Hall, Westmoreland County"
+  },
+  "deathDate": "1831-07-04",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "New York City"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1817–1825 Präsident der Vereinigten Staaten"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118784595",
+    "https://de.wikipedia.org/wiki/James_Monroe"
+  ]
 }

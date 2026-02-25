@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KlafkowskiAlfons",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KlafkowskiAlfons",
   "name": "Alfons Klafkowski",
   "givenName": "Alfons",
   "familyName": "Klafkowski",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1912",
-  "birthPlace": null,
-  "deathDate": "1992",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "polnischer Völkerrechtler"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/13226465X"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Alfons Klafkowski",
@@ -39,9 +29,16 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/13226465X",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/13226465X"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1912",
+  "deathDate": "1992",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "polnischer Völkerrechtler"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/13226465X"
+  ]
 }

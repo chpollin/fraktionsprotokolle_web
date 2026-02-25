@@ -1,21 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HeinzErika",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HeinzErika",
   "name": "Erika Heinz",
   "givenName": "Erika",
   "familyName": "Heinz",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1932",
-  "birthPlace": null,
-  "deathDate": "2018",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Mitarbeiterin von MdB Petra Kelly (Die Grünen), Vorsitzende der Grace P. Kelly Vereinigung (GKV)"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Erika Heinz",
@@ -36,10 +28,12 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Female",
+  "birthDate": "1932",
+  "deathDate": "2018",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Mitarbeiterin von MdB Petra Kelly (Die Grünen), Vorsitzende der Grace P. Kelly Vereinigung (GKV)"
   }
 }

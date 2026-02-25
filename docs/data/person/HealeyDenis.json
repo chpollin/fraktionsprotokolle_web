@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HealeyDenis",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HealeyDenis",
   "name": "Denis Healey",
   "givenName": "Denis Winston",
   "familyName": "Healey",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1917-08-30",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Mottingham, Kent"
-  },
-  "deathDate": "2015-10-03",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Alfriston, Sussex"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1952–1992 Mitglied des britischen Unterhauses (Labour), dann bis 2015 des Oberhauses, 1974–1970 Verteidigungsminister, 1974–1979 Wirtschafts- und Finanzminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118993712",
-    "https://de.wikipedia.org/wiki/Denis_Healey"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Denis Healey",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118993712",
-    "wikipedia": "https://de.wikipedia.org/wiki/Denis_Healey",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Denis_Healey"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1917-08-30",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Mottingham, Kent"
+  },
+  "deathDate": "2015-10-03",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Alfriston, Sussex"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1952–1992 Mitglied des britischen Unterhauses (Labour), dann bis 2015 des Oberhauses, 1974–1970 Verteidigungsminister, 1974–1979 Wirtschafts- und Finanzminister"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118993712",
+    "https://de.wikipedia.org/wiki/Denis_Healey"
+  ]
 }

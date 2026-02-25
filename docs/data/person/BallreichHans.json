@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BallreichHans",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BallreichHans",
   "name": "Hans Ballreich",
   "givenName": "Hans",
   "familyName": "Ballreich",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1913-04-18",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Ludwigsburg"
-  },
-  "deathDate": "1998-11-11",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bad Griesbach"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "deutscher Jurist und Wissenschaftsmanager"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/170469123",
-    "https://de.wikipedia.org/wiki/Hans_Ballreich"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hans Ballreich",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/170469123",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Ballreich",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Ballreich"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1913-04-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Ludwigsburg"
+  },
+  "deathDate": "1998-11-11",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bad Griesbach"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Jurist und Wissenschaftsmanager"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/170469123",
+    "https://de.wikipedia.org/wiki/Hans_Ballreich"
+  ]
 }

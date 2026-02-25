@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HofeErichvon",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HofeErichvon",
   "name": "Erich von Hofe",
   "givenName": "Erich",
   "familyName": "Hofe",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1956-03-29",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Soltau"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1985/86 und 1990–1998 MdL Niedersachsen (Die Grünen)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1034903837",
-    "https://de.wikipedia.org/wiki/Erich_von_Hofe"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Erich von Hofe",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1034903837",
-    "wikipedia": "https://de.wikipedia.org/wiki/Erich_von_Hofe",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Erich_von_Hofe"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1956-03-29",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Soltau"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1985/86 und 1990–1998 MdL Niedersachsen (Die Grünen)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1034903837",
+    "https://de.wikipedia.org/wiki/Erich_von_Hofe"
+  ]
 }

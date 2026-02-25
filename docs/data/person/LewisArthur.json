@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "LewisArthur",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/LewisArthur",
   "name": "Arthur Lewis",
   "givenName": "Arthur William John",
   "familyName": "Lewis",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1917-02-21",
-  "birthPlace": null,
-  "deathDate": "1998-06-25",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Handwerker, 1938–1948 Funktionär der National Union of General and Municipal Workers (GMB), 1945–1983 Member of Parliament (Labour)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://en.wikipedia.org/wiki/Arthur_Lewis_(British_politician)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Arthur Lewis",
@@ -39,9 +29,16 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://en.wikipedia.org/wiki/Arthur_Lewis_(British_politician)",
-    "viaf": null
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/Arthur_Lewis_(British_politician)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1917-02-21",
+  "deathDate": "1998-06-25",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Handwerker, 1938–1948 Funktionär der National Union of General and Municipal Workers (GMB), 1945–1983 Member of Parliament (Labour)"
+  },
+  "sameAs": [
+    "https://en.wikipedia.org/wiki/Arthur_Lewis_(British_politician)"
+  ]
 }

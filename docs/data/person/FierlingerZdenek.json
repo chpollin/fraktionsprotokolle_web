@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FierlingerZdenek",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FierlingerZdenek",
   "name": "Zdeněk Fierlinger",
   "givenName": "Zdeněk",
   "familyName": "Fierlinger",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1891-07-11",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Olmütz (heute: Olomouc)"
-  },
-  "deathDate": "1976-05-02",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Prag"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1953–1964 Vorsitzender des tschechoslowakischen Parlaments"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/123555396",
-    "https://de.wikipedia.org/wiki/Zden%C4%9Bk_Fierlinger"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Zdeněk Fierlinger",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/123555396",
-    "wikipedia": "https://de.wikipedia.org/wiki/Zden%C4%9Bk_Fierlinger",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Zden%C4%9Bk_Fierlinger"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1891-07-11",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Olmütz (heute: Olomouc)"
+  },
+  "deathDate": "1976-05-02",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Prag"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1953–1964 Vorsitzender des tschechoslowakischen Parlaments"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/123555396",
+    "https://de.wikipedia.org/wiki/Zden%C4%9Bk_Fierlinger"
+  ]
 }

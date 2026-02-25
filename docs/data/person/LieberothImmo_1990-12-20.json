@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "LieberothImmo_1990-12-20",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/LieberothImmo_1990-12-20",
   "name": "Immo Lieberoth",
   "givenName": "Immo",
   "familyName": "Lieberoth",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1929-10-16",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Leipzig"
-  },
-  "deathDate": "2025-05-06",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Eberswalde"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "o. Professor, Bodenkundler, Landwirt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1990-12-20",
-      "endDate": "1994-11-10"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1034295438",
-    "https://de.wikipedia.org/wiki/Immo_Lieberoth"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Immo Lieberoth",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001339",
     "gnd": "https://d-nb.info/gnd/1034295438",
-    "wikipedia": "https://de.wikipedia.org/wiki/Immo_Lieberoth",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Immo_Lieberoth"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1929-10-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Leipzig"
+  },
+  "deathDate": "2025-05-06",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Eberswalde"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "o. Professor, Bodenkundler, Landwirt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1034295438",
+    "https://de.wikipedia.org/wiki/Immo_Lieberoth"
+  ]
 }

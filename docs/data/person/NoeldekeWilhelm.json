@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "NoeldekeWilhelm",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/NoeldekeWilhelm",
   "name": "Wilhelm Nöldeke",
   "givenName": "Wilhelm",
   "familyName": "Nöldeke",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1889-06-28",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Menzlin, Vorpommern"
-  },
-  "deathDate": "1971-10-08",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bonn"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "deutscher Diplomat, 1951–1954 Botschafter in Dänemark"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/133670309",
-    "https://de.wikipedia.org/wiki/Wilhelm_N%C3%B6ldeke_(Diplomat)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Wilhelm Nöldeke",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/133670309",
-    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_N%C3%B6ldeke_(Diplomat)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_N%C3%B6ldeke_(Diplomat)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1889-06-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Menzlin, Vorpommern"
+  },
+  "deathDate": "1971-10-08",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Diplomat, 1951–1954 Botschafter in Dänemark"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/133670309",
+    "https://de.wikipedia.org/wiki/Wilhelm_N%C3%B6ldeke_(Diplomat)"
+  ]
 }

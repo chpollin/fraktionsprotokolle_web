@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "EngelNorbert",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/EngelNorbert",
   "name": "Norbert Engel",
   "givenName": "Norbert",
   "familyName": "Engel",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1921-08-27",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Heidelberg"
-  },
-  "deathDate": "2009-04-21",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bremen"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1955–1975 MdL Saarland (SPD), 1957–1986 Präsident der Arbeitskammer des Saarlandes"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1157098770",
-    "https://de.wikipedia.org/wiki/Norbert_Engel"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Norbert Engel",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1157098770",
-    "wikipedia": "https://de.wikipedia.org/wiki/Norbert_Engel",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Norbert_Engel"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1921-08-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Heidelberg"
+  },
+  "deathDate": "2009-04-21",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bremen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1955–1975 MdL Saarland (SPD), 1957–1986 Präsident der Arbeitskammer des Saarlandes"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1157098770",
+    "https://de.wikipedia.org/wiki/Norbert_Engel"
+  ]
 }

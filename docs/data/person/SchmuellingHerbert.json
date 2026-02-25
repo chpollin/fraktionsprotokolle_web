@@ -1,29 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchmuellingHerbert",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchmuellingHerbert",
   "name": "Herbert Schmülling",
   "givenName": "Herbert",
   "familyName": "Schmülling",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1937-09-23",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Gelsenkirchen"
-  },
-  "deathDate": "2014-12-09",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bonn"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Jurist, ab 1967 Assistent der FDP-Bundestagsfraktion, ab 1969 Pressereferent im Bundesministerium des Innern, ab 1974 Leiter des Ministerbüros unter Werner Maihofer, 1981–1985 verantwortlicher Redakteur der freien demokratischen korrespondenz (fdk), 1990–1994 beamteter Staatssekretär im Bundesbauministerium, 1995–1998 stv. Regierungssprecher"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Herbert_Schm%C3%BClling"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Herbert Schmülling",
@@ -45,9 +29,24 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://de.wikipedia.org/wiki/Herbert_Schm%C3%BClling",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Herbert_Schm%C3%BClling"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1937-09-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Gelsenkirchen"
+  },
+  "deathDate": "2014-12-09",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Jurist, ab 1967 Assistent der FDP-Bundestagsfraktion, ab 1969 Pressereferent im Bundesministerium des Innern, ab 1974 Leiter des Ministerbüros unter Werner Maihofer, 1981–1985 verantwortlicher Redakteur der freien demokratischen korrespondenz (fdk), 1990–1994 beamteter Staatssekretär im Bundesbauministerium, 1995–1998 stv. Regierungssprecher"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Herbert_Schm%C3%BClling"
+  ]
 }

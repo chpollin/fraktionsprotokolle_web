@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HeissenbuettelHelmut",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HeissenbuettelHelmut",
   "name": "Helmut Heißenbüttel",
   "givenName": "Helmut",
   "familyName": "Heißenbüttel",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1921-06-21",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Rüstringen"
-  },
-  "deathDate": "1996-09-19",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Glückstadt"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Schriftsteller, Kritiker und Essayist"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118548700",
-    "https://de.wikipedia.org/wiki/Helmut_Hei%C3%9Fenb%C3%BCttel"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Helmut Heißenbüttel",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118548700",
-    "wikipedia": "https://de.wikipedia.org/wiki/Helmut_Hei%C3%9Fenb%C3%BCttel",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Helmut_Hei%C3%9Fenb%C3%BCttel"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1921-06-21",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Rüstringen"
+  },
+  "deathDate": "1996-09-19",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Glückstadt"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Schriftsteller, Kritiker und Essayist"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118548700",
+    "https://de.wikipedia.org/wiki/Helmut_Hei%C3%9Fenb%C3%BCttel"
+  ]
 }

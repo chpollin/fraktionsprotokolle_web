@@ -1,29 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BloetzDieter",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BloetzDieter",
   "name": "Dieter Blötz",
   "givenName": "Dieter",
   "familyName": "Blötz",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1931-11-05",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Braunschweig"
-  },
-  "deathDate": "1987-06-06",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Hamburg"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1966–1970 Abgeordneter der Hamburger Bürgerschaft (SPD), 1970–1979 Vizepräsident des Bundesnachrichtendienstes"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Dieter_Bl%C3%B6tz"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Dieter Blötz",
@@ -45,9 +29,24 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://de.wikipedia.org/wiki/Dieter_Bl%C3%B6tz",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Dieter_Bl%C3%B6tz"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1931-11-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Braunschweig"
+  },
+  "deathDate": "1987-06-06",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1966–1970 Abgeordneter der Hamburger Bürgerschaft (SPD), 1970–1979 Vizepräsident des Bundesnachrichtendienstes"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Dieter_Bl%C3%B6tz"
+  ]
 }

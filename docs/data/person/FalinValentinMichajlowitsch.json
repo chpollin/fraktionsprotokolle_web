@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FalinValentinMichajlowitsch",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FalinValentinMichajlowitsch",
   "name": "Valentin Michajlowitsch Falin",
   "givenName": "Valentin Michajlowitsch",
   "familyName": "Falin",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1926-04-03",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Leningrad (heute: St. Petersburg)"
-  },
-  "deathDate": "2018-02-22",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Moskau"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1971–1978 Botschafter der Sowjetunion in der Bundesrepublik Deutschland"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119132788",
-    "https://de.wikipedia.org/wiki/Walentin_Michailowitsch_Falin"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Valentin Michajlowitsch Falin",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119132788",
-    "wikipedia": "https://de.wikipedia.org/wiki/Walentin_Michailowitsch_Falin",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Walentin_Michailowitsch_Falin"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1926-04-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Leningrad (heute: St. Petersburg)"
+  },
+  "deathDate": "2018-02-22",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Moskau"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1971–1978 Botschafter der Sowjetunion in der Bundesrepublik Deutschland"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119132788",
+    "https://de.wikipedia.org/wiki/Walentin_Michailowitsch_Falin"
+  ]
 }

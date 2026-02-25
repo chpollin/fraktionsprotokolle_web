@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GalenClemensAugustGrafvon",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GalenClemensAugustGrafvon",
   "name": "Clemens August Graf von Galen",
   "givenName": "Clemens Augustinus Joseph Emmanuel Pius Antonius Hubertus Marie",
   "familyName": "Galen",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1878-03-16",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Dinklage"
-  },
-  "deathDate": "1946-03-22",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Münster"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "katholischer Priester, 1933–1946 Bischof von Münster"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118537210",
-    "https://de.wikipedia.org/wiki/Clemens_August_Graf_von_Galen"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Clemens August Graf von Galen",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118537210",
-    "wikipedia": "https://de.wikipedia.org/wiki/Clemens_August_Graf_von_Galen",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Clemens_August_Graf_von_Galen"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1878-03-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Dinklage"
+  },
+  "deathDate": "1946-03-22",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Münster"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "katholischer Priester, 1933–1946 Bischof von Münster"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118537210",
+    "https://de.wikipedia.org/wiki/Clemens_August_Graf_von_Galen"
+  ]
 }

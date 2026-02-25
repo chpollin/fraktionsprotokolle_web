@@ -1,24 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FinckUlrike",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FinckUlrike",
   "name": "Ulrike Finck",
   "givenName": "Ulrike",
   "familyName": "Finck",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1976",
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Fernsehjournalistin und Moderatorin beim Rundfunk Berlin-Brandenburg"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1088584101",
-    "https://de.wikipedia.org/wiki/Ulrike_Finck"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Ulrike Finck",
@@ -40,9 +29,17 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1088584101",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ulrike_Finck",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ulrike_Finck"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1976",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Fernsehjournalistin und Moderatorin beim Rundfunk Berlin-Brandenburg"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1088584101",
+    "https://de.wikipedia.org/wiki/Ulrike_Finck"
+  ]
 }

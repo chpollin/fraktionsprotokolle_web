@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WoermannEmil",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WoermannEmil",
   "name": "Emil Woermann",
   "givenName": "Emil",
   "familyName": "Woermann",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1899-12-12",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Hoberge-Uerentrup (heute: Bielefeld)"
-  },
-  "deathDate": "1980-09-15",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Göttingen"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Agrarökonom, Hochschullehrer für Landwirtschaftliche Betriebslehre in Danzig, Halle und Göttingen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118634526",
-    "https://de.wikipedia.org/wiki/Emil_Woermann"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Emil Woermann",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118634526",
-    "wikipedia": "https://de.wikipedia.org/wiki/Emil_Woermann",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Emil_Woermann"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1899-12-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hoberge-Uerentrup (heute: Bielefeld)"
+  },
+  "deathDate": "1980-09-15",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Göttingen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Agrarökonom, Hochschullehrer für Landwirtschaftliche Betriebslehre in Danzig, Halle und Göttingen"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118634526",
+    "https://de.wikipedia.org/wiki/Emil_Woermann"
+  ]
 }

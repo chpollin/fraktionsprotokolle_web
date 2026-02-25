@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "LadebeckArtur_1953-10-06",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/LadebeckArtur_1953-10-06",
   "name": "Artur Ladebeck",
   "givenName": "Artur",
   "familyName": "Ladebeck",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1891-04-17",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "deathDate": "1963-10-12",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bielefeld"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Lehrer, Rektor, Oberbürgermeister [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1953-10-06",
-      "endDate": "1957-10-06"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/116643706",
-    "https://de.wikipedia.org/wiki/Artur_Ladebeck"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Artur Ladebeck",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001265",
     "gnd": "https://d-nb.info/gnd/116643706",
-    "wikipedia": "https://de.wikipedia.org/wiki/Artur_Ladebeck",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Artur_Ladebeck"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1891-04-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "1963-10-12",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bielefeld"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Lehrer, Rektor, Oberbürgermeister [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/116643706",
+    "https://de.wikipedia.org/wiki/Artur_Ladebeck"
+  ]
 }

@@ -1,48 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WalzIngrid_1989-01-06",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WalzIngrid_1989-01-06",
   "name": "Ingrid Walz",
   "givenName": "Ingrid",
   "familyName": "Walz",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1936-06-11",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Stuttgart"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Selbstständige Industriekauffrau [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Freien Demokratischen Partei",
-        "alternateName": "FDP"
-      },
-      "startDate": "1989-01-06",
-      "endDate": "1990-12-20"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Freien Demokratischen Partei",
-        "alternateName": "FDP"
-      },
-      "startDate": "1990-12-20",
-      "endDate": "1994-11-10"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1028818238",
-    "https://de.wikipedia.org/wiki/Ingrid_Walz"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Ingrid Walz",
@@ -81,7 +46,42 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11002426",
     "gnd": "https://d-nb.info/gnd/1028818238",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ingrid_Walz",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ingrid_Walz"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1936-06-11",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Stuttgart"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Selbstständige Industriekauffrau [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1989-01-06",
+      "endDate": "1990-12-20"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1028818238",
+    "https://de.wikipedia.org/wiki/Ingrid_Walz"
+  ]
 }

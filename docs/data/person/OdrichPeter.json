@@ -1,26 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "OdrichPeter",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/OdrichPeter",
   "name": "Peter Odrich",
   "givenName": "Peter",
   "familyName": "Odrich",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1939",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Wuppertal"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Betriebswirt, Dipl.-Kaufmann und Auslandskorrespondent, langjähriger Wirtschaftsredakteur der »Frankfurter Allgemeinen Zeitung«"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/120384574"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Peter Odrich",
@@ -42,9 +29,19 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/120384574",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/120384574"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1939",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Wuppertal"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Betriebswirt, Dipl.-Kaufmann und Auslandskorrespondent, langjähriger Wirtschaftsredakteur der »Frankfurter Allgemeinen Zeitung«"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/120384574"
+  ]
 }

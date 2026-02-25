@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BidaultGeorges",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BidaultGeorges",
   "name": "Georges Bidault",
   "givenName": "Georges",
   "familyName": "Bidault",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1899-10-05",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Moulins, Auvergne"
-  },
-  "deathDate": "1983-01-27",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Cambo-les-Bains"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1949/50, 1958 Ministerpräsident der Französischen Republik, während des Algerienkrieges Vorsitzender des »Conseil National de la Résistance«, 1962–1968 im Exil"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118663003",
-    "https://de.wikipedia.org/wiki/Georges_Bidault"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Georges Bidault",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118663003",
-    "wikipedia": "https://de.wikipedia.org/wiki/Georges_Bidault",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Georges_Bidault"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1899-10-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Moulins, Auvergne"
+  },
+  "deathDate": "1983-01-27",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Cambo-les-Bains"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1949/50, 1958 Ministerpräsident der Französischen Republik, während des Algerienkrieges Vorsitzender des »Conseil National de la Résistance«, 1962–1968 im Exil"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118663003",
+    "https://de.wikipedia.org/wiki/Georges_Bidault"
+  ]
 }

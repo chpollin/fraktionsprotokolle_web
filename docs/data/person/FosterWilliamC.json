@@ -1,21 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FosterWilliamC",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FosterWilliamC",
   "name": "William C. Foster",
   "givenName": "William C.",
   "familyName": "Foster",
-  "gender": "https://schema.org/Male",
-  "birthDate": null,
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Leiter der US-amerikanischen Abrüstungsbehörde und Leiter der US-amerikanischen Delegation bei der Konferenz der 18-Mächte-Abrüstungskommission in Genf"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "William C. Foster",
@@ -36,10 +28,10 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Male",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Leiter der US-amerikanischen Abrüstungsbehörde und Leiter der US-amerikanischen Delegation bei der Konferenz der 18-Mächte-Abrüstungskommission in Genf"
   }
 }

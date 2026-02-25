@@ -1,38 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "StaratzkeHans-Werner_1965-10-19",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/StaratzkeHans-Werner_1965-10-19",
   "name": "Hans-Werner Staratzke",
   "givenName": "Hans-Werner",
   "familyName": "Staratzke",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1912-08-05",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Breslau (heute: Wrocław, Polen)"
-  },
-  "deathDate": "2004-10-18",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Hauptgeschäftsführer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Freien Demokratischen Partei",
-        "alternateName": "FDP"
-      },
-      "startDate": "1965-10-19",
-      "endDate": "1969-10-19"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1036159825",
-    "https://de.wikipedia.org/wiki/Hans-Werner_Staratzke"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Hans-Werner Staratzke",
@@ -64,7 +39,33 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11002216",
     "gnd": "https://d-nb.info/gnd/1036159825",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hans-Werner_Staratzke",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans-Werner_Staratzke"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1912-08-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Breslau (heute: Wrocław, Polen)"
+  },
+  "deathDate": "2004-10-18",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Hauptgeschäftsführer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1965-10-19",
+      "endDate": "1969-10-19"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1036159825",
+    "https://de.wikipedia.org/wiki/Hans-Werner_Staratzke"
+  ]
 }

@@ -1,35 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WagnerHeinz_1990-10-03",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WagnerHeinz_1990-10-03",
   "name": "Heinz Wagner",
   "givenName": "Heinz",
   "familyName": "Wagner",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1939-09-16",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Freiberg/Sachsen"
-  },
-  "deathDate": "2018-03-31",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Kreisbaudirektor, Oberingenieur [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1990-10-03",
-      "endDate": "1990-12-20"
-    }
-  ],
-  "sameAs": null,
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Heinz Wagner",
@@ -59,9 +37,29 @@
     }
   ],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11002407",
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
-  }
+    "mdb_stammdaten": "11002407"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1939-09-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Freiberg/Sachsen"
+  },
+  "deathDate": "2018-03-31",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Kreisbaudirektor, Oberingenieur [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1990-10-03",
+      "endDate": "1990-12-20"
+    }
+  ]
 }

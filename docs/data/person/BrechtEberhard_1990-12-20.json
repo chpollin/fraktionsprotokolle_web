@@ -1,67 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BrechtEberhard_1990-12-20",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BrechtEberhard_1990-12-20",
   "name": "Eberhard Brecht",
   "givenName": "Eberhard",
   "familyName": "Brecht",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1950-02-20",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Quedlinburg/Bezirk Halle"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Dipl.-Physiker [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1990-12-20",
-      "endDate": "1994-11-10"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1994-11-10",
-      "endDate": "1998-10-26"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1998-10-26",
-      "endDate": "2001-06-30"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "2019-10-25"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1064966896",
-    "https://de.wikipedia.org/wiki/Eberhard_Brecht"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Eberhard Brecht",
@@ -114,7 +60,61 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000254",
     "gnd": "https://d-nb.info/gnd/1064966896",
-    "wikipedia": "https://de.wikipedia.org/wiki/Eberhard_Brecht",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Eberhard_Brecht"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1950-02-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Quedlinburg/Bezirk Halle"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Physiker [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-10-26"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1998-10-26",
+      "endDate": "2001-06-30"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "2019-10-25"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1064966896",
+    "https://de.wikipedia.org/wiki/Eberhard_Brecht"
+  ]
 }

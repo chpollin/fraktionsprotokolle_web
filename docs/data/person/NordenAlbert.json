@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "NordenAlbert",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/NordenAlbert",
   "name": "Albert Norden",
   "givenName": "Albert",
   "familyName": "Norden",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1904-12-04",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Myslowitz/Oberschlesien (heute: Mysłowice, Polen)"
-  },
-  "deathDate": "1982-05-30",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Ost-Berlin"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1955–1967 Leiter Agitationskommission beim Politbüro des ZK der SED, 1958–1981 Mitglied des Politbüros und Sprecher für Westpropaganda"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118588605",
-    "https://de.wikipedia.org/wiki/Albert_Norden"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Albert Norden",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118588605",
-    "wikipedia": "https://de.wikipedia.org/wiki/Albert_Norden",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Albert_Norden"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1904-12-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Myslowitz/Oberschlesien (heute: Mysłowice, Polen)"
+  },
+  "deathDate": "1982-05-30",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Ost-Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1955–1967 Leiter Agitationskommission beim Politbüro des ZK der SED, 1958–1981 Mitglied des Politbüros und Sprecher für Westpropaganda"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118588605",
+    "https://de.wikipedia.org/wiki/Albert_Norden"
+  ]
 }

@@ -1,26 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ShirawiYousufAhmedal-",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ShirawiYousufAhmedal-",
   "name": "Yousuf Ahmed al-Shirawi",
   "givenName": "Yousuf Ahmed",
   "familyName": "al-Shirawi",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1927",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "al-Muharraq"
-  },
-  "deathDate": "2004",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "bahrainischer Politiker, 1970–1995 Minister für Entwicklung und Industrie von Bahrain"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "http://viaf.org/viaf/41729557"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Yousuf Ahmed al-Shirawi",
@@ -42,9 +29,20 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
     "viaf": "http://viaf.org/viaf/41729557"
-  }
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1927",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "al-Muharraq"
+  },
+  "deathDate": "2004",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "bahrainischer Politiker, 1970–1995 Minister für Entwicklung und Industrie von Bahrain"
+  },
+  "sameAs": [
+    "http://viaf.org/viaf/41729557"
+  ]
 }

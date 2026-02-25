@@ -1,68 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchleiMarie_1969-10-20",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchleiMarie_1969-10-20",
   "name": "Marie Schlei, geb. Stabenow",
   "givenName": "Marie",
   "familyName": "Schlei",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1919-11-26",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Reetz, Kreis Arnswalde, Pommern (heute: Recz, Polen)"
-  },
-  "deathDate": "1983-05-21",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1976–1978 Bundesministerin für wirtschaftliche Zusammenarbeit, Schulrätin a. D., Bundesministerin a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1969-10-20",
-      "endDate": "1972-09-22"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1972-12-13",
-      "endDate": "1976-12-13"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1976-12-14",
-      "endDate": "1980-11-04"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1980-11-04",
-      "endDate": "1981-11-03"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/119227967",
-    "https://de.wikipedia.org/wiki/Marie_Schlei"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Marie Schlei, geb. Stabenow",
@@ -113,9 +58,64 @@
     }
   ],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119227967",
-    "wikipedia": "https://de.wikipedia.org/wiki/Marie_Schlei",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Marie_Schlei"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1919-11-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Reetz, Kreis Arnswalde, Pommern (heute: Recz, Polen)"
+  },
+  "deathDate": "1983-05-21",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1976–1978 Bundesministerin für wirtschaftliche Zusammenarbeit, Schulrätin a. D., Bundesministerin a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1969-10-20",
+      "endDate": "1972-09-22"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1972-12-13",
+      "endDate": "1976-12-13"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1976-12-14",
+      "endDate": "1980-11-04"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1980-11-04",
+      "endDate": "1981-11-03"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/119227967",
+    "https://de.wikipedia.org/wiki/Marie_Schlei"
+  ]
 }

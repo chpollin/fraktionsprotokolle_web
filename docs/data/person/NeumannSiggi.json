@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "NeumannSiggi",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/NeumannSiggi",
   "name": "Siegmund »Siggi« Neumann",
   "givenName": "Siegmund »Siggi«",
   "familyName": "Neumann",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1907-02-14",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Tarnów, Galizien"
-  },
-  "deathDate": "1960-11-27",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Frankfurt am Main"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1947–1954 Leiter des Betriebsgruppenreferats beim SPD-Parteivorstand"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/123165490",
-    "https://de.wikipedia.org/wiki/Siegmund_Neumann"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Siegmund »Siggi« Neumann",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/123165490",
-    "wikipedia": "https://de.wikipedia.org/wiki/Siegmund_Neumann",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Siegmund_Neumann"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1907-02-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Tarnów, Galizien"
+  },
+  "deathDate": "1960-11-27",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Frankfurt am Main"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1947–1954 Leiter des Betriebsgruppenreferats beim SPD-Parteivorstand"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/123165490",
+    "https://de.wikipedia.org/wiki/Siegmund_Neumann"
+  ]
 }

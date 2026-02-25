@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ClarkeBruceC",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ClarkeBruceC",
   "name": "Bruce Cooper Clarke",
   "givenName": "Bruce Cooper",
   "familyName": "Clarke",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1901-04-29",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Adams, Jefferson County, New York"
-  },
-  "deathDate": "1988-03-17",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bethesda, Maryland"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "General der US Army, zwischen 1960 und 1962 Oberkommandierender der US-Landstreitkräfte in Europa (US Army Europe)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1130489213",
-    "https://de.wikipedia.org/wiki/Bruce_C._Clarke"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Bruce Cooper Clarke",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1130489213",
-    "wikipedia": "https://de.wikipedia.org/wiki/Bruce_C._Clarke",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Bruce_C._Clarke"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1901-04-29",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Adams, Jefferson County, New York"
+  },
+  "deathDate": "1988-03-17",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bethesda, Maryland"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "General der US Army, zwischen 1960 und 1962 Oberkommandierender der US-Landstreitkräfte in Europa (US Army Europe)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1130489213",
+    "https://de.wikipedia.org/wiki/Bruce_C._Clarke"
+  ]
 }

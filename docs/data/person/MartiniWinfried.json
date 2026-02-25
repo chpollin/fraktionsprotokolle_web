@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MartiniWinfried",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MartiniWinfried",
   "name": "Winfried Martini",
   "givenName": "Winfried",
   "familyName": "Martini",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1905-06-04",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Hannover"
-  },
-  "deathDate": "1991-12-23",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bad Endorf"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Redakteur beim »Bayerischen Rundfunk«"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/135882729",
-    "https://de.wikipedia.org/wiki/Winfried_Martini"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Winfried Martini",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/135882729",
-    "wikipedia": "https://de.wikipedia.org/wiki/Winfried_Martini",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Winfried_Martini"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1905-06-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hannover"
+  },
+  "deathDate": "1991-12-23",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bad Endorf"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Redakteur beim »Bayerischen Rundfunk«"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/135882729",
+    "https://de.wikipedia.org/wiki/Winfried_Martini"
+  ]
 }

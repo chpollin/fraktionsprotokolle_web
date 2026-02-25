@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "TrompHylke",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/TrompHylke",
   "name": "Hylke Tromp",
   "givenName": "Tromp",
   "familyName": "Tromp",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1935-07-27",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Sneek"
-  },
-  "deathDate": "2021-02-14",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Den Haag"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "niederländischer Friedensforscher, ab 1980 Professor für Polemologie der Universität Groningen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1158884079",
-    "https://nl.wikipedia.org/wiki/Hylke_Tromp"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hylke Tromp",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1158884079",
-    "wikipedia": "https://nl.wikipedia.org/wiki/Hylke_Tromp",
-    "viaf": null
-  }
+    "wikipedia": "https://nl.wikipedia.org/wiki/Hylke_Tromp"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1935-07-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Sneek"
+  },
+  "deathDate": "2021-02-14",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Den Haag"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "niederländischer Friedensforscher, ab 1980 Professor für Polemologie der Universität Groningen"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1158884079",
+    "https://nl.wikipedia.org/wiki/Hylke_Tromp"
+  ]
 }

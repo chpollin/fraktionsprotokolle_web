@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "AylwinAzocarPatricio",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/AylwinAzocarPatricio",
   "name": "Patricio Aylwin Azócar",
   "givenName": "Patricio",
   "familyName": "Aylwin Azócar",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1918-11-26",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Viña del Mar"
-  },
-  "deathDate": "2016-04-19",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Providencia"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1958–1960, 1965–1967, 1973–1976 sowie 1987–1989 Vorsitzender der Christdemokratischen Partei Chiles, 1971–1972 Senatspräsident, 1990–1994 Präsident der Republik Chile"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119408090",
-    "https://de.wikipedia.org/wiki/Patricio_Aylwin"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Patricio Aylwin Azócar",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119408090",
-    "wikipedia": "https://de.wikipedia.org/wiki/Patricio_Aylwin",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Patricio_Aylwin"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1918-11-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Viña del Mar"
+  },
+  "deathDate": "2016-04-19",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Providencia"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1958–1960, 1965–1967, 1973–1976 sowie 1987–1989 Vorsitzender der Christdemokratischen Partei Chiles, 1971–1972 Senatspräsident, 1990–1994 Präsident der Republik Chile"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119408090",
+    "https://de.wikipedia.org/wiki/Patricio_Aylwin"
+  ]
 }

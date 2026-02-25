@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "AndreottiGiulio",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/AndreottiGiulio",
   "name": "Giulio Andreotti",
   "givenName": "Giulio",
   "familyName": "Andreotti",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1919-01-14",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Rom"
-  },
-  "deathDate": "2013-05-06",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Rom"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "italienischer Politiker, 1972/73, 1976–1979 und 1989–1992 Ministerpräsident der Italienischen Republik"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119171775",
-    "https://de.wikipedia.org/wiki/Giulio_Andreotti"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Giulio Andreotti",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119171775",
-    "wikipedia": "https://de.wikipedia.org/wiki/Giulio_Andreotti",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Giulio_Andreotti"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1919-01-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Rom"
+  },
+  "deathDate": "2013-05-06",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Rom"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "italienischer Politiker, 1972/73, 1976–1979 und 1989–1992 Ministerpräsident der Italienischen Republik"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119171775",
+    "https://de.wikipedia.org/wiki/Giulio_Andreotti"
+  ]
 }

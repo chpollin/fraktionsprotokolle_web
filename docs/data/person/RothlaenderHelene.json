@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RothlaenderHelene",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RothlaenderHelene",
   "name": "Helene Rothländer",
   "givenName": "Helene",
   "familyName": "Rothländer",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1890-12-23",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Köln"
-  },
-  "deathDate": "1976-07-01",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Koblenz"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Lehrerin und Politikerin, bis 1955 Regierungsdirektorin im rheinland-pfälzischen Kultusministerium, 1932/33 Mitglied des Preußischen Landtags (Zentrum), 1947–1951 MdL Rheinland-Pfalz (CDU)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1051180112",
-    "https://de.wikipedia.org/wiki/Helene_Rothl%C3%A4nder"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Helene Rothländer",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1051180112",
-    "wikipedia": "https://de.wikipedia.org/wiki/Helene_Rothl%C3%A4nder",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Helene_Rothl%C3%A4nder"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1890-12-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Köln"
+  },
+  "deathDate": "1976-07-01",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Koblenz"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Lehrerin und Politikerin, bis 1955 Regierungsdirektorin im rheinland-pfälzischen Kultusministerium, 1932/33 Mitglied des Preußischen Landtags (Zentrum), 1947–1951 MdL Rheinland-Pfalz (CDU)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1051180112",
+    "https://de.wikipedia.org/wiki/Helene_Rothl%C3%A4nder"
+  ]
 }

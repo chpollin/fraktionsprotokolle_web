@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "UndeutschUdo",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/UndeutschUdo",
   "name": "Udo Undeutsch",
   "givenName": "Udo",
   "familyName": "Undeutsch",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1917-12-22",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Weimar"
-  },
-  "deathDate": "2013-02-16",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Köln"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Psychologe mit Schwerpunkt Verkehrs- und Gerichtspsychologie, seit 1951 Professur an der Universität zu Köln"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118625411",
-    "https://de.wikipedia.org/wiki/Udo_Undeutsch"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Udo Undeutsch",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118625411",
-    "wikipedia": "https://de.wikipedia.org/wiki/Udo_Undeutsch",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Udo_Undeutsch"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1917-12-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Weimar"
+  },
+  "deathDate": "2013-02-16",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Köln"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Psychologe mit Schwerpunkt Verkehrs- und Gerichtspsychologie, seit 1951 Professur an der Universität zu Köln"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118625411",
+    "https://de.wikipedia.org/wiki/Udo_Undeutsch"
+  ]
 }

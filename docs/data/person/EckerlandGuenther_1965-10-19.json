@@ -1,10 +1,60 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "EckerlandGuenther_1965-10-19",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/EckerlandGuenther_1965-10-19",
   "name": "Günther Eckerland",
   "givenName": "Günther",
   "familyName": "Eckerland",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Günther Eckerland",
+    "forename": "Günther",
+    "surname": "Eckerland",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1919-11-14",
+    "place": "Kreidelwitz/Kreis Glogau (heute: Krzydłowice, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1998-11-06",
+    "place": "Marl",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 5,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    },
+    {
+      "period": 6,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1969-10-20",
+      "to": "1972-09-22"
+    },
+    {
+      "period": 7,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1972-12-13",
+      "to": "1976-12-13"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000432",
+    "gnd": "https://d-nb.info/gnd/1117440761",
+    "wikipedia": "https://de.wikipedia.org/wiki/G%C3%BCnther_Eckerland"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1919-11-14",
   "birthPlace": {
@@ -55,53 +105,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/1117440761",
     "https://de.wikipedia.org/wiki/G%C3%BCnther_Eckerland"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Günther Eckerland",
-    "forename": "Günther",
-    "surname": "Eckerland",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1919-11-14",
-    "place": "Kreidelwitz/Kreis Glogau (heute: Krzydłowice, Polen)",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1998-11-06",
-    "place": "Marl",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 5,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1965-10-19",
-      "to": "1969-10-19"
-    },
-    {
-      "period": 6,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1969-10-20",
-      "to": "1972-09-22"
-    },
-    {
-      "period": 7,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1972-12-13",
-      "to": "1976-12-13"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11000432",
-    "gnd": "https://d-nb.info/gnd/1117440761",
-    "wikipedia": "https://de.wikipedia.org/wiki/G%C3%BCnther_Eckerland",
-    "viaf": null
-  }
+  ]
 }

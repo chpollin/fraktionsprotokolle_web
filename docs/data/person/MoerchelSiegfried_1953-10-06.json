@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MoerchelSiegfried_1953-10-06",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MoerchelSiegfried_1953-10-06",
   "name": "Siegfried Moerchel",
   "givenName": "Siegfried",
   "familyName": "Moerchel",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1918-08-26",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Bagenz/Spremberg"
-  },
-  "deathDate": "2002-01-11",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Salzgitter"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Praktischer Arzt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1953-10-06",
-      "endDate": "1957-10-06"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/125603193",
-    "https://de.wikipedia.org/wiki/Siegfried_Moerchel"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Siegfried Moerchel",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001525",
     "gnd": "https://d-nb.info/gnd/125603193",
-    "wikipedia": "https://de.wikipedia.org/wiki/Siegfried_Moerchel",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Siegfried_Moerchel"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1918-08-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bagenz/Spremberg"
+  },
+  "deathDate": "2002-01-11",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Salzgitter"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Praktischer Arzt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/125603193",
+    "https://de.wikipedia.org/wiki/Siegfried_Moerchel"
+  ]
 }

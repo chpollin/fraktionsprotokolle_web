@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DschumblatKamal",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DschumblatKamal",
   "name": "Kamal Dschumblat",
   "givenName": "Kamal",
   "familyName": "Dschumblat",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1917-12-06",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Moukhtara, Distrikt Chouf"
-  },
-  "deathDate": "1977-03-16",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "libanesischer Politiker und Führer der gegen die Regierung operierenden Kräfte in den frühen Jahren des libanesischen Bürgerkriegs"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118907875",
-    "https://de.wikipedia.org/wiki/Kamal_Dschumblat"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Kamal Dschumblat",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118907875",
-    "wikipedia": "https://de.wikipedia.org/wiki/Kamal_Dschumblat",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Kamal_Dschumblat"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1917-12-06",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Moukhtara, Distrikt Chouf"
+  },
+  "deathDate": "1977-03-16",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "libanesischer Politiker und Führer der gegen die Regierung operierenden Kräfte in den frühen Jahren des libanesischen Bürgerkriegs"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118907875",
+    "https://de.wikipedia.org/wiki/Kamal_Dschumblat"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BeckerHansDetlev",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BeckerHansDetlev",
   "name": "Hans Detlev Becker",
   "givenName": "Hans Detlev",
   "familyName": "Becker",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1921-06-11",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Freiburg/Elbe"
-  },
-  "deathDate": "2014-11-02",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Reinbek"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Journalist, 1959–1961 Chefredakteur, bis 1983 Verlagsdirektor »Der Spiegel«"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/116103361",
-    "https://de.wikipedia.org/wiki/Hans_Detlev_Becker"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hans Detlev Becker",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/116103361",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Detlev_Becker",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Detlev_Becker"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1921-06-11",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Freiburg/Elbe"
+  },
+  "deathDate": "2014-11-02",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Reinbek"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist, 1959–1961 Chefredakteur, bis 1983 Verlagsdirektor »Der Spiegel«"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/116103361",
+    "https://de.wikipedia.org/wiki/Hans_Detlev_Becker"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MikojanAnastasIwanowitsch",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MikojanAnastasIwanowitsch",
   "name": "Anastas Iwanowitsch Mikojan",
   "givenName": "Anastas Iwanowitsch",
   "familyName": "Mikojan",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1895-11-25",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Sanahin"
-  },
-  "deathDate": "1978-10-21",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Moskau"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1935–1966 MItglied des Politbüros bzw. des Parteipräsidiums der KPdSU, 1926–1955 Volkskommissar bzw. Minister für verschiedene Ressorts, 1955–1964 einer der Ersten Stellvertretenden Ministerpräsidenten, 1964/65 Vorsitzender des Präsidiums des Obersten Sowjets (Staatsoberhaupt)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118865986",
-    "https://de.wikipedia.org/wiki/Anastas_Mikojan"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Anastas Iwanowitsch Mikojan",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118865986",
-    "wikipedia": "https://de.wikipedia.org/wiki/Anastas_Mikojan",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Anastas_Mikojan"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1895-11-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Sanahin"
+  },
+  "deathDate": "1978-10-21",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Moskau"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1935–1966 MItglied des Politbüros bzw. des Parteipräsidiums der KPdSU, 1926–1955 Volkskommissar bzw. Minister für verschiedene Ressorts, 1955–1964 einer der Ersten Stellvertretenden Ministerpräsidenten, 1964/65 Vorsitzender des Präsidiums des Obersten Sowjets (Staatsoberhaupt)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118865986",
+    "https://de.wikipedia.org/wiki/Anastas_Mikojan"
+  ]
 }

@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "NegtOskar",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/NegtOskar",
   "name": "Oskar Negt",
   "givenName": "Oskar",
   "familyName": "Negt",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1934-08-01",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Gut Kapkeim in Ostpreußen (heute: Wischnjowoje, Russland)"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Sozialphilosoph, 1970–2002 Professor für Soziologie an der Technischen Universität Hannover (heute: Gottfried Wilhelm Leibniz Universität)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/11858684X",
-    "https://de.wikipedia.org/wiki/Oskar_Negt"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Oskar Negt",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/11858684X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Oskar_Negt",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Oskar_Negt"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1934-08-01",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Gut Kapkeim in Ostpreußen (heute: Wischnjowoje, Russland)"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Sozialphilosoph, 1970–2002 Professor für Soziologie an der Technischen Universität Hannover (heute: Gottfried Wilhelm Leibniz Universität)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/11858684X",
+    "https://de.wikipedia.org/wiki/Oskar_Negt"
+  ]
 }

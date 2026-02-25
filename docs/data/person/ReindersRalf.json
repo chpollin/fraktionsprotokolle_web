@@ -1,24 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ReindersRalf",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ReindersRalf",
   "name": "Ralf Reinders",
   "givenName": "Ralf",
   "familyName": "Reinders",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1948-08-27",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": null,
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119505681",
-    "https://de.wikipedia.org/wiki/Ralf_Reinders"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Ralf Reinders",
@@ -40,10 +29,18 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119505681",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ralf_Reinders",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Ralf_Reinders"
   },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1948-08-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119505681",
+    "https://de.wikipedia.org/wiki/Ralf_Reinders"
+  ],
   "fraktionsprotokolle:sonstiges": "Mitglied der terroristischen Vereinigung »Bewegung 2. Juni«"
 }

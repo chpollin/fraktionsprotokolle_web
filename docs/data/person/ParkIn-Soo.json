@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ParkIn-Soo",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ParkIn-Soo",
   "name": "In-Soo Park",
   "givenName": "In-Soo",
   "familyName": "Park",
-  "gender": "https://schema.org/Male",
-  "birthDate": null,
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1967–1968 Direktor der Europaabteilung des südkoreanischen Außenministeriums"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/172793246"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "In-Soo Park",
@@ -39,9 +29,14 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/172793246",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/172793246"
+  },
+  "gender": "https://schema.org/Male",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1967–1968 Direktor der Europaabteilung des südkoreanischen Außenministeriums"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/172793246"
+  ]
 }

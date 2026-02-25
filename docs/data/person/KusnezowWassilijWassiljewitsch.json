@@ -1,29 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KusnezowWassilijWassiljewitsch",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KusnezowWassilijWassiljewitsch",
   "name": "Wassilij Wassiljewitsch Kusnezow",
   "givenName": "Wassilij Wassiljewitsch",
   "familyName": "Kusnezow",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1901-02-13",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Sofilowka, Gouvernement Kostroma"
-  },
-  "deathDate": "1990-06-05",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Moskau"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "seit 1955 Erster Stellvertretender Außenminister, 1977–1986 Erster Stellvertretender Vorsitzender des Obersten Sowjets, 1982/83, 1984, 1985 Interimsvorsitzender des Obersten Sowjets (Staatsoberhaupt) der UdSSR"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Wassili_Wassiljewitsch_Kusnezow"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Wassilij Wassiljewitsch Kusnezow",
@@ -45,9 +29,24 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://de.wikipedia.org/wiki/Wassili_Wassiljewitsch_Kusnezow",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Wassili_Wassiljewitsch_Kusnezow"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1901-02-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Sofilowka, Gouvernement Kostroma"
+  },
+  "deathDate": "1990-06-05",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Moskau"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "seit 1955 Erster Stellvertretender Außenminister, 1977–1986 Erster Stellvertretender Vorsitzender des Obersten Sowjets, 1982/83, 1984, 1985 Interimsvorsitzender des Obersten Sowjets (Staatsoberhaupt) der UdSSR"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Wassili_Wassiljewitsch_Kusnezow"
+  ]
 }

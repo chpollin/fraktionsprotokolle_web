@@ -1,40 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HeckerKlausJ_1983-03-29",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HeckerKlausJ_1983-03-29",
   "name": "Klaus J. Hecker",
   "givenName": "Klaus J.",
   "familyName": "Hecker",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1929-12-22",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Mannheim/Baden"
-  },
-  "deathDate": "2019-02-19",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Nordhausen"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Dipl.-Ingenieur [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion Die Grünen",
-        "alternateName": "Grüne"
-      },
-      "startDate": "1983-03-29",
-      "endDate": "1983-08-31"
-    }
-  ],
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Klaus_Hecker"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Klaus J. Hecker",
@@ -65,8 +38,36 @@
   ],
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000838",
-    "gnd": null,
-    "wikipedia": "https://de.wikipedia.org/wiki/Klaus_Hecker",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Klaus_Hecker"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1929-12-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Mannheim/Baden"
+  },
+  "deathDate": "2019-02-19",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Nordhausen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Ingenieur [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Die Grünen",
+        "alternateName": "Grüne"
+      },
+      "startDate": "1983-03-29",
+      "endDate": "1983-08-31"
+    }
+  ],
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Klaus_Hecker"
+  ]
 }

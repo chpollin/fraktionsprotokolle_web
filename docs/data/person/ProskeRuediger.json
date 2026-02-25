@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ProskeRuediger",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ProskeRuediger",
   "name": "Rüdiger Proske",
   "givenName": "Rüdiger",
   "familyName": "Proske",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1916-12-26",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "deathDate": "2010-12-10",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Hamburg"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1961–1963 Produzent Fernsehsendung »Panorama« (NDR), seit 1964 Filmproduzent"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1215864485",
-    "https://de.wikipedia.org/wiki/R%C3%BCdiger_Proske"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Rüdiger Proske",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1215864485",
-    "wikipedia": "https://de.wikipedia.org/wiki/R%C3%BCdiger_Proske",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/R%C3%BCdiger_Proske"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1916-12-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "2010-12-10",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1961–1963 Produzent Fernsehsendung »Panorama« (NDR), seit 1964 Filmproduzent"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1215864485",
+    "https://de.wikipedia.org/wiki/R%C3%BCdiger_Proske"
+  ]
 }

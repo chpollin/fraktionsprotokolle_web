@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GorbatschowMichailSergejewitsch",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GorbatschowMichailSergejewitsch",
   "name": "Michail Sergejewitsch Gorbatschow",
   "givenName": "Michail Sergejewitsch",
   "familyName": "Gorbatschow",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1931-03-02",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Priwolnoje, Russische SFSR"
-  },
-  "deathDate": "2022-08-30",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Moskau"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1985–1991 Generalsekretär des Zentralkomitees der Kommunistischen Partei der Sowjetunion (KPdSU); 1990/91 Staatspräsident der Sowjetunion"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/11874660X",
-    "https://de.wikipedia.org/wiki/Michail_Sergejewitsch_Gorbatschow"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Michail Sergejewitsch Gorbatschow",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/11874660X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Michail_Sergejewitsch_Gorbatschow",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Michail_Sergejewitsch_Gorbatschow"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1931-03-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Priwolnoje, Russische SFSR"
+  },
+  "deathDate": "2022-08-30",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Moskau"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1985–1991 Generalsekretär des Zentralkomitees der Kommunistischen Partei der Sowjetunion (KPdSU); 1990/91 Staatspräsident der Sowjetunion"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/11874660X",
+    "https://de.wikipedia.org/wiki/Michail_Sergejewitsch_Gorbatschow"
+  ]
 }

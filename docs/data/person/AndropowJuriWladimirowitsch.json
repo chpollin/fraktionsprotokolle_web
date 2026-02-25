@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "AndropowJuriWladimirowitsch",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/AndropowJuriWladimirowitsch",
   "name": "Juri Juri Wladimirowitsch Andropow",
   "givenName": "Juri Wladimirowitsch",
   "familyName": "Andropow",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1914-06-02",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Staniza Nagutskaja, Gouvernement Stawropol"
-  },
-  "deathDate": "1984-02-09",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Moskau"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "sowjetischer Politiker, Leiter des KGB, 1982–1984 Generalsekretär der KPdSU"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118649310",
-    "https://de.wikipedia.org/wiki/Juri_Wladimirowitsch_Andropow"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Juri Juri Wladimirowitsch Andropow",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118649310",
-    "wikipedia": "https://de.wikipedia.org/wiki/Juri_Wladimirowitsch_Andropow",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Juri_Wladimirowitsch_Andropow"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1914-06-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Staniza Nagutskaja, Gouvernement Stawropol"
+  },
+  "deathDate": "1984-02-09",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Moskau"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "sowjetischer Politiker, Leiter des KGB, 1982–1984 Generalsekretär der KPdSU"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118649310",
+    "https://de.wikipedia.org/wiki/Juri_Wladimirowitsch_Andropow"
+  ]
 }

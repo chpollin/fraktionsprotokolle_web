@@ -1,18 +1,93 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "Eid-SimonEidUrsula_1985-04-17",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/Eid-SimonEidUrsula_1985-04-17",
   "name": "Ursula »Uschi« Eid-Simon",
   "givenName": "Ursula",
   "familyName": "Eid-Simon",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Ursula »Uschi« Eid-Simon",
+    "forename": "Ursula",
+    "surname": "Eid-Simon",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1949-05-18",
+    "place": "Landau/Pfalz",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 10,
+      "faction": "Grüne",
+      "faction_full": "Fraktion Die Grünen",
+      "from": "1985-04-17",
+      "to": "1987-02-18"
+    },
+    {
+      "period": 11,
+      "faction": "Grüne/B90",
+      "faction_full": "Fraktion Die Grünen/Bündnis 90",
+      "from": "1990-10-04",
+      "to": "1990-12-20"
+    },
+    {
+      "period": 11,
+      "faction": "Grüne",
+      "faction_full": "Fraktion Die Grünen",
+      "from": "1987-02-18",
+      "to": "1990-12-20"
+    },
+    {
+      "period": 13,
+      "faction": "B90/Grüne",
+      "faction_full": "Fraktion Bündnis 90/Die Grünen",
+      "from": "1994-11-10",
+      "to": "1998-10-26"
+    },
+    {
+      "period": 14,
+      "faction": "B90/Grüne",
+      "faction_full": "Fraktion Bündnis 90/Die Grünen",
+      "from": "1998-10-26",
+      "to": "2002-10-17"
+    },
+    {
+      "period": 15,
+      "faction": "B90/Grüne",
+      "faction_full": "Fraktion Bündnis 90/Die Grünen",
+      "from": "2002-10-17",
+      "to": "2005-10-18"
+    },
+    {
+      "period": 16,
+      "faction": "B90/Grüne",
+      "faction_full": "Fraktion Bündnis 90/Die Grünen",
+      "from": "2005-10-18",
+      "to": "2009-10-27"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000454",
+    "gnd": "https://d-nb.info/gnd/1012790908"
+  },
   "gender": "https://schema.org/Female",
   "birthDate": "1949-05-18",
   "birthPlace": {
     "@type": "Place",
     "name": "Landau/Pfalz"
   },
-  "deathDate": null,
-  "deathPlace": null,
   "hasOccupation": {
     "@type": "Occupation",
     "name": "Diplomhaushaltswissenschaftlerin, Wiss. Angestellte, Parl. Staatssekretärin a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
@@ -92,82 +167,6 @@
   "sameAs": [
     "https://d-nb.info/gnd/1012790908"
   ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Ursula »Uschi« Eid-Simon",
-    "forename": "Ursula",
-    "surname": "Eid-Simon",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1949-05-18",
-    "place": "Landau/Pfalz",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": null,
-    "place": "",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 10,
-      "faction": "Grüne",
-      "faction_full": "Fraktion Die Grünen",
-      "from": "1985-04-17",
-      "to": "1987-02-18"
-    },
-    {
-      "period": 11,
-      "faction": "Grüne/B90",
-      "faction_full": "Fraktion Die Grünen/Bündnis 90",
-      "from": "1990-10-04",
-      "to": "1990-12-20"
-    },
-    {
-      "period": 11,
-      "faction": "Grüne",
-      "faction_full": "Fraktion Die Grünen",
-      "from": "1987-02-18",
-      "to": "1990-12-20"
-    },
-    {
-      "period": 13,
-      "faction": "B90/Grüne",
-      "faction_full": "Fraktion Bündnis 90/Die Grünen",
-      "from": "1994-11-10",
-      "to": "1998-10-26"
-    },
-    {
-      "period": 14,
-      "faction": "B90/Grüne",
-      "faction_full": "Fraktion Bündnis 90/Die Grünen",
-      "from": "1998-10-26",
-      "to": "2002-10-17"
-    },
-    {
-      "period": 15,
-      "faction": "B90/Grüne",
-      "faction_full": "Fraktion Bündnis 90/Die Grünen",
-      "from": "2002-10-17",
-      "to": "2005-10-18"
-    },
-    {
-      "period": 16,
-      "faction": "B90/Grüne",
-      "faction_full": "Fraktion Bündnis 90/Die Grünen",
-      "from": "2005-10-18",
-      "to": "2009-10-27"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11000454",
-    "gnd": "https://d-nb.info/gnd/1012790908",
-    "wikipedia": null,
-    "viaf": null
-  },
   "fraktionsprotokolle:alt_names": [
     {
       "reg": "Uschi Eid",

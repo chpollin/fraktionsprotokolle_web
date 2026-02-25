@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RostowEugeneV",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RostowEugeneV",
   "name": "Eugene V. Rostow",
   "givenName": "Eugene V.",
   "familyName": "Rostow",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1913-08-25",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Brooklyn, New York City"
-  },
-  "deathDate": "2002-11-25",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Alexandria, Virginia"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1966–1969 Staatssekretär im US-amerikanischen Außenministerium"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/116634618",
-    "https://de.wikipedia.org/wiki/Eugene_V._Rostow"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Eugene V. Rostow",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/116634618",
-    "wikipedia": "https://de.wikipedia.org/wiki/Eugene_V._Rostow",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Eugene_V._Rostow"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1913-08-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Brooklyn, New York City"
+  },
+  "deathDate": "2002-11-25",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Alexandria, Virginia"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1966–1969 Staatssekretär im US-amerikanischen Außenministerium"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/116634618",
+    "https://de.wikipedia.org/wiki/Eugene_V._Rostow"
+  ]
 }

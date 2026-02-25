@@ -1,57 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WendigFriedrich_1972-12-13",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WendigFriedrich_1972-12-13",
   "name": "Friedrich Wendig",
   "givenName": "Friedrich",
   "familyName": "Wendig",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1921-05-29",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Sorau"
-  },
-  "deathDate": "2005-10-31",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Regierungsvizepräsident a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Freien Demokratischen Partei",
-        "alternateName": "FDP"
-      },
-      "startDate": "1972-12-13",
-      "endDate": "1976-12-13"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Freien Demokratischen Partei",
-        "alternateName": "FDP"
-      },
-      "startDate": "1976-12-14",
-      "endDate": "1980-11-04"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Freien Demokratischen Partei",
-        "alternateName": "FDP"
-      },
-      "startDate": "1980-11-04",
-      "endDate": "1983-03-29"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1027955258"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Friedrich Wendig",
@@ -96,8 +52,52 @@
   ],
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11002477",
-    "gnd": "https://d-nb.info/gnd/1027955258",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/1027955258"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1921-05-29",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Sorau"
+  },
+  "deathDate": "2005-10-31",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Regierungsvizepräsident a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1972-12-13",
+      "endDate": "1976-12-13"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1976-12-14",
+      "endDate": "1980-11-04"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1980-11-04",
+      "endDate": "1983-03-29"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1027955258"
+  ]
 }

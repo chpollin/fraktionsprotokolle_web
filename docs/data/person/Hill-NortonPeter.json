@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "Hill-NortonPeter",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/Hill-NortonPeter",
   "name": "Peter Hill-Norton",
   "givenName": "Peter",
   "familyName": "Hill-Norton",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1915-02-08",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Germiston"
-  },
-  "deathDate": "2004-05-16",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Studland, Dorset"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Flottenadmiral der Royal Navy, 1971–1973 Chef des britischen Verteidigungsstabs, 1974–1977 Vorsitzender des NATO-Militärausschusses, seit 1979 Mitglied des House of Lords als Life Peer"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/172156815",
-    "https://de.wikipedia.org/wiki/Peter_Hill-Norton"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Peter Hill-Norton",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/172156815",
-    "wikipedia": "https://de.wikipedia.org/wiki/Peter_Hill-Norton",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Peter_Hill-Norton"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1915-02-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Germiston"
+  },
+  "deathDate": "2004-05-16",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Studland, Dorset"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Flottenadmiral der Royal Navy, 1971–1973 Chef des britischen Verteidigungsstabs, 1974–1977 Vorsitzender des NATO-Militärausschusses, seit 1979 Mitglied des House of Lords als Life Peer"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/172156815",
+    "https://de.wikipedia.org/wiki/Peter_Hill-Norton"
+  ]
 }

@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "AradNava",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/AradNava",
   "name": "Nava Arad",
   "givenName": "Nava",
   "familyName": "Arad",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1938-12-04",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Kibbutz Hulda"
-  },
-  "deathDate": "2022-02-21",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Lehrerin und Sozialarbeiterin, 1981–1992 (HaMaʿarach, Awoda) sowie 1995–1996 Mitglied der Knesset (Awoda, 1996 fraktionslos)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://en.wikipedia.org/wiki/Nava_Arad",
-    "https://viaf.org/viaf/1633149368788185980007/"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Nava Arad",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
     "wikipedia": "https://en.wikipedia.org/wiki/Nava_Arad",
     "viaf": "https://viaf.org/viaf/1633149368788185980007/"
-  }
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1938-12-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kibbutz Hulda"
+  },
+  "deathDate": "2022-02-21",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Lehrerin und Sozialarbeiterin, 1981–1992 (HaMaʿarach, Awoda) sowie 1995–1996 Mitglied der Knesset (Awoda, 1996 fraktionslos)"
+  },
+  "sameAs": [
+    "https://en.wikipedia.org/wiki/Nava_Arad",
+    "https://viaf.org/viaf/1633149368788185980007/"
+  ]
 }

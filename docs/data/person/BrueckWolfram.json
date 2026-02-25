@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BrueckWolfram",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BrueckWolfram",
   "name": "Wolfram Brück",
   "givenName": "Wolfram",
   "familyName": "Brück",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1937-02-27",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Köln-Mülheim"
-  },
-  "deathDate": "2016-06-15",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Köln"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Jurist, 1970–1977 Ministerialbeamter im wissenschaftlichen Dienst des Deutschen Bundestages, 1986–1989 Oberbürgermeister der Stadt Frankfurt/Main (CDU), 1990–1991 Generalbevollmächtigter mit Zuständigkeit für die ostdeutschen Kommunalvermögen bei der Treuhandanstalt, 1991–2002 Vorstandsvorsitzender des Wiederverwertungsunternehmens Duales System Deutschland (Grüner Punkt)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1067689605",
-    "https://de.wikipedia.org/wiki/Wolfram_Br%C3%BCck"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Wolfram Brück",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1067689605",
-    "wikipedia": "https://de.wikipedia.org/wiki/Wolfram_Br%C3%BCck",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Wolfram_Br%C3%BCck"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1937-02-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Köln-Mülheim"
+  },
+  "deathDate": "2016-06-15",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Köln"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Jurist, 1970–1977 Ministerialbeamter im wissenschaftlichen Dienst des Deutschen Bundestages, 1986–1989 Oberbürgermeister der Stadt Frankfurt/Main (CDU), 1990–1991 Generalbevollmächtigter mit Zuständigkeit für die ostdeutschen Kommunalvermögen bei der Treuhandanstalt, 1991–2002 Vorstandsvorsitzender des Wiederverwertungsunternehmens Duales System Deutschland (Grüner Punkt)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1067689605",
+    "https://de.wikipedia.org/wiki/Wolfram_Br%C3%BCck"
+  ]
 }

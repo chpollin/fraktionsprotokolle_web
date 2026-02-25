@@ -1,24 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "OsseiranAdel",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/OsseiranAdel",
   "name": "Adel Osseiran",
   "givenName": "Adel",
   "familyName": "Osseiran",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1905-06-05",
-  "birthPlace": null,
-  "deathDate": "1998-06-18",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1953–1959 Präsident des libanesischen Abgeordnetenhauses"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/128645199",
-    "https://en.wikipedia.org/wiki/Adel_Osseiran"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Adel Osseiran",
@@ -40,9 +29,18 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/128645199",
-    "wikipedia": "https://en.wikipedia.org/wiki/Adel_Osseiran",
-    "viaf": null
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/Adel_Osseiran"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1905-06-05",
+  "deathDate": "1998-06-18",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1953–1959 Präsident des libanesischen Abgeordnetenhauses"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/128645199",
+    "https://en.wikipedia.org/wiki/Adel_Osseiran"
+  ]
 }

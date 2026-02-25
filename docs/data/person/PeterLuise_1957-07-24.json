@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PeterLuise_1957-07-24",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PeterLuise_1957-07-24",
   "name": "Luise Peter, geb. Radtke",
   "givenName": "Luise",
   "familyName": "Peter",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1906-07-24",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Dortmund-Oesoel"
-  },
-  "deathDate": "1979-06-16",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bonn"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Hausfrau [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1957-07-24",
-      "endDate": "1957-10-06"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/18954449X",
-    "https://de.wikipedia.org/wiki/Luise_Peter"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Luise Peter, geb. Radtke",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001694",
     "gnd": "https://d-nb.info/gnd/18954449X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Luise_Peter",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Luise_Peter"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1906-07-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Dortmund-Oesoel"
+  },
+  "deathDate": "1979-06-16",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Hausfrau [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1957-07-24",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/18954449X",
+    "https://de.wikipedia.org/wiki/Luise_Peter"
+  ]
 }

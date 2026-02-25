@@ -1,21 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchomakerHeino",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchomakerHeino",
   "name": "Heino Schomaker",
   "givenName": "Heino",
   "familyName": "Schomaker",
-  "gender": "https://schema.org/Male",
-  "birthDate": null,
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1987 Landesgeschäftsführer der Grünen in Schleswig-Holstein, (mindestens) 2022 Geschäftsführer des Flüchtlingsrat Schleswig-Holstein e. V., Vorstandsmitglied der Heinrich-Böll-Stiftung Schleswig-Holstein"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Heino Schomaker",
@@ -36,10 +28,10 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Male",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1987 Landesgeschäftsführer der Grünen in Schleswig-Holstein, (mindestens) 2022 Geschäftsführer des Flüchtlingsrat Schleswig-Holstein e. V., Vorstandsmitglied der Heinrich-Böll-Stiftung Schleswig-Holstein"
   }
 }

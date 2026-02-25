@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MuehlfenzlRudolf",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MuehlfenzlRudolf",
   "name": "Rudolf Mühlfenzl, Pseudonym: Rufus Mücke",
   "givenName": "Rudolf Heribert",
   "familyName": "Mühlfenzl",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1919-11-30",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "deathDate": "2000-01-16",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Journalist, Radiokommentator und Medienmanager, 1948–1961 Leiter des Wirtschaftsfunks beim Bayerischen Rundfunk, seit 1961 Leiter der Redaktion Wirtschaft in Funk und Fernsehen und seit 1964 Hauptabteilungsleiter beim Ressort Wirtschaft- und Sozialpolitik sowie 1969–1983 Fernsehchefredakteur des BR, 1983–1986 Direktor der Münchner Pilotgesellschaft für Kabelkommunikation, 1986–1989 Präsident und anschließend Berater der Bayerischen Landeszentrale für Neue Medien (BLM), 1990–1991 Rundfunkbeauftragter der neuen Bundesländer"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/106099183",
-    "https://de.wikipedia.org/wiki/Rudolf_M%C3%BChlfenzl"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Rudolf Mühlfenzl, Pseudonym: Rufus Mücke",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/106099183",
-    "wikipedia": "https://de.wikipedia.org/wiki/Rudolf_M%C3%BChlfenzl",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Rudolf_M%C3%BChlfenzl"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1919-11-30",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "deathDate": "2000-01-16",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist, Radiokommentator und Medienmanager, 1948–1961 Leiter des Wirtschaftsfunks beim Bayerischen Rundfunk, seit 1961 Leiter der Redaktion Wirtschaft in Funk und Fernsehen und seit 1964 Hauptabteilungsleiter beim Ressort Wirtschaft- und Sozialpolitik sowie 1969–1983 Fernsehchefredakteur des BR, 1983–1986 Direktor der Münchner Pilotgesellschaft für Kabelkommunikation, 1986–1989 Präsident und anschließend Berater der Bayerischen Landeszentrale für Neue Medien (BLM), 1990–1991 Rundfunkbeauftragter der neuen Bundesländer"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/106099183",
+    "https://de.wikipedia.org/wiki/Rudolf_M%C3%BChlfenzl"
+  ]
 }

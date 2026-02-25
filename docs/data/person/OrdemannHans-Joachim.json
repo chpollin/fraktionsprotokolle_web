@@ -1,21 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "OrdemannHans-Joachim",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/OrdemannHans-Joachim",
   "name": "Hans-Joachim Ordemann",
   "givenName": "Hans-Joachim",
   "familyName": "Ordemann",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1928",
-  "birthPlace": null,
-  "deathDate": "2001",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Jurist, 1961–1962 Persönlicher Referent des Bundesschatzministers,1969–1983 Beamter im Bundesministerium des Innern, 1970–1971 Unterabteilungsleiter, 1971–1983 Abteilungsleiter"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hans-Joachim Ordemann",
@@ -36,10 +28,12 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Male",
+  "birthDate": "1928",
+  "deathDate": "2001",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Jurist, 1961–1962 Persönlicher Referent des Bundesschatzministers,1969–1983 Beamter im Bundesministerium des Innern, 1970–1971 Unterabteilungsleiter, 1971–1983 Abteilungsleiter"
   }
 }

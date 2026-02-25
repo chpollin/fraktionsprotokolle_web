@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KyprianouSpyros",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KyprianouSpyros",
   "name": "Spyros Kyprianou",
   "givenName": "Spyros",
   "familyName": "Kyprianou",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1932-10-28",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Limassol"
-  },
-  "deathDate": "2002-03-12",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Nikosia"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1960–1972 zypriotischer Außenminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/124759246",
-    "https://de.wikipedia.org/wiki/Spyros_Kyprianou"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Spyros Kyprianou",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/124759246",
-    "wikipedia": "https://de.wikipedia.org/wiki/Spyros_Kyprianou",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Spyros_Kyprianou"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1932-10-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Limassol"
+  },
+  "deathDate": "2002-03-12",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Nikosia"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1960–1972 zypriotischer Außenminister"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/124759246",
+    "https://de.wikipedia.org/wiki/Spyros_Kyprianou"
+  ]
 }

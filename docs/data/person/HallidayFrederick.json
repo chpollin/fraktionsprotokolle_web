@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HallidayFrederick",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HallidayFrederick",
   "name": "Frederick Halliday",
   "givenName": "Frederick",
   "familyName": "Halliday",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1946-02-22",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Dublin"
-  },
-  "deathDate": "2010-04-26",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Barcelona"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "irischer Schriftsteller und Politikwissenschaftler; 1983–1985 Dozent an der London School of Economics (LSE), 1985–2008 Professur für Internationale Beziehungen; 1989–1992 Vorsitzender des Forschungsbeirats des Royal Institute of International Affairs (Chatham House)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/109995899",
-    "https://de.wikipedia.org/wiki/Fred_Halliday"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Frederick Halliday",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/109995899",
-    "wikipedia": "https://de.wikipedia.org/wiki/Fred_Halliday",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Fred_Halliday"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1946-02-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Dublin"
+  },
+  "deathDate": "2010-04-26",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Barcelona"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "irischer Schriftsteller und Politikwissenschaftler; 1983–1985 Dozent an der London School of Economics (LSE), 1985–2008 Professur für Internationale Beziehungen; 1989–1992 Vorsitzender des Forschungsbeirats des Royal Institute of International Affairs (Chatham House)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/109995899",
+    "https://de.wikipedia.org/wiki/Fred_Halliday"
+  ]
 }

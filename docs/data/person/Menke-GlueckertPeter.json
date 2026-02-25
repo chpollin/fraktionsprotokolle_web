@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "Menke-GlueckertPeter",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/Menke-GlueckertPeter",
   "name": "Peter Menke-Glückert",
   "givenName": "Peter",
   "familyName": "Menke-Glückert",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1929-03-27",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Karlsruhe"
-  },
-  "deathDate": "2016-09-07",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Politiker (FDP), 1955–1960 Referent der westdeutschen Rektorenkonferenz, 1964–1966 Leiter des Referats Forschungsplanung im Bundesministerium für wissenschaftliche Forschung, 1966–1970 Leiter der Hauptabteilung Wissenschafts-Ressourcen der OECD in Paris, 1970–1982 Ministerialbeamter im Bundesinnenministerium, 1965–1983 Mitherausgeber der Zeitschrift »liberal«"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1012382478",
-    "https://de.wikipedia.org/wiki/Peter_Menke-Gl%C3%BCckert"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Peter Menke-Glückert",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1012382478",
-    "wikipedia": "https://de.wikipedia.org/wiki/Peter_Menke-Gl%C3%BCckert",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Peter_Menke-Gl%C3%BCckert"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1929-03-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Karlsruhe"
+  },
+  "deathDate": "2016-09-07",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Politiker (FDP), 1955–1960 Referent der westdeutschen Rektorenkonferenz, 1964–1966 Leiter des Referats Forschungsplanung im Bundesministerium für wissenschaftliche Forschung, 1966–1970 Leiter der Hauptabteilung Wissenschafts-Ressourcen der OECD in Paris, 1970–1982 Ministerialbeamter im Bundesinnenministerium, 1965–1983 Mitherausgeber der Zeitschrift »liberal«"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1012382478",
+    "https://de.wikipedia.org/wiki/Peter_Menke-Gl%C3%BCckert"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WustHarald",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WustHarald",
   "name": "Harald Wust",
   "givenName": "Harald",
   "familyName": "Wust",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1921-01-14",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Kiel"
-  },
-  "deathDate": "2010-10-02",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bonn"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "deutscher Offizier, 1976–1978 Generalinspekteur der Bundeswehr"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/129113425",
-    "https://de.wikipedia.org/wiki/Harald_Wust"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Harald Wust",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/129113425",
-    "wikipedia": "https://de.wikipedia.org/wiki/Harald_Wust",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Harald_Wust"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1921-01-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kiel"
+  },
+  "deathDate": "2010-10-02",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Offizier, 1976–1978 Generalinspekteur der Bundeswehr"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/129113425",
+    "https://de.wikipedia.org/wiki/Harald_Wust"
+  ]
 }

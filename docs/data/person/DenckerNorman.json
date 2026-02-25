@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DenckerNorman",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DenckerNorman",
   "name": "Norman Dencker",
   "givenName": "Norman",
   "familyName": "Dencker",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1922-01-18",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Diplomat, 1973–1976 Ministerialdirigent und Leiter der Unterabteilung 11 in der Zentralabteilung des Auswärtigen Amts"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1174532327",
-    "https://de.wikipedia.org/wiki/Norman_Dencker"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Norman Dencker",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1174532327",
-    "wikipedia": "https://de.wikipedia.org/wiki/Norman_Dencker",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Norman_Dencker"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1922-01-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Diplomat, 1973–1976 Ministerialdirigent und Leiter der Unterabteilung 11 in der Zentralabteilung des Auswärtigen Amts"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1174532327",
+    "https://de.wikipedia.org/wiki/Norman_Dencker"
+  ]
 }

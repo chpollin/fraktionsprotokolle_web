@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "JellinekGeorg",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/JellinekGeorg",
   "name": "Georg Jellinek",
   "givenName": "Georg",
   "familyName": "Jellinek",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1851-06-16",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Leipzig"
-  },
-  "deathDate": "1911-01-12",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Heidelberg"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "österreichischer Staatsrechtler, 1891-1911 am Lehrstuhl für Allgemeines Staatsrecht und Völkerrecht der Universität Heidelberg"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118711989",
-    "https://de.wikipedia.org/wiki/Georg_Jellinek"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Georg Jellinek",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118711989",
-    "wikipedia": "https://de.wikipedia.org/wiki/Georg_Jellinek",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Georg_Jellinek"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1851-06-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Leipzig"
+  },
+  "deathDate": "1911-01-12",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Heidelberg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "österreichischer Staatsrechtler, 1891-1911 am Lehrstuhl für Allgemeines Staatsrecht und Völkerrecht der Universität Heidelberg"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118711989",
+    "https://de.wikipedia.org/wiki/Georg_Jellinek"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BuronRobert",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BuronRobert",
   "name": "Robert Buron",
   "givenName": "Robert",
   "familyName": "Buron",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1910-02-27",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Paris"
-  },
-  "deathDate": "1973-04-28",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Paris"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1959–1962 französischer Minister für Öffentliche Arbeiten, Verkehr und Tourismus"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119192098",
-    "https://de.wikipedia.org/wiki/Robert_Buron"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Robert Buron",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119192098",
-    "wikipedia": "https://de.wikipedia.org/wiki/Robert_Buron",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Robert_Buron"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1910-02-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "deathDate": "1973-04-28",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1959–1962 französischer Minister für Öffentliche Arbeiten, Verkehr und Tourismus"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119192098",
+    "https://de.wikipedia.org/wiki/Robert_Buron"
+  ]
 }

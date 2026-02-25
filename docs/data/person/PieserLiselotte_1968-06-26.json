@@ -1,68 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PieserLiselotte_1968-06-26",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PieserLiselotte_1968-06-26",
   "name": "Liselotte Pieser",
   "givenName": "Liselotte",
   "familyName": "Pieser",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1917-12-30",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Beierfeld"
-  },
-  "deathDate": "1998-11-24",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Dipl.-Volkswirtin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1968-06-26",
-      "endDate": "1969-10-19"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1969-10-20",
-      "endDate": "1972-09-22"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1972-12-13",
-      "endDate": "1976-12-13"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1976-12-14",
-      "endDate": "1980-11-04"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1026867932",
-    "https://de.wikipedia.org/wiki/Liselotte_Pieser"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Liselotte Pieser",
@@ -115,7 +60,63 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001717",
     "gnd": "https://d-nb.info/gnd/1026867932",
-    "wikipedia": "https://de.wikipedia.org/wiki/Liselotte_Pieser",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Liselotte_Pieser"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1917-12-30",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Beierfeld"
+  },
+  "deathDate": "1998-11-24",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Volkswirtin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1968-06-26",
+      "endDate": "1969-10-19"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1969-10-20",
+      "endDate": "1972-09-22"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1972-12-13",
+      "endDate": "1976-12-13"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1976-12-14",
+      "endDate": "1980-11-04"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1026867932",
+    "https://de.wikipedia.org/wiki/Liselotte_Pieser"
+  ]
 }

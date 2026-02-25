@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WilhelmIIIvonOranien",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WilhelmIIIvonOranien",
   "name": "Wilhelm III. von Oranien-Nassau, König von England, Schottland und Irland",
   "givenName": "Wilhelm III.",
   "familyName": "Oranien-Nassau",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1650-11-14",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Den Haag"
-  },
-  "deathDate": "1702-03-19",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Kensington"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1689–1702 König von England, Schottland und Irland"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118643355",
-    "https://de.wikipedia.org/wiki/Wilhelm_III._(Oranien)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Wilhelm III. von Oranien-Nassau, König von England, Schottland und Irland",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118643355",
-    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_III._(Oranien)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_III._(Oranien)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1650-11-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Den Haag"
+  },
+  "deathDate": "1702-03-19",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Kensington"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1689–1702 König von England, Schottland und Irland"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118643355",
+    "https://de.wikipedia.org/wiki/Wilhelm_III._(Oranien)"
+  ]
 }

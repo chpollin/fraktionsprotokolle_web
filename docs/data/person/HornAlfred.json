@@ -1,24 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HornAlfred",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HornAlfred",
   "name": "Alfred Horn",
   "givenName": "Alfred",
   "familyName": "Horn",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1948",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Wien"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Sozialwissenschaftler, Publizist, Politikberater und Universitätsdozent, 1983/84 Mitarbeiter im Büro von MdB Roland Vogt (Die Grünen) und der Grünen-Bundestagsfraktion in der 10. Wahlperiode (Arbeitskreis I-IV), 1984 Kandidat der Grünen für das Europaparlament"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Alfred Horn",
@@ -39,10 +28,15 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Male",
+  "birthDate": "1948",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Wien"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Sozialwissenschaftler, Publizist, Politikberater und Universitätsdozent, 1983/84 Mitarbeiter im Büro von MdB Roland Vogt (Die Grünen) und der Grünen-Bundestagsfraktion in der 10. Wahlperiode (Arbeitskreis I-IV), 1984 Kandidat der Grünen für das Europaparlament"
   }
 }

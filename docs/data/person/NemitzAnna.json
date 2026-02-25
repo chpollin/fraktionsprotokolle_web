@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "NemitzAnna",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/NemitzAnna",
   "name": "Anna Nemitz, geb. Voigt",
   "givenName": "Anna",
   "familyName": "Nemitz",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1873-01-03",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Bromberg, Westpreußen (heute: Bydgoszcz, Polen)"
-  },
-  "deathDate": "1962-10-06",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Dienstmädchen und Schneiderin, 1920–1933 MdR (USPD/SPD), ab 1922 Mitglied des Hauptausschusses der Arbeiterwohlfahrt (AWO)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/12947424X",
-    "https://de.wikipedia.org/wiki/Anna_Nemitz"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Anna Nemitz, geb. Voigt",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/12947424X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Anna_Nemitz",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Anna_Nemitz"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1873-01-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bromberg, Westpreußen (heute: Bydgoszcz, Polen)"
+  },
+  "deathDate": "1962-10-06",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dienstmädchen und Schneiderin, 1920–1933 MdR (USPD/SPD), ab 1922 Mitglied des Hauptausschusses der Arbeiterwohlfahrt (AWO)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/12947424X",
+    "https://de.wikipedia.org/wiki/Anna_Nemitz"
+  ]
 }

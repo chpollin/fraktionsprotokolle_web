@@ -1,38 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "TeichmannBodo_1994-11-10",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/TeichmannBodo_1994-11-10",
   "name": "Bodo Teichmann",
   "givenName": "Bodo",
   "familyName": "Teichmann",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1932-03-09",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Leipzig"
-  },
-  "deathDate": "2022-09-17",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Universitätsprofessor [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1994-11-10",
-      "endDate": "1998-10-26"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/137803222",
-    "https://de.wikipedia.org/wiki/Bodo_Teichmann"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Bodo Teichmann",
@@ -64,7 +39,33 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11002814",
     "gnd": "https://d-nb.info/gnd/137803222",
-    "wikipedia": "https://de.wikipedia.org/wiki/Bodo_Teichmann",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Bodo_Teichmann"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1932-03-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Leipzig"
+  },
+  "deathDate": "2022-09-17",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Universitätsprofessor [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-10-26"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/137803222",
+    "https://de.wikipedia.org/wiki/Bodo_Teichmann"
+  ]
 }

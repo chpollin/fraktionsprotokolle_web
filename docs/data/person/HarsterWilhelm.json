@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HarsterWilhelm",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HarsterWilhelm",
   "name": "Wilhelm Harster",
   "givenName": "Wilhelm",
   "familyName": "Harster",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1904-07-21",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Kelheim"
-  },
-  "deathDate": "1991-12-25",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1939–1945 Befehlshaber der Sicherheitspolizei und des SD, Oberregierungsrat im Bayerischen Staatsministerium des Inneren"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/123636035",
-    "https://de.wikipedia.org/wiki/Wilhelm_Harster"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Wilhelm Harster",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/123636035",
-    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_Harster",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_Harster"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1904-07-21",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kelheim"
+  },
+  "deathDate": "1991-12-25",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1939–1945 Befehlshaber der Sicherheitspolizei und des SD, Oberregierungsrat im Bayerischen Staatsministerium des Inneren"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/123636035",
+    "https://de.wikipedia.org/wiki/Wilhelm_Harster"
+  ]
 }

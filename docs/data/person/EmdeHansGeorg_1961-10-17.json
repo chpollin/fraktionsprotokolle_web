@@ -1,10 +1,53 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "EmdeHansGeorg_1961-10-17",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/EmdeHansGeorg_1961-10-17",
   "name": "Hans Georg Emde",
   "givenName": "Hans Georg",
   "familyName": "Emde",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans Georg Emde",
+    "forename": "Hans Georg",
+    "surname": "Emde",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1919-07-28",
+    "place": "Wuppertal-Elberfeld",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2013-02-15",
+    "place": "Hachenburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 4,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    },
+    {
+      "period": 5,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000466",
+    "gnd": "https://d-nb.info/gnd/104830921",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Georg_Emde"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1919-07-28",
   "birthPlace": {
@@ -45,46 +88,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/104830921",
     "https://de.wikipedia.org/wiki/Hans_Georg_Emde"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Hans Georg Emde",
-    "forename": "Hans Georg",
-    "surname": "Emde",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1919-07-28",
-    "place": "Wuppertal-Elberfeld",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "2013-02-15",
-    "place": "Hachenburg",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 4,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1961-10-17",
-      "to": "1965-10-17"
-    },
-    {
-      "period": 5,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1965-10-19",
-      "to": "1969-10-19"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11000466",
-    "gnd": "https://d-nb.info/gnd/104830921",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Georg_Emde",
-    "viaf": null
-  }
+  ]
 }

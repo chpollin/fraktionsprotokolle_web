@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WelterErnstGuenter",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WelterErnstGuenter",
   "name": "Ernst Günter Welter",
   "givenName": "Ernst Günter",
   "familyName": "Welter",
-  "gender": "https://schema.org/Male",
-  "birthDate": null,
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "ehemaliger hauptamtlicher HJ-Führer, 1960 als Angehöriger einer rechtsradikalen Gruppe in West-Berlin verhaftet"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/128153164"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Ernst Günter Welter",
@@ -39,9 +29,14 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/128153164",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/128153164"
+  },
+  "gender": "https://schema.org/Male",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "ehemaliger hauptamtlicher HJ-Führer, 1960 als Angehöriger einer rechtsradikalen Gruppe in West-Berlin verhaftet"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/128153164"
+  ]
 }

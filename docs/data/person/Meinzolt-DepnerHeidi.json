@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "Meinzolt-DepnerHeidi",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/Meinzolt-DepnerHeidi",
   "name": "Heidi Meinzolt-Depner",
   "givenName": "Heidi",
   "familyName": "Meinzolt-Depner",
-  "gender": "https://schema.org/Female",
-  "birthDate": null,
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Oberstudienrätin, seit den 1970er Jahren in der Friedensbewegung und im transnationalen politischen Aktivismus aktiv, 1982-2001 Mitglied der Grünen, 1987-1990 Grünen-Landesvorsitzende in Bayern, Mitglied der Internationalen Frauenliga"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1067574964"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Heidi Meinzolt-Depner",
@@ -39,9 +29,14 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/1067574964",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/1067574964"
+  },
+  "gender": "https://schema.org/Female",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Oberstudienrätin, seit den 1970er Jahren in der Friedensbewegung und im transnationalen politischen Aktivismus aktiv, 1982-2001 Mitglied der Grünen, 1987-1990 Grünen-Landesvorsitzende in Bayern, Mitglied der Internationalen Frauenliga"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1067574964"
+  ]
 }

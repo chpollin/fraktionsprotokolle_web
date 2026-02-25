@@ -1,10 +1,60 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MichelsWilhelm_1961-10-17",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MichelsWilhelm_1961-10-17",
   "name": "Wilhelm Michels",
   "givenName": "Wilhelm",
   "familyName": "Michels",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Wilhelm Michels",
+    "forename": "Wilhelm",
+    "surname": "Michels",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1919-09-27",
+    "place": "Welper",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2003-04-07",
+    "place": "Herdecke",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 4,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    },
+    {
+      "period": 5,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    },
+    {
+      "period": 6,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1969-10-20",
+      "to": "1972-09-22"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001503",
+    "gnd": "https://d-nb.info/gnd/136792774",
+    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_Michels_(Politiker)"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1919-09-27",
   "birthPlace": {
@@ -55,53 +105,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/136792774",
     "https://de.wikipedia.org/wiki/Wilhelm_Michels_(Politiker)"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Wilhelm Michels",
-    "forename": "Wilhelm",
-    "surname": "Michels",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1919-09-27",
-    "place": "Welper",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "2003-04-07",
-    "place": "Herdecke",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 4,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1961-10-17",
-      "to": "1965-10-17"
-    },
-    {
-      "period": 5,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1965-10-19",
-      "to": "1969-10-19"
-    },
-    {
-      "period": 6,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1969-10-20",
-      "to": "1972-09-22"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11001503",
-    "gnd": "https://d-nb.info/gnd/136792774",
-    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_Michels_(Politiker)",
-    "viaf": null
-  }
+  ]
 }

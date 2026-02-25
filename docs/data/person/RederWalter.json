@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RederWalter",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RederWalter",
   "name": "Walter Reder",
   "givenName": "Walter",
   "familyName": "Reder",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1915-02-04",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Freiwaldau, Schlesien (heute: Jeseník, Tschechische Republik)"
-  },
-  "deathDate": "1991-04-26",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Wien"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "SS-Sturmbannführer im Dritten Reich, 1951 von einem Militärgericht in Bologna als Kriegsverbrecher zu lebenslanger Haft verurteilt"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118598864",
-    "https://de.wikipedia.org/wiki/Walter_Reder"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Walter Reder",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118598864",
-    "wikipedia": "https://de.wikipedia.org/wiki/Walter_Reder",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Walter_Reder"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1915-02-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Freiwaldau, Schlesien (heute: Jeseník, Tschechische Republik)"
+  },
+  "deathDate": "1991-04-26",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Wien"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "SS-Sturmbannführer im Dritten Reich, 1951 von einem Militärgericht in Bologna als Kriegsverbrecher zu lebenslanger Haft verurteilt"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118598864",
+    "https://de.wikipedia.org/wiki/Walter_Reder"
+  ]
 }

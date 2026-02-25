@@ -1,10 +1,81 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SeumeFranz_1957-10-15",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SeumeFranz_1957-10-15",
   "name": "Franz Seume",
   "givenName": "Franz",
   "familyName": "Seume",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Franz Seume",
+    "forename": "Franz",
+    "surname": "Seume",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1903-05-14",
+    "place": "Potsdam",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1982-09-29",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 3,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 4,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    },
+    {
+      "period": 5,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    },
+    {
+      "period": 6,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1969-10-20",
+      "to": "1972-09-22"
+    },
+    {
+      "period": 6,
+      "faction": "Fraktionslos",
+      "faction_full": "Fraktionslos",
+      "from": "1972-03-02",
+      "to": "1972-09-22"
+    },
+    {
+      "period": 6,
+      "faction": "CDU/CSU (Gast)",
+      "faction_full": "Fraktion der CDU/CSU (Gast)",
+      "from": "1972-03-17",
+      "to": "1972-09-22"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002166",
+    "gnd": "https://d-nb.info/gnd/125863004",
+    "wikipedia": "https://de.wikipedia.org/wiki/Franz_Seume"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1903-05-14",
   "birthPlace": {
@@ -12,7 +83,6 @@
     "name": "Potsdam"
   },
   "deathDate": "1982-09-29",
-  "deathPlace": null,
   "hasOccupation": {
     "@type": "Occupation",
     "name": "Dipl.-Volkswirt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
@@ -82,74 +152,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/125863004",
     "https://de.wikipedia.org/wiki/Franz_Seume"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Franz Seume",
-    "forename": "Franz",
-    "surname": "Seume",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1903-05-14",
-    "place": "Potsdam",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1982-09-29",
-    "place": "",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 3,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1957-10-15",
-      "to": "1961-10-15"
-    },
-    {
-      "period": 4,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1961-10-17",
-      "to": "1965-10-17"
-    },
-    {
-      "period": 5,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1965-10-19",
-      "to": "1969-10-19"
-    },
-    {
-      "period": 6,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1969-10-20",
-      "to": "1972-09-22"
-    },
-    {
-      "period": 6,
-      "faction": "Fraktionslos",
-      "faction_full": "Fraktionslos",
-      "from": "1972-03-02",
-      "to": "1972-09-22"
-    },
-    {
-      "period": 6,
-      "faction": "CDU/CSU (Gast)",
-      "faction_full": "Fraktion der CDU/CSU (Gast)",
-      "from": "1972-03-17",
-      "to": "1972-09-22"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11002166",
-    "gnd": "https://d-nb.info/gnd/125863004",
-    "wikipedia": "https://de.wikipedia.org/wiki/Franz_Seume",
-    "viaf": null
-  }
+  ]
 }

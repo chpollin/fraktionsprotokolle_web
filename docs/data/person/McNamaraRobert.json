@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "McNamaraRobert",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/McNamaraRobert",
   "name": "Robert McNamara",
   "givenName": "Robert",
   "familyName": "McNamara",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1916-06-09",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "San Francisco, Kalifornien"
-  },
-  "deathDate": "2009-07-06",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Washington, D.C."
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1961–1968 US-Verteidigungsminister, 1968–1981 Präsident der Weltbank"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118892347",
-    "https://de.wikipedia.org/wiki/Robert_McNamara"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Robert McNamara",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118892347",
-    "wikipedia": "https://de.wikipedia.org/wiki/Robert_McNamara",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Robert_McNamara"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1916-06-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "San Francisco, Kalifornien"
+  },
+  "deathDate": "2009-07-06",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Washington, D.C."
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1961–1968 US-Verteidigungsminister, 1968–1981 Präsident der Weltbank"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118892347",
+    "https://de.wikipedia.org/wiki/Robert_McNamara"
+  ]
 }

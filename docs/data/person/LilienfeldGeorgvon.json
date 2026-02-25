@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "LilienfeldGeorgvon",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/LilienfeldGeorgvon",
   "name": "Georg von Lilienfeld",
   "givenName": "Georg",
   "familyName": "Lilienfeld",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1912-11-27",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Riga"
-  },
-  "deathDate": "1989-12-11",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Tätigkeit/Funktion nicht nachweisbar"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/112020352X",
-    "https://de.wikipedia.org/wiki/Georg_von_Lilienfeld"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Georg von Lilienfeld",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/112020352X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Georg_von_Lilienfeld",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Georg_von_Lilienfeld"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1912-11-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Riga"
+  },
+  "deathDate": "1989-12-11",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Tätigkeit/Funktion nicht nachweisbar"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/112020352X",
+    "https://de.wikipedia.org/wiki/Georg_von_Lilienfeld"
+  ]
 }

@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "EngoPaulBamela",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/EngoPaulBamela",
   "name": "Paul Bamela Engo",
   "givenName": "Paul Bamela",
   "familyName": "Engo",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1931-10-05",
-  "birthPlace": null,
-  "deathDate": "2010-04-26",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Yaoundé"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Kameruner Jurist, 1965–1990 Ständiger Vertreter Kameruns an den Sitzungen der Generalversammlung der Vereinten Nationen und der 3. UN-Seerechtskonferenz, 1996 bis 2008 Richter am Internationalen Seegerichtshof"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Paul_Bamela_Engo",
-    "https://viaf.org/viaf/21372194/"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Paul Bamela Engo",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
     "wikipedia": "https://de.wikipedia.org/wiki/Paul_Bamela_Engo",
     "viaf": "https://viaf.org/viaf/21372194/"
-  }
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1931-10-05",
+  "deathDate": "2010-04-26",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Yaoundé"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Kameruner Jurist, 1965–1990 Ständiger Vertreter Kameruns an den Sitzungen der Generalversammlung der Vereinten Nationen und der 3. UN-Seerechtskonferenz, 1996 bis 2008 Richter am Internationalen Seegerichtshof"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Paul_Bamela_Engo",
+    "https://viaf.org/viaf/21372194/"
+  ]
 }

@@ -1,10 +1,53 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RatzelLudwig_1955-09-15",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RatzelLudwig_1955-09-15",
   "name": "Ludwig Ratzel",
   "givenName": "Ludwig",
   "familyName": "Ratzel",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Ludwig Ratzel",
+    "forename": "Ludwig",
+    "surname": "Ratzel",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1915-02-13",
+    "place": "Friedrichsfeld",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1996-02-06",
+    "place": "Mannheim",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1955-09-15",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 3,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1957-10-15",
+      "to": "1960-06-21"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001779",
+    "gnd": "https://d-nb.info/gnd/119133946",
+    "wikipedia": "https://de.wikipedia.org/wiki/Ludwig_Ratzel"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1915-02-13",
   "birthPlace": {
@@ -45,46 +88,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/119133946",
     "https://de.wikipedia.org/wiki/Ludwig_Ratzel"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Ludwig Ratzel",
-    "forename": "Ludwig",
-    "surname": "Ratzel",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1915-02-13",
-    "place": "Friedrichsfeld",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1996-02-06",
-    "place": "Mannheim",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 2,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1955-09-15",
-      "to": "1957-10-06"
-    },
-    {
-      "period": 3,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1957-10-15",
-      "to": "1960-06-21"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11001779",
-    "gnd": "https://d-nb.info/gnd/119133946",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ludwig_Ratzel",
-    "viaf": null
-  }
+  ]
 }

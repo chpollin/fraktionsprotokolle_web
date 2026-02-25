@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BrandtHeinz_1909-08-16",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BrandtHeinz_1909-08-16",
   "name": "Heinz Brandt",
   "givenName": "Heinz",
   "familyName": "Brandt",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1909-08-16",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Posen (heute: Poznań, Polen)"
-  },
-  "deathDate": "1986-01-08",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Frankfurt am Main"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Redakteur der Industrie-Gewerkschafts-Zeitung »Metall«, im Juni 1961 aus West-Berlin nach Ost-Berlin entführt und verhaftet, im Mai 1964 aus der Haft entlassen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118514423",
-    "https://de.wikipedia.org/wiki/Heinz_Brandt_(Widerstandsk%C3%A4mpfer)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Heinz Brandt",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118514423",
-    "wikipedia": "https://de.wikipedia.org/wiki/Heinz_Brandt_(Widerstandsk%C3%A4mpfer)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Heinz_Brandt_(Widerstandsk%C3%A4mpfer)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1909-08-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Posen (heute: Poznań, Polen)"
+  },
+  "deathDate": "1986-01-08",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Frankfurt am Main"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Redakteur der Industrie-Gewerkschafts-Zeitung »Metall«, im Juni 1961 aus West-Berlin nach Ost-Berlin entführt und verhaftet, im Mai 1964 aus der Haft entlassen"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118514423",
+    "https://de.wikipedia.org/wiki/Heinz_Brandt_(Widerstandsk%C3%A4mpfer)"
+  ]
 }

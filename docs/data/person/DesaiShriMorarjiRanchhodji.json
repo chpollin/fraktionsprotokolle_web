@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DesaiShriMorarjiRanchhodji",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DesaiShriMorarjiRanchhodji",
   "name": "Shri Morarji Ranchhodji Desai",
   "givenName": "Shri Morarji Ranchhodji",
   "familyName": "Desai",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1896-02-29",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Bhadeli, Bombay"
-  },
-  "deathDate": "1995-04-10",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bombay, Maharashtra"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1958–1963 und 1967–1969 indischer Finanzminister, 1967–1969 stellvertretender indischer Premierminister, 1977–1979 Premierminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119173751",
-    "https://de.wikipedia.org/wiki/Morarji_Desai"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Shri Morarji Ranchhodji Desai",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119173751",
-    "wikipedia": "https://de.wikipedia.org/wiki/Morarji_Desai",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Morarji_Desai"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1896-02-29",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bhadeli, Bombay"
+  },
+  "deathDate": "1995-04-10",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bombay, Maharashtra"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1958–1963 und 1967–1969 indischer Finanzminister, 1967–1969 stellvertretender indischer Premierminister, 1977–1979 Premierminister"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119173751",
+    "https://de.wikipedia.org/wiki/Morarji_Desai"
+  ]
 }

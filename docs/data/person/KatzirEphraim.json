@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KatzirEphraim",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KatzirEphraim",
   "name": "Ephraim Katzir",
   "givenName": "Ephraim",
   "familyName": "Katzir",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1916-05-16",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Kiew"
-  },
-  "deathDate": "2009-05-30",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Rechowot"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "israelischer Biophysiker und Politiker der Mapai-Partei, 1973–1978 Staatspräsident Israels"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/140573879",
-    "https://de.wikipedia.org/wiki/Ephraim_Katzir"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Ephraim Katzir",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/140573879",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ephraim_Katzir",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ephraim_Katzir"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1916-05-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kiew"
+  },
+  "deathDate": "2009-05-30",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Rechowot"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "israelischer Biophysiker und Politiker der Mapai-Partei, 1973–1978 Staatspräsident Israels"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/140573879",
+    "https://de.wikipedia.org/wiki/Ephraim_Katzir"
+  ]
 }

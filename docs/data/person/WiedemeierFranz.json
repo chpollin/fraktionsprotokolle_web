@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WiedemeierFranz",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WiedemeierFranz",
   "name": "Franz Wiedemeier",
   "givenName": "Franz",
   "familyName": "Wiedemeier",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1890-05-01",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Steinheim (Westfalen)"
-  },
-  "deathDate": "1970-09-08",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Ulm"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1930–1933 MdR (Zentrum), 1946–1964 MdL Württemberg-Baden bzw. seit 1953 Baden-Württemberg (CDU)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/130145580",
-    "https://de.wikipedia.org/wiki/Franz_Wiedemeier"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Franz Wiedemeier",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/130145580",
-    "wikipedia": "https://de.wikipedia.org/wiki/Franz_Wiedemeier",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Franz_Wiedemeier"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1890-05-01",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Steinheim (Westfalen)"
+  },
+  "deathDate": "1970-09-08",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Ulm"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1930–1933 MdR (Zentrum), 1946–1964 MdL Württemberg-Baden bzw. seit 1953 Baden-Württemberg (CDU)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/130145580",
+    "https://de.wikipedia.org/wiki/Franz_Wiedemeier"
+  ]
 }

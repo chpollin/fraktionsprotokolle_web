@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BraunWalter",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BraunWalter",
   "name": "Walter Braun",
   "givenName": "Walter",
   "familyName": "Braun",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1930-08-06",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Singen am Hohentwiel"
-  },
-  "deathDate": "2019-11-22",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Flintbek"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Professor für Betriebswirtschaftslehre, 1971–1987 MdL Schleswig-Holstein (CDU), 1969–1979 Kultusminister und 1979–1983 Sozialminister von Schleswig-Holstein"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/131364839",
-    "https://de.wikipedia.org/wiki/Walter_Braun_(Politiker,_1930)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Walter Braun",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/131364839",
-    "wikipedia": "https://de.wikipedia.org/wiki/Walter_Braun_(Politiker,_1930)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Walter_Braun_(Politiker,_1930)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1930-08-06",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Singen am Hohentwiel"
+  },
+  "deathDate": "2019-11-22",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Flintbek"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Professor für Betriebswirtschaftslehre, 1971–1987 MdL Schleswig-Holstein (CDU), 1969–1979 Kultusminister und 1979–1983 Sozialminister von Schleswig-Holstein"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/131364839",
+    "https://de.wikipedia.org/wiki/Walter_Braun_(Politiker,_1930)"
+  ]
 }

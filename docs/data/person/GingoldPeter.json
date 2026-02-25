@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GingoldPeter",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GingoldPeter",
   "name": "Peter Gingold",
   "givenName": "Peter",
   "familyName": "Gingold",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1916-03-08",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Aschaffenburg"
-  },
-  "deathDate": "2006-10-29",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Frankfurt am Main"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "kommunistischer Widerstandskämpfer gegen den Nationalsozialismus"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/116632704",
-    "https://de.wikipedia.org/wiki/Peter_Gingold"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Peter Gingold",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/116632704",
-    "wikipedia": "https://de.wikipedia.org/wiki/Peter_Gingold",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Peter_Gingold"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1916-03-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Aschaffenburg"
+  },
+  "deathDate": "2006-10-29",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Frankfurt am Main"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "kommunistischer Widerstandskämpfer gegen den Nationalsozialismus"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/116632704",
+    "https://de.wikipedia.org/wiki/Peter_Gingold"
+  ]
 }

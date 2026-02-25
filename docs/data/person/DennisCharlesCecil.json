@@ -1,29 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DennisCharlesCecil",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DennisCharlesCecil",
   "name": "Charles Cecil Dennis Jr.",
   "givenName": "Charles Cecil",
   "familyName": "Dennis",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1931-02-21",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Montserrado County"
-  },
-  "deathDate": "1980-04-22",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Monrovia"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1973–1980 liberianischer Außenminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://en.wikipedia.org/wiki/Cecil_Dennis"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Charles Cecil Dennis Jr.",
@@ -45,9 +29,24 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://en.wikipedia.org/wiki/Cecil_Dennis",
-    "viaf": null
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/Cecil_Dennis"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1931-02-21",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Montserrado County"
+  },
+  "deathDate": "1980-04-22",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Monrovia"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1973–1980 liberianischer Außenminister"
+  },
+  "sameAs": [
+    "https://en.wikipedia.org/wiki/Cecil_Dennis"
+  ]
 }

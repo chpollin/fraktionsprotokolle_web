@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SohnKarl-Heinz",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SohnKarl-Heinz",
   "name": "Karl-Heinz Sohn",
   "givenName": "Karl-Heinz",
   "familyName": "Sohn",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1928-04-19",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Barmen"
-  },
-  "deathDate": "2017-11-03",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Essen"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Volkswirtschaftler, SPD-Mitglied, 1956–1966 Referent und Leiter der Abteilung Bildung, zuletzt 1960–1966 Leiter der Abteilung Mitbestimmung beim DGB-Bundesvorstand, 1966–1969 Leiter der Stabsabteilung Volkswirtschaft und der Abteilung der Firma Friedrich Krupp Hüttenwerke AG, 1969–1974 Staatssekretär im Bundesministerium für wirtschaftliche Zusammenarbeit, Ende Januar 1971 Sonderbotschafter in Chile, 1974–1983 Vorsitzender der Geschäftsleitung der Deutschen Gesellschaft für wirtschaftliche Zusammenarbeit"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/117452971",
-    "https://de.wikipedia.org/wiki/Karl-Heinz_Sohn"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Karl-Heinz Sohn",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/117452971",
-    "wikipedia": "https://de.wikipedia.org/wiki/Karl-Heinz_Sohn",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Karl-Heinz_Sohn"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1928-04-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Barmen"
+  },
+  "deathDate": "2017-11-03",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Essen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Volkswirtschaftler, SPD-Mitglied, 1956–1966 Referent und Leiter der Abteilung Bildung, zuletzt 1960–1966 Leiter der Abteilung Mitbestimmung beim DGB-Bundesvorstand, 1966–1969 Leiter der Stabsabteilung Volkswirtschaft und der Abteilung der Firma Friedrich Krupp Hüttenwerke AG, 1969–1974 Staatssekretär im Bundesministerium für wirtschaftliche Zusammenarbeit, Ende Januar 1971 Sonderbotschafter in Chile, 1974–1983 Vorsitzender der Geschäftsleitung der Deutschen Gesellschaft für wirtschaftliche Zusammenarbeit"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/117452971",
+    "https://de.wikipedia.org/wiki/Karl-Heinz_Sohn"
+  ]
 }

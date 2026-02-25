@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FuelberthGeorg",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FuelberthGeorg",
   "name": "Georg Fülberth",
   "givenName": "Georg",
   "familyName": "Fülberth",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1939-09-25",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Darmstadt"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1972–2004 Professor für Politikwissenschaft an der Universität Marburg; 1990–1993 Stadtverordneter der DKP in Marburg"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/120793695",
-    "https://de.wikipedia.org/wiki/Georg_F%C3%BClberth"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Georg Fülberth",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/120793695",
-    "wikipedia": "https://de.wikipedia.org/wiki/Georg_F%C3%BClberth",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Georg_F%C3%BClberth"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1939-09-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Darmstadt"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1972–2004 Professor für Politikwissenschaft an der Universität Marburg; 1990–1993 Stadtverordneter der DKP in Marburg"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/120793695",
+    "https://de.wikipedia.org/wiki/Georg_F%C3%BClberth"
+  ]
 }

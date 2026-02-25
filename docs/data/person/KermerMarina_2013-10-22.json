@@ -1,35 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KermerMarina_2013-10-22",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KermerMarina_2013-10-22",
   "name": "Marina Kermer",
   "givenName": "Marina",
   "familyName": "Kermer",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1960-03-22",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Aken/Elbe"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Vorsitzende der Geschäftsführung der Agentur für Arbeit Stendal [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "2013-10-22",
-      "endDate": "2017-10-24"
-    }
-  ],
-  "sameAs": null,
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Marina Kermer",
@@ -59,9 +37,28 @@
     }
   ],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11004326",
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
-  }
+    "mdb_stammdaten": "11004326"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1960-03-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Aken/Elbe"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Vorsitzende der Geschäftsführung der Agentur für Arbeit Stendal [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "2013-10-22",
+      "endDate": "2017-10-24"
+    }
+  ]
 }

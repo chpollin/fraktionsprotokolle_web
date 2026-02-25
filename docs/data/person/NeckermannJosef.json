@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "NeckermannJosef",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/NeckermannJosef",
   "name": "Josef Neckermann",
   "givenName": "Josef",
   "familyName": "Neckermann",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1912-06-05",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Würzburg"
-  },
-  "deathDate": "1992-01-13",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Dreieich"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Unternehmer (Neckermann Versand), mehrfacher olympischer Medaillengewinner im Dressurreiten und 1967–1988 Vorsitzender der Stiftung Deutsche Sporthilfe"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118586742",
-    "https://de.wikipedia.org/wiki/Josef_Neckermann"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Josef Neckermann",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118586742",
-    "wikipedia": "https://de.wikipedia.org/wiki/Josef_Neckermann",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Josef_Neckermann"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1912-06-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Würzburg"
+  },
+  "deathDate": "1992-01-13",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Dreieich"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Unternehmer (Neckermann Versand), mehrfacher olympischer Medaillengewinner im Dressurreiten und 1967–1988 Vorsitzender der Stiftung Deutsche Sporthilfe"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118586742",
+    "https://de.wikipedia.org/wiki/Josef_Neckermann"
+  ]
 }

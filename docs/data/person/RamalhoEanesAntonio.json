@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RamalhoEanesAntonio",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RamalhoEanesAntonio",
   "name": "António Ramalho Eanes",
   "givenName": "António",
   "familyName": "Ramalho Eanes",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1935-01-25",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Alcains"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1976-1986 Präsident von Portugal"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/130441139",
-    "https://de.wikipedia.org/wiki/Ant%C3%B3nio_Ramalho_Eanes"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "António Ramalho Eanes",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/130441139",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ant%C3%B3nio_Ramalho_Eanes",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ant%C3%B3nio_Ramalho_Eanes"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1935-01-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Alcains"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1976-1986 Präsident von Portugal"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/130441139",
+    "https://de.wikipedia.org/wiki/Ant%C3%B3nio_Ramalho_Eanes"
+  ]
 }

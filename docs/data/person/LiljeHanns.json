@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "LiljeHanns",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/LiljeHanns",
   "name": "Hanns Lilje",
   "givenName": "Johannes Ernst Richard (Hanns)",
   "familyName": "Lilje",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1899-08-20",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Hannover"
-  },
-  "deathDate": "1977-01-06",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Hannover"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "evangelischer Theologe, 1947–1971 Landesbischof von Hannover, 1949–1967 stvellvertretender Vorsitzender des Rates der EKD, 1952–1957 Präsident des Lutherischen Weltbundes, 1955—1969 leitender Bischof der Vereinigten Ev.-Luth. Kirche Deutschlands"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/11872827X",
-    "https://de.wikipedia.org/wiki/Hanns_Lilje"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hanns Lilje",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/11872827X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hanns_Lilje",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hanns_Lilje"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1899-08-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hannover"
+  },
+  "deathDate": "1977-01-06",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hannover"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "evangelischer Theologe, 1947–1971 Landesbischof von Hannover, 1949–1967 stvellvertretender Vorsitzender des Rates der EKD, 1952–1957 Präsident des Lutherischen Weltbundes, 1955—1969 leitender Bischof der Vereinigten Ev.-Luth. Kirche Deutschlands"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/11872827X",
+    "https://de.wikipedia.org/wiki/Hanns_Lilje"
+  ]
 }

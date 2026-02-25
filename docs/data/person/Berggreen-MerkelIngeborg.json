@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "Berggreen-MerkelIngeborg",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/Berggreen-MerkelIngeborg",
   "name": "Ingeborg Berggreen-Merkel",
   "givenName": "Ingeborg",
   "familyName": "Berggreen-Merkel",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1949",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Flensburg"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1972-2008 im  Bayerischen Staatsministerium für Unterricht und Kultus, zuletzt als Ministerialdirigentin, 2008-2013 Abteilungsleiterin beim und Stellvertreterin des Beauftragten der Bundesregierung für Kultur und Medien, 2013-2015 Leiterin der »Taskforce ›Schwabinger Kunstfund‹«"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1076640761",
-    "https://de.wikipedia.org/wiki/Ingeborg_Berggreen-Merkel"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Ingeborg Berggreen-Merkel",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1076640761",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ingeborg_Berggreen-Merkel",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ingeborg_Berggreen-Merkel"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1949",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Flensburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1972-2008 im  Bayerischen Staatsministerium für Unterricht und Kultus, zuletzt als Ministerialdirigentin, 2008-2013 Abteilungsleiterin beim und Stellvertreterin des Beauftragten der Bundesregierung für Kultur und Medien, 2013-2015 Leiterin der »Taskforce ›Schwabinger Kunstfund‹«"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1076640761",
+    "https://de.wikipedia.org/wiki/Ingeborg_Berggreen-Merkel"
+  ]
 }

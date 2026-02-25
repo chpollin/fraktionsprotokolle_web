@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FriedrichOttoAndreas",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FriedrichOttoAndreas",
   "name": "Friedrich Otto Andreas",
   "givenName": "Friedrich Otto",
   "familyName": "Andreas",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1902-07-02",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Leipzig"
-  },
-  "deathDate": "1975-12-08",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Düsseldorf"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1969–1973 Präsident der Bundesvereinigung der Deutschen Arbeitgeberverbände (BDA)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119106566",
-    "https://de.wikipedia.org/wiki/Otto_A._Friedrich"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Friedrich Otto Andreas",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119106566",
-    "wikipedia": "https://de.wikipedia.org/wiki/Otto_A._Friedrich",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Otto_A._Friedrich"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1902-07-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Leipzig"
+  },
+  "deathDate": "1975-12-08",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Düsseldorf"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1969–1973 Präsident der Bundesvereinigung der Deutschen Arbeitgeberverbände (BDA)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119106566",
+    "https://de.wikipedia.org/wiki/Otto_A._Friedrich"
+  ]
 }

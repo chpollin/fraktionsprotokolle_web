@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "StoelzlChristoph",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/StoelzlChristoph",
   "name": "Christoph Stölzl",
   "givenName": "Christoph",
   "familyName": "Stölzl",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1944-02-17",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Westheim bei Augsburg"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1987–1999 Direktor des Deutschen Historischen Museums; 2000/01 Berliner Wissenschaftssenator"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/10790036X",
-    "https://de.wikipedia.org/wiki/Christoph_St%C3%B6lzl"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Christoph Stölzl",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/10790036X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Christoph_St%C3%B6lzl",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Christoph_St%C3%B6lzl"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1944-02-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Westheim bei Augsburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1987–1999 Direktor des Deutschen Historischen Museums; 2000/01 Berliner Wissenschaftssenator"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/10790036X",
+    "https://de.wikipedia.org/wiki/Christoph_St%C3%B6lzl"
+  ]
 }

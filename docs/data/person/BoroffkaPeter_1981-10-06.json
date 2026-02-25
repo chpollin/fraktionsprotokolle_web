@@ -1,45 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BoroffkaPeter_1981-10-06",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BoroffkaPeter_1981-10-06",
   "name": "Peter Boroffka",
   "givenName": "Peter",
   "familyName": "Boroffka",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1932-05-14",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Potsdam"
-  },
-  "deathDate": "1999-12-24",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Wissenschaftlicher Redakteur [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1981-10-06",
-      "endDate": "1983-03-29"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1983-03-29",
-      "endDate": "1987-02-18"
-    }
-  ],
-  "sameAs": null,
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Peter Boroffka",
@@ -76,9 +44,39 @@
     }
   ],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11000236",
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
-  }
+    "mdb_stammdaten": "11000236"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1932-05-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Potsdam"
+  },
+  "deathDate": "1999-12-24",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Wissenschaftlicher Redakteur [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1981-10-06",
+      "endDate": "1983-03-29"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1983-03-29",
+      "endDate": "1987-02-18"
+    }
+  ]
 }

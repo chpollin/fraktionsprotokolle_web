@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MueckenbergerUlrich",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MueckenbergerUlrich",
   "name": "Ulrich Mückenberger",
   "givenName": "Ulrich",
   "familyName": "Mückenberger",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1944-11-19",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Schönheide"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Rechts- und Politikwissenschaftler, seit 1985 Professor für Arbeits- und Sozialrecht und Europarecht an der Hamburger Universität für Wirtschaft und Politik"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/120764563",
-    "https://de.wikipedia.org/wiki/Ulrich_M%C3%BCckenberger"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Ulrich Mückenberger",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/120764563",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ulrich_M%C3%BCckenberger",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ulrich_M%C3%BCckenberger"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1944-11-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Schönheide"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechts- und Politikwissenschaftler, seit 1985 Professor für Arbeits- und Sozialrecht und Europarecht an der Hamburger Universität für Wirtschaft und Politik"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/120764563",
+    "https://de.wikipedia.org/wiki/Ulrich_M%C3%BCckenberger"
+  ]
 }

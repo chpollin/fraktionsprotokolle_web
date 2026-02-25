@@ -1,21 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "LangerGuenter",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/LangerGuenter",
   "name": "Günter Langer",
   "givenName": "Günter",
   "familyName": "Langer",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1919",
-  "birthPlace": null,
-  "deathDate": "2001",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Brigadegeneral, Unterabteilungsleiter der Abteilung S im Bundesministerium der Verteidigung"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Günter Langer",
@@ -36,10 +28,12 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Male",
+  "birthDate": "1919",
+  "deathDate": "2001",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Brigadegeneral, Unterabteilungsleiter der Abteilung S im Bundesministerium der Verteidigung"
   }
 }

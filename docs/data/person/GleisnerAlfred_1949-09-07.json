@@ -1,10 +1,60 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GleisnerAlfred_1949-09-07",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GleisnerAlfred_1949-09-07",
   "name": "Alfred Gleisner",
   "givenName": "Alfred",
   "familyName": "Gleisner",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Alfred Gleisner",
+    "forename": "Alfred",
+    "surname": "Gleisner",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1908-06-19",
+    "place": "Kamen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1991-02-15",
+    "place": "Unna",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 2,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 3,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1957-10-15",
+      "to": "1959-03-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000688",
+    "gnd": "https://d-nb.info/gnd/118695347",
+    "wikipedia": "https://de.wikipedia.org/wiki/Alfred_Gleisner"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1908-06-19",
   "birthPlace": {
@@ -56,54 +106,6 @@
     "https://d-nb.info/gnd/118695347",
     "https://de.wikipedia.org/wiki/Alfred_Gleisner"
   ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Alfred Gleisner",
-    "forename": "Alfred",
-    "surname": "Gleisner",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1908-06-19",
-    "place": "Kamen",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1991-02-15",
-    "place": "Unna",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 1,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1949-09-07",
-      "to": "1953-09-07"
-    },
-    {
-      "period": 2,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1953-10-06",
-      "to": "1957-10-06"
-    },
-    {
-      "period": 3,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1957-10-15",
-      "to": "1959-03-17"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11000688",
-    "gnd": "https://d-nb.info/gnd/118695347",
-    "wikipedia": "https://de.wikipedia.org/wiki/Alfred_Gleisner",
-    "viaf": null
-  },
   "fraktionsprotokolle:alt_names": [
     {
       "reg": "Alfred Gleisner",

@@ -1,34 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PerliVictor_2017-10-24",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PerliVictor_2017-10-24",
   "name": "Victor Perli",
   "givenName": "Victor",
   "familyName": "Perli",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1982-02-01",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Bad Oeynhausen"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Geschäftsführer/Politikwissenschaftler [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion DIE LINKE.",
-        "alternateName": "LINKE"
-      },
-      "startDate": "2017-10-24"
-    }
-  ],
-  "sameAs": null,
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Victor Perli",
@@ -58,9 +37,27 @@
     }
   ],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11004849",
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
-  }
+    "mdb_stammdaten": "11004849"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1982-02-01",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bad Oeynhausen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Geschäftsführer/Politikwissenschaftler [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion DIE LINKE.",
+        "alternateName": "LINKE"
+      },
+      "startDate": "2017-10-24"
+    }
+  ]
 }

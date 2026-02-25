@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MeerJosvander",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MeerJosvander",
   "name": "Jos van der Meer",
   "givenName": "Jos",
   "familyName": "Meer",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1947-04-15",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Den Haag"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Internist, seit 1992 Leiter der Abteilung für Innere Medizin am Universitair Medisch Centrum St. Radboud in Nijmegen, 2006-2012 Vorsitzender der Abteilung Naturwissenschaften sowie Vizepräsident der Königlich Niederländischen Akademie der Künste und Wissenschaften (KNAW), seit 2009 Mitglied der Academia Europaea"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1090265476",
-    "https://en.wikipedia.org/wiki/Jos_van_der_Meer"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Jos van der Meer",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1090265476",
-    "wikipedia": "https://en.wikipedia.org/wiki/Jos_van_der_Meer",
-    "viaf": null
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/Jos_van_der_Meer"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1947-04-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Den Haag"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Internist, seit 1992 Leiter der Abteilung für Innere Medizin am Universitair Medisch Centrum St. Radboud in Nijmegen, 2006-2012 Vorsitzender der Abteilung Naturwissenschaften sowie Vizepräsident der Königlich Niederländischen Akademie der Künste und Wissenschaften (KNAW), seit 2009 Mitglied der Academia Europaea"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1090265476",
+    "https://en.wikipedia.org/wiki/Jos_van_der_Meer"
+  ]
 }

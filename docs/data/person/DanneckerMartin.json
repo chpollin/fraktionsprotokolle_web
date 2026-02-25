@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DanneckerMartin",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DanneckerMartin",
   "name": "Martin Dannecker",
   "givenName": "Martin",
   "familyName": "Dannecker",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1942-11",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Oberndorf am Neckar"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Sexualwissenschaftler und Autor, bis 2005 Professor an der Johann Wolfgang Goethe-Universität in Frankfurt am Main, ehem. Mitglied des Beirats der Magnus Hirschfeld-Stiftung, Kuratoriumsmitglied der Initiative Queer Nations e. V."
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/122185285",
-    "https://de.wikipedia.org/wiki/Martin_Dannecker"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Martin Dannecker",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/122185285",
-    "wikipedia": "https://de.wikipedia.org/wiki/Martin_Dannecker",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Martin_Dannecker"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1942-11",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Oberndorf am Neckar"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Sexualwissenschaftler und Autor, bis 2005 Professor an der Johann Wolfgang Goethe-Universität in Frankfurt am Main, ehem. Mitglied des Beirats der Magnus Hirschfeld-Stiftung, Kuratoriumsmitglied der Initiative Queer Nations e. V."
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/122185285",
+    "https://de.wikipedia.org/wiki/Martin_Dannecker"
+  ]
 }

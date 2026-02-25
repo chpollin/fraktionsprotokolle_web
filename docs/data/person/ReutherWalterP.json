@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ReutherWalterP",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ReutherWalterP",
   "name": "Walter P. Reuther",
   "givenName": "Walter P.",
   "familyName": "Reuther",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1907-09-01",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Wheeling, West Virginia"
-  },
-  "deathDate": "1970-05-09",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Pellston, Michigan"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "amerikanischer Gewerkschaftsführer, seit 1952 Vorsitzender des Congress of Industrial Organizations"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/11885898X",
-    "https://de.wikipedia.org/wiki/Walter_Reuther"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Walter P. Reuther",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/11885898X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Walter_Reuther",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Walter_Reuther"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1907-09-01",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Wheeling, West Virginia"
+  },
+  "deathDate": "1970-05-09",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Pellston, Michigan"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "amerikanischer Gewerkschaftsführer, seit 1952 Vorsitzender des Congress of Industrial Organizations"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/11885898X",
+    "https://de.wikipedia.org/wiki/Walter_Reuther"
+  ]
 }

@@ -1,24 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "JacobKonrad",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/JacobKonrad",
   "name": "Konrad Jacob",
   "givenName": "Konrad",
   "familyName": "Jacob",
-  "gender": "https://schema.org/Male",
-  "birthDate": null,
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Körle"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Landwirt, bis 1971 Präsident des Hessischen Bauernverbands, 1969–1983 Präsident der Deutschen Landwirtschafts-Gesellschaf (DLG)"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Konrad Jacob",
@@ -39,10 +28,14 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Male",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Körle"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Landwirt, bis 1971 Präsident des Hessischen Bauernverbands, 1969–1983 Präsident der Deutschen Landwirtschafts-Gesellschaf (DLG)"
   }
 }

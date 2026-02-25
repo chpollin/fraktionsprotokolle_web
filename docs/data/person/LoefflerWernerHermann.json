@@ -1,26 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "LoefflerWernerHermann",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/LoefflerWernerHermann",
   "name": "Werner Hermann Löffler",
   "givenName": "Werner Hermann",
   "familyName": "Löffler",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1898-02-20",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Leipzig"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Senatsdirektor für  Wirtschaft beim Senator für Wirtschaft und Ernährung in Berlin (West)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/141822945"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Werner Hermann Löffler",
@@ -42,9 +29,19 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/141822945",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/141822945"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1898-02-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Leipzig"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Senatsdirektor für  Wirtschaft beim Senator für Wirtschaft und Ernährung in Berlin (West)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/141822945"
+  ]
 }

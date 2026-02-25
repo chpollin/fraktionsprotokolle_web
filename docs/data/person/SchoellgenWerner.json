@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchoellgenWerner",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchoellgenWerner",
   "name": "Werner Schöllgen",
   "givenName": "Werner",
   "familyName": "Schöllgen",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1893-09-23",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Düsseldorf"
-  },
-  "deathDate": "1985-03-09",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bonn"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1945-1961 Professor für Moraltheologie und Soziologie an der Universität Bonn"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118609955",
-    "https://de.wikipedia.org/wiki/Werner_Sch%C3%B6llgen"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Werner Schöllgen",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118609955",
-    "wikipedia": "https://de.wikipedia.org/wiki/Werner_Sch%C3%B6llgen",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Werner_Sch%C3%B6llgen"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1893-09-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Düsseldorf"
+  },
+  "deathDate": "1985-03-09",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1945-1961 Professor für Moraltheologie und Soziologie an der Universität Bonn"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118609955",
+    "https://de.wikipedia.org/wiki/Werner_Sch%C3%B6llgen"
+  ]
 }

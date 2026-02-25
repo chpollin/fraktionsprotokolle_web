@@ -1,37 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ReentsJuergen_1983-03-29",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ReentsJuergen_1983-03-29",
   "name": "Jürgen Reents",
   "givenName": "Jürgen",
   "familyName": "Reents",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1949-08-05",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Bremerhaven"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Journalist [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion Die Grünen",
-        "alternateName": "Grüne"
-      },
-      "startDate": "1983-03-29",
-      "endDate": "1985-03-19"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1068037679"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Jürgen Reents",
@@ -62,8 +38,31 @@
   ],
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001791",
-    "gnd": "https://d-nb.info/gnd/1068037679",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/1068037679"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1949-08-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bremerhaven"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Die Grünen",
+        "alternateName": "Grüne"
+      },
+      "startDate": "1983-03-29",
+      "endDate": "1985-03-19"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1068037679"
+  ]
 }

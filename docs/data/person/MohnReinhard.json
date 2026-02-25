@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MohnReinhard",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MohnReinhard",
   "name": "Reinhard Mohn",
   "givenName": "Reinhard",
   "familyName": "Mohn",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1921-06-29",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Gütersloh"
-  },
-  "deathDate": "2009-10-03",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Steinhagen"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Unternehmer und Stifter, seit 1947 Leiter des C. Bertelsmann Verlags"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118583182",
-    "https://de.wikipedia.org/wiki/Reinhard_Mohn"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Reinhard Mohn",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118583182",
-    "wikipedia": "https://de.wikipedia.org/wiki/Reinhard_Mohn",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Reinhard_Mohn"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1921-06-29",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Gütersloh"
+  },
+  "deathDate": "2009-10-03",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Steinhagen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Unternehmer und Stifter, seit 1947 Leiter des C. Bertelsmann Verlags"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118583182",
+    "https://de.wikipedia.org/wiki/Reinhard_Mohn"
+  ]
 }

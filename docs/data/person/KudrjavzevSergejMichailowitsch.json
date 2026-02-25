@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KudrjavzevSergejMichailowitsch",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KudrjavzevSergejMichailowitsch",
   "name": "Sergej Michailowitsch Kudrjavzev",
   "givenName": "Sergej Michailowitsch",
   "familyName": "Kudrjavzev",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1915",
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "sowjetischer Diplomat, 1956–1957 Gesandter in Bonn"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1031634231"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Sergej Michailowitsch Kudrjavzev",
@@ -39,9 +29,15 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/1031634231",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/1031634231"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1915",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "sowjetischer Diplomat, 1956–1957 Gesandter in Bonn"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1031634231"
+  ]
 }

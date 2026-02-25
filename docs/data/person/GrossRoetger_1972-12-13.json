@@ -1,37 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GrossRoetger_1972-12-13",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GrossRoetger_1972-12-13",
   "name": "Rötger Groß",
   "givenName": "Rötger",
   "familyName": "Groß",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1933-04-22",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Hildburghausen/Thüringen"
-  },
-  "deathDate": "2004-12-15",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Stadtdirektor a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Freien Demokratischen Partei",
-        "alternateName": "FDP"
-      },
-      "startDate": "1972-12-13",
-      "endDate": "1974-07-05"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/118542532"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Rötger Groß",
@@ -62,8 +38,32 @@
   ],
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000734",
-    "gnd": "https://d-nb.info/gnd/118542532",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/118542532"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1933-04-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hildburghausen/Thüringen"
+  },
+  "deathDate": "2004-12-15",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Stadtdirektor a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1972-12-13",
+      "endDate": "1974-07-05"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/118542532"
+  ]
 }

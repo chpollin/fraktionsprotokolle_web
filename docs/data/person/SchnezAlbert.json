@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchnezAlbert",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchnezAlbert",
   "name": "Albert Schnez",
   "givenName": "Albert",
   "familyName": "Schnez",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1911-08-30",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Abtsgmünd"
-  },
-  "deathDate": "2007-04-26",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bonn"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Offizier, 1968–1971 im Rang eines Generalleutnants des Heeres dessen Inspekteur"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1029300240",
-    "https://de.wikipedia.org/wiki/Albert_Schnez"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Albert Schnez",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1029300240",
-    "wikipedia": "https://de.wikipedia.org/wiki/Albert_Schnez",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Albert_Schnez"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1911-08-30",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Abtsgmünd"
+  },
+  "deathDate": "2007-04-26",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Offizier, 1968–1971 im Rang eines Generalleutnants des Heeres dessen Inspekteur"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1029300240",
+    "https://de.wikipedia.org/wiki/Albert_Schnez"
+  ]
 }

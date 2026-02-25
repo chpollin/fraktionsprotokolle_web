@@ -1,45 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "Dietert-ScheuerAmke_1994-11-10",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/Dietert-ScheuerAmke_1994-11-10",
   "name": "Amke Dietert-Scheuer",
   "givenName": "Amke",
   "familyName": "Dietert-Scheuer",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1955-05-14",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Brake/Unterweser"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Lehrerin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion Bündnis 90/Die Grünen",
-        "alternateName": "B90/Grüne"
-      },
-      "startDate": "1994-11-10",
-      "endDate": "1998-10-26"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion Bündnis 90/Die Grünen",
-        "alternateName": "B90/Grüne"
-      },
-      "startDate": "2002-02-05",
-      "endDate": "2002-10-17"
-    }
-  ],
-  "sameAs": null,
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Amke Dietert-Scheuer",
@@ -76,9 +44,38 @@
     }
   ],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11002640",
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
-  }
+    "mdb_stammdaten": "11002640"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1955-05-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Brake/Unterweser"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Lehrerin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Bündnis 90/Die Grünen",
+        "alternateName": "B90/Grüne"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-10-26"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Bündnis 90/Die Grünen",
+        "alternateName": "B90/Grüne"
+      },
+      "startDate": "2002-02-05",
+      "endDate": "2002-10-17"
+    }
+  ]
 }

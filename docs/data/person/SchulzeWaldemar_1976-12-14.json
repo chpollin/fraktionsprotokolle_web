@@ -1,37 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchulzeWaldemar_1976-12-14",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchulzeWaldemar_1976-12-14",
   "name": "Waldemar Schulze",
   "givenName": "Waldemar",
   "familyName": "Schulze",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1930-07-09",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Seifersdorf"
-  },
-  "deathDate": "2018-01-26",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Sozialarbeiter, Sozialpädagoge [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1976-12-14",
-      "endDate": "1980-11-04"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1214460909"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Waldemar Schulze",
@@ -62,8 +38,32 @@
   ],
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11002110",
-    "gnd": "https://d-nb.info/gnd/1214460909",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/1214460909"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1930-07-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Seifersdorf"
+  },
+  "deathDate": "2018-01-26",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Sozialarbeiter, Sozialpädagoge [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1976-12-14",
+      "endDate": "1980-11-04"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1214460909"
+  ]
 }

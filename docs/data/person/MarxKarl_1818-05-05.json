@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MarxKarl_1818-05-05",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MarxKarl_1818-05-05",
   "name": "Karl Marx",
   "givenName": "Karl",
   "familyName": "Marx",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1818-05-05",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Trier"
-  },
-  "deathDate": "1883-03-14",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "London"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Journalist, Philosoph, Theoretiker des Sozialismus und Kommunismus"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118578537",
-    "https://de.wikipedia.org/wiki/Karl_Marx"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Karl Marx",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118578537",
-    "wikipedia": "https://de.wikipedia.org/wiki/Karl_Marx",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Karl_Marx"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1818-05-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Trier"
+  },
+  "deathDate": "1883-03-14",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "London"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist, Philosoph, Theoretiker des Sozialismus und Kommunismus"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118578537",
+    "https://de.wikipedia.org/wiki/Karl_Marx"
+  ]
 }

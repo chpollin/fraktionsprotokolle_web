@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MeeuwFolkert",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MeeuwFolkert",
   "name": "Folkert Meeuw",
   "givenName": "Folkert",
   "familyName": "Meeuw",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1946-11-11",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Wiesbaden"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Schwimmer, Sprecher der Nationalmannschaft des Deutschen Schwimmverbandes"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/113984623X",
-    "https://de.wikipedia.org/wiki/Folkert_Meeuw"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Folkert Meeuw",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/113984623X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Folkert_Meeuw",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Folkert_Meeuw"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1946-11-11",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Wiesbaden"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Schwimmer, Sprecher der Nationalmannschaft des Deutschen Schwimmverbandes"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/113984623X",
+    "https://de.wikipedia.org/wiki/Folkert_Meeuw"
+  ]
 }

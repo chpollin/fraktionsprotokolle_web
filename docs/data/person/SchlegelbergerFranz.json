@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchlegelbergerFranz",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchlegelbergerFranz",
   "name": "Franz Schlegelberger",
   "givenName": "Franz",
   "familyName": "Schlegelberger",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1876-10-23",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Königsberg, Ostpreußen (heute: Kaliningrad, Russland)"
-  },
-  "deathDate": "1970-12-14",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Flensburg"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1931–1941 Staatssekretär im Reichsjustizministerium, 1941/42 kommissarischer Reichsminister der Justiz"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118958275",
-    "https://de.wikipedia.org/wiki/Franz_Schlegelberger"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Franz Schlegelberger",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118958275",
-    "wikipedia": "https://de.wikipedia.org/wiki/Franz_Schlegelberger",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Franz_Schlegelberger"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1876-10-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Königsberg, Ostpreußen (heute: Kaliningrad, Russland)"
+  },
+  "deathDate": "1970-12-14",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Flensburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1931–1941 Staatssekretär im Reichsjustizministerium, 1941/42 kommissarischer Reichsminister der Justiz"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118958275",
+    "https://de.wikipedia.org/wiki/Franz_Schlegelberger"
+  ]
 }

@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SenghaasDieter",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SenghaasDieter",
   "name": "Dieter Senghaas",
   "givenName": "Dieter",
   "familyName": "Senghaas",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1940-08-27",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Geislingen an der Steige"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Sozialwissenschaftler und Friedensforscher, 1972–1978 Professor an der Universität Frankfurt, seit 1978 an der Universität Bremen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/120145359",
-    "https://de.wikipedia.org/wiki/Dieter_Senghaas"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Dieter Senghaas",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/120145359",
-    "wikipedia": "https://de.wikipedia.org/wiki/Dieter_Senghaas",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Dieter_Senghaas"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1940-08-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Geislingen an der Steige"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Sozialwissenschaftler und Friedensforscher, 1972–1978 Professor an der Universität Frankfurt, seit 1978 an der Universität Bremen"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/120145359",
+    "https://de.wikipedia.org/wiki/Dieter_Senghaas"
+  ]
 }

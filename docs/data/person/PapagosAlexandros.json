@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PapagosAlexandros",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PapagosAlexandros",
   "name": "Alexandros Papagos",
   "givenName": "Alexandros",
   "familyName": "Papagos",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1883-12-09",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Athen"
-  },
-  "deathDate": "1955-10-04",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Athen"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "griechischer General und Feldmarschall, 1952–1955 Premierminister von Griechenland"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119152886",
-    "https://de.wikipedia.org/wiki/Alexandros_Papagos"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Alexandros Papagos",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119152886",
-    "wikipedia": "https://de.wikipedia.org/wiki/Alexandros_Papagos",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Alexandros_Papagos"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1883-12-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Athen"
+  },
+  "deathDate": "1955-10-04",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Athen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "griechischer General und Feldmarschall, 1952–1955 Premierminister von Griechenland"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119152886",
+    "https://de.wikipedia.org/wiki/Alexandros_Papagos"
+  ]
 }

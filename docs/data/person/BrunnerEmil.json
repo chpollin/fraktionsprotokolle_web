@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BrunnerEmil",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BrunnerEmil",
   "name": "Emil Brunner",
   "givenName": "Emil",
   "familyName": "Brunner",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1889-12-23",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Winterthur"
-  },
-  "deathDate": "1966-04-06",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Zürich"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "reformierter Theologe aus der Schweiz, 1924 Berufung auf den Lehrstuhl für systematische und praktische Theologie an der Universität Zürich"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118516175",
-    "https://de.wikipedia.org/wiki/Emil_Brunner_(Theologe)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Emil Brunner",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118516175",
-    "wikipedia": "https://de.wikipedia.org/wiki/Emil_Brunner_(Theologe)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Emil_Brunner_(Theologe)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1889-12-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Winterthur"
+  },
+  "deathDate": "1966-04-06",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Zürich"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "reformierter Theologe aus der Schweiz, 1924 Berufung auf den Lehrstuhl für systematische und praktische Theologie an der Universität Zürich"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118516175",
+    "https://de.wikipedia.org/wiki/Emil_Brunner_(Theologe)"
+  ]
 }

@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WilhelmFriedrich",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WilhelmFriedrich",
   "name": "Friedrich Wilhelm",
   "givenName": "Friedrich",
   "familyName": "Wilhelm",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1916-04-16",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Rottenbauer (heute: Würzburg-Rottenbauer)"
-  },
-  "deathDate": "2000-03-25",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1949–1978 Landrat des Landkreises Würzburg"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1019818433",
-    "https://de.wikipedia.org/wiki/Friedrich_Wilhelm_(Politiker)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Friedrich Wilhelm",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1019818433",
-    "wikipedia": "https://de.wikipedia.org/wiki/Friedrich_Wilhelm_(Politiker)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Friedrich_Wilhelm_(Politiker)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1916-04-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Rottenbauer (heute: Würzburg-Rottenbauer)"
+  },
+  "deathDate": "2000-03-25",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1949–1978 Landrat des Landkreises Würzburg"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1019818433",
+    "https://de.wikipedia.org/wiki/Friedrich_Wilhelm_(Politiker)"
+  ]
 }

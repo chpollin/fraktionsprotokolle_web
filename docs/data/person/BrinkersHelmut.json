@@ -1,26 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BrinkersHelmut",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BrinkersHelmut",
   "name": "Helmut Brinkers",
   "givenName": "Helmut",
   "familyName": "Brinkers",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1929",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Lingen"
-  },
-  "deathDate": "2021",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Verwaltungsjurist, Regierungsdirektor, seit 1971 Ministerialrat in der Abteilung ZA (Organisation, Justitiariat und Geheimschutz) der Verwaltung des Deutschen Bundestages, CDU-Mitglied"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1234384795"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Helmut Brinkers",
@@ -42,9 +29,20 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/1234384795",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/1234384795"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1929",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Lingen"
+  },
+  "deathDate": "2021",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Verwaltungsjurist, Regierungsdirektor, seit 1971 Ministerialrat in der Abteilung ZA (Organisation, Justitiariat und Geheimschutz) der Verwaltung des Deutschen Bundestages, CDU-Mitglied"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1234384795"
+  ]
 }

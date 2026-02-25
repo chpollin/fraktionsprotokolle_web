@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SeiermannLudwig",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SeiermannLudwig",
   "name": "Ludwig Seiermann",
   "givenName": "Ludwig",
   "familyName": "Seiermann",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1903-06-09",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Neustadt an der Aisch"
-  },
-  "deathDate": "1979-01-09",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1949–1967 im Bundesverkehrsministerium tätig, 1957–1967 als Staatssekretär"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/103055255X",
-    "https://de.wikipedia.org/wiki/Ludwig_Seiermann"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Ludwig Seiermann",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/103055255X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ludwig_Seiermann",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ludwig_Seiermann"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1903-06-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Neustadt an der Aisch"
+  },
+  "deathDate": "1979-01-09",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1949–1967 im Bundesverkehrsministerium tätig, 1957–1967 als Staatssekretär"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/103055255X",
+    "https://de.wikipedia.org/wiki/Ludwig_Seiermann"
+  ]
 }

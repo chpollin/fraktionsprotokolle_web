@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MartinoFrancescoDe",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MartinoFrancescoDe",
   "name": "Francesco De Martino",
   "givenName": "Francesco De",
   "familyName": "Martino",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1907-05-31",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Neapel"
-  },
-  "deathDate": "2002-11-18",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Neapel"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1963–1976 (mit Unterbrechungen) Vorsitzender der Partito Socialista Italiano"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/123165059",
-    "https://de.wikipedia.org/wiki/Francesco_De_Martino"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Francesco De Martino",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/123165059",
-    "wikipedia": "https://de.wikipedia.org/wiki/Francesco_De_Martino",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Francesco_De_Martino"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1907-05-31",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Neapel"
+  },
+  "deathDate": "2002-11-18",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Neapel"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1963–1976 (mit Unterbrechungen) Vorsitzender der Partito Socialista Italiano"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/123165059",
+    "https://de.wikipedia.org/wiki/Francesco_De_Martino"
+  ]
 }

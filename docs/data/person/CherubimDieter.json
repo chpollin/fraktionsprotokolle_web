@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "CherubimDieter",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/CherubimDieter",
   "name": "Dieter Cherubim",
   "givenName": "Dieter",
   "familyName": "Cherubim",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1941-01-22",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Dresden"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Germanist und Sprachwissenschaftler, 1970–1979 wissenschaftlicher Assistent an den Universitäten Marburg und Braunschweig, 1984–2006 Professor für Germanistik an der Universität Göttingen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/122253353",
-    "https://de.wikipedia.org/wiki/Dieter_Cherubim"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Dieter Cherubim",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/122253353",
-    "wikipedia": "https://de.wikipedia.org/wiki/Dieter_Cherubim",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Dieter_Cherubim"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1941-01-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Dresden"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Germanist und Sprachwissenschaftler, 1970–1979 wissenschaftlicher Assistent an den Universitäten Marburg und Braunschweig, 1984–2006 Professor für Germanistik an der Universität Göttingen"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/122253353",
+    "https://de.wikipedia.org/wiki/Dieter_Cherubim"
+  ]
 }

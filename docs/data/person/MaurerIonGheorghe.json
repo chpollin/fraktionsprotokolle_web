@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MaurerIonGheorghe",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MaurerIonGheorghe",
   "name": "Ion Gheorghe Maurer",
   "givenName": "Ion Gheorghe",
   "familyName": "Maurer",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1902-09-23",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Bukarest"
-  },
-  "deathDate": "2000-02-08",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bukarest"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1961–1974 Ministerpräsident von Rumänien"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/124744397",
-    "https://de.wikipedia.org/wiki/Ion_Gheorghe_Maurer"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Ion Gheorghe Maurer",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/124744397",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ion_Gheorghe_Maurer",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ion_Gheorghe_Maurer"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1902-09-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bukarest"
+  },
+  "deathDate": "2000-02-08",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bukarest"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1961–1974 Ministerpräsident von Rumänien"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/124744397",
+    "https://de.wikipedia.org/wiki/Ion_Gheorghe_Maurer"
+  ]
 }

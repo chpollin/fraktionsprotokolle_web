@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RueeggWalter",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RueeggWalter",
   "name": "Walter Rüegg",
   "givenName": "Walter",
   "familyName": "Rüegg",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1918-04-04",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Zürich"
-  },
-  "deathDate": "2015-04-29",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Villette VD"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1967/68 Vorsitzender der Westdeutschen Rektorenkonferenz"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118603876",
-    "https://de.wikipedia.org/wiki/Walter_R%C3%BCegg"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Walter Rüegg",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118603876",
-    "wikipedia": "https://de.wikipedia.org/wiki/Walter_R%C3%BCegg",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Walter_R%C3%BCegg"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1918-04-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Zürich"
+  },
+  "deathDate": "2015-04-29",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Villette VD"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1967/68 Vorsitzender der Westdeutschen Rektorenkonferenz"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118603876",
+    "https://de.wikipedia.org/wiki/Walter_R%C3%BCegg"
+  ]
 }

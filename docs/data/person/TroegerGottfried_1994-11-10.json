@@ -1,35 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "TroegerGottfried_1994-11-10",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/TroegerGottfried_1994-11-10",
   "name": "Gottfried Tröger",
   "givenName": "Gottfried",
   "familyName": "Tröger",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1935-02-20",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Lobsdorf"
-  },
-  "deathDate": "2016-12-16",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Dipl.-Landwirt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1994-11-10",
-      "endDate": "1998-10-26"
-    }
-  ],
-  "sameAs": null,
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Gottfried Tröger",
@@ -59,9 +37,29 @@
     }
   ],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11002821",
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
-  }
+    "mdb_stammdaten": "11002821"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1935-02-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Lobsdorf"
+  },
+  "deathDate": "2016-12-16",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Landwirt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-10-26"
+    }
+  ]
 }

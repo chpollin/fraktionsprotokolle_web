@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HoweGeoffrey",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HoweGeoffrey",
   "name": "Geoffrey Howe",
   "givenName": "Geoffrey",
   "familyName": "Howe",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1926-12-20",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Port Talbot, Wales"
-  },
-  "deathDate": "2015-10-09",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Idlicote, Warwickshire"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "britischer konservativer Politiker, 1970–1994 Abgeordneter des britischen Unterhauses"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118901281",
-    "https://de.wikipedia.org/wiki/Geoffrey_Howe"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Geoffrey Howe",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118901281",
-    "wikipedia": "https://de.wikipedia.org/wiki/Geoffrey_Howe",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Geoffrey_Howe"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1926-12-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Port Talbot, Wales"
+  },
+  "deathDate": "2015-10-09",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Idlicote, Warwickshire"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "britischer konservativer Politiker, 1970–1994 Abgeordneter des britischen Unterhauses"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118901281",
+    "https://de.wikipedia.org/wiki/Geoffrey_Howe"
+  ]
 }

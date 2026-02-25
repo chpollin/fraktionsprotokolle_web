@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HectorEdgar",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HectorEdgar",
   "name": "Edgar Hector",
   "givenName": "Edgar Georg Maria",
   "familyName": "Hector",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1911-05-09",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Saarlouis"
-  },
-  "deathDate": "1989-03-21",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Paris"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1951–1955 saarländischer Innenminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/130611034",
-    "https://de.wikipedia.org/wiki/Edgar_Hector"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Edgar Hector",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/130611034",
-    "wikipedia": "https://de.wikipedia.org/wiki/Edgar_Hector",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Edgar_Hector"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1911-05-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Saarlouis"
+  },
+  "deathDate": "1989-03-21",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1951–1955 saarländischer Innenminister"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/130611034",
+    "https://de.wikipedia.org/wiki/Edgar_Hector"
+  ]
 }

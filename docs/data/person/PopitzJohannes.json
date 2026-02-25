@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PopitzJohannes",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PopitzJohannes",
   "name": "Johannes Popitz",
   "givenName": "Johannes",
   "familyName": "Popitz",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1884-12-02",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Leipzig"
-  },
-  "deathDate": "1945-02-02",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Berlin-Plötzensee"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1925–1929 Staatssekretär im Reichsfinanzministerium, 1933–1944 preußischer Finanzminister, Widerstandskämpfer"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118741497",
-    "https://de.wikipedia.org/wiki/Johannes_Popitz"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Johannes Popitz",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118741497",
-    "wikipedia": "https://de.wikipedia.org/wiki/Johannes_Popitz",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Johannes_Popitz"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1884-12-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Leipzig"
+  },
+  "deathDate": "1945-02-02",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin-Plötzensee"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1925–1929 Staatssekretär im Reichsfinanzministerium, 1933–1944 preußischer Finanzminister, Widerstandskämpfer"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118741497",
+    "https://de.wikipedia.org/wiki/Johannes_Popitz"
+  ]
 }

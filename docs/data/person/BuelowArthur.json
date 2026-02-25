@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BuelowArthur",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BuelowArthur",
   "name": "Arthur Bülow",
   "givenName": "Arthur",
   "familyName": "Bülow",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1901-11-17",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Pinnow (Uckermark)"
-  },
-  "deathDate": "1988-05-04",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Köln"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1963–1966 Staatssekretär im Bundesjustizministerium"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118517015",
-    "https://de.wikipedia.org/wiki/Arthur_B%C3%BClow"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Arthur Bülow",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118517015",
-    "wikipedia": "https://de.wikipedia.org/wiki/Arthur_B%C3%BClow",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Arthur_B%C3%BClow"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1901-11-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Pinnow (Uckermark)"
+  },
+  "deathDate": "1988-05-04",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Köln"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1963–1966 Staatssekretär im Bundesjustizministerium"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118517015",
+    "https://de.wikipedia.org/wiki/Arthur_B%C3%BClow"
+  ]
 }

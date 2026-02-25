@@ -1,34 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HoubenReinhard_2017-10-24",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HoubenReinhard_2017-10-24",
   "name": "Reinhard Houben",
   "givenName": "Reinhard",
   "familyName": "Houben",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1960-04-29",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Bensberg (jetzt Bergisch Gladbach)"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Unternehmer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Freien Demokratischen Partei",
-        "alternateName": "FDP"
-      },
-      "startDate": "2017-10-24"
-    }
-  ],
-  "sameAs": null,
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Reinhard Houben",
@@ -58,9 +37,27 @@
     }
   ],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11004763",
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
-  }
+    "mdb_stammdaten": "11004763"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1960-04-29",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bensberg (jetzt Bergisch Gladbach)"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Unternehmer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "2017-10-24"
+    }
+  ]
 }

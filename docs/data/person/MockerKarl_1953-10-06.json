@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MockerKarl_1953-10-06",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MockerKarl_1953-10-06",
   "name": "Karl Mocker",
   "givenName": "Karl",
   "familyName": "Mocker",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1905-11-22",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Horatitz, Sudetenland (heute: Horetice, Tschechische Republik)"
-  },
-  "deathDate": "1996-07-17",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Schwäbisch Gmünd"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Rechtsanwalt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion Gesamtdeutscher Block/Block der Heimatvertriebenen und Entrechteten",
-        "alternateName": "GB/BHE"
-      },
-      "startDate": "1953-10-06",
-      "endDate": "1957-10-06"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/118997122",
-    "https://de.wikipedia.org/wiki/Karl_Mocker"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Karl Mocker",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001517",
     "gnd": "https://d-nb.info/gnd/118997122",
-    "wikipedia": "https://de.wikipedia.org/wiki/Karl_Mocker",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Karl_Mocker"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1905-11-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Horatitz, Sudetenland (heute: Horetice, Tschechische Republik)"
+  },
+  "deathDate": "1996-07-17",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Schwäbisch Gmünd"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsanwalt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Gesamtdeutscher Block/Block der Heimatvertriebenen und Entrechteten",
+        "alternateName": "GB/BHE"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/118997122",
+    "https://de.wikipedia.org/wiki/Karl_Mocker"
+  ]
 }

@@ -1,38 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BaltThielMonika_1998-10-26",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BaltThielMonika_1998-10-26",
   "name": "Monika Thiel, geb. Bauer, frühere Balt",
   "givenName": "Monika",
   "familyName": "Balt",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1951-03-12",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Großräschen-Süd"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Kinderkrankenschwester [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Partei des Demokratischen Sozialismus",
-        "alternateName": "PDS"
-      },
-      "startDate": "1998-10-26",
-      "endDate": "2002-10-17"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1108783627",
-    "https://de.wikipedia.org/wiki/Monika_Balt"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Monika Thiel, geb. Bauer, frühere Balt",
@@ -64,9 +39,34 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11003030",
     "gnd": "https://d-nb.info/gnd/1108783627",
-    "wikipedia": "https://de.wikipedia.org/wiki/Monika_Balt",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Monika_Balt"
   },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1951-03-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Großräschen-Süd"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Kinderkrankenschwester [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Partei des Demokratischen Sozialismus",
+        "alternateName": "PDS"
+      },
+      "startDate": "1998-10-26",
+      "endDate": "2002-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1108783627",
+    "https://de.wikipedia.org/wiki/Monika_Balt"
+  ],
   "fraktionsprotokolle:alt_names": [
     {
       "reg": "Monika Thiel",

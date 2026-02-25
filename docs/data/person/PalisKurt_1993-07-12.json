@@ -1,58 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PalisKurt_1993-07-12",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PalisKurt_1993-07-12",
   "name": "Kurt Palis",
   "givenName": "Kurt",
   "familyName": "Palis",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1937-10-16",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Engelshöhe, Krs. Wehlau, Ostpreußen (heute: Iljitschjowo, Kaliningrad, Russland)"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Versicherungsangestellter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1993-07-12",
-      "endDate": "1994-11-10"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1994-11-10",
-      "endDate": "1998-10-26"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1998-10-26",
-      "endDate": "2002-10-17"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1339566613",
-    "https://de.wikipedia.org/wiki/Kurt_Palis"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Kurt Palis",
@@ -98,7 +53,52 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001673",
     "gnd": "https://d-nb.info/gnd/1339566613",
-    "wikipedia": "https://de.wikipedia.org/wiki/Kurt_Palis",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Kurt_Palis"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1937-10-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Engelshöhe, Krs. Wehlau, Ostpreußen (heute: Iljitschjowo, Kaliningrad, Russland)"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Versicherungsangestellter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1993-07-12",
+      "endDate": "1994-11-10"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-10-26"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1998-10-26",
+      "endDate": "2002-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1339566613",
+    "https://de.wikipedia.org/wiki/Kurt_Palis"
+  ]
 }

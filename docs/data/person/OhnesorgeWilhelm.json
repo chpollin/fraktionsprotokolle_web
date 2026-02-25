@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "OhnesorgeWilhelm",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/OhnesorgeWilhelm",
   "name": "Wilhelm Ohnesorge",
   "givenName": "Karl Wilhelm",
   "familyName": "Ohnesorge",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1872-06-08",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Gräfenhainichen"
-  },
-  "deathDate": "1962-02-01",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1933–1937 Staatssekretär im Reichspostministerium, 1937–1945 Reichspostminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/117112356",
-    "https://de.wikipedia.org/wiki/Wilhelm_Ohnesorge_(Politiker)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Wilhelm Ohnesorge",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/117112356",
-    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_Ohnesorge_(Politiker)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_Ohnesorge_(Politiker)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1872-06-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Gräfenhainichen"
+  },
+  "deathDate": "1962-02-01",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1933–1937 Staatssekretär im Reichspostministerium, 1937–1945 Reichspostminister"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/117112356",
+    "https://de.wikipedia.org/wiki/Wilhelm_Ohnesorge_(Politiker)"
+  ]
 }

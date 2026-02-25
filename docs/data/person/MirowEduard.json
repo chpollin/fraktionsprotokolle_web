@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MirowEduard",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MirowEduard",
   "name": "Eduard Mirow",
   "givenName": "Eduard",
   "familyName": "Mirow",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1911-03-03",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Hankau"
-  },
-  "deathDate": "1999-09-28",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Kassel"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Legationsrat I. Klasse im Referat »Wirtschaftsbeziehungen zum Nahen Osten und zu Nordafrika« im Auswärtigen Amt"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1200441664",
-    "https://de.wikipedia.org/wiki/Eduard_Mirow"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Eduard Mirow",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1200441664",
-    "wikipedia": "https://de.wikipedia.org/wiki/Eduard_Mirow",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Eduard_Mirow"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1911-03-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hankau"
+  },
+  "deathDate": "1999-09-28",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Kassel"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Legationsrat I. Klasse im Referat »Wirtschaftsbeziehungen zum Nahen Osten und zu Nordafrika« im Auswärtigen Amt"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1200441664",
+    "https://de.wikipedia.org/wiki/Eduard_Mirow"
+  ]
 }

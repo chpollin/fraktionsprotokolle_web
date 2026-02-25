@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PestelEduard",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PestelEduard",
   "name": "Eduard Pestel",
   "givenName": "Eduard Christian Kurt",
   "familyName": "Pestel",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1914-05-29",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Hildesheim"
-  },
-  "deathDate": "1988-09-19",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Hannover"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Ingenieur und Ökonom, 1953-1977 Professor für Mechanik und Regelungstechnik sowie Direktor am Institut für Mechanik der Technischen Universität Hannover, 1969–1970 Rektor der Gottfried Wilhelm Leibniz Universität Hannover, 1971-1977 Vizepräsident der Deutschen Forschungsgemeinschaft (DFG), 1975-1988 Gründer und Vorstand des Instituts für Angewandte Systemforschung und Prognose (ISP) in Hannover, 1977-1981 Minister für Wissenschaft und Kunst des Landes Niedersachsen (CDU)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/123151376",
-    "https://de.wikipedia.org/wiki/Eduard_Pestel"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Eduard Pestel",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/123151376",
-    "wikipedia": "https://de.wikipedia.org/wiki/Eduard_Pestel",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Eduard_Pestel"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1914-05-29",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hildesheim"
+  },
+  "deathDate": "1988-09-19",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hannover"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Ingenieur und Ökonom, 1953-1977 Professor für Mechanik und Regelungstechnik sowie Direktor am Institut für Mechanik der Technischen Universität Hannover, 1969–1970 Rektor der Gottfried Wilhelm Leibniz Universität Hannover, 1971-1977 Vizepräsident der Deutschen Forschungsgemeinschaft (DFG), 1975-1988 Gründer und Vorstand des Instituts für Angewandte Systemforschung und Prognose (ISP) in Hannover, 1977-1981 Minister für Wissenschaft und Kunst des Landes Niedersachsen (CDU)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/123151376",
+    "https://de.wikipedia.org/wiki/Eduard_Pestel"
+  ]
 }

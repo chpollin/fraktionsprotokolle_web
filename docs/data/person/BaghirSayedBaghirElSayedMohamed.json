@@ -1,21 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BaghirSayedBaghirElSayedMohamed",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BaghirSayedBaghirElSayedMohamed",
   "name": "Sayed Baghir El Sayed Mohamed Baghir",
   "givenName": "Sayed Baghir El Sayed Mohamed",
   "familyName": "Baghir",
-  "gender": "https://schema.org/Male",
-  "birthDate": null,
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1967/68 sudanesischer Generalkonsul in Bonn, dann bis Juni 1969 Leiter des sudanesischen Stabes an der somalischen Botschaft in Bonn"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Sayed Baghir El Sayed Mohamed Baghir",
@@ -36,10 +28,10 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Male",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1967/68 sudanesischer Generalkonsul in Bonn, dann bis Juni 1969 Leiter des sudanesischen Stabes an der somalischen Botschaft in Bonn"
   }
 }

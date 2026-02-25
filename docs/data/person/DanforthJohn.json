@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DanforthJohn",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DanforthJohn",
   "name": "John Danforth",
   "givenName": "John",
   "familyName": "Danforth",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1936-09-05",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "St. Louis, Missouri"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "US-amerikanischer Politiker (Republikanische Partei), 1976-1995 US-Senator, 2004-2005 Botschafter der USA bei den Vereinten Nationen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/John_Danforth",
-    "https://viaf.org/viaf/65258267/"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "John Danforth",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
     "wikipedia": "https://de.wikipedia.org/wiki/John_Danforth",
     "viaf": "https://viaf.org/viaf/65258267/"
-  }
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1936-09-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "St. Louis, Missouri"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "US-amerikanischer Politiker (Republikanische Partei), 1976-1995 US-Senator, 2004-2005 Botschafter der USA bei den Vereinten Nationen"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/John_Danforth",
+    "https://viaf.org/viaf/65258267/"
+  ]
 }

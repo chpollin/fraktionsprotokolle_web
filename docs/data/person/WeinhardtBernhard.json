@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WeinhardtBernhard",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WeinhardtBernhard",
   "name": "Bernhard Weinhardt",
   "givenName": "Bernhard",
   "familyName": "Weinhardt",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1901-02-17",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Pforzheim"
-  },
-  "deathDate": "1983-05-22",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1965–1970 Geschäftsführer der Bölkow GmbH, 1970–1974 Vorsitzender der Geschäftsleitung der Deutschen Airbus GmbH, 1970–1973 Präsident des Bundesverbandes der Deutschen Luft- und Raumfahrtindustrie"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1112191607",
-    "https://de.wikipedia.org/wiki/Bernhard_Weinhardt"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Bernhard Weinhardt",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1112191607",
-    "wikipedia": "https://de.wikipedia.org/wiki/Bernhard_Weinhardt",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Bernhard_Weinhardt"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1901-02-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Pforzheim"
+  },
+  "deathDate": "1983-05-22",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1965–1970 Geschäftsführer der Bölkow GmbH, 1970–1974 Vorsitzender der Geschäftsleitung der Deutschen Airbus GmbH, 1970–1973 Präsident des Bundesverbandes der Deutschen Luft- und Raumfahrtindustrie"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1112191607",
+    "https://de.wikipedia.org/wiki/Bernhard_Weinhardt"
+  ]
 }

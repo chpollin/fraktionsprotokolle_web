@@ -1,24 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MeibomBarbaravon",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MeibomBarbaravon",
   "name": "Barbara von Meibom, auch Barbara Mettler-Meibom bzw. Barbara Mettler-von Meibom",
   "givenName": "Barbara",
   "familyName": "Meibom",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1947",
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1989–2012 Professorin für Politikwissenschaft mit kommunikationswissenschaftlichem Schwerpunkt an der Universität Essen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/120435837",
-    "https://de.wikipedia.org/wiki/Barbara_von_Meibom"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Barbara von Meibom, auch Barbara Mettler-Meibom bzw. Barbara Mettler-von Meibom",
@@ -40,9 +29,17 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/120435837",
-    "wikipedia": "https://de.wikipedia.org/wiki/Barbara_von_Meibom",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Barbara_von_Meibom"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1947",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1989–2012 Professorin für Politikwissenschaft mit kommunikationswissenschaftlichem Schwerpunkt an der Universität Essen"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/120435837",
+    "https://de.wikipedia.org/wiki/Barbara_von_Meibom"
+  ]
 }

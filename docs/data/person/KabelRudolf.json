@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KabelRudolf",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KabelRudolf",
   "name": "Rudolf Kabel",
   "givenName": "Rudolf",
   "familyName": "Kabel",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1934-10-10",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Hamburg"
-  },
-  "deathDate": "2019-08-08",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bonn"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Verwaltungsjurist, ab 1970 Büroleiter des Bundestagsdirektors Helmut Schellknecht, ab 1973 Leiter des Parlamentssekretariats, ab 1975 Sekretariatsleiter des Bundestags-Sonderausschusses für die Diätenreform, ab 1977 zwölf Jahre lang Leiter des Büros der CDU/CSU-Fraktion im Deutschen Bundestag, 1991–1998 Direktor beim Deutschen Bundestag"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1192811291",
-    "https://de.wikipedia.org/wiki/Rudolf_Kabel"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Rudolf Kabel",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1192811291",
-    "wikipedia": "https://de.wikipedia.org/wiki/Rudolf_Kabel",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Rudolf_Kabel"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1934-10-10",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "deathDate": "2019-08-08",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Verwaltungsjurist, ab 1970 Büroleiter des Bundestagsdirektors Helmut Schellknecht, ab 1973 Leiter des Parlamentssekretariats, ab 1975 Sekretariatsleiter des Bundestags-Sonderausschusses für die Diätenreform, ab 1977 zwölf Jahre lang Leiter des Büros der CDU/CSU-Fraktion im Deutschen Bundestag, 1991–1998 Direktor beim Deutschen Bundestag"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1192811291",
+    "https://de.wikipedia.org/wiki/Rudolf_Kabel"
+  ]
 }

@@ -1,28 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KollatzUdo",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KollatzUdo",
   "name": "Udo Kollatz",
   "givenName": "Udo",
   "familyName": "Kollatz",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1931-03-01",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Königsberg, Ostpreußen (heute: Kaliningrad, Russland)"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Jurist, 1974–1978 Staatssekretär im Bundesministerium für wirtschaftliche Zusammenarbeit"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/105930423",
-    "https://de.wikipedia.org/wiki/Udo_Kollatz",
-    "https://viaf.org/viaf/57087738"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Udo Kollatz",
@@ -44,9 +29,23 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/105930423",
     "wikipedia": "https://de.wikipedia.org/wiki/Udo_Kollatz",
     "viaf": "https://viaf.org/viaf/57087738"
-  }
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1931-03-01",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Königsberg, Ostpreußen (heute: Kaliningrad, Russland)"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Jurist, 1974–1978 Staatssekretär im Bundesministerium für wirtschaftliche Zusammenarbeit"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/105930423",
+    "https://de.wikipedia.org/wiki/Udo_Kollatz",
+    "https://viaf.org/viaf/57087738"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FarnyOskar",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FarnyOskar",
   "name": "Oskar Farny",
   "givenName": "Oskar",
   "familyName": "Farny",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1891-04-09",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Dürren"
-  },
-  "deathDate": "1983-06-20",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Wangen im Allgäu"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1953–1960 Staatsminister für Bundesangelegenheiten des Landes Baden-Württemberg"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/130321788",
-    "https://de.wikipedia.org/wiki/Oskar_Farny"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Oskar Farny",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/130321788",
-    "wikipedia": "https://de.wikipedia.org/wiki/Oskar_Farny",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Oskar_Farny"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1891-04-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Dürren"
+  },
+  "deathDate": "1983-06-20",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Wangen im Allgäu"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1953–1960 Staatsminister für Bundesangelegenheiten des Landes Baden-Württemberg"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/130321788",
+    "https://de.wikipedia.org/wiki/Oskar_Farny"
+  ]
 }

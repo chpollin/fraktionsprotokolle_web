@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "TrampertRainer",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/TrampertRainer",
   "name": "Rainer Trampert",
   "givenName": "Rainer",
   "familyName": "Trampert",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1946-05-05",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Heuwisch, Kreis Dithmarschen"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Publizist und Politiker; Mitbegründer der Partei »Die Grünen« und 1982–1987 deren Bundesvorstandssprecher"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/110663659",
-    "https://de.wikipedia.org/wiki/Rainer_Trampert"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Rainer Trampert",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/110663659",
-    "wikipedia": "https://de.wikipedia.org/wiki/Rainer_Trampert",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Rainer_Trampert"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1946-05-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Heuwisch, Kreis Dithmarschen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Publizist und Politiker; Mitbegründer der Partei »Die Grünen« und 1982–1987 deren Bundesvorstandssprecher"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/110663659",
+    "https://de.wikipedia.org/wiki/Rainer_Trampert"
+  ]
 }

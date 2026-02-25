@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BrechtArnold",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BrechtArnold",
   "name": "Arnold Brecht",
   "givenName": "Arnold",
   "familyName": "Brecht",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1884-01-26",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Lübeck"
-  },
-  "deathDate": "1977-09-11",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Eutin"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1918–1933 Reichsbeamter, Hochschullehrer"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118673645",
-    "https://de.wikipedia.org/wiki/Arnold_Brecht"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Arnold Brecht",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118673645",
-    "wikipedia": "https://de.wikipedia.org/wiki/Arnold_Brecht",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Arnold_Brecht"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1884-01-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Lübeck"
+  },
+  "deathDate": "1977-09-11",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Eutin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1918–1933 Reichsbeamter, Hochschullehrer"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118673645",
+    "https://de.wikipedia.org/wiki/Arnold_Brecht"
+  ]
 }

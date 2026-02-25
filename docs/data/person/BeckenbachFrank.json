@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BeckenbachFrank",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BeckenbachFrank",
   "name": "Frank Beckenbach",
   "givenName": "Frank",
   "familyName": "Beckenbach",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1950",
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Mitarbeiter der Grünen-Bundestagsfraktion in der 10. Wahlperiode (Arbeitskreis I: Schwerpunkte Haushalt, Folgekosten, Makroökonomie), seit 1999 Professor für Umweltökonomie an der Universität Kassel"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/123621348"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Frank Beckenbach",
@@ -39,9 +29,15 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/123621348",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/123621348"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1950",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Mitarbeiter der Grünen-Bundestagsfraktion in der 10. Wahlperiode (Arbeitskreis I: Schwerpunkte Haushalt, Folgekosten, Makroökonomie), seit 1999 Professor für Umweltökonomie an der Universität Kassel"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/123621348"
+  ]
 }

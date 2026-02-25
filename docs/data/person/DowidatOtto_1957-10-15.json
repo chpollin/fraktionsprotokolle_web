@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DowidatOtto_1957-10-15",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DowidatOtto_1957-10-15",
   "name": "Otto Dowidat",
   "givenName": "Otto",
   "familyName": "Dowidat",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1896-10-27",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Remscheid"
-  },
-  "deathDate": "1975-07-04",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Remscheid"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Fabrikant [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Freien Demokratischen Partei",
-        "alternateName": "FDP"
-      },
-      "startDate": "1957-10-15",
-      "endDate": "1961-10-15"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1340041979",
-    "https://de.wikipedia.org/wiki/Otto_Dowidat"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Otto Dowidat",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000412",
     "gnd": "https://d-nb.info/gnd/1340041979",
-    "wikipedia": "https://de.wikipedia.org/wiki/Otto_Dowidat",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Otto_Dowidat"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1896-10-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Remscheid"
+  },
+  "deathDate": "1975-07-04",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Remscheid"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Fabrikant [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1957-10-15",
+      "endDate": "1961-10-15"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1340041979",
+    "https://de.wikipedia.org/wiki/Otto_Dowidat"
+  ]
 }

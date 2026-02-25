@@ -1,48 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MuellerAlbrecht_1987-02-18",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MuellerAlbrecht_1987-02-18",
   "name": "Albrecht Müller",
   "givenName": "Albrecht",
   "familyName": "Müller",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1938-05-16",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Heidelberg"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Dipl.-Volkswirt, selbstständig [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1987-02-18",
-      "endDate": "1990-12-20"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1990-12-20",
-      "endDate": "1994-11-10"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/129339032",
-    "https://de.wikipedia.org/wiki/Albrecht_M%C3%BCller_(Publizist)"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Albrecht Müller",
@@ -81,7 +46,42 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001543",
     "gnd": "https://d-nb.info/gnd/129339032",
-    "wikipedia": "https://de.wikipedia.org/wiki/Albrecht_M%C3%BCller_(Publizist)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Albrecht_M%C3%BCller_(Publizist)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1938-05-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Heidelberg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Volkswirt, selbstständig [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1987-02-18",
+      "endDate": "1990-12-20"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/129339032",
+    "https://de.wikipedia.org/wiki/Albrecht_M%C3%BCller_(Publizist)"
+  ]
 }

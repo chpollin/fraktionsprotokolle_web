@@ -1,57 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HoffmannHans-Joachim_1976-12-14",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HoffmannHans-Joachim_1976-12-14",
   "name": "Hans-Joachim Hoffmann",
   "givenName": "Hans-Joachim",
   "familyName": "Hoffmann",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1945-02-12",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Lichtenfels/Oberfranken"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Bankkaufmann, Diplomökonom [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1976-12-14",
-      "endDate": "1980-11-04"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1980-11-04",
-      "endDate": "1983-03-29"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1983-03-29",
-      "endDate": "1985-04-11"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1068378042"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Hans-Joachim Hoffmann",
@@ -96,8 +52,51 @@
   ],
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000937",
-    "gnd": "https://d-nb.info/gnd/1068378042",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/1068378042"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1945-02-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Lichtenfels/Oberfranken"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Bankkaufmann, Diplomökonom [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1976-12-14",
+      "endDate": "1980-11-04"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1980-11-04",
+      "endDate": "1983-03-29"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1983-03-29",
+      "endDate": "1985-04-11"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1068378042"
+  ]
 }

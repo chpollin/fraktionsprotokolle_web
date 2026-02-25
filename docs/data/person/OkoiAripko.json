@@ -1,21 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "OkoiAripko",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/OkoiAripko",
   "name": "Aripko Okoi",
   "givenName": "Aripko",
   "familyName": "Okoi",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1916",
-  "birthPlace": null,
-  "deathDate": "1995",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1967–1975 Außenminister Nigerias"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Aripko Okoi",
@@ -36,10 +28,12 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Male",
+  "birthDate": "1916",
+  "deathDate": "1995",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1967–1975 Außenminister Nigerias"
   }
 }

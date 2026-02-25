@@ -1,21 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RoedingHorst",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RoedingHorst",
   "name": "Horst Röding",
   "givenName": "Horst",
   "familyName": "Röding",
-  "gender": "https://schema.org/Male",
-  "birthDate": null,
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Vortragender Legationsrat I. Klasse und Leiter des Referats »Haushalt und Finanzen« im Auswärtigen Amt, Sept. 1968–März 1970 Generalsekretär der Kommission für die Reform des Auswärtigen Dienstes"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Horst Röding",
@@ -36,10 +28,10 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Male",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Vortragender Legationsrat I. Klasse und Leiter des Referats »Haushalt und Finanzen« im Auswärtigen Amt, Sept. 1968–März 1970 Generalsekretär der Kommission für die Reform des Auswärtigen Dienstes"
   }
 }

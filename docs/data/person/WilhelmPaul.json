@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WilhelmPaul",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WilhelmPaul",
   "name": "Paul Wilhelm",
   "givenName": "Paul",
   "familyName": "Wilhelm",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1935-11-25",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "deathDate": "2008-11-25",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Kreisvorsitzender der CSU in München und Mitglied des Landesvorstands des DGB, MdL Bayern, 1990 bis 1993 Staatssekretär der bayerischen Landesregierung im Bereich für Bundesangelegenheiten und Europafragen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/124124755",
-    "https://de.wikipedia.org/wiki/Paul_Wilhelm_(Politiker)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Paul Wilhelm",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/124124755",
-    "wikipedia": "https://de.wikipedia.org/wiki/Paul_Wilhelm_(Politiker)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Paul_Wilhelm_(Politiker)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1935-11-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "deathDate": "2008-11-25",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Kreisvorsitzender der CSU in München und Mitglied des Landesvorstands des DGB, MdL Bayern, 1990 bis 1993 Staatssekretär der bayerischen Landesregierung im Bereich für Bundesangelegenheiten und Europafragen"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/124124755",
+    "https://de.wikipedia.org/wiki/Paul_Wilhelm_(Politiker)"
+  ]
 }

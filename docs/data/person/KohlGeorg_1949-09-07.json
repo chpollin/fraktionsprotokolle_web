@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KohlGeorg_1949-09-07",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KohlGeorg_1949-09-07",
   "name": "Georg Kohl",
   "givenName": "Georg",
   "familyName": "Kohl",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1881-05-30",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "deathDate": "1952-01-31",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Brackenheim"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Redakteur, Verleger, Unternehmer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Freien Demokratischen Partei",
-        "alternateName": "FDP"
-      },
-      "startDate": "1949-09-07",
-      "endDate": "1952-01-31"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1026225930",
-    "https://de.wikipedia.org/wiki/Georg_Kohl"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Georg Kohl",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001164",
     "gnd": "https://d-nb.info/gnd/1026225930",
-    "wikipedia": "https://de.wikipedia.org/wiki/Georg_Kohl",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Georg_Kohl"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1881-05-30",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "deathDate": "1952-01-31",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Brackenheim"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Redakteur, Verleger, Unternehmer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1952-01-31"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1026225930",
+    "https://de.wikipedia.org/wiki/Georg_Kohl"
+  ]
 }

@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FeauxdelaCroixErnst",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FeauxdelaCroixErnst",
   "name": "Ernst Féaux de la Croix",
   "givenName": "Ernst",
   "familyName": "Féaux Croix",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1906-07-27",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Frankfurt am Main"
-  },
-  "deathDate": "1995",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Ministerialdirektor im Bundesministerium der Finanzen, 1959–1971 Leiter der Abteilung IV (»Liquidation des Krieges, Verteidigungslasten, Finanzielle Verteidigungsangelegenheiten, Rechtsangelegenheiten«)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/138473900",
-    "https://de.wikipedia.org/wiki/Ernst_F%C3%A9aux_de_la_Croix"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Ernst Féaux de la Croix",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/138473900",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ernst_F%C3%A9aux_de_la_Croix",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ernst_F%C3%A9aux_de_la_Croix"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1906-07-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Frankfurt am Main"
+  },
+  "deathDate": "1995",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Ministerialdirektor im Bundesministerium der Finanzen, 1959–1971 Leiter der Abteilung IV (»Liquidation des Krieges, Verteidigungslasten, Finanzielle Verteidigungsangelegenheiten, Rechtsangelegenheiten«)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/138473900",
+    "https://de.wikipedia.org/wiki/Ernst_F%C3%A9aux_de_la_Croix"
+  ]
 }

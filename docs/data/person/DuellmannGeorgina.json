@@ -1,26 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DuellmannGeorgina",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DuellmannGeorgina",
   "name": "Georgina (Gina) Meyer-Düllmann",
   "givenName": "Georgina Ida",
   "familyName": "Meyer-Düllmann",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1943",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Rio de Janeiro"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Künstlerin, 1984–1988 Mitarbeiterin der Grünen-Bundestagsfraktion"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1024402185"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Georgina (Gina) Meyer-Düllmann",
@@ -42,9 +29,19 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/1024402185",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/1024402185"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1943",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Rio de Janeiro"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Künstlerin, 1984–1988 Mitarbeiterin der Grünen-Bundestagsfraktion"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1024402185"
+  ]
 }

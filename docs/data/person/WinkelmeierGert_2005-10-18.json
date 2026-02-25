@@ -1,45 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WinkelmeierGert_2005-10-18",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WinkelmeierGert_2005-10-18",
   "name": "Gert Winkelmeier",
   "givenName": "Gert",
   "familyName": "Winkelmeier",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1956-03-28",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Neuwied"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Werbekaufmann [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion DIE LINKE.",
-        "alternateName": "LINKE"
-      },
-      "startDate": "2005-10-18",
-      "endDate": "2009-10-27"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktionslos",
-        "alternateName": "Fraktionslos"
-      },
-      "startDate": "2006-02-13",
-      "endDate": "2009-10-27"
-    }
-  ],
-  "sameAs": null,
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Gert Winkelmeier",
@@ -76,9 +44,38 @@
     }
   ],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11003864",
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
-  }
+    "mdb_stammdaten": "11003864"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1956-03-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Neuwied"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Werbekaufmann [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion DIE LINKE.",
+        "alternateName": "LINKE"
+      },
+      "startDate": "2005-10-18",
+      "endDate": "2009-10-27"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktionslos",
+        "alternateName": "Fraktionslos"
+      },
+      "startDate": "2006-02-13",
+      "endDate": "2009-10-27"
+    }
+  ]
 }

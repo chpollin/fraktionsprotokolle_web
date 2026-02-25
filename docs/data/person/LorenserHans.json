@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "LorenserHans",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/LorenserHans",
   "name": "Hans Lorenser",
   "givenName": "Hans",
   "familyName": "Lorenser",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1916-02-06",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Ludwigsburg"
-  },
-  "deathDate": "1989-07-18",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Ulm"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1964–1972 MdL (CDU) Baden-Württemberg, 1972–1984 Oberbürgermeister von Ulm, 1982–1983 Präsident der Deutschen Krankenhausgesellschaft (DKG)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118927744",
-    "https://de.wikipedia.org/wiki/Hans_Lorenser"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hans Lorenser",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118927744",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Lorenser",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Lorenser"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1916-02-06",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Ludwigsburg"
+  },
+  "deathDate": "1989-07-18",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Ulm"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1964–1972 MdL (CDU) Baden-Württemberg, 1972–1984 Oberbürgermeister von Ulm, 1982–1983 Präsident der Deutschen Krankenhausgesellschaft (DKG)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118927744",
+    "https://de.wikipedia.org/wiki/Hans_Lorenser"
+  ]
 }

@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BahlHolger",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BahlHolger",
   "name": "Holger Bahl",
   "givenName": "Holger",
   "familyName": "Bahl",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1942",
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "deutscher Bankier in Zürich"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/12418264X"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Holger Bahl",
@@ -39,9 +29,15 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/12418264X",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/12418264X"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1942",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Bankier in Zürich"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/12418264X"
+  ]
 }

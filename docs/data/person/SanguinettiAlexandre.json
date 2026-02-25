@@ -1,29 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SanguinettiAlexandre",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SanguinettiAlexandre",
   "name": "Alexandre Sanguinetti",
   "givenName": "Alexandre",
   "familyName": "Sanguinetti",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1913-03-27",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Kairo"
-  },
-  "deathDate": "1980-10-09",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Saint-Mandé,Val-de-Marne"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "französischer gaullistischer Politiker, 1962–1966 und 1968–1973 Mitglied der französischen Nationalversammlung und 1962–1966 Vizepräsident der Kommission für Nationale Verteidigung und Streitkräfte, 1966–1967 französischer Minister für Veteranen und Kriegsopfer"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "http://viaf.org/viaf/41961614"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Alexandre Sanguinetti",
@@ -45,9 +29,24 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
     "viaf": "http://viaf.org/viaf/41961614"
-  }
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1913-03-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kairo"
+  },
+  "deathDate": "1980-10-09",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Saint-Mandé,Val-de-Marne"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "französischer gaullistischer Politiker, 1962–1966 und 1968–1973 Mitglied der französischen Nationalversammlung und 1962–1966 Vizepräsident der Kommission für Nationale Verteidigung und Streitkräfte, 1966–1967 französischer Minister für Veteranen und Kriegsopfer"
+  },
+  "sameAs": [
+    "http://viaf.org/viaf/41961614"
+  ]
 }

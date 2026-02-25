@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RuperezJavier",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RuperezJavier",
   "name": "Francisco Javier Rupérez Rubio",
   "givenName": "Francisco Javier",
   "familyName": "Rupérez Rubio",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1941-04-24",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Madrid"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "spanischer christdemokratischer Politiker und Diplomat, 1979-1983 und 1986-2000 Abgeordneter des Congreso de los Diputados (UCD, PDP/DC, PP), 1983-1986 Mitglied des Senats (PDP/DC), seit 1977 Sekretär für Auslansbeziehungen und Mitglied des Exekutivkomitees der Unión de Centro Democrático (UCD), 1982-1983 spanischer Botschafter bei der NATO, 2000-2004 spanischer Botschafter in den USA, 2004-2007 stellvertretender Generalsekretär der Vereinten Nationen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1021151718",
-    "https://en.wikipedia.org/wiki/Javier_Rup%C3%A9rez"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Francisco Javier Rupérez Rubio",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1021151718",
-    "wikipedia": "https://en.wikipedia.org/wiki/Javier_Rup%C3%A9rez",
-    "viaf": null
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/Javier_Rup%C3%A9rez"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1941-04-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Madrid"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "spanischer christdemokratischer Politiker und Diplomat, 1979-1983 und 1986-2000 Abgeordneter des Congreso de los Diputados (UCD, PDP/DC, PP), 1983-1986 Mitglied des Senats (PDP/DC), seit 1977 Sekretär für Auslansbeziehungen und Mitglied des Exekutivkomitees der Unión de Centro Democrático (UCD), 1982-1983 spanischer Botschafter bei der NATO, 2000-2004 spanischer Botschafter in den USA, 2004-2007 stellvertretender Generalsekretär der Vereinten Nationen"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1021151718",
+    "https://en.wikipedia.org/wiki/Javier_Rup%C3%A9rez"
+  ]
 }

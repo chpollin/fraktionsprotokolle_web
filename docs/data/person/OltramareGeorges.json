@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "OltramareGeorges",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/OltramareGeorges",
   "name": "Georges Oltramare",
   "givenName": "Georges",
   "familyName": "Oltramare",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1896-04-17",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Genf"
-  },
-  "deathDate": "1960-08-16",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Genf"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Schweizer Autor; Mitarbeiter im ägyptischen Informationsministeriums"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/124746039",
-    "https://de.wikipedia.org/wiki/Georges_Oltramare"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Georges Oltramare",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/124746039",
-    "wikipedia": "https://de.wikipedia.org/wiki/Georges_Oltramare",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Georges_Oltramare"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1896-04-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Genf"
+  },
+  "deathDate": "1960-08-16",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Genf"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Schweizer Autor; Mitarbeiter im ägyptischen Informationsministeriums"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/124746039",
+    "https://de.wikipedia.org/wiki/Georges_Oltramare"
+  ]
 }

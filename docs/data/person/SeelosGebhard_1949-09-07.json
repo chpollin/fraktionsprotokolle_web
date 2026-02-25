@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SeelosGebhard_1949-09-07",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SeelosGebhard_1949-09-07",
   "name": "Gebhard Seelos",
   "givenName": "Gebhard",
   "familyName": "Seelos",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1901-03-13",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "deathDate": "1984-12-18",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Seehausen am Staffelsee"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Dipl.-Volkswirt, Jurist, Diplomat, Staatsrat a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion Bayernpartei",
-        "alternateName": "BP"
-      },
-      "startDate": "1949-09-07",
-      "endDate": "1951-09-25"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/133756343",
-    "https://de.wikipedia.org/wiki/Gebhard_Seelos"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Gebhard Seelos",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11002141",
     "gnd": "https://d-nb.info/gnd/133756343",
-    "wikipedia": "https://de.wikipedia.org/wiki/Gebhard_Seelos",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Gebhard_Seelos"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1901-03-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "deathDate": "1984-12-18",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Seehausen am Staffelsee"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Volkswirt, Jurist, Diplomat, Staatsrat a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Bayernpartei",
+        "alternateName": "BP"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1951-09-25"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/133756343",
+    "https://de.wikipedia.org/wiki/Gebhard_Seelos"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ReyJean",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ReyJean",
   "name": "Jean Rey",
   "givenName": "Jean",
   "familyName": "Rey",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1902-07-15",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Lüttich"
-  },
-  "deathDate": "1983-05-19",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Lüttich"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1958–Juli 1967 Mitglied der EWG-Kommission in Brüssel und Leiter der Abteilung für Außenbeziehungen, Juli 1967–1970 Präsident der EG-Kommission"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118744755",
-    "https://de.wikipedia.org/wiki/Jean_Rey"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Jean Rey",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118744755",
-    "wikipedia": "https://de.wikipedia.org/wiki/Jean_Rey",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Jean_Rey"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1902-07-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Lüttich"
+  },
+  "deathDate": "1983-05-19",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Lüttich"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1958–Juli 1967 Mitglied der EWG-Kommission in Brüssel und Leiter der Abteilung für Außenbeziehungen, Juli 1967–1970 Präsident der EG-Kommission"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118744755",
+    "https://de.wikipedia.org/wiki/Jean_Rey"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HellmuthOtto",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HellmuthOtto",
   "name": "Otto Hellmuth",
   "givenName": "Otto",
   "familyName": "Hellmuth",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1896-07-22",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Markt Einersheim"
-  },
-  "deathDate": "1968-04-20",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Reutlingen"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1934–1945 Regierungspräsident von Unter- bzw. Mainfranken, NSDAP-Gauleiter und Mitglied des Reichstags"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/122215087",
-    "https://de.wikipedia.org/wiki/Otto_Hellmuth"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Otto Hellmuth",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/122215087",
-    "wikipedia": "https://de.wikipedia.org/wiki/Otto_Hellmuth",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Otto_Hellmuth"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1896-07-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Markt Einersheim"
+  },
+  "deathDate": "1968-04-20",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Reutlingen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1934–1945 Regierungspräsident von Unter- bzw. Mainfranken, NSDAP-Gauleiter und Mitglied des Reichstags"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/122215087",
+    "https://de.wikipedia.org/wiki/Otto_Hellmuth"
+  ]
 }

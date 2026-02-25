@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SeitzFranz",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SeitzFranz",
   "name": "Franz Seitz",
   "givenName": "Franz",
   "familyName": "Seitz",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1921-10-22",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "deathDate": "2006-01-19",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Schliersee"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "deutscher Filmproduzent, Filmregisseur, Drehbuchautor und 1980 Oscargewinner in der Kategorie „Bester fremdsprachiger Film“ für Die Blechtrommel"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118993976",
-    "https://de.wikipedia.org/wiki/Franz_Seitz_junior"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Franz Seitz",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118993976",
-    "wikipedia": "https://de.wikipedia.org/wiki/Franz_Seitz_junior",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Franz_Seitz_junior"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1921-10-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "deathDate": "2006-01-19",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Schliersee"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Filmproduzent, Filmregisseur, Drehbuchautor und 1980 Oscargewinner in der Kategorie „Bester fremdsprachiger Film“ für Die Blechtrommel"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118993976",
+    "https://de.wikipedia.org/wiki/Franz_Seitz_junior"
+  ]
 }

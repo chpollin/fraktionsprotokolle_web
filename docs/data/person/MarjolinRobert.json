@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MarjolinRobert",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MarjolinRobert",
   "name": "Robert Marjolin",
   "givenName": "Robert",
   "familyName": "Marjolin",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1911-07-27",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Paris"
-  },
-  "deathDate": "1986-04-15",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Paris"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "französischer Europapolitiker, 1948–1954 Generalsekretär der Organisation für Europäische Wirtschaftliche Zusammenarbeit (OEEC), Kabinettschef im französischen Außenministerium, 1958–1962 Vizepräsident der EWG-Kommission (zuständig für Wirtschaft und Finanzen)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118841114",
-    "https://de.wikipedia.org/wiki/Robert_Marjolin"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Robert Marjolin",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118841114",
-    "wikipedia": "https://de.wikipedia.org/wiki/Robert_Marjolin",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Robert_Marjolin"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1911-07-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "deathDate": "1986-04-15",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "französischer Europapolitiker, 1948–1954 Generalsekretär der Organisation für Europäische Wirtschaftliche Zusammenarbeit (OEEC), Kabinettschef im französischen Außenministerium, 1958–1962 Vizepräsident der EWG-Kommission (zuständig für Wirtschaft und Finanzen)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118841114",
+    "https://de.wikipedia.org/wiki/Robert_Marjolin"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PoullainLudwig",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PoullainLudwig",
   "name": "Ludwig Poullain",
   "givenName": "Ludwig",
   "familyName": "Poullain",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1919-12-23",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Lüttringhausen"
-  },
-  "deathDate": "2015-02-10",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Münster"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1967–1972 Präsident des Deutschen Sparkassen- und Giroverbandes; 1969–1977 Vorstandsvorsitzender der Westdeutschen Landesbank"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118596020",
-    "https://de.wikipedia.org/wiki/Ludwig_Poullain"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Ludwig Poullain",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118596020",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ludwig_Poullain",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ludwig_Poullain"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1919-12-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Lüttringhausen"
+  },
+  "deathDate": "2015-02-10",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Münster"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1967–1972 Präsident des Deutschen Sparkassen- und Giroverbandes; 1969–1977 Vorstandsvorsitzender der Westdeutschen Landesbank"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118596020",
+    "https://de.wikipedia.org/wiki/Ludwig_Poullain"
+  ]
 }

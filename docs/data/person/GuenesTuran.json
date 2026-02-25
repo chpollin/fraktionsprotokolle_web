@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GuenesTuran",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GuenesTuran",
   "name": "Turan Güneş",
   "givenName": "Turan",
   "familyName": "Güneş",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1921",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Kandıra"
-  },
-  "deathDate": "1982-04-09",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Çanakkale, Provinz Çanakkale"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "türkischer Rechtswissenschaftler, Hochschullehrer und Politiker, 1973 bis 1974 Außenminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/136262899",
-    "https://de.wikipedia.org/wiki/Turan_G%C3%BCne%C5%9F"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Turan Güneş",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/136262899",
-    "wikipedia": "https://de.wikipedia.org/wiki/Turan_G%C3%BCne%C5%9F",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Turan_G%C3%BCne%C5%9F"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1921",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kandıra"
+  },
+  "deathDate": "1982-04-09",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Çanakkale, Provinz Çanakkale"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "türkischer Rechtswissenschaftler, Hochschullehrer und Politiker, 1973 bis 1974 Außenminister"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/136262899",
+    "https://de.wikipedia.org/wiki/Turan_G%C3%BCne%C5%9F"
+  ]
 }

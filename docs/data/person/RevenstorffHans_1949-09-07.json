@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RevenstorffHans_1949-09-07",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RevenstorffHans_1949-09-07",
   "name": "Hans Revenstorff",
   "givenName": "Hans",
   "familyName": "Revenstorff",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1906-08-24",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Westermühlen"
-  },
-  "deathDate": "1978-08-08",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Itzehoe"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Landwirt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Freien Demokratischen Partei",
-        "alternateName": "FDP"
-      },
-      "startDate": "1949-09-07",
-      "endDate": "1953-09-07"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1030229546",
-    "https://de.wikipedia.org/wiki/Hans_Revenstorff"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Hans Revenstorff",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001829",
     "gnd": "https://d-nb.info/gnd/1030229546",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Revenstorff",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Revenstorff"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1906-08-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Westermühlen"
+  },
+  "deathDate": "1978-08-08",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Itzehoe"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Landwirt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1030229546",
+    "https://de.wikipedia.org/wiki/Hans_Revenstorff"
+  ]
 }

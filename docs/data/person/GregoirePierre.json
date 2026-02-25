@@ -1,29 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GregoirePierre",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GregoirePierre",
   "name": "Pierre Grégoire",
   "givenName": "Pierre",
   "familyName": "Grégoire",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1907-11-09",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Vichten"
-  },
-  "deathDate": "1991-04-08",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Luxemburg (Stadt)"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1967–1969 luxemburgischer Außen- und Verteidigungsminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Pierre_Gr%C3%A9goire"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Pierre Grégoire",
@@ -45,9 +29,24 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://de.wikipedia.org/wiki/Pierre_Gr%C3%A9goire",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Pierre_Gr%C3%A9goire"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1907-11-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Vichten"
+  },
+  "deathDate": "1991-04-08",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Luxemburg (Stadt)"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1967–1969 luxemburgischer Außen- und Verteidigungsminister"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Pierre_Gr%C3%A9goire"
+  ]
 }

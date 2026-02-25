@@ -1,35 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GroschekMichael_2009-10-27",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GroschekMichael_2009-10-27",
   "name": "Michael Groschek",
   "givenName": "Michael",
   "familyName": "Groschek",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1956-12-09",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Oberhausen"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Immobilienkaufmann [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "2009-10-27",
-      "endDate": "2012-06-21"
-    }
-  ],
-  "sameAs": null,
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Michael Groschek",
@@ -59,9 +37,28 @@
     }
   ],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11004044",
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
-  }
+    "mdb_stammdaten": "11004044"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1956-12-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Oberhausen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Immobilienkaufmann [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "2009-10-27",
+      "endDate": "2012-06-21"
+    }
+  ]
 }

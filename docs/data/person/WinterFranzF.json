@@ -1,29 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WinterFranzF",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WinterFranzF",
   "name": "Franz F. Winter",
   "givenName": "Franz Florian",
   "familyName": "Winter",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1923-03-23",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Maxhütte"
-  },
-  "deathDate": "2010-12-11",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Tegernsee"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Metzgermeister, Fachlehrer an Berufsschulen, Fachredakteur einer Fleischerfachzeitung, Wurstwarenunternehmer und 1965–1966 Vorsitzender des Landesverbands Bayern der NPD"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/129102814"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Franz F. Winter",
@@ -45,9 +29,24 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/129102814",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/129102814"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1923-03-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Maxhütte"
+  },
+  "deathDate": "2010-12-11",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Tegernsee"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Metzgermeister, Fachlehrer an Berufsschulen, Fachredakteur einer Fleischerfachzeitung, Wurstwarenunternehmer und 1965–1966 Vorsitzender des Landesverbands Bayern der NPD"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/129102814"
+  ]
 }

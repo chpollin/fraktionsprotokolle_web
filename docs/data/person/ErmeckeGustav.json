@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ErmeckeGustav",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ErmeckeGustav",
   "name": "Gustav Ermecke",
   "givenName": "Gustav",
   "familyName": "Ermecke",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1907-02-28",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Hörde, Grafschaft Mark"
-  },
-  "deathDate": "1987-02-17",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Witten, Westfalen"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Professor für Systematische Theologie an der Erzbischöflichen Akademie Paderborn"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118530860",
-    "https://de.wikipedia.org/wiki/Gustav_Ermecke"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Gustav Ermecke",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118530860",
-    "wikipedia": "https://de.wikipedia.org/wiki/Gustav_Ermecke",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Gustav_Ermecke"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1907-02-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hörde, Grafschaft Mark"
+  },
+  "deathDate": "1987-02-17",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Witten, Westfalen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Professor für Systematische Theologie an der Erzbischöflichen Akademie Paderborn"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118530860",
+    "https://de.wikipedia.org/wiki/Gustav_Ermecke"
+  ]
 }

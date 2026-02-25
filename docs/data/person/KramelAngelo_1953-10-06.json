@@ -1,10 +1,53 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KramelAngelo_1953-10-06",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KramelAngelo_1953-10-06",
   "name": "Angelo Kramel",
   "givenName": "Angelo",
   "familyName": "Kramel",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Angelo Kramel",
+    "forename": "Angelo",
+    "surname": "Kramel",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1903-01-28",
+    "place": "Cham",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1975-06-30",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 3,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001194",
+    "gnd": "https://d-nb.info/gnd/124550193",
+    "wikipedia": "https://de.wikipedia.org/wiki/Angelo_Kramel"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1903-01-28",
   "birthPlace": {
@@ -45,46 +88,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/124550193",
     "https://de.wikipedia.org/wiki/Angelo_Kramel"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Angelo Kramel",
-    "forename": "Angelo",
-    "surname": "Kramel",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1903-01-28",
-    "place": "Cham",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1975-06-30",
-    "place": "München",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 2,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1953-10-06",
-      "to": "1957-10-06"
-    },
-    {
-      "period": 3,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1957-10-15",
-      "to": "1961-10-15"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11001194",
-    "gnd": "https://d-nb.info/gnd/124550193",
-    "wikipedia": "https://de.wikipedia.org/wiki/Angelo_Kramel",
-    "viaf": null
-  }
+  ]
 }

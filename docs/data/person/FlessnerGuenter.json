@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FlessnerGuenter",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FlessnerGuenter",
   "name": "Günter Flessner",
   "givenName": "Günter",
   "familyName": "Flessner",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1930-11-07",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Tarbek"
-  },
-  "deathDate": "2016-05-12",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Dersau"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1971–1988 MdL Schleswig-Holstein (CDU), 1975–1988 Minister für Ernährung, Landwirtschaft und Forsten des Landes Schleswig-Holstein"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/120328917",
-    "https://de.wikipedia.org/wiki/G%C3%BCnter_Flessner"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Günter Flessner",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/120328917",
-    "wikipedia": "https://de.wikipedia.org/wiki/G%C3%BCnter_Flessner",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/G%C3%BCnter_Flessner"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1930-11-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Tarbek"
+  },
+  "deathDate": "2016-05-12",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Dersau"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1971–1988 MdL Schleswig-Holstein (CDU), 1975–1988 Minister für Ernährung, Landwirtschaft und Forsten des Landes Schleswig-Holstein"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/120328917",
+    "https://de.wikipedia.org/wiki/G%C3%BCnter_Flessner"
+  ]
 }

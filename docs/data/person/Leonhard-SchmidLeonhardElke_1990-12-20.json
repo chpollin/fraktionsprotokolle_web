@@ -1,10 +1,67 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "Leonhard-SchmidLeonhardElke_1990-12-20",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/Leonhard-SchmidLeonhardElke_1990-12-20",
   "name": "Elke Leonhard, geb. Schmid, ehem. verh. Leonhard-Schmid",
   "givenName": "Elke",
   "familyName": "Leonhard-Schmid",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Elke Leonhard, geb. Schmid, ehem. verh. Leonhard-Schmid",
+    "forename": "Elke",
+    "surname": "Leonhard-Schmid",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1949-05-17",
+    "place": "Fritzlar",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2025-01-01",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 12,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1990-12-20",
+      "to": "1994-11-10"
+    },
+    {
+      "period": 13,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1994-11-10",
+      "to": "1998-10-26"
+    },
+    {
+      "period": 14,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1998-10-26",
+      "to": "2002-10-17"
+    },
+    {
+      "period": 15,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "2002-10-17",
+      "to": "2005-10-18"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002723",
+    "gnd": "https://d-nb.info/gnd/110030303",
+    "wikipedia": "https://de.wikipedia.org/wiki/Elke_Leonhard"
+  },
   "gender": "https://schema.org/Female",
   "birthDate": "1949-05-17",
   "birthPlace": {
@@ -66,61 +123,6 @@
     "https://d-nb.info/gnd/110030303",
     "https://de.wikipedia.org/wiki/Elke_Leonhard"
   ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Elke Leonhard, geb. Schmid, ehem. verh. Leonhard-Schmid",
-    "forename": "Elke",
-    "surname": "Leonhard-Schmid",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1949-05-17",
-    "place": "Fritzlar",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "2025-01-01",
-    "place": "Berlin",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 12,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1990-12-20",
-      "to": "1994-11-10"
-    },
-    {
-      "period": 13,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1994-11-10",
-      "to": "1998-10-26"
-    },
-    {
-      "period": 14,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1998-10-26",
-      "to": "2002-10-17"
-    },
-    {
-      "period": 15,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "2002-10-17",
-      "to": "2005-10-18"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11002723",
-    "gnd": "https://d-nb.info/gnd/110030303",
-    "wikipedia": "https://de.wikipedia.org/wiki/Elke_Leonhard",
-    "viaf": null
-  },
   "fraktionsprotokolle:alt_names": [
     {
       "reg": "Elke Leonhard",

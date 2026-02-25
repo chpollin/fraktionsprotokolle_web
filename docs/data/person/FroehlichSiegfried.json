@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FroehlichSiegfried",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FroehlichSiegfried",
   "name": "Siegfried Fröhlich",
   "givenName": "Siegfried",
   "familyName": "Fröhlich",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1920-06-04",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Weißenhorn"
-  },
-  "deathDate": "2012-06-19",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Tutzing"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1974–1985 beamteter Staatssekretär im Bundesinnenministerium"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1060144190",
-    "https://de.wikipedia.org/wiki/Siegfried_Fr%C3%B6hlich_(Staatssekret%C3%A4r)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Siegfried Fröhlich",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1060144190",
-    "wikipedia": "https://de.wikipedia.org/wiki/Siegfried_Fr%C3%B6hlich_(Staatssekret%C3%A4r)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Siegfried_Fr%C3%B6hlich_(Staatssekret%C3%A4r)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1920-06-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Weißenhorn"
+  },
+  "deathDate": "2012-06-19",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Tutzing"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1974–1985 beamteter Staatssekretär im Bundesinnenministerium"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1060144190",
+    "https://de.wikipedia.org/wiki/Siegfried_Fr%C3%B6hlich_(Staatssekret%C3%A4r)"
+  ]
 }

@@ -1,29 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ChiavarelliEleonora",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ChiavarelliEleonora",
   "name": "Eleonora Chiavarelli, verh. Moro",
   "givenName": "Eleonora",
   "familyName": "Chiavarelli",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1915-09-25",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Montemarciano"
-  },
-  "deathDate": "2010-07-18",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Rom"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Literaturwissenschaftlerin, während des Zweiten Weltkriegs Tätigkeit beim Italienischen Roten Kreuz, Gymnasiallehrerin"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://en.wikipedia.org/wiki/Eleonora_Chiavarelli"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Eleonora Chiavarelli, verh. Moro",
@@ -45,10 +29,25 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://en.wikipedia.org/wiki/Eleonora_Chiavarelli",
-    "viaf": null
+    "wikipedia": "https://en.wikipedia.org/wiki/Eleonora_Chiavarelli"
   },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1915-09-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Montemarciano"
+  },
+  "deathDate": "2010-07-18",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Rom"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Literaturwissenschaftlerin, während des Zweiten Weltkriegs Tätigkeit beim Italienischen Roten Kreuz, Gymnasiallehrerin"
+  },
+  "sameAs": [
+    "https://en.wikipedia.org/wiki/Eleonora_Chiavarelli"
+  ],
   "fraktionsprotokolle:sonstiges": "Ehefrau des am 16. März 1978 von der Terrororganisation »Brigate Rosse« entführten und am 9. Mai 1978 durch Mario Moretti ermordeten italienischen Ministerpräsident Aldo Moro"
 }

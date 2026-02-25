@@ -1,77 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "Dehm-DesoiDehmJoerg-Diether_1994-08-16",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/Dehm-DesoiDehmJoerg-Diether_1994-08-16",
   "name": "Jörg-Diether Dehm-Desoi",
   "givenName": "Jörg-Diether",
   "familyName": "Dehm-Desoi",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1950-04-03",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Frankfurt/Main"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Autor, Geschäftsführer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1994-08-16",
-      "endDate": "1994-11-10"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion DIE LINKE.",
-        "alternateName": "LINKE"
-      },
-      "startDate": "2005-10-18",
-      "endDate": "2009-10-27"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion DIE LINKE.",
-        "alternateName": "LINKE"
-      },
-      "startDate": "2009-10-27",
-      "endDate": "2013-10-22"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion DIE LINKE.",
-        "alternateName": "LINKE"
-      },
-      "startDate": "2013-10-22",
-      "endDate": "2017-10-24"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion DIE LINKE.",
-        "alternateName": "LINKE"
-      },
-      "startDate": "2017-10-24"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/118572016",
-    "https://de.wikipedia.org/wiki/Diether_Dehm"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Jörg-Diether Dehm-Desoi",
@@ -131,9 +67,73 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000365",
     "gnd": "https://d-nb.info/gnd/118572016",
-    "wikipedia": "https://de.wikipedia.org/wiki/Diether_Dehm",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Diether_Dehm"
   },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1950-04-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Frankfurt/Main"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Autor, Geschäftsführer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1994-08-16",
+      "endDate": "1994-11-10"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion DIE LINKE.",
+        "alternateName": "LINKE"
+      },
+      "startDate": "2005-10-18",
+      "endDate": "2009-10-27"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion DIE LINKE.",
+        "alternateName": "LINKE"
+      },
+      "startDate": "2009-10-27",
+      "endDate": "2013-10-22"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion DIE LINKE.",
+        "alternateName": "LINKE"
+      },
+      "startDate": "2013-10-22",
+      "endDate": "2017-10-24"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion DIE LINKE.",
+        "alternateName": "LINKE"
+      },
+      "startDate": "2017-10-24"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/118572016",
+    "https://de.wikipedia.org/wiki/Diether_Dehm"
+  ],
   "fraktionsprotokolle:alt_names": [
     {
       "reg": "Diether Dehm",

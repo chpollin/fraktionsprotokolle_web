@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GottwaldKlement",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GottwaldKlement",
   "name": "Klement Gottwald",
   "givenName": "Klement",
   "familyName": "Gottwald",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1896-11-23",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Dieditz, Mähren (heute: Dědice, Tschechische Republik)"
-  },
-  "deathDate": "1953-03-14",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Prag"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1946–1948 Ministerpräsident der Tschechoslowakei, 1948–1953 Staatspräsident"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118696742",
-    "https://de.wikipedia.org/wiki/Klement_Gottwald"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Klement Gottwald",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118696742",
-    "wikipedia": "https://de.wikipedia.org/wiki/Klement_Gottwald",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Klement_Gottwald"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1896-11-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Dieditz, Mähren (heute: Dědice, Tschechische Republik)"
+  },
+  "deathDate": "1953-03-14",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Prag"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1946–1948 Ministerpräsident der Tschechoslowakei, 1948–1953 Staatspräsident"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118696742",
+    "https://de.wikipedia.org/wiki/Klement_Gottwald"
+  ]
 }

@@ -1,10 +1,81 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SpitzmuellerKurt_1957-10-15",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SpitzmuellerKurt_1957-10-15",
   "name": "Kurt Spitzmüller",
   "givenName": "Kurt",
   "familyName": "Spitzmüller",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Kurt Spitzmüller",
+    "forename": "Kurt",
+    "surname": "Spitzmüller",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1921-05-13",
+    "place": "Freiburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2014-12-15",
+    "place": "Nordrach",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 3,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 4,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    },
+    {
+      "period": 5,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    },
+    {
+      "period": 6,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1971-01-12",
+      "to": "1972-09-22"
+    },
+    {
+      "period": 7,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1972-12-13",
+      "to": "1976-12-13"
+    },
+    {
+      "period": 8,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1976-12-14",
+      "to": "1980-11-04"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002202",
+    "gnd": "https://d-nb.info/gnd/1012799506",
+    "wikipedia": "https://de.wikipedia.org/wiki/Kurt_Spitzm%C3%BCller"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1921-05-13",
   "birthPlace": {
@@ -85,74 +156,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/1012799506",
     "https://de.wikipedia.org/wiki/Kurt_Spitzm%C3%BCller"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Kurt Spitzmüller",
-    "forename": "Kurt",
-    "surname": "Spitzmüller",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1921-05-13",
-    "place": "Freiburg",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "2014-12-15",
-    "place": "Nordrach",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 3,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1957-10-15",
-      "to": "1961-10-15"
-    },
-    {
-      "period": 4,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1961-10-17",
-      "to": "1965-10-17"
-    },
-    {
-      "period": 5,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1965-10-19",
-      "to": "1969-10-19"
-    },
-    {
-      "period": 6,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1971-01-12",
-      "to": "1972-09-22"
-    },
-    {
-      "period": 7,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1972-12-13",
-      "to": "1976-12-13"
-    },
-    {
-      "period": 8,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1976-12-14",
-      "to": "1980-11-04"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11002202",
-    "gnd": "https://d-nb.info/gnd/1012799506",
-    "wikipedia": "https://de.wikipedia.org/wiki/Kurt_Spitzm%C3%BCller",
-    "viaf": null
-  }
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "LubbeMarinusvander",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/LubbeMarinusvander",
   "name": "Marinus van der Lubbe",
   "givenName": "Marinus",
   "familyName": "Lubbe",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1909-01-13",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Leiden"
-  },
-  "deathDate": "1934-01-10",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Leipzig"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "niederländischer Arbeiter, am 27. Februar 1933 im brennenden Reichstagsgebäude festgenommen, wegen »Hochverrats in Tateinheit mit vorsätzlicher Brandstiftung« zum Tode verurteilt und hingerichtet"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118574663",
-    "https://de.wikipedia.org/wiki/Marinus_van_der_Lubbe"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Marinus van der Lubbe",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118574663",
-    "wikipedia": "https://de.wikipedia.org/wiki/Marinus_van_der_Lubbe",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Marinus_van_der_Lubbe"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1909-01-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Leiden"
+  },
+  "deathDate": "1934-01-10",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Leipzig"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "niederländischer Arbeiter, am 27. Februar 1933 im brennenden Reichstagsgebäude festgenommen, wegen »Hochverrats in Tateinheit mit vorsätzlicher Brandstiftung« zum Tode verurteilt und hingerichtet"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118574663",
+    "https://de.wikipedia.org/wiki/Marinus_van_der_Lubbe"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PertiniSandro",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PertiniSandro",
   "name": "Sandro Pertini",
   "givenName": "Alessandro »Sandro«",
   "familyName": "Pertini",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1896-09-25",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Stella"
-  },
-  "deathDate": "1990-02-24",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Rom"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Dipl.-Politologe, 1945 Sekretär und Mitglied des Vorstandes der Partito Socialista Italiano (PSI), 1946–1948 Mitglied der Verfassunggebenden Versammlung der Italienischen Republik (Assemblea Costituente), 1948–1953 und 1985–1990 Mitglied des Senato della Repubblica, 1953–1978 Mitglied der Camera dei Deputati (davon 1968–1976 deren Präsident), 1978-1985 italienischer Staatspräsident"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/120135639",
-    "https://de.wikipedia.org/wiki/Sandro_Pertini"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Sandro Pertini",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/120135639",
-    "wikipedia": "https://de.wikipedia.org/wiki/Sandro_Pertini",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Sandro_Pertini"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1896-09-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Stella"
+  },
+  "deathDate": "1990-02-24",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Rom"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Politologe, 1945 Sekretär und Mitglied des Vorstandes der Partito Socialista Italiano (PSI), 1946–1948 Mitglied der Verfassunggebenden Versammlung der Italienischen Republik (Assemblea Costituente), 1948–1953 und 1985–1990 Mitglied des Senato della Repubblica, 1953–1978 Mitglied der Camera dei Deputati (davon 1968–1976 deren Präsident), 1978-1985 italienischer Staatspräsident"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/120135639",
+    "https://de.wikipedia.org/wiki/Sandro_Pertini"
+  ]
 }

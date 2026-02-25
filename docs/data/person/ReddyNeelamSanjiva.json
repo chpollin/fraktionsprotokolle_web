@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ReddyNeelamSanjiva",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ReddyNeelamSanjiva",
   "name": "Neelam Sanjiva Reddy",
   "givenName": "Neelam Sanjiva",
   "familyName": "Reddy",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1913-05-19",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Illuri, Distrikt Anantapur"
-  },
-  "deathDate": "1996-06-01",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bangalore, Karnataka"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Vorsitzender des indischen Unterhauses und 1969 offizieller Kandidat der Kongreßpartei für die indische Präsidentenwahl"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1145654185",
-    "https://de.wikipedia.org/wiki/Neelam_Sanjiva_Reddy"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Neelam Sanjiva Reddy",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1145654185",
-    "wikipedia": "https://de.wikipedia.org/wiki/Neelam_Sanjiva_Reddy",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Neelam_Sanjiva_Reddy"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1913-05-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Illuri, Distrikt Anantapur"
+  },
+  "deathDate": "1996-06-01",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bangalore, Karnataka"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Vorsitzender des indischen Unterhauses und 1969 offizieller Kandidat der Kongreßpartei für die indische Präsidentenwahl"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1145654185",
+    "https://de.wikipedia.org/wiki/Neelam_Sanjiva_Reddy"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchneiderFritz",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchneiderFritz",
   "name": "Fritz Schneider",
   "givenName": "Fritz",
   "familyName": "Schneider",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1916-10-08",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Ludwigshafen am Rhein"
-  },
-  "deathDate": "2006-11-04",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Kaiserslautern"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1958–1975 MdL Rheinland-Pfalz (FDP, 1974–1975 fraktionslos), 1963–1971 Justizminister von Rheinland-Pfalz, 1974 Austritt aus der FDP, 1981 Eintritt in die CDU"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1120412765",
-    "https://de.wikipedia.org/wiki/Fritz_Schneider_(Politiker,_1916)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Fritz Schneider",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1120412765",
-    "wikipedia": "https://de.wikipedia.org/wiki/Fritz_Schneider_(Politiker,_1916)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Fritz_Schneider_(Politiker,_1916)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1916-10-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Ludwigshafen am Rhein"
+  },
+  "deathDate": "2006-11-04",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Kaiserslautern"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1958–1975 MdL Rheinland-Pfalz (FDP, 1974–1975 fraktionslos), 1963–1971 Justizminister von Rheinland-Pfalz, 1974 Austritt aus der FDP, 1981 Eintritt in die CDU"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1120412765",
+    "https://de.wikipedia.org/wiki/Fritz_Schneider_(Politiker,_1916)"
+  ]
 }

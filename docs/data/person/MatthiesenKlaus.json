@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MatthiesenKlaus",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MatthiesenKlaus",
   "name": "Klaus Matthiesen",
   "givenName": "Klaus",
   "familyName": "Matthiesen",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1941-02-15",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Gangerschild, Kreis Schleswig-Flensburg"
-  },
-  "deathDate": "1998-12-09",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Düsseldorf"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Politiker (SPD), Fraktionsvorsitzender der SPD im schleswig-holsteinischen Landtag; Spitzenkandidat der SPD für das Amt des Ministerpräsidenten von Schleswig-Holstein bei den Landtagswahlen von 1975 und 1979"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/111495768",
-    "https://de.wikipedia.org/wiki/Klaus_Matthiesen"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Klaus Matthiesen",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/111495768",
-    "wikipedia": "https://de.wikipedia.org/wiki/Klaus_Matthiesen",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Klaus_Matthiesen"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1941-02-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Gangerschild, Kreis Schleswig-Flensburg"
+  },
+  "deathDate": "1998-12-09",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Düsseldorf"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Politiker (SPD), Fraktionsvorsitzender der SPD im schleswig-holsteinischen Landtag; Spitzenkandidat der SPD für das Amt des Ministerpräsidenten von Schleswig-Holstein bei den Landtagswahlen von 1975 und 1979"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/111495768",
+    "https://de.wikipedia.org/wiki/Klaus_Matthiesen"
+  ]
 }

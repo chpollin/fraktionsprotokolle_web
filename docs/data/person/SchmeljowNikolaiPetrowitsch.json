@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchmeljowNikolaiPetrowitsch",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchmeljowNikolaiPetrowitsch",
   "name": "Nikolai Petrowitsch Schmeljow",
   "givenName": "Nikolai Petrowitsch",
   "familyName": "Schmeljow",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1936-06-18",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Moskau"
-  },
-  "deathDate": "2014-01-06",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Moskau"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "sowjetischer Wirtschaftswissenschaftler und Schriftsteller"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/103355650",
-    "https://de.wikipedia.org/wiki/Nikolai_Petrowitsch_Schmeljow"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Nikolai Petrowitsch Schmeljow",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/103355650",
-    "wikipedia": "https://de.wikipedia.org/wiki/Nikolai_Petrowitsch_Schmeljow",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Nikolai_Petrowitsch_Schmeljow"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1936-06-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Moskau"
+  },
+  "deathDate": "2014-01-06",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Moskau"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "sowjetischer Wirtschaftswissenschaftler und Schriftsteller"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/103355650",
+    "https://de.wikipedia.org/wiki/Nikolai_Petrowitsch_Schmeljow"
+  ]
 }

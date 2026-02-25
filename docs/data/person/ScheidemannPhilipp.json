@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ScheidemannPhilipp",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ScheidemannPhilipp",
   "name": "Philipp Scheidemann",
   "givenName": "Philipp",
   "familyName": "Scheidemann",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1865-07-26",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Kassel"
-  },
-  "deathDate": "1939-11-29",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Kopenhagen"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "MdR (SPD), Vorsitzender der Reichstagsfraktion, 1919 Reichsministerpräsident, 1919–1925 Oberbürgermeister von Kassel"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118754351",
-    "https://de.wikipedia.org/wiki/Philipp_Scheidemann"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Philipp Scheidemann",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118754351",
-    "wikipedia": "https://de.wikipedia.org/wiki/Philipp_Scheidemann",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Philipp_Scheidemann"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1865-07-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kassel"
+  },
+  "deathDate": "1939-11-29",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Kopenhagen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "MdR (SPD), Vorsitzender der Reichstagsfraktion, 1919 Reichsministerpräsident, 1919–1925 Oberbürgermeister von Kassel"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118754351",
+    "https://de.wikipedia.org/wiki/Philipp_Scheidemann"
+  ]
 }

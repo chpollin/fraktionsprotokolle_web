@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RobertsAdam",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RobertsAdam",
   "name": "Adam Roberts",
   "givenName": "Adam",
   "familyName": "Roberts",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1940-08-29",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Penrith, Inggris"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Politologe, 1981-1986 Professor für Internatationale Beziehungen am St. Antony's College, Oxford"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/128581417",
-    "https://en.wikipedia.org/wiki/Adam_Roberts_(scholar)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Adam Roberts",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/128581417",
-    "wikipedia": "https://en.wikipedia.org/wiki/Adam_Roberts_(scholar)",
-    "viaf": null
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/Adam_Roberts_(scholar)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1940-08-29",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Penrith, Inggris"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Politologe, 1981-1986 Professor für Internatationale Beziehungen am St. Antony's College, Oxford"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/128581417",
+    "https://en.wikipedia.org/wiki/Adam_Roberts_(scholar)"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "NeinhausCarl",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/NeinhausCarl",
   "name": "Carl Neinhaus",
   "givenName": "Carl",
   "familyName": "Neinhaus",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1888-03-20",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Hochemmerich"
-  },
-  "deathDate": "1965-11-13",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Stuttgart"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1952–1960 MdL Baden-Württemberg (CDU), 1952–1958 Oberbürgermeister von Heidelberg"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/116908513",
-    "https://de.wikipedia.org/wiki/Carl_Neinhaus"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Carl Neinhaus",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/116908513",
-    "wikipedia": "https://de.wikipedia.org/wiki/Carl_Neinhaus",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Carl_Neinhaus"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1888-03-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hochemmerich"
+  },
+  "deathDate": "1965-11-13",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Stuttgart"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1952–1960 MdL Baden-Württemberg (CDU), 1952–1958 Oberbürgermeister von Heidelberg"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/116908513",
+    "https://de.wikipedia.org/wiki/Carl_Neinhaus"
+  ]
 }

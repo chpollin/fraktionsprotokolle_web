@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GoetzHansHerbert",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GoetzHansHerbert",
   "name": "Hans Herbert Götz",
   "givenName": "Hans Herbert",
   "familyName": "Götz",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1921-01-29",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Düsseldorf"
-  },
-  "deathDate": "1999-11-14",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Wirtschaftsjournalist, seit 1949 Redakteur bei der »Frankfurter Allgemeinen Zeitung«, 1963–1975 Korrespondent in Brüssel"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/170105253",
-    "https://de.wikipedia.org/wiki/Hans_Herbert_G%C3%B6tz"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hans Herbert Götz",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/170105253",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Herbert_G%C3%B6tz",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Herbert_G%C3%B6tz"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1921-01-29",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Düsseldorf"
+  },
+  "deathDate": "1999-11-14",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Wirtschaftsjournalist, seit 1949 Redakteur bei der »Frankfurter Allgemeinen Zeitung«, 1963–1975 Korrespondent in Brüssel"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/170105253",
+    "https://de.wikipedia.org/wiki/Hans_Herbert_G%C3%B6tz"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WursterCarl",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WursterCarl",
   "name": "Carl Wurster",
   "givenName": "Carl",
   "familyName": "Wurster",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1900-12-02",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Stuttgart"
-  },
-  "deathDate": "1974-12-14",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Frankenthal (Pfalz)"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1952–1965 Vorstandsvorsitzender der BASF AG"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118771485",
-    "https://de.wikipedia.org/wiki/Carl_Wurster"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Carl Wurster",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118771485",
-    "wikipedia": "https://de.wikipedia.org/wiki/Carl_Wurster",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Carl_Wurster"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1900-12-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Stuttgart"
+  },
+  "deathDate": "1974-12-14",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Frankenthal (Pfalz)"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1952–1965 Vorstandsvorsitzender der BASF AG"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118771485",
+    "https://de.wikipedia.org/wiki/Carl_Wurster"
+  ]
 }

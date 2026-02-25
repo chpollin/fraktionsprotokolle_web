@@ -1,48 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BoehmFritz_1965-10-19",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BoehmFritz_1965-10-19",
   "name": "Fritz Böhm",
   "givenName": "Fritz",
   "familyName": "Böhm",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1920-02-22",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Jägerndorf, Schlesien (heute: Krnov, Tschechische Republik)"
-  },
-  "deathDate": "2013-01-10",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Kaufmännischer Angestellter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1965-10-19",
-      "endDate": "1969-10-19"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1969-10-20",
-      "endDate": "1972-09-22"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/118906887",
-    "https://de.wikipedia.org/wiki/Fritz_B%C3%B6hm_(Gewerkschafter)"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Fritz Böhm",
@@ -81,7 +46,43 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000216",
     "gnd": "https://d-nb.info/gnd/118906887",
-    "wikipedia": "https://de.wikipedia.org/wiki/Fritz_B%C3%B6hm_(Gewerkschafter)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Fritz_B%C3%B6hm_(Gewerkschafter)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1920-02-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Jägerndorf, Schlesien (heute: Krnov, Tschechische Republik)"
+  },
+  "deathDate": "2013-01-10",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Kaufmännischer Angestellter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1965-10-19",
+      "endDate": "1969-10-19"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1969-10-20",
+      "endDate": "1972-09-22"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/118906887",
+    "https://de.wikipedia.org/wiki/Fritz_B%C3%B6hm_(Gewerkschafter)"
+  ]
 }

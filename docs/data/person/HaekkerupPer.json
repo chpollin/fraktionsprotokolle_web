@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HaekkerupPer",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HaekkerupPer",
   "name": "Per Haekkerup",
   "givenName": "Per",
   "familyName": "Haekkerup",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1915-12-25",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Ringsted"
-  },
-  "deathDate": "1979-03-13",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Herritslev"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1962–1966 dänischer Außenminister, dann Fraktionsvorsitzender der Sozialdemokratischen Partei im Folketing, 1971–1973 Wirtschaftsminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/123565456",
-    "https://de.wikipedia.org/wiki/Per_H%C3%A6kkerup"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Per Haekkerup",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/123565456",
-    "wikipedia": "https://de.wikipedia.org/wiki/Per_H%C3%A6kkerup",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Per_H%C3%A6kkerup"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1915-12-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Ringsted"
+  },
+  "deathDate": "1979-03-13",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Herritslev"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1962–1966 dänischer Außenminister, dann Fraktionsvorsitzender der Sozialdemokratischen Partei im Folketing, 1971–1973 Wirtschaftsminister"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/123565456",
+    "https://de.wikipedia.org/wiki/Per_H%C3%A6kkerup"
+  ]
 }

@@ -1,35 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "AlbrechtMichael_1990-10-03",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/AlbrechtMichael_1990-10-03",
   "name": "Michael Albrecht",
   "givenName": "Michael",
   "familyName": "Albrecht",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1947-11-25",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Riesa/Sachsen"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Schulamtsleiter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1990-10-03",
-      "endDate": "1990-12-20"
-    }
-  ],
-  "sameAs": null,
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Michael Albrecht",
@@ -59,9 +37,28 @@
     }
   ],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11000025",
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
-  }
+    "mdb_stammdaten": "11000025"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1947-11-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Riesa/Sachsen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Schulamtsleiter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1990-10-03",
+      "endDate": "1990-12-20"
+    }
+  ]
 }

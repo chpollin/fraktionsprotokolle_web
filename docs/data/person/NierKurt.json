@@ -1,26 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "NierKurt",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/NierKurt",
   "name": "Kurt Nier",
   "givenName": "Kurt",
   "familyName": "Nier",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1927-07-23",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Antoniwald bei Gablonz an der Neiße"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1973–1989 stellvertretender Minister für Auswärtige Angelegenheiten der DDR (SED)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Kurt_Nier"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Kurt Nier",
@@ -42,9 +29,19 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://de.wikipedia.org/wiki/Kurt_Nier",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Kurt_Nier"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1927-07-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Antoniwald bei Gablonz an der Neiße"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1973–1989 stellvertretender Minister für Auswärtige Angelegenheiten der DDR (SED)"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Kurt_Nier"
+  ]
 }

@@ -1,35 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ReinemundBirgit_2009-10-27",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ReinemundBirgit_2009-10-27",
   "name": "Birgit Reinemund",
   "givenName": "Birgit",
   "familyName": "Reinemund",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1959-06-06",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Mannheim"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Geschäftsführerin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Freien Demokratischen Partei",
-        "alternateName": "FDP"
-      },
-      "startDate": "2009-10-27",
-      "endDate": "2013-10-22"
-    }
-  ],
-  "sameAs": null,
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Birgit Reinemund",
@@ -59,9 +37,28 @@
     }
   ],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11004133",
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
-  }
+    "mdb_stammdaten": "11004133"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1959-06-06",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Mannheim"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Geschäftsführerin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "2009-10-27",
+      "endDate": "2013-10-22"
+    }
+  ]
 }

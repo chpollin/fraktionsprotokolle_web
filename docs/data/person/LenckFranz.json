@@ -1,26 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "LenckFranz",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/LenckFranz",
   "name": "Franz Lenck",
   "givenName": "Franz",
   "familyName": "Lenck",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1892-05-30",
-  "birthPlace": null,
-  "deathDate": "1931-08-09",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Polizeioffizier"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/133544885"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Franz Lenck",
@@ -42,10 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/133544885",
-    "wikipedia": null,
-    "viaf": null
+    "gnd": "https://d-nb.info/133544885"
   },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1892-05-30",
+  "deathDate": "1931-08-09",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Polizeioffizier"
+  },
+  "sameAs": [
+    "https://d-nb.info/133544885"
+  ],
   "fraktionsprotokolle:sonstiges": "am 9. August 1931 in Berlin durch die Kommunisten Erich Mielke und Ziemer erschossen"
 }

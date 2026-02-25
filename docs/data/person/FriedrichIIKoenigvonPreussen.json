@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FriedrichIIKoenigvonPreussen",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FriedrichIIKoenigvonPreussen",
   "name": "König Friedrich II. von Preußen",
   "givenName": "Friedrich II.",
   "familyName": "Preußen",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1712-01-24",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "deathDate": "1786-08-17",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Potsdam"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1740–1786 König von Preußen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118535749",
-    "https://de.wikipedia.org/wiki/Friedrich_II._(Preu%C3%9Fen)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "König Friedrich II. von Preußen",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118535749",
-    "wikipedia": "https://de.wikipedia.org/wiki/Friedrich_II._(Preu%C3%9Fen)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Friedrich_II._(Preu%C3%9Fen)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1712-01-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "1786-08-17",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Potsdam"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1740–1786 König von Preußen"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118535749",
+    "https://de.wikipedia.org/wiki/Friedrich_II._(Preu%C3%9Fen)"
+  ]
 }

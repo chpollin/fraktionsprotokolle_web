@@ -1,29 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "CarbonnelEricde",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/CarbonnelEricde",
   "name": "Éric de Carbonnel",
   "givenName": "Éric",
   "familyName": "Carbonnel",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1910-07-08",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Paris"
-  },
-  "deathDate": "1965-10-02",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Biarritz"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "französischer Diplomat, 1955–1956 Leiter der diplomatischen Vertretung in Saarbrücken"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://fr.wikipedia.org/wiki/%C3%89ric_de_Carbonnel"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Éric de Carbonnel",
@@ -45,9 +29,24 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://fr.wikipedia.org/wiki/%C3%89ric_de_Carbonnel",
-    "viaf": null
-  }
+    "wikipedia": "https://fr.wikipedia.org/wiki/%C3%89ric_de_Carbonnel"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1910-07-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "deathDate": "1965-10-02",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Biarritz"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "französischer Diplomat, 1955–1956 Leiter der diplomatischen Vertretung in Saarbrücken"
+  },
+  "sameAs": [
+    "https://fr.wikipedia.org/wiki/%C3%89ric_de_Carbonnel"
+  ]
 }

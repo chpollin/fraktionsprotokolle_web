@@ -1,34 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchrapsJohannes_2017-10-24",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchrapsJohannes_2017-10-24",
   "name": "Johannes Schraps",
   "givenName": "Johannes",
   "familyName": "Schraps",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1983-08-17",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Bad Pyrmont"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Politikwissenschaftler [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "2017-10-24"
-    }
-  ],
-  "sameAs": null,
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Johannes Schraps",
@@ -58,9 +37,27 @@
     }
   ],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11004881",
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
-  }
+    "mdb_stammdaten": "11004881"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1983-08-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bad Pyrmont"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Politikwissenschaftler [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "2017-10-24"
+    }
+  ]
 }

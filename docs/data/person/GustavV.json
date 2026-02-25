@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GustavV",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GustavV",
   "name": "Gustav V",
   "givenName": "Oscar Gustaf Adolf Bernadotte",
   "familyName": "Bernadotte",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1858-06-16",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Schloss Drottningholm, Ekerö"
-  },
-  "deathDate": "1950-10-29",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Schloss Drottningholm, Ekerö"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1907–1950 König von Schweden"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118719548",
-    "https://de.wikipedia.org/wiki/Gustav_V._(Schweden)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Gustav V",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118719548",
-    "wikipedia": "https://de.wikipedia.org/wiki/Gustav_V._(Schweden)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Gustav_V._(Schweden)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1858-06-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Schloss Drottningholm, Ekerö"
+  },
+  "deathDate": "1950-10-29",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Schloss Drottningholm, Ekerö"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1907–1950 König von Schweden"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118719548",
+    "https://de.wikipedia.org/wiki/Gustav_V._(Schweden)"
+  ]
 }

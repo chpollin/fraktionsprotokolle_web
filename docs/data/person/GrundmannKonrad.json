@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GrundmannKonrad",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GrundmannKonrad",
   "name": "Konrad Grundmann",
   "givenName": "Konrad",
   "familyName": "Grundmann",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1925-01-08",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Krefeld"
-  },
-  "deathDate": "2009-05-29",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Krefeld"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "MdL Nordrhein-Westfalen (CDU), 1959–1966 Arbeits- und Sozialminister des Landes Nordrhein-Westfalen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1030178615",
-    "https://de.wikipedia.org/wiki/Konrad_Grundmann"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Konrad Grundmann",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1030178615",
-    "wikipedia": "https://de.wikipedia.org/wiki/Konrad_Grundmann",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Konrad_Grundmann"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1925-01-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Krefeld"
+  },
+  "deathDate": "2009-05-29",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Krefeld"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "MdL Nordrhein-Westfalen (CDU), 1959–1966 Arbeits- und Sozialminister des Landes Nordrhein-Westfalen"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1030178615",
+    "https://de.wikipedia.org/wiki/Konrad_Grundmann"
+  ]
 }

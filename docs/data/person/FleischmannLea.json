@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FleischmannLea",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FleischmannLea",
   "name": "Lea Fleischmann",
   "givenName": "Lea",
   "familyName": "Fleischmann",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1947-03-23",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Ulm"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "deutsch-israelische Autorin, 1973-1979 Lehrerin an einer Beurfsschule in Hessen, 1979 Auswanderung nach Israel"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118533878",
-    "https://de.wikipedia.org/wiki/Lea_Fleischmann"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Lea Fleischmann",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118533878",
-    "wikipedia": "https://de.wikipedia.org/wiki/Lea_Fleischmann",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Lea_Fleischmann"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1947-03-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Ulm"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutsch-israelische Autorin, 1973-1979 Lehrerin an einer Beurfsschule in Hessen, 1979 Auswanderung nach Israel"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118533878",
+    "https://de.wikipedia.org/wiki/Lea_Fleischmann"
+  ]
 }

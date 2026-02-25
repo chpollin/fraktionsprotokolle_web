@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "TilgnerUlrich",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/TilgnerUlrich",
   "name": "Ulrich Tilgner",
   "givenName": "Ulrich",
   "familyName": "Tilgner",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1948-01-16",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Bremen"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Journalist, Auslandskorrespondent und Sachbuchautor, Mitarbeiter der Grünen-Bundestagsfraktion (Arbeitskreis IV: Schwerpunkt Außenpolitik) in der 10. Wahlperiode"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/109423097",
-    "https://de.wikipedia.org/wiki/Ulrich_Tilgner"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Ulrich Tilgner",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/109423097",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ulrich_Tilgner",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ulrich_Tilgner"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1948-01-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bremen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist, Auslandskorrespondent und Sachbuchautor, Mitarbeiter der Grünen-Bundestagsfraktion (Arbeitskreis IV: Schwerpunkt Außenpolitik) in der 10. Wahlperiode"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/109423097",
+    "https://de.wikipedia.org/wiki/Ulrich_Tilgner"
+  ]
 }

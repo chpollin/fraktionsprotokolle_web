@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BenelliGiovanni",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BenelliGiovanni",
   "name": "Giovanni Benelli",
   "givenName": "Giovanni",
   "familyName": "Benelli",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1921-05-12",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Poggiole di Vernio, Provinz Prato"
-  },
-  "deathDate": "1982-10-26",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Florenz"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Erzbischof von Florenz und Kardinal"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119161958",
-    "https://de.wikipedia.org/wiki/Giovanni_Benelli"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Giovanni Benelli",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119161958",
-    "wikipedia": "https://de.wikipedia.org/wiki/Giovanni_Benelli",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Giovanni_Benelli"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1921-05-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Poggiole di Vernio, Provinz Prato"
+  },
+  "deathDate": "1982-10-26",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Florenz"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Erzbischof von Florenz und Kardinal"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119161958",
+    "https://de.wikipedia.org/wiki/Giovanni_Benelli"
+  ]
 }

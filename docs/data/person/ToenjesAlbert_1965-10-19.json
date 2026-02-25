@@ -1,10 +1,67 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ToenjesAlbert_1965-10-19",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ToenjesAlbert_1965-10-19",
   "name": "Albert Tönjes",
   "givenName": "Albert",
   "familyName": "Tönjes",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Albert Tönjes",
+    "forename": "Albert",
+    "surname": "Tönjes",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1920-01-02",
+    "place": "Oldenburg/Olbg.",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1980-04-25",
+    "place": "Rheine",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 5,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    },
+    {
+      "period": 6,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1969-10-20",
+      "to": "1972-09-22"
+    },
+    {
+      "period": 7,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1972-12-13",
+      "to": "1976-12-13"
+    },
+    {
+      "period": 8,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1976-12-14",
+      "to": "1980-04-25"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002334",
+    "gnd": "https://d-nb.info/gnd/1144931606",
+    "wikipedia": "https://de.wikipedia.org/wiki/Albert_T%C3%B6njes"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1920-01-02",
   "birthPlace": {
@@ -65,60 +122,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/1144931606",
     "https://de.wikipedia.org/wiki/Albert_T%C3%B6njes"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Albert Tönjes",
-    "forename": "Albert",
-    "surname": "Tönjes",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1920-01-02",
-    "place": "Oldenburg/Olbg.",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1980-04-25",
-    "place": "Rheine",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 5,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1965-10-19",
-      "to": "1969-10-19"
-    },
-    {
-      "period": 6,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1969-10-20",
-      "to": "1972-09-22"
-    },
-    {
-      "period": 7,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1972-12-13",
-      "to": "1976-12-13"
-    },
-    {
-      "period": 8,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1976-12-14",
-      "to": "1980-04-25"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11002334",
-    "gnd": "https://d-nb.info/gnd/1144931606",
-    "wikipedia": "https://de.wikipedia.org/wiki/Albert_T%C3%B6njes",
-    "viaf": null
-  }
+  ]
 }

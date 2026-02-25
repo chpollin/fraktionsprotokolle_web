@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RecktenwaldRudolf_1959-08-11",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RecktenwaldRudolf_1959-08-11",
   "name": "Rudolf Recktenwald",
   "givenName": "Rudolf",
   "familyName": "Recktenwald",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1920-08-23",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Urexweiler/Saarland"
-  },
-  "deathDate": "2010-06-22",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Urexweiler/Saarland"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Schmiedemeister [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1959-08-11",
-      "endDate": "1959-10-20"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/112041895X",
-    "https://de.wikipedia.org/wiki/Rudolf_Recktenwald"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Rudolf Recktenwald",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001789",
     "gnd": "https://d-nb.info/gnd/112041895X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Rudolf_Recktenwald",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Rudolf_Recktenwald"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1920-08-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Urexweiler/Saarland"
+  },
+  "deathDate": "2010-06-22",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Urexweiler/Saarland"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Schmiedemeister [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1959-08-11",
+      "endDate": "1959-10-20"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/112041895X",
+    "https://de.wikipedia.org/wiki/Rudolf_Recktenwald"
+  ]
 }

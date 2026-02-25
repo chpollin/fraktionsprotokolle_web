@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BeskeFritz",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BeskeFritz",
   "name": "Fritz Beske",
   "givenName": "Fritz",
   "familyName": "Beske",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1922-12-12",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Wollin, Pommern (heute: Wolin, Polen)"
-  },
-  "deathDate": "2020-03-26",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Arzt, CDU-Mitglied, 1971–1981 Staatssekretär im Sozialministerium von Schleswig-Holstein"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/120299046",
-    "https://de.wikipedia.org/wiki/Fritz_Beske"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Fritz Beske",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/120299046",
-    "wikipedia": "https://de.wikipedia.org/wiki/Fritz_Beske",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Fritz_Beske"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1922-12-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Wollin, Pommern (heute: Wolin, Polen)"
+  },
+  "deathDate": "2020-03-26",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Arzt, CDU-Mitglied, 1971–1981 Staatssekretär im Sozialministerium von Schleswig-Holstein"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/120299046",
+    "https://de.wikipedia.org/wiki/Fritz_Beske"
+  ]
 }

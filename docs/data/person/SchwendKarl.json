@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchwendKarl",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchwendKarl",
   "name": "Karl Schwend",
   "givenName": "Karl",
   "familyName": "Schwend",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1890-05-30",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Bayreuth"
-  },
-  "deathDate": "1968-02-24",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1950–1954 Leiter der Bayerischen Staatskanzlei (CSU)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/132984466",
-    "https://de.wikipedia.org/wiki/Karl_Schwend"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Karl Schwend",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/132984466",
-    "wikipedia": "https://de.wikipedia.org/wiki/Karl_Schwend",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Karl_Schwend"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1890-05-30",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bayreuth"
+  },
+  "deathDate": "1968-02-24",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1950–1954 Leiter der Bayerischen Staatskanzlei (CSU)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/132984466",
+    "https://de.wikipedia.org/wiki/Karl_Schwend"
+  ]
 }

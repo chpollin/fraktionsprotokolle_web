@@ -1,10 +1,60 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchmidtWolfgang_1969-10-20",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchmidtWolfgang_1969-10-20",
   "name": "Wolfgang Schmidt",
   "givenName": "Wolfgang",
   "familyName": "Schmidt",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Wolfgang Schmidt",
+    "forename": "Wolfgang",
+    "surname": "Schmidt",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Niederselters)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1934-04-18",
+    "place": "Niederselters",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2000-05-22",
+    "place": "Selters (Taunus)",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 6,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1969-10-20",
+      "to": "1972-09-22"
+    },
+    {
+      "period": 7,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1972-12-13",
+      "to": "1976-12-13"
+    },
+    {
+      "period": 8,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1978-01-09",
+      "to": "1980-11-04"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002023",
+    "gnd": "https://d-nb.info/gnd/1190610213",
+    "wikipedia": "https://de.wikipedia.org/wiki/Wolfgang_Schmidt_(Politiker,_1934)"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1934-04-18",
   "birthPlace": {
@@ -55,53 +105,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/1190610213",
     "https://de.wikipedia.org/wiki/Wolfgang_Schmidt_(Politiker,_1934)"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Wolfgang Schmidt",
-    "forename": "Wolfgang",
-    "surname": "Schmidt",
-    "prefix": "",
-    "role_name": "",
-    "place": "(Niederselters)"
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1934-04-18",
-    "place": "Niederselters",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "2000-05-22",
-    "place": "Selters (Taunus)",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 6,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1969-10-20",
-      "to": "1972-09-22"
-    },
-    {
-      "period": 7,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1972-12-13",
-      "to": "1976-12-13"
-    },
-    {
-      "period": 8,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1978-01-09",
-      "to": "1980-11-04"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11002023",
-    "gnd": "https://d-nb.info/gnd/1190610213",
-    "wikipedia": "https://de.wikipedia.org/wiki/Wolfgang_Schmidt_(Politiker,_1934)",
-    "viaf": null
-  }
+  ]
 }

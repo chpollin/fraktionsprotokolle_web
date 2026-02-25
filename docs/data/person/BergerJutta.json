@@ -1,21 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BergerJutta",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BergerJutta",
   "name": "Jutta Berger",
   "givenName": "Jutta",
   "familyName": "Berger",
-  "gender": "https://schema.org/Female",
-  "birthDate": null,
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "in der 11. Wahlperiode Mitarbeiterin im Büro der Grünen-MdB Christa Nickels und 1987–1988 stv. Vorsitzende des Betriebsrats der Grünen-Bundestagsfraktion"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Jutta Berger",
@@ -36,10 +28,10 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Female",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "in der 11. Wahlperiode Mitarbeiterin im Büro der Grünen-MdB Christa Nickels und 1987–1988 stv. Vorsitzende des Betriebsrats der Grünen-Bundestagsfraktion"
   }
 }

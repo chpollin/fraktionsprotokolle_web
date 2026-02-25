@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ErskineEmmanuelA",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ErskineEmmanuelA",
   "name": "Emmanuel A. Erskine",
   "givenName": "Emmanuel A.",
   "familyName": "Erskine",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1937-01-19",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Kumasi, Ashanti Region"
-  },
-  "deathDate": "2012-05-07",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "ghanaischer Generalleutnant, an vielen UN-Einsätzen Ghanas beteiligt, 1978–1981 Kommandeur der UNIFIL-Beobachtermission im Libanon"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Emmanuel_Erskine",
-    "https://viaf.org/viaf/27147641/"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Emmanuel A. Erskine",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
     "wikipedia": "https://de.wikipedia.org/wiki/Emmanuel_Erskine",
     "viaf": "https://viaf.org/viaf/27147641/"
-  }
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1937-01-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kumasi, Ashanti Region"
+  },
+  "deathDate": "2012-05-07",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "ghanaischer Generalleutnant, an vielen UN-Einsätzen Ghanas beteiligt, 1978–1981 Kommandeur der UNIFIL-Beobachtermission im Libanon"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Emmanuel_Erskine",
+    "https://viaf.org/viaf/27147641/"
+  ]
 }

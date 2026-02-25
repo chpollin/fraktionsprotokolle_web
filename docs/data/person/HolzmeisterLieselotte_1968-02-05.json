@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HolzmeisterLieselotte_1968-02-05",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HolzmeisterLieselotte_1968-02-05",
   "name": "Lieselotte Holzmeister, geb. Ohnsorge",
   "givenName": "Lieselotte",
   "familyName": "Holzmeister",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1921-02-08",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Iserlohn"
-  },
-  "deathDate": "1994-06-29",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Salzburg"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Verlagskauffrau [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1968-02-05",
-      "endDate": "1969-10-19"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/134998286",
-    "https://de.wikipedia.org/wiki/Lieselotte_Holzmeister"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Lieselotte Holzmeister, geb. Ohnsorge",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000951",
     "gnd": "https://d-nb.info/gnd/134998286",
-    "wikipedia": "https://de.wikipedia.org/wiki/Lieselotte_Holzmeister",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Lieselotte_Holzmeister"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1921-02-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Iserlohn"
+  },
+  "deathDate": "1994-06-29",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Salzburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Verlagskauffrau [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1968-02-05",
+      "endDate": "1969-10-19"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/134998286",
+    "https://de.wikipedia.org/wiki/Lieselotte_Holzmeister"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HollKarl",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HollKarl",
   "name": "Karl Holl",
   "givenName": "Karl",
   "familyName": "Holl",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1931-06-22",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Altendiez"
-  },
-  "deathDate": "2017-04-23",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bremen"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Historiker, 1964–1966 Bundesvorsitzender der Deutschen Jungdemokraten (DJD), 1964–1971 Stadtrat von Mainz (FDP), 1979–1982 Mitglied der Bremischen Bürgerschaft"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/121616193",
-    "https://de.wikipedia.org/wiki/Karl_Holl_(Historiker)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Karl Holl",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/121616193",
-    "wikipedia": "https://de.wikipedia.org/wiki/Karl_Holl_(Historiker)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Karl_Holl_(Historiker)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1931-06-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Altendiez"
+  },
+  "deathDate": "2017-04-23",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bremen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Historiker, 1964–1966 Bundesvorsitzender der Deutschen Jungdemokraten (DJD), 1964–1971 Stadtrat von Mainz (FDP), 1979–1982 Mitglied der Bremischen Bürgerschaft"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/121616193",
+    "https://de.wikipedia.org/wiki/Karl_Holl_(Historiker)"
+  ]
 }

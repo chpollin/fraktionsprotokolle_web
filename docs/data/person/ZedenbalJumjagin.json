@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ZedenbalJumjagin",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ZedenbalJumjagin",
   "name": "Jumjagin Zedenbal",
   "givenName": "Jumjagin",
   "familyName": "Zedenbal",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1916-09-17",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Davst"
-  },
-  "deathDate": "1991-04-10",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Moskau"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Erster Sekretär des Zentralkomitees der Mongolischen Revolutionären Volkspartei und Ministerpräsident der Mongolischen Volksrepublik"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/132225158",
-    "https://de.wikipedia.org/wiki/Jumdschaagiin_Tsedenbal"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Jumjagin Zedenbal",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/132225158",
-    "wikipedia": "https://de.wikipedia.org/wiki/Jumdschaagiin_Tsedenbal",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Jumdschaagiin_Tsedenbal"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1916-09-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Davst"
+  },
+  "deathDate": "1991-04-10",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Moskau"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Erster Sekretär des Zentralkomitees der Mongolischen Revolutionären Volkspartei und Ministerpräsident der Mongolischen Volksrepublik"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/132225158",
+    "https://de.wikipedia.org/wiki/Jumdschaagiin_Tsedenbal"
+  ]
 }

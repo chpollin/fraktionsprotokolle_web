@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "OpitzReinhard",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/OpitzReinhard",
   "name": "Reinhard Opitz",
   "givenName": "Reihard",
   "familyName": "Opitz",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1934-07-02",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Beuthen/Oberschlesien (heute: Bytom, Polen)"
-  },
-  "deathDate": "1986-04-03",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Köln"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Studium in Tübingen, dort Gründer der »Studentischen Aktion« gegen Aufrüstung und Wehrpflicht, 1956 Beitritt zum SDS, 1956–1960 Mitarbeit beim »Studenten-Kurier« bzw. »Konkret«, 1959 Ausschluß aus der SPD, 1961–1965 Pressereferent des Bundesvorstands der DFU"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/121929183",
-    "https://de.wikipedia.org/wiki/Reinhard_Opitz"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Reinhard Opitz",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/121929183",
-    "wikipedia": "https://de.wikipedia.org/wiki/Reinhard_Opitz",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Reinhard_Opitz"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1934-07-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Beuthen/Oberschlesien (heute: Bytom, Polen)"
+  },
+  "deathDate": "1986-04-03",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Köln"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Studium in Tübingen, dort Gründer der »Studentischen Aktion« gegen Aufrüstung und Wehrpflicht, 1956 Beitritt zum SDS, 1956–1960 Mitarbeit beim »Studenten-Kurier« bzw. »Konkret«, 1959 Ausschluß aus der SPD, 1961–1965 Pressereferent des Bundesvorstands der DFU"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/121929183",
+    "https://de.wikipedia.org/wiki/Reinhard_Opitz"
+  ]
 }

@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ZinnKarlGeorg",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ZinnKarlGeorg",
   "name": "Karl Georg Zinn",
   "givenName": "Karl Georg",
   "familyName": "Zinn",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1939-09-22",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Kassel"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Wirtschaftswissenschaftler, 1970–2004 Professor für Volkswirtschaftslehre an der RWTH Aachen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118049232",
-    "https://de.wikipedia.org/wiki/Karl_Georg_Zinn"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Karl Georg Zinn",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118049232",
-    "wikipedia": "https://de.wikipedia.org/wiki/Karl_Georg_Zinn",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Karl_Georg_Zinn"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1939-09-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kassel"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Wirtschaftswissenschaftler, 1970–2004 Professor für Volkswirtschaftslehre an der RWTH Aachen"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118049232",
+    "https://de.wikipedia.org/wiki/Karl_Georg_Zinn"
+  ]
 }

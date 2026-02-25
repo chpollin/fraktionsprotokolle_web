@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WendlandHorst",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WendlandHorst",
   "name": "Horst Wendland",
   "givenName": "Horst",
   "familyName": "Wendland",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1912-08-17",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "deathDate": "1968-10-08",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Pullach"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1948–1957 beim Bundesnachrichtendienst bzw. Vorläuferorganisation, 1957–1968 als Berufssoldat Abteilungsleiter, zuletzt 1967–1968 Vizepräsident des Bundesnachrichtendienstes"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1030277141",
-    "https://de.wikipedia.org/wiki/Horst_Wendland"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Horst Wendland",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1030277141",
-    "wikipedia": "https://de.wikipedia.org/wiki/Horst_Wendland",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Horst_Wendland"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1912-08-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "1968-10-08",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Pullach"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1948–1957 beim Bundesnachrichtendienst bzw. Vorläuferorganisation, 1957–1968 als Berufssoldat Abteilungsleiter, zuletzt 1967–1968 Vizepräsident des Bundesnachrichtendienstes"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1030277141",
+    "https://de.wikipedia.org/wiki/Horst_Wendland"
+  ]
 }

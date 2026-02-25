@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SpenglerOswald",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SpenglerOswald",
   "name": "Oswald Spengler",
   "givenName": "Oswald",
   "familyName": "Spengler",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1880-05-29",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Blankenburg am Harz"
-  },
-  "deathDate": "1936-05-08",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Philosoph und Gymnasiallehrer"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118616110",
-    "https://de.wikipedia.org/wiki/Oswald_Spengler"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Oswald Spengler",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118616110",
-    "wikipedia": "https://de.wikipedia.org/wiki/Oswald_Spengler",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Oswald_Spengler"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1880-05-29",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Blankenburg am Harz"
+  },
+  "deathDate": "1936-05-08",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Philosoph und Gymnasiallehrer"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118616110",
+    "https://de.wikipedia.org/wiki/Oswald_Spengler"
+  ]
 }

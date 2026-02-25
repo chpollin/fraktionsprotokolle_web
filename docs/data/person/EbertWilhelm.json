@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "EbertWilhelm",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/EbertWilhelm",
   "name": "Wilhelm Ebert",
   "givenName": "Wilhelm",
   "familyName": "Ebert",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1923-05-06",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Fleißen im Egerland (heute: Plesná, Tschechische Republik)"
-  },
-  "deathDate": "2017-06-28",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Lehrer, Gründer und 1948-1953 Landesvorsitzender der Arbeitsgemeinschaft Bayerischer Junglehrer (ABJ), 1955-1962 und 1967-1984 Präsident des Bayerischen Lehrer- und Lehrerinnenverbands (BLLV), 1958-1972 ständiger Vertreter beim Weltverband der Lehrerorganisationen und bei der UNESCO in Paris, 1972-1975 Vorstandsmitglied und 1975-1978 Präsident der World Confederation of Organizations of the Teaching Profession (WCOTP), 1979–1993 Bundesvorsitzender des Verbandes Bildung und Erziehung (VBE)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/120042592",
-    "https://de.wikipedia.org/wiki/Wilhelm_Ebert_(P%C3%A4dagoge)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Wilhelm Ebert",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/120042592",
-    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_Ebert_(P%C3%A4dagoge)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_Ebert_(P%C3%A4dagoge)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1923-05-06",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Fleißen im Egerland (heute: Plesná, Tschechische Republik)"
+  },
+  "deathDate": "2017-06-28",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Lehrer, Gründer und 1948-1953 Landesvorsitzender der Arbeitsgemeinschaft Bayerischer Junglehrer (ABJ), 1955-1962 und 1967-1984 Präsident des Bayerischen Lehrer- und Lehrerinnenverbands (BLLV), 1958-1972 ständiger Vertreter beim Weltverband der Lehrerorganisationen und bei der UNESCO in Paris, 1972-1975 Vorstandsmitglied und 1975-1978 Präsident der World Confederation of Organizations of the Teaching Profession (WCOTP), 1979–1993 Bundesvorsitzender des Verbandes Bildung und Erziehung (VBE)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/120042592",
+    "https://de.wikipedia.org/wiki/Wilhelm_Ebert_(P%C3%A4dagoge)"
+  ]
 }

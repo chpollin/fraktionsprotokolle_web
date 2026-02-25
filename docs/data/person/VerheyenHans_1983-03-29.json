@@ -1,37 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "VerheyenHans_1983-03-29",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/VerheyenHans_1983-03-29",
   "name": "Hans Verheyen",
   "givenName": "Hans",
   "familyName": "Verheyen",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1944-04-06",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Aldekerk/Niederrhein"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Dipl.-Theologe, Diplomsoziologe [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion Die Grünen",
-        "alternateName": "Grüne"
-      },
-      "startDate": "1983-03-29",
-      "endDate": "1985-03-30"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1137516003"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Hans Verheyen",
@@ -62,9 +38,32 @@
   ],
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11002369",
-    "gnd": "https://d-nb.info/gnd/1137516003",
-    "wikipedia": null,
-    "viaf": null
+    "gnd": "https://d-nb.info/gnd/1137516003"
   },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1944-04-06",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Aldekerk/Niederrhein"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Theologe, Diplomsoziologe [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Die Grünen",
+        "alternateName": "Grüne"
+      },
+      "startDate": "1983-03-29",
+      "endDate": "1985-03-30"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1137516003"
+  ],
   "fraktionsprotokolle:sonstiges": "Mitarbeiter der Grünen-Bundestagsfraktion in der 11. Wahlperiode"
 }

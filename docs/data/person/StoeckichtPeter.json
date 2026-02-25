@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "StoeckichtPeter",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/StoeckichtPeter",
   "name": "Peter Stöckicht",
   "givenName": "Peter",
   "familyName": "Stöckicht",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1930-10-22",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Greifswald"
-  },
-  "deathDate": "2018-11-20",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Rechtsanwalt, 1968-1972 MdL Baden-Württemberg (NPD)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1257633430",
-    "https://de.wikipedia.org/wiki/Peter_St%C3%B6ckicht"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Peter Stöckicht",
@@ -43,10 +29,23 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1257633430",
-    "wikipedia": "https://de.wikipedia.org/wiki/Peter_St%C3%B6ckicht",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Peter_St%C3%B6ckicht"
   },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1930-10-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Greifswald"
+  },
+  "deathDate": "2018-11-20",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsanwalt, 1968-1972 MdL Baden-Württemberg (NPD)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1257633430",
+    "https://de.wikipedia.org/wiki/Peter_St%C3%B6ckicht"
+  ],
   "fraktionsprotokolle:sonstiges": "stürmte am 23. April 1969 in Karlsruhe-Durlach mit anderen rechtsextremen Aktivisten den Basler-Tor-Turm und vandalierten in den Räumen, in denen linke Jugendliche einen antiautoritären Jugendtreff eingerichtet hatten"
 }

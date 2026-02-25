@@ -1,21 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HillenbrandKarl",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HillenbrandKarl",
   "name": "Karl Hillenbrand",
   "givenName": "Karl",
   "familyName": "Hillenbrand",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1881",
-  "birthPlace": null,
-  "deathDate": "1954-11-24",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1947–1953 Generalsekretär des Gesamtverbandes der Christlichen Gewerkschaften des Saarlandes"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Karl Hillenbrand",
@@ -36,10 +28,12 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Male",
+  "birthDate": "1881",
+  "deathDate": "1954-11-24",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1947–1953 Generalsekretär des Gesamtverbandes der Christlichen Gewerkschaften des Saarlandes"
   }
 }

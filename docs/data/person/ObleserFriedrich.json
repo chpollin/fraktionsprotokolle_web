@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ObleserFriedrich",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ObleserFriedrich",
   "name": "Friedrich Obleser",
   "givenName": "Friedrich-Erich",
   "familyName": "Obleser",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1923-02-21",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Pottenstein"
-  },
-  "deathDate": "2004-06-05",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Neunkirchen"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "deutscher Offizier, zuletzt Generalleutnant der Bundeswehr und 1978–1983 Inspekteur der Luftwaffe"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1018242252",
-    "https://de.wikipedia.org/wiki/Friedrich_Obleser"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Friedrich Obleser",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1018242252",
-    "wikipedia": "https://de.wikipedia.org/wiki/Friedrich_Obleser",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Friedrich_Obleser"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1923-02-21",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Pottenstein"
+  },
+  "deathDate": "2004-06-05",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Neunkirchen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Offizier, zuletzt Generalleutnant der Bundeswehr und 1978–1983 Inspekteur der Luftwaffe"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1018242252",
+    "https://de.wikipedia.org/wiki/Friedrich_Obleser"
+  ]
 }

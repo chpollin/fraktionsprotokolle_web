@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KohlRudolf_1950-01-26",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KohlRudolf_1950-01-26",
   "name": "Rudolf Kohl",
   "givenName": "Rudolf",
   "familyName": "Kohl",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1895-01-10",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Nordstadt"
-  },
-  "deathDate": "1964-08-08",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Hofstetten"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Schriftsetzer, Arbeitsminister a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Kommunistischen Partei Deutschlands",
-        "alternateName": "KPD"
-      },
-      "startDate": "1950-01-26",
-      "endDate": "1953-09-07"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1128245353",
-    "https://de.wikipedia.org/wiki/Rudolf_Kohl"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Rudolf Kohl",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001166",
     "gnd": "https://d-nb.info/gnd/1128245353",
-    "wikipedia": "https://de.wikipedia.org/wiki/Rudolf_Kohl",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Rudolf_Kohl"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1895-01-10",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Nordstadt"
+  },
+  "deathDate": "1964-08-08",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hofstetten"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Schriftsetzer, Arbeitsminister a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Kommunistischen Partei Deutschlands",
+        "alternateName": "KPD"
+      },
+      "startDate": "1950-01-26",
+      "endDate": "1953-09-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1128245353",
+    "https://de.wikipedia.org/wiki/Rudolf_Kohl"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "AgnewSpiroTheodore",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/AgnewSpiroTheodore",
   "name": "Spiro Theodore Agnew",
   "givenName": "Spiro Theodore",
   "familyName": "Agnew",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1918-11-09",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Baltimore, Maryland"
-  },
-  "deathDate": "1996-09-17",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Berlin, Maryland"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1969–1973 Vizepräsident der Vereinigten Staaten von Amerika"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/123440971",
-    "https://de.wikipedia.org/wiki/Spiro_Agnew"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Spiro Theodore Agnew",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/123440971",
-    "wikipedia": "https://de.wikipedia.org/wiki/Spiro_Agnew",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Spiro_Agnew"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1918-11-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Baltimore, Maryland"
+  },
+  "deathDate": "1996-09-17",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin, Maryland"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1969–1973 Vizepräsident der Vereinigten Staaten von Amerika"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/123440971",
+    "https://de.wikipedia.org/wiki/Spiro_Agnew"
+  ]
 }

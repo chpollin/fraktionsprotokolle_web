@@ -1,45 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchneiderManfred_1983-03-29",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchneiderManfred_1983-03-29",
   "name": "Manfred Schneider",
   "givenName": "Manfred",
   "familyName": "Schneider",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1925-12-04",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Nahbollenbach/Krs. Birkenfeld"
-  },
-  "deathDate": "2020-11-19",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Goldschmied [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1983-03-29",
-      "endDate": "1987-02-18"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1990-02-08",
-      "endDate": "1990-12-20"
-    }
-  ],
-  "sameAs": null,
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Manfred Schneider",
@@ -76,9 +44,39 @@
     }
   ],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11002047",
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
-  }
+    "mdb_stammdaten": "11002047"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1925-12-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Nahbollenbach/Krs. Birkenfeld"
+  },
+  "deathDate": "2020-11-19",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Goldschmied [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1983-03-29",
+      "endDate": "1987-02-18"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1990-02-08",
+      "endDate": "1990-12-20"
+    }
+  ]
 }

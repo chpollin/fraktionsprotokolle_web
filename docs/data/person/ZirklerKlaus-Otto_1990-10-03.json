@@ -1,35 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ZirklerKlaus-Otto_1990-10-03",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ZirklerKlaus-Otto_1990-10-03",
   "name": "Klaus-Otto Zirkler",
   "givenName": "Klaus-Otto",
   "familyName": "Zirkler",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1946-12-08",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Sangerhausen/Sachsen-Anhalt"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Tierarzt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Freien Demokratischen Partei",
-        "alternateName": "FDP"
-      },
-      "startDate": "1990-10-03",
-      "endDate": "1990-12-20"
-    }
-  ],
-  "sameAs": null,
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Klaus-Otto Zirkler",
@@ -59,9 +37,28 @@
     }
   ],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11002602",
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
-  }
+    "mdb_stammdaten": "11002602"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1946-12-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Sangerhausen/Sachsen-Anhalt"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Tierarzt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1990-10-03",
+      "endDate": "1990-12-20"
+    }
+  ]
 }

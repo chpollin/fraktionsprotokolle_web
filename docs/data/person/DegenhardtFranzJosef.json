@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DegenhardtFranzJosef",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DegenhardtFranzJosef",
   "name": "Franz Josef Degenhardt",
   "givenName": "Franz Josef",
   "familyName": "Degenhardt",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1931-12-03",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Schwerin"
-  },
-  "deathDate": "2011-11-14",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Quickborn"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Liedermacher, Schriftsteller und Rechtsanwalt"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118524313",
-    "https://de.wikipedia.org/wiki/Franz_Josef_Degenhardt"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Franz Josef Degenhardt",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118524313",
-    "wikipedia": "https://de.wikipedia.org/wiki/Franz_Josef_Degenhardt",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Franz_Josef_Degenhardt"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1931-12-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Schwerin"
+  },
+  "deathDate": "2011-11-14",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Quickborn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Liedermacher, Schriftsteller und Rechtsanwalt"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118524313",
+    "https://de.wikipedia.org/wiki/Franz_Josef_Degenhardt"
+  ]
 }

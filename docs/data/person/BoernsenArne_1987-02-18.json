@@ -1,68 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BoernsenArne_1987-02-18",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BoernsenArne_1987-02-18",
   "name": "Arne Börnsen",
   "givenName": "Arne",
   "familyName": "Börnsen",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1944-10-05",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Wilster/Holstein"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Schiffbau-Dipl.-Ing. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1980-11-04",
-      "endDate": "1983-03-29"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1987-02-18",
-      "endDate": "1990-12-20"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1990-12-20",
-      "endDate": "1994-11-10"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1994-11-10",
-      "endDate": "1998-01-06"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/135785138",
-    "https://de.wikipedia.org/wiki/Arne_B%C3%B6rnsen"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Arne Börnsen",
@@ -115,7 +60,62 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000226",
     "gnd": "https://d-nb.info/gnd/135785138",
-    "wikipedia": "https://de.wikipedia.org/wiki/Arne_B%C3%B6rnsen",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Arne_B%C3%B6rnsen"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1944-10-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Wilster/Holstein"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Schiffbau-Dipl.-Ing. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1980-11-04",
+      "endDate": "1983-03-29"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1987-02-18",
+      "endDate": "1990-12-20"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-01-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/135785138",
+    "https://de.wikipedia.org/wiki/Arne_B%C3%B6rnsen"
+  ]
 }

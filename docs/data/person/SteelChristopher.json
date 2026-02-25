@@ -1,24 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SteelChristopher",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SteelChristopher",
   "name": "Christopher Steel",
   "givenName": "Christopher Eden",
   "familyName": "Steel",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1903-02-12",
-  "birthPlace": null,
-  "deathDate": "1973-09-17",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "britischer Diplomat, 1953–1957 Vertreter bei der NATO, 1957–1963 Botschafter in Bonn"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/132600110",
-    "https://de.wikipedia.org/wiki/Christopher_Steel"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Christopher Steel",
@@ -40,9 +29,18 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/132600110",
-    "wikipedia": "https://de.wikipedia.org/wiki/Christopher_Steel",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Christopher_Steel"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1903-02-12",
+  "deathDate": "1973-09-17",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "britischer Diplomat, 1953–1957 Vertreter bei der NATO, 1957–1963 Botschafter in Bonn"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/132600110",
+    "https://de.wikipedia.org/wiki/Christopher_Steel"
+  ]
 }

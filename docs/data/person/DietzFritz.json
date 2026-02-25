@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DietzFritz",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DietzFritz",
   "name": "Fritz Dietz",
   "givenName": "Friedrich »Fritz« Joachim Ernst",
   "familyName": "Dietz",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1909-08-15",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Frankfurt am Main"
-  },
-  "deathDate": "1984-05-21",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Frankfurt am Main"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Kaufmann und Wirtschaftsfunktionär, 1946–1948 Präsident des Hessischen Landesernährungsamtes, 1952–1977 Präsident des Bundesverbandes für Groß- und Außenhandel, 1964–1980 Präsident der Industrie- und Handelskammer Frankfurt, ab 1979 Präsident der Deutschen Olympischen Gesellschaft"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/107635758X",
-    "https://de.wikipedia.org/wiki/Fritz_Dietz"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Fritz Dietz",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/107635758X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Fritz_Dietz",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Fritz_Dietz"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1909-08-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Frankfurt am Main"
+  },
+  "deathDate": "1984-05-21",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Frankfurt am Main"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Kaufmann und Wirtschaftsfunktionär, 1946–1948 Präsident des Hessischen Landesernährungsamtes, 1952–1977 Präsident des Bundesverbandes für Groß- und Außenhandel, 1964–1980 Präsident der Industrie- und Handelskammer Frankfurt, ab 1979 Präsident der Deutschen Olympischen Gesellschaft"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/107635758X",
+    "https://de.wikipedia.org/wiki/Fritz_Dietz"
+  ]
 }

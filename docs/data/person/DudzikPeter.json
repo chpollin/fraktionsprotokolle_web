@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DudzikPeter",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DudzikPeter",
   "name": "Peter Dudzik",
   "givenName": "Peter",
   "familyName": "Dudzik",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1943-04-10",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Ratibor, Oberschlesien (heute: Racibórz, Polen)"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Auslandskorrespondent und Fernsehjournalist"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1077465408",
-    "https://de.wikipedia.org/wiki/Peter_Dudzik"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Peter Dudzik",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1077465408",
-    "wikipedia": "https://de.wikipedia.org/wiki/Peter_Dudzik",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Peter_Dudzik"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1943-04-10",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Ratibor, Oberschlesien (heute: Racibórz, Polen)"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Auslandskorrespondent und Fernsehjournalist"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1077465408",
+    "https://de.wikipedia.org/wiki/Peter_Dudzik"
+  ]
 }

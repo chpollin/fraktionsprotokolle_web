@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BrookeEdwardW",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BrookeEdwardW",
   "name": "Edward W. Brooke",
   "givenName": "Edward W.",
   "familyName": "Brooke",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1919-10-26",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Washington, D.C."
-  },
-  "deathDate": "2015-01-03",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Coral Gables, Florida"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "US-amerikanischer Politiker der Republikanischen Partei, 1967–1979 für den US-Bundesstaat Massachusetts im US-Senat"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/132981556",
-    "https://de.wikipedia.org/wiki/Edward_Brooke"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Edward W. Brooke",
@@ -46,10 +29,27 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/132981556",
-    "wikipedia": "https://de.wikipedia.org/wiki/Edward_Brooke",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Edward_Brooke"
   },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1919-10-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Washington, D.C."
+  },
+  "deathDate": "2015-01-03",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Coral Gables, Florida"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "US-amerikanischer Politiker der Republikanischen Partei, 1967–1979 für den US-Bundesstaat Massachusetts im US-Senat"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/132981556",
+    "https://de.wikipedia.org/wiki/Edward_Brooke"
+  ],
   "fraktionsprotokolle:sonstiges": "erster vom Volk gewählter afro-amerikanischer US-Senator"
 }

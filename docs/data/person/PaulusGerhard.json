@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PaulusGerhard",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PaulusGerhard",
   "name": "Gerhard Paulus",
   "givenName": "Gerhard",
   "familyName": "Paulus",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1922-02-13",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Stuttgart"
-  },
-  "deathDate": "2002-05-05",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1954–1956 MdL Baden-Württemberg (FDP), stellvertretender Bundesvorsitzender der Deutschen Jungdemokraten, seit 1956 in Kulmbach, 1961 in der FDP-Bundestagsfraktion als Kandidat für einen Staatssekretärsposten im Gespräch"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/117688932X",
-    "https://de.wikipedia.org/wiki/Gerhard_Paulus"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Gerhard Paulus",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/117688932X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Gerhard_Paulus",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Gerhard_Paulus"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1922-02-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Stuttgart"
+  },
+  "deathDate": "2002-05-05",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1954–1956 MdL Baden-Württemberg (FDP), stellvertretender Bundesvorsitzender der Deutschen Jungdemokraten, seit 1956 in Kulmbach, 1961 in der FDP-Bundestagsfraktion als Kandidat für einen Staatssekretärsposten im Gespräch"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/117688932X",
+    "https://de.wikipedia.org/wiki/Gerhard_Paulus"
+  ]
 }

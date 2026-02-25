@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GoesvanNatersMarinusvander",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GoesvanNatersMarinusvander",
   "name": "Marinus van der Goes van Naters",
   "givenName": "Marinus",
   "familyName": "Goes van Naters",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1900-12-21",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Nijmegen"
-  },
-  "deathDate": "2005-02-12",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Wassenaar"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1937–1967 Mitglied der niederländischen Zweiten Kammer"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/13174030X",
-    "https://de.wikipedia.org/wiki/Marinus_van_der_Goes_van_Naters"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Marinus van der Goes van Naters",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/13174030X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Marinus_van_der_Goes_van_Naters",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Marinus_van_der_Goes_van_Naters"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1900-12-21",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Nijmegen"
+  },
+  "deathDate": "2005-02-12",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Wassenaar"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1937–1967 Mitglied der niederländischen Zweiten Kammer"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/13174030X",
+    "https://de.wikipedia.org/wiki/Marinus_van_der_Goes_van_Naters"
+  ]
 }

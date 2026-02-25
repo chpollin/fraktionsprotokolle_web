@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SuttnerBerthavon",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SuttnerBerthavon",
   "name": "Bertha von Suttner, geb. Gräfin Kinsky von Wchinitz und Tettau",
   "givenName": "Bertha Sophie Felicita",
   "familyName": "Suttner",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1843-06-09",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Prag"
-  },
-  "deathDate": "1914-06-21",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Wien"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Pazifistin, Friedensforscherin und Schriftstellerin"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118620126",
-    "https://de.wikipedia.org/wiki/Bertha_von_Suttner"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Bertha von Suttner, geb. Gräfin Kinsky von Wchinitz und Tettau",
@@ -46,10 +29,27 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118620126",
-    "wikipedia": "https://de.wikipedia.org/wiki/Bertha_von_Suttner",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Bertha_von_Suttner"
   },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1843-06-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Prag"
+  },
+  "deathDate": "1914-06-21",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Wien"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Pazifistin, Friedensforscherin und Schriftstellerin"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118620126",
+    "https://de.wikipedia.org/wiki/Bertha_von_Suttner"
+  ],
   "fraktionsprotokolle:sonstiges": "erhielt 1905 als erste Frau den Friedensnobelpreis"
 }

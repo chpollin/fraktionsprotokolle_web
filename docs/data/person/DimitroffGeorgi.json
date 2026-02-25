@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DimitroffGeorgi",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DimitroffGeorgi",
   "name": "Georgi Dimitroff",
   "givenName": "Georgi",
   "familyName": "Dimitroff",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1882-06-18",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Kowatschewzi bei Radomir"
-  },
-  "deathDate": "1947-07-02",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Barwicha bei Moskau"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1935–1943 Generalsekretär der Kommunistischen Internationale in Moskau, 1946–1949 Ministerpräsident von Bulgarien"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118525735",
-    "https://de.wikipedia.org/wiki/Georgi_Dimitroff"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Georgi Dimitroff",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118525735",
-    "wikipedia": "https://de.wikipedia.org/wiki/Georgi_Dimitroff",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Georgi_Dimitroff"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1882-06-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kowatschewzi bei Radomir"
+  },
+  "deathDate": "1947-07-02",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Barwicha bei Moskau"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1935–1943 Generalsekretär der Kommunistischen Internationale in Moskau, 1946–1949 Ministerpräsident von Bulgarien"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118525735",
+    "https://de.wikipedia.org/wiki/Georgi_Dimitroff"
+  ]
 }

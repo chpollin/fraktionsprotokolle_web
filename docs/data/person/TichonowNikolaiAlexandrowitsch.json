@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "TichonowNikolaiAlexandrowitsch",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/TichonowNikolaiAlexandrowitsch",
   "name": "Nikolai Alexandrowitsch Tichonow",
   "givenName": "Nikolai Alexandrowitsch",
   "familyName": "Tichonow",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1905-05-14",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Charkow"
-  },
-  "deathDate": "1997-06-01",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Moskau"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "sowjetischer Politiker, 1966–1989 Mitglied des Zentralkomitees der KPdSU, 1979–1985 Mitglied des Politbüros der KPdSU, 1965–1976 stellvertretender Vorsitzender, 1976–1980 Erster Stellvertretender Vorsitzender des Ministerrats der UdSSR, 1980–1985 Vorsitzender des Ministerrats der UdSSR"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/124988563",
-    "https://de.wikipedia.org/wiki/Nikolai_Alexandrowitsch_Tichonow"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Nikolai Alexandrowitsch Tichonow",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/124988563",
-    "wikipedia": "https://de.wikipedia.org/wiki/Nikolai_Alexandrowitsch_Tichonow",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Nikolai_Alexandrowitsch_Tichonow"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1905-05-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Charkow"
+  },
+  "deathDate": "1997-06-01",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Moskau"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "sowjetischer Politiker, 1966–1989 Mitglied des Zentralkomitees der KPdSU, 1979–1985 Mitglied des Politbüros der KPdSU, 1965–1976 stellvertretender Vorsitzender, 1976–1980 Erster Stellvertretender Vorsitzender des Ministerrats der UdSSR, 1980–1985 Vorsitzender des Ministerrats der UdSSR"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/124988563",
+    "https://de.wikipedia.org/wiki/Nikolai_Alexandrowitsch_Tichonow"
+  ]
 }

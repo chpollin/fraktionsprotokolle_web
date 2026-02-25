@@ -1,26 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "JuergensCornelia",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/JuergensCornelia",
   "name": "Cornelia Jürgens",
   "givenName": "Cornelia",
   "familyName": "Jürgens",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1955-07-08",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Dortmund"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1986–1989 und 1991–1993 Mitglied der Hamburgischen Bürgerschaft (GAL), Mitglied des Bundeshauptausschusses der Grünen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Cornelia_J%C3%BCrgens"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Cornelia Jürgens",
@@ -42,9 +29,19 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://de.wikipedia.org/wiki/Cornelia_J%C3%BCrgens",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Cornelia_J%C3%BCrgens"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1955-07-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Dortmund"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1986–1989 und 1991–1993 Mitglied der Hamburgischen Bürgerschaft (GAL), Mitglied des Bundeshauptausschusses der Grünen"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Cornelia_J%C3%BCrgens"
+  ]
 }

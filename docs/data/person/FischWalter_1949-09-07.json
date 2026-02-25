@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FischWalter_1949-09-07",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FischWalter_1949-09-07",
   "name": "Walter Fisch",
   "givenName": "Walter",
   "familyName": "Fisch",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1910-02-16",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Heidelberg"
-  },
-  "deathDate": "1966-12-21",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Frankfurt am Main"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Parteisekretät [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Kommunistischen Partei Deutschlands",
-        "alternateName": "KPD"
-      },
-      "startDate": "1949-09-07",
-      "endDate": "1953-09-07"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1024182215",
-    "https://de.wikipedia.org/wiki/Walter_Fisch"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Walter Fisch",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000548",
     "gnd": "https://d-nb.info/gnd/1024182215",
-    "wikipedia": "https://de.wikipedia.org/wiki/Walter_Fisch",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Walter_Fisch"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1910-02-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Heidelberg"
+  },
+  "deathDate": "1966-12-21",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Frankfurt am Main"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Parteisekretät [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Kommunistischen Partei Deutschlands",
+        "alternateName": "KPD"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1024182215",
+    "https://de.wikipedia.org/wiki/Walter_Fisch"
+  ]
 }

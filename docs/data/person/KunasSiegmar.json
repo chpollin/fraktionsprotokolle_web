@@ -1,21 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KunasSiegmar",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KunasSiegmar",
   "name": "Siegmar Kunas",
   "givenName": "Siegmar",
   "familyName": "Kunas",
-  "gender": "https://schema.org/Male",
-  "birthDate": null,
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Regierungsdirektor und persönlicher Referent des Parlamentarischen Staatssekretärs Friedrich Voss im Bundesfinanzministerium, Ministerialdirektor und Leiter der Abteilung Zölle und Verbrauchsteuern im BMF"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Siegmar Kunas",
@@ -36,10 +28,10 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Male",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Regierungsdirektor und persönlicher Referent des Parlamentarischen Staatssekretärs Friedrich Voss im Bundesfinanzministerium, Ministerialdirektor und Leiter der Abteilung Zölle und Verbrauchsteuern im BMF"
   }
 }

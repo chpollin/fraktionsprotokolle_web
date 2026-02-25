@@ -1,21 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "Gierke-SchnappertzChristianevon",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/Gierke-SchnappertzChristianevon",
   "name": "Christiane von Gierke-Schnappertz",
   "givenName": "Christiane",
   "familyName": "Gierke-Schnappertz",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1948-04-24",
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Juni-Okt. 1980 Mitglied des Bundesvorstands, Mitarbeiterin der Grünen-Bundestagsfraktion in der 10. (Fraktionsgeschäftsführung, Pressestelle, Betriebsrätin) und 11. Wahlperiode (Referentin in der Pressestelle, Besucher/innen-Betreuung, später im Büro der Fraktionsgeschäftsführung Personal- und Organisationsreferentin, ab 1988 Betriebsrätin)"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Christiane von Gierke-Schnappertz",
@@ -36,10 +28,11 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Female",
+  "birthDate": "1948-04-24",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Juni-Okt. 1980 Mitglied des Bundesvorstands, Mitarbeiterin der Grünen-Bundestagsfraktion in der 10. (Fraktionsgeschäftsführung, Pressestelle, Betriebsrätin) und 11. Wahlperiode (Referentin in der Pressestelle, Besucher/innen-Betreuung, später im Büro der Fraktionsgeschäftsführung Personal- und Organisationsreferentin, ab 1988 Betriebsrätin)"
   }
 }

@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KuehnDetlef",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KuehnDetlef",
   "name": "Detlef Kühn",
   "givenName": "Detlef",
   "familyName": "Kühn",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1936-11-16",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Potsdam"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1966–1969 Geschäftsführer des Arbeitskreises Außenpolitik und Verteidigung der FDP-Bundestagsfraktion, 1969–1972 persönlicher Referent beim Bundesminister des Innern (Genscher), 1972–1991 Präsident des Gesamtdeutschen Instituts – Bundesanstalt für gesamtdeutsche Aufgaben"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/12310064X",
-    "https://de.wikipedia.org/wiki/Detlef_K%C3%BChn"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Detlef Kühn",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/12310064X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Detlef_K%C3%BChn",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Detlef_K%C3%BChn"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1936-11-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Potsdam"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1966–1969 Geschäftsführer des Arbeitskreises Außenpolitik und Verteidigung der FDP-Bundestagsfraktion, 1969–1972 persönlicher Referent beim Bundesminister des Innern (Genscher), 1972–1991 Präsident des Gesamtdeutschen Instituts – Bundesanstalt für gesamtdeutsche Aufgaben"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/12310064X",
+    "https://de.wikipedia.org/wiki/Detlef_K%C3%BChn"
+  ]
 }

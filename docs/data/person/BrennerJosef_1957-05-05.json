@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BrennerJosef_1957-05-05",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BrennerJosef_1957-05-05",
   "name": "Josef Brenner",
   "givenName": "Josef",
   "familyName": "Brenner",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1899-09-08",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Niederfischbach"
-  },
-  "deathDate": "1967-05-03",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Koblenz"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Kaufmann [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1957-05-05",
-      "endDate": "1957-10-06"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1025836847",
-    "https://de.wikipedia.org/wiki/Josef_Brenner_(Politiker,_1899)"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Josef Brenner",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000262",
     "gnd": "https://d-nb.info/gnd/1025836847",
-    "wikipedia": "https://de.wikipedia.org/wiki/Josef_Brenner_(Politiker,_1899)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Josef_Brenner_(Politiker,_1899)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1899-09-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Niederfischbach"
+  },
+  "deathDate": "1967-05-03",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Koblenz"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Kaufmann [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1957-05-05",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1025836847",
+    "https://de.wikipedia.org/wiki/Josef_Brenner_(Politiker,_1899)"
+  ]
 }

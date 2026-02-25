@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ZeidlerWolfgang",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ZeidlerWolfgang",
   "name": "Wolfgang Zeidler",
   "givenName": "Wolfgang",
   "familyName": "Zeidler",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1924-09-02",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Hamburg"
-  },
-  "deathDate": "1987-12-31",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Meran"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Jurist und 1983–1987 Präsident des Bundesverfassungsgerichts"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118828290",
-    "https://de.wikipedia.org/wiki/Wolfgang_Zeidler"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Wolfgang Zeidler",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118828290",
-    "wikipedia": "https://de.wikipedia.org/wiki/Wolfgang_Zeidler",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Wolfgang_Zeidler"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1924-09-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "deathDate": "1987-12-31",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Meran"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Jurist und 1983–1987 Präsident des Bundesverfassungsgerichts"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118828290",
+    "https://de.wikipedia.org/wiki/Wolfgang_Zeidler"
+  ]
 }

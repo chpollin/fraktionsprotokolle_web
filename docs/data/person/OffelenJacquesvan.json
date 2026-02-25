@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "OffelenJacquesvan",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/OffelenJacquesvan",
   "name": "Jacques van Offelen",
   "givenName": "Jacques",
   "familyName": "Offelen",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1916",
-  "birthPlace": null,
-  "deathDate": "2006",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1966–1968 Wirtschaftsminister des Königreichs Belgien"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1205760393"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Jacques van Offelen",
@@ -39,9 +29,16 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/1205760393",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/1205760393"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1916",
+  "deathDate": "2006",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1966–1968 Wirtschaftsminister des Königreichs Belgien"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1205760393"
+  ]
 }

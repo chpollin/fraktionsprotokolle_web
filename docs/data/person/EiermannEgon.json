@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "EiermannEgon",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/EiermannEgon",
   "name": "Egon Eiermann",
   "givenName": "Egon Fritz Wilhelm",
   "familyName": "Eiermann",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1904-09-29",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Neuendorf (heute: Potsdam-Babelsberg)"
-  },
-  "deathDate": "1970-07-19",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Baden-Baden"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Architekt und Designer, 1947–1970 Professor an der Fakultät für Architektur der Technischen Hochschule Karlsruhe"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118688332",
-    "https://de.wikipedia.org/wiki/Egon_Eiermann"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Egon Eiermann",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118688332",
-    "wikipedia": "https://de.wikipedia.org/wiki/Egon_Eiermann",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Egon_Eiermann"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1904-09-29",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Neuendorf (heute: Potsdam-Babelsberg)"
+  },
+  "deathDate": "1970-07-19",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Baden-Baden"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Architekt und Designer, 1947–1970 Professor an der Fakultät für Architektur der Technischen Hochschule Karlsruhe"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118688332",
+    "https://de.wikipedia.org/wiki/Egon_Eiermann"
+  ]
 }

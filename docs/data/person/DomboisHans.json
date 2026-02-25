@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DomboisHans",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DomboisHans",
   "name": "Hans Dombois",
   "givenName": "Hans Adolf",
   "familyName": "Dombois",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1907-10-05",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "deathDate": "1997-06-24",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Porta Westfalica"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "evangelischer Kirchenrechtler, 1950–1961 Leiter der Arbeitsgruppe für politische Fragen des Deutschen Evangelischen Kirchentags, 1955–1969 Vorsitzender der Strafrechtskommission der EKD"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/11915692X",
-    "https://de.wikipedia.org/wiki/Hans_Dombois"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hans Dombois",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/11915692X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Dombois",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Dombois"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1907-10-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "1997-06-24",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Porta Westfalica"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "evangelischer Kirchenrechtler, 1950–1961 Leiter der Arbeitsgruppe für politische Fragen des Deutschen Evangelischen Kirchentags, 1955–1969 Vorsitzender der Strafrechtskommission der EKD"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/11915692X",
+    "https://de.wikipedia.org/wiki/Hans_Dombois"
+  ]
 }

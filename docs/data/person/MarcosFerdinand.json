@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MarcosFerdinand",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MarcosFerdinand",
   "name": "Ferdinand Marcos",
   "givenName": "Ferdinand",
   "familyName": "Marcos",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1917-09-11",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Sarrat, Provinz Ilocos Norte"
-  },
-  "deathDate": "1989-09-28",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Honolulu, Hawaii"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Jurist, 1965–1986 Präsident der Philippinen (ab 1972 diktatorisch regierend), danach auf ein Angebot von US-Präsident Ronald Reagan hin in »ehrenwertem« Asyl auf Hawaii (USA)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118944096",
-    "https://de.wikipedia.org/wiki/Ferdinand_Marcos"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Ferdinand Marcos",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118944096",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ferdinand_Marcos",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ferdinand_Marcos"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1917-09-11",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Sarrat, Provinz Ilocos Norte"
+  },
+  "deathDate": "1989-09-28",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Honolulu, Hawaii"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Jurist, 1965–1986 Präsident der Philippinen (ab 1972 diktatorisch regierend), danach auf ein Angebot von US-Präsident Ronald Reagan hin in »ehrenwertem« Asyl auf Hawaii (USA)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118944096",
+    "https://de.wikipedia.org/wiki/Ferdinand_Marcos"
+  ]
 }

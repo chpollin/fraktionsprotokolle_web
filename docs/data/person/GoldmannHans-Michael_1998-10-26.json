@@ -1,68 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GoldmannHans-Michael_1998-10-26",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GoldmannHans-Michael_1998-10-26",
   "name": "Hans-Michael Goldmann",
   "givenName": "Hans-Michael",
   "familyName": "Goldmann",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1946-07-01",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Hildesheim"
-  },
-  "deathDate": "2023-05-17",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Tierarzt, Studiendirektor [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Freien Demokratischen Partei",
-        "alternateName": "FDP"
-      },
-      "startDate": "1998-10-26",
-      "endDate": "2002-10-17"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Freien Demokratischen Partei",
-        "alternateName": "FDP"
-      },
-      "startDate": "2002-10-17",
-      "endDate": "2005-10-18"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Freien Demokratischen Partei",
-        "alternateName": "FDP"
-      },
-      "startDate": "2005-10-18",
-      "endDate": "2009-10-27"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Freien Demokratischen Partei",
-        "alternateName": "FDP"
-      },
-      "startDate": "2009-10-27",
-      "endDate": "2013-10-22"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/136306276",
-    "https://de.wikipedia.org/wiki/Hans-Michael_Goldmann"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Hans-Michael Goldmann",
@@ -115,7 +60,63 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11003133",
     "gnd": "https://d-nb.info/gnd/136306276",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hans-Michael_Goldmann",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans-Michael_Goldmann"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1946-07-01",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hildesheim"
+  },
+  "deathDate": "2023-05-17",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Tierarzt, Studiendirektor [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1998-10-26",
+      "endDate": "2002-10-17"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "2002-10-17",
+      "endDate": "2005-10-18"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "2005-10-18",
+      "endDate": "2009-10-27"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "2009-10-27",
+      "endDate": "2013-10-22"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/136306276",
+    "https://de.wikipedia.org/wiki/Hans-Michael_Goldmann"
+  ]
 }

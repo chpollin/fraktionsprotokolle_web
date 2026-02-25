@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MansholtSiccoLeendert",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MansholtSiccoLeendert",
   "name": "Sicco Leendert Mansholt",
   "givenName": "Sicco Leendert",
   "familyName": "Mansholt",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1908-09-13",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Ulrum"
-  },
-  "deathDate": "1995-06-29",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Wapserveen"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1945–1958 niederländischer Landwirtschaftsminister (Partij van de Arbeid), 1958–1972 Vizepräsident der EWG- bzw. EG-Kommission in Brüssel und Leiter der Abteilung für Landwirtschaft, März 1972-Januar 1973 Präsident der EG-Kommission"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118577255",
-    "https://de.wikipedia.org/wiki/Sicco_Mansholt"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Sicco Leendert Mansholt",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118577255",
-    "wikipedia": "https://de.wikipedia.org/wiki/Sicco_Mansholt",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Sicco_Mansholt"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1908-09-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Ulrum"
+  },
+  "deathDate": "1995-06-29",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Wapserveen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1945–1958 niederländischer Landwirtschaftsminister (Partij van de Arbeid), 1958–1972 Vizepräsident der EWG- bzw. EG-Kommission in Brüssel und Leiter der Abteilung für Landwirtschaft, März 1972-Januar 1973 Präsident der EG-Kommission"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118577255",
+    "https://de.wikipedia.org/wiki/Sicco_Mansholt"
+  ]
 }

@@ -1,29 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KuehneWalter",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KuehneWalter",
   "name": "Walter Kühne",
   "givenName": "Walter",
   "familyName": "Kühne",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1892-06-16",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Schmiegel"
-  },
-  "deathDate": "1968-01-30",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Köln"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1949–1952 Mitarbeiter der Sondergruppe Lastenausgleich und 1950–1952 Ministerialdirigent im Bundesministerium der Finanzen, 1952–1957 Präsident des Bundesausgleichsamtes"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/133544311"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Walter Kühne",
@@ -45,9 +29,24 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/133544311",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/133544311"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1892-06-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Schmiegel"
+  },
+  "deathDate": "1968-01-30",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Köln"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1949–1952 Mitarbeiter der Sondergruppe Lastenausgleich und 1950–1952 Ministerialdirigent im Bundesministerium der Finanzen, 1952–1957 Präsident des Bundesausgleichsamtes"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/133544311"
+  ]
 }

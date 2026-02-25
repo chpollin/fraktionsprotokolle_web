@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GurirabTheo-Ben",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GurirabTheo-Ben",
   "name": "Theo-Ben Guriab",
   "givenName": "Theo-Ben",
   "familyName": "Guriab",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1938-01-23",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Usakos"
-  },
-  "deathDate": "2018-07-14",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Windhoek"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "namibischer Politiker, 1972–1986 Leiter der Vertretung der SWAPO bei der UNO in New York, 1990–2002 Außenminister, 2002–2005 Premierminister Namibias"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Theo-Ben_Gurirab",
-    "http://viaf.org/viaf/7657161212215540070008"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Theo-Ben Guriab",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
     "wikipedia": "https://de.wikipedia.org/wiki/Theo-Ben_Gurirab",
     "viaf": "http://viaf.org/viaf/7657161212215540070008"
-  }
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1938-01-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Usakos"
+  },
+  "deathDate": "2018-07-14",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Windhoek"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "namibischer Politiker, 1972–1986 Leiter der Vertretung der SWAPO bei der UNO in New York, 1990–2002 Außenminister, 2002–2005 Premierminister Namibias"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Theo-Ben_Gurirab",
+    "http://viaf.org/viaf/7657161212215540070008"
+  ]
 }

@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchillerChristoph_1969-10-20",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchillerChristoph_1969-10-20",
   "name": "Christoph Schiller",
   "givenName": "Christoph",
   "familyName": "Schiller",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1927-11-13",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Mistelbach/Krs. Bayreuth"
-  },
-  "deathDate": "1994-11-04",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Regenstauf"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Pfarrer, Religionslehrer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1969-10-20",
-      "endDate": "1972-09-22"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1121610196",
-    "https://de.wikipedia.org/wiki/Christoph_Schiller_(Theologe)"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Christoph Schiller",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001967",
     "gnd": "https://d-nb.info/gnd/1121610196",
-    "wikipedia": "https://de.wikipedia.org/wiki/Christoph_Schiller_(Theologe)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Christoph_Schiller_(Theologe)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1927-11-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Mistelbach/Krs. Bayreuth"
+  },
+  "deathDate": "1994-11-04",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Regenstauf"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Pfarrer, Religionslehrer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1969-10-20",
+      "endDate": "1972-09-22"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1121610196",
+    "https://de.wikipedia.org/wiki/Christoph_Schiller_(Theologe)"
+  ]
 }

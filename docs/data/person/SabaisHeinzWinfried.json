@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SabaisHeinzWinfried",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SabaisHeinzWinfried",
   "name": "Heinz Winfried Sabais",
   "givenName": "Heinz Winfried",
   "familyName": "Sabais",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1922-04-01",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Breslau (heute: Wrocław, Polen)"
-  },
-  "deathDate": "1981-03-11",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Darmstadt"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Handelsgehilfe, Schriftsteller, Lyriker, Redakteur und Lektor, 1948–1949 Chefsekretär des Deutschen Goetheausschusses Weimar/Berlin, 1951-1953 Redakteur der Zeitschrift »Neue Literarische Welt« (Organ der Deutschen Akademie für Sprache und Dichtung) in Darmstadt, ab 1953 Kulturreferent sowie ab 1963  als (hauptamtlicher) Stadtrat Mitglied des Magistrats und erster hauptamtlicher Kultur- und Schuldezernent der Stadt Darmstadt, ab 1955 Mitglied sowie bis 1966 Generalsekretär des PEN-Zentrums, 1971–1981 Oberbürgermeister der Stadt Darmstadt (SPD), 1971–1981 Präsident des Deutschen Bühnenvereins (DBV)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118604481",
-    "https://de.wikipedia.org/wiki/Heinz_Winfried_Sabais"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Heinz Winfried Sabais",
@@ -46,10 +29,27 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118604481",
-    "wikipedia": "https://de.wikipedia.org/wiki/Heinz_Winfried_Sabais",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Heinz_Winfried_Sabais"
   },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1922-04-01",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Breslau (heute: Wrocław, Polen)"
+  },
+  "deathDate": "1981-03-11",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Darmstadt"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Handelsgehilfe, Schriftsteller, Lyriker, Redakteur und Lektor, 1948–1949 Chefsekretär des Deutschen Goetheausschusses Weimar/Berlin, 1951-1953 Redakteur der Zeitschrift »Neue Literarische Welt« (Organ der Deutschen Akademie für Sprache und Dichtung) in Darmstadt, ab 1953 Kulturreferent sowie ab 1963  als (hauptamtlicher) Stadtrat Mitglied des Magistrats und erster hauptamtlicher Kultur- und Schuldezernent der Stadt Darmstadt, ab 1955 Mitglied sowie bis 1966 Generalsekretär des PEN-Zentrums, 1971–1981 Oberbürgermeister der Stadt Darmstadt (SPD), 1971–1981 Präsident des Deutschen Bühnenvereins (DBV)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118604481",
+    "https://de.wikipedia.org/wiki/Heinz_Winfried_Sabais"
+  ],
   "fraktionsprotokolle:sonstiges": "1950 Flucht aus der DDR in die BRD"
 }

@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SeitzFriedrich",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SeitzFriedrich",
   "name": "Friedrich Seitz",
   "givenName": "Friedrich",
   "familyName": "Seitz",
-  "gender": "https://schema.org/Male",
-  "birthDate": null,
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "(mindestens) in den 1980er Jahren Referent der CSU-Landesgruppe im Deutschen Bundestag (1981-1983 Arbeitskreis III, 1983-1984/1985 Arbeitskreis IV)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1060158000"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Friedrich Seitz",
@@ -39,9 +29,14 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/1060158000",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/1060158000"
+  },
+  "gender": "https://schema.org/Male",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "(mindestens) in den 1980er Jahren Referent der CSU-Landesgruppe im Deutschen Bundestag (1981-1983 Arbeitskreis III, 1983-1984/1985 Arbeitskreis IV)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1060158000"
+  ]
 }

@@ -1,57 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchoppeWaltraud_1983-03-29",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchoppeWaltraud_1983-03-29",
   "name": "Waltraud Schoppe",
   "givenName": "Waltraud",
   "familyName": "Schoppe",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1942-06-27",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Bremen-Aumund"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Erzieherin, Lehrerin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion Die Grünen",
-        "alternateName": "Grüne"
-      },
-      "startDate": "1983-03-29",
-      "endDate": "1985-03-31"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion Die Grünen",
-        "alternateName": "Grüne"
-      },
-      "startDate": "1987-02-18",
-      "endDate": "1990-06-21"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion Bündnis 90/Die Grünen",
-        "alternateName": "B90/Grüne"
-      },
-      "startDate": "1994-11-10",
-      "endDate": "1998-10-26"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1030011664"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Waltraud Schoppe",
@@ -96,8 +52,51 @@
   ],
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11002065",
-    "gnd": "https://d-nb.info/gnd/1030011664",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/1030011664"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1942-06-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bremen-Aumund"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Erzieherin, Lehrerin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Die Grünen",
+        "alternateName": "Grüne"
+      },
+      "startDate": "1983-03-29",
+      "endDate": "1985-03-31"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Die Grünen",
+        "alternateName": "Grüne"
+      },
+      "startDate": "1987-02-18",
+      "endDate": "1990-06-21"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Bündnis 90/Die Grünen",
+        "alternateName": "B90/Grüne"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-10-26"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1030011664"
+  ]
 }

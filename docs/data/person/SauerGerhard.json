@@ -1,26 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SauerGerhard",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SauerGerhard",
   "name": "Gerhard Sauer",
   "givenName": "Gerhard",
   "familyName": "Sauer",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1957",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Altenhundem (Kreis Olpe)"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Kaufmann, Journalist und Autor, in den 1980er Jahren Mitarbeiter des Bürger- und Basisbüros der Grünen Südwestfalen in Lennestadt, langjähriger Mitarbeiter (u. a. Pressesprecher) der Grünen-Landtagsfraktion in NRW, (mindestens) 2007 im Vorstand der Grünen Lennestadt, 2010–2017 stv. Leiter der NRW-Landesvertretung beim Bund in Berlin, anschließend Verwaltungsmitarbeiter im Landesministerium für Schule und Bildung NRW"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119185213X"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Gerhard Sauer",
@@ -42,9 +29,19 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/119185213X",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/119185213X"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1957",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Altenhundem (Kreis Olpe)"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Kaufmann, Journalist und Autor, in den 1980er Jahren Mitarbeiter des Bürger- und Basisbüros der Grünen Südwestfalen in Lennestadt, langjähriger Mitarbeiter (u. a. Pressesprecher) der Grünen-Landtagsfraktion in NRW, (mindestens) 2007 im Vorstand der Grünen Lennestadt, 2010–2017 stv. Leiter der NRW-Landesvertretung beim Bund in Berlin, anschließend Verwaltungsmitarbeiter im Landesministerium für Schule und Bildung NRW"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119185213X"
+  ]
 }

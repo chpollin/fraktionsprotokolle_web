@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "StrasserGregor",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/StrasserGregor",
   "name": "Gregor Strasser",
   "givenName": "Gregor",
   "familyName": "Strasser",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1892-05-31",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Geisenfeld"
-  },
-  "deathDate": "1934-06-30",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1926–1928 Reichspropagandaleiter und 1928–1932 Reichsorganisationsleiter der NSDAP, 1924–1932 MdR (NSDAP)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/11861889X",
-    "https://de.wikipedia.org/wiki/Gregor_Strasser"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Gregor Strasser",
@@ -46,10 +29,27 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/11861889X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Gregor_Strasser",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Gregor_Strasser"
   },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1892-05-31",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Geisenfeld"
+  },
+  "deathDate": "1934-06-30",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1926–1928 Reichspropagandaleiter und 1928–1932 Reichsorganisationsleiter der NSDAP, 1924–1932 MdR (NSDAP)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/11861889X",
+    "https://de.wikipedia.org/wiki/Gregor_Strasser"
+  ],
   "fraktionsprotokolle:sonstiges": "1934 beim sog. Röhm-Putsch ermordet"
 }

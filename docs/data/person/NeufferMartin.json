@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "NeufferMartin",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/NeufferMartin",
   "name": "Martin Neuffer",
   "givenName": "Martin",
   "familyName": "Neuffer",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1924-06-18",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Heidelberg"
-  },
-  "deathDate": "2004-06-09",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Hamburg"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1963–1974 Oberstadtdirektor von Hannover, 1974-1980 Intendant des Norddeutschen Rundfunks (NDR)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/129117390",
-    "https://de.wikipedia.org/wiki/Martin_Neuffer_(Verwaltungsjurist)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Martin Neuffer",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/129117390",
-    "wikipedia": "https://de.wikipedia.org/wiki/Martin_Neuffer_(Verwaltungsjurist)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Martin_Neuffer_(Verwaltungsjurist)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1924-06-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Heidelberg"
+  },
+  "deathDate": "2004-06-09",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1963–1974 Oberstadtdirektor von Hannover, 1974-1980 Intendant des Norddeutschen Rundfunks (NDR)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/129117390",
+    "https://de.wikipedia.org/wiki/Martin_Neuffer_(Verwaltungsjurist)"
+  ]
 }

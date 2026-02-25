@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KortmannJohannes_1953-10-06",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KortmannJohannes_1953-10-06",
   "name": "Johannes Kortmann",
   "givenName": "Johannes",
   "familyName": "Kortmann",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1889-09-21",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Hollen"
-  },
-  "deathDate": "1965-11-02",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Aurich"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Kapitän zur See a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1953-10-06",
-      "endDate": "1957-10-06"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1034923064",
-    "https://de.wikipedia.org/wiki/Johannes_Kortmann"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Johannes Kortmann",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001184",
     "gnd": "https://d-nb.info/gnd/1034923064",
-    "wikipedia": "https://de.wikipedia.org/wiki/Johannes_Kortmann",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Johannes_Kortmann"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1889-09-21",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hollen"
+  },
+  "deathDate": "1965-11-02",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Aurich"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Kapitän zur See a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1034923064",
+    "https://de.wikipedia.org/wiki/Johannes_Kortmann"
+  ]
 }

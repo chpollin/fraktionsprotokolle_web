@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BestlerMax",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BestlerMax",
   "name": "Max Bestler",
   "givenName": "Max",
   "familyName": "Bestler",
-  "gender": "https://schema.org/Male",
-  "birthDate": null,
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Mitarbeiter des »Handelsblattes«, CDU-Mitglied"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/125143184"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Max Bestler",
@@ -39,9 +29,14 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/125143184",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/125143184"
+  },
+  "gender": "https://schema.org/Male",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Mitarbeiter des »Handelsblattes«, CDU-Mitglied"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/125143184"
+  ]
 }

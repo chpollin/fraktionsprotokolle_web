@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "LynchJohn",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/LynchJohn",
   "name": "John Lynch",
   "givenName": "John",
   "familyName": "Lynch",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1917-08-15",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Cork"
-  },
-  "deathDate": "1999-10-20",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Dublin"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1966–1973 Premierminister der Republik Irland"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/124107893",
-    "https://de.wikipedia.org/wiki/Jack_Lynch"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "John Lynch",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/124107893",
-    "wikipedia": "https://de.wikipedia.org/wiki/Jack_Lynch",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Jack_Lynch"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1917-08-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Cork"
+  },
+  "deathDate": "1999-10-20",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Dublin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1966–1973 Premierminister der Republik Irland"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/124107893",
+    "https://de.wikipedia.org/wiki/Jack_Lynch"
+  ]
 }

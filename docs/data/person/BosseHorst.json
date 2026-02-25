@@ -1,24 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BosseHorst",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BosseHorst",
   "name": "Horst Bosse",
   "givenName": "Horst",
   "familyName": "Bosse",
-  "gender": "https://schema.org/Male",
-  "birthDate": null,
-  "birthPlace": null,
-  "deathDate": "1972-03-15",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Gotha"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "westdeutscher Osthandelskaufmann, 1972 in der DDR unter ungeklärten Umständen tödlich verunglückt"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Horst Bosse",
@@ -39,10 +28,15 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Male",
+  "deathDate": "1972-03-15",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Gotha"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "westdeutscher Osthandelskaufmann, 1972 in der DDR unter ungeklärten Umständen tödlich verunglückt"
   }
 }

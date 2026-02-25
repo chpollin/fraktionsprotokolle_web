@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchmiererHans-GerhartJoscha",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchmiererHans-GerhartJoscha",
   "name": "Hans-Gerhart »Joscha« Schmierer",
   "givenName": "Hans-Gerhart »Joscha«",
   "familyName": "Schmierer",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1942-04-01",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Stuttgart"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1973–1982 Sekretär des Kommunistischen Bundes Westdeutschland (KBW); Mitherausgeber der Zeitschrift »Kommune. Forum für Politik, Ökonomie und Kultur«, von 1983–1999 auch als Redakteur; 1999–2007 Mitarbeiter im Planungsstab des Auswärtigen Amts"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/108384047",
-    "https://de.wikipedia.org/wiki/Joscha_Schmierer"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hans-Gerhart »Joscha« Schmierer",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/108384047",
-    "wikipedia": "https://de.wikipedia.org/wiki/Joscha_Schmierer",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Joscha_Schmierer"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1942-04-01",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Stuttgart"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1973–1982 Sekretär des Kommunistischen Bundes Westdeutschland (KBW); Mitherausgeber der Zeitschrift »Kommune. Forum für Politik, Ökonomie und Kultur«, von 1983–1999 auch als Redakteur; 1999–2007 Mitarbeiter im Planungsstab des Auswärtigen Amts"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/108384047",
+    "https://de.wikipedia.org/wiki/Joscha_Schmierer"
+  ]
 }

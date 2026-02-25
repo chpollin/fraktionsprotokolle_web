@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KrampolKarl",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KrampolKarl",
   "name": "Karl Krampol",
   "givenName": "Karl",
   "familyName": "Krampol",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1928-12-14",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Brünn"
-  },
-  "deathDate": "1997-09-07",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bad Reichenhall"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1967-1969 Vorsitzender des CSU-Arbeitskreises Polizei, 1970-1973 Oberpolizeidirektor der Bayerischen Bereitschaftspolizei in München, 1973-1981 Leiter der Abteilung für Öffentliche Sicherheit und Ordnung im Bayerischen Staatsministerium des Innern, 1981-1993 Regierungspräsident der Oberpfalz"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/122777492",
-    "https://de.wikipedia.org/wiki/Karl_Krampol"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Karl Krampol",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/122777492",
-    "wikipedia": "https://de.wikipedia.org/wiki/Karl_Krampol",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Karl_Krampol"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1928-12-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Brünn"
+  },
+  "deathDate": "1997-09-07",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bad Reichenhall"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1967-1969 Vorsitzender des CSU-Arbeitskreises Polizei, 1970-1973 Oberpolizeidirektor der Bayerischen Bereitschaftspolizei in München, 1973-1981 Leiter der Abteilung für Öffentliche Sicherheit und Ordnung im Bayerischen Staatsministerium des Innern, 1981-1993 Regierungspräsident der Oberpfalz"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/122777492",
+    "https://de.wikipedia.org/wiki/Karl_Krampol"
+  ]
 }

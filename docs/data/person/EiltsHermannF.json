@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "EiltsHermannF",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/EiltsHermannF",
   "name": "Hermann Frederick Eilts",
   "givenName": "Hermann Frederick",
   "familyName": "Eilts",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1922-03-23",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Weißenfels"
-  },
-  "deathDate": "2006-10-12",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Wellesley, Massachusetts"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "US-amerikanischer Diplomat, u. a. Nov. 1973–1979 Botschafter in Kairo"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/170021580",
-    "https://en.wikipedia.org/wiki/Hermann_Eilts"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hermann Frederick Eilts",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/170021580",
-    "wikipedia": "https://en.wikipedia.org/wiki/Hermann_Eilts",
-    "viaf": null
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/Hermann_Eilts"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1922-03-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Weißenfels"
+  },
+  "deathDate": "2006-10-12",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Wellesley, Massachusetts"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "US-amerikanischer Diplomat, u. a. Nov. 1973–1979 Botschafter in Kairo"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/170021580",
+    "https://en.wikipedia.org/wiki/Hermann_Eilts"
+  ]
 }

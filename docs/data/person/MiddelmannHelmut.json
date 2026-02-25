@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MiddelmannHelmut",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MiddelmannHelmut",
   "name": "Helmut Middelmann",
   "givenName": "Helmut",
   "familyName": "Middelmann",
-  "gender": "https://schema.org/Male",
-  "birthDate": null,
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1964–1967 Vortragender Legationsrat I. Klasse im Auswärtigen Amt und Leiter des Referats »Internationale Wirtschaftsfragen der Verteidigung, des Verkehrs, des Post- und Fernmeldewesens und des Fremdenverkehrs«, dann Botschaftsrat I. Klasse an der Botschaft in Washington"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/117026646"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Helmut Middelmann",
@@ -39,9 +29,14 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/117026646",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/117026646"
+  },
+  "gender": "https://schema.org/Male",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1964–1967 Vortragender Legationsrat I. Klasse im Auswärtigen Amt und Leiter des Referats »Internationale Wirtschaftsfragen der Verteidigung, des Verkehrs, des Post- und Fernmeldewesens und des Fremdenverkehrs«, dann Botschaftsrat I. Klasse an der Botschaft in Washington"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/117026646"
+  ]
 }

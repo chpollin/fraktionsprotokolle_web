@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "StendhalBeyleMarieHenri",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/StendhalBeyleMarieHenri",
   "name": "Stendhal, Pseudonym für Marie-Henri Beyle",
   "givenName": "Marie-Henri",
   "familyName": "Beyle",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1783-01-23",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Grenoble"
-  },
-  "deathDate": "1842-03-23",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Paris"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "französischer Schriftsteller"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118617648",
-    "https://de.wikipedia.org/wiki/Stendhal"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Stendhal, Pseudonym für Marie-Henri Beyle",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118617648",
-    "wikipedia": "https://de.wikipedia.org/wiki/Stendhal",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Stendhal"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1783-01-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Grenoble"
+  },
+  "deathDate": "1842-03-23",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "französischer Schriftsteller"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118617648",
+    "https://de.wikipedia.org/wiki/Stendhal"
+  ]
 }

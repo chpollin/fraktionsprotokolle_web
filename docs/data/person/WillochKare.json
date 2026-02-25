@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WillochKare",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WillochKare",
   "name": "Kåre Willoch",
   "givenName": "Kåre",
   "familyName": "Willoch",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1928-10-03",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Oslo"
-  },
-  "deathDate": "2021-12-06",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Oslo"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "norwegischer Politiker der konservativen Partei Høyre, 1958-1989 Abgeordneter im Storting, 1963 und 1965-1970 Handels- und Schiffahrtsminister, 1981-1986 norwegischer Ministerpräsident, 1970-1974 Vorsitzender der Partei Høyre"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/11890275X",
-    "https://de.wikipedia.org/wiki/K%C3%A5re_Willoch"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Kåre Willoch",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/11890275X",
-    "wikipedia": "https://de.wikipedia.org/wiki/K%C3%A5re_Willoch",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/K%C3%A5re_Willoch"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1928-10-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Oslo"
+  },
+  "deathDate": "2021-12-06",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Oslo"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "norwegischer Politiker der konservativen Partei Høyre, 1958-1989 Abgeordneter im Storting, 1963 und 1965-1970 Handels- und Schiffahrtsminister, 1981-1986 norwegischer Ministerpräsident, 1970-1974 Vorsitzender der Partei Høyre"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/11890275X",
+    "https://de.wikipedia.org/wiki/K%C3%A5re_Willoch"
+  ]
 }

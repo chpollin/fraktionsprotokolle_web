@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "OphuelsCarlFriedrich",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/OphuelsCarlFriedrich",
   "name": "Carl Friedrich Ophüls",
   "givenName": "Carl Friedrich",
   "familyName": "Ophüls",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1895-12-27",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Essen"
-  },
-  "deathDate": "1970-03-09",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Langenberg"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1952–1955 Unterabteilungsleiter im Auswärtigen Amt, 1955–1958 Botschafter in Brüssel"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/11873637X",
-    "https://de.wikipedia.org/wiki/Carl_Friedrich_Oph%C3%BCls"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Carl Friedrich Ophüls",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/11873637X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Carl_Friedrich_Oph%C3%BCls",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Carl_Friedrich_Oph%C3%BCls"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1895-12-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Essen"
+  },
+  "deathDate": "1970-03-09",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Langenberg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1952–1955 Unterabteilungsleiter im Auswärtigen Amt, 1955–1958 Botschafter in Brüssel"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/11873637X",
+    "https://de.wikipedia.org/wiki/Carl_Friedrich_Oph%C3%BCls"
+  ]
 }

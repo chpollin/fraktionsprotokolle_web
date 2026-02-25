@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BartelsHerwig",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BartelsHerwig",
   "name": "Herwig Bartels",
   "givenName": "Herwig",
   "familyName": "Bartels",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1934-06-10",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Bremen"
-  },
-  "deathDate": "2003-08-02",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Freiburg i. Br."
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Diplomat, seit 1977 Vortragender Legationsrat im Auswärtigen Amt (Referat »Naher Osten«), 1985–1990 Botschafter in Jordanien, 1994–1999 in Marokko"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1095578111",
-    "https://de.wikipedia.org/wiki/Herwig_Bartels"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Herwig Bartels",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1095578111",
-    "wikipedia": "https://de.wikipedia.org/wiki/Herwig_Bartels",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Herwig_Bartels"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1934-06-10",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bremen"
+  },
+  "deathDate": "2003-08-02",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Freiburg i. Br."
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Diplomat, seit 1977 Vortragender Legationsrat im Auswärtigen Amt (Referat »Naher Osten«), 1985–1990 Botschafter in Jordanien, 1994–1999 in Marokko"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1095578111",
+    "https://de.wikipedia.org/wiki/Herwig_Bartels"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BergmannHorst",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BergmannHorst",
   "name": "Horst Bergmann",
   "givenName": "Horst Erich Emese",
   "familyName": "Bergmann",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1929-10-11",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Mannheim"
-  },
-  "deathDate": "2013-10-07",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Schauspieler und Hörspielsprecher"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1095502298",
-    "https://de.wikipedia.org/wiki/Horst_Bergmann_(Schauspieler)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Horst Bergmann",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1095502298",
-    "wikipedia": "https://de.wikipedia.org/wiki/Horst_Bergmann_(Schauspieler)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Horst_Bergmann_(Schauspieler)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1929-10-11",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Mannheim"
+  },
+  "deathDate": "2013-10-07",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Schauspieler und Hörspielsprecher"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1095502298",
+    "https://de.wikipedia.org/wiki/Horst_Bergmann_(Schauspieler)"
+  ]
 }

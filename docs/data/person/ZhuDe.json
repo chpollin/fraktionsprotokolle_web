@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ZhuDe",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ZhuDe",
   "name": "Zhu De",
   "givenName": "De",
   "familyName": "Zhu",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1886-12-01",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Yilong"
-  },
-  "deathDate": "1976-07-06",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Peking"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Oberkommandierender der chinesischen Volksbefreiungsarmee, nach der Gründung der Volksrepublik China repräsentative Staatsämter, als langjähriger Vorsitzender des Ständigen Ausschusses des Nationalen Volkskongresses von 1975 bis zu seinem Tod Staatsoberhaupt"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118666177",
-    "https://de.wikipedia.org/wiki/Zhu_De"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Zhu De",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118666177",
-    "wikipedia": "https://de.wikipedia.org/wiki/Zhu_De",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Zhu_De"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1886-12-01",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Yilong"
+  },
+  "deathDate": "1976-07-06",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Peking"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Oberkommandierender der chinesischen Volksbefreiungsarmee, nach der Gründung der Volksrepublik China repräsentative Staatsämter, als langjähriger Vorsitzender des Ständigen Ausschusses des Nationalen Volkskongresses von 1975 bis zu seinem Tod Staatsoberhaupt"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118666177",
+    "https://de.wikipedia.org/wiki/Zhu_De"
+  ]
 }

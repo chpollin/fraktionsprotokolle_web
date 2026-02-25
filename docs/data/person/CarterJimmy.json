@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "CarterJimmy",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/CarterJimmy",
   "name": "James Earl »Jimmy« Carter",
   "givenName": "Jimmy",
   "familyName": "Carter",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1924-10-01",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Plains, Georgia"
-  },
-  "deathDate": "2024-12-29",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Plains, Georgia"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1977–1981 39. Präsident der USA"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118519336",
-    "https://de.wikipedia.org/wiki/Jimmy_Carter"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "James Earl »Jimmy« Carter",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118519336",
-    "wikipedia": "https://de.wikipedia.org/wiki/Jimmy_Carter",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Jimmy_Carter"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1924-10-01",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Plains, Georgia"
+  },
+  "deathDate": "2024-12-29",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Plains, Georgia"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1977–1981 39. Präsident der USA"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118519336",
+    "https://de.wikipedia.org/wiki/Jimmy_Carter"
+  ]
 }

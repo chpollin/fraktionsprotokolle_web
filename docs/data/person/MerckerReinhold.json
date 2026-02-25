@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MerckerReinhold",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MerckerReinhold",
   "name": "Reinhold Mercker",
   "givenName": "Reinhold",
   "familyName": "Mercker",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1903-08-04",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Braunschweig"
-  },
-  "deathDate": "1996-03-26",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1965–1966 Stellvertreter des Chefs des Bundeskanzleramtes, 1966–1967 Staatssekretär im Bundesministerium für die Angelegenheiten des Bundesverteidigungsrates, 1967/68 Staatssekretär im Bundeslandwirtschaftsministerium"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1026824621",
-    "https://de.wikipedia.org/wiki/Reinhold_Mercker"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Reinhold Mercker",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1026824621",
-    "wikipedia": "https://de.wikipedia.org/wiki/Reinhold_Mercker",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Reinhold_Mercker"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1903-08-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Braunschweig"
+  },
+  "deathDate": "1996-03-26",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1965–1966 Stellvertreter des Chefs des Bundeskanzleramtes, 1966–1967 Staatssekretär im Bundesministerium für die Angelegenheiten des Bundesverteidigungsrates, 1967/68 Staatssekretär im Bundeslandwirtschaftsministerium"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1026824621",
+    "https://de.wikipedia.org/wiki/Reinhold_Mercker"
+  ]
 }

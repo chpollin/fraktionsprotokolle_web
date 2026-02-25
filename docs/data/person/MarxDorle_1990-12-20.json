@@ -1,48 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MarxDorle_1990-12-20",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MarxDorle_1990-12-20",
   "name": "Dorothea »Dorle« Marx",
   "givenName": "Ulrike Dorothea »Dorle«",
   "familyName": "Marx",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1957-12-22",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Rechtsanwältin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1990-12-20",
-      "endDate": "1994-11-10"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1994-11-10",
-      "endDate": "1998-10-26"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/138208581",
-    "https://de.wikipedia.org/wiki/Dorothea_Marx"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Dorothea »Dorle« Marx",
@@ -81,7 +46,42 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001429",
     "gnd": "https://d-nb.info/gnd/138208581",
-    "wikipedia": "https://de.wikipedia.org/wiki/Dorothea_Marx",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Dorothea_Marx"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1957-12-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsanwältin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-10-26"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/138208581",
+    "https://de.wikipedia.org/wiki/Dorothea_Marx"
+  ]
 }

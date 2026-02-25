@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MediciGiuseppe",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MediciGiuseppe",
   "name": "Giuseppe Medici",
   "givenName": "Giuseppe",
   "familyName": "Medici",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1907-10-24",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Sassuolo, Emilia-Romagna"
-  },
-  "deathDate": "2000-08-21",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Modena"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Juni–Dez. 1968 italienischer Außenminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/128275197",
-    "https://de.wikipedia.org/wiki/Giuseppe_Medici"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Giuseppe Medici",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/128275197",
-    "wikipedia": "https://de.wikipedia.org/wiki/Giuseppe_Medici",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Giuseppe_Medici"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1907-10-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Sassuolo, Emilia-Romagna"
+  },
+  "deathDate": "2000-08-21",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Modena"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Juni–Dez. 1968 italienischer Außenminister"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/128275197",
+    "https://de.wikipedia.org/wiki/Giuseppe_Medici"
+  ]
 }

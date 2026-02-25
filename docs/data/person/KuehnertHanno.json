@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KuehnertHanno",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KuehnertHanno",
   "name": "Hanno Kühnert",
   "givenName": "Hanno",
   "familyName": "Kühnert",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1934-04-22",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Geislingen an der Steige"
-  },
-  "deathDate": "2003-05-16",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Jurist, Journalist (u. a. »FAZ«, »Süddeutsche Zeitung«, »Badische Zeitung«, »Die Zeit« und »Frankfurter Rundschau«) und Schriftsteller"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1145451780",
-    "https://de.wikipedia.org/wiki/Hanno_K%C3%BChnert"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hanno Kühnert",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1145451780",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hanno_K%C3%BChnert",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hanno_K%C3%BChnert"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1934-04-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Geislingen an der Steige"
+  },
+  "deathDate": "2003-05-16",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Jurist, Journalist (u. a. »FAZ«, »Süddeutsche Zeitung«, »Badische Zeitung«, »Die Zeit« und »Frankfurter Rundschau«) und Schriftsteller"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1145451780",
+    "https://de.wikipedia.org/wiki/Hanno_K%C3%BChnert"
+  ]
 }

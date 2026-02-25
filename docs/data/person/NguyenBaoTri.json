@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "NguyenBaoTri",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/NguyenBaoTri",
   "name": "Nguyen Bao Tri",
   "givenName": "Nguyen Bao Tri",
   "familyName": "Nguyen Bao Tri",
-  "gender": "https://schema.org/Male",
-  "birthDate": null,
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "südvietnamesischer General, 1965–Sept. 1967 Vorsitzender des Nationalen Verteidigungsrates, Sept. 1967–1975 Minister für Pazifizierung"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://en.wikipedia.org/wiki/Nguy%E1%BB%85n_B%E1%BA%A3o_Tr%E1%BB%8B"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Nguyen Bao Tri",
@@ -39,9 +29,14 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://en.wikipedia.org/wiki/Nguy%E1%BB%85n_B%E1%BA%A3o_Tr%E1%BB%8B",
-    "viaf": null
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/Nguy%E1%BB%85n_B%E1%BA%A3o_Tr%E1%BB%8B"
+  },
+  "gender": "https://schema.org/Male",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "südvietnamesischer General, 1965–Sept. 1967 Vorsitzender des Nationalen Verteidigungsrates, Sept. 1967–1975 Minister für Pazifizierung"
+  },
+  "sameAs": [
+    "https://en.wikipedia.org/wiki/Nguy%E1%BB%85n_B%E1%BA%A3o_Tr%E1%BB%8B"
+  ]
 }

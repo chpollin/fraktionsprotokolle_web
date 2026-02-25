@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MersmannWolfgang",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MersmannWolfgang",
   "name": "Wolfgang Mersmann",
   "givenName": "Wolfgang Felix Walter",
   "familyName": "Mersmann",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1902-06-19",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Kiel"
-  },
-  "deathDate": "1973-09-25",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bad Kissingen"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1950–1962 Leiter der Abteilung Besitz- und Verkehrsteuern im Bundesministerium der Finanzen, 1962–1970 Präsident des Bundesfinanzhofs"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/105710288",
-    "https://de.wikipedia.org/wiki/Wolfgang_Mersmann"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Wolfgang Mersmann",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/105710288",
-    "wikipedia": "https://de.wikipedia.org/wiki/Wolfgang_Mersmann",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Wolfgang_Mersmann"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1902-06-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kiel"
+  },
+  "deathDate": "1973-09-25",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bad Kissingen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1950–1962 Leiter der Abteilung Besitz- und Verkehrsteuern im Bundesministerium der Finanzen, 1962–1970 Präsident des Bundesfinanzhofs"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/105710288",
+    "https://de.wikipedia.org/wiki/Wolfgang_Mersmann"
+  ]
 }

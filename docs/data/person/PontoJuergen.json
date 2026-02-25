@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PontoJuergen",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PontoJuergen",
   "name": "Jürgen Ponto",
   "givenName": "Jürgen",
   "familyName": "Ponto",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1923-12-17",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Bad Nauheim"
-  },
-  "deathDate": "1977-07-30",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Frankfurt a. M."
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1969–1977 Vorstandssprecher der Dresdner Bank"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118595717",
-    "https://de.wikipedia.org/wiki/J%C3%BCrgen_Ponto"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Jürgen Ponto",
@@ -46,10 +29,27 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118595717",
-    "wikipedia": "https://de.wikipedia.org/wiki/J%C3%BCrgen_Ponto",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/J%C3%BCrgen_Ponto"
   },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1923-12-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bad Nauheim"
+  },
+  "deathDate": "1977-07-30",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Frankfurt a. M."
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1969–1977 Vorstandssprecher der Dresdner Bank"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118595717",
+    "https://de.wikipedia.org/wiki/J%C3%BCrgen_Ponto"
+  ],
   "fraktionsprotokolle:sonstiges": "1977 von Mitgliedern der terroristischen Vereinigung »Rote Armee Fraktion« (RAF) ermordet"
 }

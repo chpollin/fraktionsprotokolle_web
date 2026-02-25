@@ -5,8 +5,17 @@ from build.factions import normalize_faction
 from build.dates import extract_year
 from build.quality import QualityReport
 
-# Schema.org JSON-LD context for detail entries
-JSONLD_CONTEXT = "https://schema.org"
+# Schema.org JSON-LD context for detail entries.
+# Declares the project-specific namespace so that "fraktionsprotokolle:*"
+# keys are valid JSON-LD terms (not silently dropped by processors).
+JSONLD_CONTEXT = {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/",
+}
+
+# Base URL for @id (person pages). Combined with person ID to form a
+# resolvable URI, e.g. https://fraktionsprotokolle.de/parlabio/#/person/AdenauerKonrad_1949-09-07
+PARLABIO_BASE_URL = "https://fraktionsprotokolle.de/parlabio/#/person/"
 
 # Mapping of sex values to Schema.org GenderType
 SEX_TO_SCHEMA = {
@@ -114,28 +123,11 @@ def build_detail_entry(person: dict, report: QualityReport) -> dict:
     detail = {
         "@context": JSONLD_CONTEXT,
         "@type": "Person",
-        "@id": person["id"],
+        "@id": PARLABIO_BASE_URL + person["id"],
         "name": person["name"]["reg"],
         "givenName": person["name"]["forename"],
         "familyName": person["name"]["surname"],
-        "gender": SEX_TO_SCHEMA.get(person["sex"]),
-        "birthDate": person["birth"]["date"] or None,
-        "birthPlace": {
-            "@type": "Place",
-            "name": person["birth"]["place"],
-        } if person["birth"]["place"] else None,
-        "deathDate": person["death"]["date"] or None,
-        "deathPlace": {
-            "@type": "Place",
-            "name": person["death"]["place"],
-        } if person["death"]["place"] else None,
-        "hasOccupation": {
-            "@type": "Occupation",
-            "name": person["occupation"],
-        } if person["occupation"] else None,
-        "memberOf": member_of if member_of else None,
-        "sameAs": same_as if same_as else None,
-        # Project-specific fields (not in Schema.org)
+        # Project-specific fields (namespace declared in @context)
         "fraktionsprotokolle:personType": person["type"],
         "fraktionsprotokolle:name": {
             "reg": person["name"]["reg"],
@@ -149,14 +141,35 @@ def build_detail_entry(person: dict, report: QualityReport) -> dict:
         "fraktionsprotokolle:death": person["death"],
         "fraktionsprotokolle:affiliations": affiliations,
         "fraktionsprotokolle:ids": {
-            "mdb_stammdaten": person["ids"].get("mdb_stammdaten"),
-            "gnd": person["ids"].get("gnd"),
-            "wikipedia": person["ids"].get("wikipedia"),
-            "viaf": person["ids"].get("viaf"),
+            k: v for k, v in {
+                "mdb_stammdaten": person["ids"].get("mdb_stammdaten"),
+                "gnd": person["ids"].get("gnd"),
+                "wikipedia": person["ids"].get("wikipedia"),
+                "viaf": person["ids"].get("viaf"),
+            }.items() if v is not None
         },
     }
 
-    # Include non-empty optional fields
+    # Schema.org optional fields – only include when data exists (no nulls)
+    gender = SEX_TO_SCHEMA.get(person["sex"])
+    if gender:
+        detail["gender"] = gender
+    if person["birth"]["date"]:
+        detail["birthDate"] = person["birth"]["date"]
+    if person["birth"]["place"]:
+        detail["birthPlace"] = {"@type": "Place", "name": person["birth"]["place"]}
+    if person["death"]["date"]:
+        detail["deathDate"] = person["death"]["date"]
+    if person["death"]["place"]:
+        detail["deathPlace"] = {"@type": "Place", "name": person["death"]["place"]}
+    if person["occupation"]:
+        detail["hasOccupation"] = {"@type": "Occupation", "name": person["occupation"]}
+    if member_of:
+        detail["memberOf"] = member_of
+    if same_as:
+        detail["sameAs"] = same_as
+
+    # Project-specific optional fields
     if person["exekutive"]:
         detail["fraktionsprotokolle:exekutive"] = person["exekutive"]
     if person["sonstiges"]:

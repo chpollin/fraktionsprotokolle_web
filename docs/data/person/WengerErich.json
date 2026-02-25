@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WengerErich",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WengerErich",
   "name": "Erich Wenger",
   "givenName": "Erich",
   "familyName": "Wenger",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1912-11-20",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Romeyken, Landkreis Stallupönen, Ostpreußen (heute: Kaliningrad, Russland)"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Mitarbeiter der Gestapo, 1956–1963 Mitarbeiter des Bundesamts für Verfassungsschutz, seit 1961 als Regierungsrat"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/126927189",
-    "https://de.wikipedia.org/wiki/Erich_Wenger"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Erich Wenger",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/126927189",
-    "wikipedia": "https://de.wikipedia.org/wiki/Erich_Wenger",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Erich_Wenger"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1912-11-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Romeyken, Landkreis Stallupönen, Ostpreußen (heute: Kaliningrad, Russland)"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Mitarbeiter der Gestapo, 1956–1963 Mitarbeiter des Bundesamts für Verfassungsschutz, seit 1961 als Regierungsrat"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/126927189",
+    "https://de.wikipedia.org/wiki/Erich_Wenger"
+  ]
 }

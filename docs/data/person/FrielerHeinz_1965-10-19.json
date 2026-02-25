@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FrielerHeinz_1965-10-19",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FrielerHeinz_1965-10-19",
   "name": "Heinz Frieler",
   "givenName": "Heinz",
   "familyName": "Frieler",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1927-05-17",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Epe/Westfalen"
-  },
-  "deathDate": "1990-08-04",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bocholt"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Versicherungsdirektor [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1965-10-19",
-      "endDate": "1969-10-19"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/133023099X",
-    "https://de.wikipedia.org/wiki/Heinz_Frieler"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Heinz Frieler",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000595",
     "gnd": "https://d-nb.info/gnd/133023099X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Heinz_Frieler",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Heinz_Frieler"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1927-05-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Epe/Westfalen"
+  },
+  "deathDate": "1990-08-04",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bocholt"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Versicherungsdirektor [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1965-10-19",
+      "endDate": "1969-10-19"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/133023099X",
+    "https://de.wikipedia.org/wiki/Heinz_Frieler"
+  ]
 }

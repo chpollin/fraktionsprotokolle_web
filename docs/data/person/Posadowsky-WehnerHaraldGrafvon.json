@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "Posadowsky-WehnerHaraldGrafvon",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/Posadowsky-WehnerHaraldGrafvon",
   "name": "Harald Graf von Posadowsky-Wehner",
   "givenName": "Harald",
   "familyName": "Posadowsky-Wehner",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1910-08-25",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Kiel"
-  },
-  "deathDate": "1990-09-08",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bonn"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1965–1969 Vortragender Legationsrat I. Klasse und Leiter des Referats »Afrika südlich der Sahara« im Auswärtigen Amt"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1026956234",
-    "https://de.wikipedia.org/wiki/Harald_Graf_von_Posadowsky-Wehner"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Harald Graf von Posadowsky-Wehner",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1026956234",
-    "wikipedia": "https://de.wikipedia.org/wiki/Harald_Graf_von_Posadowsky-Wehner",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Harald_Graf_von_Posadowsky-Wehner"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1910-08-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kiel"
+  },
+  "deathDate": "1990-09-08",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1965–1969 Vortragender Legationsrat I. Klasse und Leiter des Referats »Afrika südlich der Sahara« im Auswärtigen Amt"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1026956234",
+    "https://de.wikipedia.org/wiki/Harald_Graf_von_Posadowsky-Wehner"
+  ]
 }

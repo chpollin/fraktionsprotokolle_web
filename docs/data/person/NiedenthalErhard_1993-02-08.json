@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "NiedenthalErhard_1993-02-08",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/NiedenthalErhard_1993-02-08",
   "name": "Erhard Niedenthal",
   "givenName": "Erhard",
   "familyName": "Niedenthal",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1932-09-01",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Wiesbaden"
-  },
-  "deathDate": "2014-07-04",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Wiesbaden"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Polizeibeamter a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1993-02-08",
-      "endDate": "1994-11-10"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1320012213",
-    "https://de.wikipedia.org/wiki/Erhard_Niedenthal"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Erhard Niedenthal",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001606",
     "gnd": "https://d-nb.info/gnd/1320012213",
-    "wikipedia": "https://de.wikipedia.org/wiki/Erhard_Niedenthal",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Erhard_Niedenthal"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1932-09-01",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Wiesbaden"
+  },
+  "deathDate": "2014-07-04",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Wiesbaden"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Polizeibeamter a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1993-02-08",
+      "endDate": "1994-11-10"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1320012213",
+    "https://de.wikipedia.org/wiki/Erhard_Niedenthal"
+  ]
 }

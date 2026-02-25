@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "AlexanderHarold",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/AlexanderHarold",
   "name": "Harold Alexander",
   "givenName": "Harold Rupert Leofric George",
   "familyName": "Alexander",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1891-12-10",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "London"
-  },
-  "deathDate": "1969-06-16",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Slough, Buckhinghamshire"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "britischer General, 1952–1954 Verteidigungsminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/12257365X",
-    "https://de.wikipedia.org/wiki/Harold_Alexander,_1._Earl_Alexander_of_Tunis"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Harold Alexander",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/12257365X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Harold_Alexander,_1._Earl_Alexander_of_Tunis",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Harold_Alexander,_1._Earl_Alexander_of_Tunis"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1891-12-10",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "London"
+  },
+  "deathDate": "1969-06-16",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Slough, Buckhinghamshire"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "britischer General, 1952–1954 Verteidigungsminister"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/12257365X",
+    "https://de.wikipedia.org/wiki/Harold_Alexander,_1._Earl_Alexander_of_Tunis"
+  ]
 }

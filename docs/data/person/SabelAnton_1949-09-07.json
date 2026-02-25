@@ -1,10 +1,53 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SabelAnton_1949-09-07",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SabelAnton_1949-09-07",
   "name": "Anton Sabel",
   "givenName": "Anton",
   "familyName": "Sabel",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Anton Sabel",
+    "forename": "Anton",
+    "surname": "Sabel",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1902-10-15",
+    "place": "Neuwied",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1983-01-05",
+    "place": "Fulda",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 2,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1953-10-06",
+      "to": "1957-09-16"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001912",
+    "gnd": "https://d-nb.info/gnd/10734128X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Anton_Sabel"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1902-10-15",
   "birthPlace": {
@@ -45,46 +88,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/10734128X",
     "https://de.wikipedia.org/wiki/Anton_Sabel"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Anton Sabel",
-    "forename": "Anton",
-    "surname": "Sabel",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1902-10-15",
-    "place": "Neuwied",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1983-01-05",
-    "place": "Fulda",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 1,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1949-09-07",
-      "to": "1953-09-07"
-    },
-    {
-      "period": 2,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1953-10-06",
-      "to": "1957-09-16"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11001912",
-    "gnd": "https://d-nb.info/gnd/10734128X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Anton_Sabel",
-    "viaf": null
-  }
+  ]
 }

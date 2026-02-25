@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BaumgaertelManfred",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BaumgaertelManfred",
   "name": "Manfred Baumgärtel",
   "givenName": "Manfred",
   "familyName": "Baumgärtel",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1938",
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1969–1991 Vorsitzender des CSU-Ortsverbandes Lenggries, 1964–1991 Mitarbeiter in der CSU-Landesleitung, ab 1972 Kommunalpolitischer Referent in der CSU-Landesleitung und Leiter der Abteilung Öffentlichkeitsarbeit, 1982–1991 Landesgeschäftsführer der CSU, 1982–2004 Mitglied des CSU-Parteivorstands"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/188360980"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Manfred Baumgärtel",
@@ -39,9 +29,15 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/188360980",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/188360980"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1938",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1969–1991 Vorsitzender des CSU-Ortsverbandes Lenggries, 1964–1991 Mitarbeiter in der CSU-Landesleitung, ab 1972 Kommunalpolitischer Referent in der CSU-Landesleitung und Leiter der Abteilung Öffentlichkeitsarbeit, 1982–1991 Landesgeschäftsführer der CSU, 1982–2004 Mitglied des CSU-Parteivorstands"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/188360980"
+  ]
 }

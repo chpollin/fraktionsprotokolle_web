@@ -1,10 +1,80 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "VogelHans-Jochen_1972-12-13",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/VogelHans-Jochen_1972-12-13",
   "name": "Hans-Jochen Vogel",
   "givenName": "Hans-Jochen",
   "familyName": "Vogel",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans-Jochen Vogel",
+    "forename": "Hans-Jochen",
+    "surname": "Vogel",
+    "prefix": "",
+    "role_name": "",
+    "place": "(München)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1926-02-03",
+    "place": "Göttingen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2020-07-26",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 7,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1972-12-13",
+      "to": "1976-12-13"
+    },
+    {
+      "period": 8,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1976-12-14",
+      "to": "1980-11-04"
+    },
+    {
+      "period": 9,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1980-11-04",
+      "to": "1981-01-28"
+    },
+    {
+      "period": 10,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1983-03-29",
+      "to": "1987-02-18"
+    },
+    {
+      "period": 11,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1987-02-18",
+      "to": "1990-12-20"
+    },
+    {
+      "period": 12,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1990-12-20",
+      "to": "1994-11-10"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002379",
+    "gnd": "https://d-nb.info/gnd/118627414"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1926-02-03",
   "birthPlace": {
@@ -12,7 +82,6 @@
     "name": "Göttingen"
   },
   "deathDate": "2020-07-26",
-  "deathPlace": null,
   "hasOccupation": {
     "@type": "Occupation",
     "name": "Rechtsanwalt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
@@ -82,75 +151,6 @@
   "sameAs": [
     "https://d-nb.info/gnd/118627414"
   ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Hans-Jochen Vogel",
-    "forename": "Hans-Jochen",
-    "surname": "Vogel",
-    "prefix": "",
-    "role_name": "",
-    "place": "(München)"
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1926-02-03",
-    "place": "Göttingen",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "2020-07-26",
-    "place": "",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 7,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1972-12-13",
-      "to": "1976-12-13"
-    },
-    {
-      "period": 8,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1976-12-14",
-      "to": "1980-11-04"
-    },
-    {
-      "period": 9,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1980-11-04",
-      "to": "1981-01-28"
-    },
-    {
-      "period": 10,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1983-03-29",
-      "to": "1987-02-18"
-    },
-    {
-      "period": 11,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1987-02-18",
-      "to": "1990-12-20"
-    },
-    {
-      "period": 12,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1990-12-20",
-      "to": "1994-11-10"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11002379",
-    "gnd": "https://d-nb.info/gnd/118627414",
-    "wikipedia": null,
-    "viaf": null
-  },
   "fraktionsprotokolle:alt_names": [
     {
       "reg": "Hans-Jochen Vogel",

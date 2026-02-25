@@ -1,29 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ReineckeBirgit",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ReineckeBirgit",
   "name": "Birgit Reinecke",
   "givenName": "Birgit",
   "familyName": "Reinecke",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1944-04-08",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Glückstadt"
-  },
-  "deathDate": "2013-05-14",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Juristin, 1991–1997 Direktorin des Arbeitsgerichtes Siegburg, 1997–2009 Richterin des 9. Senats am Bundesarbeitsgericht (seit 2002 als stv. Vorsitzende)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Birgit_Reinecke"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Birgit Reinecke",
@@ -45,9 +29,24 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://de.wikipedia.org/wiki/Birgit_Reinecke",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Birgit_Reinecke"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1944-04-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Glückstadt"
+  },
+  "deathDate": "2013-05-14",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Juristin, 1991–1997 Direktorin des Arbeitsgerichtes Siegburg, 1997–2009 Richterin des 9. Senats am Bundesarbeitsgericht (seit 2002 als stv. Vorsitzende)"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Birgit_Reinecke"
+  ]
 }

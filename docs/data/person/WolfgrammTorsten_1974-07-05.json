@@ -1,10 +1,80 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WolfgrammTorsten_1974-07-05",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WolfgrammTorsten_1974-07-05",
   "name": "Torsten Wolfgramm",
   "givenName": "Torsten",
   "familyName": "Wolfgramm",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Torsten Wolfgramm",
+    "forename": "Torsten",
+    "surname": "Wolfgramm",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Göttingen)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1936-08-30",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2020-04-19",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 7,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1974-07-05",
+      "to": "1976-12-13"
+    },
+    {
+      "period": 8,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1976-12-14",
+      "to": "1980-11-04"
+    },
+    {
+      "period": 9,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1980-11-04",
+      "to": "1983-03-29"
+    },
+    {
+      "period": 10,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1983-03-29",
+      "to": "1987-02-18"
+    },
+    {
+      "period": 11,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1987-02-18",
+      "to": "1990-12-20"
+    },
+    {
+      "period": 12,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1990-12-20",
+      "to": "1994-11-10"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002557",
+    "gnd": "https://d-nb.info/gnd/12903147X"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1936-08-30",
   "birthPlace": {
@@ -12,7 +82,6 @@
     "name": "Berlin"
   },
   "deathDate": "2020-04-19",
-  "deathPlace": null,
   "hasOccupation": {
     "@type": "Occupation",
     "name": "Geschäftsführer, Parl. Staatssekretär a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
@@ -81,74 +150,5 @@
   ],
   "sameAs": [
     "https://d-nb.info/gnd/12903147X"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Torsten Wolfgramm",
-    "forename": "Torsten",
-    "surname": "Wolfgramm",
-    "prefix": "",
-    "role_name": "",
-    "place": "(Göttingen)"
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1936-08-30",
-    "place": "Berlin",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "2020-04-19",
-    "place": "",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 7,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1974-07-05",
-      "to": "1976-12-13"
-    },
-    {
-      "period": 8,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1976-12-14",
-      "to": "1980-11-04"
-    },
-    {
-      "period": 9,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1980-11-04",
-      "to": "1983-03-29"
-    },
-    {
-      "period": 10,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1983-03-29",
-      "to": "1987-02-18"
-    },
-    {
-      "period": 11,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1987-02-18",
-      "to": "1990-12-20"
-    },
-    {
-      "period": 12,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1990-12-20",
-      "to": "1994-11-10"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11002557",
-    "gnd": "https://d-nb.info/gnd/12903147X",
-    "wikipedia": null,
-    "viaf": null
-  }
+  ]
 }

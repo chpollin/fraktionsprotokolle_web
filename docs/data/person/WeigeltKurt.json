@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WeigeltKurt",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WeigeltKurt",
   "name": "Kurt Weigelt",
   "givenName": "Kurt",
   "familyName": "Weigelt",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1884-06-04",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "deathDate": "1968-08-05",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Hamburg"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1922 stellv. Direktor der Deutschen Bank; 1926 Mitbegründer und stellv. Aufsichtsratsvorsitzender der Dt. Lufthansa AG, 1934 förderndes Mitglied der SS, seit ihrer Gründung im Juli 1936 Leiter der Reichsgruppe Deutscher Kolonialwirtschaftlicher Unternehmungen, 1937 NSDAP, bis 1939 Besitzer einer Bananenplantage in Kamerun, 1951/1952 Vorsitzender des vom Bundesverkehrsministeriums eingesetzten »Vorbereitungsausschuß Luftverkehr«, 1954–1960 Präsident der Deutschen Lufthansa AG"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/117571075",
-    "https://de.wikipedia.org/wiki/Kurt_Weigelt"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Kurt Weigelt",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/117571075",
-    "wikipedia": "https://de.wikipedia.org/wiki/Kurt_Weigelt",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Kurt_Weigelt"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1884-06-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "1968-08-05",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1922 stellv. Direktor der Deutschen Bank; 1926 Mitbegründer und stellv. Aufsichtsratsvorsitzender der Dt. Lufthansa AG, 1934 förderndes Mitglied der SS, seit ihrer Gründung im Juli 1936 Leiter der Reichsgruppe Deutscher Kolonialwirtschaftlicher Unternehmungen, 1937 NSDAP, bis 1939 Besitzer einer Bananenplantage in Kamerun, 1951/1952 Vorsitzender des vom Bundesverkehrsministeriums eingesetzten »Vorbereitungsausschuß Luftverkehr«, 1954–1960 Präsident der Deutschen Lufthansa AG"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/117571075",
+    "https://de.wikipedia.org/wiki/Kurt_Weigelt"
+  ]
 }

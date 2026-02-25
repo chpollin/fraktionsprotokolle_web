@@ -1,48 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WellmannHans_1962-01-01",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WellmannHans_1962-01-01",
   "name": "Hans Wellmann",
   "givenName": "Hans",
   "familyName": "Wellmann",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1911-09-06",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "deathDate": "1969-05-30",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Hauptreferent [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1962-01-01",
-      "endDate": "1965-10-17"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1965-10-19",
-      "endDate": "1969-05-30"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1328366197",
-    "https://de.wikipedia.org/wiki/Hans_Wellmann_(Politiker,_1911)"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Hans Wellmann",
@@ -81,7 +46,43 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11002469",
     "gnd": "https://d-nb.info/gnd/1328366197",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Wellmann_(Politiker,_1911)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Wellmann_(Politiker,_1911)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1911-09-06",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "1969-05-30",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Hauptreferent [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1962-01-01",
+      "endDate": "1965-10-17"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1965-10-19",
+      "endDate": "1969-05-30"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1328366197",
+    "https://de.wikipedia.org/wiki/Hans_Wellmann_(Politiker,_1911)"
+  ]
 }

@@ -1,26 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PoeppelJohannes",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PoeppelJohannes",
   "name": "Johannes Poeppel",
   "givenName": "Johannes",
   "familyName": "Poeppel",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1921-07-20",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Schivelbein, Westpommern (heute: Świdwin, Polen)"
-  },
-  "deathDate": "2007-09-29",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "deutscher Offizier, zuletzt Generalleutnant und 1979–1981 Inspekteur des Heeres"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Johannes_Poeppel"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Johannes Poeppel",
@@ -42,9 +29,20 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://de.wikipedia.org/wiki/Johannes_Poeppel",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Johannes_Poeppel"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1921-07-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Schivelbein, Westpommern (heute: Świdwin, Polen)"
+  },
+  "deathDate": "2007-09-29",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Offizier, zuletzt Generalleutnant und 1979–1981 Inspekteur des Heeres"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Johannes_Poeppel"
+  ]
 }

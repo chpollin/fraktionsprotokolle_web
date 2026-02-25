@@ -1,26 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "TiedemannDieter",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/TiedemannDieter",
   "name": "Dieter Tiedemann",
   "givenName": "Dieter Johan Heinrich",
   "familyName": "Tiedemann",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1935-03-13",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Bremerhaven"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1954–1957 Inspektorenanwärter für den öffentlichen Dienst in Bremerhaven, 1957–1971 Tätigkeit beim Magistrat der Seestadt Bremerhaven (u. a. Steueroberamtmann), 1962–1969 Juso-Vorsitzender Bremerhaven, 1963–1967 Fachlehrer an der Gemeindeverwaltungsschule Hannover, 1971–1975 Mitglied des Vorstands des Unterbezirksvorstandes der SPD Bremerhaven, 1971–1975 sowie 1979–1995 MdBB (SPD) und stv. Vorsitzender der SPD-Bürgerschaftsfraktion, 1975–1979 Senator für Wirtschaft und Außenhandel der Freien Hansestadt Bremen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Dieter_Tiedemann"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Dieter Tiedemann",
@@ -42,9 +29,19 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://de.wikipedia.org/wiki/Dieter_Tiedemann",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Dieter_Tiedemann"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1935-03-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bremerhaven"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1954–1957 Inspektorenanwärter für den öffentlichen Dienst in Bremerhaven, 1957–1971 Tätigkeit beim Magistrat der Seestadt Bremerhaven (u. a. Steueroberamtmann), 1962–1969 Juso-Vorsitzender Bremerhaven, 1963–1967 Fachlehrer an der Gemeindeverwaltungsschule Hannover, 1971–1975 Mitglied des Vorstands des Unterbezirksvorstandes der SPD Bremerhaven, 1971–1975 sowie 1979–1995 MdBB (SPD) und stv. Vorsitzender der SPD-Bürgerschaftsfraktion, 1975–1979 Senator für Wirtschaft und Außenhandel der Freien Hansestadt Bremen"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Dieter_Tiedemann"
+  ]
 }

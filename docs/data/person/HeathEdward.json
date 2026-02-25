@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HeathEdward",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HeathEdward",
   "name": "Edward Heath",
   "givenName": "Edward",
   "familyName": "Heath",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1916-07-09",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Broadstairs, Grafschaft Kent"
-  },
-  "deathDate": "2005-07-17",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Salisbury, Grafschaft Wiltshire"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "konservativer britischer Politiker, 1950–2001 Mitglied des britischen Unterhauses (Konservative Partei), 1959–1960 Arbeitsminister, 1960–1963 Lordsiegelbewahrer, 1961–1963 Unterhändler für den EWG-Beitritt, 1963–1964 Minister für Industrie, Handel und Regionalentwicklung, 1970–1974 Premierminister des Vereinigten Königreichs"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118709348",
-    "https://de.wikipedia.org/wiki/Edward_Heath"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Edward Heath",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118709348",
-    "wikipedia": "https://de.wikipedia.org/wiki/Edward_Heath",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Edward_Heath"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1916-07-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Broadstairs, Grafschaft Kent"
+  },
+  "deathDate": "2005-07-17",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Salisbury, Grafschaft Wiltshire"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "konservativer britischer Politiker, 1950–2001 Mitglied des britischen Unterhauses (Konservative Partei), 1959–1960 Arbeitsminister, 1960–1963 Lordsiegelbewahrer, 1961–1963 Unterhändler für den EWG-Beitritt, 1963–1964 Minister für Industrie, Handel und Regionalentwicklung, 1970–1974 Premierminister des Vereinigten Königreichs"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118709348",
+    "https://de.wikipedia.org/wiki/Edward_Heath"
+  ]
 }

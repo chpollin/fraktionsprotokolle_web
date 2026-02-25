@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MillsWilburDaigh",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MillsWilburDaigh",
   "name": "Wilbur Daigh Mills",
   "givenName": "Wilbur Daigh",
   "familyName": "Mills",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1909-05-24",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Kensett, White County, Arkansas"
-  },
-  "deathDate": "1992-05-02",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Searcy, Arkansas"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Abgeordneter des US-Bundesstaates Arkansas im Repräsentantenhaus; Vorsitzender des Haushaltsausschusses"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/120995581",
-    "https://de.wikipedia.org/wiki/Wilbur_Daigh_Mills"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Wilbur Daigh Mills",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/120995581",
-    "wikipedia": "https://de.wikipedia.org/wiki/Wilbur_Daigh_Mills",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Wilbur_Daigh_Mills"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1909-05-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kensett, White County, Arkansas"
+  },
+  "deathDate": "1992-05-02",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Searcy, Arkansas"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Abgeordneter des US-Bundesstaates Arkansas im Repräsentantenhaus; Vorsitzender des Haushaltsausschusses"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/120995581",
+    "https://de.wikipedia.org/wiki/Wilbur_Daigh_Mills"
+  ]
 }

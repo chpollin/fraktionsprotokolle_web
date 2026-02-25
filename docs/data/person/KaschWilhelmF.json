@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KaschWilhelmF",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KaschWilhelmF",
   "name": "Wilhelm F. Kasch",
   "givenName": "Wilhelm Friedrich",
   "familyName": "Kasch",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1921-02-01",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Nordhackstedt"
-  },
-  "deathDate": "1983-10-01",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Starnberg"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "evangelisch-lutherischer Theologe, 1965 apl. Professor an der Christian-Albrechts-Universität zu Kiel, 1966 Professor für Evangelische Religionslehre und -pädagogik an der Pädagogischen Hochschule Bayreuth bzw. seit 1979 Professor für Evangelische Theologie mit dem Schwerpunkt Systematische Theologie und theologische Gegenwartsfragen, seit 1969 Gastprofessor an der Pädagogischen Hochschule (heute: Katholische Universität) Eichstätt, seit 1980 Mitglied des CSU-Landesvorstands"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118560387",
-    "https://de.wikipedia.org/wiki/Wilhelm_F._Kasch"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Wilhelm F. Kasch",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118560387",
-    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_F._Kasch",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_F._Kasch"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1921-02-01",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Nordhackstedt"
+  },
+  "deathDate": "1983-10-01",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Starnberg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "evangelisch-lutherischer Theologe, 1965 apl. Professor an der Christian-Albrechts-Universität zu Kiel, 1966 Professor für Evangelische Religionslehre und -pädagogik an der Pädagogischen Hochschule Bayreuth bzw. seit 1979 Professor für Evangelische Theologie mit dem Schwerpunkt Systematische Theologie und theologische Gegenwartsfragen, seit 1969 Gastprofessor an der Pädagogischen Hochschule (heute: Katholische Universität) Eichstätt, seit 1980 Mitglied des CSU-Landesvorstands"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118560387",
+    "https://de.wikipedia.org/wiki/Wilhelm_F._Kasch"
+  ]
 }

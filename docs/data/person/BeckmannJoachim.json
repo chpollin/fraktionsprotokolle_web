@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BeckmannJoachim",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BeckmannJoachim",
   "name": "Joachim Beckmann",
   "givenName": "Joachim",
   "familyName": "Beckmann",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1901-07-18",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Eickel"
-  },
-  "deathDate": "1987-01-18",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Haan"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1958–1971 Präses der Evangelischen Kirche im Rheinland"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118654616",
-    "https://de.wikipedia.org/wiki/Joachim_Beckmann"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Joachim Beckmann",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118654616",
-    "wikipedia": "https://de.wikipedia.org/wiki/Joachim_Beckmann",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Joachim_Beckmann"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1901-07-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Eickel"
+  },
+  "deathDate": "1987-01-18",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Haan"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1958–1971 Präses der Evangelischen Kirche im Rheinland"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118654616",
+    "https://de.wikipedia.org/wiki/Joachim_Beckmann"
+  ]
 }

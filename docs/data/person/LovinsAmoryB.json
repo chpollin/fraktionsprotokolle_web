@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "LovinsAmoryB",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/LovinsAmoryB",
   "name": "Amory B. Lovins",
   "givenName": "Amory Bloch",
   "familyName": "Lovins",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1947-11-13",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Washington D.C."
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Physiker und Umweltaktivist"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/121917681",
-    "https://de.wikipedia.org/wiki/Amory_Lovins"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Amory B. Lovins",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/121917681",
-    "wikipedia": "https://de.wikipedia.org/wiki/Amory_Lovins",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Amory_Lovins"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1947-11-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Washington D.C."
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Physiker und Umweltaktivist"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/121917681",
+    "https://de.wikipedia.org/wiki/Amory_Lovins"
+  ]
 }

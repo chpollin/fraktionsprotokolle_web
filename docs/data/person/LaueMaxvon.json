@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "LaueMaxvon",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/LaueMaxvon",
   "name": "Max von Laue",
   "givenName": "Max",
   "familyName": "Laue",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1879-10-09",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Pfaffendorf (heute: Koblenz-Pfaffendorf)"
-  },
-  "deathDate": "1960-04-24",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Berlin (West)"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "deutscher Physiker, 1946–1949 Vorsitzender der Deutschen Physikalischen Gesellschaft in der britischen Zone"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118570129",
-    "https://de.wikipedia.org/wiki/Max_von_Laue"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Max von Laue",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118570129",
-    "wikipedia": "https://de.wikipedia.org/wiki/Max_von_Laue",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Max_von_Laue"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1879-10-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Pfaffendorf (heute: Koblenz-Pfaffendorf)"
+  },
+  "deathDate": "1960-04-24",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin (West)"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Physiker, 1946–1949 Vorsitzender der Deutschen Physikalischen Gesellschaft in der britischen Zone"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118570129",
+    "https://de.wikipedia.org/wiki/Max_von_Laue"
+  ]
 }

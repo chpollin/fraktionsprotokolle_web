@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "Bennigsen-FoerderRudolfvon",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/Bennigsen-FoerderRudolfvon",
   "name": "Rudolf von Bennigsen-Foerder",
   "givenName": "Rudolf",
   "familyName": "Bennigsen-Foerder",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1926-07-02",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "deathDate": "1989-10-28",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Düsseldorf"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1969-1971 Vorstandsmitglied und 1971-1989 Vorstandsvorsitzender der VEBA AG"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/108170055",
-    "https://de.wikipedia.org/wiki/Rudolf_von_Bennigsen-Foerder_(Manager)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Rudolf von Bennigsen-Foerder",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/108170055",
-    "wikipedia": "https://de.wikipedia.org/wiki/Rudolf_von_Bennigsen-Foerder_(Manager)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Rudolf_von_Bennigsen-Foerder_(Manager)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1926-07-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "1989-10-28",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Düsseldorf"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1969-1971 Vorstandsmitglied und 1971-1989 Vorstandsvorsitzender der VEBA AG"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/108170055",
+    "https://de.wikipedia.org/wiki/Rudolf_von_Bennigsen-Foerder_(Manager)"
+  ]
 }

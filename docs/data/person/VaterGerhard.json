@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "VaterGerhard",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/VaterGerhard",
   "name": "Gerhard Vater",
   "givenName": "Gerhard",
   "familyName": "Vater",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1924-05-08",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Dortmund"
-  },
-  "deathDate": "1982-12-27",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Tischler, 1958–1977 Vorsitzender der Gewerkschaft Holz (GH) bzw. Holz und Kunststoff (GHK), 1977–1982 für Finanzen zuständiges Mitglied des Geschäftsführenden Bundesvorstands des DGB, Vorsitzender des Beirats des Bund-Verlags"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/124999972",
-    "https://de.wikipedia.org/wiki/Gerhard_Vater"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Gerhard Vater",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/124999972",
-    "wikipedia": "https://de.wikipedia.org/wiki/Gerhard_Vater",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Gerhard_Vater"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1924-05-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Dortmund"
+  },
+  "deathDate": "1982-12-27",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Tischler, 1958–1977 Vorsitzender der Gewerkschaft Holz (GH) bzw. Holz und Kunststoff (GHK), 1977–1982 für Finanzen zuständiges Mitglied des Geschäftsführenden Bundesvorstands des DGB, Vorsitzender des Beirats des Bund-Verlags"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/124999972",
+    "https://de.wikipedia.org/wiki/Gerhard_Vater"
+  ]
 }

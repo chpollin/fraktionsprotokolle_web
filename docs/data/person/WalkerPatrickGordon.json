@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WalkerPatrickGordon",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WalkerPatrickGordon",
   "name": "Patrick Gordon Walker",
   "givenName": "Patrick Gordon",
   "familyName": "Walker",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1907-04-07",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Worthing"
-  },
-  "deathDate": "1980-12-02",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "London"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "britischer Politiker der Labour Party, außenpolitischer Sprecher der Partei"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/123079292",
-    "https://de.wikipedia.org/wiki/Patrick_Gordon_Walker"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Patrick Gordon Walker",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/123079292",
-    "wikipedia": "https://de.wikipedia.org/wiki/Patrick_Gordon_Walker",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Patrick_Gordon_Walker"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1907-04-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Worthing"
+  },
+  "deathDate": "1980-12-02",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "London"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "britischer Politiker der Labour Party, außenpolitischer Sprecher der Partei"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/123079292",
+    "https://de.wikipedia.org/wiki/Patrick_Gordon_Walker"
+  ]
 }

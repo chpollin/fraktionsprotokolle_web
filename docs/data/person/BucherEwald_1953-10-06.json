@@ -1,10 +1,67 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BucherEwald_1953-10-06",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BucherEwald_1953-10-06",
   "name": "Ewald Bucher",
   "givenName": "Ewald",
   "familyName": "Bucher",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Ewald Bucher",
+    "forename": "Ewald",
+    "surname": "Bucher",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1914-07-19",
+    "place": "Rottenburg/Neckar",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1991-10-31",
+    "place": "Mutlangen",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 3,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 4,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    },
+    {
+      "period": 5,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000288",
+    "gnd": "https://d-nb.info/gnd/11866428X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Ewald_Bucher"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1914-07-19",
   "birthPlace": {
@@ -65,60 +122,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/11866428X",
     "https://de.wikipedia.org/wiki/Ewald_Bucher"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Ewald Bucher",
-    "forename": "Ewald",
-    "surname": "Bucher",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1914-07-19",
-    "place": "Rottenburg/Neckar",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1991-10-31",
-    "place": "Mutlangen",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 2,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1953-10-06",
-      "to": "1957-10-06"
-    },
-    {
-      "period": 3,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1957-10-15",
-      "to": "1961-10-15"
-    },
-    {
-      "period": 4,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1961-10-17",
-      "to": "1965-10-17"
-    },
-    {
-      "period": 5,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1965-10-19",
-      "to": "1969-10-19"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11000288",
-    "gnd": "https://d-nb.info/gnd/11866428X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ewald_Bucher",
-    "viaf": null
-  }
+  ]
 }

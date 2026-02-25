@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KruemmerEwald_1963-01-24",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KruemmerEwald_1963-01-24",
   "name": "Ewald Krümmer",
   "givenName": "Ewald",
   "familyName": "Krümmer",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1896-09-17",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Sulzbach"
-  },
-  "deathDate": "1968-10-09",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Iserlohn"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Oberbürgermeister a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Freien Demokratischen Partei",
-        "alternateName": "FDP"
-      },
-      "startDate": "1963-01-24",
-      "endDate": "1965-10-17"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1025375149",
-    "https://de.wikipedia.org/wiki/Ewald_Kr%C3%BCmmer"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Ewald Krümmer",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001231",
     "gnd": "https://d-nb.info/gnd/1025375149",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ewald_Kr%C3%BCmmer",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ewald_Kr%C3%BCmmer"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1896-09-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Sulzbach"
+  },
+  "deathDate": "1968-10-09",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Iserlohn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Oberbürgermeister a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1963-01-24",
+      "endDate": "1965-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1025375149",
+    "https://de.wikipedia.org/wiki/Ewald_Kr%C3%BCmmer"
+  ]
 }

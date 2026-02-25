@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ErnstMax",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ErnstMax",
   "name": "Max Ernst",
   "givenName": "Max",
   "familyName": "Ernst",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1891-04-02",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Brühl"
-  },
-  "deathDate": "1976-04-01",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Frankreich"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Maler, Grafiker und Bildhauer"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118530895",
-    "https://de.wikipedia.org/wiki/Max_Ernst"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Max Ernst",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118530895",
-    "wikipedia": "https://de.wikipedia.org/wiki/Max_Ernst",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Max_Ernst"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1891-04-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Brühl"
+  },
+  "deathDate": "1976-04-01",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Frankreich"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Maler, Grafiker und Bildhauer"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118530895",
+    "https://de.wikipedia.org/wiki/Max_Ernst"
+  ]
 }

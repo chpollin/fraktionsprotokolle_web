@@ -1,38 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KolbeRegina_1990-12-20",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KolbeRegina_1990-12-20",
   "name": "Regina Kolbe, geb. Peters",
   "givenName": "Regina",
   "familyName": "Kolbe",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1950-03-28",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Krs. Havelberg"
-  },
-  "deathDate": "2015-05-19",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Chemielaborantin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1990-12-20",
-      "endDate": "1994-11-10"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1323515410",
-    "https://de.wikipedia.org/wiki/Regina_Kolbe"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Regina Kolbe, geb. Peters",
@@ -64,7 +39,33 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001173",
     "gnd": "https://d-nb.info/gnd/1323515410",
-    "wikipedia": "https://de.wikipedia.org/wiki/Regina_Kolbe",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Regina_Kolbe"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1950-03-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Krs. Havelberg"
+  },
+  "deathDate": "2015-05-19",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Chemielaborantin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1323515410",
+    "https://de.wikipedia.org/wiki/Regina_Kolbe"
+  ]
 }

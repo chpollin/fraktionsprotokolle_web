@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PachahiAdnan",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PachahiAdnan",
   "name": "Adnan Pachahi, auch: Patschatschi und Pachachi",
   "givenName": "Adnan",
   "familyName": "Pachahi",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1934-05-14",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Bagdad"
-  },
-  "deathDate": "2019-11-17",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Dubai"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Staatsminister in der Regierung von Abu Dhabi und außenpolitischer Berater des Präsidenten der Vereinigten Arabischen Emirate; 1966/67 irakischer Außenminister und seit 1968 im Exil"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1041654006",
-    "https://de.wikipedia.org/wiki/Adnan_Patschatschi"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Adnan Pachahi, auch: Patschatschi und Pachachi",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1041654006",
-    "wikipedia": "https://de.wikipedia.org/wiki/Adnan_Patschatschi",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Adnan_Patschatschi"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1934-05-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bagdad"
+  },
+  "deathDate": "2019-11-17",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Dubai"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Staatsminister in der Regierung von Abu Dhabi und außenpolitischer Berater des Präsidenten der Vereinigten Arabischen Emirate; 1966/67 irakischer Außenminister und seit 1968 im Exil"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1041654006",
+    "https://de.wikipedia.org/wiki/Adnan_Patschatschi"
+  ]
 }

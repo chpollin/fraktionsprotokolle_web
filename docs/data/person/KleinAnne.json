@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KleinAnne",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KleinAnne",
   "name": "Anne Klein",
   "givenName": "Anne",
   "familyName": "Klein",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1950-03-02",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Bilsdorf"
-  },
-  "deathDate": "2011-04-23",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1983/84 Mitarbeiterin der Grünen-Bundestagsfraktion im Bereich Arbeits-, Sozial- und Rentenrecht; 1989/1990 Senatorin für Jugend, Frauen und Familie des Landes Berlin"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/103489630X",
-    "https://de.wikipedia.org/wiki/Anne_Klein"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Anne Klein",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/103489630X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Anne_Klein",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Anne_Klein"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1950-03-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bilsdorf"
+  },
+  "deathDate": "2011-04-23",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1983/84 Mitarbeiterin der Grünen-Bundestagsfraktion im Bereich Arbeits-, Sozial- und Rentenrecht; 1989/1990 Senatorin für Jugend, Frauen und Familie des Landes Berlin"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/103489630X",
+    "https://de.wikipedia.org/wiki/Anne_Klein"
+  ]
 }

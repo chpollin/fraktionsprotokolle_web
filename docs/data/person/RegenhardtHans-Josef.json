@@ -1,21 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RegenhardtHans-Josef",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RegenhardtHans-Josef",
   "name": "Hans-Josef Regenhardt",
   "givenName": "Hans-Josef",
   "familyName": "Regenhardt",
-  "gender": "https://schema.org/Male",
-  "birthDate": null,
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Diplomat, seit 1968 Amtsrat bzw. seit 1969 Oberamtsrat im Auswärtigen Amt, (mindestens) 1972–1975 Kanzler bzw. Vizekonsul im Generalkonsulat der BRD in Marseille (für das Fürstentum Monaco), 1975–1977 Legionsrat und stv. Botschafter der BRD in Gaborone (Botswana), 1977–1980 Botschafter der BRD in Maseru (Lesotho)"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hans-Josef Regenhardt",
@@ -36,10 +28,10 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Male",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Diplomat, seit 1968 Amtsrat bzw. seit 1969 Oberamtsrat im Auswärtigen Amt, (mindestens) 1972–1975 Kanzler bzw. Vizekonsul im Generalkonsulat der BRD in Marseille (für das Fürstentum Monaco), 1975–1977 Legionsrat und stv. Botschafter der BRD in Gaborone (Botswana), 1977–1980 Botschafter der BRD in Maseru (Lesotho)"
   }
 }

@@ -1,21 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FaustHans-Georg",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FaustHans-Georg",
   "name": "Hans-Georg Faust",
   "givenName": "Hans-Georg",
   "familyName": "Faust",
-  "gender": "https://schema.org/Male",
-  "birthDate": null,
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Journalist, bis Oktober 1954 Tätigkeit für eine Dienststelle in Berlin (West), 1955–1958 freier Mitarbeiter sowie im Anschluss Angestellter des Bundesamtes für Verfassungsschutz (BfV), in den 1960er und 1970er Jahren langjähriger Korrespondent der »Bunte« für Nordrhein-Westfalen"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hans-Georg Faust",
@@ -36,11 +28,11 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Male",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist, bis Oktober 1954 Tätigkeit für eine Dienststelle in Berlin (West), 1955–1958 freier Mitarbeiter sowie im Anschluss Angestellter des Bundesamtes für Verfassungsschutz (BfV), in den 1960er und 1970er Jahren langjähriger Korrespondent der »Bunte« für Nordrhein-Westfalen"
   },
   "fraktionsprotokolle:sonstiges": "angeblicher Informant des »Spiegel« für die Veröffentlichung über den »Lauschangriff« auf den Atom-Manager Klaus-Dieter Traube, zwischen November 1977 und Januar 1978 insgesamt 38 Tage in Untersuchungshaft"
 }

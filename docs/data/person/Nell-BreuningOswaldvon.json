@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "Nell-BreuningOswaldvon",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/Nell-BreuningOswaldvon",
   "name": "Oswald von Nell-Breuning",
   "givenName": "Oswald",
   "familyName": "Nell-Breuning",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1890-03-08",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Trier"
-  },
-  "deathDate": "1991-08-21",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Frankfurt am Main"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "katholischer Theologe, Jesuit, Sozialphilosoph"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118586920",
-    "https://de.wikipedia.org/wiki/Oswald_von_Nell-Breuning"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Oswald von Nell-Breuning",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118586920",
-    "wikipedia": "https://de.wikipedia.org/wiki/Oswald_von_Nell-Breuning",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Oswald_von_Nell-Breuning"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1890-03-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Trier"
+  },
+  "deathDate": "1991-08-21",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Frankfurt am Main"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "katholischer Theologe, Jesuit, Sozialphilosoph"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118586920",
+    "https://de.wikipedia.org/wiki/Oswald_von_Nell-Breuning"
+  ]
 }

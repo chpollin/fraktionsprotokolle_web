@@ -1,10 +1,53 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "NordenskjoeldGuenter_1965-10-19",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/NordenskjoeldGuenter_1965-10-19",
   "name": "Günter von Nordenskjöld",
   "givenName": "Günter",
   "familyName": "Nordenskjöld",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Günter von Nordenskjöld",
+    "forename": "Günter",
+    "surname": "Nordenskjöld",
+    "prefix": "von",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1910-02-03",
+    "place": "Birkholz/Mark Brandenburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1997-03-13",
+    "place": "Sulingen",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 5,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    },
+    {
+      "period": 6,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1969-10-20",
+      "to": "1972-09-22"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001623",
+    "gnd": "https://d-nb.info/gnd/125915527",
+    "wikipedia": "https://de.wikipedia.org/wiki/G%C3%BCnter_von_Nordenskj%C3%B6ld"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1910-02-03",
   "birthPlace": {
@@ -45,46 +88,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/125915527",
     "https://de.wikipedia.org/wiki/G%C3%BCnter_von_Nordenskj%C3%B6ld"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Günter von Nordenskjöld",
-    "forename": "Günter",
-    "surname": "Nordenskjöld",
-    "prefix": "von",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1910-02-03",
-    "place": "Birkholz/Mark Brandenburg",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1997-03-13",
-    "place": "Sulingen",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 5,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1965-10-19",
-      "to": "1969-10-19"
-    },
-    {
-      "period": 6,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1969-10-20",
-      "to": "1972-09-22"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11001623",
-    "gnd": "https://d-nb.info/gnd/125915527",
-    "wikipedia": "https://de.wikipedia.org/wiki/G%C3%BCnter_von_Nordenskj%C3%B6ld",
-    "viaf": null
-  }
+  ]
 }

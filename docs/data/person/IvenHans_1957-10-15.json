@@ -1,10 +1,60 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "IvenHans_1957-10-15",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/IvenHans_1957-10-15",
   "name": "Hans Iven",
   "givenName": "Hans",
   "familyName": "Iven",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans Iven",
+    "forename": "Hans",
+    "surname": "Iven",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Düren)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1928-03-25",
+    "place": "Birkesdorf b. Düren",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1997-04-15",
+    "place": "Düren",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 3,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 4,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    },
+    {
+      "period": 5,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000997",
+    "gnd": "https://d-nb.info/gnd/1209792745",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Iven"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1928-03-25",
   "birthPlace": {
@@ -56,54 +106,6 @@
     "https://d-nb.info/gnd/1209792745",
     "https://de.wikipedia.org/wiki/Hans_Iven"
   ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Hans Iven",
-    "forename": "Hans",
-    "surname": "Iven",
-    "prefix": "",
-    "role_name": "",
-    "place": "(Düren)"
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1928-03-25",
-    "place": "Birkesdorf b. Düren",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1997-04-15",
-    "place": "Düren",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 3,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1957-10-15",
-      "to": "1961-10-15"
-    },
-    {
-      "period": 4,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1961-10-17",
-      "to": "1965-10-17"
-    },
-    {
-      "period": 5,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1965-10-19",
-      "to": "1969-10-19"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11000997",
-    "gnd": "https://d-nb.info/gnd/1209792745",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Iven",
-    "viaf": null
-  },
   "fraktionsprotokolle:alt_names": [
     {
       "reg": "Hans Iven",

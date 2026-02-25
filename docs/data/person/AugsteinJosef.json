@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "AugsteinJosef",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/AugsteinJosef",
   "name": "Josef Augstein",
   "givenName": "Josef",
   "familyName": "Augstein",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1909-08-25",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Bingen"
-  },
-  "deathDate": "1984-10-23",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Hannover"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Jurist, Bruder des »Spiegel«-Herausgebers Rudolf Augstein"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/123504708",
-    "https://de.wikipedia.org/wiki/Josef_Augstein"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Josef Augstein",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/123504708",
-    "wikipedia": "https://de.wikipedia.org/wiki/Josef_Augstein",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Josef_Augstein"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1909-08-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bingen"
+  },
+  "deathDate": "1984-10-23",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hannover"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Jurist, Bruder des »Spiegel«-Herausgebers Rudolf Augstein"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/123504708",
+    "https://de.wikipedia.org/wiki/Josef_Augstein"
+  ]
 }

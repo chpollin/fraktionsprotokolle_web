@@ -1,26 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchlichtmannKlaus",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchlichtmannKlaus",
   "name": "Klaus Schlichtmann",
   "givenName": "Klaus",
   "familyName": "Schlichtmann",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1944",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Hamburg"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Friedenswissenschaftler und Aktivist, Lehrbeauftragter, Dozent mit Schwerpunkt Friedensforschung, Lehrer für Deutsch an der Nihon-Universität (Japan), Mitglied der World Association of World Federalists"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/11062632X"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Klaus Schlichtmann",
@@ -42,9 +29,19 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/11062632X",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/11062632X"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1944",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Friedenswissenschaftler und Aktivist, Lehrbeauftragter, Dozent mit Schwerpunkt Friedensforschung, Lehrer für Deutsch an der Nihon-Universität (Japan), Mitglied der World Association of World Federalists"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/11062632X"
+  ]
 }

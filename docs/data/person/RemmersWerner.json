@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RemmersWerner",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RemmersWerner",
   "name": "Werner Remmers",
   "givenName": "Werner",
   "familyName": "Remmers",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1930-12-03",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Papenburg"
-  },
-  "deathDate": "2011-03-19",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1967–1994 MdL Niedersachen (CDU), 1976–1982 niedersächsischer Kultusminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/129747521",
-    "https://de.wikipedia.org/wiki/Werner_Remmers"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Werner Remmers",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/129747521",
-    "wikipedia": "https://de.wikipedia.org/wiki/Werner_Remmers",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Werner_Remmers"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1930-12-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Papenburg"
+  },
+  "deathDate": "2011-03-19",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1967–1994 MdL Niedersachen (CDU), 1976–1982 niedersächsischer Kultusminister"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/129747521",
+    "https://de.wikipedia.org/wiki/Werner_Remmers"
+  ]
 }

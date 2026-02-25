@@ -1,26 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "Schmidt-KuesterWolf-Juergen",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/Schmidt-KuesterWolf-Juergen",
   "name": "Wolf-Jürgen Schmidt-Küster",
   "givenName": "Wolf-Jürgen",
   "familyName": "Schmidt-Küster",
-  "gender": "https://schema.org/Male",
-  "birthDate": null,
-  "birthPlace": null,
-  "deathDate": "2016-02-01",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Königswinte"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Dipl.-Chemiker, Ministerialdirektor, 1961-1962 Tätigkeit im Bundesministerium für Atomkernenergie (BMAt) bzw. 1962-1969 Bundesministerium für wissenschaftliche Forschung (BMwF) bzw. 1969-1973 Bundesministerium für Bildung und Wissenschaft (BMBW), 1973-1982 Ministerialdirektor (1974-1976 stv. Leiter sowie 1976-1982 Leiter der Abteilung 3 (Energie, Rohstoffe und Fertigungstechnik, Biologie, Ökologie und Medizin, ab 1980: Energie, Umwelt, Rohstoffe)) im Bundesministerium für Forschung und Technologie (BMFT), 1974–1978 Leiter des Komitees für Energieforschung und -entwicklung der europäischen Lobbyorganisation Nuclear Energy Agency (NEA), 1997-2001 Generalsekretär des Europäischen Atomforums (FORATOM)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/17170651X"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Wolf-Jürgen Schmidt-Küster",
@@ -42,9 +29,19 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/17170651X",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/17170651X"
+  },
+  "gender": "https://schema.org/Male",
+  "deathDate": "2016-02-01",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Königswinte"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Chemiker, Ministerialdirektor, 1961-1962 Tätigkeit im Bundesministerium für Atomkernenergie (BMAt) bzw. 1962-1969 Bundesministerium für wissenschaftliche Forschung (BMwF) bzw. 1969-1973 Bundesministerium für Bildung und Wissenschaft (BMBW), 1973-1982 Ministerialdirektor (1974-1976 stv. Leiter sowie 1976-1982 Leiter der Abteilung 3 (Energie, Rohstoffe und Fertigungstechnik, Biologie, Ökologie und Medizin, ab 1980: Energie, Umwelt, Rohstoffe)) im Bundesministerium für Forschung und Technologie (BMFT), 1974–1978 Leiter des Komitees für Energieforschung und -entwicklung der europäischen Lobbyorganisation Nuclear Energy Agency (NEA), 1997-2001 Generalsekretär des Europäischen Atomforums (FORATOM)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/17170651X"
+  ]
 }

@@ -1,10 +1,60 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RitgenGerd_1965-10-19",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RitgenGerd_1965-10-19",
   "name": "Gerd Ritgen",
   "givenName": "Gerd",
   "familyName": "Ritgen",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Gerd Ritgen",
+    "forename": "Gerd",
+    "surname": "Ritgen",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1910-01-06",
+    "place": "Wormeln",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1998-07-07",
+    "place": "Bad Wildungen",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 5,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    },
+    {
+      "period": 6,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1969-10-20",
+      "to": "1972-09-22"
+    },
+    {
+      "period": 7,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1972-12-13",
+      "to": "1976-12-13"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001858",
+    "gnd": "https://d-nb.info/gnd/125574223",
+    "wikipedia": "https://de.wikipedia.org/wiki/Gerd_Ritgen"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1910-01-06",
   "birthPlace": {
@@ -55,53 +105,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/125574223",
     "https://de.wikipedia.org/wiki/Gerd_Ritgen"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Gerd Ritgen",
-    "forename": "Gerd",
-    "surname": "Ritgen",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1910-01-06",
-    "place": "Wormeln",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1998-07-07",
-    "place": "Bad Wildungen",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 5,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1965-10-19",
-      "to": "1969-10-19"
-    },
-    {
-      "period": 6,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1969-10-20",
-      "to": "1972-09-22"
-    },
-    {
-      "period": 7,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1972-12-13",
-      "to": "1976-12-13"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11001858",
-    "gnd": "https://d-nb.info/gnd/125574223",
-    "wikipedia": "https://de.wikipedia.org/wiki/Gerd_Ritgen",
-    "viaf": null
-  }
+  ]
 }

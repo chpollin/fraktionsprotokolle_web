@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KhanGhulamIshaq",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KhanGhulamIshaq",
   "name": "Ghulam Ishaq Khan",
   "givenName": "Ghulam Ishaq",
   "familyName": "Khan",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1915-01-20",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Bannu, Nordwestprovinz"
-  },
-  "deathDate": "2006-10-27",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Peschawar"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "pakistanischer Politiker, 1977–1985 pakistanischer Finanzminister, 17. August 1988 bis 18. Juli 1993 Präsident von Pakistan"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/170580016",
-    "https://de.wikipedia.org/wiki/Ghulam_Ishaq_Khan"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Ghulam Ishaq Khan",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/170580016",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ghulam_Ishaq_Khan",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ghulam_Ishaq_Khan"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1915-01-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bannu, Nordwestprovinz"
+  },
+  "deathDate": "2006-10-27",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Peschawar"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "pakistanischer Politiker, 1977–1985 pakistanischer Finanzminister, 17. August 1988 bis 18. Juli 1993 Präsident von Pakistan"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/170580016",
+    "https://de.wikipedia.org/wiki/Ghulam_Ishaq_Khan"
+  ]
 }

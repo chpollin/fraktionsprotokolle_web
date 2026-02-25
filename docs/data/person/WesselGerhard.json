@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WesselGerhard",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WesselGerhard",
   "name": "Gerhard Wessel",
   "givenName": "Gerhard",
   "familyName": "Wessel",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1913-12-24",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Neumünster"
-  },
-  "deathDate": "2002-07-28",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Pullach"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Offizier, Generalleutnant a. D., 1968–1978 Präsident des Bundesnachrichtendienstes"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/128402164",
-    "https://de.wikipedia.org/wiki/Gerhard_Wessel"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Gerhard Wessel",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/128402164",
-    "wikipedia": "https://de.wikipedia.org/wiki/Gerhard_Wessel",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Gerhard_Wessel"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1913-12-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Neumünster"
+  },
+  "deathDate": "2002-07-28",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Pullach"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Offizier, Generalleutnant a. D., 1968–1978 Präsident des Bundesnachrichtendienstes"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/128402164",
+    "https://de.wikipedia.org/wiki/Gerhard_Wessel"
+  ]
 }

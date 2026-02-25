@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ArafatJassir",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ArafatJassir",
   "name": "Jassir Arafat",
   "givenName": "Jassir",
   "familyName": "Arafat",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1929-08-24",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Kairo"
-  },
-  "deathDate": "2004-11-11",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Clamart, Département Hauts-de-Seine"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "palästinensischer Politiker, 1969 dritter Vorsitzender der Palästinensischen Befreiungsorganisation (PLO) sowie 1996–2004 erster Präsident der palästinensischen Autonomiegebiete, 1957 Mitbegründer und später Anführer der palästinensischen Fatah"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118503766",
-    "https://de.wikipedia.org/wiki/Jassir_Arafat"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Jassir Arafat",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118503766",
-    "wikipedia": "https://de.wikipedia.org/wiki/Jassir_Arafat",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Jassir_Arafat"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1929-08-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kairo"
+  },
+  "deathDate": "2004-11-11",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Clamart, Département Hauts-de-Seine"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "palästinensischer Politiker, 1969 dritter Vorsitzender der Palästinensischen Befreiungsorganisation (PLO) sowie 1996–2004 erster Präsident der palästinensischen Autonomiegebiete, 1957 Mitbegründer und später Anführer der palästinensischen Fatah"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118503766",
+    "https://de.wikipedia.org/wiki/Jassir_Arafat"
+  ]
 }

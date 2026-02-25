@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "TabatabaiSadegh",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/TabatabaiSadegh",
   "name": "Sadegh Tabatabai",
   "givenName": "Sadegh",
   "familyName": "Tabatabai",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1943-12-12",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Ghom"
-  },
-  "deathDate": "2015-02-21",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Düsseldorf"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Biochemiker, Schriftsteller, Journalist und Fernsehmoderator, (mindestens) 1978 wiss. Assistent an der Ruhr-Universität Bochum (RUB), Professor an der Universität Teheran, Leiter der Abteilung für Politik und Soziales im iranischen Innenministerium und in dieser Funktion im März 1979 Koordinator des Referendums zur Errichtung der Islamischen Republik, 1979 stv. Premierminister  für Öffentlichkeitsarbeit, 1979-1980 Regierungssprecher, stv. Ministerpräsident und stv. Innenminister des Iran sowie Staatssekretär im Büro des Premierministers (Iranische Freiheitsbewegung), 1982-1986 Botschafter des Iran in der BRD, Berater und Wahlkampfmitarbeiter des Kandidaten für die Präsidentschaftswahlen 2009 Mohsen Rezai sowie dessen stv. Wahlkampfleiter für die Präsidentschaftswahlen 2013"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1088764363",
-    "https://de.wikipedia.org/wiki/Sadegh_Tabatabai"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Sadegh Tabatabai",
@@ -46,10 +29,27 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1088764363",
-    "wikipedia": "https://de.wikipedia.org/wiki/Sadegh_Tabatabai",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Sadegh_Tabatabai"
   },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1943-12-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Ghom"
+  },
+  "deathDate": "2015-02-21",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Düsseldorf"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Biochemiker, Schriftsteller, Journalist und Fernsehmoderator, (mindestens) 1978 wiss. Assistent an der Ruhr-Universität Bochum (RUB), Professor an der Universität Teheran, Leiter der Abteilung für Politik und Soziales im iranischen Innenministerium und in dieser Funktion im März 1979 Koordinator des Referendums zur Errichtung der Islamischen Republik, 1979 stv. Premierminister  für Öffentlichkeitsarbeit, 1979-1980 Regierungssprecher, stv. Ministerpräsident und stv. Innenminister des Iran sowie Staatssekretär im Büro des Premierministers (Iranische Freiheitsbewegung), 1982-1986 Botschafter des Iran in der BRD, Berater und Wahlkampfmitarbeiter des Kandidaten für die Präsidentschaftswahlen 2009 Mohsen Rezai sowie dessen stv. Wahlkampfleiter für die Präsidentschaftswahlen 2013"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1088764363",
+    "https://de.wikipedia.org/wiki/Sadegh_Tabatabai"
+  ],
   "fraktionsprotokolle:sonstiges": "begleitete Ruhollah Khomeini während seines Exils in Paris und nahm an zahlreichen Koordinationstreffen teil, 1982 und 1983 in Deutschland in Skandale um Waffenhandel und Drogenschmuggel verwickelt"
 }

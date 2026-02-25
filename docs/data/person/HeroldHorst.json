@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HeroldHorst",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HeroldHorst",
   "name": "Horst Herold",
   "givenName": "Horst",
   "familyName": "Herold",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1923-10-21",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Sonneberg"
-  },
-  "deathDate": "2018-12-14",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Nürnberg"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Jurist, 1967–1971 Polizeipräsident in Nürnberg, seit 1969 Mitglied einer Reformkommission zur Arbeit des Bundeskriminalamtes, 1971–1981 Präsident des Bundeskriminalamtes"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118549863",
-    "https://de.wikipedia.org/wiki/Horst_Herold"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Horst Herold",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118549863",
-    "wikipedia": "https://de.wikipedia.org/wiki/Horst_Herold",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Horst_Herold"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1923-10-21",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Sonneberg"
+  },
+  "deathDate": "2018-12-14",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Nürnberg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Jurist, 1967–1971 Polizeipräsident in Nürnberg, seit 1969 Mitglied einer Reformkommission zur Arbeit des Bundeskriminalamtes, 1971–1981 Präsident des Bundeskriminalamtes"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118549863",
+    "https://de.wikipedia.org/wiki/Horst_Herold"
+  ]
 }

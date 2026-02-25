@@ -1,24 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HaagHildegard",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HaagHildegard",
   "name": "Hildegard Haag",
   "givenName": "Hildegard Sybille",
   "familyName": "Haag",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1942-03-22",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Düsseldorf"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Studienrätin für Französisch und Deutsch"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hildegard Haag",
@@ -39,11 +28,16 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Female",
+  "birthDate": "1942-03-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Düsseldorf"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Studienrätin für Französisch und Deutsch"
   },
   "fraktionsprotokolle:sonstiges": "Ehefrau des Rechtsanwalts und Mitglieds der terroristischen Vereinigung »Rote Armee Fraktion« (RAF) Siegfried Haag"
 }

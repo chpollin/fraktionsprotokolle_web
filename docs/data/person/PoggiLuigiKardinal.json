@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PoggiLuigiKardinal",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PoggiLuigiKardinal",
   "name": "Luigi Kardinal Poggi",
   "givenName": "Luigi",
   "familyName": "Poggi",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1917-11-25",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Piacenza"
-  },
-  "deathDate": "2010-05-04",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Rom"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "vatikanischer Diplomat und Kurienkardinal der römisch-katholischen Kirche, 1975 Apostolischer Nuntius in Polen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1114315397",
-    "https://de.wikipedia.org/wiki/Luigi_Poggi"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Luigi Kardinal Poggi",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1114315397",
-    "wikipedia": "https://de.wikipedia.org/wiki/Luigi_Poggi",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Luigi_Poggi"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1917-11-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Piacenza"
+  },
+  "deathDate": "2010-05-04",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Rom"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "vatikanischer Diplomat und Kurienkardinal der römisch-katholischen Kirche, 1975 Apostolischer Nuntius in Polen"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1114315397",
+    "https://de.wikipedia.org/wiki/Luigi_Poggi"
+  ]
 }

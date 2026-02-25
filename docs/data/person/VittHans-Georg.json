@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "VittHans-Georg",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/VittHans-Georg",
   "name": "Hans-Georg Vitt",
   "givenName": "Hans-Georg",
   "familyName": "Vitt",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1923-04-05",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Weidenau"
-  },
-  "deathDate": "1981-07-17",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Verwaltungsangestellter, 1953–1958 Bezirksvorsitzender der Jusos Westliches Westfalen, 1956–1961 und 1964–1966 Bürgermeister der Stadt Weidenau, 1962–1980 MdL Nordrhein-Westfalen (SPD), 1966–1974 Bürgermeister der Stadt Hüttental"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1117709310",
-    "https://de.wikipedia.org/wiki/Hans-Georg_Vitt"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hans-Georg Vitt",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1117709310",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hans-Georg_Vitt",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans-Georg_Vitt"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1923-04-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Weidenau"
+  },
+  "deathDate": "1981-07-17",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Verwaltungsangestellter, 1953–1958 Bezirksvorsitzender der Jusos Westliches Westfalen, 1956–1961 und 1964–1966 Bürgermeister der Stadt Weidenau, 1962–1980 MdL Nordrhein-Westfalen (SPD), 1966–1974 Bürgermeister der Stadt Hüttental"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1117709310",
+    "https://de.wikipedia.org/wiki/Hans-Georg_Vitt"
+  ]
 }

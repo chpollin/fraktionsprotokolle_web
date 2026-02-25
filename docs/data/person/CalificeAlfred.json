@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "CalificeAlfred",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/CalificeAlfred",
   "name": "Alfred Califice",
   "givenName": "Alfred",
   "familyName": "Califice",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1916-10-02",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Mélen"
-  },
-  "deathDate": "1999-03-10",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Charleroi"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "belgischer christdemokratischer Politiker, 1965–1978 Mitglied der belgischen Abgeordnetenkammer, 1979–1985 Mitglied des belgischen Senats, 1973–1974 Minister für Öffentliche Arbeiten, 1974–1977 Minister für Beschäftigung und Arbeit, wallonische Angelegenheiten sowie für Raumplanung und Wohnen, 1977–1978 Minister für Sozialversicherung, 1979–1980 Minister für soziale Fürsorge und Pensionen, 1980 Minister für Volksgesundheit und Umwelt"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Alfred_Califice",
-    "https://viaf.org/viaf/161286186/"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Alfred Califice",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
     "wikipedia": "https://de.wikipedia.org/wiki/Alfred_Califice",
     "viaf": "https://viaf.org/viaf/161286186/"
-  }
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1916-10-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Mélen"
+  },
+  "deathDate": "1999-03-10",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Charleroi"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "belgischer christdemokratischer Politiker, 1965–1978 Mitglied der belgischen Abgeordnetenkammer, 1979–1985 Mitglied des belgischen Senats, 1973–1974 Minister für Öffentliche Arbeiten, 1974–1977 Minister für Beschäftigung und Arbeit, wallonische Angelegenheiten sowie für Raumplanung und Wohnen, 1977–1978 Minister für Sozialversicherung, 1979–1980 Minister für soziale Fürsorge und Pensionen, 1980 Minister für Volksgesundheit und Umwelt"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Alfred_Califice",
+    "https://viaf.org/viaf/161286186/"
+  ]
 }

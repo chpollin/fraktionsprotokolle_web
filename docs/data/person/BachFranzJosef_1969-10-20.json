@@ -1,38 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BachFranzJosef_1969-10-20",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BachFranzJosef_1969-10-20",
   "name": "Franz Josef Bach",
   "givenName": "Franz Josef",
   "familyName": "Bach",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1917-02-04",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Neuss"
-  },
-  "deathDate": "2001-08-03",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Botschafter a. D., 1964–1968 Botschafter der Bundesrepublik Deutschland in Teheran"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1969-10-20",
-      "endDate": "1972-09-22"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/106427008",
-    "https://de.wikipedia.org/wiki/Franz_Josef_Bach"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Franz Josef Bach",
@@ -64,7 +39,33 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000070",
     "gnd": "https://d-nb.info/gnd/106427008",
-    "wikipedia": "https://de.wikipedia.org/wiki/Franz_Josef_Bach",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Franz_Josef_Bach"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1917-02-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Neuss"
+  },
+  "deathDate": "2001-08-03",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Botschafter a. D., 1964–1968 Botschafter der Bundesrepublik Deutschland in Teheran"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1969-10-20",
+      "endDate": "1972-09-22"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/106427008",
+    "https://de.wikipedia.org/wiki/Franz_Josef_Bach"
+  ]
 }

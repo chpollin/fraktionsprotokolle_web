@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WilhelmI_GrafvonNassau-DillenburgPrinzvonOranien",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WilhelmI_GrafvonNassau-DillenburgPrinzvonOranien",
   "name": "Wilhelm I. Graf von Nassau-Dillenburg, Prinz von Oranien",
   "givenName": "Wilhelm I.",
   "familyName": "Oranien",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1533-04-24",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Dillenburg"
-  },
-  "deathDate": "1584-07-10",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Delft"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Statthalter von Holland und Seeland"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118738062",
-    "https://de.wikipedia.org/wiki/Wilhelm_I._(Oranien)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Wilhelm I. Graf von Nassau-Dillenburg, Prinz von Oranien",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118738062",
-    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_I._(Oranien)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_I._(Oranien)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1533-04-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Dillenburg"
+  },
+  "deathDate": "1584-07-10",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Delft"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Statthalter von Holland und Seeland"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118738062",
+    "https://de.wikipedia.org/wiki/Wilhelm_I._(Oranien)"
+  ]
 }

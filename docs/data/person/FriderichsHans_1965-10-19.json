@@ -1,10 +1,53 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FriderichsHans_1965-10-19",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FriderichsHans_1965-10-19",
   "name": "Hans Friderichs",
   "givenName": "Hans",
   "familyName": "Friderichs",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans Friderichs",
+    "forename": "Hans",
+    "surname": "Friderichs",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1931-10-16",
+    "place": "Wittlich",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2025-11-16",
+    "place": "Mainz",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 5,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    },
+    {
+      "period": 8,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1976-12-14",
+      "to": "1977-11-08"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000586",
+    "gnd": "https://d-nb.info/gnd/118535498",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Friderichs"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1931-10-16",
   "birthPlace": {
@@ -45,46 +88,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/118535498",
     "https://de.wikipedia.org/wiki/Hans_Friderichs"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Hans Friderichs",
-    "forename": "Hans",
-    "surname": "Friderichs",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1931-10-16",
-    "place": "Wittlich",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "2025-11-16",
-    "place": "Mainz",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 5,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1965-10-19",
-      "to": "1969-10-19"
-    },
-    {
-      "period": 8,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1976-12-14",
-      "to": "1977-11-08"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11000586",
-    "gnd": "https://d-nb.info/gnd/118535498",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Friderichs",
-    "viaf": null
-  }
+  ]
 }

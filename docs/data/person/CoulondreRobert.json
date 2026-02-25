@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "CoulondreRobert",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/CoulondreRobert",
   "name": "Robert Coulondre",
   "givenName": "Robert",
   "familyName": "Coulondre",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1885-09-11",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Nîmes"
-  },
-  "deathDate": "1959-03-06",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Paris"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1938/39 französischer Botschafter in Berlin"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/124375065",
-    "https://de.wikipedia.org/wiki/Robert_Coulondre"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Robert Coulondre",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/124375065",
-    "wikipedia": "https://de.wikipedia.org/wiki/Robert_Coulondre",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Robert_Coulondre"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1885-09-11",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Nîmes"
+  },
+  "deathDate": "1959-03-06",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1938/39 französischer Botschafter in Berlin"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/124375065",
+    "https://de.wikipedia.org/wiki/Robert_Coulondre"
+  ]
 }

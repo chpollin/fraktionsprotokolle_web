@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KleineRudolf",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KleineRudolf",
   "name": "Rudolf Kleine",
   "givenName": "Rudolf",
   "familyName": "Kleine",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1918-09-27",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Helmstedt"
-  },
-  "deathDate": "2001",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1953–1960 Leiter der parlamentarischen Verbindungsstelle des Reichsbundes der Kriegsopfer, Behinderten, Sozialrentner und Hinterbliebenen in Bonn, 1961–1979 Vorsitzender des Reichsbundes, SPD-Mitglied"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1174813873",
-    "https://de.wikipedia.org/wiki/Rudolf_Kleine_(Politiker)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Rudolf Kleine",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1174813873",
-    "wikipedia": "https://de.wikipedia.org/wiki/Rudolf_Kleine_(Politiker)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Rudolf_Kleine_(Politiker)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1918-09-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Helmstedt"
+  },
+  "deathDate": "2001",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1953–1960 Leiter der parlamentarischen Verbindungsstelle des Reichsbundes der Kriegsopfer, Behinderten, Sozialrentner und Hinterbliebenen in Bonn, 1961–1979 Vorsitzender des Reichsbundes, SPD-Mitglied"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1174813873",
+    "https://de.wikipedia.org/wiki/Rudolf_Kleine_(Politiker)"
+  ]
 }

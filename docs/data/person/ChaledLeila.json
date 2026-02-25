@@ -1,24 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ChaledLeila",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ChaledLeila",
   "name": "Leila Chaled, auch: Khaled",
   "givenName": "Leila",
   "familyName": "Chaled",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1944-04-09",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Haifa"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": null,
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118722166",
-    "https://de.wikipedia.org/wiki/Leila_Chaled"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Leila Chaled, auch: Khaled",
@@ -40,10 +29,18 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118722166",
-    "wikipedia": "https://de.wikipedia.org/wiki/Leila_Chaled",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Leila_Chaled"
   },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1944-04-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Haifa"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118722166",
+    "https://de.wikipedia.org/wiki/Leila_Chaled"
+  ],
   "fraktionsprotokolle:sonstiges": "führendes Mitglied der Terrororganisation Volksfront zur Befreiung Palästinas (PFLP), u. a. an der Entführung des Fluges TWA 840 am 29. August 1969 beteiligt"
 }

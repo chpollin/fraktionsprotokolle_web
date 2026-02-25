@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BeilkenKurt",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BeilkenKurt",
   "name": "Kurt Beilken",
   "givenName": "Kurt",
   "familyName": "Beilken",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1935-04-22",
-  "birthPlace": null,
-  "deathDate": "2017-09-14",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Dipl.-Finanzwirt, (mindestens) in der 8. Wahlperiode Referent im Arbeitskreis IV (Sozial- und Gesellschaftspolitik) der CDU/CSU-Bundestagsfraktion, Referent für Europapolitik der CDU/CSU-Bundestagsfraktion"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/17270717X"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Kurt Beilken",
@@ -39,9 +29,16 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/17270717X",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/17270717X"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1935-04-22",
+  "deathDate": "2017-09-14",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Finanzwirt, (mindestens) in der 8. Wahlperiode Referent im Arbeitskreis IV (Sozial- und Gesellschaftspolitik) der CDU/CSU-Bundestagsfraktion, Referent für Europapolitik der CDU/CSU-Bundestagsfraktion"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/17270717X"
+  ]
 }

@@ -1,24 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BoockPeter-Juergen",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BoockPeter-Juergen",
   "name": "Peter-Jürgen Boock",
   "givenName": "Peter-Jürgen",
   "familyName": "Boock",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1951-09-03",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Garding"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": null,
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118513354",
-    "https://de.wikipedia.org/wiki/Peter-J%C3%BCrgen_Boock"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Peter-Jürgen Boock",
@@ -40,10 +29,18 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118513354",
-    "wikipedia": "https://de.wikipedia.org/wiki/Peter-J%C3%BCrgen_Boock",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Peter-J%C3%BCrgen_Boock"
   },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1951-09-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Garding"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118513354",
+    "https://de.wikipedia.org/wiki/Peter-J%C3%BCrgen_Boock"
+  ],
   "fraktionsprotokolle:sonstiges": "Mitglied der terroristischen Vereinigung »Rote Armee Fraktion« (RAF), beteitligt an der Entführung und Ermordung von Arbeitgeberpräsident Hanns Martin Schleyer und der Ermordung des Bankiers Jürgen Ponto"
 }

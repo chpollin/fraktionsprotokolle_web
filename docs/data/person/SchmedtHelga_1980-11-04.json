@@ -1,48 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchmedtHelga_1980-11-04",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchmedtHelga_1980-11-04",
   "name": "Helga Schmedt, geb. Pfeiffer",
   "givenName": "Helga",
   "familyName": "Schmedt",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1929-05-10",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Essen"
-  },
-  "deathDate": "2022-09-25",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Verwaltungsangestellte [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1980-11-04",
-      "endDate": "1983-03-29"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1983-09-01",
-      "endDate": "1987-02-18"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1271861194",
-    "https://de.wikipedia.org/wiki/Helga_Schmedt"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Helga Schmedt, geb. Pfeiffer",
@@ -81,7 +46,43 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001992",
     "gnd": "https://d-nb.info/gnd/1271861194",
-    "wikipedia": "https://de.wikipedia.org/wiki/Helga_Schmedt",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Helga_Schmedt"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1929-05-10",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Essen"
+  },
+  "deathDate": "2022-09-25",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Verwaltungsangestellte [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1980-11-04",
+      "endDate": "1983-03-29"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1983-09-01",
+      "endDate": "1987-02-18"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1271861194",
+    "https://de.wikipedia.org/wiki/Helga_Schmedt"
+  ]
 }

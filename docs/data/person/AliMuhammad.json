@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "AliMuhammad",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/AliMuhammad",
   "name": "Muhammad Ali (Cassius Marcellus Clay)",
   "givenName": "Muhammad",
   "familyName": "Ali",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1942-01-17",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Louisville, Kentucky"
-  },
-  "deathDate": "2016-06-03",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Scottsdale, Arizona"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Boxer"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118501976",
-    "https://de.wikipedia.org/wiki/Muhammad_Ali"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Muhammad Ali (Cassius Marcellus Clay)",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118501976",
-    "wikipedia": "https://de.wikipedia.org/wiki/Muhammad_Ali",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Muhammad_Ali"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1942-01-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Louisville, Kentucky"
+  },
+  "deathDate": "2016-06-03",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Scottsdale, Arizona"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Boxer"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118501976",
+    "https://de.wikipedia.org/wiki/Muhammad_Ali"
+  ]
 }

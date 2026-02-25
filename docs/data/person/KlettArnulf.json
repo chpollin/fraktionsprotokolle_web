@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KlettArnulf",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KlettArnulf",
   "name": "Arnulf Klett",
   "givenName": "Arnulf",
   "familyName": "Klett",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1905-04-08",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Stuttgart"
-  },
-  "deathDate": "1974-08-14",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Auf der Bühlerhöhe, Schwarzwald"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1945–1974 Oberbürgermeister von Stuttgart"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/11877736X",
-    "https://de.wikipedia.org/wiki/Arnulf_Klett"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Arnulf Klett",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/11877736X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Arnulf_Klett",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Arnulf_Klett"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1905-04-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Stuttgart"
+  },
+  "deathDate": "1974-08-14",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Auf der Bühlerhöhe, Schwarzwald"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1945–1974 Oberbürgermeister von Stuttgart"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/11877736X",
+    "https://de.wikipedia.org/wiki/Arnulf_Klett"
+  ]
 }

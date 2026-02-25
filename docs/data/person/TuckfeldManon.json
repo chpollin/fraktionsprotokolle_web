@@ -1,21 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "TuckfeldManon",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/TuckfeldManon",
   "name": "Manon Tuckfeld",
   "givenName": "Manon",
   "familyName": "Tuckfeld",
-  "gender": "https://schema.org/Female",
-  "birthDate": null,
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Mitglied der RadikalökologInnen und der Grünen in Frankfurt am Main, 1990 Mitglied im Grünen-Bundesvorstand, 2022 Vorsitzende der GEW-Fraktion im Gesamtpersonalrat der Lehrerinnen und Lehrer (GPRLL) für den Rheingau-Taunus-Kreis und die Landeshauptstadt Wiesbaden, Vorstandsmitglied des GEW-Bezirksverbands Südhessen"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Manon Tuckfeld",
@@ -36,10 +28,10 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Female",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Mitglied der RadikalökologInnen und der Grünen in Frankfurt am Main, 1990 Mitglied im Grünen-Bundesvorstand, 2022 Vorsitzende der GEW-Fraktion im Gesamtpersonalrat der Lehrerinnen und Lehrer (GPRLL) für den Rheingau-Taunus-Kreis und die Landeshauptstadt Wiesbaden, Vorstandsmitglied des GEW-Bezirksverbands Südhessen"
   }
 }

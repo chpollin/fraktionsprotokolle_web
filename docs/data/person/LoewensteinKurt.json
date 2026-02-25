@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "LoewensteinKurt",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/LoewensteinKurt",
   "name": "Kurt Löwenstein, auch Kurt Kerlöw-Löwenstein, Pseudonym: Curt Falk",
   "givenName": "Kurt",
   "familyName": "Löwenstein",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1885-05-18",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Bleckede an der Elbe"
-  },
-  "deathDate": "1939-05-08",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Paris"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "SPD-Politiker"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118955853",
-    "https://de.wikipedia.org/wiki/Kurt_L%C3%B6wenstein"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Kurt Löwenstein, auch Kurt Kerlöw-Löwenstein, Pseudonym: Curt Falk",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118955853",
-    "wikipedia": "https://de.wikipedia.org/wiki/Kurt_L%C3%B6wenstein",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Kurt_L%C3%B6wenstein"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1885-05-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bleckede an der Elbe"
+  },
+  "deathDate": "1939-05-08",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "SPD-Politiker"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118955853",
+    "https://de.wikipedia.org/wiki/Kurt_L%C3%B6wenstein"
+  ]
 }

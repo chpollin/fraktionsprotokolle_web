@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DalosGyoergy",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DalosGyoergy",
   "name": "György Dalos",
   "givenName": "György",
   "familyName": "Dalos",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1943-09-23",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Budapest"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "ungarischer Schriftsteller und Historiker"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1048666670",
-    "https://de.wikipedia.org/wiki/Gy%C3%B6rgy_Dalos"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "György Dalos",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1048666670",
-    "wikipedia": "https://de.wikipedia.org/wiki/Gy%C3%B6rgy_Dalos",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Gy%C3%B6rgy_Dalos"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1943-09-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Budapest"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "ungarischer Schriftsteller und Historiker"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1048666670",
+    "https://de.wikipedia.org/wiki/Gy%C3%B6rgy_Dalos"
+  ]
 }

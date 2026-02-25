@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KuehlewindGerhard",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KuehlewindGerhard",
   "name": "Gerhard Kühlewind",
   "givenName": "Gerhard",
   "familyName": "Kühlewind",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1944",
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "wissenschaftlicher Mitarbeiter im Institut für Arbeitsmarkt- und Berufsforschung"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/170142728"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Gerhard Kühlewind",
@@ -39,9 +29,15 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/170142728",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/170142728"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1944",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "wissenschaftlicher Mitarbeiter im Institut für Arbeitsmarkt- und Berufsforschung"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/170142728"
+  ]
 }

@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HilpertWerner_1949-09-07",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HilpertWerner_1949-09-07",
   "name": "Werner Hilpert",
   "givenName": "Werner",
   "familyName": "Hilpert",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1897-01-17",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Leipzig"
-  },
-  "deathDate": "1957-02-24",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Oberursel"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Minister a.D., 1952–1957 Vorstandsmitglied der Deutschen Bundesbahn [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1949-09-07",
-      "endDate": "1949-10-10"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/124340547",
-    "https://de.wikipedia.org/wiki/Werner_Hilpert"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Werner Hilpert",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000903",
     "gnd": "https://d-nb.info/gnd/124340547",
-    "wikipedia": "https://de.wikipedia.org/wiki/Werner_Hilpert",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Werner_Hilpert"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1897-01-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Leipzig"
+  },
+  "deathDate": "1957-02-24",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Oberursel"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Minister a.D., 1952–1957 Vorstandsmitglied der Deutschen Bundesbahn [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1949-10-10"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/124340547",
+    "https://de.wikipedia.org/wiki/Werner_Hilpert"
+  ]
 }

@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RohdeAchim",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RohdeAchim",
   "name": "Achim Rohde",
   "givenName": "Achim",
   "familyName": "Rohde",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1936-05-22",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Düsseldorf"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Jurist, 1969–1970 Leiter des Referats Innenpolitische Koordination im Auswärtigen Amt, 1975–1983 Regierungspräsident des Regierungsbezirks Düsseldorf, 1985–1995 MdL Nordrhein-Westfalen (FDP) und Vorsitzender der FDP-Landtagsfraktion"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1011347466",
-    "https://de.wikipedia.org/wiki/Achim_Rohde"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Achim Rohde",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1011347466",
-    "wikipedia": "https://de.wikipedia.org/wiki/Achim_Rohde",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Achim_Rohde"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1936-05-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Düsseldorf"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Jurist, 1969–1970 Leiter des Referats Innenpolitische Koordination im Auswärtigen Amt, 1975–1983 Regierungspräsident des Regierungsbezirks Düsseldorf, 1985–1995 MdL Nordrhein-Westfalen (FDP) und Vorsitzender der FDP-Landtagsfraktion"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1011347466",
+    "https://de.wikipedia.org/wiki/Achim_Rohde"
+  ]
 }

@@ -1,26 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "EhrensteinDietervon",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/EhrensteinDietervon",
   "name": "Dieter von Ehrenstein",
   "givenName": "Dieter",
   "familyName": "Ehrenstein",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1931-02-04",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Hannover"
-  },
-  "deathDate": "2020-03-06",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Atom- und Kernphysiker, Professor für Experimentelle Physik an der Universität Bremen, Sachverständiger in der 1979 vom Deutschen Bundestag eingesetzten Enquete-Kommission »Zukünftige Kernenergie-Politik«"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "http://viaf.org/viaf/57079342"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Dieter von Ehrenstein",
@@ -42,9 +29,20 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
     "viaf": "http://viaf.org/viaf/57079342"
-  }
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1931-02-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hannover"
+  },
+  "deathDate": "2020-03-06",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Atom- und Kernphysiker, Professor für Experimentelle Physik an der Universität Bremen, Sachverständiger in der 1979 vom Deutschen Bundestag eingesetzten Enquete-Kommission »Zukünftige Kernenergie-Politik«"
+  },
+  "sameAs": [
+    "http://viaf.org/viaf/57079342"
+  ]
 }

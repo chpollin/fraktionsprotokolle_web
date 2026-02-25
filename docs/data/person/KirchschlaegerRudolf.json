@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KirchschlaegerRudolf",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KirchschlaegerRudolf",
   "name": "Rudolf Kirchschläger",
   "givenName": "Rudolf",
   "familyName": "Kirchschläger",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1915-03-20",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Niederkappel"
-  },
-  "deathDate": "2000-03-30",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Wien"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "österreichischer Diplomat und Politiker (parteilos), 1967–1970 Leiter der österreichischen Gesandtschaft in Prag, 1970–1974 österreichischer Außenminister, 1974–1986 Bundespräsident"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118723189",
-    "https://de.wikipedia.org/wiki/Rudolf_Kirchschl%C3%A4ger"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Rudolf Kirchschläger",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118723189",
-    "wikipedia": "https://de.wikipedia.org/wiki/Rudolf_Kirchschl%C3%A4ger",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Rudolf_Kirchschl%C3%A4ger"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1915-03-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Niederkappel"
+  },
+  "deathDate": "2000-03-30",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Wien"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "österreichischer Diplomat und Politiker (parteilos), 1967–1970 Leiter der österreichischen Gesandtschaft in Prag, 1970–1974 österreichischer Außenminister, 1974–1986 Bundespräsident"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118723189",
+    "https://de.wikipedia.org/wiki/Rudolf_Kirchschl%C3%A4ger"
+  ]
 }

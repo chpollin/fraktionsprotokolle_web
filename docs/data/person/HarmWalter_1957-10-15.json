@@ -1,10 +1,53 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HarmWalter_1957-10-15",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HarmWalter_1957-10-15",
   "name": "Walter Harm",
   "givenName": "Walter",
   "familyName": "Harm",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Walter Harm",
+    "forename": "Walter",
+    "surname": "Harm",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1897-05-09",
+    "place": "Hamburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1964-08-10",
+    "place": "Hamburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 3,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1957-10-15",
+      "to": "1961-09-22"
+    },
+    {
+      "period": 4,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1961-10-17",
+      "to": "1964-08-11"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000812",
+    "gnd": "https://d-nb.info/gnd/1012604381",
+    "wikipedia": "https://de.wikipedia.org/wiki/Walter_Harm_(Politiker)"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1897-05-09",
   "birthPlace": {
@@ -46,47 +89,6 @@
     "https://d-nb.info/gnd/1012604381",
     "https://de.wikipedia.org/wiki/Walter_Harm_(Politiker)"
   ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Walter Harm",
-    "forename": "Walter",
-    "surname": "Harm",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1897-05-09",
-    "place": "Hamburg",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1964-08-10",
-    "place": "Hamburg",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 3,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1957-10-15",
-      "to": "1961-09-22"
-    },
-    {
-      "period": 4,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1961-10-17",
-      "to": "1964-08-11"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11000812",
-    "gnd": "https://d-nb.info/gnd/1012604381",
-    "wikipedia": "https://de.wikipedia.org/wiki/Walter_Harm_(Politiker)",
-    "viaf": null
-  },
   "fraktionsprotokolle:alt_names": [
     {
       "reg": "Walter Harm",

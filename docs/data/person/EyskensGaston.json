@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "EyskensGaston",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/EyskensGaston",
   "name": "Gaston Eyskens",
   "givenName": "Gaston",
   "familyName": "Eyskens",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1905-04-01",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Lier"
-  },
-  "deathDate": "1988-01-03",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Löwen"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1949–1950, 1958–1961 und 1968–1973 Ministerpräsident des Königreichs Belgien"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1029770514",
-    "https://de.wikipedia.org/wiki/Gaston_Eyskens"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Gaston Eyskens",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1029770514",
-    "wikipedia": "https://de.wikipedia.org/wiki/Gaston_Eyskens",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Gaston_Eyskens"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1905-04-01",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Lier"
+  },
+  "deathDate": "1988-01-03",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Löwen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1949–1950, 1958–1961 und 1968–1973 Ministerpräsident des Königreichs Belgien"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1029770514",
+    "https://de.wikipedia.org/wiki/Gaston_Eyskens"
+  ]
 }

@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GerstungRudolf",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GerstungRudolf",
   "name": "Rudolf Gerstung",
   "givenName": "Rudolf",
   "familyName": "Gerstung",
-  "gender": "https://schema.org/Male",
-  "birthDate": null,
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "seit 1947 Leiter des sozialpolitischen Referats beim Parteivorstand der SPD"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1131573463"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Rudolf Gerstung",
@@ -39,9 +29,14 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/1131573463",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/1131573463"
+  },
+  "gender": "https://schema.org/Male",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "seit 1947 Leiter des sozialpolitischen Referats beim Parteivorstand der SPD"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1131573463"
+  ]
 }

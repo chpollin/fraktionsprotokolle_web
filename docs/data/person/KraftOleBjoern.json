@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KraftOleBjoern",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KraftOleBjoern",
   "name": "Ole Björn Kraft",
   "givenName": "Ole Björn",
   "familyName": "Kraft",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1893-12-17",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Kopenhagen"
-  },
-  "deathDate": "1980-12-02",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Fredriksberg"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1945 dänischer Verteidigungsminister; 1950–1953 stellvertretender Ministerpräsident und Außenminister Dänemarks, 1952/53 Vorsitzender des NATO-Ministerrats"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/103007674X",
-    "https://de.wikipedia.org/wiki/Ole_Bj%C3%B8rn_Kraft"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Ole Björn Kraft",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/103007674X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ole_Bj%C3%B8rn_Kraft",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ole_Bj%C3%B8rn_Kraft"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1893-12-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kopenhagen"
+  },
+  "deathDate": "1980-12-02",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Fredriksberg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1945 dänischer Verteidigungsminister; 1950–1953 stellvertretender Ministerpräsident und Außenminister Dänemarks, 1952/53 Vorsitzender des NATO-Ministerrats"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/103007674X",
+    "https://de.wikipedia.org/wiki/Ole_Bj%C3%B8rn_Kraft"
+  ]
 }

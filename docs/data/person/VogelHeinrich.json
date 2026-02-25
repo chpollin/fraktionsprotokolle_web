@@ -1,24 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "VogelHeinrich",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/VogelHeinrich",
   "name": "Heinrich Vogel",
   "givenName": "Heinrich",
   "familyName": "Vogel",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1937-09-02",
-  "birthPlace": null,
-  "deathDate": "2014-10-22",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Wirtschaftswissenschaftler, Professor für Wirtschaftswissenschaften an der Universität München, 1976 bis 2000 Leiter des Bundesinstituts für ostwissenschaftliche und internationale Studien in Köln, 1999 bis Ende 2006 Mitglied des Vorstands der Stiftung Wissenschaft und Politik, Berlin"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/129609315",
-    "https://de.wikipedia.org/wiki/Heinrich_Vogel_(Wirtschaftswissenschaftler)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Heinrich Vogel",
@@ -40,9 +29,18 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/129609315",
-    "wikipedia": "https://de.wikipedia.org/wiki/Heinrich_Vogel_(Wirtschaftswissenschaftler)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Heinrich_Vogel_(Wirtschaftswissenschaftler)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1937-09-02",
+  "deathDate": "2014-10-22",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Wirtschaftswissenschaftler, Professor für Wirtschaftswissenschaften an der Universität München, 1976 bis 2000 Leiter des Bundesinstituts für ostwissenschaftliche und internationale Studien in Köln, 1999 bis Ende 2006 Mitglied des Vorstands der Stiftung Wissenschaft und Politik, Berlin"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/129609315",
+    "https://de.wikipedia.org/wiki/Heinrich_Vogel_(Wirtschaftswissenschaftler)"
+  ]
 }

@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "StempelOttoBaronvon",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/StempelOttoBaronvon",
   "name": "Otto Baron von Stempel",
   "givenName": "Otto",
   "familyName": "Stempel",
-  "gender": "https://schema.org/Male",
-  "birthDate": null,
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Vortragender Legationsrat I. Klasse, Leiter des Referats »EWG, EGKS, EURATOM« im Auswärtigen Amt"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/120474654"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Otto Baron von Stempel",
@@ -39,9 +29,14 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/120474654",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/120474654"
+  },
+  "gender": "https://schema.org/Male",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Vortragender Legationsrat I. Klasse, Leiter des Referats »EWG, EGKS, EURATOM« im Auswärtigen Amt"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/120474654"
+  ]
 }

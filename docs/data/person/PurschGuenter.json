@@ -1,21 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PurschGuenter",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PurschGuenter",
   "name": "Günter Pursch",
   "givenName": "Günter",
   "familyName": "Pursch",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1947",
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": null,
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/115467335",
-    "https://de.wikipedia.org/wiki/G%C3%BCnter_Pursch"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Günter Pursch",
@@ -37,9 +29,13 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/115467335",
-    "wikipedia": "https://de.wikipedia.org/wiki/G%C3%BCnter_Pursch",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/G%C3%BCnter_Pursch"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1947",
+  "sameAs": [
+    "https://d-nb.info/gnd/115467335",
+    "https://de.wikipedia.org/wiki/G%C3%BCnter_Pursch"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BueckerJoseph",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BueckerJoseph",
   "name": "Joseph Bücker",
   "givenName": "Joseph",
   "familyName": "Bücker",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1927-02-09",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Coesfeld"
-  },
-  "deathDate": "2001-05-14",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bonn"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Verwaltungsjurist, ab 1958 wiss. Assistent und Ausschusssekretär in der Bundestagsverwaltung, 1984–1991 Direktor beim Deutschen Bundestag"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/140771662",
-    "https://de.wikipedia.org/wiki/Joseph_B%C3%BCcker"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Joseph Bücker",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/140771662",
-    "wikipedia": "https://de.wikipedia.org/wiki/Joseph_B%C3%BCcker",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Joseph_B%C3%BCcker"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1927-02-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Coesfeld"
+  },
+  "deathDate": "2001-05-14",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Verwaltungsjurist, ab 1958 wiss. Assistent und Ausschusssekretär in der Bundestagsverwaltung, 1984–1991 Direktor beim Deutschen Bundestag"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/140771662",
+    "https://de.wikipedia.org/wiki/Joseph_B%C3%BCcker"
+  ]
 }

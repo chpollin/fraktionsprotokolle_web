@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SeigewasserHans",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SeigewasserHans",
   "name": "Hans Seigewasser",
   "givenName": "Hans",
   "familyName": "Seigewasser",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1905-08-12",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Berlin-Schöneweide"
-  },
-  "deathDate": "1979-10-18",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Rom"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1950–1979 Mitglied der DDR-Volkskammer (SED), 1960–1979 Staatssekretär für Kirchenfragen der DDR"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/127039031",
-    "https://de.wikipedia.org/wiki/Hans_Seigewasser"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hans Seigewasser",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/127039031",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Seigewasser",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Seigewasser"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1905-08-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin-Schöneweide"
+  },
+  "deathDate": "1979-10-18",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Rom"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1950–1979 Mitglied der DDR-Volkskammer (SED), 1960–1979 Staatssekretär für Kirchenfragen der DDR"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/127039031",
+    "https://de.wikipedia.org/wiki/Hans_Seigewasser"
+  ]
 }

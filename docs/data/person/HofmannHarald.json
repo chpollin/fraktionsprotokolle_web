@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HofmannHarald",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HofmannHarald",
   "name": "Harald Hofmann",
   "givenName": "Harald",
   "familyName": "Hofmann",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1932-12-27",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Nürnberg"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Jurist, Diplomat, 1969–1973 im Auswärtigen Amt zunächst Leiter des Ministerbüros, dann Leiter des Leitungsstabes, 1973–1976 FDP-Bundesgeschäftsührer, 1977–1997 im Auswärtigen Amt, u. a. Botschafter in Dänemark, Venezuela, Norwegen und Schweden"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/103579103X",
-    "https://de.wikipedia.org/wiki/Harald_Hofmann_(Diplomat)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Harald Hofmann",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/103579103X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Harald_Hofmann_(Diplomat)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Harald_Hofmann_(Diplomat)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1932-12-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Nürnberg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Jurist, Diplomat, 1969–1973 im Auswärtigen Amt zunächst Leiter des Ministerbüros, dann Leiter des Leitungsstabes, 1973–1976 FDP-Bundesgeschäftsührer, 1977–1997 im Auswärtigen Amt, u. a. Botschafter in Dänemark, Venezuela, Norwegen und Schweden"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/103579103X",
+    "https://de.wikipedia.org/wiki/Harald_Hofmann_(Diplomat)"
+  ]
 }

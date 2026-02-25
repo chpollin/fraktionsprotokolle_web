@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BarreRaymond",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BarreRaymond",
   "name": "Raymond Barre",
   "givenName": "Raymond",
   "familyName": "Barre",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1924-04-12",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Saint-Denis auf Réunion"
-  },
-  "deathDate": "2007-08-25",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Paris"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1967–1973 Vizepräsident der EG-Kommission und Leiter der Wirtschafts- und Finanzabteilung, 1976–1981 französischer Premierminister, 1976–1978 Wirtschafts- und Finanzminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118652656",
-    "https://de.wikipedia.org/wiki/Raymond_Barre"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Raymond Barre",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118652656",
-    "wikipedia": "https://de.wikipedia.org/wiki/Raymond_Barre",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Raymond_Barre"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1924-04-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Saint-Denis auf Réunion"
+  },
+  "deathDate": "2007-08-25",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1967–1973 Vizepräsident der EG-Kommission und Leiter der Wirtschafts- und Finanzabteilung, 1976–1981 französischer Premierminister, 1976–1978 Wirtschafts- und Finanzminister"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118652656",
+    "https://de.wikipedia.org/wiki/Raymond_Barre"
+  ]
 }

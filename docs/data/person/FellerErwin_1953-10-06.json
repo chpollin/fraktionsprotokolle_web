@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FellerErwin_1953-10-06",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FellerErwin_1953-10-06",
   "name": "Erwin Feller",
   "givenName": "Erwin",
   "familyName": "Feller",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1911-02-08",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Straßburg, Elsass (heute: Strasbourg, Frankreich)"
-  },
-  "deathDate": "1991-11-29",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Heidelberg"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Studienrat [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion Gesamtdeutscher Block/Block der Heimatvertriebenen und Entrechteten",
-        "alternateName": "GB/BHE"
-      },
-      "startDate": "1953-10-06",
-      "endDate": "1957-10-06"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1030018707",
-    "https://de.wikipedia.org/wiki/Erwin_Feller"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Erwin Feller",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000532",
     "gnd": "https://d-nb.info/gnd/1030018707",
-    "wikipedia": "https://de.wikipedia.org/wiki/Erwin_Feller",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Erwin_Feller"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1911-02-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Straßburg, Elsass (heute: Strasbourg, Frankreich)"
+  },
+  "deathDate": "1991-11-29",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Heidelberg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Studienrat [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Gesamtdeutscher Block/Block der Heimatvertriebenen und Entrechteten",
+        "alternateName": "GB/BHE"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1030018707",
+    "https://de.wikipedia.org/wiki/Erwin_Feller"
+  ]
 }

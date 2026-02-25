@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "LorscheiderAloisio",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/LorscheiderAloisio",
   "name": "Kardinal Aloísio Lorscheider",
   "givenName": "Aloísio",
   "familyName": "Lorscheider",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1924-10-08",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Estrela"
-  },
-  "deathDate": "2007-12-23",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Porto Alegre"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "katholischer Theologe, 1962–1973 Bischof von Santo Ângelo, 1973-1995 Erzbischof von Fortaleza sowie 1995–2004 Erzbischof von Aparecida"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/109668014",
-    "https://de.wikipedia.org/wiki/Alo%C3%ADsio_Lorscheider"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Kardinal Aloísio Lorscheider",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/109668014",
-    "wikipedia": "https://de.wikipedia.org/wiki/Alo%C3%ADsio_Lorscheider",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Alo%C3%ADsio_Lorscheider"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1924-10-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Estrela"
+  },
+  "deathDate": "2007-12-23",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Porto Alegre"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "katholischer Theologe, 1962–1973 Bischof von Santo Ângelo, 1973-1995 Erzbischof von Fortaleza sowie 1995–2004 Erzbischof von Aparecida"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/109668014",
+    "https://de.wikipedia.org/wiki/Alo%C3%ADsio_Lorscheider"
+  ]
 }

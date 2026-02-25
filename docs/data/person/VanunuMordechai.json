@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "VanunuMordechai",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/VanunuMordechai",
   "name": "Mordechai Vanunu",
   "givenName": "Mordechai",
   "familyName": "Vanunu",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1954-10-13",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Marrakesch"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "israelischer Nukleartechniker"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118963945",
-    "https://de.wikipedia.org/wiki/Mordechai_Vanunu"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Mordechai Vanunu",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118963945",
-    "wikipedia": "https://de.wikipedia.org/wiki/Mordechai_Vanunu",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Mordechai_Vanunu"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1954-10-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Marrakesch"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "israelischer Nukleartechniker"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118963945",
+    "https://de.wikipedia.org/wiki/Mordechai_Vanunu"
+  ]
 }

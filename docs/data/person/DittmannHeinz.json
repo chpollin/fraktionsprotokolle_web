@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DittmannHeinz",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DittmannHeinz",
   "name": "Heinz Dittmann",
   "givenName": "Heinz",
   "familyName": "Dittmann",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1925",
-  "birthPlace": null,
-  "deathDate": "2017",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Diplomat, 1975–1979 Ministerialdirigent im Auswärtigen Amt und Unterabteilungsleiter in der »Abteilung für Außenwirtschaftspolitik, Entwicklungspolitik und europäische wirtschaftliche Integration«"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1217108882"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Heinz Dittmann",
@@ -39,9 +29,16 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/1217108882",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/1217108882"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1925",
+  "deathDate": "2017",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Diplomat, 1975–1979 Ministerialdirigent im Auswärtigen Amt und Unterabteilungsleiter in der »Abteilung für Außenwirtschaftspolitik, Entwicklungspolitik und europäische wirtschaftliche Integration«"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1217108882"
+  ]
 }

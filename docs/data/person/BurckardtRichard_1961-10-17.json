@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BurckardtRichard_1961-10-17",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BurckardtRichard_1961-10-17",
   "name": "Richard Burckardt",
   "givenName": "Richard",
   "familyName": "Burckardt",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1901-07-23",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Leverkusen"
-  },
-  "deathDate": "1981-11-14",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Solingen"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Fabrikant [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Freien Demokratischen Partei",
-        "alternateName": "FDP"
-      },
-      "startDate": "1961-10-17",
-      "endDate": "1965-10-17"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1339768054",
-    "https://de.wikipedia.org/wiki/Richard_Burckardt"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Richard Burckardt",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000307",
     "gnd": "https://d-nb.info/gnd/1339768054",
-    "wikipedia": "https://de.wikipedia.org/wiki/Richard_Burckardt",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Richard_Burckardt"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1901-07-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Leverkusen"
+  },
+  "deathDate": "1981-11-14",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Solingen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Fabrikant [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1339768054",
+    "https://de.wikipedia.org/wiki/Richard_Burckardt"
+  ]
 }

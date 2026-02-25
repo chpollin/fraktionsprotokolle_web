@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchoernerFerdinand",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchoernerFerdinand",
   "name": "Ferdinand Schörner",
   "givenName": "Ferdinand",
   "familyName": "Schörner",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1892-06-12",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "deathDate": "1973-07-02",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "deutscher Wehrmachtsgeneral, 1955 aus sowjetischer Kriegsgefangenschaft entlassen, 1957 wegen des Befehls, Deserteure zu erschießen, verurteilt"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118610279",
-    "https://de.wikipedia.org/wiki/Ferdinand_Sch%C3%B6rner"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Ferdinand Schörner",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118610279",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ferdinand_Sch%C3%B6rner",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ferdinand_Sch%C3%B6rner"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1892-06-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "deathDate": "1973-07-02",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Wehrmachtsgeneral, 1955 aus sowjetischer Kriegsgefangenschaft entlassen, 1957 wegen des Befehls, Deserteure zu erschießen, verurteilt"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118610279",
+    "https://de.wikipedia.org/wiki/Ferdinand_Sch%C3%B6rner"
+  ]
 }

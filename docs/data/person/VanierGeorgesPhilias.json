@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "VanierGeorgesPhilias",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/VanierGeorgesPhilias",
   "name": "Georges Philias Vanier",
   "givenName": "Georges Philias",
   "familyName": "Vanier",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1888-04-23",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Montreal"
-  },
-  "deathDate": "1967-03-05",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Ottawa"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1959–1967 Generalgouverneur von Kanada"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1019718528",
-    "https://de.wikipedia.org/wiki/Georges_Vanier"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Georges Philias Vanier",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1019718528",
-    "wikipedia": "https://de.wikipedia.org/wiki/Georges_Vanier",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Georges_Vanier"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1888-04-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Montreal"
+  },
+  "deathDate": "1967-03-05",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Ottawa"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1959–1967 Generalgouverneur von Kanada"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1019718528",
+    "https://de.wikipedia.org/wiki/Georges_Vanier"
+  ]
 }

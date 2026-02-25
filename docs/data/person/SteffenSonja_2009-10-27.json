@@ -1,57 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SteffenSonja_2009-10-27",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SteffenSonja_2009-10-27",
   "name": "Sonja Amalie Steffen",
   "givenName": "Sonja",
   "familyName": "Steffen",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1963-10-22",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Dreiborn bei Schleiden"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Rechtsanwältin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "2009-10-27",
-      "endDate": "2013-10-22"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "2013-10-22",
-      "endDate": "2017-10-24"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "2017-10-24"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1018308172",
-    "https://de.wikipedia.org/wiki/Sonja_Steffen"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Sonja Amalie Steffen",
@@ -97,9 +53,53 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11004164",
     "gnd": "https://d-nb.info/gnd/1018308172",
-    "wikipedia": "https://de.wikipedia.org/wiki/Sonja_Steffen",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Sonja_Steffen"
   },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1963-10-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Dreiborn bei Schleiden"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsanwältin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "2009-10-27",
+      "endDate": "2013-10-22"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "2013-10-22",
+      "endDate": "2017-10-24"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "2017-10-24"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1018308172",
+    "https://de.wikipedia.org/wiki/Sonja_Steffen"
+  ],
   "fraktionsprotokolle:alt_names": [
     {
       "reg": "Sonja Amalie Steffen",

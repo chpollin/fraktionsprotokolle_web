@@ -1,10 +1,81 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchmidCarlo_1949-09-07",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchmidCarlo_1949-09-07",
   "name": "Carlo Schmid",
   "givenName": "Carlo",
   "familyName": "Schmid",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Carlo Schmid",
+    "forename": "Carlo",
+    "surname": "Schmid",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Tübingen)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1896-12-03",
+    "place": "Perpignan",
+    "country": "Frankreich"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1979-12-11",
+    "place": "Bad Honnef",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 2,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 3,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 4,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    },
+    {
+      "period": 5,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    },
+    {
+      "period": 6,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1969-10-20",
+      "to": "1972-09-22"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001993",
+    "gnd": "https://d-nb.info/gnd/118608606",
+    "wikipedia": "https://de.wikipedia.org/wiki/Carlo_Schmid"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1896-12-03",
   "birthPlace": {
@@ -86,75 +157,6 @@
     "https://d-nb.info/gnd/118608606",
     "https://de.wikipedia.org/wiki/Carlo_Schmid"
   ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Carlo Schmid",
-    "forename": "Carlo",
-    "surname": "Schmid",
-    "prefix": "",
-    "role_name": "",
-    "place": "(Tübingen)"
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1896-12-03",
-    "place": "Perpignan",
-    "country": "Frankreich"
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1979-12-11",
-    "place": "Bad Honnef",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 1,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1949-09-07",
-      "to": "1953-09-07"
-    },
-    {
-      "period": 2,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1953-10-06",
-      "to": "1957-10-06"
-    },
-    {
-      "period": 3,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1957-10-15",
-      "to": "1961-10-15"
-    },
-    {
-      "period": 4,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1961-10-17",
-      "to": "1965-10-17"
-    },
-    {
-      "period": 5,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1965-10-19",
-      "to": "1969-10-19"
-    },
-    {
-      "period": 6,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1969-10-20",
-      "to": "1972-09-22"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11001993",
-    "gnd": "https://d-nb.info/gnd/118608606",
-    "wikipedia": "https://de.wikipedia.org/wiki/Carlo_Schmid",
-    "viaf": null
-  },
   "fraktionsprotokolle:sonstiges": "Staatsrechtler, Schriftsteller, Essayist und Übersetzer, 1947–1952 MdL Württemberg-Hohenzollern, 1947–1970 Mitglied im SPD-Parteivorstand, 1948/49 Mitglied des Parlamentarischen Rates, 1949–1966 sowie 1969–972 Vizepräsident des Deutschen Bundestages, 1949–1953 sowie 1957–1965 stv. Vorsitzender der SPD-Bundestagsfraktion, 1950–1960 sowie 1969–1973 Mitglied in der Beratenden Versammlung des Europarats in Straßburg und 1955–1972 in der Versammlung der Westeuropäischen Union (WEU) in Paris, 1958–1970 Präsidiumsmitglied im SPD-Parteivorstand, 1959 Kandidat bei der Wahl zum Bundespräsidentenamt, 1963–1966 WEU-Präsident, 1966–1969 Bundesminister für Angelegenheiten des Bundesrates und der Länder, 1969–1979 Koordinator für die deutsch-französische Zusammenarbeit",
   "fraktionsprotokolle:alt_names": [
     {

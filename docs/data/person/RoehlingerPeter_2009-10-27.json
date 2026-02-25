@@ -1,35 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RoehlingerPeter_2009-10-27",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RoehlingerPeter_2009-10-27",
   "name": "Peter Röhlinger",
   "givenName": "Peter",
   "familyName": "Röhlinger",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1939-02-08",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Jena"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Tierarzt, Jenaer Oberbürgermeister a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Freien Demokratischen Partei",
-        "alternateName": "FDP"
-      },
-      "startDate": "2009-10-27",
-      "endDate": "2013-10-22"
-    }
-  ],
-  "sameAs": null,
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Peter Röhlinger",
@@ -59,9 +37,28 @@
     }
   ],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11004137",
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
-  }
+    "mdb_stammdaten": "11004137"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1939-02-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Jena"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Tierarzt, Jenaer Oberbürgermeister a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "2009-10-27",
+      "endDate": "2013-10-22"
+    }
+  ]
 }

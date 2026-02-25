@@ -1,58 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "LarcherDetlev_1990-12-20",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/LarcherDetlev_1990-12-20",
   "name": "Detlev von Larcher",
   "givenName": "Detlev",
   "familyName": "Larcher",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1937-03-30",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Hermannstadt (heute: Sibiu)"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Dipl.-Sozialwirt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1990-12-20",
-      "endDate": "1994-11-10"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1994-11-10",
-      "endDate": "1998-10-26"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1998-10-26",
-      "endDate": "2002-10-17"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1278377565",
-    "https://de.wikipedia.org/wiki/Detlev_von_Larcher"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Detlev von Larcher",
@@ -98,7 +53,52 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001290",
     "gnd": "https://d-nb.info/gnd/1278377565",
-    "wikipedia": "https://de.wikipedia.org/wiki/Detlev_von_Larcher",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Detlev_von_Larcher"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1937-03-30",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hermannstadt (heute: Sibiu)"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Sozialwirt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-10-26"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1998-10-26",
+      "endDate": "2002-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1278377565",
+    "https://de.wikipedia.org/wiki/Detlev_von_Larcher"
+  ]
 }

@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ZieglerOtto_1953-10-06",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ZieglerOtto_1953-10-06",
   "name": "Otto Ziegler",
   "givenName": "Otto",
   "familyName": "Ziegler",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1895-07-07",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Tiedmannsdorf, Ostpreußen (heute: Chruściel, Polen)"
-  },
-  "deathDate": "1956-07-27",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Hamburg"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Obertelegrafensekretär [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1953-10-06",
-      "endDate": "1956-07-27"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1330231074",
-    "https://de.wikipedia.org/wiki/Otto_Ziegler_(Politiker)"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Otto Ziegler",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11002593",
     "gnd": "https://d-nb.info/gnd/1330231074",
-    "wikipedia": "https://de.wikipedia.org/wiki/Otto_Ziegler_(Politiker)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Otto_Ziegler_(Politiker)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1895-07-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Tiedmannsdorf, Ostpreußen (heute: Chruściel, Polen)"
+  },
+  "deathDate": "1956-07-27",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Obertelegrafensekretär [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1956-07-27"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1330231074",
+    "https://de.wikipedia.org/wiki/Otto_Ziegler_(Politiker)"
+  ]
 }

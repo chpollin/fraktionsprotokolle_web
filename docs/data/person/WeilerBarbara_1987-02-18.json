@@ -1,48 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WeilerBarbara_1987-02-18",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WeilerBarbara_1987-02-18",
   "name": "Barbara Weiler",
   "givenName": "Barbara",
   "familyName": "Weiler",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1946-09-17",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Düsseldorf"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Kaufmännische Angestellte [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1987-02-18",
-      "endDate": "1990-12-20"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1990-12-20",
-      "endDate": "1994-08-14"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1115122576",
-    "https://de.wikipedia.org/wiki/Barbara_Weiler"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Barbara Weiler",
@@ -81,7 +46,42 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11002450",
     "gnd": "https://d-nb.info/gnd/1115122576",
-    "wikipedia": "https://de.wikipedia.org/wiki/Barbara_Weiler",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Barbara_Weiler"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1946-09-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Düsseldorf"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Kaufmännische Angestellte [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1987-02-18",
+      "endDate": "1990-12-20"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-08-14"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1115122576",
+    "https://de.wikipedia.org/wiki/Barbara_Weiler"
+  ]
 }

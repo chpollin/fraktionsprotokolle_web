@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GottoKlaus",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GottoKlaus",
   "name": "Klaus Gotto",
   "givenName": "Klaus",
   "familyName": "Gotto",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1943-04-22",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Trier"
-  },
-  "deathDate": "2017-01-25",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bonn"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1976–1989 Leiter des Archivs für Christlich-Demokratische Politik (ACDP) der Konrad-Adenauer-Stiftung in Sankt Augustin"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/17411480X",
-    "https://de.wikipedia.org/wiki/Klaus_Gotto"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Klaus Gotto",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/17411480X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Klaus_Gotto",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Klaus_Gotto"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1943-04-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Trier"
+  },
+  "deathDate": "2017-01-25",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1976–1989 Leiter des Archivs für Christlich-Demokratische Politik (ACDP) der Konrad-Adenauer-Stiftung in Sankt Augustin"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/17411480X",
+    "https://de.wikipedia.org/wiki/Klaus_Gotto"
+  ]
 }

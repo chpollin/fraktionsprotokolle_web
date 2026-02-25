@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FowlerHenryH",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FowlerHenryH",
   "name": "Henry H. Fowler",
   "givenName": "Henry H.",
   "familyName": "Fowler",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1908-09-05",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Roanoke, Virginia"
-  },
-  "deathDate": "2000-01-03",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Alexandria, Virginia"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1965–1968 US-amerikanischer Finanzminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1029698856",
-    "https://de.wikipedia.org/wiki/Henry_H._Fowler"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Henry H. Fowler",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1029698856",
-    "wikipedia": "https://de.wikipedia.org/wiki/Henry_H._Fowler",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Henry_H._Fowler"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1908-09-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Roanoke, Virginia"
+  },
+  "deathDate": "2000-01-03",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Alexandria, Virginia"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1965–1968 US-amerikanischer Finanzminister"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1029698856",
+    "https://de.wikipedia.org/wiki/Henry_H._Fowler"
+  ]
 }

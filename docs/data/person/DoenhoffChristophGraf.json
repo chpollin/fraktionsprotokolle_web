@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DoenhoffChristophGraf",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DoenhoffChristophGraf",
   "name": "Christoph Graf Dönhoff",
   "givenName": "Christoph August Bernhard",
   "familyName": "Dönhoff",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1906-07-24",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Friedrichstein, Ostpreußen (heute: Kamenka, Russland)"
-  },
-  "deathDate": "1992-09-25",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Schloss Schönstein, Wissen"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Jurist, Naturschützer und Verbandsvertreter, ab 1940 Tätigkeit bei der Auslandsorganisation der NSDAP, Präsident und Geschäftsführer der Deutsch-Südafrikanischen Gesellschaft, Publizist der »Afrika-Post«, Dienst in Ministerien im Krieg, 1966-1973 Kammerdirektor der Fürstlich Hatzfeldtschen Verwaltung, Lehrbeauftragter für Internationalen Naturschutz an der Universität Hamburg, Mitglied im Präsidium des Deutschen Naturschutzrings"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/126164002",
-    "https://de.wikipedia.org/wiki/Christoph_Graf_D%C3%B6nhoff"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Christoph Graf Dönhoff",
@@ -46,10 +29,27 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/126164002",
-    "wikipedia": "https://de.wikipedia.org/wiki/Christoph_Graf_D%C3%B6nhoff",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Christoph_Graf_D%C3%B6nhoff"
   },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1906-07-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Friedrichstein, Ostpreußen (heute: Kamenka, Russland)"
+  },
+  "deathDate": "1992-09-25",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Schloss Schönstein, Wissen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Jurist, Naturschützer und Verbandsvertreter, ab 1940 Tätigkeit bei der Auslandsorganisation der NSDAP, Präsident und Geschäftsführer der Deutsch-Südafrikanischen Gesellschaft, Publizist der »Afrika-Post«, Dienst in Ministerien im Krieg, 1966-1973 Kammerdirektor der Fürstlich Hatzfeldtschen Verwaltung, Lehrbeauftragter für Internationalen Naturschutz an der Universität Hamburg, Mitglied im Präsidium des Deutschen Naturschutzrings"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/126164002",
+    "https://de.wikipedia.org/wiki/Christoph_Graf_D%C3%B6nhoff"
+  ],
   "fraktionsprotokolle:sonstiges": "1929-1939 Aufenthalte in Südafrika und Britisch-Ostafrika (heute: Kenia) sowie nach dem Ende des Zweiten Weltkriegs und Kriegsgefangenschaft erneut bis 1961 in Südafrika, Befürworter der Apartheid"
 }

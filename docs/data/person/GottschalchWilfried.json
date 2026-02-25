@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GottschalchWilfried",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GottschalchWilfried",
   "name": "Wilfried Gottschalch",
   "givenName": "Wilfried",
   "familyName": "Gottschalch",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1929-01-18",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Dresden"
-  },
-  "deathDate": "2006-07",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bussum"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Sozialpädagoge, Professor an der Universität Bremen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/115610049",
-    "https://de.wikipedia.org/wiki/Wilfried_Gottschalch"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Wilfried Gottschalch",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/115610049",
-    "wikipedia": "https://de.wikipedia.org/wiki/Wilfried_Gottschalch",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Wilfried_Gottschalch"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1929-01-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Dresden"
+  },
+  "deathDate": "2006-07",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bussum"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Sozialpädagoge, Professor an der Universität Bremen"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/115610049",
+    "https://de.wikipedia.org/wiki/Wilfried_Gottschalch"
+  ]
 }

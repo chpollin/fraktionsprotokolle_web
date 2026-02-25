@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchoenkeAdolf",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchoenkeAdolf",
   "name": "Adolf Schönke",
   "givenName": "Adolf",
   "familyName": "Schönke",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1908-08-20",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Weißwasser"
-  },
-  "deathDate": "1953-05-01",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Freiburg i. Br."
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Rechtswissenschaftler und Professor in Freiburg im Breisgau, Mitverfasser des Kommentars zum Strafgesetzbuch (Schönke/Schröder)"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Adolf Schönke",
@@ -42,10 +28,20 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Male",
+  "birthDate": "1908-08-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Weißwasser"
+  },
+  "deathDate": "1953-05-01",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Freiburg i. Br."
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtswissenschaftler und Professor in Freiburg im Breisgau, Mitverfasser des Kommentars zum Strafgesetzbuch (Schönke/Schröder)"
   }
 }

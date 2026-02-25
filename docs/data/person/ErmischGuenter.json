@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ErmischGuenter",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ErmischGuenter",
   "name": "Günter Ermisch",
   "givenName": "Günter",
   "familyName": "Ermisch",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1933-04-14",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Witzenhausen"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1978-1981 Vizepräsident des Bundeskriminalamts, 1984-1987 Staatssekretär im Bundesministerium der Verteidigung, 1990-1991 Bevollmächtigter des Bundes zum Aufbau des Landes Sachsen, 1991-1996 Staatssekretär im sächsischen Ministerium für Bundes- und Europaangelegenheiten"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/188348913",
-    "https://de.wikipedia.org/wiki/G%C3%BCnter_Ermisch"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Günter Ermisch",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/188348913",
-    "wikipedia": "https://de.wikipedia.org/wiki/G%C3%BCnter_Ermisch",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/G%C3%BCnter_Ermisch"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1933-04-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Witzenhausen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1978-1981 Vizepräsident des Bundeskriminalamts, 1984-1987 Staatssekretär im Bundesministerium der Verteidigung, 1990-1991 Bevollmächtigter des Bundes zum Aufbau des Landes Sachsen, 1991-1996 Staatssekretär im sächsischen Ministerium für Bundes- und Europaangelegenheiten"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/188348913",
+    "https://de.wikipedia.org/wiki/G%C3%BCnter_Ermisch"
+  ]
 }

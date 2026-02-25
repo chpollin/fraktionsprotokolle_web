@@ -1,10 +1,53 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GantenbergMathilde_1956-10-08",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GantenbergMathilde_1956-10-08",
   "name": "Mathilde Gantenberg",
   "givenName": "Mathilde",
   "familyName": "Gantenberg",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Mathilde Gantenberg",
+    "forename": "Mathilde",
+    "surname": "Gantenberg",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1889-12-25",
+    "place": "Bochum",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1975-10-29",
+    "place": "Trier",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1956-10-08",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 3,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000633",
+    "gnd": "https://d-nb.info/gnd/116411546",
+    "wikipedia": "https://de.wikipedia.org/wiki/Mathilde_Gantenberg"
+  },
   "gender": "https://schema.org/Female",
   "birthDate": "1889-12-25",
   "birthPlace": {
@@ -45,46 +88,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/116411546",
     "https://de.wikipedia.org/wiki/Mathilde_Gantenberg"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Mathilde Gantenberg",
-    "forename": "Mathilde",
-    "surname": "Gantenberg",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1889-12-25",
-    "place": "Bochum",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1975-10-29",
-    "place": "Trier",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 2,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1956-10-08",
-      "to": "1957-10-06"
-    },
-    {
-      "period": 3,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1957-10-15",
-      "to": "1961-10-15"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11000633",
-    "gnd": "https://d-nb.info/gnd/116411546",
-    "wikipedia": "https://de.wikipedia.org/wiki/Mathilde_Gantenberg",
-    "viaf": null
-  }
+  ]
 }

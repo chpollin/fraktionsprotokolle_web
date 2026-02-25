@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ScheubleJulius",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ScheubleJulius",
   "name": "Julius Scheuble",
   "givenName": "Julius",
   "familyName": "Scheuble",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1890-05-23",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Lienheim/Baden"
-  },
-  "deathDate": "1964-12-22",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Freiburg"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1950–1952 Leiter der Abteilung II (Arbeitsmarktpolitik, Arbeitsvermittlung, Berufsberatung, Berufsbildung, unterstützende Arbeitslosenhilfe) im Bundesministerium für Arbeit, 1952–1957 Präsident der Bundesanstalt für Arbeitsvermittlung und Arbeitslosenversicherung"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1028057571",
-    "https://de.wikipedia.org/wiki/Julius_Scheuble"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Julius Scheuble",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1028057571",
-    "wikipedia": "https://de.wikipedia.org/wiki/Julius_Scheuble",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Julius_Scheuble"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1890-05-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Lienheim/Baden"
+  },
+  "deathDate": "1964-12-22",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Freiburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1950–1952 Leiter der Abteilung II (Arbeitsmarktpolitik, Arbeitsvermittlung, Berufsberatung, Berufsbildung, unterstützende Arbeitslosenhilfe) im Bundesministerium für Arbeit, 1952–1957 Präsident der Bundesanstalt für Arbeitsvermittlung und Arbeitslosenversicherung"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1028057571",
+    "https://de.wikipedia.org/wiki/Julius_Scheuble"
+  ]
 }

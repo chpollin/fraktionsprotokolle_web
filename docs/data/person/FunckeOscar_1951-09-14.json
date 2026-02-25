@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FunckeOscar_1951-09-14",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FunckeOscar_1951-09-14",
   "name": "Oscar Funcke",
   "givenName": "Oscar",
   "familyName": "Funcke",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1885-06-17",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Hagen"
-  },
-  "deathDate": "1965-07-06",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Hagen"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Fabrikant, Unternehmer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Freien Demokratischen Partei",
-        "alternateName": "FDP"
-      },
-      "startDate": "1951-09-14",
-      "endDate": "1953-09-07"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/18955259X",
-    "https://de.wikipedia.org/wiki/Oscar_Funcke"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Oscar Funcke",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000621",
     "gnd": "https://d-nb.info/gnd/18955259X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Oscar_Funcke",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Oscar_Funcke"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1885-06-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hagen"
+  },
+  "deathDate": "1965-07-06",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hagen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Fabrikant, Unternehmer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1951-09-14",
+      "endDate": "1953-09-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/18955259X",
+    "https://de.wikipedia.org/wiki/Oscar_Funcke"
+  ]
 }

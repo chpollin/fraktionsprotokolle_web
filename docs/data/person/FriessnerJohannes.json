@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FriessnerJohannes",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FriessnerJohannes",
   "name": "Johannes Frießner",
   "givenName": "Johannes (Hans)",
   "familyName": "Frießner",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1893-03-22",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Chemnitz"
-  },
-  "deathDate": "1971-06-26",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bad Reichenhall"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "deutscher Generaloberst, 1944 Oberbefehlshaber der Heeresgruppe Nord- und Süd-Ukraine, 1951 kurzzeitig kommissarischer Vorsitzender des Verbandes deutscher Soldaten (VDS)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/123561701",
-    "https://de.wikipedia.org/wiki/Johannes_Frie%C3%9Fner"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Johannes Frießner",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/123561701",
-    "wikipedia": "https://de.wikipedia.org/wiki/Johannes_Frie%C3%9Fner",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Johannes_Frie%C3%9Fner"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1893-03-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Chemnitz"
+  },
+  "deathDate": "1971-06-26",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bad Reichenhall"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Generaloberst, 1944 Oberbefehlshaber der Heeresgruppe Nord- und Süd-Ukraine, 1951 kurzzeitig kommissarischer Vorsitzender des Verbandes deutscher Soldaten (VDS)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/123561701",
+    "https://de.wikipedia.org/wiki/Johannes_Frie%C3%9Fner"
+  ]
 }

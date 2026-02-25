@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "LojewskiWernervon",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/LojewskiWernervon",
   "name": "Werner von Lojewski",
   "givenName": "Werner",
   "familyName": "Lojewski",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1907-02-28",
-  "birthPlace": null,
-  "deathDate": "1980-06-28",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Journalist, Redakteur beim NDWR, 1952–1955 Leiter der Presse- und Rundfunkabteilung der CDU (faktisch Pressesprecher der CDU), später stellvertretender Direktor des Presse- und Informationsamtes der Montanunion"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118761404"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Werner von Lojewski",
@@ -39,9 +29,16 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/118761404",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/118761404"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1907-02-28",
+  "deathDate": "1980-06-28",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist, Redakteur beim NDWR, 1952–1955 Leiter der Presse- und Rundfunkabteilung der CDU (faktisch Pressesprecher der CDU), später stellvertretender Direktor des Presse- und Informationsamtes der Montanunion"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118761404"
+  ]
 }

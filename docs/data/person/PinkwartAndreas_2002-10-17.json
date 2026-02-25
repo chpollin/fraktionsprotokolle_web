@@ -1,35 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PinkwartAndreas_2002-10-17",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PinkwartAndreas_2002-10-17",
   "name": "Andreas Pinkwart",
   "givenName": "Andreas",
   "familyName": "Pinkwart",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1960-08-18",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Seelscheid"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Universitätsprofessor [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Freien Demokratischen Partei",
-        "alternateName": "FDP"
-      },
-      "startDate": "2002-10-17",
-      "endDate": "2005-06-27"
-    }
-  ],
-  "sameAs": null,
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Andreas Pinkwart",
@@ -59,9 +37,28 @@
     }
   ],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11003610",
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
-  }
+    "mdb_stammdaten": "11003610"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1960-08-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Seelscheid"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Universitätsprofessor [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "2002-10-17",
+      "endDate": "2005-06-27"
+    }
+  ]
 }

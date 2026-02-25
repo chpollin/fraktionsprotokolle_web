@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "TerjungKnut",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/TerjungKnut",
   "name": "Knut Terjung",
   "givenName": "Knut",
   "familyName": "Terjung",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1940-04-21",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Wuppertal"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Journalist, 1974–1982 Pressesprecher der SPD-Bundestagsfraktion, ZDF-Korrespondent"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/170104605",
-    "https://de.wikipedia.org/wiki/Knut_Terjung"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Knut Terjung",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/170104605",
-    "wikipedia": "https://de.wikipedia.org/wiki/Knut_Terjung",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Knut_Terjung"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1940-04-21",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Wuppertal"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist, 1974–1982 Pressesprecher der SPD-Bundestagsfraktion, ZDF-Korrespondent"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/170104605",
+    "https://de.wikipedia.org/wiki/Knut_Terjung"
+  ]
 }

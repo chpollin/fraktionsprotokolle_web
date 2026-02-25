@@ -1,58 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "LemperHubert_1961-10-17",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/LemperHubert_1961-10-17",
   "name": "Hubert Lemper",
   "givenName": "Hubert",
   "familyName": "Lemper",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1919-12-21",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Bergheim/Erft"
-  },
-  "deathDate": "1990-10-19",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Verwaltungsbeamter a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1961-10-17",
-      "endDate": "1965-10-17"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1965-10-19",
-      "endDate": "1969-10-19"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1969-10-20",
-      "endDate": "1972-09-22"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1044620501",
-    "https://de.wikipedia.org/wiki/Hubert_Lemper"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Hubert Lemper",
@@ -98,7 +53,53 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001317",
     "gnd": "https://d-nb.info/gnd/1044620501",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hubert_Lemper",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hubert_Lemper"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1919-12-21",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bergheim/Erft"
+  },
+  "deathDate": "1990-10-19",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Verwaltungsbeamter a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1965-10-19",
+      "endDate": "1969-10-19"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1969-10-20",
+      "endDate": "1972-09-22"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1044620501",
+    "https://de.wikipedia.org/wiki/Hubert_Lemper"
+  ]
 }

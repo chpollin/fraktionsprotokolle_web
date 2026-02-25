@@ -1,37 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "AngermeyerJoachim_1976-12-14",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/AngermeyerJoachim_1976-12-14",
   "name": "Joachim Angermeyer",
   "givenName": "Joachim",
   "familyName": "Angermeyer",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1923-12-18",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Hamburg"
-  },
-  "deathDate": "1997-05-08",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Speditionsunternehmer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Freien Demokratischen Partei",
-        "alternateName": "FDP"
-      },
-      "startDate": "1976-12-14",
-      "endDate": "1980-11-04"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1162392940"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Joachim Angermeyer",
@@ -62,8 +38,32 @@
   ],
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000039",
-    "gnd": "https://d-nb.info/gnd/1162392940",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/1162392940"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1923-12-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "deathDate": "1997-05-08",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Speditionsunternehmer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1976-12-14",
+      "endDate": "1980-11-04"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1162392940"
+  ]
 }

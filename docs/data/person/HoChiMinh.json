@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HoChiMinh",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HoChiMinh",
   "name": "Ho Chi Minh",
   "givenName": "Ho Chi Minh",
   "familyName": "Ho Chi Minh",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1890-05-19",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Kiem Lien, Nghe An"
-  },
-  "deathDate": "1969-09-02",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Hanoi"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1945/54–1969 Präsident der Demokratischen Republik Vietnam (Nordvietnam)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/11855168X",
-    "https://de.wikipedia.org/wiki/H%E1%BB%93_Ch%C3%AD_Minh"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Ho Chi Minh",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/11855168X",
-    "wikipedia": "https://de.wikipedia.org/wiki/H%E1%BB%93_Ch%C3%AD_Minh",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/H%E1%BB%93_Ch%C3%AD_Minh"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1890-05-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kiem Lien, Nghe An"
+  },
+  "deathDate": "1969-09-02",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hanoi"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1945/54–1969 Präsident der Demokratischen Republik Vietnam (Nordvietnam)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/11855168X",
+    "https://de.wikipedia.org/wiki/H%E1%BB%93_Ch%C3%AD_Minh"
+  ]
 }

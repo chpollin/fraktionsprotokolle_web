@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "LenglSiegfried",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/LenglSiegfried",
   "name": "Siegfried Lengl",
   "givenName": "Siegfried",
   "familyName": "Lengl",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1932-06-20",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Schwindegg"
-  },
-  "deathDate": "2012-07-17",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Tegernsee"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1974–1982 Hauptgeschäftsführer der Hanns-Seidel-Stiftung, 1982–1992 Staatssekretär im Bundesministerium für wirtschaftliche Zusammenarbeit"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1060150697",
-    "https://de.wikipedia.org/wiki/Siegfried_Lengl"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Siegfried Lengl",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1060150697",
-    "wikipedia": "https://de.wikipedia.org/wiki/Siegfried_Lengl",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Siegfried_Lengl"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1932-06-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Schwindegg"
+  },
+  "deathDate": "2012-07-17",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Tegernsee"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1974–1982 Hauptgeschäftsführer der Hanns-Seidel-Stiftung, 1982–1992 Staatssekretär im Bundesministerium für wirtschaftliche Zusammenarbeit"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1060150697",
+    "https://de.wikipedia.org/wiki/Siegfried_Lengl"
+  ]
 }

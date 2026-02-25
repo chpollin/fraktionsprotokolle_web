@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BruensJohannes_1959-10-26",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BruensJohannes_1959-10-26",
   "name": "Johannes Brüns",
   "givenName": "Johannes",
   "familyName": "Brüns",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1903-08-30",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Essen"
-  },
-  "deathDate": "1965-05-07",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Essen-Borbeck"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Bergbauinvalide [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1959-10-26",
-      "endDate": "1960-11-28"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1339858444",
-    "https://de.wikipedia.org/wiki/Johannes_Br%C3%BCns"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Johannes Brüns",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000280",
     "gnd": "https://d-nb.info/gnd/1339858444",
-    "wikipedia": "https://de.wikipedia.org/wiki/Johannes_Br%C3%BCns",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Johannes_Br%C3%BCns"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1903-08-30",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Essen"
+  },
+  "deathDate": "1965-05-07",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Essen-Borbeck"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Bergbauinvalide [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1959-10-26",
+      "endDate": "1960-11-28"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1339858444",
+    "https://de.wikipedia.org/wiki/Johannes_Br%C3%BCns"
+  ]
 }

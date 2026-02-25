@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BongersHansM",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BongersHansM",
   "name": "Hans M. Bongers",
   "givenName": "Hans M.",
   "familyName": "Bongers",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1898-12-05",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Itzehoe"
-  },
-  "deathDate": "1981-06-23",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bollendorf"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Direktor der Deutschen Lufthansa AG"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1051206774",
-    "https://de.wikipedia.org/wiki/Hans_Bongers"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hans M. Bongers",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1051206774",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Bongers",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Bongers"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1898-12-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Itzehoe"
+  },
+  "deathDate": "1981-06-23",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bollendorf"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Direktor der Deutschen Lufthansa AG"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1051206774",
+    "https://de.wikipedia.org/wiki/Hans_Bongers"
+  ]
 }

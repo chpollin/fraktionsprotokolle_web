@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MundorfHans",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MundorfHans",
   "name": "Hans Mundorf",
   "givenName": "Hans",
   "familyName": "Mundorf",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1929-05-13",
-  "birthPlace": null,
-  "deathDate": "2009-02-12",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "deutscher Journalist, bis 1970 Chefredakteur des »Industriekuriers«, 1989–1994 Chefredakteur des »Handelsblatts«, Experte für Steuer- und Arbeitsrecht"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/122670876"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hans Mundorf",
@@ -39,9 +29,16 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/122670876",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/122670876"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1929-05-13",
+  "deathDate": "2009-02-12",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Journalist, bis 1970 Chefredakteur des »Industriekuriers«, 1989–1994 Chefredakteur des »Handelsblatts«, Experte für Steuer- und Arbeitsrecht"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/122670876"
+  ]
 }

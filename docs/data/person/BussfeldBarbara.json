@@ -1,21 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BussfeldBarbara",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BussfeldBarbara",
   "name": "Barbara Bussfeld",
   "givenName": "Barbara",
   "familyName": "Bussfeld",
-  "gender": "https://schema.org/Female",
-  "birthDate": null,
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Mitarbeiterin der Grünen-Bundestagsfraktion (Arbeitskreis VI: Schwerpunkt Frauen und Dritte Welt; Koordination).in der 10. Wahlperiode"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Barbara Bussfeld",
@@ -36,10 +28,10 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Female",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Mitarbeiterin der Grünen-Bundestagsfraktion (Arbeitskreis VI: Schwerpunkt Frauen und Dritte Welt; Koordination).in der 10. Wahlperiode"
   }
 }

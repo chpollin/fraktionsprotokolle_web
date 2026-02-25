@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ClaussenDetlev",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ClaussenDetlev",
   "name": "Detlev Claussen",
   "givenName": "Detlev",
   "familyName": "Claussen",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1948",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Hamburg"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Publizist und Soziologe; 1994–2011 Professor für Gesellschaftstheorie, Kultur- und Wissenschaftssoziologie an der Gottfried Wilhelm Leibniz Universität Hannover"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/124923119",
-    "https://de.wikipedia.org/wiki/Detlev_Claussen"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Detlev Claussen",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/124923119",
-    "wikipedia": "https://de.wikipedia.org/wiki/Detlev_Claussen",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Detlev_Claussen"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1948",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Publizist und Soziologe; 1994–2011 Professor für Gesellschaftstheorie, Kultur- und Wissenschaftssoziologie an der Gottfried Wilhelm Leibniz Universität Hannover"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/124923119",
+    "https://de.wikipedia.org/wiki/Detlev_Claussen"
+  ]
 }

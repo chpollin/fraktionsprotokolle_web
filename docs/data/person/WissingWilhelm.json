@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WissingWilhelm",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WissingWilhelm",
   "name": "Wilhelm Wissing",
   "givenName": "Wilhelm",
   "familyName": "Wissing",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1916-01-31",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Köckelwick, Vreden"
-  },
-  "deathDate": "1996-11-12",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Coesfeld"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Prälat, 1958–1967 Leiter des Katholischen Büros Bonn"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/122841344",
-    "https://de.wikipedia.org/wiki/Wilhelm_Wissing"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Wilhelm Wissing",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/122841344",
-    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_Wissing",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_Wissing"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1916-01-31",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Köckelwick, Vreden"
+  },
+  "deathDate": "1996-11-12",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Coesfeld"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Prälat, 1958–1967 Leiter des Katholischen Büros Bonn"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/122841344",
+    "https://de.wikipedia.org/wiki/Wilhelm_Wissing"
+  ]
 }

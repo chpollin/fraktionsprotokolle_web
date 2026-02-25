@@ -1,35 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchmittWolfgang_1994-11-10",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchmittWolfgang_1994-11-10",
   "name": "Wolfgang Schmitt",
   "givenName": "Wolfgang",
   "familyName": "Schmitt",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1959-04-20",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Monheim/Rheinland"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Dipl.-Sozialarbeiter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion Bündnis 90/Die Grünen",
-        "alternateName": "B90/Grüne"
-      },
-      "startDate": "1994-11-10",
-      "endDate": "1998-10-26"
-    }
-  ],
-  "sameAs": null,
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Wolfgang Schmitt",
@@ -59,9 +37,28 @@
     }
   ],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11002784",
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
-  }
+    "mdb_stammdaten": "11002784"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1959-04-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Monheim/Rheinland"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Sozialarbeiter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Bündnis 90/Die Grünen",
+        "alternateName": "B90/Grüne"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-10-26"
+    }
+  ]
 }

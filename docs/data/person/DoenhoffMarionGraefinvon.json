@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DoenhoffMarionGraefinvon",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DoenhoffMarionGraefinvon",
   "name": "Marion Gräfin Dönhoff",
   "givenName": "Marion Hedda Ilse",
   "familyName": "Dönhoff",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1909-12-02",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Schloss Friedrichstein im Pregeltal, Kreis Königsberg-Land, Ostpreußen (heute: Kamenka im Rajon Gurjewsk, Russland)"
-  },
-  "deathDate": "2002-03-11",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Schloss Crottorf (bei Friesenhagen)"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Journalistin und Publizistin, seit 1946 Redakteurin, 1968–1972 Chefredakteurin sowie 1972–2002 Herausgeberin der Wochenzeitschrift »Die Zeit«"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118680056",
-    "https://de.wikipedia.org/wiki/Marion_Gr%C3%A4fin_D%C3%B6nhoff"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Marion Gräfin Dönhoff",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118680056",
-    "wikipedia": "https://de.wikipedia.org/wiki/Marion_Gr%C3%A4fin_D%C3%B6nhoff",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Marion_Gr%C3%A4fin_D%C3%B6nhoff"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1909-12-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Schloss Friedrichstein im Pregeltal, Kreis Königsberg-Land, Ostpreußen (heute: Kamenka im Rajon Gurjewsk, Russland)"
+  },
+  "deathDate": "2002-03-11",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Schloss Crottorf (bei Friesenhagen)"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalistin und Publizistin, seit 1946 Redakteurin, 1968–1972 Chefredakteurin sowie 1972–2002 Herausgeberin der Wochenzeitschrift »Die Zeit«"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118680056",
+    "https://de.wikipedia.org/wiki/Marion_Gr%C3%A4fin_D%C3%B6nhoff"
+  ]
 }

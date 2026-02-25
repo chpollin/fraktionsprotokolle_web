@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SeifertJuergen",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SeifertJuergen",
   "name": "Jürgen Seifert",
   "givenName": "Jürgen",
   "familyName": "Seifert",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1928-04-18",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "deathDate": "2005-06-04",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Hannover"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Jurist, Politikwissenschaftler und Bürgerrechtler; Mitglied im Beirat der Humanistischen Union"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118013815",
-    "https://de.wikipedia.org/wiki/J%C3%BCrgen_Seifert"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Jürgen Seifert",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118013815",
-    "wikipedia": "https://de.wikipedia.org/wiki/J%C3%BCrgen_Seifert",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/J%C3%BCrgen_Seifert"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1928-04-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "2005-06-04",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hannover"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Jurist, Politikwissenschaftler und Bürgerrechtler; Mitglied im Beirat der Humanistischen Union"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118013815",
+    "https://de.wikipedia.org/wiki/J%C3%BCrgen_Seifert"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SteinbuchKarl",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SteinbuchKarl",
   "name": "Karl Steinbuch",
   "givenName": "Karl",
   "familyName": "Steinbuch",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1917-06-15",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Stuttgart-Cannstatt"
-  },
-  "deathDate": "2005-06-04",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Ettlingen"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Kybernetiker, Nachrichtentechniker, Informationstheoretiker und Autor der Neuen Rechten, 1958 Ordinarius und Institutsdirektor an der Technischen Hochschule Karlsruhe (seit 2009 Karlsruher Institut für Technologie), 1958–1980 Professor für Nachrichtenverarbeitung und Nachrichtenübertragung an der Technischen Hochschule Karlsruhe, bis zur Emeritierung 1980 Direktor des Instituts für Nachrichtenverarbeitung und -übertragung, Mitglied im Bund Freiheit der Wissenschaft"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/11879860X",
-    "https://de.wikipedia.org/wiki/Karl_Steinbuch"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Karl Steinbuch",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/11879860X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Karl_Steinbuch",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Karl_Steinbuch"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1917-06-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Stuttgart-Cannstatt"
+  },
+  "deathDate": "2005-06-04",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Ettlingen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Kybernetiker, Nachrichtentechniker, Informationstheoretiker und Autor der Neuen Rechten, 1958 Ordinarius und Institutsdirektor an der Technischen Hochschule Karlsruhe (seit 2009 Karlsruher Institut für Technologie), 1958–1980 Professor für Nachrichtenverarbeitung und Nachrichtenübertragung an der Technischen Hochschule Karlsruhe, bis zur Emeritierung 1980 Direktor des Instituts für Nachrichtenverarbeitung und -übertragung, Mitglied im Bund Freiheit der Wissenschaft"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/11879860X",
+    "https://de.wikipedia.org/wiki/Karl_Steinbuch"
+  ]
 }

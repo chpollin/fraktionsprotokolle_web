@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BillenGerd",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BillenGerd",
   "name": "Gerd Billen",
   "givenName": "Gerd",
   "familyName": "Billen",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1955-03-13",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Speicher in der Eifel"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Journalist, Ernährungswissenschaftler und Verbraucherschützer, 1982–1985 Pressesprecher des Bundesverbandes Bürgerinitiativen Umweltschutz (BBU), 1985–1993 Bundesvorsitzender der Verbraucher Initiative e. V. 1993–2005 Bundesgeschäftsführer des Naturschutzbundes Deutschland (NABU)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/121759547",
-    "https://de.wikipedia.org/wiki/Gerd_Billen"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Gerd Billen",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/121759547",
-    "wikipedia": "https://de.wikipedia.org/wiki/Gerd_Billen",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Gerd_Billen"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1955-03-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Speicher in der Eifel"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist, Ernährungswissenschaftler und Verbraucherschützer, 1982–1985 Pressesprecher des Bundesverbandes Bürgerinitiativen Umweltschutz (BBU), 1985–1993 Bundesvorsitzender der Verbraucher Initiative e. V. 1993–2005 Bundesgeschäftsführer des Naturschutzbundes Deutschland (NABU)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/121759547",
+    "https://de.wikipedia.org/wiki/Gerd_Billen"
+  ]
 }

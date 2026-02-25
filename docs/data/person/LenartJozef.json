@@ -1,24 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "LenartJozef",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/LenartJozef",
   "name": "Józef Lenárt",
   "givenName": "Józef",
   "familyName": "Lenárt",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1923-04-03",
-  "birthPlace": null,
-  "deathDate": "2004-02-11",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1963–1968 Ministerpräsident der Tschechoslowakei und Mitglied des Zentralkomitees der KPC, dann Kandidat des Präsidiums und Sekretär des Zentralkomitees"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/103292977",
-    "https://en.wikipedia.org/wiki/Jozef_Len%C3%A1rt"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Józef Lenárt",
@@ -40,9 +29,18 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/103292977",
-    "wikipedia": "https://en.wikipedia.org/wiki/Jozef_Len%C3%A1rt",
-    "viaf": null
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/Jozef_Len%C3%A1rt"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1923-04-03",
+  "deathDate": "2004-02-11",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1963–1968 Ministerpräsident der Tschechoslowakei und Mitglied des Zentralkomitees der KPC, dann Kandidat des Präsidiums und Sekretär des Zentralkomitees"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/103292977",
+    "https://en.wikipedia.org/wiki/Jozef_Len%C3%A1rt"
+  ]
 }

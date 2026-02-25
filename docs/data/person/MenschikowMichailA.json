@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MenschikowMichailA",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MenschikowMichailA",
   "name": "Michail A. Menschikow",
   "givenName": "Michail A.",
   "familyName": "Menschikow",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1902-11-21",
-  "birthPlace": null,
-  "deathDate": "1976-07-21",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1957/58–1962 Botschafter der UdSSR in Washington"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119459019"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Michail A. Menschikow",
@@ -39,9 +29,16 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/119459019",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/119459019"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1902-11-21",
+  "deathDate": "1976-07-21",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1957/58–1962 Botschafter der UdSSR in Washington"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119459019"
+  ]
 }

@@ -1,24 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WollinAmos",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WollinAmos",
   "name": "Amos Wollin",
   "givenName": "Amos",
   "familyName": "Wollin",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1923",
-  "birthPlace": null,
-  "deathDate": "2002-05-14",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Tel Aviv"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "israelischer Journalist"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Amos Wollin",
@@ -39,10 +28,16 @@
     "country": "Israel"
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Male",
+  "birthDate": "1923",
+  "deathDate": "2002-05-14",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Tel Aviv"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "israelischer Journalist"
   }
 }

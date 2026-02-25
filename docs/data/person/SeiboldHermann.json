@@ -1,21 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SeiboldHermann",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SeiboldHermann",
   "name": "Hermann Seibold",
   "givenName": "Hermann",
   "familyName": "Seibold",
-  "gender": "https://schema.org/Male",
-  "birthDate": null,
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Entwicklungshelfer und  Leiter eines CJD-Projektes in Kankan (Guinea), im November 1970 wegen Spionageverdachts, Waffenschmuggels, Devisenvergehens und Bestechung in Haft genommen"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hermann Seibold",
@@ -36,11 +28,11 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Male",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Entwicklungshelfer und  Leiter eines CJD-Projektes in Kankan (Guinea), im November 1970 wegen Spionageverdachts, Waffenschmuggels, Devisenvergehens und Bestechung in Haft genommen"
   },
   "fraktionsprotokolle:sonstiges": "beging laut Mitteilung der guineischen Regierung am 19. Januar 1971 Suizid"
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WeinsteinAdelbert",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WeinsteinAdelbert",
   "name": "Adelbert Weinstein",
   "givenName": "Adelbert",
   "familyName": "Weinstein",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1916-05-17",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Halle (Saale)"
-  },
-  "deathDate": "2003-01-12",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Wiesbaden"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1962 Oberstleutnant, 1966 Oberst d. R., seit 1949 Redakteur »FAZ« (Militär- und Außenpolitik)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1030501955",
-    "https://de.wikipedia.org/wiki/Adelbert_Weinstein"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Adelbert Weinstein",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1030501955",
-    "wikipedia": "https://de.wikipedia.org/wiki/Adelbert_Weinstein",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Adelbert_Weinstein"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1916-05-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Halle (Saale)"
+  },
+  "deathDate": "2003-01-12",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Wiesbaden"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1962 Oberstleutnant, 1966 Oberst d. R., seit 1949 Redakteur »FAZ« (Militär- und Außenpolitik)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1030501955",
+    "https://de.wikipedia.org/wiki/Adelbert_Weinstein"
+  ]
 }

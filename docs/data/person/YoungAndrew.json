@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "YoungAndrew",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/YoungAndrew",
   "name": "Andrew Young",
   "givenName": "Andrew Jackson",
   "familyName": "Young",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1932-03-12",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "New Orleans, Louisiana"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Bürgerrechtsaktivist und Politiker (Demokratische Partei), 1977-1979 US-Botschafter bei den Vereinten Nationen, 1982-1990 Bürgermeister von Atlanta"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119491087",
-    "https://de.wikipedia.org/wiki/Andrew_Young_(Politiker)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Andrew Young",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119491087",
-    "wikipedia": "https://de.wikipedia.org/wiki/Andrew_Young_(Politiker)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Andrew_Young_(Politiker)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1932-03-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "New Orleans, Louisiana"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Bürgerrechtsaktivist und Politiker (Demokratische Partei), 1977-1979 US-Botschafter bei den Vereinten Nationen, 1982-1990 Bürgermeister von Atlanta"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119491087",
+    "https://de.wikipedia.org/wiki/Andrew_Young_(Politiker)"
+  ]
 }

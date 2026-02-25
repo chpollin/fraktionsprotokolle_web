@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RummelAlois",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RummelAlois",
   "name": "Alois Rummel",
   "givenName": "Alois",
   "familyName": "Rummel",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1922-06-06",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Stuttgart"
-  },
-  "deathDate": "2013-09-08",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bad Godesberg"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "seit 1962 Leiter der politischen Redaktion des Südwestfunks in Bonn"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/116704209",
-    "https://de.wikipedia.org/wiki/Alois_Rummel"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Alois Rummel",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/116704209",
-    "wikipedia": "https://de.wikipedia.org/wiki/Alois_Rummel",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Alois_Rummel"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1922-06-06",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Stuttgart"
+  },
+  "deathDate": "2013-09-08",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bad Godesberg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "seit 1962 Leiter der politischen Redaktion des Südwestfunks in Bonn"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/116704209",
+    "https://de.wikipedia.org/wiki/Alois_Rummel"
+  ]
 }

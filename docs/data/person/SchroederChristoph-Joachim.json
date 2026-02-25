@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchroederChristoph-Joachim",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchroederChristoph-Joachim",
   "name": "Christoph-Joachim Schröder",
   "givenName": "Christoph-Joachim",
   "familyName": "Schröder",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1948-04-07",
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Sozialpädagoge, Berufszauberer, Lehrerbildner, 1983 Mitglied der Bundesarbeitsgemeinschaft »Kultur« der Grünen aus Hamburg"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1171235135"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Christoph-Joachim Schröder",
@@ -39,9 +29,15 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/1171235135",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/1171235135"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1948-04-07",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Sozialpädagoge, Berufszauberer, Lehrerbildner, 1983 Mitglied der Bundesarbeitsgemeinschaft »Kultur« der Grünen aus Hamburg"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1171235135"
+  ]
 }

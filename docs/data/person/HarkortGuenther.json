@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HarkortGuenther",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HarkortGuenther",
   "name": "Günther Harkort",
   "givenName": "Günther",
   "familyName": "Harkort",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1905-09-01",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Herdecke"
-  },
-  "deathDate": "1986-10-03",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bonn"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Ministerialdirektor und 1965–März 1969 Leiter der »Abteilung für Handels- und Entwicklungspolitik« im Auswärtigen Amt, dann bis 1970 Staatssekretär"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1025109228",
-    "https://de.wikipedia.org/wiki/G%C3%BCnther_Harkort"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Günther Harkort",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1025109228",
-    "wikipedia": "https://de.wikipedia.org/wiki/G%C3%BCnther_Harkort",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/G%C3%BCnther_Harkort"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1905-09-01",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Herdecke"
+  },
+  "deathDate": "1986-10-03",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Ministerialdirektor und 1965–März 1969 Leiter der »Abteilung für Handels- und Entwicklungspolitik« im Auswärtigen Amt, dann bis 1970 Staatssekretär"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1025109228",
+    "https://de.wikipedia.org/wiki/G%C3%BCnther_Harkort"
+  ]
 }

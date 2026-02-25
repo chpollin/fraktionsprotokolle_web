@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GorcePierredeLa",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GorcePierredeLa",
   "name": "Pierre de La Gorce",
   "givenName": "Pierre",
   "familyName": "Gorce",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1920",
-  "birthPlace": null,
-  "deathDate": "2014",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "französischer Botschafter im Irak"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1143136934"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Pierre de La Gorce",
@@ -39,9 +29,16 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/1143136934",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/1143136934"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1920",
+  "deathDate": "2014",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "französischer Botschafter im Irak"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1143136934"
+  ]
 }

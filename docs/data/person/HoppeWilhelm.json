@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HoppeWilhelm",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HoppeWilhelm",
   "name": "Wilhelm Hoppe",
   "givenName": "Wilhelm",
   "familyName": "Hoppe",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1912",
-  "birthPlace": null,
-  "deathDate": "1996",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Vortragender Legationsrat im Auswärtigen Amt"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1141738260"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Wilhelm Hoppe",
@@ -39,9 +29,16 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/1141738260",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/1141738260"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1912",
+  "deathDate": "1996",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Vortragender Legationsrat im Auswärtigen Amt"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1141738260"
+  ]
 }

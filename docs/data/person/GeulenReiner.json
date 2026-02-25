@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GeulenReiner",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GeulenReiner",
   "name": "Reiner Geulen",
   "givenName": "Reiner",
   "familyName": "Geulen",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1943",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Aachen"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Jurist, Fachanwalt für Verwaltungsrecht und Autor, Umweltrechtler, prozessierte u. a. vor Gerichten in Deutschland, Großbritannien und den USA gegen atomare Anlagen, große Militäranlagen der NATO, klimaschädliche Großanlagen der Kohle- und Ölverbrennung sowie die systematische Verklappung toxischer Abfälle in der Nordsee"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/110333268",
-    "https://de.wikipedia.org/wiki/Reiner_Geulen"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Reiner Geulen",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/110333268",
-    "wikipedia": "https://de.wikipedia.org/wiki/Reiner_Geulen",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Reiner_Geulen"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1943",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Aachen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Jurist, Fachanwalt für Verwaltungsrecht und Autor, Umweltrechtler, prozessierte u. a. vor Gerichten in Deutschland, Großbritannien und den USA gegen atomare Anlagen, große Militäranlagen der NATO, klimaschädliche Großanlagen der Kohle- und Ölverbrennung sowie die systematische Verklappung toxischer Abfälle in der Nordsee"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/110333268",
+    "https://de.wikipedia.org/wiki/Reiner_Geulen"
+  ]
 }

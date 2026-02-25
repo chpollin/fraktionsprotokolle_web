@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "TolmeinOliver",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/TolmeinOliver",
   "name": "Oliver Tolmein",
   "givenName": "Oliver",
   "familyName": "Tolmein",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1961-12-21",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Köln"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Journalist, Autor, und Rechtsanwalt; Mitherausgeber der Zeitschrift »Clockwork 129a«"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/115385932",
-    "https://de.wikipedia.org/wiki/Oliver_Tolmein"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Oliver Tolmein",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/115385932",
-    "wikipedia": "https://de.wikipedia.org/wiki/Oliver_Tolmein",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Oliver_Tolmein"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1961-12-21",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Köln"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist, Autor, und Rechtsanwalt; Mitherausgeber der Zeitschrift »Clockwork 129a«"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/115385932",
+    "https://de.wikipedia.org/wiki/Oliver_Tolmein"
+  ]
 }

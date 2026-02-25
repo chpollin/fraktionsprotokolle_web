@@ -1,58 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchaetzleOrtrun_1989-08-25",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchaetzleOrtrun_1989-08-25",
   "name": "Ortrun Schätzle, geb. Klenert",
   "givenName": "Ortrun",
   "familyName": "Schätzle",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1934-04-20",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Hornberg/Schwarzwald"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Hausfrau, Studienrätin a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1989-08-25",
-      "endDate": "1990-12-20"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1990-12-20",
-      "endDate": "1994-11-10"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1994-11-10",
-      "endDate": "1998-10-26"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1012703290",
-    "https://de.wikipedia.org/wiki/Ortrun_Sch%C3%A4tzle"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Ortrun Schätzle, geb. Klenert",
@@ -98,7 +53,52 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001937",
     "gnd": "https://d-nb.info/gnd/1012703290",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ortrun_Sch%C3%A4tzle",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ortrun_Sch%C3%A4tzle"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1934-04-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hornberg/Schwarzwald"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Hausfrau, Studienrätin a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1989-08-25",
+      "endDate": "1990-12-20"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-10-26"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1012703290",
+    "https://de.wikipedia.org/wiki/Ortrun_Sch%C3%A4tzle"
+  ]
 }

@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ReymannHans",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ReymannHans",
   "name": "Hans Reymann",
   "givenName": "Hans",
   "familyName": "Reymann",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1925-12-05",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Düsseldorf"
-  },
-  "deathDate": "1988-01-17",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1954–1958 Referent für Sozialpolitik beim SPD-Parteivorstand der SPD, 1958–1972 Leiter der Abteilung Sozialpolitik beim DGB-Landesbezirk Nordrhein-Westfalen, 1966–1970 und 1975–1988 MdL NRW (SPD)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1119709156",
-    "https://de.wikipedia.org/wiki/Hans_Reymann"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hans Reymann",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1119709156",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Reymann",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Reymann"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1925-12-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Düsseldorf"
+  },
+  "deathDate": "1988-01-17",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1954–1958 Referent für Sozialpolitik beim SPD-Parteivorstand der SPD, 1958–1972 Leiter der Abteilung Sozialpolitik beim DGB-Landesbezirk Nordrhein-Westfalen, 1966–1970 und 1975–1988 MdL NRW (SPD)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1119709156",
+    "https://de.wikipedia.org/wiki/Hans_Reymann"
+  ]
 }

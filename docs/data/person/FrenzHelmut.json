@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FrenzHelmut",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FrenzHelmut",
   "name": "Helmut Frenz",
   "givenName": "Helmut",
   "familyName": "Frenz",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1933-02-04",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Allenstein, Ostpreußen (heute: Olsztyn, Polen)"
-  },
-  "deathDate": "2011-09-13",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Hamburg"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "evangelisch-lutherischer Bischof, Theologe, Flüchtlingsbeauftragter und Menschenrechtsaktivist"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/109341287",
-    "https://de.wikipedia.org/wiki/Helmut_Frenz"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Helmut Frenz",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/109341287",
-    "wikipedia": "https://de.wikipedia.org/wiki/Helmut_Frenz",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Helmut_Frenz"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1933-02-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Allenstein, Ostpreußen (heute: Olsztyn, Polen)"
+  },
+  "deathDate": "2011-09-13",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "evangelisch-lutherischer Bischof, Theologe, Flüchtlingsbeauftragter und Menschenrechtsaktivist"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/109341287",
+    "https://de.wikipedia.org/wiki/Helmut_Frenz"
+  ]
 }

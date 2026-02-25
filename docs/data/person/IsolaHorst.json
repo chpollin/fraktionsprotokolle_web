@@ -1,26 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "IsolaHorst",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/IsolaHorst",
   "name": "Horst Isola",
   "givenName": "Horst",
   "familyName": "Isola",
-  "gender": "https://schema.org/Male",
-  "birthDate": null,
-  "birthPlace": null,
-  "deathDate": "1939-07-19",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bremen"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Rechtspfleger, Amtsanwalt, Pressereferent und Referent für Strafvollzugsangelegenheiten beim Bremer Senator für Rechtspflege und Strafvollzug, 1975–1979 Leiter einer Jugendstrafanstalt, 1979–1987 Senatsrat, 1987–2003 MdBB (SPD), 1991–1992 Landesvorsitzender der SPD Bremen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Horst_Isola"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Horst Isola",
@@ -42,9 +29,19 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://de.wikipedia.org/wiki/Horst_Isola",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Horst_Isola"
+  },
+  "gender": "https://schema.org/Male",
+  "deathDate": "1939-07-19",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bremen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtspfleger, Amtsanwalt, Pressereferent und Referent für Strafvollzugsangelegenheiten beim Bremer Senator für Rechtspflege und Strafvollzug, 1975–1979 Leiter einer Jugendstrafanstalt, 1979–1987 Senatsrat, 1987–2003 MdBB (SPD), 1991–1992 Landesvorsitzender der SPD Bremen"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Horst_Isola"
+  ]
 }

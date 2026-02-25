@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GiscarddEstaingValery",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GiscarddEstaingValery",
   "name": "Valéry Giscard d’Estaing",
   "givenName": "Valéry",
   "familyName": "Giscard d’Estaing",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1926-02-02",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Koblenz"
-  },
-  "deathDate": "2020-12-02",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Authon, Département Loir-et-Cher"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Abgeordneter der französischen Nationalversammlung, 1962–1966 und 1969–1974 französischer Finanz- und Wirtschaftsminister, 1974–1981 französischer Staatspräsident"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118717685",
-    "https://de.wikipedia.org/wiki/Val%C3%A9ry_Giscard_d%E2%80%99Estaing"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Valéry Giscard d’Estaing",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118717685",
-    "wikipedia": "https://de.wikipedia.org/wiki/Val%C3%A9ry_Giscard_d%E2%80%99Estaing",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Val%C3%A9ry_Giscard_d%E2%80%99Estaing"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1926-02-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Koblenz"
+  },
+  "deathDate": "2020-12-02",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Authon, Département Loir-et-Cher"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Abgeordneter der französischen Nationalversammlung, 1962–1966 und 1969–1974 französischer Finanz- und Wirtschaftsminister, 1974–1981 französischer Staatspräsident"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118717685",
+    "https://de.wikipedia.org/wiki/Val%C3%A9ry_Giscard_d%E2%80%99Estaing"
+  ]
 }

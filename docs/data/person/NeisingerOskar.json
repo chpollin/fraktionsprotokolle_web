@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "NeisingerOskar",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/NeisingerOskar",
   "name": "Oskar Neisinger",
   "givenName": "Oskar",
   "familyName": "Neisinger",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1919",
-  "birthPlace": null,
-  "deathDate": "1985",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "katholischer Theologe, Publizist, 1945–1952 Diözesanjugendführer und Bildungsreferent im Bistum Würzburg"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/12932017X"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Oskar Neisinger",
@@ -39,9 +29,16 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/12932017X",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/12932017X"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1919",
+  "deathDate": "1985",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "katholischer Theologe, Publizist, 1945–1952 Diözesanjugendführer und Bildungsreferent im Bistum Würzburg"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/12932017X"
+  ]
 }

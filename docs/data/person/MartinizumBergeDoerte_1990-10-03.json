@@ -1,35 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MartinizumBergeDoerte_1990-10-03",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MartinizumBergeDoerte_1990-10-03",
   "name": "Dörte Martini zum Berge",
   "givenName": "Dörte",
   "familyName": "Martini zum Berge",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1944-02-27",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Klein-Biesnitz/Görlitz"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Ing.-Ökonomin, Stadtbezirksrätin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1990-10-03",
-      "endDate": "1990-12-20"
-    }
-  ],
-  "sameAs": null,
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Dörte Martini zum Berge",
@@ -59,9 +37,28 @@
     }
   ],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11001427",
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
-  }
+    "mdb_stammdaten": "11001427"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1944-02-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Klein-Biesnitz/Görlitz"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Ing.-Ökonomin, Stadtbezirksrätin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1990-10-03",
+      "endDate": "1990-12-20"
+    }
+  ]
 }

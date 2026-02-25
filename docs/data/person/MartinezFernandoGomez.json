@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MartinezFernandoGomez",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MartinezFernandoGomez",
   "name": "Fernando Gómez Martínez",
   "givenName": "Fernando Gómez",
   "familyName": "Martínez",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1897",
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "kolumbianischer Außenminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1056295392"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Fernando Gómez Martínez",
@@ -39,9 +29,15 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/1056295392",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/1056295392"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1897",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "kolumbianischer Außenminister"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1056295392"
+  ]
 }

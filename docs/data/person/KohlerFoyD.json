@@ -1,26 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KohlerFoyD",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KohlerFoyD",
   "name": "Foy D. Kohler",
   "givenName": "Foy D.",
   "familyName": "Kohler",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1908-02-15",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Oakwood, Ohio"
-  },
-  "deathDate": "1990-12-23",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Unterstaatssekretär für Politische Angelegenheiten im US-amerikanischen Außenministerium, Berichterstatter einer Untergruppe der Harmel-Studiengruppe"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Foy_D._Kohler"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Foy D. Kohler",
@@ -42,9 +29,20 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://de.wikipedia.org/wiki/Foy_D._Kohler",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Foy_D._Kohler"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1908-02-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Oakwood, Ohio"
+  },
+  "deathDate": "1990-12-23",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Unterstaatssekretär für Politische Angelegenheiten im US-amerikanischen Außenministerium, Berichterstatter einer Untergruppe der Harmel-Studiengruppe"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Foy_D._Kohler"
+  ]
 }

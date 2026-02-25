@@ -1,38 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ZieglerFranz_1949-09-07",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ZieglerFranz_1949-09-07",
   "name": "Franz Ziegler",
   "givenName": "Franz",
   "familyName": "Ziegler",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1899-06-23",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Lingau, Böhmen (heute: Svojšín, Tschechische Republik)"
-  },
-  "deathDate": "1949-12-27",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Rechtsanwalt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion Bayernpartei",
-        "alternateName": "BP"
-      },
-      "startDate": "1949-09-07",
-      "endDate": "1949-12-27"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1019670495",
-    "https://de.wikipedia.org/wiki/Franz_Ziegler_(Politiker,_1899)"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Franz Ziegler",
@@ -64,7 +39,33 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11002592",
     "gnd": "https://d-nb.info/gnd/1019670495",
-    "wikipedia": "https://de.wikipedia.org/wiki/Franz_Ziegler_(Politiker,_1899)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Franz_Ziegler_(Politiker,_1899)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1899-06-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Lingau, Böhmen (heute: Svojšín, Tschechische Republik)"
+  },
+  "deathDate": "1949-12-27",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsanwalt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Bayernpartei",
+        "alternateName": "BP"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1949-12-27"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1019670495",
+    "https://de.wikipedia.org/wiki/Franz_Ziegler_(Politiker,_1899)"
+  ]
 }

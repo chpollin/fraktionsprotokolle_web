@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FerdinandHorst",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FerdinandHorst",
   "name": "Horst Ferdinand",
   "givenName": "Horst",
   "familyName": "Ferdinand",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1921-04-04",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Ettenheim"
-  },
-  "deathDate": "2004-12-31",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Troisdorf"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Mitarbeiter im Referat Interparlamentarische Angelegenheiten in der Bundestagsverwaltung, Ministerialrat in der Verwaltung des Deutschen Bundestages, Bundestagsstenograph, Referatsleiter im Deutschen Bundestag und Biograph"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/12021556X",
-    "https://de.wikipedia.org/wiki/Horst_Ferdinand"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Horst Ferdinand",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/12021556X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Horst_Ferdinand",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Horst_Ferdinand"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1921-04-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Ettenheim"
+  },
+  "deathDate": "2004-12-31",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Troisdorf"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Mitarbeiter im Referat Interparlamentarische Angelegenheiten in der Bundestagsverwaltung, Ministerialrat in der Verwaltung des Deutschen Bundestages, Bundestagsstenograph, Referatsleiter im Deutschen Bundestag und Biograph"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/12021556X",
+    "https://de.wikipedia.org/wiki/Horst_Ferdinand"
+  ]
 }

@@ -1,21 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PaulGisela",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PaulGisela",
   "name": "Gisela Paul, geb. Hübner",
   "givenName": "Gisela",
   "familyName": "Paul",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1898",
-  "birthPlace": null,
-  "deathDate": "1987",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "ab 1956 Angehörige des Stadtrats von Esslingen am Neckar"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Gisela Paul, geb. Hübner",
@@ -36,11 +28,13 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Female",
+  "birthDate": "1898",
+  "deathDate": "1987",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "ab 1956 Angehörige des Stadtrats von Esslingen am Neckar"
   },
   "fraktionsprotokolle:sonstiges": "ab 1922 Ehefrau des SPD-MdB Ernst Paul"
 }

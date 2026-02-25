@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BiaoLin",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BiaoLin",
   "name": "Lin Biao",
   "givenName": "Biao",
   "familyName": "Lin",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1907-12-05",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Huanggang, Hubei"
-  },
-  "deathDate": "1971-09-13",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Öndörchaan"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1954–1971 Stellvertretender Ministerpräsident der Volksrepublik China"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118573055",
-    "https://de.wikipedia.org/wiki/Lin_Biao"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Lin Biao",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118573055",
-    "wikipedia": "https://de.wikipedia.org/wiki/Lin_Biao",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Lin_Biao"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1907-12-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Huanggang, Hubei"
+  },
+  "deathDate": "1971-09-13",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Öndörchaan"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1954–1971 Stellvertretender Ministerpräsident der Volksrepublik China"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118573055",
+    "https://de.wikipedia.org/wiki/Lin_Biao"
+  ]
 }

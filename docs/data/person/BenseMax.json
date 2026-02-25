@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BenseMax",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BenseMax",
   "name": "Max Bense",
   "givenName": "Max Otto",
   "familyName": "Bense",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1910-02-07",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Straßburg, Elsass (heute: Strasbourg, Frankreich)"
-  },
-  "deathDate": "1990-04-29",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Stuttgart"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1950–1978 Professor für Philosophie und Wissenschaftstheorie an der Technischen Hochschule Stuttgart"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118509179",
-    "https://de.wikipedia.org/wiki/Max_Bense"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Max Bense",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118509179",
-    "wikipedia": "https://de.wikipedia.org/wiki/Max_Bense",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Max_Bense"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1910-02-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Straßburg, Elsass (heute: Strasbourg, Frankreich)"
+  },
+  "deathDate": "1990-04-29",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Stuttgart"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1950–1978 Professor für Philosophie und Wissenschaftstheorie an der Technischen Hochschule Stuttgart"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118509179",
+    "https://de.wikipedia.org/wiki/Max_Bense"
+  ]
 }

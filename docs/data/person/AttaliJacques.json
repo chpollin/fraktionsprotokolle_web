@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "AttaliJacques",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/AttaliJacques",
   "name": "Jacques Attali",
   "givenName": "Jacques",
   "familyName": "Attali",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1943-11-01",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Algier"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Wirtschaftswissenschaftler, Kulturphilosoph, Autor und Beamter, 1970 Ernennung zum Hörer und ab 1977 »Maître des Requêtes« im sowie 1989–2000 Mitglied des französischen Staatsrats, 1981–1991 Berater des französischen Staatspräsidenten François Mitterrand, 1991–1993 Präsident der Europäischen Bank für Wiederaufbau und Entwicklung (EBRD), 2007–2008 Leiter der Expertenkommission zur Freisetzung des französischen Wirtschaftswachstums (»commission Attali«), seit 2008 Mitbegründer und Präsident von PlaNet Finance"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119296926",
-    "https://de.wikipedia.org/wiki/Jacques_Attali"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Jacques Attali",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119296926",
-    "wikipedia": "https://de.wikipedia.org/wiki/Jacques_Attali",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Jacques_Attali"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1943-11-01",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Algier"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Wirtschaftswissenschaftler, Kulturphilosoph, Autor und Beamter, 1970 Ernennung zum Hörer und ab 1977 »Maître des Requêtes« im sowie 1989–2000 Mitglied des französischen Staatsrats, 1981–1991 Berater des französischen Staatspräsidenten François Mitterrand, 1991–1993 Präsident der Europäischen Bank für Wiederaufbau und Entwicklung (EBRD), 2007–2008 Leiter der Expertenkommission zur Freisetzung des französischen Wirtschaftswachstums (»commission Attali«), seit 2008 Mitbegründer und Präsident von PlaNet Finance"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119296926",
+    "https://de.wikipedia.org/wiki/Jacques_Attali"
+  ]
 }

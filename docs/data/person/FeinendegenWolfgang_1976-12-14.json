@@ -1,47 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FeinendegenWolfgang_1976-12-14",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FeinendegenWolfgang_1976-12-14",
   "name": "Wolfgang Feinendegen",
   "givenName": "Wolfgang",
   "familyName": "Feinendegen",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1930-01-30",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Garzweiler/Krs. Grevenbroich"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Rechtsanwalt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1976-12-14",
-      "endDate": "1980-11-04"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1980-11-04",
-      "endDate": "1983-03-29"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1164851063"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Wolfgang Feinendegen",
@@ -79,8 +45,41 @@
   ],
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000526",
-    "gnd": "https://d-nb.info/gnd/1164851063",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/1164851063"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1930-01-30",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Garzweiler/Krs. Grevenbroich"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsanwalt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1976-12-14",
+      "endDate": "1980-11-04"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1980-11-04",
+      "endDate": "1983-03-29"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1164851063"
+  ]
 }

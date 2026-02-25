@@ -1,10 +1,53 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "EichnerJosef_1949-09-07",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/EichnerJosef_1949-09-07",
   "name": "Josef Eichner",
   "givenName": "Josef",
   "familyName": "Eichner",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Josef Eichner",
+    "forename": "Josef",
+    "surname": "Eichner",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1899-10-12",
+    "place": "Jasberg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1979-08-09",
+    "place": "Dietramszell",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "BP",
+      "faction_full": "Fraktion Bayernpartei",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 1,
+      "faction": "FU",
+      "faction_full": "Fraktion Föderalistische Union",
+      "from": "1951-12-14",
+      "to": "1953-09-07"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000451",
+    "gnd": "https://d-nb.info/gnd/1144366445",
+    "wikipedia": "https://de.wikipedia.org/wiki/Josef_Eichner"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1899-10-12",
   "birthPlace": {
@@ -45,46 +88,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/1144366445",
     "https://de.wikipedia.org/wiki/Josef_Eichner"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Josef Eichner",
-    "forename": "Josef",
-    "surname": "Eichner",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1899-10-12",
-    "place": "Jasberg",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1979-08-09",
-    "place": "Dietramszell",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 1,
-      "faction": "BP",
-      "faction_full": "Fraktion Bayernpartei",
-      "from": "1949-09-07",
-      "to": "1953-09-07"
-    },
-    {
-      "period": 1,
-      "faction": "FU",
-      "faction_full": "Fraktion Föderalistische Union",
-      "from": "1951-12-14",
-      "to": "1953-09-07"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11000451",
-    "gnd": "https://d-nb.info/gnd/1144366445",
-    "wikipedia": "https://de.wikipedia.org/wiki/Josef_Eichner",
-    "viaf": null
-  }
+  ]
 }

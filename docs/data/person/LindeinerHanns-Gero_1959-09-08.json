@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "LindeinerHanns-Gero_1959-09-08",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/LindeinerHanns-Gero_1959-09-08",
   "name": "Hanns-Gero von Lindeiner",
   "givenName": "Hanns-Gero",
   "familyName": "Lindeiner",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1912-03-11",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Görlitz"
-  },
-  "deathDate": "1984-01-05",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bonn"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Forstmeister i. R. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1959-09-08",
-      "endDate": "1961-10-15"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/118573144",
-    "https://de.wikipedia.org/wiki/Hanns-Gero_von_Lindeiner_genannt_von_Wildau"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Hanns-Gero von Lindeiner",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001344",
     "gnd": "https://d-nb.info/gnd/118573144",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hanns-Gero_von_Lindeiner_genannt_von_Wildau",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hanns-Gero_von_Lindeiner_genannt_von_Wildau"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1912-03-11",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Görlitz"
+  },
+  "deathDate": "1984-01-05",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Forstmeister i. R. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1959-09-08",
+      "endDate": "1961-10-15"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/118573144",
+    "https://de.wikipedia.org/wiki/Hanns-Gero_von_Lindeiner_genannt_von_Wildau"
+  ]
 }

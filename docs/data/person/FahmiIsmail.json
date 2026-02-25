@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FahmiIsmail",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FahmiIsmail",
   "name": "Ismail Fahmi, auch: Fahmy",
   "givenName": "Ismail",
   "familyName": "Fahmi",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1922-10-02",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Kairo"
-  },
-  "deathDate": "1997-11-21",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Kairo"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "ägyptischer Diplomat und Politiker, 1973–1977 ägyptischer Außenminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1158806906",
-    "https://de.wikipedia.org/wiki/Ismail_Fahmi"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Ismail Fahmi, auch: Fahmy",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1158806906",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ismail_Fahmi",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ismail_Fahmi"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1922-10-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kairo"
+  },
+  "deathDate": "1997-11-21",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Kairo"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "ägyptischer Diplomat und Politiker, 1973–1977 ägyptischer Außenminister"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1158806906",
+    "https://de.wikipedia.org/wiki/Ismail_Fahmi"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BowlesChester",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BowlesChester",
   "name": "Chester Bowles",
   "givenName": "Chester",
   "familyName": "Bowles",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1901-04-05",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Springfield, Massachusetts"
-  },
-  "deathDate": "1986-05-02",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Essex, Connecticut"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Mitglied des amerikanischen Repräsentantenhauses; 1961–1963 Staatssekretär im Außenministerium"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119187531",
-    "https://de.wikipedia.org/wiki/Chester_Bowles"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Chester Bowles",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119187531",
-    "wikipedia": "https://de.wikipedia.org/wiki/Chester_Bowles",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Chester_Bowles"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1901-04-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Springfield, Massachusetts"
+  },
+  "deathDate": "1986-05-02",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Essex, Connecticut"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Mitglied des amerikanischen Repräsentantenhauses; 1961–1963 Staatssekretär im Außenministerium"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119187531",
+    "https://de.wikipedia.org/wiki/Chester_Bowles"
+  ]
 }

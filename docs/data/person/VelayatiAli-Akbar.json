@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "VelayatiAli-Akbar",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/VelayatiAli-Akbar",
   "name": "Ali-Akbar Velayati",
   "givenName": "Ali-Akbar",
   "familyName": "Velayati",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1945-06-25",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Teheran"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1981–1997 iranischer Außenminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1055776923",
-    "https://de.wikipedia.org/wiki/Ali_Akbar_Velayati"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Ali-Akbar Velayati",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1055776923",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ali_Akbar_Velayati",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ali_Akbar_Velayati"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1945-06-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Teheran"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1981–1997 iranischer Außenminister"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1055776923",
+    "https://de.wikipedia.org/wiki/Ali_Akbar_Velayati"
+  ]
 }

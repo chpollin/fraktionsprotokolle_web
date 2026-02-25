@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "UllmannHeinz",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/UllmannHeinz",
   "name": "Heinz Ullmann",
   "givenName": "Heinz",
   "familyName": "Ullmann",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1886-04-18",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "deathDate": "1968-08-12",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1951–1958 MdA Berlin (FDP), 1953–1955 Senator für Verkehr und Betriebe des Landes Berlin"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1030179581",
-    "https://de.wikipedia.org/wiki/Heinz_Ullmann"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Heinz Ullmann",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1030179581",
-    "wikipedia": "https://de.wikipedia.org/wiki/Heinz_Ullmann",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Heinz_Ullmann"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1886-04-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "1968-08-12",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1951–1958 MdA Berlin (FDP), 1953–1955 Senator für Verkehr und Betriebe des Landes Berlin"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1030179581",
+    "https://de.wikipedia.org/wiki/Heinz_Ullmann"
+  ]
 }

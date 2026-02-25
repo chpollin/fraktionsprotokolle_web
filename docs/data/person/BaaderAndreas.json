@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BaaderAndreas",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BaaderAndreas",
   "name": "Andreas Baader",
   "givenName": "Andreas",
   "familyName": "Baader",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1943-05-06",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "deathDate": "1977-10-18",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Stuttgart-Stammheim"
-  },
-  "hasOccupation": null,
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/11850536X",
-    "https://de.wikipedia.org/wiki/Andreas_Baader"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Andreas Baader",
@@ -43,10 +29,23 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/11850536X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Andreas_Baader",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Andreas_Baader"
   },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1943-05-06",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "deathDate": "1977-10-18",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Stuttgart-Stammheim"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/11850536X",
+    "https://de.wikipedia.org/wiki/Andreas_Baader"
+  ],
   "fraktionsprotokolle:sonstiges": "Mitbegründer und eines der führenden Mitglieder der terroristischen Vereinigung »Rote Armee Fraktion« (RAF)"
 }

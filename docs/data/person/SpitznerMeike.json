@@ -1,26 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SpitznerMeike",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SpitznerMeike",
   "name": "Meike Spitzner",
   "givenName": "Meike",
   "familyName": "Spitzner",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1957",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Köln"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Sozialwissenschaftlerin und Historikerin, wahrscheinlich ab 1987 wiss. Mitarbeiterin der Grünen-Bundestagsfraktion in der 11. Wahlperiode für den Bereich Verkehrspolitik, Senior Researcher im Forschungsbereich Mobilität und Verkehrspolitik sowie wiss. Gender-Koordinatorin der Abteilung Energie-, Verkehrs- und Klimapolitik am Wuppertal Institute for Climate, Environment and Energy"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1098165349"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Meike Spitzner",
@@ -42,9 +29,19 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/1098165349",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/1098165349"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1957",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Köln"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Sozialwissenschaftlerin und Historikerin, wahrscheinlich ab 1987 wiss. Mitarbeiterin der Grünen-Bundestagsfraktion in der 11. Wahlperiode für den Bereich Verkehrspolitik, Senior Researcher im Forschungsbereich Mobilität und Verkehrspolitik sowie wiss. Gender-Koordinatorin der Abteilung Energie-, Verkehrs- und Klimapolitik am Wuppertal Institute for Climate, Environment and Energy"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1098165349"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BilandzicDusan",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BilandzicDusan",
   "name": "Dušan Bilandžić",
   "givenName": "Dušan",
   "familyName": "Bilandžić",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1924-07-20",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Maljkovo"
-  },
-  "deathDate": "2015-03-04",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Zagreb"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Historiker und Politiker, 1942–1952 Mitglied der Komunistička Partija Jugoslavije (KPJ), 1945–1960 Dozent für Militärgeschichte an der Militärakademie in Belgrad, von Ende der 1970er bis Anfang der 1980er Jahre Dekan an der Fakultät für Politikwissenschaft der Universität Zagreb, seit 1980 Mitglied der Jugoslawischen Akademie der Wissenschaften und Künste (JAZU) bzw. seit 1991 der Kroatischen Akademie der Wissenschaften und Künste (HAZU), 1991 im Vorfeld der Wahlen in Kroatien Beitritt zur Liste der Socijaldemokratska partija Hrvatske (SDP)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/103669302",
-    "https://en.wikipedia.org/wiki/Du%C5%A1an_Biland%C5%BEi%C4%87"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Dušan Bilandžić",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/103669302",
-    "wikipedia": "https://en.wikipedia.org/wiki/Du%C5%A1an_Biland%C5%BEi%C4%87",
-    "viaf": null
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/Du%C5%A1an_Biland%C5%BEi%C4%87"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1924-07-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Maljkovo"
+  },
+  "deathDate": "2015-03-04",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Zagreb"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Historiker und Politiker, 1942–1952 Mitglied der Komunistička Partija Jugoslavije (KPJ), 1945–1960 Dozent für Militärgeschichte an der Militärakademie in Belgrad, von Ende der 1970er bis Anfang der 1980er Jahre Dekan an der Fakultät für Politikwissenschaft der Universität Zagreb, seit 1980 Mitglied der Jugoslawischen Akademie der Wissenschaften und Künste (JAZU) bzw. seit 1991 der Kroatischen Akademie der Wissenschaften und Künste (HAZU), 1991 im Vorfeld der Wahlen in Kroatien Beitritt zur Liste der Socijaldemokratska partija Hrvatske (SDP)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/103669302",
+    "https://en.wikipedia.org/wiki/Du%C5%A1an_Biland%C5%BEi%C4%87"
+  ]
 }

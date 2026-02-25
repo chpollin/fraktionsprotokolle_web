@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DuppreFritz",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DuppreFritz",
   "name": "Fritz Duppré",
   "givenName": "Fritz",
   "familyName": "Duppré",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1919-01-30",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Neunkirchen"
-  },
-  "deathDate": "1988",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Mainz"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1956–1969 Chef der Staatskanzlei des Landes Rheinland-Pfalz, zuerst als Ministerialdirektor, seit 1963 als Staatssekretär, 1969–1985 Präsident der Landesbank Rheinland-Pfalz"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1029825289",
-    "https://de.wikipedia.org/wiki/Fritz_Duppr%C3%A9"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Fritz Duppré",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1029825289",
-    "wikipedia": "https://de.wikipedia.org/wiki/Fritz_Duppr%C3%A9",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Fritz_Duppr%C3%A9"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1919-01-30",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Neunkirchen"
+  },
+  "deathDate": "1988",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Mainz"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1956–1969 Chef der Staatskanzlei des Landes Rheinland-Pfalz, zuerst als Ministerialdirektor, seit 1963 als Staatssekretär, 1969–1985 Präsident der Landesbank Rheinland-Pfalz"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1029825289",
+    "https://de.wikipedia.org/wiki/Fritz_Duppr%C3%A9"
+  ]
 }

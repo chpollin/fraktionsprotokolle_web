@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KewenigWilhelm",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KewenigWilhelm",
   "name": "Wilhelm Kewenig",
   "givenName": "Wilhelm",
   "familyName": "Kewenig",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1934-06-20",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Köln"
-  },
-  "deathDate": "1993-06-18",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Frankfurt am Main"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1971–1981 Professor für Öffentliches Recht und Direktor des Instituts für internationales Recht an der Universität Kiel, 1981–1989 MdA Berlin (CDU), 1981–1983 Senator für Wissenschaft und kulturelle Angelegenheiten des Landes Berlin, 1983–1986 Senator für Wissenschaft und Forschung, 1986–1989 Innensenator"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119329336",
-    "https://de.wikipedia.org/wiki/Wilhelm_Kewenig"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Wilhelm Kewenig",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119329336",
-    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_Kewenig",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_Kewenig"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1934-06-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Köln"
+  },
+  "deathDate": "1993-06-18",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Frankfurt am Main"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1971–1981 Professor für Öffentliches Recht und Direktor des Instituts für internationales Recht an der Universität Kiel, 1981–1989 MdA Berlin (CDU), 1981–1983 Senator für Wissenschaft und kulturelle Angelegenheiten des Landes Berlin, 1983–1986 Senator für Wissenschaft und Forschung, 1986–1989 Innensenator"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119329336",
+    "https://de.wikipedia.org/wiki/Wilhelm_Kewenig"
+  ]
 }

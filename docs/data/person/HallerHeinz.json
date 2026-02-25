@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HallerHeinz",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HallerHeinz",
   "name": "Heinz Haller",
   "givenName": "Heinz",
   "familyName": "Haller",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1914-03-19",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Schwenningen"
-  },
-  "deathDate": "2004-06-13",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Stäfa"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1957–1967 Professor für Volkswirtschaftslehre und Finanzwissenschaften an der Universität Heidelberg, 1968–1972 Staatsekretär im Bundesministerium der Finanzen, 1972–1981 Professor für Wirtschaftswissenschaft an der Universität Zürich"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118545159",
-    "https://de.wikipedia.org/wiki/Heinz_Haller"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Heinz Haller",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118545159",
-    "wikipedia": "https://de.wikipedia.org/wiki/Heinz_Haller",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Heinz_Haller"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1914-03-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Schwenningen"
+  },
+  "deathDate": "2004-06-13",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Stäfa"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1957–1967 Professor für Volkswirtschaftslehre und Finanzwissenschaften an der Universität Heidelberg, 1968–1972 Staatsekretär im Bundesministerium der Finanzen, 1972–1981 Professor für Wirtschaftswissenschaft an der Universität Zürich"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118545159",
+    "https://de.wikipedia.org/wiki/Heinz_Haller"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BoehmAnton",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BoehmAnton",
   "name": "Anton Böhm",
   "givenName": "Anton",
   "familyName": "Böhm",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1904-03-06",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Wien"
-  },
-  "deathDate": "1998-01-08",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Salzburg"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "österreichischer Journalist und Publizist"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/116219084",
-    "https://de.wikipedia.org/wiki/Anton_B%C3%B6hm_(Journalist)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Anton Böhm",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/116219084",
-    "wikipedia": "https://de.wikipedia.org/wiki/Anton_B%C3%B6hm_(Journalist)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Anton_B%C3%B6hm_(Journalist)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1904-03-06",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Wien"
+  },
+  "deathDate": "1998-01-08",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Salzburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "österreichischer Journalist und Publizist"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/116219084",
+    "https://de.wikipedia.org/wiki/Anton_B%C3%B6hm_(Journalist)"
+  ]
 }

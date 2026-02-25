@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ArdalanAliGholi",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ArdalanAliGholi",
   "name": "Ali Gholi Ardalan",
   "givenName": "Ali Gholi",
   "familyName": "Ardalan",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1900-01-25",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Teheran"
-  },
-  "deathDate": "1986-08-02",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Teheran"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1955–1958 persischer Außenminister, 1962–1965 Botschafter in Bonn"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/126125341",
-    "https://de.wikipedia.org/wiki/Ali_Gholi_Ardalan"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Ali Gholi Ardalan",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/126125341",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ali_Gholi_Ardalan",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ali_Gholi_Ardalan"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1900-01-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Teheran"
+  },
+  "deathDate": "1986-08-02",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Teheran"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1955–1958 persischer Außenminister, 1962–1965 Botschafter in Bonn"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/126125341",
+    "https://de.wikipedia.org/wiki/Ali_Gholi_Ardalan"
+  ]
 }

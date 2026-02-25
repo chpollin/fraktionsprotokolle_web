@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KesslerErichHermann",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KesslerErichHermann",
   "name": "Erich Hermann Keßler",
   "givenName": "Erich Hermann Ernst",
   "familyName": "Keßler",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1899-07-15",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Memel"
-  },
-  "deathDate": "1989-02-07",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "deutscher Ministerialbeamter, 1940–1944 Regierungsvizepräsident in Kattowitz, 1944–1945 Reichsministerium des Innern, 1949–1964 Bundesministerium des Innern (Leiter der Unterabteilung Verwaltung)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1031688250",
-    "https://de.wikipedia.org/wiki/Erich_Ke%C3%9Fler_(Verwaltungsjurist)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Erich Hermann Keßler",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1031688250",
-    "wikipedia": "https://de.wikipedia.org/wiki/Erich_Ke%C3%9Fler_(Verwaltungsjurist)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Erich_Ke%C3%9Fler_(Verwaltungsjurist)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1899-07-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Memel"
+  },
+  "deathDate": "1989-02-07",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Ministerialbeamter, 1940–1944 Regierungsvizepräsident in Kattowitz, 1944–1945 Reichsministerium des Innern, 1949–1964 Bundesministerium des Innern (Leiter der Unterabteilung Verwaltung)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1031688250",
+    "https://de.wikipedia.org/wiki/Erich_Ke%C3%9Fler_(Verwaltungsjurist)"
+  ]
 }

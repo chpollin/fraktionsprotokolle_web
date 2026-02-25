@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HeinsohnGunnar",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HeinsohnGunnar",
   "name": "Gunnar Heinsohn",
   "givenName": "Gunnar",
   "familyName": "Heinsohn",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1943-11-21",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Gotenhafen (heute: Gdynia, Polen)"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Wirtschaftswissenschaftler und Soziologe, 1973-2009 Professor für Sozialpädagogik an der Universität Bremen, 1982-1988 Vorsitzender der »Gesellschaft zur Rekonstruktion der Menschheits- und Naturgeschichte«"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/115577335",
-    "https://de.wikipedia.org/wiki/Gunnar_Heinsohn"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Gunnar Heinsohn",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/115577335",
-    "wikipedia": "https://de.wikipedia.org/wiki/Gunnar_Heinsohn",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Gunnar_Heinsohn"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1943-11-21",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Gotenhafen (heute: Gdynia, Polen)"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Wirtschaftswissenschaftler und Soziologe, 1973-2009 Professor für Sozialpädagogik an der Universität Bremen, 1982-1988 Vorsitzender der »Gesellschaft zur Rekonstruktion der Menschheits- und Naturgeschichte«"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/115577335",
+    "https://de.wikipedia.org/wiki/Gunnar_Heinsohn"
+  ]
 }

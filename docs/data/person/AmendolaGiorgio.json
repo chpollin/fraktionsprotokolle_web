@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "AmendolaGiorgio",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/AmendolaGiorgio",
   "name": "Giorgio Amendola",
   "givenName": "Giorgio",
   "familyName": "Amendola",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1907-11-21",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Rom"
-  },
-  "deathDate": "1980-06-05",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Rom"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1946–1980 Abgeordneter des italienischen Parlaments (Kommunistische Partei)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119284642",
-    "https://it.wikipedia.org/wiki/Giorgio_Amendola"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Giorgio Amendola",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119284642",
-    "wikipedia": "https://it.wikipedia.org/wiki/Giorgio_Amendola",
-    "viaf": null
-  }
+    "wikipedia": "https://it.wikipedia.org/wiki/Giorgio_Amendola"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1907-11-21",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Rom"
+  },
+  "deathDate": "1980-06-05",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Rom"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1946–1980 Abgeordneter des italienischen Parlaments (Kommunistische Partei)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119284642",
+    "https://it.wikipedia.org/wiki/Giorgio_Amendola"
+  ]
 }

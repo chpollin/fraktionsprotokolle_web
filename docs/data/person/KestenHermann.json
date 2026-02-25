@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KestenHermann",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KestenHermann",
   "name": "Hermann Kesten",
   "givenName": "Hermann",
   "familyName": "Kesten",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1900-01-28",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Podwołoczyska"
-  },
-  "deathDate": "1996-05-03",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Basel"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Schriftsteller, Lektor, Publizist, Herausgeber und Übersetzer, 1972–1976 Präsident des P.E.N.-Zentrums der Bundesrepublik Deutschland"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118561715",
-    "https://de.wikipedia.org/wiki/Hermann_Kesten"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hermann Kesten",
@@ -46,10 +29,27 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118561715",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hermann_Kesten",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Hermann_Kesten"
   },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1900-01-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Podwołoczyska"
+  },
+  "deathDate": "1996-05-03",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Basel"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Schriftsteller, Lektor, Publizist, Herausgeber und Übersetzer, 1972–1976 Präsident des P.E.N.-Zentrums der Bundesrepublik Deutschland"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118561715",
+    "https://de.wikipedia.org/wiki/Hermann_Kesten"
+  ],
   "fraktionsprotokolle:sonstiges": "während des Zweiten Weltkriegs Emigration in die Niederlande, Belgien, Frankreich (1933), Schweiz, Ukraine, Polen und USA (1940)"
 }

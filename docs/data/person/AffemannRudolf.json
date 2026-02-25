@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "AffemannRudolf",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/AffemannRudolf",
   "name": "Rudolf Affemann",
   "givenName": "Rudolf",
   "familyName": "Affemann",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1928-01-04",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Frankfurt a. M."
-  },
-  "deathDate": "2018-11-17",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "deutscher Psychotherapeut und Theologe"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/132813890",
-    "https://de.wikipedia.org/wiki/Rudolf_Affemann#cite_ref-2"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Rudolf Affemann",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/132813890",
-    "wikipedia": "https://de.wikipedia.org/wiki/Rudolf_Affemann#cite_ref-2",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Rudolf_Affemann#cite_ref-2"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1928-01-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Frankfurt a. M."
+  },
+  "deathDate": "2018-11-17",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Psychotherapeut und Theologe"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/132813890",
+    "https://de.wikipedia.org/wiki/Rudolf_Affemann#cite_ref-2"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "TroendleHerbert",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/TroendleHerbert",
   "name": "Herbert Tröndle",
   "givenName": "Herbert",
   "familyName": "Tröndle",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1919-08-24",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Kiesenbach (Landkreis Waldshut)"
-  },
-  "deathDate": "2017-10-01",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Waldshut"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Rechtswissenschaftler, Richter, Autor und Hochschullehrer, ab 1951 Tätigkeit in der Großen Strafrechtskommission der 1950er und 1960er Jahren im Bundesministerium der Justiz, ab 1961 Landgerichtsdirektor in Waldshut, 1966 Leiter der Staatsanwaltschaft Offenburg und Mitglied der Landesjustizprüfungskommission, 1968–1985 Präsident des Landgerichts Waldshut-Tiengen, 1978–1999 Kommentator des Strafgesetzbuchs, ab 1980 Honorarprofessor an der Rechtswissenschaftlichen Fakultät der Albert-Ludwigs-Universität Freiburg, 1982–1991 als stv. Richter am Staatsgerichtshof für das Land Baden-Württemberg gewählt"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118879979",
-    "https://de.wikipedia.org/wiki/Herbert_Tr%C3%B6ndle"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Herbert Tröndle",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118879979",
-    "wikipedia": "https://de.wikipedia.org/wiki/Herbert_Tr%C3%B6ndle",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Herbert_Tr%C3%B6ndle"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1919-08-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kiesenbach (Landkreis Waldshut)"
+  },
+  "deathDate": "2017-10-01",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Waldshut"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtswissenschaftler, Richter, Autor und Hochschullehrer, ab 1951 Tätigkeit in der Großen Strafrechtskommission der 1950er und 1960er Jahren im Bundesministerium der Justiz, ab 1961 Landgerichtsdirektor in Waldshut, 1966 Leiter der Staatsanwaltschaft Offenburg und Mitglied der Landesjustizprüfungskommission, 1968–1985 Präsident des Landgerichts Waldshut-Tiengen, 1978–1999 Kommentator des Strafgesetzbuchs, ab 1980 Honorarprofessor an der Rechtswissenschaftlichen Fakultät der Albert-Ludwigs-Universität Freiburg, 1982–1991 als stv. Richter am Staatsgerichtshof für das Land Baden-Württemberg gewählt"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118879979",
+    "https://de.wikipedia.org/wiki/Herbert_Tr%C3%B6ndle"
+  ]
 }

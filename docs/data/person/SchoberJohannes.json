@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchoberJohannes",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchoberJohannes",
   "name": "Johannes Schober",
   "givenName": "Johannes",
   "familyName": "Schober",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1874-11-14",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Perg, Oberösterreich"
-  },
-  "deathDate": "1932-08-19",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Baden bei Wien"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1921/22 und 1929/30 Bundeskanzler der Republik Österreich, 1930–1932 Vizekanzler und Außenminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118758802",
-    "https://de.wikipedia.org/wiki/Johann_Schober"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Johannes Schober",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118758802",
-    "wikipedia": "https://de.wikipedia.org/wiki/Johann_Schober",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Johann_Schober"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1874-11-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Perg, Oberösterreich"
+  },
+  "deathDate": "1932-08-19",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Baden bei Wien"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1921/22 und 1929/30 Bundeskanzler der Republik Österreich, 1930–1932 Vizekanzler und Außenminister"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118758802",
+    "https://de.wikipedia.org/wiki/Johann_Schober"
+  ]
 }

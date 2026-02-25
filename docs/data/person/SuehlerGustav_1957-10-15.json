@@ -1,10 +1,53 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SuehlerGustav_1957-10-15",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SuehlerGustav_1957-10-15",
   "name": "Gustav Sühler",
   "givenName": "Gustav",
   "familyName": "Sühler",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Gustav Sühler",
+    "forename": "Gustav",
+    "surname": "Sühler",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1922-03-17",
+    "place": "Lindau/Kreis Kulmbach",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1998-07-03",
+    "place": "Bayreuth",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 3,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 4,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002286",
+    "gnd": "https://d-nb.info/gnd/119014750",
+    "wikipedia": "https://de.wikipedia.org/wiki/Gustav_S%C3%BChler"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1922-03-17",
   "birthPlace": {
@@ -45,46 +88,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/119014750",
     "https://de.wikipedia.org/wiki/Gustav_S%C3%BChler"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Gustav Sühler",
-    "forename": "Gustav",
-    "surname": "Sühler",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1922-03-17",
-    "place": "Lindau/Kreis Kulmbach",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1998-07-03",
-    "place": "Bayreuth",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 3,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1957-10-15",
-      "to": "1961-10-15"
-    },
-    {
-      "period": 4,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1961-10-17",
-      "to": "1965-10-17"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11002286",
-    "gnd": "https://d-nb.info/gnd/119014750",
-    "wikipedia": "https://de.wikipedia.org/wiki/Gustav_S%C3%BChler",
-    "viaf": null
-  }
+  ]
 }

@@ -1,10 +1,60 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SeifrizHansStefan_1961-10-17",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SeifrizHansStefan_1961-10-17",
   "name": "Hans Stefan Seifriz",
   "givenName": "Hans Stefan",
   "familyName": "Seifriz",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans Stefan Seifriz",
+    "forename": "Hans Stefan",
+    "surname": "Seifriz",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1927-01-28",
+    "place": "Bremen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2020-02-26",
+    "place": "Bremen",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 4,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    },
+    {
+      "period": 5,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    },
+    {
+      "period": 6,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1969-10-20",
+      "to": "1970-01-06"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002154",
+    "gnd": "https://d-nb.info/gnd/118823973",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Stefan_Seifriz"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1927-01-28",
   "birthPlace": {
@@ -55,53 +105,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/118823973",
     "https://de.wikipedia.org/wiki/Hans_Stefan_Seifriz"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Hans Stefan Seifriz",
-    "forename": "Hans Stefan",
-    "surname": "Seifriz",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1927-01-28",
-    "place": "Bremen",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "2020-02-26",
-    "place": "Bremen",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 4,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1961-10-17",
-      "to": "1965-10-17"
-    },
-    {
-      "period": 5,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1965-10-19",
-      "to": "1969-10-19"
-    },
-    {
-      "period": 6,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1969-10-20",
-      "to": "1970-01-06"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11002154",
-    "gnd": "https://d-nb.info/gnd/118823973",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Stefan_Seifriz",
-    "viaf": null
-  }
+  ]
 }

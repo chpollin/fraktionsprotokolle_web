@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ReinhardEgbert",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ReinhardEgbert",
   "name": "Egbert Reinhard",
   "givenName": "Egbert",
   "familyName": "Reinhard",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1928-03-03",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Gelsenkirchen"
-  },
-  "deathDate": "2004-04-08",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1970–1995 MdL NRW (SPD)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/112159221X",
-    "https://de.wikipedia.org/wiki/Egbert_Reinhard"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Egbert Reinhard",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/112159221X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Egbert_Reinhard",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Egbert_Reinhard"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1928-03-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Gelsenkirchen"
+  },
+  "deathDate": "2004-04-08",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1970–1995 MdL NRW (SPD)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/112159221X",
+    "https://de.wikipedia.org/wiki/Egbert_Reinhard"
+  ]
 }

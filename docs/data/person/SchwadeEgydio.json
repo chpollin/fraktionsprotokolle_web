@@ -1,26 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchwadeEgydio",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchwadeEgydio",
   "name": "Egydio Schwade",
   "givenName": "Egydio",
   "familyName": "Schwade",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1935-07-07",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Feliz (Rio Grande do Sul)"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Sozialist, Philosoph, Theologe und Anhänger des Indigenismo, Aktivist für die Rechte indigener Völker des Amazonasgebiets, einer der Koordinatoren des Comitê Estadual da Verdade, Memória e Justiça do Amazonas, das die Berichte der von der Militärdiktatur Verfolgten anhören wollte"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "http://viaf.org/viaf/362159234089003370583"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Egydio Schwade",
@@ -42,9 +29,19 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
     "viaf": "http://viaf.org/viaf/362159234089003370583"
-  }
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1935-07-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Feliz (Rio Grande do Sul)"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Sozialist, Philosoph, Theologe und Anhänger des Indigenismo, Aktivist für die Rechte indigener Völker des Amazonasgebiets, einer der Koordinatoren des Comitê Estadual da Verdade, Memória e Justiça do Amazonas, das die Berichte der von der Militärdiktatur Verfolgten anhören wollte"
+  },
+  "sameAs": [
+    "http://viaf.org/viaf/362159234089003370583"
+  ]
 }

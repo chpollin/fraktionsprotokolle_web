@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GaddafiMuammaral-",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GaddafiMuammaral-",
   "name": "Muammar al-Gaddafi, Muammar Muhammad Abdassalam Abu Minyar al-Gaddafi oder Muʿammar Muhammad Abdassalam Abu Minyar al-Qaddhafi",
   "givenName": "Muammar Muhammad Abdassalam Abu Minyar",
   "familyName": "Gaddafi",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1942-06-19",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Sirte"
-  },
-  "deathDate": "2011-10-20",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "in oder bei Sirte"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1969 – 1977 Präsident des Revolutionären Kommandorats der Arabischen Republik Libyen und Oberbefehlshaber der Streitkräfte, dann bis 2011 Staatspräsident der Sozialistischen Libysch-Arabischen Volks-Dschamahirija bzw. »Führer der Revolution«, Jan. 1970–Juli 1972 zugleich Ministerpräsident"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118559060",
-    "https://de.wikipedia.org/wiki/Muammar_al-Gaddafi"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Muammar al-Gaddafi, Muammar Muhammad Abdassalam Abu Minyar al-Gaddafi oder Muʿammar Muhammad Abdassalam Abu Minyar al-Qaddhafi",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118559060",
-    "wikipedia": "https://de.wikipedia.org/wiki/Muammar_al-Gaddafi",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Muammar_al-Gaddafi"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1942-06-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Sirte"
+  },
+  "deathDate": "2011-10-20",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "in oder bei Sirte"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1969 – 1977 Präsident des Revolutionären Kommandorats der Arabischen Republik Libyen und Oberbefehlshaber der Streitkräfte, dann bis 2011 Staatspräsident der Sozialistischen Libysch-Arabischen Volks-Dschamahirija bzw. »Führer der Revolution«, Jan. 1970–Juli 1972 zugleich Ministerpräsident"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118559060",
+    "https://de.wikipedia.org/wiki/Muammar_al-Gaddafi"
+  ]
 }

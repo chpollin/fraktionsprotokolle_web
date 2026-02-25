@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "EberhardRudolf",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/EberhardRudolf",
   "name": "Rudolf Eberhard",
   "givenName": "Rudolf",
   "familyName": "Eberhard",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1914-11-01",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Nürnberg"
-  },
-  "deathDate": "1998-12-26",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1950–1974 MdL (CSU), 1957–1964 Bayerischer Staatsminister für Finanzen, 1964–1971 Präsident der Bayerischen Staatsbank, 1968–1971 Vorsitzender der nach ihm benannten Steuerreformkommission"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118687484",
-    "https://de.wikipedia.org/wiki/Rudolf_Eberhard_(Politiker,_1914)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Rudolf Eberhard",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118687484",
-    "wikipedia": "https://de.wikipedia.org/wiki/Rudolf_Eberhard_(Politiker,_1914)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Rudolf_Eberhard_(Politiker,_1914)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1914-11-01",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Nürnberg"
+  },
+  "deathDate": "1998-12-26",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1950–1974 MdL (CSU), 1957–1964 Bayerischer Staatsminister für Finanzen, 1964–1971 Präsident der Bayerischen Staatsbank, 1968–1971 Vorsitzender der nach ihm benannten Steuerreformkommission"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118687484",
+    "https://de.wikipedia.org/wiki/Rudolf_Eberhard_(Politiker,_1914)"
+  ]
 }

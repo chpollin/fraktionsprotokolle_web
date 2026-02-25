@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ChlestowOlegNikolajewitsch",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ChlestowOlegNikolajewitsch",
   "name": "Oleg Nikolajewitsch Chlestow",
   "givenName": "Oleg Nikolajewitsch",
   "familyName": "Chlestow",
-  "gender": "https://schema.org/Male",
-  "birthDate": null,
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Leiter der sowjetischen Delegation bei den MBFR-Verhandlungen in Wien"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "http://viaf.org/viaf/5351159478238527990001"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Oleg Nikolajewitsch Chlestow",
@@ -39,9 +29,14 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
     "viaf": "http://viaf.org/viaf/5351159478238527990001"
-  }
+  },
+  "gender": "https://schema.org/Male",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Leiter der sowjetischen Delegation bei den MBFR-Verhandlungen in Wien"
+  },
+  "sameAs": [
+    "http://viaf.org/viaf/5351159478238527990001"
+  ]
 }

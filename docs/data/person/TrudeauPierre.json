@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "TrudeauPierre",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/TrudeauPierre",
   "name": "Pierre Trudeau",
   "givenName": "Pierre Elliott",
   "familyName": "Trudeau",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1919-10-18",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Montreal, Québec"
-  },
-  "deathDate": "2000-09-28",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Montreal, Québec"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Jurist, Politikwissenschaftler und Hochschullehrer, 1965–1984 Mitglied des House of Commons of Canada (Liberal Party), 1967–1968 Justizminister, 1968–1979 sowie 1980–1984 Premierminister Kanadas"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118624172",
-    "https://de.wikipedia.org/wiki/Pierre_Trudeau"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Pierre Trudeau",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118624172",
-    "wikipedia": "https://de.wikipedia.org/wiki/Pierre_Trudeau",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Pierre_Trudeau"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1919-10-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Montreal, Québec"
+  },
+  "deathDate": "2000-09-28",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Montreal, Québec"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Jurist, Politikwissenschaftler und Hochschullehrer, 1965–1984 Mitglied des House of Commons of Canada (Liberal Party), 1967–1968 Justizminister, 1968–1979 sowie 1980–1984 Premierminister Kanadas"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118624172",
+    "https://de.wikipedia.org/wiki/Pierre_Trudeau"
+  ]
 }

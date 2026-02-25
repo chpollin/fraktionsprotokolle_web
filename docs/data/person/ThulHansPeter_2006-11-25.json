@@ -1,35 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ThulHansPeter_2006-11-25",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ThulHansPeter_2006-11-25",
   "name": "Hans Peter Thul",
   "givenName": "Hans Peter",
   "familyName": "Thul",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1948-12-08",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Hangard/Saar"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Dipl.-Wirtschaftsingenieur [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "2006-11-25",
-      "endDate": "2009-10-27"
-    }
-  ],
-  "sameAs": null,
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Hans Peter Thul",
@@ -59,9 +37,28 @@
     }
   ],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11003883",
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
-  }
+    "mdb_stammdaten": "11003883"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1948-12-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hangard/Saar"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Wirtschaftsingenieur [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "2006-11-25",
+      "endDate": "2009-10-27"
+    }
+  ]
 }

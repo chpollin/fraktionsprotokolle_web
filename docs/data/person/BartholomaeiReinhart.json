@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BartholomaeiReinhart",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BartholomaeiReinhart",
   "name": "Reinhart Bartholomäi",
   "givenName": "Reinhart",
   "familyName": "Bartholomäi",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1936-04-16",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Balingen"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1963–1969 sozialpolitischer Referent bei der SPD-Bundestagsfraktion, 1970–1976 Unterabteilungsleiter beim Bundesministerium für Arbeit und Sozialordnung"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/108748855",
-    "https://de.wikipedia.org/wiki/Reinhart_Bartholom%C3%A4i"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Reinhart Bartholomäi",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/108748855",
-    "wikipedia": "https://de.wikipedia.org/wiki/Reinhart_Bartholom%C3%A4i",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Reinhart_Bartholom%C3%A4i"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1936-04-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Balingen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1963–1969 sozialpolitischer Referent bei der SPD-Bundestagsfraktion, 1970–1976 Unterabteilungsleiter beim Bundesministerium für Arbeit und Sozialordnung"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/108748855",
+    "https://de.wikipedia.org/wiki/Reinhart_Bartholom%C3%A4i"
+  ]
 }

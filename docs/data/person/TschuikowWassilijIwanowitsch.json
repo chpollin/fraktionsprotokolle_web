@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "TschuikowWassilijIwanowitsch",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/TschuikowWassilijIwanowitsch",
   "name": "Wassilij Iwanowitsch Tschuikow",
   "givenName": "Wassilij Iwanowitsch",
   "familyName": "Tschuikow",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1900-02-12",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Serebrjanyje Prudy, Gouvernement Tula"
-  },
-  "deathDate": "1982-03-18",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Moskau"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "russischer Militär, KPdSU, 1945 Kommandeur der 8. Gardearmee bei der Eroberung Berlins, 1946–1949 Leiter der Militärverwaltung in Thüringen, 1949–1953 Oberbefehlshaber der Sowjetischen Streitkräfte in Deutschland und Leiter der Sowjetischen Kontrollkommission in der DDR, 1955 Marschall der Sowjetunion"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118666266",
-    "https://de.wikipedia.org/wiki/Wassili_Iwanowitsch_Tschuikow"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Wassilij Iwanowitsch Tschuikow",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118666266",
-    "wikipedia": "https://de.wikipedia.org/wiki/Wassili_Iwanowitsch_Tschuikow",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Wassili_Iwanowitsch_Tschuikow"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1900-02-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Serebrjanyje Prudy, Gouvernement Tula"
+  },
+  "deathDate": "1982-03-18",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Moskau"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "russischer Militär, KPdSU, 1945 Kommandeur der 8. Gardearmee bei der Eroberung Berlins, 1946–1949 Leiter der Militärverwaltung in Thüringen, 1949–1953 Oberbefehlshaber der Sowjetischen Streitkräfte in Deutschland und Leiter der Sowjetischen Kontrollkommission in der DDR, 1955 Marschall der Sowjetunion"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118666266",
+    "https://de.wikipedia.org/wiki/Wassili_Iwanowitsch_Tschuikow"
+  ]
 }

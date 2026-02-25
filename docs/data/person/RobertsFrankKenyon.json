@@ -1,29 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RobertsFrankKenyon",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RobertsFrankKenyon",
   "name": "Frank Kenyon Roberts",
   "givenName": "Frank Kenyon",
   "familyName": "Roberts",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1907-10-07",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Buenos Aires"
-  },
-  "deathDate": "1998-01-07",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Kensington, London"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1963–1968 britischer Botschafter in Bonn"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Frank_Kenyon_Roberts"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Frank Kenyon Roberts",
@@ -45,9 +29,24 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://de.wikipedia.org/wiki/Frank_Kenyon_Roberts",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Frank_Kenyon_Roberts"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1907-10-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Buenos Aires"
+  },
+  "deathDate": "1998-01-07",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Kensington, London"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1963–1968 britischer Botschafter in Bonn"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Frank_Kenyon_Roberts"
+  ]
 }

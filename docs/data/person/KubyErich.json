@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KubyErich",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KubyErich",
   "name": "Erich Kuby",
   "givenName": "Erich",
   "familyName": "Kuby",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1910-06-28",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Baden-Baden"
-  },
-  "deathDate": "2005-09-10",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Venedig"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Journalist und Publizist"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118567403",
-    "https://de.wikipedia.org/wiki/Erich_Kuby"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Erich Kuby",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118567403",
-    "wikipedia": "https://de.wikipedia.org/wiki/Erich_Kuby",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Erich_Kuby"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1910-06-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Baden-Baden"
+  },
+  "deathDate": "2005-09-10",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Venedig"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist und Publizist"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118567403",
+    "https://de.wikipedia.org/wiki/Erich_Kuby"
+  ]
 }

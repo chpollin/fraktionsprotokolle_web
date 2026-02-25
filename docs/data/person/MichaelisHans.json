@@ -1,29 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MichaelisHans",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MichaelisHans",
   "name": "Hans Michaelis",
   "givenName": "Hans",
   "familyName": "Michaelis",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1914-08-07",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Duisburg"
-  },
-  "deathDate": "1998",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Köln"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1951-1953 Leiter des Referats Preispolitik im Bundesministerium für Wirtschaft, 1953-1960 Abteilungsleiter bei der Hohen Behörde der Europäischen Gemeinschaft für Kohle und Stahl (EGKS), 1960-1967 Direktor und Generaldirektor in der Kommission der Europäischen Atomgemeinschaft, 1967-1971 Generaldirektor für Forschung und Technologie der Kommission der Europäischen Gemeinschaft, Mitglied der Enquete-Kommission »Zukünftige Kernenergiepolitik« des 9. Deutschen Bundestages"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/132485478"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hans Michaelis",
@@ -45,9 +29,24 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/132485478",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/132485478"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1914-08-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Duisburg"
+  },
+  "deathDate": "1998",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Köln"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1951-1953 Leiter des Referats Preispolitik im Bundesministerium für Wirtschaft, 1953-1960 Abteilungsleiter bei der Hohen Behörde der Europäischen Gemeinschaft für Kohle und Stahl (EGKS), 1960-1967 Direktor und Generaldirektor in der Kommission der Europäischen Atomgemeinschaft, 1967-1971 Generaldirektor für Forschung und Technologie der Kommission der Europäischen Gemeinschaft, Mitglied der Enquete-Kommission »Zukünftige Kernenergiepolitik« des 9. Deutschen Bundestages"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/132485478"
+  ]
 }

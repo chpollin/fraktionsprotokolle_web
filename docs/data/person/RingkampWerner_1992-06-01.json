@@ -1,38 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RingkampWerner_1992-06-01",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RingkampWerner_1992-06-01",
   "name": "Werner Ringkamp",
   "givenName": "Werner",
   "familyName": "Ringkamp",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1937-04-13",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Gütersloh"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Volkshochschulleiter a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1992-06-01",
-      "endDate": "1994-11-10"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1276227531",
-    "https://de.wikipedia.org/wiki/Werner_Ringkamp"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Werner Ringkamp",
@@ -64,7 +39,32 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001853",
     "gnd": "https://d-nb.info/gnd/1276227531",
-    "wikipedia": "https://de.wikipedia.org/wiki/Werner_Ringkamp",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Werner_Ringkamp"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1937-04-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Gütersloh"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Volkshochschulleiter a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1992-06-01",
+      "endDate": "1994-11-10"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1276227531",
+    "https://de.wikipedia.org/wiki/Werner_Ringkamp"
+  ]
 }

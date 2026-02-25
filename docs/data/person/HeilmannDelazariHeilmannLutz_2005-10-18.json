@@ -1,37 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HeilmannDelazariHeilmannLutz_2005-10-18",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HeilmannDelazariHeilmannLutz_2005-10-18",
   "name": "Lutz Delazari Heilmann",
   "givenName": "Lutz",
   "familyName": "Heilmann",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1966-09-07",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Zittau"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Dipl.-Jurist [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion DIE LINKE.",
-        "alternateName": "LINKE"
-      },
-      "startDate": "2005-10-18",
-      "endDate": "2009-10-27"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1228786984"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Lutz Delazari Heilmann",
@@ -62,10 +38,33 @@
   ],
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11003766",
-    "gnd": "https://d-nb.info/gnd/1228786984",
-    "wikipedia": null,
-    "viaf": null
+    "gnd": "https://d-nb.info/gnd/1228786984"
   },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1966-09-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Zittau"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Jurist [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion DIE LINKE.",
+        "alternateName": "LINKE"
+      },
+      "startDate": "2005-10-18",
+      "endDate": "2009-10-27"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1228786984"
+  ],
   "fraktionsprotokolle:alt_names": [
     {
       "reg": "Lutz Delazari Heilmann",

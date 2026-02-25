@@ -1,35 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KlamtEwa_2010-04-29",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KlamtEwa_2010-04-29",
   "name": "Ewa Klamt",
   "givenName": "Ewa",
   "familyName": "Klamt",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1950-05-26",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Straubing"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Lehrerin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "2010-04-29",
-      "endDate": "2013-10-22"
-    }
-  ],
-  "sameAs": null,
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Ewa Klamt",
@@ -59,9 +37,28 @@
     }
   ],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11004203",
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
-  }
+    "mdb_stammdaten": "11004203"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1950-05-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Straubing"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Lehrerin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "2010-04-29",
+      "endDate": "2013-10-22"
+    }
+  ]
 }

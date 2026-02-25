@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KheneAbdel-Rahman",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KheneAbdel-Rahman",
   "name": "Abd el-Rahman »Lamine« Khene",
   "givenName": "Abd el-Rahman »Lamine«",
   "familyName": "Khene",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1931-03-06",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Collo"
-  },
-  "deathDate": "2020-12-14",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Algier"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "algerischer Wirtschaftspolitiker, 1966-70 algerischer Minister für Öffentliche Arbeiten, 1973–1975 Generalsekretär der OPEC, 1975–1985 Exekutivdirektor der Organisation der Vereinten Nationen für industrielle Entwicklung (UNIDO)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://en.wikipedia.org/wiki/Lamine_Khene",
-    "http://viaf.org/viaf/196161512236070562516"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Abd el-Rahman »Lamine« Khene",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
     "wikipedia": "https://en.wikipedia.org/wiki/Lamine_Khene",
     "viaf": "http://viaf.org/viaf/196161512236070562516"
-  }
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1931-03-06",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Collo"
+  },
+  "deathDate": "2020-12-14",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Algier"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "algerischer Wirtschaftspolitiker, 1966-70 algerischer Minister für Öffentliche Arbeiten, 1973–1975 Generalsekretär der OPEC, 1975–1985 Exekutivdirektor der Organisation der Vereinten Nationen für industrielle Entwicklung (UNIDO)"
+  },
+  "sameAs": [
+    "https://en.wikipedia.org/wiki/Lamine_Khene",
+    "http://viaf.org/viaf/196161512236070562516"
+  ]
 }

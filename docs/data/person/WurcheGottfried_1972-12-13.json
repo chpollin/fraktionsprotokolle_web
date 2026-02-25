@@ -1,38 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WurcheGottfried_1972-12-13",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WurcheGottfried_1972-12-13",
   "name": "Gottfried Wurche",
   "givenName": "Gottfried",
   "familyName": "Wurche",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1929-09-24",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Essen"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Bezirksstadtrat a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1972-12-13",
-      "endDate": "1975-06-03"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1189651696",
-    "https://de.wikipedia.org/wiki/Gottfried_Wurche"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Gottfried Wurche",
@@ -64,7 +39,32 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11002577",
     "gnd": "https://d-nb.info/gnd/1189651696",
-    "wikipedia": "https://de.wikipedia.org/wiki/Gottfried_Wurche",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Gottfried_Wurche"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1929-09-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Essen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Bezirksstadtrat a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1972-12-13",
+      "endDate": "1975-06-03"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1189651696",
+    "https://de.wikipedia.org/wiki/Gottfried_Wurche"
+  ]
 }

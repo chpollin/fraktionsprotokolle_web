@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "UexkuellCarlWolmarJakobvon",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/UexkuellCarlWolmarJakobvon",
   "name": "Carl Wolmar Jakob von Uexküll",
   "givenName": "Carl Wolmar Jakob",
   "familyName": "Uexküll",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1944-08-19",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Uppsala"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "schwedisch-deutscher Berufsphilatelist, Publizist, Philanthrop und Umweltaktivist; 1987–1989 MdEP (Die Grünen)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/120506181",
-    "https://de.wikipedia.org/wiki/Jakob_von_Uexk%C3%BCll"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Carl Wolmar Jakob von Uexküll",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/120506181",
-    "wikipedia": "https://de.wikipedia.org/wiki/Jakob_von_Uexk%C3%BCll",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Jakob_von_Uexk%C3%BCll"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1944-08-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Uppsala"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "schwedisch-deutscher Berufsphilatelist, Publizist, Philanthrop und Umweltaktivist; 1987–1989 MdEP (Die Grünen)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/120506181",
+    "https://de.wikipedia.org/wiki/Jakob_von_Uexk%C3%BCll"
+  ]
 }

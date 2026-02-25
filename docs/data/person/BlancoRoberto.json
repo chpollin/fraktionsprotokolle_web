@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BlancoRoberto",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BlancoRoberto",
   "name": "Roberto Blanco",
   "givenName": "Roberto",
   "familyName": "Blanco",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1937-06-07",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Tunis"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Schlagersänger und Schauspieler"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/123954711",
-    "https://de.wikipedia.org/wiki/Roberto_Blanco"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Roberto Blanco",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/123954711",
-    "wikipedia": "https://de.wikipedia.org/wiki/Roberto_Blanco",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Roberto_Blanco"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1937-06-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Tunis"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Schlagersänger und Schauspieler"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/123954711",
+    "https://de.wikipedia.org/wiki/Roberto_Blanco"
+  ]
 }

@@ -1,68 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PawelczykAlfons_1969-10-20",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PawelczykAlfons_1969-10-20",
   "name": "Alfons Pawelczyk",
   "givenName": "Alfons",
   "familyName": "Pawelczyk",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1933-02-26",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Parnow/Kreis Köslin (heute: Parnowo, Polen)"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Oberst a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1969-10-20",
-      "endDate": "1972-09-22"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1972-12-13",
-      "endDate": "1976-12-13"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1976-12-14",
-      "endDate": "1980-11-04"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1980-11-04",
-      "endDate": "1980-12-18"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1160963150",
-    "https://de.wikipedia.org/wiki/Alfons_Pawelczyk"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Alfons Pawelczyk",
@@ -115,7 +60,62 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001684",
     "gnd": "https://d-nb.info/gnd/1160963150",
-    "wikipedia": "https://de.wikipedia.org/wiki/Alfons_Pawelczyk",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Alfons_Pawelczyk"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1933-02-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Parnow/Kreis Köslin (heute: Parnowo, Polen)"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Oberst a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1969-10-20",
+      "endDate": "1972-09-22"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1972-12-13",
+      "endDate": "1976-12-13"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1976-12-14",
+      "endDate": "1980-11-04"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1980-11-04",
+      "endDate": "1980-12-18"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1160963150",
+    "https://de.wikipedia.org/wiki/Alfons_Pawelczyk"
+  ]
 }

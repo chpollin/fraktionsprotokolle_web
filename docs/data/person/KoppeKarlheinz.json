@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KoppeKarlheinz",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KoppeKarlheinz",
   "name": "Karlheinz Koppe",
   "givenName": "Karlheinz",
   "familyName": "Koppe",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1929",
-  "birthPlace": null,
-  "deathDate": "2014",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Sekretär der Europa-Union Deutschland; Mitglied des Bensberger Kreises"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119225735"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Karlheinz Koppe",
@@ -39,9 +29,16 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/119225735",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/119225735"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1929",
+  "deathDate": "2014",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Sekretär der Europa-Union Deutschland; Mitglied des Bensberger Kreises"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119225735"
+  ]
 }

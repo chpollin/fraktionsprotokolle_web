@@ -1,24 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ImhofSebastian",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ImhofSebastian",
   "name": "Sebastian Imhof",
   "givenName": "Sebastian",
   "familyName": "Imhof",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1892",
-  "birthPlace": null,
-  "deathDate": "1972",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Ministerialrat im Bayerischen Staatsministerium für Arbeit und Soziale Fürsorge"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/106014817X",
-    "https://viaf.org/viaf/311440403/"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Sebastian Imhof",
@@ -40,9 +29,18 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/106014817X",
-    "wikipedia": null,
     "viaf": "https://viaf.org/viaf/311440403/"
-  }
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1892",
+  "deathDate": "1972",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Ministerialrat im Bayerischen Staatsministerium für Arbeit und Soziale Fürsorge"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/106014817X",
+    "https://viaf.org/viaf/311440403/"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "Coste-FloretAlfred",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/Coste-FloretAlfred",
   "name": "Alfred Coste-Floret",
   "givenName": "Alfred",
   "familyName": "Coste-Floret",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1911-04-09",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Montpellier"
-  },
-  "deathDate": "1990-01-09",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Paris"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1946–1958 Abgeordneter der französischen Nationalversammlung"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1143183142",
-    "https://de.wikipedia.org/wiki/Alfred_Coste-Floret"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Alfred Coste-Floret",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1143183142",
-    "wikipedia": "https://de.wikipedia.org/wiki/Alfred_Coste-Floret",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Alfred_Coste-Floret"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1911-04-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Montpellier"
+  },
+  "deathDate": "1990-01-09",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1946–1958 Abgeordneter der französischen Nationalversammlung"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1143183142",
+    "https://de.wikipedia.org/wiki/Alfred_Coste-Floret"
+  ]
 }

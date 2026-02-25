@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DaubGerhard",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DaubGerhard",
   "name": "Gerhard Daub",
   "givenName": "Gerhard",
   "familyName": "Daub",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1928-09-08",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Weidenau (Siegen)"
-  },
-  "deathDate": "1993-02-27",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1958–1962 Bundesvorsitzender der Deutschen Jungdemokraten, 1958–1960 MdL Hessen (FDP), 1959–1969 Herausgeber der Zeitschrift »liberal«"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/113081260X",
-    "https://de.wikipedia.org/wiki/Gerhard_Daub"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Gerhard Daub",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/113081260X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Gerhard_Daub",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Gerhard_Daub"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1928-09-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Weidenau (Siegen)"
+  },
+  "deathDate": "1993-02-27",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1958–1962 Bundesvorsitzender der Deutschen Jungdemokraten, 1958–1960 MdL Hessen (FDP), 1959–1969 Herausgeber der Zeitschrift »liberal«"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/113081260X",
+    "https://de.wikipedia.org/wiki/Gerhard_Daub"
+  ]
 }

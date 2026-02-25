@@ -1,26 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RheingansUwe",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RheingansUwe",
   "name": "Uwe Rheingans",
   "givenName": "Uwe",
   "familyName": "Rheingans",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1929-01-10",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Duisburg"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1967–1971 MdL Schleswig-Holstein (NPD)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Uwe_Rheingans"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Uwe Rheingans",
@@ -42,9 +29,19 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://de.wikipedia.org/wiki/Uwe_Rheingans",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Uwe_Rheingans"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1929-01-10",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Duisburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1967–1971 MdL Schleswig-Holstein (NPD)"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Uwe_Rheingans"
+  ]
 }

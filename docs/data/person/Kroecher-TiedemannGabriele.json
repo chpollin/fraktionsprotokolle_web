@@ -1,24 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "Kroecher-TiedemannGabriele",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/Kroecher-TiedemannGabriele",
   "name": "Gabriele Kröcher-Tiedemann",
   "givenName": "Gabriele",
   "familyName": "Kröcher-Tiedemann",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1951-05-18",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Ziegendorf in Mecklenburg"
-  },
-  "deathDate": "1995-10-07",
-  "deathPlace": null,
-  "hasOccupation": null,
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/116828709X",
-    "https://de.wikipedia.org/wiki/Gabriele_Kr%C3%B6cher-Tiedemann"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Gabriele Kröcher-Tiedemann",
@@ -40,10 +29,19 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/116828709X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Gabriele_Kr%C3%B6cher-Tiedemann",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Gabriele_Kr%C3%B6cher-Tiedemann"
   },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1951-05-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Ziegendorf in Mecklenburg"
+  },
+  "deathDate": "1995-10-07",
+  "sameAs": [
+    "https://d-nb.info/gnd/116828709X",
+    "https://de.wikipedia.org/wiki/Gabriele_Kr%C3%B6cher-Tiedemann"
+  ],
   "fraktionsprotokolle:sonstiges": "1972 Gründungsmitglied der terroristischen Vereinigungen »Bewegung 2. Juni«"
 }

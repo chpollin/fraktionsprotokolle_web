@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KettelerWilhelmEmmanuelFreiherrvon",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KettelerWilhelmEmmanuelFreiherrvon",
   "name": "Wilhelm Emmanuel Freiherr von Ketteler",
   "givenName": "Wilhelm Emmanuel",
   "familyName": "Ketteler",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1811-12-25",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Münster"
-  },
-  "deathDate": "1877-07-13",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Burghausen"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1850–1877 Bischof von Mainz, 1870/71 MdR (Zentrum), Gründer der Katholischen Arbeiterbewegung"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118561723",
-    "https://de.wikipedia.org/wiki/Wilhelm_Emmanuel_von_Ketteler"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Wilhelm Emmanuel Freiherr von Ketteler",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118561723",
-    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_Emmanuel_von_Ketteler",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_Emmanuel_von_Ketteler"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1811-12-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Münster"
+  },
+  "deathDate": "1877-07-13",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Burghausen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1850–1877 Bischof von Mainz, 1870/71 MdR (Zentrum), Gründer der Katholischen Arbeiterbewegung"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118561723",
+    "https://de.wikipedia.org/wiki/Wilhelm_Emmanuel_von_Ketteler"
+  ]
 }

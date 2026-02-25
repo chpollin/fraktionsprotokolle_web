@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KittelWolfgangA",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KittelWolfgangA",
   "name": "Wolfgang A. Kittel",
   "givenName": "Wolfgang A.",
   "familyName": "Kittel",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1899-11-11",
-  "birthPlace": null,
-  "deathDate": "1967-02-27",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Vorstandsmitglied der Deutschen Lufthansa"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1105074595"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Wolfgang A. Kittel",
@@ -39,9 +29,16 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/1105074595",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/1105074595"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1899-11-11",
+  "deathDate": "1967-02-27",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Vorstandsmitglied der Deutschen Lufthansa"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1105074595"
+  ]
 }

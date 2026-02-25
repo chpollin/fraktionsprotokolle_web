@@ -1,10 +1,60 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BoehmeUlrich_1987-02-18",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BoehmeUlrich_1987-02-18",
   "name": "Ulrich Böhme",
   "givenName": "Ulrich",
   "familyName": "Böhme",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Ulrich Böhme",
+    "forename": "Ulrich",
+    "surname": "Böhme",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Unna)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1939-02-12",
+    "place": "Chemnitz/Sachsen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1996-02-07",
+    "place": "Unna",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 11,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1987-02-18",
+      "to": "1990-12-20"
+    },
+    {
+      "period": 12,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1990-12-20",
+      "to": "1994-11-10"
+    },
+    {
+      "period": 13,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1994-11-10",
+      "to": "1996-02-07"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000222",
+    "gnd": "https://d-nb.info/gnd/1048409031",
+    "wikipedia": "https://de.wikipedia.org/wiki/Ulrich_B%C3%B6hme_(Politiker)"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1939-02-12",
   "birthPlace": {
@@ -55,53 +105,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/1048409031",
     "https://de.wikipedia.org/wiki/Ulrich_B%C3%B6hme_(Politiker)"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Ulrich Böhme",
-    "forename": "Ulrich",
-    "surname": "Böhme",
-    "prefix": "",
-    "role_name": "",
-    "place": "(Unna)"
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1939-02-12",
-    "place": "Chemnitz/Sachsen",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1996-02-07",
-    "place": "Unna",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 11,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1987-02-18",
-      "to": "1990-12-20"
-    },
-    {
-      "period": 12,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1990-12-20",
-      "to": "1994-11-10"
-    },
-    {
-      "period": 13,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1994-11-10",
-      "to": "1996-02-07"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11000222",
-    "gnd": "https://d-nb.info/gnd/1048409031",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ulrich_B%C3%B6hme_(Politiker)",
-    "viaf": null
-  }
+  ]
 }

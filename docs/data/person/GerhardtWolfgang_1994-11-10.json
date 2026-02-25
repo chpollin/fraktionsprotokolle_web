@@ -1,10 +1,74 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GerhardtWolfgang_1994-11-10",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GerhardtWolfgang_1994-11-10",
   "name": "Wolfgang Gerhardt",
   "givenName": "Wolfgang",
   "familyName": "Gerhardt",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Wolfgang Gerhardt",
+    "forename": "Wolfgang",
+    "surname": "Gerhardt",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1943-12-31",
+    "place": "Ulrichstein-Helpershain",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2024-09-13",
+    "place": "Wiesbaden",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 13,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1994-11-10",
+      "to": "1998-10-26"
+    },
+    {
+      "period": 14,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1998-10-26",
+      "to": "2002-10-17"
+    },
+    {
+      "period": 15,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "2002-10-17",
+      "to": "2005-10-18"
+    },
+    {
+      "period": 16,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "2005-10-18",
+      "to": "2009-10-27"
+    },
+    {
+      "period": 17,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "2009-10-27",
+      "to": "2013-10-22"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002659",
+    "gnd": "https://d-nb.info/gnd/136495850",
+    "wikipedia": "https://de.wikipedia.org/wiki/Wolfgang_Gerhardt"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1943-12-31",
   "birthPlace": {
@@ -75,67 +139,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/136495850",
     "https://de.wikipedia.org/wiki/Wolfgang_Gerhardt"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Wolfgang Gerhardt",
-    "forename": "Wolfgang",
-    "surname": "Gerhardt",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1943-12-31",
-    "place": "Ulrichstein-Helpershain",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "2024-09-13",
-    "place": "Wiesbaden",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 13,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1994-11-10",
-      "to": "1998-10-26"
-    },
-    {
-      "period": 14,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1998-10-26",
-      "to": "2002-10-17"
-    },
-    {
-      "period": 15,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "2002-10-17",
-      "to": "2005-10-18"
-    },
-    {
-      "period": 16,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "2005-10-18",
-      "to": "2009-10-27"
-    },
-    {
-      "period": 17,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "2009-10-27",
-      "to": "2013-10-22"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11002659",
-    "gnd": "https://d-nb.info/gnd/136495850",
-    "wikipedia": "https://de.wikipedia.org/wiki/Wolfgang_Gerhardt",
-    "viaf": null
-  }
+  ]
 }

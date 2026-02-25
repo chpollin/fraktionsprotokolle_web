@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MoniacRuediger",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MoniacRuediger",
   "name": "Rüdiger Moniac",
   "givenName": "Rüdiger",
   "familyName": "Moniac",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1938-05-28",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "deathDate": "2010-01-23",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bonn"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Journalist, 1967–1976 bei der »Frankfurter Allgemeinen Zeitung«, seit 1976 Korrespondent der Zeitung »Die Welt« in Bonn"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Rüdiger Moniac",
@@ -42,10 +28,20 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Male",
+  "birthDate": "1938-05-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "2010-01-23",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist, 1967–1976 bei der »Frankfurter Allgemeinen Zeitung«, seit 1976 Korrespondent der Zeitung »Die Welt« in Bonn"
   }
 }

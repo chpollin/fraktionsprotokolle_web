@@ -1,58 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KatherLinus_1949-09-07",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KatherLinus_1949-09-07",
   "name": "Linus Kather",
   "givenName": "Linus",
   "familyName": "Kather",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1893-09-22",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Prossitten"
-  },
-  "deathDate": "1983-03-10",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Rechtsanwalt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1949-09-07",
-      "endDate": "1953-09-07"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion Gesamtdeutscher Block/Block der Heimatvertriebenen und Entrechteten",
-        "alternateName": "GB/BHE"
-      },
-      "startDate": "1954-06-15",
-      "endDate": "1957-10-06"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1953-10-06",
-      "endDate": "1957-10-06"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/118721178",
-    "https://de.wikipedia.org/wiki/Linus_Kather"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Linus Kather",
@@ -98,7 +53,53 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001072",
     "gnd": "https://d-nb.info/gnd/118721178",
-    "wikipedia": "https://de.wikipedia.org/wiki/Linus_Kather",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Linus_Kather"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1893-09-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Prossitten"
+  },
+  "deathDate": "1983-03-10",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsanwalt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Gesamtdeutscher Block/Block der Heimatvertriebenen und Entrechteten",
+        "alternateName": "GB/BHE"
+      },
+      "startDate": "1954-06-15",
+      "endDate": "1957-10-06"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/118721178",
+    "https://de.wikipedia.org/wiki/Linus_Kather"
+  ]
 }

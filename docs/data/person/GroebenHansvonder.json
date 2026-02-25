@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GroebenHansvonder",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GroebenHansvonder",
   "name": "Hans von der Groeben",
   "givenName": "Hans",
   "familyName": "Groeben",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1907-05-14",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Langheim, Landkreis Rastenburg, Ostpreußen (heute: Łankiejmy, Polen)"
-  },
-  "deathDate": "2005-03-06",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Rheinbach"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1958–1970 EWG-Kommissar, 1958–1967 Leiter der Abteilung für Wettbewerbspolitik, Rechtsangleichung und Steuerharmonisierung, 1967–1970 Leiter der Abt. für den internen Markt, Fiskal- und Regionalpolitik"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/11922464X",
-    "https://de.wikipedia.org/wiki/Hans_von_der_Groeben"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hans von der Groeben",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/11922464X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hans_von_der_Groeben",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_von_der_Groeben"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1907-05-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Langheim, Landkreis Rastenburg, Ostpreußen (heute: Łankiejmy, Polen)"
+  },
+  "deathDate": "2005-03-06",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Rheinbach"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1958–1970 EWG-Kommissar, 1958–1967 Leiter der Abteilung für Wettbewerbspolitik, Rechtsangleichung und Steuerharmonisierung, 1967–1970 Leiter der Abt. für den internen Markt, Fiskal- und Regionalpolitik"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/11922464X",
+    "https://de.wikipedia.org/wiki/Hans_von_der_Groeben"
+  ]
 }

@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WeiseMartin",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WeiseMartin",
   "name": "Martin Weise",
   "givenName": "Martin",
   "familyName": "Weise",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1901",
-  "birthPlace": null,
-  "deathDate": "1975",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "deutscher Ministerialbeamter, 1940–1945 Reichsministerium des Innern, 1947–1950 Rechnungshof für die britische Zone, 1950–1966 Bundesministerium der Finanzen (1950 Ministerialrat, 1955 Ministerialdirigent)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1030501890"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Martin Weise",
@@ -39,9 +29,16 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/1030501890",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/1030501890"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1901",
+  "deathDate": "1975",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Ministerialbeamter, 1940–1945 Reichsministerium des Innern, 1947–1950 Rechnungshof für die britische Zone, 1950–1966 Bundesministerium der Finanzen (1950 Ministerialrat, 1955 Ministerialdirigent)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1030501890"
+  ]
 }

@@ -1,10 +1,53 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "LuedersMarie-Elisabeth_1953-10-06",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/LuedersMarie-Elisabeth_1953-10-06",
   "name": "Marie-Elisabeth Lüders",
   "givenName": "Marie-Elisabeth",
   "familyName": "Lüders",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Marie-Elisabeth Lüders",
+    "forename": "Marie-Elisabeth",
+    "surname": "Lüders",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1878-06-25",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1966-03-23",
+    "place": "West-Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 3,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001391",
+    "gnd": "https://d-nb.info/gnd/118729551",
+    "wikipedia": "https://de.wikipedia.org/wiki/Marie-Elisabeth_L%C3%BCders"
+  },
   "gender": "https://schema.org/Female",
   "birthDate": "1878-06-25",
   "birthPlace": {
@@ -45,46 +88,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/118729551",
     "https://de.wikipedia.org/wiki/Marie-Elisabeth_L%C3%BCders"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Marie-Elisabeth Lüders",
-    "forename": "Marie-Elisabeth",
-    "surname": "Lüders",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1878-06-25",
-    "place": "Berlin",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1966-03-23",
-    "place": "West-Berlin",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 2,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1953-10-06",
-      "to": "1957-10-06"
-    },
-    {
-      "period": 3,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1957-10-15",
-      "to": "1961-10-15"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11001391",
-    "gnd": "https://d-nb.info/gnd/118729551",
-    "wikipedia": "https://de.wikipedia.org/wiki/Marie-Elisabeth_L%C3%BCders",
-    "viaf": null
-  }
+  ]
 }

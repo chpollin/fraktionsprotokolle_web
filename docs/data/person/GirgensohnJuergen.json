@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GirgensohnJuergen",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GirgensohnJuergen",
   "name": "Jürgen Girgensohn",
   "givenName": "Jürgen",
   "familyName": "Girgensohn",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1924-08-21",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Kassel"
-  },
-  "deathDate": "2007-07-24",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Nottingham"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1966–1985 MdL Nordrhein-Westfalen (SPD), 1970–1983 Kultusminister des Landes Nordrhein-Westfalen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/116635991",
-    "https://de.wikipedia.org/wiki/J%C3%BCrgen_Girgensohn"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Jürgen Girgensohn",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/116635991",
-    "wikipedia": "https://de.wikipedia.org/wiki/J%C3%BCrgen_Girgensohn",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/J%C3%BCrgen_Girgensohn"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1924-08-21",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kassel"
+  },
+  "deathDate": "2007-07-24",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Nottingham"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1966–1985 MdL Nordrhein-Westfalen (SPD), 1970–1983 Kultusminister des Landes Nordrhein-Westfalen"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/116635991",
+    "https://de.wikipedia.org/wiki/J%C3%BCrgen_Girgensohn"
+  ]
 }

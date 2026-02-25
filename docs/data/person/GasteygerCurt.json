@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GasteygerCurt",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GasteygerCurt",
   "name": "Curt Gasteyger",
   "givenName": "Curt Walter",
   "familyName": "Gasteyger",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1929-03-20",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Zürich"
-  },
-  "deathDate": "2020-07-14",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Genf"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Politologe, Jurist und Hochschullehrer, 1956–1959 Mitarbeiter des Forschungsinstituts der Deutschen Gesellschaft für Auswärtige Politik (DGAP) in Frankfurt am Main, 1959–1962 Tätigkeit bei der Internationalen Juristenkommission (ICJ) in Genf, 1964–1968 Studiendirektor am International Institute for Strategic Studies (IISS) in London, 1968–1974 stv. Direktor des Atlantic Institute for international Affairs in Paris, 1974–1994 Professor sowie 1978–1999 Leiter des Programms für Studien der Strategie und internationalen Sicherheit am Genfer Hochschulinstitut für internationale Studien (IUHEI), 1993–1998 Mitglied im Konsultativrat für Abrüstungsfragen der Vereinten Nationen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/120107708",
-    "https://de.wikipedia.org/wiki/Curt_Gasteyger"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Curt Gasteyger",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/120107708",
-    "wikipedia": "https://de.wikipedia.org/wiki/Curt_Gasteyger",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Curt_Gasteyger"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1929-03-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Zürich"
+  },
+  "deathDate": "2020-07-14",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Genf"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Politologe, Jurist und Hochschullehrer, 1956–1959 Mitarbeiter des Forschungsinstituts der Deutschen Gesellschaft für Auswärtige Politik (DGAP) in Frankfurt am Main, 1959–1962 Tätigkeit bei der Internationalen Juristenkommission (ICJ) in Genf, 1964–1968 Studiendirektor am International Institute for Strategic Studies (IISS) in London, 1968–1974 stv. Direktor des Atlantic Institute for international Affairs in Paris, 1974–1994 Professor sowie 1978–1999 Leiter des Programms für Studien der Strategie und internationalen Sicherheit am Genfer Hochschulinstitut für internationale Studien (IUHEI), 1993–1998 Mitglied im Konsultativrat für Abrüstungsfragen der Vereinten Nationen"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/120107708",
+    "https://de.wikipedia.org/wiki/Curt_Gasteyger"
+  ]
 }

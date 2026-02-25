@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BewerungeLothar",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BewerungeLothar",
   "name": "Lothar Bewerunge",
   "givenName": "Lothar",
   "familyName": "Bewerunge",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1934",
-  "birthPlace": null,
-  "deathDate": "1989",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "dt. Journalist, 1960 Redakteur der Deutschen Zeitung in Köln, 1962 Korrespondent der Deutschen Zeitung in Düsseldorf, seit 1964 Korrespondent der Frankfurter Allgemeinen Zeitung in Düsseldorf"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1023441381"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Lothar Bewerunge",
@@ -39,9 +29,16 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/1023441381",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/1023441381"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1934",
+  "deathDate": "1989",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "dt. Journalist, 1960 Redakteur der Deutschen Zeitung in Köln, 1962 Korrespondent der Deutschen Zeitung in Düsseldorf, seit 1964 Korrespondent der Frankfurter Allgemeinen Zeitung in Düsseldorf"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1023441381"
+  ]
 }

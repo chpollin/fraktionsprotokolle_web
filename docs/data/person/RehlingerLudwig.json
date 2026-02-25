@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RehlingerLudwig",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RehlingerLudwig",
   "name": "Ludwig Rehlinger",
   "givenName": "Ludwig A.",
   "familyName": "Rehlinger",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1927-09-23",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Jurist und Politiker, 1969–1971 Präsident des Gesamtdeutschen Instituts – Bundesanstalt für gesamtdeutsche Aufgaben; 1971–1973 Büroleiter des CDU/CSU-Fraktionsvorsitzenden Barzel"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/111020573",
-    "https://de.wikipedia.org/wiki/Ludwig_A._Rehlinger"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Ludwig Rehlinger",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/111020573",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ludwig_A._Rehlinger",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ludwig_A._Rehlinger"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1927-09-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Jurist und Politiker, 1969–1971 Präsident des Gesamtdeutschen Instituts – Bundesanstalt für gesamtdeutsche Aufgaben; 1971–1973 Büroleiter des CDU/CSU-Fraktionsvorsitzenden Barzel"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/111020573",
+    "https://de.wikipedia.org/wiki/Ludwig_A._Rehlinger"
+  ]
 }

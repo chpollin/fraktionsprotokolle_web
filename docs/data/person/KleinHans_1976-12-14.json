@@ -1,10 +1,80 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KleinHans_1976-12-14",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KleinHans_1976-12-14",
   "name": "Hans Klein",
   "givenName": "Hans",
   "familyName": "Klein",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans Klein",
+    "forename": "Hans",
+    "surname": "Klein",
+    "prefix": "",
+    "role_name": "",
+    "place": "(München)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1931-07-11",
+    "place": "Mährisch-Schönberg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1996-11-26",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 8,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1976-12-14",
+      "to": "1980-11-04"
+    },
+    {
+      "period": 9,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1980-11-04",
+      "to": "1983-03-29"
+    },
+    {
+      "period": 10,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1983-03-29",
+      "to": "1987-02-18"
+    },
+    {
+      "period": 11,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1987-02-18",
+      "to": "1990-12-20"
+    },
+    {
+      "period": 12,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1990-12-20",
+      "to": "1994-11-10"
+    },
+    {
+      "period": 13,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1994-11-10",
+      "to": "1996-11-26"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001114",
+    "gnd": "https://d-nb.info/gnd/118948024"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1931-07-11",
   "birthPlace": {
@@ -12,7 +82,6 @@
     "name": "Mährisch-Schönberg"
   },
   "deathDate": "1996-11-26",
-  "deathPlace": null,
   "hasOccupation": {
     "@type": "Occupation",
     "name": "Vizepräsident DBT a. D., Journalist, Bundesminister a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
@@ -81,74 +150,5 @@
   ],
   "sameAs": [
     "https://d-nb.info/gnd/118948024"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Hans Klein",
-    "forename": "Hans",
-    "surname": "Klein",
-    "prefix": "",
-    "role_name": "",
-    "place": "(München)"
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1931-07-11",
-    "place": "Mährisch-Schönberg",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1996-11-26",
-    "place": "",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 8,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1976-12-14",
-      "to": "1980-11-04"
-    },
-    {
-      "period": 9,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1980-11-04",
-      "to": "1983-03-29"
-    },
-    {
-      "period": 10,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1983-03-29",
-      "to": "1987-02-18"
-    },
-    {
-      "period": 11,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1987-02-18",
-      "to": "1990-12-20"
-    },
-    {
-      "period": 12,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1990-12-20",
-      "to": "1994-11-10"
-    },
-    {
-      "period": 13,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1994-11-10",
-      "to": "1996-11-26"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11001114",
-    "gnd": "https://d-nb.info/gnd/118948024",
-    "wikipedia": null,
-    "viaf": null
-  }
+  ]
 }

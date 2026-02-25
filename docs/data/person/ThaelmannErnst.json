@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ThaelmannErnst",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ThaelmannErnst",
   "name": "Ernst Thälmann",
   "givenName": "Ernst",
   "familyName": "Thälmann",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1886-04-16",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Hamburg"
-  },
-  "deathDate": "1944-08-18",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Weimar"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1924–1933 MdR (KPD), 1925–1933 Vorsitzender der KPD"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118621505",
-    "https://de.wikipedia.org/wiki/Ernst_Th%C3%A4lmann"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Ernst Thälmann",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118621505",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ernst_Th%C3%A4lmann",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ernst_Th%C3%A4lmann"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1886-04-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "deathDate": "1944-08-18",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Weimar"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1924–1933 MdR (KPD), 1925–1933 Vorsitzender der KPD"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118621505",
+    "https://de.wikipedia.org/wiki/Ernst_Th%C3%A4lmann"
+  ]
 }

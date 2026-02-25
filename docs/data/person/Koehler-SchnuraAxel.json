@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "Koehler-SchnuraAxel",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/Koehler-SchnuraAxel",
   "name": "Axel Köhler-Schnura",
   "givenName": "Axel",
   "familyName": "Köhler-Schnura",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1949-04-30",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Hof"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Dipl.-Kaufmann, umwelt- und sozialpolitischer Aktivist sowie Konzernkritiker, 1983-2010 Gründungsmitglied sowie Vorstand des Coordination gegen Bayer-Gefahren e. V."
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1018818227",
-    "https://de.wikipedia.org/wiki/Axel_K%C3%B6hler-Schnura"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Axel Köhler-Schnura",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1018818227",
-    "wikipedia": "https://de.wikipedia.org/wiki/Axel_K%C3%B6hler-Schnura",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Axel_K%C3%B6hler-Schnura"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1949-04-30",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hof"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Kaufmann, umwelt- und sozialpolitischer Aktivist sowie Konzernkritiker, 1983-2010 Gründungsmitglied sowie Vorstand des Coordination gegen Bayer-Gefahren e. V."
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1018818227",
+    "https://de.wikipedia.org/wiki/Axel_K%C3%B6hler-Schnura"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SmithSidneyEarle",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SmithSidneyEarle",
   "name": "Sidney Earle Smith",
   "givenName": "Sidney Earle",
   "familyName": "Smith",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1897-03-09",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Port Hood, Nova Scotia"
-  },
-  "deathDate": "1959-03-17",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Ottawa, Ontario"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1957–1959 kanadischer Außenminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/172378761",
-    "https://de.wikipedia.org/wiki/Sidney_Earle_Smith"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Sidney Earle Smith",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/172378761",
-    "wikipedia": "https://de.wikipedia.org/wiki/Sidney_Earle_Smith",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Sidney_Earle_Smith"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1897-03-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Port Hood, Nova Scotia"
+  },
+  "deathDate": "1959-03-17",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Ottawa, Ontario"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1957–1959 kanadischer Außenminister"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/172378761",
+    "https://de.wikipedia.org/wiki/Sidney_Earle_Smith"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GoltzColmarFreiherrvonder",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GoltzColmarFreiherrvonder",
   "name": "Colmar Freiherr von der Goltz",
   "givenName": "Colmar",
   "familyName": "Goltz",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1843-08-12",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Adlig Bielkenfeld, Kreis Labiau, Ostpreußen (heute: Iwanowka, Kaliningrad, Russland)"
-  },
-  "deathDate": "1916-04-19",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bagdad"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "preußischer Generalfeldmarschall, 1883–1895 Militärberater im Osmanischen Reich, 1915/16 Ober¬befehlshaber der sechsten türkischen Armee"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118696319",
-    "https://de.wikipedia.org/wiki/Colmar_von_der_Goltz"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Colmar Freiherr von der Goltz",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118696319",
-    "wikipedia": "https://de.wikipedia.org/wiki/Colmar_von_der_Goltz",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Colmar_von_der_Goltz"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1843-08-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Adlig Bielkenfeld, Kreis Labiau, Ostpreußen (heute: Iwanowka, Kaliningrad, Russland)"
+  },
+  "deathDate": "1916-04-19",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bagdad"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "preußischer Generalfeldmarschall, 1883–1895 Militärberater im Osmanischen Reich, 1915/16 Ober¬befehlshaber der sechsten türkischen Armee"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118696319",
+    "https://de.wikipedia.org/wiki/Colmar_von_der_Goltz"
+  ]
 }

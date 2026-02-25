@@ -1,10 +1,60 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WallnerJosef_1949-09-07",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WallnerJosef_1949-09-07",
   "name": "Josef Wallner",
   "givenName": "Josef",
   "familyName": "Wallner",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Josef Wallner",
+    "forename": "Josef",
+    "surname": "Wallner",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1908-05-10",
+    "place": "Schierling",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1991-04-19",
+    "place": "Mallersdorf",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "Fraktionslos",
+      "faction_full": "Fraktionslos",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 1,
+      "faction": "DP/DPB",
+      "faction_full": "Fraktion Deutsche Partei/Deutsche Partei Bayern",
+      "from": "1951-12-06",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 1,
+      "faction": "Fraktionslos",
+      "faction_full": "Fraktionslos",
+      "from": "1952-12-09",
+      "to": "1953-09-07"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002416",
+    "gnd": "https://d-nb.info/gnd/1313812722",
+    "wikipedia": "https://de.wikipedia.org/wiki/Josef_Wallner_(Politiker,_1908)"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1908-05-10",
   "birthPlace": {
@@ -55,53 +105,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/1313812722",
     "https://de.wikipedia.org/wiki/Josef_Wallner_(Politiker,_1908)"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Josef Wallner",
-    "forename": "Josef",
-    "surname": "Wallner",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1908-05-10",
-    "place": "Schierling",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1991-04-19",
-    "place": "Mallersdorf",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 1,
-      "faction": "Fraktionslos",
-      "faction_full": "Fraktionslos",
-      "from": "1949-09-07",
-      "to": "1953-09-07"
-    },
-    {
-      "period": 1,
-      "faction": "DP/DPB",
-      "faction_full": "Fraktion Deutsche Partei/Deutsche Partei Bayern",
-      "from": "1951-12-06",
-      "to": "1953-09-07"
-    },
-    {
-      "period": 1,
-      "faction": "Fraktionslos",
-      "faction_full": "Fraktionslos",
-      "from": "1952-12-09",
-      "to": "1953-09-07"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11002416",
-    "gnd": "https://d-nb.info/gnd/1313812722",
-    "wikipedia": "https://de.wikipedia.org/wiki/Josef_Wallner_(Politiker,_1908)",
-    "viaf": null
-  }
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BiallasDieter",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BiallasDieter",
   "name": "Dieter Biallas",
   "givenName": "Dieter",
   "familyName": "Biallas",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1936-06-19",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Eydtkuhnen (heute: Tschernyschewskoje, Russland)"
-  },
-  "deathDate": "2016-07-17",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Hamburg"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Professor für Mathematik, 1974–1978 Mitglied der Hamburgischen Bürgerschaft (FDP), 1974–1978 Senator für Wissenschaft und Kunst sowie Zweiter Bürgermeister der Hansestadt Hamburg"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1082212229",
-    "https://de.wikipedia.org/wiki/Dieter_Biallas"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Dieter Biallas",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1082212229",
-    "wikipedia": "https://de.wikipedia.org/wiki/Dieter_Biallas",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Dieter_Biallas"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1936-06-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Eydtkuhnen (heute: Tschernyschewskoje, Russland)"
+  },
+  "deathDate": "2016-07-17",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Professor für Mathematik, 1974–1978 Mitglied der Hamburgischen Bürgerschaft (FDP), 1974–1978 Senator für Wissenschaft und Kunst sowie Zweiter Bürgermeister der Hansestadt Hamburg"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1082212229",
+    "https://de.wikipedia.org/wiki/Dieter_Biallas"
+  ]
 }

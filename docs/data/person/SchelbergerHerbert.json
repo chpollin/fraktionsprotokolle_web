@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchelbergerHerbert",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchelbergerHerbert",
   "name": "Herbert Schelberger",
   "givenName": "Herbert",
   "familyName": "Schelberger",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1908",
-  "birthPlace": null,
-  "deathDate": "1980",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Vorsitzender des Vorstands der Ruhrgas AG, Essen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/140465448"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Herbert Schelberger",
@@ -39,9 +29,16 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/140465448",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/140465448"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1908",
+  "deathDate": "1980",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Vorsitzender des Vorstands der Ruhrgas AG, Essen"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/140465448"
+  ]
 }

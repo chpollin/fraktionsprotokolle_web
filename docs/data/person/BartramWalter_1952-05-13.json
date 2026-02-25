@@ -1,10 +1,53 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BartramWalter_1952-05-13",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BartramWalter_1952-05-13",
   "name": "Walter Bartram",
   "givenName": "Walter",
   "familyName": "Bartram",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Walter Bartram",
+    "forename": "Walter",
+    "surname": "Bartram",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1893-04-21",
+    "place": "Neumünster",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1971-09-29",
+    "place": "Latendorf",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1952-05-13",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 2,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000099",
+    "gnd": "https://d-nb.info/gnd/125999844",
+    "wikipedia": "https://de.wikipedia.org/wiki/Walter_Bartram"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1893-04-21",
   "birthPlace": {
@@ -45,46 +88,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/125999844",
     "https://de.wikipedia.org/wiki/Walter_Bartram"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Walter Bartram",
-    "forename": "Walter",
-    "surname": "Bartram",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1893-04-21",
-    "place": "Neumünster",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1971-09-29",
-    "place": "Latendorf",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 1,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1952-05-13",
-      "to": "1953-09-07"
-    },
-    {
-      "period": 2,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1953-10-06",
-      "to": "1957-10-06"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11000099",
-    "gnd": "https://d-nb.info/gnd/125999844",
-    "wikipedia": "https://de.wikipedia.org/wiki/Walter_Bartram",
-    "viaf": null
-  }
+  ]
 }

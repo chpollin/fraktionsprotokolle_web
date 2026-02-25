@@ -1,21 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KhanbabaTeheraniMehdi",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KhanbabaTeheraniMehdi",
   "name": "Mehdi Khanbaba Teherani",
   "givenName": "Mehdi",
   "familyName": "Khanbaba Teherani",
-  "gender": "https://schema.org/Male",
-  "birthDate": null,
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1975 Funktionär der linksradikalen iranischen Studentenvereinigung Cisnu, Mitgründer der marxistisch-leninistische Organisation Goruhe Kadreh (Kadergruppe), ehem. Mitglied der Tudeh-Partei, Mitarbeiter des Radio Peking Persian Service, Anführer der Nationalen Demokratischen Front"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Mehdi Khanbaba Teherani",
@@ -36,10 +28,10 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Male",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1975 Funktionär der linksradikalen iranischen Studentenvereinigung Cisnu, Mitgründer der marxistisch-leninistische Organisation Goruhe Kadreh (Kadergruppe), ehem. Mitglied der Tudeh-Partei, Mitarbeiter des Radio Peking Persian Service, Anführer der Nationalen Demokratischen Front"
   }
 }

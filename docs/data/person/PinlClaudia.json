@@ -1,24 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PinlClaudia",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PinlClaudia",
   "name": "Claudia Pinl",
   "givenName": "Claudia",
   "familyName": "Pinl",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1941",
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Politikwissenschaftlerin und Journalistin; Mitarbeiterin der Grünen-Bundestagsfraktion in der 11. Wahlperiode"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/122369807",
-    "https://de.wikipedia.org/wiki/Claudia_Pinl"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Claudia Pinl",
@@ -40,9 +29,17 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/122369807",
-    "wikipedia": "https://de.wikipedia.org/wiki/Claudia_Pinl",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Claudia_Pinl"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1941",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Politikwissenschaftlerin und Journalistin; Mitarbeiterin der Grünen-Bundestagsfraktion in der 11. Wahlperiode"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/122369807",
+    "https://de.wikipedia.org/wiki/Claudia_Pinl"
+  ]
 }

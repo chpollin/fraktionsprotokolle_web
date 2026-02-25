@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RifkinJeremy",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RifkinJeremy",
   "name": "Jeremy Rifkin",
   "givenName": "Jeremy",
   "familyName": "Rifkin",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1945-01-26",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Denver, Colorado"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "US-amerikanischer Ökonom und Publizist, 1977 Gründer der Foundation on Economic Trends"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/11548857X",
-    "https://de.wikipedia.org/wiki/Jeremy_Rifkin"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Jeremy Rifkin",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/11548857X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Jeremy_Rifkin",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Jeremy_Rifkin"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1945-01-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Denver, Colorado"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "US-amerikanischer Ökonom und Publizist, 1977 Gründer der Foundation on Economic Trends"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/11548857X",
+    "https://de.wikipedia.org/wiki/Jeremy_Rifkin"
+  ]
 }

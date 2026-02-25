@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SpinolaAntoniode",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SpinolaAntoniode",
   "name": "António de Spínola",
   "givenName": "António",
   "familyName": "Spínola",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1910-04-11",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Estremoz"
-  },
-  "deathDate": "1996-08-13",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Lissabon"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "portugiesischer General und Mitglied der »Bewegung der Streitkräfte«, April bis September 1974 Präsident der »Junta der Nationalen Rettung« und Mai bis September 1974 Präsident der Republik Portugalnach der Nelkenrevolution von April bis September 1974 Präsident der Übergangsregierung Junta de Salvação Nacional, damit der erste Präsident der Dritten Portugiesischen Republik"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118616234",
-    "https://de.wikipedia.org/wiki/Ant%C3%B3nio_de_Sp%C3%ADnola"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "António de Spínola",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118616234",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ant%C3%B3nio_de_Sp%C3%ADnola",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ant%C3%B3nio_de_Sp%C3%ADnola"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1910-04-11",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Estremoz"
+  },
+  "deathDate": "1996-08-13",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Lissabon"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "portugiesischer General und Mitglied der »Bewegung der Streitkräfte«, April bis September 1974 Präsident der »Junta der Nationalen Rettung« und Mai bis September 1974 Präsident der Republik Portugalnach der Nelkenrevolution von April bis September 1974 Präsident der Übergangsregierung Junta de Salvação Nacional, damit der erste Präsident der Dritten Portugiesischen Republik"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118616234",
+    "https://de.wikipedia.org/wiki/Ant%C3%B3nio_de_Sp%C3%ADnola"
+  ]
 }

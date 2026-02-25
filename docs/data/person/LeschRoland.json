@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "LeschRoland",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/LeschRoland",
   "name": "Roland Lesch",
   "givenName": "Roland",
   "familyName": "Lesch",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1945",
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1978 Mitarbeiter der CSU-Landesgruppe, 1996 Mininisterialdirigent im Bundesministerium für Ernährung, Landwirtschaft und Forsten"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1145459285"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Roland Lesch",
@@ -39,9 +29,15 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/1145459285",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/1145459285"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1945",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1978 Mitarbeiter der CSU-Landesgruppe, 1996 Mininisterialdirigent im Bundesministerium für Ernährung, Landwirtschaft und Forsten"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1145459285"
+  ]
 }

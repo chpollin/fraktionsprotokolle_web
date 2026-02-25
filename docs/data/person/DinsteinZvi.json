@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DinsteinZvi",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DinsteinZvi",
   "name": "Zvi Dinstein",
   "givenName": "Zvi",
   "familyName": "Dinstein",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1926-07-24",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Tel Aviv"
-  },
-  "deathDate": "2012-04-10",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Staatssekretär im israelischen Verteidigungsministerium, 1966/67 stv. Verteidigungsminister, 1967–1974 stv. Finanzminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1186666455",
-    "https://de.wikipedia.org/wiki/Zwi_Dinstein"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Zvi Dinstein",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1186666455",
-    "wikipedia": "https://de.wikipedia.org/wiki/Zwi_Dinstein",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Zwi_Dinstein"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1926-07-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Tel Aviv"
+  },
+  "deathDate": "2012-04-10",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Staatssekretär im israelischen Verteidigungsministerium, 1966/67 stv. Verteidigungsminister, 1967–1974 stv. Finanzminister"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1186666455",
+    "https://de.wikipedia.org/wiki/Zwi_Dinstein"
+  ]
 }

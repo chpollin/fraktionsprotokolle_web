@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "LobodyczMieczyslaw",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/LobodyczMieczyslaw",
   "name": "Mieczyslaw Lobodycz",
   "givenName": "Mieczyslaw",
   "familyName": "Lobodycz",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1911",
-  "birthPlace": null,
-  "deathDate": "2002",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Leiter der Abteilung »West« im polnischen Außenministerium"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://pl.wikipedia.org/wiki/Mieczys%C5%82aw_%C5%81obodycz"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Mieczyslaw Lobodycz",
@@ -39,9 +29,16 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://pl.wikipedia.org/wiki/Mieczys%C5%82aw_%C5%81obodycz",
-    "viaf": null
-  }
+    "wikipedia": "https://pl.wikipedia.org/wiki/Mieczys%C5%82aw_%C5%81obodycz"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1911",
+  "deathDate": "2002",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Leiter der Abteilung »West« im polnischen Außenministerium"
+  },
+  "sameAs": [
+    "https://pl.wikipedia.org/wiki/Mieczys%C5%82aw_%C5%81obodycz"
+  ]
 }

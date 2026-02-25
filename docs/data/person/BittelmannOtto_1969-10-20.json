@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BittelmannOtto_1969-10-20",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BittelmannOtto_1969-10-20",
   "name": "Otto Bittelmann",
   "givenName": "Otto",
   "familyName": "Bittelmann",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1911-08-05",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Schönholz"
-  },
-  "deathDate": "2000-11-26",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Walsrode"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Landwirt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1969-10-20",
-      "endDate": "1972-09-22"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/103466736X",
-    "https://de.wikipedia.org/wiki/Otto_Bittelmann"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Otto Bittelmann",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000187",
     "gnd": "https://d-nb.info/gnd/103466736X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Otto_Bittelmann",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Otto_Bittelmann"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1911-08-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Schönholz"
+  },
+  "deathDate": "2000-11-26",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Walsrode"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Landwirt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1969-10-20",
+      "endDate": "1972-09-22"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/103466736X",
+    "https://de.wikipedia.org/wiki/Otto_Bittelmann"
+  ]
 }

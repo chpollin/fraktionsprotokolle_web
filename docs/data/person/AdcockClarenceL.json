@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "AdcockClarenceL",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/AdcockClarenceL",
   "name": "Clarence L. Adcock",
   "givenName": "Clarence Lionel",
   "familyName": "Adcock",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1895-10-23",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Waltham, Massachusetts"
-  },
-  "deathDate": "1967-01-09",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Tucson, Arizona"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "US-amerikanischer Generalmajor, 1946 stellvertretender US-Militärgouverneur für Deutschland, 1948–1949 US-Vorsitzender der Kontrollstelle für den Wirtschafts- und Länderrat der Bizone"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Clarence_Adcock",
-    "http://viaf.org/viaf/9542552"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Clarence L. Adcock",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
     "wikipedia": "https://de.wikipedia.org/wiki/Clarence_Adcock",
     "viaf": "http://viaf.org/viaf/9542552"
-  }
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1895-10-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Waltham, Massachusetts"
+  },
+  "deathDate": "1967-01-09",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Tucson, Arizona"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "US-amerikanischer Generalmajor, 1946 stellvertretender US-Militärgouverneur für Deutschland, 1948–1949 US-Vorsitzender der Kontrollstelle für den Wirtschafts- und Länderrat der Bizone"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Clarence_Adcock",
+    "http://viaf.org/viaf/9542552"
+  ]
 }

@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RohrbachHeinrich-Constantin",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RohrbachHeinrich-Constantin",
   "name": "Heinrich-Constantin Rohrbach",
   "givenName": "Heinrich-Constantin",
   "familyName": "Rohrbach",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1928",
-  "birthPlace": null,
-  "deathDate": "2007",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Evangelischer Theologe, 1952–1955 Jugendabteilung Ökumenischer Rat der Kirchen, 1956–1958 Evangelische Akademie Bad Boll, 1958–1968 Evangelische Studentengemeinde in der Bundesrepublik Deutschland und Berlin, West, 1968–1976 Direktor des Burckhardthaus (Evangelisches Institut für Jugend-, Kultur- und Sozialarbeit), 1976–1989 Leiter der Arbeitsstelle für Erwachsenen- und Familienbildung in der Evangelischen Kirche von Westfalen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1148803769"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Heinrich-Constantin Rohrbach",
@@ -39,9 +29,16 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/1148803769",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/1148803769"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1928",
+  "deathDate": "2007",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Evangelischer Theologe, 1952–1955 Jugendabteilung Ökumenischer Rat der Kirchen, 1956–1958 Evangelische Akademie Bad Boll, 1958–1968 Evangelische Studentengemeinde in der Bundesrepublik Deutschland und Berlin, West, 1968–1976 Direktor des Burckhardthaus (Evangelisches Institut für Jugend-, Kultur- und Sozialarbeit), 1976–1989 Leiter der Arbeitsstelle für Erwachsenen- und Familienbildung in der Evangelischen Kirche von Westfalen"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1148803769"
+  ]
 }

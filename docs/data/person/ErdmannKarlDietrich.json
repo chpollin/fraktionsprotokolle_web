@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ErdmannKarlDietrich",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ErdmannKarlDietrich",
   "name": "Karl Dietrich Erdmann",
   "givenName": "Karl Dietrich",
   "familyName": "Erdmann",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1910-04-29",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Mülheim am Rhein"
-  },
-  "deathDate": "1990-06-23",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Kiel"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1953–1978 Professor für Neuere Geschichte an der Universität Kiel, 1966–1970 Vorsitzender des Deutschen Bildungsrats"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118530739",
-    "https://de.wikipedia.org/wiki/Karl_Dietrich_Erdmann"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Karl Dietrich Erdmann",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118530739",
-    "wikipedia": "https://de.wikipedia.org/wiki/Karl_Dietrich_Erdmann",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Karl_Dietrich_Erdmann"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1910-04-29",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Mülheim am Rhein"
+  },
+  "deathDate": "1990-06-23",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Kiel"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1953–1978 Professor für Neuere Geschichte an der Universität Kiel, 1966–1970 Vorsitzender des Deutschen Bildungsrats"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118530739",
+    "https://de.wikipedia.org/wiki/Karl_Dietrich_Erdmann"
+  ]
 }

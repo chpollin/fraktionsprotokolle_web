@@ -1,29 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BundKarlheinz",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BundKarlheinz",
   "name": "Karlheinz Bund",
   "givenName": "Karlheinz",
   "familyName": "Bund",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1925-03-18",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Saarlouis"
-  },
-  "deathDate": "2012-07-17",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Essen"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1963-1973 Vorstandsvorsitzender der Steag AG, 1973-1985 der Ruhrkohle AG"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/189410248"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Karlheinz Bund",
@@ -45,9 +29,24 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/189410248",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/189410248"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1925-03-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Saarlouis"
+  },
+  "deathDate": "2012-07-17",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Essen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1963-1973 Vorstandsvorsitzender der Steag AG, 1973-1985 der Ruhrkohle AG"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/189410248"
+  ]
 }

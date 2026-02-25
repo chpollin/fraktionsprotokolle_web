@@ -1,31 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ZwartJoop",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ZwartJoop",
   "name": "Joop Zwart",
   "givenName": "Johannes Hendrikus »Joop«",
   "familyName": "Zwart",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1912-10-06",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Amsterdam"
-  },
-  "deathDate": "1991",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Roermond"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "politischer Aktivist, Widerstandskämpfer, Kommunist und Journalist, Kämpfer im Spanischen Bürgerkrieg und im niderländischen Widerstand während des Zweiten Weltkriegs"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/128600780",
-    "https://nl.wikipedia.org/wiki/Joop_Zwart",
-    "http://viaf.org/viaf/30593249"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Joop Zwart",
@@ -47,10 +29,29 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/128600780",
     "wikipedia": "https://nl.wikipedia.org/wiki/Joop_Zwart",
     "viaf": "http://viaf.org/viaf/30593249"
   },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1912-10-06",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Amsterdam"
+  },
+  "deathDate": "1991",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Roermond"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "politischer Aktivist, Widerstandskämpfer, Kommunist und Journalist, Kämpfer im Spanischen Bürgerkrieg und im niderländischen Widerstand während des Zweiten Weltkriegs"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/128600780",
+    "https://nl.wikipedia.org/wiki/Joop_Zwart",
+    "http://viaf.org/viaf/30593249"
+  ],
   "fraktionsprotokolle:sonstiges": "1959/60 Mitglied der Kommission »Internationaler Untersuchungsausschuß Lemberg 1941« zur Untersuchung der Vorwürfe gegen Bundesvertriebenenminister Oberländer"
 }

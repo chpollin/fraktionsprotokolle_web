@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FelfeHeinz",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FelfeHeinz",
   "name": "Heinz Felfe",
   "givenName": "Heinz",
   "familyName": "Felfe",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1918-03-18",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Dresden"
-  },
-  "deathDate": "2008-05-08",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "ehem. Leiter des Referates »Sowjetunion« beim Bundesnachrichtendienst, 1961 verhaftet und 1963 wegen Spionage für die Sowjetunion verurteilt"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118809946",
-    "https://de.wikipedia.org/wiki/Heinz_Felfe"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Heinz Felfe",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118809946",
-    "wikipedia": "https://de.wikipedia.org/wiki/Heinz_Felfe",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Heinz_Felfe"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1918-03-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Dresden"
+  },
+  "deathDate": "2008-05-08",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "ehem. Leiter des Referates »Sowjetunion« beim Bundesnachrichtendienst, 1961 verhaftet und 1963 wegen Spionage für die Sowjetunion verurteilt"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118809946",
+    "https://de.wikipedia.org/wiki/Heinz_Felfe"
+  ]
 }

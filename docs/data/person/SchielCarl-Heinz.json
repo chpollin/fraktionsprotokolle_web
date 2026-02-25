@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchielCarl-Heinz",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchielCarl-Heinz",
   "name": "Carl-Heinz Schiel",
   "givenName": "Carl-Heinz",
   "familyName": "Schiel",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1922",
-  "birthPlace": null,
-  "deathDate": "2018",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "deutscher Jurist und Wissenschaftsmanager, seit 1965 Generalsekretär der Deutschen Forschungsgemeinschaft"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/116349545X"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Carl-Heinz Schiel",
@@ -39,9 +29,16 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/116349545X",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/116349545X"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1922",
+  "deathDate": "2018",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Jurist und Wissenschaftsmanager, seit 1965 Generalsekretär der Deutschen Forschungsgemeinschaft"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/116349545X"
+  ]
 }

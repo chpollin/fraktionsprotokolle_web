@@ -1,10 +1,53 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KoehlerErich_1949-09-07",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KoehlerErich_1949-09-07",
   "name": "Erich Köhler",
   "givenName": "Erich",
   "familyName": "Köhler",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Erich Köhler",
+    "forename": "Erich",
+    "surname": "Köhler",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1892-06-27",
+    "place": "Erfurt",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1958-10-23",
+    "place": "Wiesbaden",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 2,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001150",
+    "gnd": "https://d-nb.info/gnd/129496901",
+    "wikipedia": "https://de.wikipedia.org/wiki/Erich_K%C3%B6hler"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1892-06-27",
   "birthPlace": {
@@ -45,46 +88,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/129496901",
     "https://de.wikipedia.org/wiki/Erich_K%C3%B6hler"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Erich Köhler",
-    "forename": "Erich",
-    "surname": "Köhler",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1892-06-27",
-    "place": "Erfurt",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1958-10-23",
-    "place": "Wiesbaden",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 1,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1949-09-07",
-      "to": "1953-09-07"
-    },
-    {
-      "period": 2,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1953-10-06",
-      "to": "1957-10-06"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11001150",
-    "gnd": "https://d-nb.info/gnd/129496901",
-    "wikipedia": "https://de.wikipedia.org/wiki/Erich_K%C3%B6hler",
-    "viaf": null
-  }
+  ]
 }

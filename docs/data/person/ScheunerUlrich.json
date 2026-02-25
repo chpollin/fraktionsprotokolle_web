@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ScheunerUlrich",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ScheunerUlrich",
   "name": "Ulrich Scheuner",
   "givenName": "Ulrich",
   "familyName": "Scheuner",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1903-12-24",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Düsseldorf"
-  },
-  "deathDate": "1981-02-25",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bonn"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Staats- und Staatskirchenrechtler, 1950–1972 Professor für Öffentliches Recht an der Universität Bonn"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118607332",
-    "https://de.wikipedia.org/wiki/Ulrich_Scheuner"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Ulrich Scheuner",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118607332",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ulrich_Scheuner",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ulrich_Scheuner"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1903-12-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Düsseldorf"
+  },
+  "deathDate": "1981-02-25",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Staats- und Staatskirchenrechtler, 1950–1972 Professor für Öffentliches Recht an der Universität Bonn"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118607332",
+    "https://de.wikipedia.org/wiki/Ulrich_Scheuner"
+  ]
 }

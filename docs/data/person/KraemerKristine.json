@@ -1,21 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KraemerKristine",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KraemerKristine",
   "name": "Kristine Krämer",
   "givenName": "Kristine",
   "familyName": "Krämer",
-  "gender": "https://schema.org/Female",
-  "birthDate": null,
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Journalistin, (mindestens) 1975–2004 bei der »Berliner Morgenpost«, Anfang der 2000er Jahre bei der »Welt«"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Kristine Krämer",
@@ -36,10 +28,10 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Female",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalistin, (mindestens) 1975–2004 bei der »Berliner Morgenpost«, Anfang der 2000er Jahre bei der »Welt«"
   }
 }

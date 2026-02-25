@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PirklFritz",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PirklFritz",
   "name": "Fritz Pirkl",
   "givenName": "Fritz",
   "familyName": "Prikl",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1925-08-13",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Sulzbach, Oberpfalz"
-  },
-  "deathDate": "1993-08-19",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Marquartstein, Oberbayern"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1958–1984 MdL Bayern (CSU), 1966–1984 Bayerischer Staatsminister für Arbeit und Soziale Fürsorge (seit 1972: Arbeit und Sozialordnung)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119502275",
-    "https://de.wikipedia.org/wiki/Fritz_Pirkl"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Fritz Pirkl",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119502275",
-    "wikipedia": "https://de.wikipedia.org/wiki/Fritz_Pirkl",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Fritz_Pirkl"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1925-08-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Sulzbach, Oberpfalz"
+  },
+  "deathDate": "1993-08-19",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Marquartstein, Oberbayern"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1958–1984 MdL Bayern (CSU), 1966–1984 Bayerischer Staatsminister für Arbeit und Soziale Fürsorge (seit 1972: Arbeit und Sozialordnung)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119502275",
+    "https://de.wikipedia.org/wiki/Fritz_Pirkl"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "EhrichEmil",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/EhrichEmil",
   "name": "Emil Ehrich",
   "givenName": "Emil",
   "familyName": "Ehrich",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1908-12-10",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Scheppau, Kreis Helmstedt"
-  },
-  "deathDate": "1982-07-16",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Königslutter am Elm"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1933–1937 Adjutant, Amtsleiter und persönlicher Referent beim Gauleiter der Auslandsorganisation der NSDAP, 1938–1939 Gesandtschaftsrat an der Botschaft in Paris und Landesgruppenleiter der NSDAP in Frankreich, anschließend in Italien, 1949–1950 Referent im Bundesministerium für Angelegenheiten des Bundesrates, 1956–1963 Oberregierungsrat in der Vertretung des Landes Niedersachsen beim Bund, 1963–1973 Regierungsdirektor bzw. Ministerialrat im niedersächsischen Kulturministerium"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/116408286",
-    "https://de.wikipedia.org/wiki/Emil_Ehrich"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Emil Ehrich",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/116408286",
-    "wikipedia": "https://de.wikipedia.org/wiki/Emil_Ehrich",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Emil_Ehrich"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1908-12-10",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Scheppau, Kreis Helmstedt"
+  },
+  "deathDate": "1982-07-16",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Königslutter am Elm"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1933–1937 Adjutant, Amtsleiter und persönlicher Referent beim Gauleiter der Auslandsorganisation der NSDAP, 1938–1939 Gesandtschaftsrat an der Botschaft in Paris und Landesgruppenleiter der NSDAP in Frankreich, anschließend in Italien, 1949–1950 Referent im Bundesministerium für Angelegenheiten des Bundesrates, 1956–1963 Oberregierungsrat in der Vertretung des Landes Niedersachsen beim Bund, 1963–1973 Regierungsdirektor bzw. Ministerialrat im niedersächsischen Kulturministerium"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/116408286",
+    "https://de.wikipedia.org/wiki/Emil_Ehrich"
+  ]
 }

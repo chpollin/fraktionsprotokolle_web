@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchmelichMichael",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchmelichMichael",
   "name": "Michael Schmelich",
   "givenName": "Michael",
   "familyName": "Schmelich",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1954-09-19",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Osterode am Harz"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Industriekaufmann, Journalist, Verleger und Kulturimpresario, 1979–1984 Vorsitzender des Kreisjugendringes Göttingen, Mitglied im Jugendwohlfahrtsausschuss, 1983–1985 Vizepräsident und Pressesprecher des Verbandes Niedersächsischer Lokalrundfunk, 1985/86 MdL Niedersachsen (Die Grünen) und kulturpolitischer Sprecher der Fraktion, 2009 Prressesprecher der Fraktion Bündnis 90/Die Grünen im Stadtrat Dresden, 2012 wiss. Mitarbeiter und Regionalbüroleiter Dresden eines Grünen-MdB, seit 2014 Stadtrat der Grünen bzw. seit 2021 der Dissidenten-Fraktion in Dresden"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1035134160",
-    "https://de.wikipedia.org/wiki/Michael_Schmelich"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Michael Schmelich",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1035134160",
-    "wikipedia": "https://de.wikipedia.org/wiki/Michael_Schmelich",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Michael_Schmelich"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1954-09-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Osterode am Harz"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Industriekaufmann, Journalist, Verleger und Kulturimpresario, 1979–1984 Vorsitzender des Kreisjugendringes Göttingen, Mitglied im Jugendwohlfahrtsausschuss, 1983–1985 Vizepräsident und Pressesprecher des Verbandes Niedersächsischer Lokalrundfunk, 1985/86 MdL Niedersachsen (Die Grünen) und kulturpolitischer Sprecher der Fraktion, 2009 Prressesprecher der Fraktion Bündnis 90/Die Grünen im Stadtrat Dresden, 2012 wiss. Mitarbeiter und Regionalbüroleiter Dresden eines Grünen-MdB, seit 2014 Stadtrat der Grünen bzw. seit 2021 der Dissidenten-Fraktion in Dresden"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1035134160",
+    "https://de.wikipedia.org/wiki/Michael_Schmelich"
+  ]
 }

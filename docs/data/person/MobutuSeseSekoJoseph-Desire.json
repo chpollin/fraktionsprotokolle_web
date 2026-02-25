@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MobutuSeseSekoJoseph-Desire",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MobutuSeseSekoJoseph-Desire",
   "name": "Joseph-Désiré Mobutu (Sese Seko)",
   "givenName": "Joseph-Désiré",
   "familyName": "Mobutu (Sese Seko)",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1930-10-14",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Lisala"
-  },
-  "deathDate": "1997-09-07",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Rabat"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1965–1997 Präsident der Demokratischen Republik Kongo (Léopoldville/Kinshasa) bzw. der Republik Zaire"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/11878434X",
-    "https://de.wikipedia.org/wiki/Mobutu_Sese_Seko"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Joseph-Désiré Mobutu (Sese Seko)",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/11878434X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Mobutu_Sese_Seko",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Mobutu_Sese_Seko"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1930-10-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Lisala"
+  },
+  "deathDate": "1997-09-07",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Rabat"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1965–1997 Präsident der Demokratischen Republik Kongo (Léopoldville/Kinshasa) bzw. der Republik Zaire"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/11878434X",
+    "https://de.wikipedia.org/wiki/Mobutu_Sese_Seko"
+  ]
 }

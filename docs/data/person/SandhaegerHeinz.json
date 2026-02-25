@@ -1,21 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SandhaegerHeinz",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SandhaegerHeinz",
   "name": "Heinz Sandhäger",
   "givenName": "Heinz",
   "familyName": "Sandhäger",
-  "gender": "https://schema.org/Male",
-  "birthDate": null,
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "(mindestens) 1967 Tätigkeit am Institut für Verkehrswissenschaft der Universität Münster, (mindestens) in der 8. Wahlperiode Referent im Arbeitskreis II (Wirtschaft und Ernährung) der CDU/CSU-Bundestagsfraktion, (mindestens) 1983–1996 Ministerialdirektor (Leiter der verkehrspolitischen Grundsatzabteilung) im Bundesministerium für Verkehr (BMV)"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Heinz Sandhäger",
@@ -36,10 +28,10 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Male",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "(mindestens) 1967 Tätigkeit am Institut für Verkehrswissenschaft der Universität Münster, (mindestens) in der 8. Wahlperiode Referent im Arbeitskreis II (Wirtschaft und Ernährung) der CDU/CSU-Bundestagsfraktion, (mindestens) 1983–1996 Ministerialdirektor (Leiter der verkehrspolitischen Grundsatzabteilung) im Bundesministerium für Verkehr (BMV)"
   }
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FalkenhausenAlexandervon",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FalkenhausenAlexandervon",
   "name": "Alexander von Falkenhausen",
   "givenName": "Ernst Alexander Alfred Herrmann",
   "familyName": "Falkenhausen",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1878-10-29",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Gut Blumenthal/Neisse"
-  },
-  "deathDate": "1966-07-31",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Nassau"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "deutscher General, 1940–1944 Chef der Militärverwaltung im besetzten Belgien und in Nordfrankreich"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/137700237",
-    "https://de.wikipedia.org/wiki/Alexander_von_Falkenhausen_(General)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Alexander von Falkenhausen",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/137700237",
-    "wikipedia": "https://de.wikipedia.org/wiki/Alexander_von_Falkenhausen_(General)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Alexander_von_Falkenhausen_(General)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1878-10-29",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Gut Blumenthal/Neisse"
+  },
+  "deathDate": "1966-07-31",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Nassau"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher General, 1940–1944 Chef der Militärverwaltung im besetzten Belgien und in Nordfrankreich"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/137700237",
+    "https://de.wikipedia.org/wiki/Alexander_von_Falkenhausen_(General)"
+  ]
 }

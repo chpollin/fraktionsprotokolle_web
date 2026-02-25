@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "TucholskyKurt",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/TucholskyKurt",
   "name": "Kurt Tucholsky",
   "givenName": "Kurt",
   "familyName": "Tucholsky",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1890-01-09",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "deathDate": "1935-12-21",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Göteborg"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "deutscher Journalist und Schriftsteller"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/11862444X",
-    "https://de.wikipedia.org/wiki/Kurt_Tucholsky"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Kurt Tucholsky",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/11862444X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Kurt_Tucholsky",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Kurt_Tucholsky"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1890-01-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "1935-12-21",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Göteborg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Journalist und Schriftsteller"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/11862444X",
+    "https://de.wikipedia.org/wiki/Kurt_Tucholsky"
+  ]
 }

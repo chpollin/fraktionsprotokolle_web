@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GalleVolker",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GalleVolker",
   "name": "Volker Gallé",
   "givenName": "Volker",
   "familyName": "Gallé",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1955-05-03",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Alzey"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Künstler, Kulturmanager, Mundartautor und -liedermacher sowie Musiklehrer und Musiktherapeut, Mitgründer sowie in den 1980er Jahren Vorstandssprecher des Grünen-Landesverbandes Rheinland-Pfalz, seit 1988 Lokalredakeur beim Wormser Wochenblatt, 2004–2021 Kulturkoordinator der Stadt Worms"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/124252478",
-    "https://de.wikipedia.org/wiki/Volker_Gall%C3%A9"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Volker Gallé",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/124252478",
-    "wikipedia": "https://de.wikipedia.org/wiki/Volker_Gall%C3%A9",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Volker_Gall%C3%A9"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1955-05-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Alzey"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Künstler, Kulturmanager, Mundartautor und -liedermacher sowie Musiklehrer und Musiktherapeut, Mitgründer sowie in den 1980er Jahren Vorstandssprecher des Grünen-Landesverbandes Rheinland-Pfalz, seit 1988 Lokalredakeur beim Wormser Wochenblatt, 2004–2021 Kulturkoordinator der Stadt Worms"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/124252478",
+    "https://de.wikipedia.org/wiki/Volker_Gall%C3%A9"
+  ]
 }

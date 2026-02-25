@@ -1,24 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "LevaviArieh",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/LevaviArieh",
   "name": "Arieh Levavi",
   "givenName": "Arieh",
   "familyName": "Levavi",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1912",
-  "birthPlace": null,
-  "deathDate": "2009",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Generaldirektor im israelischen Außenministerium"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1218255188",
-    "https://en.wikipedia.org/wiki/Arieh_Levavi"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Arieh Levavi",
@@ -40,9 +29,18 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1218255188",
-    "wikipedia": "https://en.wikipedia.org/wiki/Arieh_Levavi",
-    "viaf": null
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/Arieh_Levavi"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1912",
+  "deathDate": "2009",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Generaldirektor im israelischen Außenministerium"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1218255188",
+    "https://en.wikipedia.org/wiki/Arieh_Levavi"
+  ]
 }

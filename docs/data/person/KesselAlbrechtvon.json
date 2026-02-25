@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KesselAlbrechtvon",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KesselAlbrechtvon",
   "name": "Albrecht von Kessel",
   "givenName": "Albrecht",
   "familyName": "Kessel",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1902-11-06",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Ober-Glauche"
-  },
-  "deathDate": "1976-04-15",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bonn"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Diplomat; 1953–1958 Gesandter an der Botschaft der Bundesrepublik in Washington; 1958/1959 Gesandter in der Ostabteilung des Auswärtigen Amts; seit 1960 Kolumnist der Tageszeitung »Die Welt«"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119009501",
-    "https://de.wikipedia.org/wiki/Albrecht_von_Kessel"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Albrecht von Kessel",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119009501",
-    "wikipedia": "https://de.wikipedia.org/wiki/Albrecht_von_Kessel",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Albrecht_von_Kessel"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1902-11-06",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Ober-Glauche"
+  },
+  "deathDate": "1976-04-15",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Diplomat; 1953–1958 Gesandter an der Botschaft der Bundesrepublik in Washington; 1958/1959 Gesandter in der Ostabteilung des Auswärtigen Amts; seit 1960 Kolumnist der Tageszeitung »Die Welt«"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119009501",
+    "https://de.wikipedia.org/wiki/Albrecht_von_Kessel"
+  ]
 }

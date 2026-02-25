@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ZimmererLudwig",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ZimmererLudwig",
   "name": "Ludwig Zimmerer",
   "givenName": "Ludwig",
   "familyName": "Zimmerer",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1924",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Augsburg"
-  },
-  "deathDate": "1987-09-18",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Krakau"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "deutscher Journalist und Korrespondent der westdeutschen Medien in Polen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/137224079",
-    "https://de.wikipedia.org/wiki/Ludwig_Zimmerer"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Ludwig Zimmerer",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/137224079",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ludwig_Zimmerer",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ludwig_Zimmerer"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1924",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Augsburg"
+  },
+  "deathDate": "1987-09-18",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Krakau"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Journalist und Korrespondent der westdeutschen Medien in Polen"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/137224079",
+    "https://de.wikipedia.org/wiki/Ludwig_Zimmerer"
+  ]
 }

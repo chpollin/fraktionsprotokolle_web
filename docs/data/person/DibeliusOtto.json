@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DibeliusOtto",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DibeliusOtto",
   "name": "Otto Dibelius",
   "givenName": "Otto",
   "familyName": "Dibelius",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1880-05-15",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "deathDate": "1967-01-31",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "West-Berlin"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "CDU, 1945–1966 Bischof von Berlin-Brandenburg, 1949–1961 Vorsitzender des Rats der EKD, 1954–1961 Präsident des Ökumenischen Rats der Kirchen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/11852514X",
-    "https://de.wikipedia.org/wiki/Otto_Dibelius"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Otto Dibelius",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/11852514X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Otto_Dibelius",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Otto_Dibelius"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1880-05-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "1967-01-31",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "West-Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "CDU, 1945–1966 Bischof von Berlin-Brandenburg, 1949–1961 Vorsitzender des Rats der EKD, 1954–1961 Präsident des Ökumenischen Rats der Kirchen"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/11852514X",
+    "https://de.wikipedia.org/wiki/Otto_Dibelius"
+  ]
 }

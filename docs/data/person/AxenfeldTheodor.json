@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "AxenfeldTheodor",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/AxenfeldTheodor",
   "name": "Theodor Axenfeld",
   "givenName": "Theodor",
   "familyName": "Axenfeld",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1905-12-26",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Betzdorf"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1967/68 Vortragender Legationsrat I. Klasse und Leiter des Referats »Wirtschaftsbeziehungen zu Afrika südlich der Sahara« im Auswärtigen Amt, 1969/70 Botschafter der Bundesrepublik Deutschland in Nigeria"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/123219388",
-    "https://de.wikipedia.org/wiki/Theodor_Axenfeld_(Diplomat)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Theodor Axenfeld",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/123219388",
-    "wikipedia": "https://de.wikipedia.org/wiki/Theodor_Axenfeld_(Diplomat)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Theodor_Axenfeld_(Diplomat)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1905-12-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Betzdorf"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1967/68 Vortragender Legationsrat I. Klasse und Leiter des Referats »Wirtschaftsbeziehungen zu Afrika südlich der Sahara« im Auswärtigen Amt, 1969/70 Botschafter der Bundesrepublik Deutschland in Nigeria"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/123219388",
+    "https://de.wikipedia.org/wiki/Theodor_Axenfeld_(Diplomat)"
+  ]
 }

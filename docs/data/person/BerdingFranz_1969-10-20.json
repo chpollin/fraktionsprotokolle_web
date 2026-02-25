@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BerdingFranz_1969-10-20",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BerdingFranz_1969-10-20",
   "name": "Franz Berding",
   "givenName": "Franz",
   "familyName": "Berding",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1915-05-11",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Fürstenau"
-  },
-  "deathDate": "2010-02-16",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Münster, Westfalen"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Hauptgeschäftsführer, Landesminister a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1969-10-20",
-      "endDate": "1972-09-22"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1109555229",
-    "https://de.wikipedia.org/wiki/Franz_Berding"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Franz Berding",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000145",
     "gnd": "https://d-nb.info/gnd/1109555229",
-    "wikipedia": "https://de.wikipedia.org/wiki/Franz_Berding",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Franz_Berding"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1915-05-11",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Fürstenau"
+  },
+  "deathDate": "2010-02-16",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Münster, Westfalen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Hauptgeschäftsführer, Landesminister a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1969-10-20",
+      "endDate": "1972-09-22"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1109555229",
+    "https://de.wikipedia.org/wiki/Franz_Berding"
+  ]
 }

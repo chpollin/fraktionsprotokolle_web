@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KinseyAlfredCharles",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KinseyAlfredCharles",
   "name": "Alfred Charles Kinsey",
   "givenName": "Alfred Charles",
   "familyName": "Kinsey",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1894-06-23",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Hoboken, New Jersey"
-  },
-  "deathDate": "1956-08-25",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bloomington, Indiana"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "US-Sexualforscher, Prof. für Sozialkunde, Indiana"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/11877719X",
-    "https://de.wikipedia.org/wiki/Alfred_Charles_Kinsey"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Alfred Charles Kinsey",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/11877719X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Alfred_Charles_Kinsey",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Alfred_Charles_Kinsey"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1894-06-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hoboken, New Jersey"
+  },
+  "deathDate": "1956-08-25",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bloomington, Indiana"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "US-Sexualforscher, Prof. für Sozialkunde, Indiana"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/11877719X",
+    "https://de.wikipedia.org/wiki/Alfred_Charles_Kinsey"
+  ]
 }

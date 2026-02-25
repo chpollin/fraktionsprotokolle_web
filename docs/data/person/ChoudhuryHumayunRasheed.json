@@ -1,29 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ChoudhuryHumayunRasheed",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ChoudhuryHumayunRasheed",
   "name": "Humayun Rasheed Choudhury",
   "givenName": "Humayun Rasheed",
   "familyName": "Choudhury",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1928-11-11",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Sylhet, Bengalen"
-  },
-  "deathDate": "2001-07-10",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Dhaka"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "bangladeschischer Politiker und Diplomat, unter anderem 1972 bis 1976 erster Botschafter Bangladeschs in der Bundesrepublik Deutschland, Österreich, der Schweiz und beim Heiligen Stuhl, Außenminister, Präsident der 41. Sitzungsperiode der Generalversammlung der Vereinten Nationen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Humayun_Rasheed_Choudhury"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Humayun Rasheed Choudhury",
@@ -45,9 +29,24 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://de.wikipedia.org/wiki/Humayun_Rasheed_Choudhury",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Humayun_Rasheed_Choudhury"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1928-11-11",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Sylhet, Bengalen"
+  },
+  "deathDate": "2001-07-10",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Dhaka"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "bangladeschischer Politiker und Diplomat, unter anderem 1972 bis 1976 erster Botschafter Bangladeschs in der Bundesrepublik Deutschland, Österreich, der Schweiz und beim Heiligen Stuhl, Außenminister, Präsident der 41. Sitzungsperiode der Generalversammlung der Vereinten Nationen"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Humayun_Rasheed_Choudhury"
+  ]
 }

@@ -1,29 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MachrowiczThaddeusM",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MachrowiczThaddeusM",
   "name": "Thaddeus M. Machrowicz",
   "givenName": "Thaddeus Michael",
   "familyName": "Machrowicz",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1899-08-21",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Gostyn (heute: Gostyń, Polen)"
-  },
-  "deathDate": "1970-02-17",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bloomfield, Michigan"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1951–1961 Mitglied des US-Repräsentantenhauses"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Thaddeus_M._Machrowicz"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Thaddeus M. Machrowicz",
@@ -45,9 +29,24 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://de.wikipedia.org/wiki/Thaddeus_M._Machrowicz",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Thaddeus_M._Machrowicz"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1899-08-21",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Gostyn (heute: Gostyń, Polen)"
+  },
+  "deathDate": "1970-02-17",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bloomfield, Michigan"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1951–1961 Mitglied des US-Repräsentantenhauses"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Thaddeus_M._Machrowicz"
+  ]
 }

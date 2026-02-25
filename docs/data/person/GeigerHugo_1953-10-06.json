@@ -1,10 +1,53 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GeigerHugo_1953-10-06",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GeigerHugo_1953-10-06",
   "name": "Hugo Geiger",
   "givenName": "Hugo",
   "familyName": "Geiger",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hugo Geiger",
+    "forename": "Hugo",
+    "surname": "Geiger",
+    "prefix": "",
+    "role_name": "",
+    "place": "(München)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1901-04-01",
+    "place": "Furth i. Wald",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1984-07-08",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 3,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000648",
+    "gnd": "https://d-nb.info/gnd/137657986",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hugo_Geiger"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1901-04-01",
   "birthPlace": {
@@ -45,46 +88,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/137657986",
     "https://de.wikipedia.org/wiki/Hugo_Geiger"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Hugo Geiger",
-    "forename": "Hugo",
-    "surname": "Geiger",
-    "prefix": "",
-    "role_name": "",
-    "place": "(München)"
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1901-04-01",
-    "place": "Furth i. Wald",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1984-07-08",
-    "place": "München",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 2,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1953-10-06",
-      "to": "1957-10-06"
-    },
-    {
-      "period": 3,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1957-10-15",
-      "to": "1961-10-15"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11000648",
-    "gnd": "https://d-nb.info/gnd/137657986",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hugo_Geiger",
-    "viaf": null
-  }
+  ]
 }

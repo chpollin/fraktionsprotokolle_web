@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GoebbelsJoseph",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GoebbelsJoseph",
   "name": "Joseph Goebbels",
   "givenName": "Joseph",
   "familyName": "Goebbels",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1897-10-29",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Rheydt"
-  },
-  "deathDate": "1945-05-01",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1933–1945 Reichsminister für Volksaufklärung und Propaganda, Präsident der Reichskulturkammer"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118540041",
-    "https://de.wikipedia.org/wiki/Joseph_Goebbels"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Joseph Goebbels",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118540041",
-    "wikipedia": "https://de.wikipedia.org/wiki/Joseph_Goebbels",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Joseph_Goebbels"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1897-10-29",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Rheydt"
+  },
+  "deathDate": "1945-05-01",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1933–1945 Reichsminister für Volksaufklärung und Propaganda, Präsident der Reichskulturkammer"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118540041",
+    "https://de.wikipedia.org/wiki/Joseph_Goebbels"
+  ]
 }

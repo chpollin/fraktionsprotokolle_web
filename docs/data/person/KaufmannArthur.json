@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KaufmannArthur",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KaufmannArthur",
   "name": "Arthur Kaufmann",
   "givenName": "Arthur",
   "familyName": "Kaufmann",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1923-05-10",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Singen"
-  },
-  "deathDate": "2001-04-11",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1960–1969 Professor für Strafrecht, Strafprozessrecht und Rechtsphilosophie an der Universität Saarbrücken, seit 1969 an der Universität München"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118721267",
-    "https://de.wikipedia.org/wiki/Arthur_Kaufmann_(Jurist)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Arthur Kaufmann",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118721267",
-    "wikipedia": "https://de.wikipedia.org/wiki/Arthur_Kaufmann_(Jurist)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Arthur_Kaufmann_(Jurist)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1923-05-10",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Singen"
+  },
+  "deathDate": "2001-04-11",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1960–1969 Professor für Strafrecht, Strafprozessrecht und Rechtsphilosophie an der Universität Saarbrücken, seit 1969 an der Universität München"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118721267",
+    "https://de.wikipedia.org/wiki/Arthur_Kaufmann_(Jurist)"
+  ]
 }

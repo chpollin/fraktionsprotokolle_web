@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RosenbergLudwig",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RosenbergLudwig",
   "name": "Ludwig Rosenberg",
   "givenName": "Ludwig",
   "familyName": "Rosenberg",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1903-06-29",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Charlottenburg"
-  },
-  "deathDate": "1977-10-23",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Düsseldorf"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1959–1962 stv. u. 1962–1969 Vorsitzender des DGB"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118749765",
-    "https://de.wikipedia.org/wiki/Ludwig_Rosenberg"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Ludwig Rosenberg",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118749765",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ludwig_Rosenberg",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ludwig_Rosenberg"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1903-06-29",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Charlottenburg"
+  },
+  "deathDate": "1977-10-23",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Düsseldorf"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1959–1962 stv. u. 1962–1969 Vorsitzender des DGB"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118749765",
+    "https://de.wikipedia.org/wiki/Ludwig_Rosenberg"
+  ]
 }

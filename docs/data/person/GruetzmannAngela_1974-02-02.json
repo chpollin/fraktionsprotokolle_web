@@ -1,38 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GruetzmannAngela_1974-02-02",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GruetzmannAngela_1974-02-02",
   "name": "Angela Grützmann, geb. Korduran",
   "givenName": "Angela",
   "familyName": "Grützmann",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1937-10-22",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Brandenburg/Havel"
-  },
-  "deathDate": "2023-01-02",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Kaufmännische Angestellte [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1974-02-02",
-      "endDate": "1976-12-13"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1200248643",
-    "https://de.wikipedia.org/wiki/Angela_Gr%C3%BCtzmann"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Angela Grützmann, geb. Korduran",
@@ -64,7 +39,33 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000740",
     "gnd": "https://d-nb.info/gnd/1200248643",
-    "wikipedia": "https://de.wikipedia.org/wiki/Angela_Gr%C3%BCtzmann",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Angela_Gr%C3%BCtzmann"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1937-10-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Brandenburg/Havel"
+  },
+  "deathDate": "2023-01-02",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Kaufmännische Angestellte [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1974-02-02",
+      "endDate": "1976-12-13"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1200248643",
+    "https://de.wikipedia.org/wiki/Angela_Gr%C3%BCtzmann"
+  ]
 }

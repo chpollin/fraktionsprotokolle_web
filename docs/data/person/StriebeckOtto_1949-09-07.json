@@ -1,10 +1,60 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "StriebeckOtto_1949-09-07",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/StriebeckOtto_1949-09-07",
   "name": "Otto Striebeck",
   "givenName": "Otto",
   "familyName": "Striebeck",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Otto Striebeck",
+    "forename": "Otto",
+    "surname": "Striebeck",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1894-09-18",
+    "place": "Baak",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1972-02-01",
+    "place": "Mülheim an der Ruhr",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 3,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1958-05-27",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 4,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002271",
+    "gnd": "https://d-nb.info/gnd/111964223X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Otto_Striebeck"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1894-09-18",
   "birthPlace": {
@@ -55,53 +105,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/111964223X",
     "https://de.wikipedia.org/wiki/Otto_Striebeck"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Otto Striebeck",
-    "forename": "Otto",
-    "surname": "Striebeck",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1894-09-18",
-    "place": "Baak",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1972-02-01",
-    "place": "Mülheim an der Ruhr",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 1,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1949-09-07",
-      "to": "1953-09-07"
-    },
-    {
-      "period": 3,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1958-05-27",
-      "to": "1961-10-15"
-    },
-    {
-      "period": 4,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1961-10-17",
-      "to": "1965-10-17"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11002271",
-    "gnd": "https://d-nb.info/gnd/111964223X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Otto_Striebeck",
-    "viaf": null
-  }
+  ]
 }

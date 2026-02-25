@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "NeffAlfred",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/NeffAlfred",
   "name": "Alfred Neff",
   "givenName": "Alfred",
   "familyName": "Neff",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1906-07-18",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Bretten, Baden"
-  },
-  "deathDate": "1970-11-02",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Tübingen"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Herdfabrikant, 1963–1970 Präsident der Industrie- und Handelskammer Karlsruhe, 1964–1970 Richter am Staatsgerichtshof für das Land Baden-Württemberg"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1130488934",
-    "https://de.wikipedia.org/wiki/Alfred_Neff"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Alfred Neff",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1130488934",
-    "wikipedia": "https://de.wikipedia.org/wiki/Alfred_Neff",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Alfred_Neff"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1906-07-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bretten, Baden"
+  },
+  "deathDate": "1970-11-02",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Tübingen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Herdfabrikant, 1963–1970 Präsident der Industrie- und Handelskammer Karlsruhe, 1964–1970 Richter am Staatsgerichtshof für das Land Baden-Württemberg"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1130488934",
+    "https://de.wikipedia.org/wiki/Alfred_Neff"
+  ]
 }

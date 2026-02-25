@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HyndJohn",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HyndJohn",
   "name": "John Hynd",
   "givenName": "John Burnes",
   "familyName": "Hynd",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1902-04-04",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Perth, Schottland"
-  },
-  "deathDate": "1971-11-08",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "London"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1944–1970 Mitglied des britischen Unterhauses, 1945–1947 Minister für deutsche und österreichische Angelegenheiten"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/124428045",
-    "https://de.wikipedia.org/wiki/John_Burns_Hynd"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "John Hynd",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/124428045",
-    "wikipedia": "https://de.wikipedia.org/wiki/John_Burns_Hynd",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/John_Burns_Hynd"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1902-04-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Perth, Schottland"
+  },
+  "deathDate": "1971-11-08",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "London"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1944–1970 Mitglied des britischen Unterhauses, 1945–1947 Minister für deutsche und österreichische Angelegenheiten"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/124428045",
+    "https://de.wikipedia.org/wiki/John_Burns_Hynd"
+  ]
 }

@@ -1,24 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FenebergHermann",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FenebergHermann",
   "name": "Hermann Feneberg",
   "givenName": "Hermann",
   "familyName": "Feneberg",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1903-08-18",
-  "birthPlace": null,
-  "deathDate": "1977",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1958–1968 Präsident des Bayerischen Verwaltungsgerichtshofs"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/105550116",
-    "https://de.wikipedia.org/wiki/Hermann_Feneberg"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hermann Feneberg",
@@ -40,9 +29,18 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/105550116",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hermann_Feneberg",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hermann_Feneberg"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1903-08-18",
+  "deathDate": "1977",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1958–1968 Präsident des Bayerischen Verwaltungsgerichtshofs"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/105550116",
+    "https://de.wikipedia.org/wiki/Hermann_Feneberg"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FreudSigmund",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FreudSigmund",
   "name": "Sigmund Freud",
   "givenName": "Sigmund",
   "familyName": "Freud",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1856-05-06",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Freiberg in Mähren (heute: Příbor, Tschechische Republik)"
-  },
-  "deathDate": "1939-09-23",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "London"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "österreichischer Arzt, Neurophysiologe, Tiefenpsychologe, Kulturtheoretiker und Religionskritiker"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118535315",
-    "https://de.wikipedia.org/wiki/Sigmund_Freud"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Sigmund Freud",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118535315",
-    "wikipedia": "https://de.wikipedia.org/wiki/Sigmund_Freud",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Sigmund_Freud"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1856-05-06",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Freiberg in Mähren (heute: Příbor, Tschechische Republik)"
+  },
+  "deathDate": "1939-09-23",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "London"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "österreichischer Arzt, Neurophysiologe, Tiefenpsychologe, Kulturtheoretiker und Religionskritiker"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118535315",
+    "https://de.wikipedia.org/wiki/Sigmund_Freud"
+  ]
 }

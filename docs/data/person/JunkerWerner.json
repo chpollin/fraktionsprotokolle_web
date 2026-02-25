@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "JunkerWerner",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/JunkerWerner",
   "name": "Werner Junker",
   "givenName": "Werner",
   "familyName": "Junker",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1902-11-05",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Kiel"
-  },
-  "deathDate": "1990-01-03",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bad Kissingen"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "deutscher Diplomat, 1956–1963 Botschafter in Argentinien, 1963–1967 in Südafrika"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/137434685",
-    "https://de.wikipedia.org/wiki/Werner_Junker"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Werner Junker",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/137434685",
-    "wikipedia": "https://de.wikipedia.org/wiki/Werner_Junker",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Werner_Junker"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1902-11-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kiel"
+  },
+  "deathDate": "1990-01-03",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bad Kissingen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Diplomat, 1956–1963 Botschafter in Argentinien, 1963–1967 in Südafrika"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/137434685",
+    "https://de.wikipedia.org/wiki/Werner_Junker"
+  ]
 }

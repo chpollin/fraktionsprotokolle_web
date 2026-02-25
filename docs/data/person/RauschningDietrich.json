@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RauschningDietrich",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RauschningDietrich",
   "name": "Dietrich Rauschning",
   "givenName": "Dietrich",
   "familyName": "Rauschning",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1931-01-16",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Klein Steinort, Kreis Angerburg, Ostpreußen (heute: Sztynort Mały, Polen)"
-  },
-  "deathDate": "2023-09-17",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Göttingen"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Jurist, 1970–1999 Professor für Völkerrecht an der Universität Göttingen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/122719026",
-    "https://de.wikipedia.org/wiki/Dietrich_Rauschning"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Dietrich Rauschning",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/122719026",
-    "wikipedia": "https://de.wikipedia.org/wiki/Dietrich_Rauschning",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Dietrich_Rauschning"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1931-01-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Klein Steinort, Kreis Angerburg, Ostpreußen (heute: Sztynort Mały, Polen)"
+  },
+  "deathDate": "2023-09-17",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Göttingen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Jurist, 1970–1999 Professor für Völkerrecht an der Universität Göttingen"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/122719026",
+    "https://de.wikipedia.org/wiki/Dietrich_Rauschning"
+  ]
 }

@@ -1,21 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "JochumIrmgard",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/JochumIrmgard",
   "name": "Irmgard Jochum",
   "givenName": "Irmgard",
   "familyName": "Jochum",
-  "gender": "https://schema.org/Female",
-  "birthDate": null,
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "langjährige Mitarbeiterin der Grünen-Bundestagsfraktion, 1993 zur Co-Sprecherin der saarländischen Grünen gewählt, 1994 Grünen-Kandidatin für die Bundestagswahl im Wahlkreis Saarbrücken, 2000 Landesvorstandssprecherin der saarländischen Grünen"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Irmgard Jochum",
@@ -36,10 +28,10 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Female",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "langjährige Mitarbeiterin der Grünen-Bundestagsfraktion, 1993 zur Co-Sprecherin der saarländischen Grünen gewählt, 1994 Grünen-Kandidatin für die Bundestagswahl im Wahlkreis Saarbrücken, 2000 Landesvorstandssprecherin der saarländischen Grünen"
   }
 }

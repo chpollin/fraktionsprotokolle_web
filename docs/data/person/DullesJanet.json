@@ -1,24 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DullesJanet",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DullesJanet",
   "name": "Janet Dulles, geb. Avery",
   "givenName": "Janet Pomeroy",
   "familyName": "Dulles",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1891-05-31",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Auburn, Cayuga County, New York"
-  },
-  "deathDate": "1969-05-14",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Washington, D.C."
-  },
-  "hasOccupation": null,
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Janet Dulles, geb. Avery",
@@ -39,11 +28,17 @@
     "country": "USA"
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Female",
+  "birthDate": "1891-05-31",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Auburn, Cayuga County, New York"
+  },
+  "deathDate": "1969-05-14",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Washington, D.C."
   },
   "fraktionsprotokolle:sonstiges": "seit 1912 Ehefrau des US-Außenministers John Foster Dulles"
 }

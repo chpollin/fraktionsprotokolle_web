@@ -1,24 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SiepmannIngrid",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SiepmannIngrid",
   "name": "Ingrid Siepmann",
   "givenName": "Ingrid",
   "familyName": "Siepmann",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1944-06-12",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Marienberg"
-  },
-  "deathDate": "1982",
-  "deathPlace": null,
-  "hasOccupation": null,
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1106391942",
-    "https://de.wikipedia.org/wiki/Ingrid_Siepmann"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Ingrid Siepmann",
@@ -40,10 +29,19 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1106391942",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ingrid_Siepmann",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Ingrid_Siepmann"
   },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1944-06-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Marienberg"
+  },
+  "deathDate": "1982",
+  "sameAs": [
+    "https://d-nb.info/gnd/1106391942",
+    "https://de.wikipedia.org/wiki/Ingrid_Siepmann"
+  ],
   "fraktionsprotokolle:sonstiges": "Mitglied der terroristischen Vereinigung »Bewegung 2. Juni«"
 }

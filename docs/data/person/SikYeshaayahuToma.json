@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SikYeshaayahuToma",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SikYeshaayahuToma",
   "name": "Yeshaayahu Toma Ŝik",
   "givenName": "Yeshaayahu Toma",
   "familyName": "Ŝik",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1939-08-17",
-  "birthPlace": null,
-  "deathDate": "2004-07-13",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "ungarisch-israelischer Friedensaktivist, Anarchist und libertärer Sozialist"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://en.wikipedia.org/wiki/Toma_Sik"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Yeshaayahu Toma Ŝik",
@@ -39,9 +29,16 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://en.wikipedia.org/wiki/Toma_Sik",
-    "viaf": null
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/Toma_Sik"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1939-08-17",
+  "deathDate": "2004-07-13",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "ungarisch-israelischer Friedensaktivist, Anarchist und libertärer Sozialist"
+  },
+  "sameAs": [
+    "https://en.wikipedia.org/wiki/Toma_Sik"
+  ]
 }

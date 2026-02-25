@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HuszarIstvan",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HuszarIstvan",
   "name": "István Huszár",
   "givenName": "István",
   "familyName": "Huszár",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1927-07-15",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Hernadkak, Komitat Borsod-Abauj-Zemplen"
-  },
-  "deathDate": "2010-09-11",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Budapest"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "stellvertretender Ministerpräsident Ungarns"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1207335487",
-    "https://de.wikipedia.org/wiki/Istv%C3%A1n_Husz%C3%A1r"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "István Huszár",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1207335487",
-    "wikipedia": "https://de.wikipedia.org/wiki/Istv%C3%A1n_Husz%C3%A1r",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Istv%C3%A1n_Husz%C3%A1r"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1927-07-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hernadkak, Komitat Borsod-Abauj-Zemplen"
+  },
+  "deathDate": "2010-09-11",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Budapest"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "stellvertretender Ministerpräsident Ungarns"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1207335487",
+    "https://de.wikipedia.org/wiki/Istv%C3%A1n_Husz%C3%A1r"
+  ]
 }

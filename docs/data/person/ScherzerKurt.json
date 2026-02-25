@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ScherzerKurt",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ScherzerKurt",
   "name": "Kurt Scherzer",
   "givenName": "Kurt",
   "familyName": "Scherzer",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1920-05-12",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Fürth"
-  },
-  "deathDate": "2006-11-01",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Fürth"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1964–1984 Oberbürgermeister von Fürth (FDP)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1060156229",
-    "https://de.wikipedia.org/wiki/Kurt_Scherzer"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Kurt Scherzer",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1060156229",
-    "wikipedia": "https://de.wikipedia.org/wiki/Kurt_Scherzer",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Kurt_Scherzer"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1920-05-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Fürth"
+  },
+  "deathDate": "2006-11-01",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Fürth"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1964–1984 Oberbürgermeister von Fürth (FDP)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1060156229",
+    "https://de.wikipedia.org/wiki/Kurt_Scherzer"
+  ]
 }

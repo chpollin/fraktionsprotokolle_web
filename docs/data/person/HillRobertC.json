@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HillRobertC",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HillRobertC",
   "name": "Robert C. Hill",
   "givenName": "Robert C.",
   "familyName": "Hill",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1917-09-30",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Littleton, New Hampshire"
-  },
-  "deathDate": "1978-11-28",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Littleton, New Hampshire"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1969–1972 US-amerikanischer Botschafter in Spanien, 1974–1977 Botschafter in Argentinien"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Robert_C._Hill",
-    "https://viaf.org/viaf/406152742937527730647/"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Robert C. Hill",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
     "wikipedia": "https://de.wikipedia.org/wiki/Robert_C._Hill",
     "viaf": "https://viaf.org/viaf/406152742937527730647/"
-  }
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1917-09-30",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Littleton, New Hampshire"
+  },
+  "deathDate": "1978-11-28",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Littleton, New Hampshire"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1969–1972 US-amerikanischer Botschafter in Spanien, 1974–1977 Botschafter in Argentinien"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Robert_C._Hill",
+    "https://viaf.org/viaf/406152742937527730647/"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "McGheeGeorgeC",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/McGheeGeorgeC",
   "name": "George C. McGhee",
   "givenName": "George C.",
   "familyName": "McGhee",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1912-03-10",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Waco, Texas"
-  },
-  "deathDate": "2005-07-04",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Leesburg, Virginia"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1963–1968 US-amerikanischer Botschafter in Bonn"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118920596",
-    "https://de.wikipedia.org/wiki/George_C._McGhee"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "George C. McGhee",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118920596",
-    "wikipedia": "https://de.wikipedia.org/wiki/George_C._McGhee",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/George_C._McGhee"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1912-03-10",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Waco, Texas"
+  },
+  "deathDate": "2005-07-04",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Leesburg, Virginia"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1963–1968 US-amerikanischer Botschafter in Bonn"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118920596",
+    "https://de.wikipedia.org/wiki/George_C._McGhee"
+  ]
 }

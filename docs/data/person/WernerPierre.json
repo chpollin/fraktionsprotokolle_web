@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WernerPierre",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WernerPierre",
   "name": "Pierre Werner",
   "givenName": "Pierre",
   "familyName": "Werner",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1913-12-29",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Saint André bei Lille"
-  },
-  "deathDate": "2002-06-24",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Luxemburg"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1959–1974, 1979–1984 Ministerpräsident Luxemburgs"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119374145",
-    "https://de.wikipedia.org/wiki/Pierre_Werner"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Pierre Werner",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119374145",
-    "wikipedia": "https://de.wikipedia.org/wiki/Pierre_Werner",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Pierre_Werner"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1913-12-29",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Saint André bei Lille"
+  },
+  "deathDate": "2002-06-24",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Luxemburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1959–1974, 1979–1984 Ministerpräsident Luxemburgs"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119374145",
+    "https://de.wikipedia.org/wiki/Pierre_Werner"
+  ]
 }

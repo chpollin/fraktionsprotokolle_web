@@ -1,29 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KruppvonBohlenundHalbachAlfried",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KruppvonBohlenundHalbachAlfried",
   "name": "Alfried Krupp von Bohlen und Halbach",
   "givenName": "Alfried Felix Alwyn",
   "familyName": "Krupp",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1907-08-13",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Essen"
-  },
-  "deathDate": "1967-07-30",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Essen"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "deutscher Industrieller und letzter Alleininhaber der Friedrich Krupp AG, 1948 als Kriegsverbrecher zu 12 Jahren Haft verurteilt, 1951 amnestiert"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Alfried_Krupp_von_Bohlen_und_Halbach"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Alfried Krupp von Bohlen und Halbach",
@@ -45,9 +29,24 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://de.wikipedia.org/wiki/Alfried_Krupp_von_Bohlen_und_Halbach",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Alfried_Krupp_von_Bohlen_und_Halbach"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1907-08-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Essen"
+  },
+  "deathDate": "1967-07-30",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Essen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Industrieller und letzter Alleininhaber der Friedrich Krupp AG, 1948 als Kriegsverbrecher zu 12 Jahren Haft verurteilt, 1951 amnestiert"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Alfried_Krupp_von_Bohlen_und_Halbach"
+  ]
 }

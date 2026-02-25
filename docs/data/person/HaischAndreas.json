@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HaischAndreas",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HaischAndreas",
   "name": "Andreas Haisch",
   "givenName": "Andreas",
   "familyName": "Haisch",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1901-08-03",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Westerheim"
-  },
-  "deathDate": "1969-09-04",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Kaufbeuren"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "MdL (CSU)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/138106347",
-    "https://de.wikipedia.org/wiki/Andreas_Haisch"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Andreas Haisch",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/138106347",
-    "wikipedia": "https://de.wikipedia.org/wiki/Andreas_Haisch",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Andreas_Haisch"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1901-08-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Westerheim"
+  },
+  "deathDate": "1969-09-04",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Kaufbeuren"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "MdL (CSU)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/138106347",
+    "https://de.wikipedia.org/wiki/Andreas_Haisch"
+  ]
 }

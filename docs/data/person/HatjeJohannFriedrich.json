@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HatjeJohannFriedrich",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HatjeJohannFriedrich",
   "name": "Johann Friedrich Hatje",
   "givenName": "Johann Friedrich",
   "familyName": "Hatje",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1889-12-23",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Eidelstedt"
-  },
-  "deathDate": "1977-01-17",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "deutscher Eisenbahngerkschafter, 1952–1957 Vorstandsmitglied der Deutschen Bundesbahn"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/142013919",
-    "https://de.wikipedia.org/wiki/Johann_Hatje"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Johann Friedrich Hatje",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/142013919",
-    "wikipedia": "https://de.wikipedia.org/wiki/Johann_Hatje",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Johann_Hatje"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1889-12-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Eidelstedt"
+  },
+  "deathDate": "1977-01-17",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Eisenbahngerkschafter, 1952–1957 Vorstandsmitglied der Deutschen Bundesbahn"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/142013919",
+    "https://de.wikipedia.org/wiki/Johann_Hatje"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PetersHansCarlMariaAlfons",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PetersHansCarlMariaAlfons",
   "name": "Hans Carl Maria Alfons Peters",
   "givenName": "Hans Carl Maria Alfons",
   "familyName": "Peters",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1896-09-05",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "deathDate": "1966-01-15",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Köln"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Professor für Rechtswissenschaften an der Universität Köln, 1947–1948 Mitglied der Berliner Stadtverordnetenversammlung (CDU), 1949–1967 Vorsitzender der Görres-Gesellschaft"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118740229",
-    "https://de.wikipedia.org/wiki/Hans_Peters_(Rechtswissenschaftler,_1896)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hans Carl Maria Alfons Peters",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118740229",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Peters_(Rechtswissenschaftler,_1896)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Peters_(Rechtswissenschaftler,_1896)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1896-09-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "1966-01-15",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Köln"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Professor für Rechtswissenschaften an der Universität Köln, 1947–1948 Mitglied der Berliner Stadtverordnetenversammlung (CDU), 1949–1967 Vorsitzender der Görres-Gesellschaft"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118740229",
+    "https://de.wikipedia.org/wiki/Hans_Peters_(Rechtswissenschaftler,_1896)"
+  ]
 }

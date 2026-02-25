@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "TroppenzHermann_1949-09-07",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/TroppenzHermann_1949-09-07",
   "name": "Hermann Troppenz",
   "givenName": "Hermann",
   "familyName": "Troppenz",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1889-01-22",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Braunschweig"
-  },
-  "deathDate": "1964-03-10",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Braunschweig"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Verwaltungsdirektor [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1949-09-07",
-      "endDate": "1953-09-07"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1330231058",
-    "https://de.wikipedia.org/wiki/Hermann_Troppenz"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Hermann Troppenz",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11002345",
     "gnd": "https://d-nb.info/gnd/1330231058",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hermann_Troppenz",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hermann_Troppenz"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1889-01-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Braunschweig"
+  },
+  "deathDate": "1964-03-10",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Braunschweig"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Verwaltungsdirektor [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1330231058",
+    "https://de.wikipedia.org/wiki/Hermann_Troppenz"
+  ]
 }

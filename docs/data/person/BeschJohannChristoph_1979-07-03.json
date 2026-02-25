@@ -1,37 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BeschJohannChristoph_1979-07-03",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BeschJohannChristoph_1979-07-03",
   "name": "Johann Christoph Besch",
   "givenName": "Johann Christoph",
   "familyName": "Besch",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1937-03-20",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Hamburg"
-  },
-  "deathDate": "2011-02-27",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Ministerialrat a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1979-07-03",
-      "endDate": "1980-11-04"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1120556155"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Johann Christoph Besch",
@@ -62,8 +38,32 @@
   ],
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000165",
-    "gnd": "https://d-nb.info/gnd/1120556155",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/1120556155"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1937-03-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "deathDate": "2011-02-27",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Ministerialrat a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1979-07-03",
+      "endDate": "1980-11-04"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1120556155"
+  ]
 }

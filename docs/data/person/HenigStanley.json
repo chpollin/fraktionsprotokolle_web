@@ -1,24 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HenigStanley",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HenigStanley",
   "name": "Stanley Henig",
   "givenName": "Stanley",
   "familyName": "Henig",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1939-07-07",
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1966–1970 Abgeordneter der Labour Party im britischen Unterhaus"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://en.wikipedia.org/wiki/Stanley_Henig",
-    "https://viaf.org/viaf/40556901"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Stanley Henig",
@@ -40,9 +29,17 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
     "wikipedia": "https://en.wikipedia.org/wiki/Stanley_Henig",
     "viaf": "https://viaf.org/viaf/40556901"
-  }
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1939-07-07",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1966–1970 Abgeordneter der Labour Party im britischen Unterhaus"
+  },
+  "sameAs": [
+    "https://en.wikipedia.org/wiki/Stanley_Henig",
+    "https://viaf.org/viaf/40556901"
+  ]
 }

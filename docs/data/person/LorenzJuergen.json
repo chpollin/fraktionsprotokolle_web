@@ -1,26 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "LorenzJuergen",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/LorenzJuergen",
   "name": "Jürgen Lorenz",
   "givenName": "Jürgen",
   "familyName": "Lorenz",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1929-04-13",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Hagen"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Journalist, 1973–1975 Vorsitzender der Bundespressekonferenz"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/J%C3%BCrgen_Lorenz_(Journalist)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Jürgen Lorenz",
@@ -42,9 +29,19 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://de.wikipedia.org/wiki/J%C3%BCrgen_Lorenz_(Journalist)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/J%C3%BCrgen_Lorenz_(Journalist)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1929-04-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hagen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist, 1973–1975 Vorsitzender der Bundespressekonferenz"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/J%C3%BCrgen_Lorenz_(Journalist)"
+  ]
 }

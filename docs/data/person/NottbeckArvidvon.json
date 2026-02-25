@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "NottbeckArvidvon",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/NottbeckArvidvon",
   "name": "Arvid von Nottbeck",
   "givenName": "Arvid",
   "familyName": "Nottbeck",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1903-02-10",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Kamenskoje"
-  },
-  "deathDate": "1981-01-19",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Hannover"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1959 und 1963 MdL Niedersachsen (FDP), 1956–1957 und 1959–1965 niedersächsischer Justizminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1035102153",
-    "https://de.wikipedia.org/wiki/Arvid_von_Nottbeck"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Arvid von Nottbeck",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1035102153",
-    "wikipedia": "https://de.wikipedia.org/wiki/Arvid_von_Nottbeck",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Arvid_von_Nottbeck"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1903-02-10",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kamenskoje"
+  },
+  "deathDate": "1981-01-19",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hannover"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1959 und 1963 MdL Niedersachsen (FDP), 1956–1957 und 1959–1965 niedersächsischer Justizminister"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1035102153",
+    "https://de.wikipedia.org/wiki/Arvid_von_Nottbeck"
+  ]
 }

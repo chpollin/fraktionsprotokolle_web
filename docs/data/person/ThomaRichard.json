@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ThomaRichard",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ThomaRichard",
   "name": "Richard Thoma",
   "givenName": "Richard Emil",
   "familyName": "Thoma",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1874-12-19",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Todtnau"
-  },
-  "deathDate": "1957-06-26",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bonn"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1928–1945 Professor für Staatsrecht an der Universität Bonn, nach 1950 Gutachter bei Verfassungsfragen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118622080",
-    "https://de.wikipedia.org/wiki/Richard_Thoma_(Rechtswissenschaftler)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Richard Thoma",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118622080",
-    "wikipedia": "https://de.wikipedia.org/wiki/Richard_Thoma_(Rechtswissenschaftler)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Richard_Thoma_(Rechtswissenschaftler)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1874-12-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Todtnau"
+  },
+  "deathDate": "1957-06-26",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1928–1945 Professor für Staatsrecht an der Universität Bonn, nach 1950 Gutachter bei Verfassungsfragen"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118622080",
+    "https://de.wikipedia.org/wiki/Richard_Thoma_(Rechtswissenschaftler)"
+  ]
 }

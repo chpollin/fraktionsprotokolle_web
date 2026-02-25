@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SuhrOtto_1949-09-07",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SuhrOtto_1949-09-07",
   "name": "Otto Suhr",
   "givenName": "Otto",
   "familyName": "Suhr",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1894-08-17",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Oldenburg i. O."
-  },
-  "deathDate": "1957-08-30",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "West-Berlin"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Journalist, Volkswirt, Präsident des Bln. Abgeordnetenhaus [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1949-09-07",
-      "endDate": "1952-01-31"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/11875775X",
-    "https://de.wikipedia.org/wiki/Otto_Suhr"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Otto Suhr",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11002290",
     "gnd": "https://d-nb.info/gnd/11875775X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Otto_Suhr",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Otto_Suhr"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1894-08-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Oldenburg i. O."
+  },
+  "deathDate": "1957-08-30",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "West-Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist, Volkswirt, Präsident des Bln. Abgeordnetenhaus [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1952-01-31"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/11875775X",
+    "https://de.wikipedia.org/wiki/Otto_Suhr"
+  ]
 }

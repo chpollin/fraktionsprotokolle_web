@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BlaukatUdo",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BlaukatUdo",
   "name": "Udo Blaukat",
   "givenName": "Udo",
   "familyName": "Blaukat",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1942-01-30",
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Dipl.-Chemiker, Anfang der 1970er Jahre Wiss. Assistent am Institut für Umweltschutz und Umweltgüteplanung an der Universität Dortmund, 1978-1984 Referent für Forschungs- und Technologiepolitik der FDP-Bundestagsfraktion, 1988-2004 Hauptreferent beim Verband kommunaler Unternehmen (VKU), seit 2003 freier Mitarbeiter in der Arbeitsgruppe Kommunalpolitik der FDP-Bundestagsfraktion"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/143528815"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Udo Blaukat",
@@ -39,9 +29,15 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/143528815",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/143528815"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1942-01-30",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Chemiker, Anfang der 1970er Jahre Wiss. Assistent am Institut für Umweltschutz und Umweltgüteplanung an der Universität Dortmund, 1978-1984 Referent für Forschungs- und Technologiepolitik der FDP-Bundestagsfraktion, 1988-2004 Hauptreferent beim Verband kommunaler Unternehmen (VKU), seit 2003 freier Mitarbeiter in der Arbeitsgruppe Kommunalpolitik der FDP-Bundestagsfraktion"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/143528815"
+  ]
 }

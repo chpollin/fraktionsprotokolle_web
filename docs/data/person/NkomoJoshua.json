@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "NkomoJoshua",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/NkomoJoshua",
   "name": "Joshua Nkomo",
   "givenName": "Joshua",
   "familyName": "Nkomo",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1917-06-19",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Semokwe"
-  },
-  "deathDate": "1999-07-01",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Harare"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Gründer der Zimbabwe African People’s Union (ZAPU), 1988-1999 Vizepräsident von Simbabwe"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/124731570",
-    "https://de.wikipedia.org/wiki/Joshua_Nkomo"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Joshua Nkomo",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/124731570",
-    "wikipedia": "https://de.wikipedia.org/wiki/Joshua_Nkomo",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Joshua_Nkomo"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1917-06-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Semokwe"
+  },
+  "deathDate": "1999-07-01",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Harare"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Gründer der Zimbabwe African People’s Union (ZAPU), 1988-1999 Vizepräsident von Simbabwe"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/124731570",
+    "https://de.wikipedia.org/wiki/Joshua_Nkomo"
+  ]
 }

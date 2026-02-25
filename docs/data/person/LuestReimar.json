@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "LuestReimar",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/LuestReimar",
   "name": "Reimar Lüst",
   "givenName": "Reimar",
   "familyName": "Lüst",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1923-03-25",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Barmen"
-  },
-  "deathDate": "2020-03-31",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Hamburg"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Astrophysiker und Wissenschaftsmanager, 1969-1972 1969-1972 Vorsitzender des Wissenschaftsrates, 1972-1984 Präsident der Max-Planck-Gesellschaft, 1984-1990 Generaldirektor der Europäischen Weltraumorganisation ESA"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/128787457",
-    "https://de.wikipedia.org/wiki/Reimar_L%C3%BCst"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Reimar Lüst",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/128787457",
-    "wikipedia": "https://de.wikipedia.org/wiki/Reimar_L%C3%BCst",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Reimar_L%C3%BCst"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1923-03-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Barmen"
+  },
+  "deathDate": "2020-03-31",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Astrophysiker und Wissenschaftsmanager, 1969-1972 1969-1972 Vorsitzender des Wissenschaftsrates, 1972-1984 Präsident der Max-Planck-Gesellschaft, 1984-1990 Generaldirektor der Europäischen Weltraumorganisation ESA"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/128787457",
+    "https://de.wikipedia.org/wiki/Reimar_L%C3%BCst"
+  ]
 }

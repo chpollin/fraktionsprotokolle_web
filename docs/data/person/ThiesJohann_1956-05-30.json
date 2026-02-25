@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ThiesJohann_1956-05-30",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ThiesJohann_1956-05-30",
   "name": "Johann Thies",
   "givenName": "Johann",
   "familyName": "Thies",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1898-10-05",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Bremen"
-  },
-  "deathDate": "1969-11-12",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Verden"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Schulrat [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1956-05-30",
-      "endDate": "1957-10-06"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1012673499",
-    "https://de.wikipedia.org/wiki/Johann_Thies"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Johann Thies",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11002319",
     "gnd": "https://d-nb.info/gnd/1012673499",
-    "wikipedia": "https://de.wikipedia.org/wiki/Johann_Thies",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Johann_Thies"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1898-10-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bremen"
+  },
+  "deathDate": "1969-11-12",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Verden"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Schulrat [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1956-05-30",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1012673499",
+    "https://de.wikipedia.org/wiki/Johann_Thies"
+  ]
 }

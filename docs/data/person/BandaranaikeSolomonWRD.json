@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BandaranaikeSolomonWRD",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BandaranaikeSolomonWRD",
   "name": "Solomon W. R. D. Bandaranaike",
   "givenName": "Solomon West Ridgeway Dias",
   "familyName": "Bandaranaike",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1899-01-08",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Colombo"
-  },
-  "deathDate": "1959-09-26",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Colombo"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1956–1959 Premierminister von Ceylon (heute: Sri Lanka)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/123228093",
-    "https://de.wikipedia.org/wiki/S._W._R._D._Bandaranaike"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Solomon W. R. D. Bandaranaike",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/123228093",
-    "wikipedia": "https://de.wikipedia.org/wiki/S._W._R._D._Bandaranaike",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/S._W._R._D._Bandaranaike"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1899-01-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Colombo"
+  },
+  "deathDate": "1959-09-26",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Colombo"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1956–1959 Premierminister von Ceylon (heute: Sri Lanka)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/123228093",
+    "https://de.wikipedia.org/wiki/S._W._R._D._Bandaranaike"
+  ]
 }

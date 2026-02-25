@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PeyrefitteAlain",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PeyrefitteAlain",
   "name": "Alain Peyrefitte",
   "givenName": "Alain",
   "familyName": "Peyrefitte",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1925-08-26",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Najac, Département Aveyron"
-  },
-  "deathDate": "1999-11-27",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Paris"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1962–1966 französischer Informationsminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118791710",
-    "https://de.wikipedia.org/wiki/Alain_Peyrefitte"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Alain Peyrefitte",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118791710",
-    "wikipedia": "https://de.wikipedia.org/wiki/Alain_Peyrefitte",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Alain_Peyrefitte"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1925-08-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Najac, Département Aveyron"
+  },
+  "deathDate": "1999-11-27",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1962–1966 französischer Informationsminister"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118791710",
+    "https://de.wikipedia.org/wiki/Alain_Peyrefitte"
+  ]
 }

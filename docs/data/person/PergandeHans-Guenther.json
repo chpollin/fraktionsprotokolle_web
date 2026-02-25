@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PergandeHans-Guenther",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PergandeHans-Guenther",
   "name": "Hans-Günther Pergande",
   "givenName": "Hans-Günther",
   "familyName": "Pergande",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1912-07-24",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "deathDate": "1988-12-28",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bonn"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Jurist und Ministerialbeamter (Bundeswohnungsbauministerium)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1026797039",
-    "https://de.wikipedia.org/wiki/Hans-G%C3%BCnther_Pergande"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hans-Günther Pergande",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1026797039",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hans-G%C3%BCnther_Pergande",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans-G%C3%BCnther_Pergande"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1912-07-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "1988-12-28",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Jurist und Ministerialbeamter (Bundeswohnungsbauministerium)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1026797039",
+    "https://de.wikipedia.org/wiki/Hans-G%C3%BCnther_Pergande"
+  ]
 }

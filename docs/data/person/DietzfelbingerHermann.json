@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DietzfelbingerHermann",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DietzfelbingerHermann",
   "name": "Hermann Dietzfelbinger",
   "givenName": "Hermann",
   "familyName": "Dietzfelbinger",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1908-07-14",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Ermershausen"
-  },
-  "deathDate": "1984-11-15",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Landesbischof der Evangelisch-Lutherischen Kirche in Bayern"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118525638",
-    "https://de.wikipedia.org/wiki/Hermann_Dietzfelbinger"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hermann Dietzfelbinger",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118525638",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hermann_Dietzfelbinger",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hermann_Dietzfelbinger"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1908-07-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Ermershausen"
+  },
+  "deathDate": "1984-11-15",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Landesbischof der Evangelisch-Lutherischen Kirche in Bayern"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118525638",
+    "https://de.wikipedia.org/wiki/Hermann_Dietzfelbinger"
+  ]
 }

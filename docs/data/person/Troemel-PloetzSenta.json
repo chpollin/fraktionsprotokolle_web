@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "Troemel-PloetzSenta",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/Troemel-PloetzSenta",
   "name": "Senta Trömel-Plötz",
   "givenName": "Senta",
   "familyName": "Trömel-Plötz",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1939-02-26",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Sprachwissenschaftlerin und Begründerin der feministischen Linguistik, 1980-1984 Professorin am Fachbereich Sprachwissenschaft der Universität Konstanz"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1055761802",
-    "https://de.wikipedia.org/wiki/Senta_Tr%C3%B6mel-Pl%C3%B6tz"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Senta Trömel-Plötz",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1055761802",
-    "wikipedia": "https://de.wikipedia.org/wiki/Senta_Tr%C3%B6mel-Pl%C3%B6tz",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Senta_Tr%C3%B6mel-Pl%C3%B6tz"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1939-02-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Sprachwissenschaftlerin und Begründerin der feministischen Linguistik, 1980-1984 Professorin am Fachbereich Sprachwissenschaft der Universität Konstanz"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1055761802",
+    "https://de.wikipedia.org/wiki/Senta_Tr%C3%B6mel-Pl%C3%B6tz"
+  ]
 }

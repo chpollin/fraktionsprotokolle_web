@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "AppelReinhard",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/AppelReinhard",
   "name": "Reinhard Appel",
   "givenName": "Reinhard",
   "familyName": "Appel",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1927-02-21",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Königshütte, Oberschlesien (heute: Chorzów, Polen)"
-  },
-  "deathDate": "2011-06-26",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bonn"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Journalist, Redakteur und Intendant, Moderator der ZDF-Reihe »Journalisten fragen – Politiker antworten«"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/130433586",
-    "https://de.wikipedia.org/wiki/Reinhard_Appel"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Reinhard Appel",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/130433586",
-    "wikipedia": "https://de.wikipedia.org/wiki/Reinhard_Appel",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Reinhard_Appel"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1927-02-21",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Königshütte, Oberschlesien (heute: Chorzów, Polen)"
+  },
+  "deathDate": "2011-06-26",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist, Redakteur und Intendant, Moderator der ZDF-Reihe »Journalisten fragen – Politiker antworten«"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/130433586",
+    "https://de.wikipedia.org/wiki/Reinhard_Appel"
+  ]
 }

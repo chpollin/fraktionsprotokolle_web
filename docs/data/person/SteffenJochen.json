@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SteffenJochen",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SteffenJochen",
   "name": "Karl Joachim Jürgen (»Jochen«) Steffen, als Kabarettist: Kuddl Schnööf",
   "givenName": "Karl Joachim Jürgen (»Jochen«)",
   "familyName": "Steffen",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1922-09-19",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Kiel"
-  },
-  "deathDate": "1987-09-27",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Kiel"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "MdL Schleswig-Holstein (SPD); Fraktionsvorsitzender der SPD im schleswig-holsteinischen Landtag; 1965 bis 1975 Landesvorsitzender der SPD Schleswig-Holstein"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118617079",
-    "https://de.wikipedia.org/wiki/Jochen_Steffen"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Karl Joachim Jürgen (»Jochen«) Steffen, als Kabarettist: Kuddl Schnööf",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118617079",
-    "wikipedia": "https://de.wikipedia.org/wiki/Jochen_Steffen",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Jochen_Steffen"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1922-09-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kiel"
+  },
+  "deathDate": "1987-09-27",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Kiel"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "MdL Schleswig-Holstein (SPD); Fraktionsvorsitzender der SPD im schleswig-holsteinischen Landtag; 1965 bis 1975 Landesvorsitzender der SPD Schleswig-Holstein"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118617079",
+    "https://de.wikipedia.org/wiki/Jochen_Steffen"
+  ]
 }

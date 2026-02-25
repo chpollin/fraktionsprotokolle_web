@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MeyerConradFerdinand",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MeyerConradFerdinand",
   "name": "Conrad Ferdinand Meyer",
   "givenName": "Conrad Ferdinand",
   "familyName": "Meyer",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1825-10-11",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Zürich"
-  },
-  "deathDate": "1898-11-28",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Kilchberg bei Zürich"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Schweizer Dichter des Realismus"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118581775",
-    "https://de.wikipedia.org/wiki/Conrad_Ferdinand_Meyer"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Conrad Ferdinand Meyer",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118581775",
-    "wikipedia": "https://de.wikipedia.org/wiki/Conrad_Ferdinand_Meyer",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Conrad_Ferdinand_Meyer"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1825-10-11",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Zürich"
+  },
+  "deathDate": "1898-11-28",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Kilchberg bei Zürich"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Schweizer Dichter des Realismus"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118581775",
+    "https://de.wikipedia.org/wiki/Conrad_Ferdinand_Meyer"
+  ]
 }

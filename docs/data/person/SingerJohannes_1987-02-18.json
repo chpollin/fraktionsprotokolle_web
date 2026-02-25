@@ -1,10 +1,60 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SingerJohannes_1987-02-18",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SingerJohannes_1987-02-18",
   "name": "Johannes Singer",
   "givenName": "Johannes",
   "familyName": "Singer",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Johannes Singer",
+    "forename": "Johannes",
+    "surname": "Singer",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1943-06-04",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2008-03-08",
+    "place": "Leverkusen",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 11,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1987-02-18",
+      "to": "1990-12-20"
+    },
+    {
+      "period": 12,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1990-12-20",
+      "to": "1994-11-10"
+    },
+    {
+      "period": 13,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1994-11-10",
+      "to": "1998-10-26"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002181",
+    "gnd": "https://d-nb.info/gnd/1027625185",
+    "wikipedia": "https://de.wikipedia.org/wiki/Johannes_Singer_%28Politiker%29"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1943-06-04",
   "birthPlace": {
@@ -55,53 +105,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/1027625185",
     "https://de.wikipedia.org/wiki/Johannes_Singer_%28Politiker%29"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Johannes Singer",
-    "forename": "Johannes",
-    "surname": "Singer",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1943-06-04",
-    "place": "Berlin",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "2008-03-08",
-    "place": "Leverkusen",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 11,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1987-02-18",
-      "to": "1990-12-20"
-    },
-    {
-      "period": 12,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1990-12-20",
-      "to": "1994-11-10"
-    },
-    {
-      "period": 13,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1994-11-10",
-      "to": "1998-10-26"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11002181",
-    "gnd": "https://d-nb.info/gnd/1027625185",
-    "wikipedia": "https://de.wikipedia.org/wiki/Johannes_Singer_%28Politiker%29",
-    "viaf": null
-  }
+  ]
 }

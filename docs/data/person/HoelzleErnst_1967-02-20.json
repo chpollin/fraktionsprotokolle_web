@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HoelzleErnst_1967-02-20",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HoelzleErnst_1967-02-20",
   "name": "Ernst Hölzle",
   "givenName": "Ernst",
   "familyName": "Hölzle",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1913-08-15",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Sulzbach am Kocher"
-  },
-  "deathDate": "1970-06-01",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Mutlangen"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Bürgermeister [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1967-02-20",
-      "endDate": "1969-10-19"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1012760901",
-    "https://de.wikipedia.org/wiki/Ernst_H%C3%B6lzle"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Ernst Hölzle",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000923",
     "gnd": "https://d-nb.info/gnd/1012760901",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ernst_H%C3%B6lzle",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ernst_H%C3%B6lzle"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1913-08-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Sulzbach am Kocher"
+  },
+  "deathDate": "1970-06-01",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Mutlangen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Bürgermeister [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1967-02-20",
+      "endDate": "1969-10-19"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1012760901",
+    "https://de.wikipedia.org/wiki/Ernst_H%C3%B6lzle"
+  ]
 }

@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HarigPaul_1949-09-07",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HarigPaul_1949-09-07",
   "name": "Paul Harig",
   "givenName": "Paul",
   "familyName": "Harig",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1900-07-03",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Nivilingen/Saargebiet (heute: Nilvange, Frankreich)"
-  },
-  "deathDate": "1977-05-24",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Hagen-Haspe"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Metallarbeiter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Kommunistischen Partei Deutschlands",
-        "alternateName": "KPD"
-      },
-      "startDate": "1949-09-07",
-      "endDate": "1953-09-07"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/118701614",
-    "https://de.wikipedia.org/wiki/Paul_Harig"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Paul Harig",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000811",
     "gnd": "https://d-nb.info/gnd/118701614",
-    "wikipedia": "https://de.wikipedia.org/wiki/Paul_Harig",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Paul_Harig"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1900-07-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Nivilingen/Saargebiet (heute: Nilvange, Frankreich)"
+  },
+  "deathDate": "1977-05-24",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hagen-Haspe"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Metallarbeiter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Kommunistischen Partei Deutschlands",
+        "alternateName": "KPD"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/118701614",
+    "https://de.wikipedia.org/wiki/Paul_Harig"
+  ]
 }

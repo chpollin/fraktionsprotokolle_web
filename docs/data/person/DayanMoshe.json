@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DayanMoshe",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DayanMoshe",
   "name": "Moshe Dayan",
   "givenName": "Moshe",
   "familyName": "Dayan",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1915-05-20",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Kibbuz Degania"
-  },
-  "deathDate": "1981-10-16",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Tel Aviv"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "israelischer General und Politiker, 1977–1979 israelischer Außenminister; 1967–1974 Verteidigungsminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118524127",
-    "https://de.wikipedia.org/wiki/Mosche_Dajan"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Moshe Dayan",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118524127",
-    "wikipedia": "https://de.wikipedia.org/wiki/Mosche_Dajan",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Mosche_Dajan"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1915-05-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kibbuz Degania"
+  },
+  "deathDate": "1981-10-16",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Tel Aviv"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "israelischer General und Politiker, 1977–1979 israelischer Außenminister; 1967–1974 Verteidigungsminister"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118524127",
+    "https://de.wikipedia.org/wiki/Mosche_Dajan"
+  ]
 }

@@ -1,35 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HajekRainer_2016-11-01",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HajekRainer_2016-11-01",
   "name": "Rainer Hajek",
   "givenName": "Rainer",
   "familyName": "Hajek",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1945-01-25",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Wilhelmshaven"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Gross- und Aussenhandelskaufmann [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "2016-11-01",
-      "endDate": "2017-10-24"
-    }
-  ],
-  "sameAs": null,
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Rainer Hajek",
@@ -59,9 +37,28 @@
     }
   ],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11004641",
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
-  }
+    "mdb_stammdaten": "11004641"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1945-01-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Wilhelmshaven"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Gross- und Aussenhandelskaufmann [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "2016-11-01",
+      "endDate": "2017-10-24"
+    }
+  ]
 }

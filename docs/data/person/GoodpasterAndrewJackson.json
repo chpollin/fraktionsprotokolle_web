@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GoodpasterAndrewJackson",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GoodpasterAndrewJackson",
   "name": "Andrew Jackson Goodpaster",
   "givenName": "Andrew Jackson",
   "familyName": "Goodpaster",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1915-12-02",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Granite City, Illinois"
-  },
-  "deathDate": "2005-05-16",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Washington, D. C."
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1969–1971 Oberkommandierender der NATO-Streitkräfte in Europa"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1053296657",
-    "https://de.wikipedia.org/wiki/Andrew_J._Goodpaster"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Andrew Jackson Goodpaster",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1053296657",
-    "wikipedia": "https://de.wikipedia.org/wiki/Andrew_J._Goodpaster",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Andrew_J._Goodpaster"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1915-12-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Granite City, Illinois"
+  },
+  "deathDate": "2005-05-16",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Washington, D. C."
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1969–1971 Oberkommandierender der NATO-Streitkräfte in Europa"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1053296657",
+    "https://de.wikipedia.org/wiki/Andrew_J._Goodpaster"
+  ]
 }

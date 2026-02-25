@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BresserKlaus",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BresserKlaus",
   "name": "Klaus Bresser",
   "givenName": "Klaus",
   "familyName": "Bresser",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1936-07-22",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1965-1977 Journalist beim WDR, seit 1977 beim ZDF, 1988-2000 ZDF-Chefredakteur"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/120089610",
-    "https://de.wikipedia.org/wiki/Klaus_Bresser"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Klaus Bresser",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/120089610",
-    "wikipedia": "https://de.wikipedia.org/wiki/Klaus_Bresser",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Klaus_Bresser"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1936-07-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1965-1977 Journalist beim WDR, seit 1977 beim ZDF, 1988-2000 ZDF-Chefredakteur"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/120089610",
+    "https://de.wikipedia.org/wiki/Klaus_Bresser"
+  ]
 }

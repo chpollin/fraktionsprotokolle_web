@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchueleErwin",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchueleErwin",
   "name": "Erwin Schüle",
   "givenName": "Erwin",
   "familyName": "Schüle",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1913-07-02",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Canstatt"
-  },
-  "deathDate": "1993-09-05",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Stuttgart"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1958–1966 Leiter der Zentralstelle der Landesjustizverwaltungen zur Aufklärung von NS-Gewaltverbrechen, Ludwigsburg, dann Generalstaatsanwalt Stuttgart"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/117130567",
-    "https://de.wikipedia.org/wiki/Erwin_Sch%C3%BCle"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Erwin Schüle",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/117130567",
-    "wikipedia": "https://de.wikipedia.org/wiki/Erwin_Sch%C3%BCle",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Erwin_Sch%C3%BCle"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1913-07-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Canstatt"
+  },
+  "deathDate": "1993-09-05",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Stuttgart"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1958–1966 Leiter der Zentralstelle der Landesjustizverwaltungen zur Aufklärung von NS-Gewaltverbrechen, Ludwigsburg, dann Generalstaatsanwalt Stuttgart"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/117130567",
+    "https://de.wikipedia.org/wiki/Erwin_Sch%C3%BCle"
+  ]
 }

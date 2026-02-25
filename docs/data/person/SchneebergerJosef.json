@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchneebergerJosef",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchneebergerJosef",
   "name": "Josef Schneeberger",
   "givenName": "Josef",
   "familyName": "Schneeberger",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1909-02-16",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Nürnberg"
-  },
-  "deathDate": "1982-08-01",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Münster"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Verwaltungsjurist, 1956 Präsident des 77. Katholischen Kirchentages in Köln, ab 1958 Leiter der Abteilung »Öffentliche Sicherheit« sowie ab 1959 Ministerialdirigent im Bundesministerium des Innern, 1959-1973 Regierungspräsident in Münster, 1962-1964 Präsident der Deutschen Katholischen Akademikerschaft, 1977-1982 Präsident des Volksbundes Deutscher Kriegsgräberfürsorge"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/116819189",
-    "https://de.wikipedia.org/wiki/Josef_Schneeberger_(Verwaltungsjurist)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Josef Schneeberger",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/116819189",
-    "wikipedia": "https://de.wikipedia.org/wiki/Josef_Schneeberger_(Verwaltungsjurist)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Josef_Schneeberger_(Verwaltungsjurist)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1909-02-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Nürnberg"
+  },
+  "deathDate": "1982-08-01",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Münster"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Verwaltungsjurist, 1956 Präsident des 77. Katholischen Kirchentages in Köln, ab 1958 Leiter der Abteilung »Öffentliche Sicherheit« sowie ab 1959 Ministerialdirigent im Bundesministerium des Innern, 1959-1973 Regierungspräsident in Münster, 1962-1964 Präsident der Deutschen Katholischen Akademikerschaft, 1977-1982 Präsident des Volksbundes Deutscher Kriegsgräberfürsorge"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/116819189",
+    "https://de.wikipedia.org/wiki/Josef_Schneeberger_(Verwaltungsjurist)"
+  ]
 }

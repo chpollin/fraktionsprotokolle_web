@@ -1,24 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HustaedtErnst",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HustaedtErnst",
   "name": "Ernst Hustädt",
   "givenName": "Ernst",
   "familyName": "Hustädt",
-  "gender": "https://schema.org/Male",
-  "birthDate": null,
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Jurist, Rechtsanwalt, 1988 Rechtsberater des Bremer AStA, 1989 Mitglied im Kommissarischen Bundesvorstand der Grünen aus Bremen, seit 1990 in verschiedenen Funktionen Mitarbeiter der Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1133290817",
-    "https://viaf.org/viaf/1644149662206907020002/"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Ernst Hustädt",
@@ -40,9 +29,16 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1133290817",
-    "wikipedia": null,
     "viaf": "https://viaf.org/viaf/1644149662206907020002/"
-  }
+  },
+  "gender": "https://schema.org/Male",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Jurist, Rechtsanwalt, 1988 Rechtsberater des Bremer AStA, 1989 Mitglied im Kommissarischen Bundesvorstand der Grünen aus Bremen, seit 1990 in verschiedenen Funktionen Mitarbeiter der Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1133290817",
+    "https://viaf.org/viaf/1644149662206907020002/"
+  ]
 }

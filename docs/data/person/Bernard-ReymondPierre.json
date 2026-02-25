@@ -1,26 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "Bernard-ReymondPierre",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/Bernard-ReymondPierre",
   "name": "Pierre Bernard-Reymond",
   "givenName": "Pierre",
   "familyName": "Bernard-Reymond",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1944-01-16",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Gap"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "französischer christdemokratischer Politiker, 1977-1978 Haushaltsstaatssekretär, 1978-1981 Staatssekretär für europäische Angelegenheiten,  1971-1977, 1978 und 1986-1988 Abgeordneter der Nationalversammlung, 1984-1986 und 1989-1999 MdEP (EVP), 2007-2014 Mitglied des französischen Senats"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://en.wikipedia.org/wiki/Pierre_Bernard-Reymond"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Pierre Bernard-Reymond",
@@ -42,9 +29,19 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://en.wikipedia.org/wiki/Pierre_Bernard-Reymond",
-    "viaf": null
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/Pierre_Bernard-Reymond"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1944-01-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Gap"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "französischer christdemokratischer Politiker, 1977-1978 Haushaltsstaatssekretär, 1978-1981 Staatssekretär für europäische Angelegenheiten,  1971-1977, 1978 und 1986-1988 Abgeordneter der Nationalversammlung, 1984-1986 und 1989-1999 MdEP (EVP), 2007-2014 Mitglied des französischen Senats"
+  },
+  "sameAs": [
+    "https://en.wikipedia.org/wiki/Pierre_Bernard-Reymond"
+  ]
 }

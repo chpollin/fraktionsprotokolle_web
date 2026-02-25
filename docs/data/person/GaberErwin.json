@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GaberErwin",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GaberErwin",
   "name": "Erwin Gaber",
   "givenName": "Erwin",
   "familyName": "Gaber",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1903-10-07",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Mannheim"
-  },
-  "deathDate": "1986-03-31",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "West-Berlin"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1953–1968 Präsident der Bundesversicherungsanstalt für Angestellte"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118688979",
-    "https://de.wikipedia.org/wiki/Erwin_Gaber"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Erwin Gaber",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118688979",
-    "wikipedia": "https://de.wikipedia.org/wiki/Erwin_Gaber",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Erwin_Gaber"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1903-10-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Mannheim"
+  },
+  "deathDate": "1986-03-31",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "West-Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1953–1968 Präsident der Bundesversicherungsanstalt für Angestellte"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118688979",
+    "https://de.wikipedia.org/wiki/Erwin_Gaber"
+  ]
 }

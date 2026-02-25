@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WintersteinLadislaus_1964-10-26",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WintersteinLadislaus_1964-10-26",
   "name": "Ladislaus Winterstein",
   "givenName": "Ladislaus",
   "familyName": "Winterstein",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1905-06-11",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Alt-Siwatz in der West-Batschka (heute: Sivac)"
-  },
-  "deathDate": "1964-11-02",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Hattersheim am Main"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Bürgermeister [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1964-10-26",
-      "endDate": "1964-11-02"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1153164477",
-    "https://de.wikipedia.org/wiki/Ladislaus_Winterstein"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Ladislaus Winterstein",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11002529",
     "gnd": "https://d-nb.info/gnd/1153164477",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ladislaus_Winterstein",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ladislaus_Winterstein"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1905-06-11",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Alt-Siwatz in der West-Batschka (heute: Sivac)"
+  },
+  "deathDate": "1964-11-02",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hattersheim am Main"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Bürgermeister [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1964-10-26",
+      "endDate": "1964-11-02"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1153164477",
+    "https://de.wikipedia.org/wiki/Ladislaus_Winterstein"
+  ]
 }

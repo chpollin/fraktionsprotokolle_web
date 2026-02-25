@@ -1,21 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KambonaOscarS",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KambonaOscarS",
   "name": "Oscar S. Kambona",
   "givenName": "Oscar S.",
   "familyName": "Kambona",
-  "gender": "https://schema.org/Male",
-  "birthDate": null,
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "bis April 1964 Außen- und Verteidigungsminister der Republik Tanganjika, danach Außenminister der Vereinigten Republik von Tanganjika und Sansibar (seit Oktober 1964: Vereinigte Republik Tansania)"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Oscar S. Kambona",
@@ -36,10 +28,10 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Male",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "bis April 1964 Außen- und Verteidigungsminister der Republik Tanganjika, danach Außenminister der Vereinigten Republik von Tanganjika und Sansibar (seit Oktober 1964: Vereinigte Republik Tansania)"
   }
 }

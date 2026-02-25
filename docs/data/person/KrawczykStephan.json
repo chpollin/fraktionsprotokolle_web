@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KrawczykStephan",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KrawczykStephan",
   "name": "Stephan Krawczyk",
   "givenName": "Stephan",
   "familyName": "Krawczyk",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1955-12-31",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Weida"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Liedermacher, Schriftsteller und DDR-Bürgerrechtler"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/134608461",
-    "https://de.wikipedia.org/wiki/Stephan_Krawczyk"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Stephan Krawczyk",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/134608461",
-    "wikipedia": "https://de.wikipedia.org/wiki/Stephan_Krawczyk",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Stephan_Krawczyk"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1955-12-31",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Weida"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Liedermacher, Schriftsteller und DDR-Bürgerrechtler"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/134608461",
+    "https://de.wikipedia.org/wiki/Stephan_Krawczyk"
+  ]
 }

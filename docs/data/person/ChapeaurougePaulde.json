@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ChapeaurougePaulde",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ChapeaurougePaulde",
   "name": "Paul de Chapeaurouge",
   "givenName": "Paul Henri Adolph Wilhelm Franz",
   "familyName": "Chapeaurouge",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1876-12-11",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Hamburg"
-  },
-  "deathDate": "1952-10-03",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Hamburg"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1917–1933 und 1946–1952 Mitglied der Hamburgischen Bürgerschaft (DVP, seit 1946 bzw. CDU), 1925–1933 Mitglied des Hamburger Senats, 1948/49 Mitglied des Parlamentarischen Rates (CDU)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119139782",
-    "https://de.wikipedia.org/wiki/Paul_de_Chapeaurouge"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Paul de Chapeaurouge",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119139782",
-    "wikipedia": "https://de.wikipedia.org/wiki/Paul_de_Chapeaurouge",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Paul_de_Chapeaurouge"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1876-12-11",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "deathDate": "1952-10-03",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1917–1933 und 1946–1952 Mitglied der Hamburgischen Bürgerschaft (DVP, seit 1946 bzw. CDU), 1925–1933 Mitglied des Hamburger Senats, 1948/49 Mitglied des Parlamentarischen Rates (CDU)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119139782",
+    "https://de.wikipedia.org/wiki/Paul_de_Chapeaurouge"
+  ]
 }

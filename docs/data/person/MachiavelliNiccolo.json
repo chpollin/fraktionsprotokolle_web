@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MachiavelliNiccolo",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MachiavelliNiccolo",
   "name": "Niccolò Machiavelli",
   "givenName": "Niccolò",
   "familyName": "Machiavelli",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1469-05-03",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Florenz"
-  },
-  "deathDate": "1527-06-21",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Florenz"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "italienischer Politiker und Philosoph"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118575775",
-    "https://de.wikipedia.org/wiki/Niccol%C3%B2_Machiavelli"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Niccolò Machiavelli",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118575775",
-    "wikipedia": "https://de.wikipedia.org/wiki/Niccol%C3%B2_Machiavelli",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Niccol%C3%B2_Machiavelli"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1469-05-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Florenz"
+  },
+  "deathDate": "1527-06-21",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Florenz"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "italienischer Politiker und Philosoph"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118575775",
+    "https://de.wikipedia.org/wiki/Niccol%C3%B2_Machiavelli"
+  ]
 }

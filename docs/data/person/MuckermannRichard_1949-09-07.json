@@ -1,10 +1,60 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MuckermannRichard_1949-09-07",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MuckermannRichard_1949-09-07",
   "name": "Richard Muckermann",
   "givenName": "Richard",
   "familyName": "Muckermann",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Richard Muckermann",
+    "forename": "Richard",
+    "surname": "Muckermann",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1891-11-28",
+    "place": "Bückeburg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1981-02-02",
+    "place": "Essen",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 2,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 3,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001536",
+    "gnd": "https://d-nb.info/gnd/117147249",
+    "wikipedia": "https://de.wikipedia.org/wiki/Richard_Muckermann"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1891-11-28",
   "birthPlace": {
@@ -55,53 +105,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/117147249",
     "https://de.wikipedia.org/wiki/Richard_Muckermann"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Richard Muckermann",
-    "forename": "Richard",
-    "surname": "Muckermann",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1891-11-28",
-    "place": "Bückeburg",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1981-02-02",
-    "place": "Essen",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 1,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1949-09-07",
-      "to": "1953-09-07"
-    },
-    {
-      "period": 2,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1953-10-06",
-      "to": "1957-10-06"
-    },
-    {
-      "period": 3,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1957-10-15",
-      "to": "1961-10-15"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11001536",
-    "gnd": "https://d-nb.info/gnd/117147249",
-    "wikipedia": "https://de.wikipedia.org/wiki/Richard_Muckermann",
-    "viaf": null
-  }
+  ]
 }

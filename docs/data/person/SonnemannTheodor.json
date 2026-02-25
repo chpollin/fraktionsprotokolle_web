@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SonnemannTheodor",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SonnemannTheodor",
   "name": "Theodor Sonnemann",
   "givenName": "Theodor",
   "familyName": "Sonnemann",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1900-09-02",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Hildesheim"
-  },
-  "deathDate": "1987-09-06",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bonn"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Agrarpolitiker (DP, 1958 CDU), 1949–1961 Staatssekretär im Bundeslandwirtschaftsministerium, 1961–1973 Präsident des Deutschen Genossenschafts- und Raiffeisenverbandes"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118615602",
-    "https://de.wikipedia.org/wiki/Theodor_Sonnemann"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Theodor Sonnemann",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118615602",
-    "wikipedia": "https://de.wikipedia.org/wiki/Theodor_Sonnemann",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Theodor_Sonnemann"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1900-09-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hildesheim"
+  },
+  "deathDate": "1987-09-06",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Agrarpolitiker (DP, 1958 CDU), 1949–1961 Staatssekretär im Bundeslandwirtschaftsministerium, 1961–1973 Präsident des Deutschen Genossenschafts- und Raiffeisenverbandes"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118615602",
+    "https://de.wikipedia.org/wiki/Theodor_Sonnemann"
+  ]
 }

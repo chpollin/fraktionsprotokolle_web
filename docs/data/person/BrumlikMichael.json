@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BrumlikMichael",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BrumlikMichael",
   "name": "Michael Brumlik",
   "givenName": "Michael",
   "familyName": "Brumlik",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1947-11-04",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Davos"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Erziehungswissenschaftler und Publizist, 1981–2000 Professur für Erziehungswissenschaft mit Schwerpunkt Sozialpädagogik an der Universität Heidelberg"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119409593",
-    "https://de.wikipedia.org/wiki/Micha_Brumlik"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Michael Brumlik",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119409593",
-    "wikipedia": "https://de.wikipedia.org/wiki/Micha_Brumlik",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Micha_Brumlik"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1947-11-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Davos"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Erziehungswissenschaftler und Publizist, 1981–2000 Professur für Erziehungswissenschaft mit Schwerpunkt Sozialpädagogik an der Universität Heidelberg"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119409593",
+    "https://de.wikipedia.org/wiki/Micha_Brumlik"
+  ]
 }

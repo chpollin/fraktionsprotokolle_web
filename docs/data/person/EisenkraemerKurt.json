@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "EisenkraemerKurt",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/EisenkraemerKurt",
   "name": "Kurt Eisenkrämer",
   "givenName": "Kurt",
   "familyName": "Eisenkrämer",
-  "gender": "https://schema.org/Male",
-  "birthDate": null,
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Bundesministerium für Ernährung, Landwirtschaft und Forsten, bis 1968 persönlicher Referent des Bundesministers, dann Leiter der Unterabteilung Gesellschafts- und Sozialpolitik im ländlichen Raum, 1988–1991 beamteter Staatssekretär"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/170151964"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Kurt Eisenkrämer",
@@ -39,9 +29,14 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/170151964",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/170151964"
+  },
+  "gender": "https://schema.org/Male",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Bundesministerium für Ernährung, Landwirtschaft und Forsten, bis 1968 persönlicher Referent des Bundesministers, dann Leiter der Unterabteilung Gesellschafts- und Sozialpolitik im ländlichen Raum, 1988–1991 beamteter Staatssekretär"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/170151964"
+  ]
 }

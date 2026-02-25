@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ProllThorwald",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ProllThorwald",
   "name": "Thorwald",
   "givenName": "Thorwald",
   "familyName": "Proll",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1941-07-22",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Kassel"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Lyriker, Schriftsteller, Lektor und Buchhändler"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/124957501",
-    "https://de.wikipedia.org/wiki/Thorwald_Proll"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Thorwald",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/124957501",
-    "wikipedia": "https://de.wikipedia.org/wiki/Thorwald_Proll",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Thorwald_Proll"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1941-07-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kassel"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Lyriker, Schriftsteller, Lektor und Buchhändler"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/124957501",
+    "https://de.wikipedia.org/wiki/Thorwald_Proll"
+  ]
 }

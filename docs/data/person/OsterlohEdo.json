@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "OsterlohEdo",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/OsterlohEdo",
   "name": "Edo Osterloh",
   "givenName": "Edo",
   "familyName": "Osterloh",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1909-04-02",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Varel (Oldenburg)"
-  },
-  "deathDate": "1964-02-25",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Kiel"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "evangelisch-lutherischer Theologe, 1953–1954 Ministerialrat im Bundesministerium des Innern, 1954–1956 Ministerialdirektor im Bundesfamilienministerium, 1956–1964 Kultusminister von Schleswig-Holstein, 1958–1964 MdL (CDU)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/117157961",
-    "https://de.wikipedia.org/wiki/Edo_Osterloh"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Edo Osterloh",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/117157961",
-    "wikipedia": "https://de.wikipedia.org/wiki/Edo_Osterloh",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Edo_Osterloh"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1909-04-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Varel (Oldenburg)"
+  },
+  "deathDate": "1964-02-25",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Kiel"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "evangelisch-lutherischer Theologe, 1953–1954 Ministerialrat im Bundesministerium des Innern, 1954–1956 Ministerialdirektor im Bundesfamilienministerium, 1956–1964 Kultusminister von Schleswig-Holstein, 1958–1964 MdL (CDU)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/117157961",
+    "https://de.wikipedia.org/wiki/Edo_Osterloh"
+  ]
 }

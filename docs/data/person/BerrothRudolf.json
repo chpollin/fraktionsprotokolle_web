@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BerrothRudolf",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BerrothRudolf",
   "name": "Rudolf Berroth",
   "givenName": "Rudolf",
   "familyName": "Berroth",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1933",
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "(mindestens) 1976-1977 Ministerialrat im Arbeits- und Sozialministerium des Landes Baden-Württemberg"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1145355536"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Rudolf Berroth",
@@ -39,9 +29,15 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/1145355536",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/1145355536"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1933",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "(mindestens) 1976-1977 Ministerialrat im Arbeits- und Sozialministerium des Landes Baden-Württemberg"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1145355536"
+  ]
 }

@@ -1,26 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WagnerHelmut",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WagnerHelmut",
   "name": "Helmut Wagner",
   "givenName": "Helmut",
   "familyName": "Wagner",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1930-06-10",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Mainz"
-  },
-  "deathDate": "2013-12-17",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Volkswirt und Gewerkschaftsfunktionär, seit 1960 Manager der Allgemeinen Saar-Konsum eGmbH"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/120455838"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Helmut Wagner",
@@ -42,9 +29,20 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/120455838",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/120455838"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1930-06-10",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Mainz"
+  },
+  "deathDate": "2013-12-17",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Volkswirt und Gewerkschaftsfunktionär, seit 1960 Manager der Allgemeinen Saar-Konsum eGmbH"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/120455838"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "CroslandAnthony",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/CroslandAnthony",
   "name": "Charles Anthony Raven Crosland",
   "givenName": "Charles Anthony Raven",
   "familyName": "Crosland",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1918-08-29",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "St Leonards-on-sea, Sussex"
-  },
-  "deathDate": "1977-02-19",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Oxford"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "britischer Politiker und für Labour Mitglied des Parlaments, 1976–1977 britischer Außenminister, sozialistischer Theoretiker"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/11867062X",
-    "https://de.wikipedia.org/wiki/Anthony_Crosland"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Charles Anthony Raven Crosland",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/11867062X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Anthony_Crosland",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Anthony_Crosland"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1918-08-29",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "St Leonards-on-sea, Sussex"
+  },
+  "deathDate": "1977-02-19",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Oxford"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "britischer Politiker und für Labour Mitglied des Parlaments, 1976–1977 britischer Außenminister, sozialistischer Theoretiker"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/11867062X",
+    "https://de.wikipedia.org/wiki/Anthony_Crosland"
+  ]
 }

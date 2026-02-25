@@ -1,28 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "YagciNabi",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/YagciNabi",
   "name": "Nabi Yağcı",
   "givenName": "Nabi",
   "familyName": "Yağcı",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1944-10-11",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Tokat"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1983–1987 Generalsekretär der Türkiye Komünist Partisi, danach Generalsekretär der Türkiye Birleşik Komünist Partisi (TBKP), 1987–1990 wegen politischer Überzeugungen in Haft"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/102269586X",
-    "https://tr.wikipedia.org/wiki/Nabi_Ya%C4%9Fc%C4%B1",
-    "https://viaf.org/viaf/5064156858484149780005/"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Nabi Yağcı",
@@ -44,9 +29,23 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/102269586X",
     "wikipedia": "https://tr.wikipedia.org/wiki/Nabi_Ya%C4%9Fc%C4%B1",
     "viaf": "https://viaf.org/viaf/5064156858484149780005/"
-  }
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1944-10-11",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Tokat"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1983–1987 Generalsekretär der Türkiye Komünist Partisi, danach Generalsekretär der Türkiye Birleşik Komünist Partisi (TBKP), 1987–1990 wegen politischer Überzeugungen in Haft"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/102269586X",
+    "https://tr.wikipedia.org/wiki/Nabi_Ya%C4%9Fc%C4%B1",
+    "https://viaf.org/viaf/5064156858484149780005/"
+  ]
 }

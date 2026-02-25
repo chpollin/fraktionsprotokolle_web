@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GlaserHermann",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GlaserHermann",
   "name": "Hermann Glaser",
   "givenName": "Hermann",
   "familyName": "Glaser",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1928-08-28",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Nürnberg"
-  },
-  "deathDate": "2018-06-18",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Kulturhistoriker und Publizist, 1964-1990 Leiter des Schul- und Kulturreferats der Stadt Nürnberg"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/115807497",
-    "https://de.wikipedia.org/wiki/Hermann_Glaser"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hermann Glaser",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/115807497",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hermann_Glaser",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hermann_Glaser"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1928-08-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Nürnberg"
+  },
+  "deathDate": "2018-06-18",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Kulturhistoriker und Publizist, 1964-1990 Leiter des Schul- und Kulturreferats der Stadt Nürnberg"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/115807497",
+    "https://de.wikipedia.org/wiki/Hermann_Glaser"
+  ]
 }

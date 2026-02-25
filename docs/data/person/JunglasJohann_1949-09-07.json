@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "JunglasJohann_1949-09-07",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/JunglasJohann_1949-09-07",
   "name": "Johann Junglas",
   "givenName": "Johann",
   "familyName": "Junglas",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1898-02-12",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Wirfus-Cochem"
-  },
-  "deathDate": "1963-11-08",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Koblenz"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Gärtner, Staatsminister a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1949-09-07",
-      "endDate": "1953-09-07"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1051193141",
-    "https://de.wikipedia.org/wiki/Johann_Junglas"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Johann Junglas",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001045",
     "gnd": "https://d-nb.info/gnd/1051193141",
-    "wikipedia": "https://de.wikipedia.org/wiki/Johann_Junglas",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Johann_Junglas"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1898-02-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Wirfus-Cochem"
+  },
+  "deathDate": "1963-11-08",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Koblenz"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Gärtner, Staatsminister a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1051193141",
+    "https://de.wikipedia.org/wiki/Johann_Junglas"
+  ]
 }

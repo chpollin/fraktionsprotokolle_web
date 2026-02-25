@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "AgostinhoNetoAntonio",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/AgostinhoNetoAntonio",
   "name": "António Agostinho Neto",
   "givenName": "António",
   "familyName": "Agostinho Neto",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1922-09-17",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Catete, Kreis Ícolo e Bengo"
-  },
-  "deathDate": "1979-09-10",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Moskau"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1975 bis 1979 erster Staatspräsident und nationalistischer Führer Angolas"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118904558",
-    "https://de.wikipedia.org/wiki/Agostinho_Neto"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "António Agostinho Neto",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118904558",
-    "wikipedia": "https://de.wikipedia.org/wiki/Agostinho_Neto",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Agostinho_Neto"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1922-09-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Catete, Kreis Ícolo e Bengo"
+  },
+  "deathDate": "1979-09-10",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Moskau"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1975 bis 1979 erster Staatspräsident und nationalistischer Führer Angolas"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118904558",
+    "https://de.wikipedia.org/wiki/Agostinho_Neto"
+  ]
 }

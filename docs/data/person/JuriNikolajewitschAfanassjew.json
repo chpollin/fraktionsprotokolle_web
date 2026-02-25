@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "JuriNikolajewitschAfanassjew",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/JuriNikolajewitschAfanassjew",
   "name": "Juri Nikolajewitsch Afanassjew",
   "givenName": "Juri Nikolajewitsch",
   "familyName": "Afanassjew",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1934-09-05",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Maina, Oblast Uljanowsk"
-  },
-  "deathDate": "2015-09-14",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Moskau"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "sowjetischer und russischer Historiker und Politiker; Rektor des Moskauer Historisch-archivalischen Instituts und Gründer und Rektor der Russischen Staatlichen Geisteswissenschaftlichen Universität"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/122682394",
-    "https://de.wikipedia.org/wiki/Juri_Nikolajewitsch_Afanassjew"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Juri Nikolajewitsch Afanassjew",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/122682394",
-    "wikipedia": "https://de.wikipedia.org/wiki/Juri_Nikolajewitsch_Afanassjew",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Juri_Nikolajewitsch_Afanassjew"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1934-09-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Maina, Oblast Uljanowsk"
+  },
+  "deathDate": "2015-09-14",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Moskau"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "sowjetischer und russischer Historiker und Politiker; Rektor des Moskauer Historisch-archivalischen Instituts und Gründer und Rektor der Russischen Staatlichen Geisteswissenschaftlichen Universität"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/122682394",
+    "https://de.wikipedia.org/wiki/Juri_Nikolajewitsch_Afanassjew"
+  ]
 }

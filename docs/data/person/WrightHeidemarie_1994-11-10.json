@@ -1,68 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WrightHeidemarie_1994-11-10",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WrightHeidemarie_1994-11-10",
   "name": "Heidemarie »Heidi« Wright, geb. Englert",
   "givenName": "Heidemarie",
   "familyName": "Wright",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1951-02-20",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Heimbuchenthal/Bayern"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Rechtsanwaltsgehilfin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1994-11-10",
-      "endDate": "1998-10-26"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1998-10-26",
-      "endDate": "2002-10-17"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "2002-10-17",
-      "endDate": "2005-10-18"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "2005-10-18",
-      "endDate": "2009-10-27"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1239410808",
-    "https://de.wikipedia.org/wiki/Heidemarie_Wright"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Heidemarie »Heidi« Wright, geb. Englert",
@@ -115,9 +60,64 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11002832",
     "gnd": "https://d-nb.info/gnd/1239410808",
-    "wikipedia": "https://de.wikipedia.org/wiki/Heidemarie_Wright",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Heidemarie_Wright"
   },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1951-02-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Heimbuchenthal/Bayern"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsanwaltsgehilfin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-10-26"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1998-10-26",
+      "endDate": "2002-10-17"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "2002-10-17",
+      "endDate": "2005-10-18"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "2005-10-18",
+      "endDate": "2009-10-27"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1239410808",
+    "https://de.wikipedia.org/wiki/Heidemarie_Wright"
+  ],
   "fraktionsprotokolle:alt_names": [
     {
       "reg": "Heidi Wright",

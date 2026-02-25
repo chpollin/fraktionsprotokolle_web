@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MuenemannRudolf",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MuenemannRudolf",
   "name": "Rudolf Münemann",
   "givenName": "Rudolf",
   "familyName": "Münemann",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1908-01-08",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "deathDate": "1982-10-22",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Finanzmakler"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/137899491",
-    "https://de.wikipedia.org/wiki/Rudolf_M%C3%BCnemann"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Rudolf Münemann",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/137899491",
-    "wikipedia": "https://de.wikipedia.org/wiki/Rudolf_M%C3%BCnemann",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Rudolf_M%C3%BCnemann"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1908-01-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "1982-10-22",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Finanzmakler"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/137899491",
+    "https://de.wikipedia.org/wiki/Rudolf_M%C3%BCnemann"
+  ]
 }

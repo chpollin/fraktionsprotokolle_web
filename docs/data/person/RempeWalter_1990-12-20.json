@@ -1,38 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RempeWalter_1990-12-20",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RempeWalter_1990-12-20",
   "name": "Walter Rempe",
   "givenName": "Walter",
   "familyName": "Rempe",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1934-03-19",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Düsseldorf"
-  },
-  "deathDate": "1993-04-22",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Oberstudiendirektor [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1990-12-20",
-      "endDate": "1993-04-22"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1276234716",
-    "https://de.wikipedia.org/wiki/Walter_Rempe"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Walter Rempe",
@@ -64,7 +39,33 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001819",
     "gnd": "https://d-nb.info/gnd/1276234716",
-    "wikipedia": "https://de.wikipedia.org/wiki/Walter_Rempe",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Walter_Rempe"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1934-03-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Düsseldorf"
+  },
+  "deathDate": "1993-04-22",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Oberstudiendirektor [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1993-04-22"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1276234716",
+    "https://de.wikipedia.org/wiki/Walter_Rempe"
+  ]
 }

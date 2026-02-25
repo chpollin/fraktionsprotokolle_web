@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "AigrainPierre",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/AigrainPierre",
   "name": "Pierre Raoul Aigrain",
   "givenName": "Pierre",
   "familyName": "Aigrain",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1924-09-28",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Poitiers"
-  },
-  "deathDate": "2002-10-30",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "französischer Physiker und Staatssekretär für Forschung, Leiter der Arbeitsgruppe »Politik der wissenschaftlichen und technischen Forschung« des EWG-Ausschusses für mittelfristige Wirtschaftspolitik"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/170616711",
-    "https://de.wikipedia.org/wiki/Pierre_Aigrain"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Pierre Raoul Aigrain",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/170616711",
-    "wikipedia": "https://de.wikipedia.org/wiki/Pierre_Aigrain",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Pierre_Aigrain"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1924-09-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Poitiers"
+  },
+  "deathDate": "2002-10-30",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "französischer Physiker und Staatssekretär für Forschung, Leiter der Arbeitsgruppe »Politik der wissenschaftlichen und technischen Forschung« des EWG-Ausschusses für mittelfristige Wirtschaftspolitik"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/170616711",
+    "https://de.wikipedia.org/wiki/Pierre_Aigrain"
+  ]
 }

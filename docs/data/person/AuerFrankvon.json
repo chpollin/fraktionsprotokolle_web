@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "AuerFrankvon",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/AuerFrankvon",
   "name": "Frank von Auer",
   "givenName": "Frank",
   "familyName": "Auer",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1939-03-25",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Tallinn"
-  },
-  "deathDate": "2021-10-21",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Mainz"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Lehrer für evangelische Religion, SPD-Mitglied, 1968–1970 Bundesvorsitzender des Liberalen Studentenbunds Deutschlands (LSD), ab 1970 Gewerkschaftssekretär (u. a. Referent für Presse, Öffentlichkeitsarbeit und Werbung beim Hauptvorstand) der Gewerkschaft Erziehung und Wissenschaft (GEW), 1977-1983 Mitglied des geschäftsführenden Hauptvorstands der GEW, 1983-1997 Sprecher der Geschäftsführung der Hans-Böckler-Stiftung (HBS) des DGB, 1997-2002 Sozialreferent an der Deutschen Botschaft in Tel Aviv"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/171408845",
-    "https://de.wikipedia.org/wiki/Frank_von_Auer"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Frank von Auer",
@@ -46,10 +29,27 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/171408845",
-    "wikipedia": "https://de.wikipedia.org/wiki/Frank_von_Auer",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Frank_von_Auer"
   },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1939-03-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Tallinn"
+  },
+  "deathDate": "2021-10-21",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Mainz"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Lehrer für evangelische Religion, SPD-Mitglied, 1968–1970 Bundesvorsitzender des Liberalen Studentenbunds Deutschlands (LSD), ab 1970 Gewerkschaftssekretär (u. a. Referent für Presse, Öffentlichkeitsarbeit und Werbung beim Hauptvorstand) der Gewerkschaft Erziehung und Wissenschaft (GEW), 1977-1983 Mitglied des geschäftsführenden Hauptvorstands der GEW, 1983-1997 Sprecher der Geschäftsführung der Hans-Böckler-Stiftung (HBS) des DGB, 1997-2002 Sozialreferent an der Deutschen Botschaft in Tel Aviv"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/171408845",
+    "https://de.wikipedia.org/wiki/Frank_von_Auer"
+  ],
   "fraktionsprotokolle:sonstiges": "Aktivist der Studentenbewegung der 1960er Jahre"
 }

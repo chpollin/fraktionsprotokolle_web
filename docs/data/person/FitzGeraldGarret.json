@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FitzGeraldGarret",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FitzGeraldGarret",
   "name": "Garret Michael FitzGerald, irisch Gearóid Mícheál Mac Gearailt",
   "givenName": "Garret",
   "familyName": "FitzGerald",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1926-02-09",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Dublin"
-  },
-  "deathDate": "2011-05-19",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Dublin"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "März 1973–1977 irischer Außenminister, Juni 1981-März 1982, 1982–1987 irischer Premierminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/121306879",
-    "https://de.wikipedia.org/wiki/Garret_FitzGerald"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Garret Michael FitzGerald, irisch Gearóid Mícheál Mac Gearailt",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/121306879",
-    "wikipedia": "https://de.wikipedia.org/wiki/Garret_FitzGerald",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Garret_FitzGerald"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1926-02-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Dublin"
+  },
+  "deathDate": "2011-05-19",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Dublin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "März 1973–1977 irischer Außenminister, Juni 1981-März 1982, 1982–1987 irischer Premierminister"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/121306879",
+    "https://de.wikipedia.org/wiki/Garret_FitzGerald"
+  ]
 }

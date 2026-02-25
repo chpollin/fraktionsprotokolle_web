@@ -1,21 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "OtrembaElisabeth",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/OtrembaElisabeth",
   "name": "Elisabeth Otremba",
   "givenName": "Elisabeth",
   "familyName": "Otremba",
-  "gender": "https://schema.org/Female",
-  "birthDate": null,
-  "birthPlace": null,
-  "deathDate": "2001",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1983 Kandidatin auf der Grünen-Landesliste für die Bundestagswahl, 1985 Mitglied der Grünen im Landesverband Bayern sowie des Grünen-Bundeshauptausschusses, (mindestens) seit 1995 Büroleiterin des Lichterkette e. V. in München"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Elisabeth Otremba",
@@ -36,10 +28,11 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Female",
+  "deathDate": "2001",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1983 Kandidatin auf der Grünen-Landesliste für die Bundestagswahl, 1985 Mitglied der Grünen im Landesverband Bayern sowie des Grünen-Bundeshauptausschusses, (mindestens) seit 1995 Büroleiterin des Lichterkette e. V. in München"
   }
 }

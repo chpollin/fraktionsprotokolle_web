@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BayernKonstantin_1965-10-19",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BayernKonstantin_1965-10-19",
   "name": "Konstantin von Bayern",
   "givenName": "Konstantin",
   "familyName": "Bayern",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1920-08-15",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "deathDate": "1969-07-30",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Hechingen"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Journalist [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1965-10-19",
-      "endDate": "1969-07-30"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/118654098",
-    "https://de.wikipedia.org/wiki/Konstantin_Prinz_von_Bayern"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Konstantin von Bayern",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000119",
     "gnd": "https://d-nb.info/gnd/118654098",
-    "wikipedia": "https://de.wikipedia.org/wiki/Konstantin_Prinz_von_Bayern",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Konstantin_Prinz_von_Bayern"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1920-08-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "deathDate": "1969-07-30",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hechingen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1965-10-19",
+      "endDate": "1969-07-30"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/118654098",
+    "https://de.wikipedia.org/wiki/Konstantin_Prinz_von_Bayern"
+  ]
 }

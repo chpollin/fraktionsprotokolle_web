@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BaykalDeniz",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BaykalDeniz",
   "name": "Deniz Baykal",
   "givenName": "Deniz",
   "familyName": "Baykal",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1938-07-20",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Antalya"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Jan. 1974–1978 türkischer Finanzminister, 1992 bis 2010 Parteivorsitzender der Republikanischen Volkspartei (CHP)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119011999",
-    "https://de.wikipedia.org/wiki/Deniz_Baykal"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Deniz Baykal",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119011999",
-    "wikipedia": "https://de.wikipedia.org/wiki/Deniz_Baykal",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Deniz_Baykal"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1938-07-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Antalya"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Jan. 1974–1978 türkischer Finanzminister, 1992 bis 2010 Parteivorsitzender der Republikanischen Volkspartei (CHP)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119011999",
+    "https://de.wikipedia.org/wiki/Deniz_Baykal"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PawelkeGuenther",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PawelkeGuenther",
   "name": "Günther Pawelke",
   "givenName": "Günther Franz Robert",
   "familyName": "Pawelke",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1900-11-01",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Pawlowitz, Oberschlesien (heute: Pawłowice, Polen)"
-  },
-  "deathDate": "1976-01-20",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Ascona"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "deutscher Diplomat, 1952–1954 Botschafter in Kairo und Gesandter im Jemen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/128608307",
-    "https://de.wikipedia.org/wiki/G%C3%BCnther_Pawelke"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Günther Pawelke",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/128608307",
-    "wikipedia": "https://de.wikipedia.org/wiki/G%C3%BCnther_Pawelke",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/G%C3%BCnther_Pawelke"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1900-11-01",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Pawlowitz, Oberschlesien (heute: Pawłowice, Polen)"
+  },
+  "deathDate": "1976-01-20",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Ascona"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Diplomat, 1952–1954 Botschafter in Kairo und Gesandter im Jemen"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/128608307",
+    "https://de.wikipedia.org/wiki/G%C3%BCnther_Pawelke"
+  ]
 }

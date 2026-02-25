@@ -1,29 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HummelArthurW",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HummelArthurW",
   "name": "Arthur W. Hummel, Jr.",
   "givenName": "Arthur W.",
   "familyName": "Hummel",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1920-06-01",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Fenyang, Shanxi"
-  },
-  "deathDate": "2001-02-06",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Chevy Chase, Maryland"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "US-amerikanischer Diplomat, 1977–1981 Botschafter in Islamabad, 1981–1985 Botschafter in der Volksrepublik China"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Arthur_W._Hummel_junior"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Arthur W. Hummel, Jr.",
@@ -45,9 +29,24 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://de.wikipedia.org/wiki/Arthur_W._Hummel_junior",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Arthur_W._Hummel_junior"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1920-06-01",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Fenyang, Shanxi"
+  },
+  "deathDate": "2001-02-06",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Chevy Chase, Maryland"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "US-amerikanischer Diplomat, 1977–1981 Botschafter in Islamabad, 1981–1985 Botschafter in der Volksrepublik China"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Arthur_W._Hummel_junior"
+  ]
 }

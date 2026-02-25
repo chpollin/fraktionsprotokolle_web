@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RustJosef",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RustJosef",
   "name": "Josef Rust",
   "givenName": "Josef",
   "familyName": "Rust",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1907-11-12",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Blumenthal (Bremen)"
-  },
-  "deathDate": "1997-07-05",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Kassel"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Verwaltungsjurist, Gründungsmitglied des Wirtschaftsrates der CDU, 1949–1952 Ministerialrat im Bundeskanzleramt, 1952–1955 Ministerialdirektor im Bundesministerium für Wirtschaft, 1955–1959 Staatssekretär im Bundesministerium für Verteidigung, 1959–1969 Vorstandsvorsitzender der Wintershall AG, 1966–1974 Aufsichtsratsvorsitzender der Volkswagen AG"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/138920915",
-    "https://de.wikipedia.org/wiki/Josef_Rust"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Josef Rust",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/138920915",
-    "wikipedia": "https://de.wikipedia.org/wiki/Josef_Rust",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Josef_Rust"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1907-11-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Blumenthal (Bremen)"
+  },
+  "deathDate": "1997-07-05",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Kassel"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Verwaltungsjurist, Gründungsmitglied des Wirtschaftsrates der CDU, 1949–1952 Ministerialrat im Bundeskanzleramt, 1952–1955 Ministerialdirektor im Bundesministerium für Wirtschaft, 1955–1959 Staatssekretär im Bundesministerium für Verteidigung, 1959–1969 Vorstandsvorsitzender der Wintershall AG, 1966–1974 Aufsichtsratsvorsitzender der Volkswagen AG"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/138920915",
+    "https://de.wikipedia.org/wiki/Josef_Rust"
+  ]
 }

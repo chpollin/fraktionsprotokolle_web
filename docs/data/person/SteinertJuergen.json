@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SteinertJuergen",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SteinertJuergen",
   "name": "Jürgen Steinert",
   "givenName": "Jürgen",
   "familyName": "Steinert",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1937-03-06",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Dresden"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1976–1981 stellvertretender Vorsitzender der SPD Hamburg, 1974–1978 Bevollmächtigter Hamburgs beim Bund, 1978–1986 Mitglied der Hamburgischen Bürgerschaft (SPD), 1978–1982 Wirtschaftssenator von Hamburg, 1982–1983 Finanzsenator"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/170162702",
-    "https://de.wikipedia.org/wiki/J%C3%BCrgen_Steinert"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Jürgen Steinert",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/170162702",
-    "wikipedia": "https://de.wikipedia.org/wiki/J%C3%BCrgen_Steinert",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/J%C3%BCrgen_Steinert"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1937-03-06",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Dresden"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1976–1981 stellvertretender Vorsitzender der SPD Hamburg, 1974–1978 Bevollmächtigter Hamburgs beim Bund, 1978–1986 Mitglied der Hamburgischen Bürgerschaft (SPD), 1978–1982 Wirtschaftssenator von Hamburg, 1982–1983 Finanzsenator"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/170162702",
+    "https://de.wikipedia.org/wiki/J%C3%BCrgen_Steinert"
+  ]
 }

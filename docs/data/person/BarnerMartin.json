@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BarnerMartin",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BarnerMartin",
   "name": "Martin Barner",
   "givenName": "Martin",
   "familyName": "Barner",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1921-04-19",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Villingen"
-  },
-  "deathDate": "2020-07-31",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Professor für Mathematik an der Universität Freiburg, Vorsitzender der Deutschen Mathematiker-Vereinigung"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/117707732",
-    "https://de.wikipedia.org/wiki/Martin_Barner"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Martin Barner",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/117707732",
-    "wikipedia": "https://de.wikipedia.org/wiki/Martin_Barner",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Martin_Barner"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1921-04-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Villingen"
+  },
+  "deathDate": "2020-07-31",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Professor für Mathematik an der Universität Freiburg, Vorsitzender der Deutschen Mathematiker-Vereinigung"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/117707732",
+    "https://de.wikipedia.org/wiki/Martin_Barner"
+  ]
 }

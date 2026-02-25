@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MasonRoy",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MasonRoy",
   "name": "Roy Mason",
   "givenName": "Roy",
   "familyName": "Mason",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1924-04-18",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Royston, South Yorkshire"
-  },
-  "deathDate": "2015-04-20",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "britischer Poltiker, 1953–1987 Mitglied des Unterhauses (Labour), 1964–1967 britischer Staatsminister im Handelsministerium, 1967–1968 Staatsminister für Verteidigung (Ausrüstung), 1968 Generalpostmeister, 1968–1969 Energieminister, 1974–1976 Verteidigungsminister, 1976–1979 Minister für Angelegenheiten Nordirlands"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Roy_Mason",
-    "https://viaf.org/viaf/57862830"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Roy Mason",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
     "wikipedia": "https://de.wikipedia.org/wiki/Roy_Mason",
     "viaf": "https://viaf.org/viaf/57862830"
-  }
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1924-04-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Royston, South Yorkshire"
+  },
+  "deathDate": "2015-04-20",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "britischer Poltiker, 1953–1987 Mitglied des Unterhauses (Labour), 1964–1967 britischer Staatsminister im Handelsministerium, 1967–1968 Staatsminister für Verteidigung (Ausrüstung), 1968 Generalpostmeister, 1968–1969 Energieminister, 1974–1976 Verteidigungsminister, 1976–1979 Minister für Angelegenheiten Nordirlands"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Roy_Mason",
+    "https://viaf.org/viaf/57862830"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DahlemFranz",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DahlemFranz",
   "name": "Franz Dahlem",
   "givenName": "Franz",
   "familyName": "Dahlem",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1892-01-14",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Rohrbach/Lothringen"
-  },
-  "deathDate": "1981-12-17",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Berlin (Ost)"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1921–1924 Mitglied des Preußischen Landtags und 1928–1933 MdR (KPD), 1950–1953 und 1957–1981 Mitglied des ZK und des Politbüros beim ZK der SED"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118523325",
-    "https://de.wikipedia.org/wiki/Franz_Dahlem"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Franz Dahlem",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118523325",
-    "wikipedia": "https://de.wikipedia.org/wiki/Franz_Dahlem",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Franz_Dahlem"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1892-01-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Rohrbach/Lothringen"
+  },
+  "deathDate": "1981-12-17",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin (Ost)"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1921–1924 Mitglied des Preußischen Landtags und 1928–1933 MdR (KPD), 1950–1953 und 1957–1981 Mitglied des ZK und des Politbüros beim ZK der SED"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118523325",
+    "https://de.wikipedia.org/wiki/Franz_Dahlem"
+  ]
 }

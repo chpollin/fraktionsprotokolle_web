@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SommerTheo",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SommerTheo",
   "name": "Theo Sommer",
   "givenName": "Theo",
   "familyName": "Sommer",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1930-06-10",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Konstanz"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Journalist, 1958–1968 politischer Redakteur »Die Zeit«"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/130073806",
-    "https://de.wikipedia.org/wiki/Theo_Sommer"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Theo Sommer",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/130073806",
-    "wikipedia": "https://de.wikipedia.org/wiki/Theo_Sommer",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Theo_Sommer"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1930-06-10",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Konstanz"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist, 1958–1968 politischer Redakteur »Die Zeit«"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/130073806",
+    "https://de.wikipedia.org/wiki/Theo_Sommer"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WildenmannRudolf",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WildenmannRudolf",
   "name": "Rudolf Wildenmann",
   "givenName": "Rudolf",
   "familyName": "Wildenmann",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1921-01-15",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Stuttgart"
-  },
-  "deathDate": "1993-07-14",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Mannheim"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1964–1989 Prof. für Politische Wissenschaft an der Universität Mannheim"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/129037737",
-    "https://de.wikipedia.org/wiki/Rudolf_Wildenmann"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Rudolf Wildenmann",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/129037737",
-    "wikipedia": "https://de.wikipedia.org/wiki/Rudolf_Wildenmann",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Rudolf_Wildenmann"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1921-01-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Stuttgart"
+  },
+  "deathDate": "1993-07-14",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Mannheim"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1964–1989 Prof. für Politische Wissenschaft an der Universität Mannheim"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/129037737",
+    "https://de.wikipedia.org/wiki/Rudolf_Wildenmann"
+  ]
 }

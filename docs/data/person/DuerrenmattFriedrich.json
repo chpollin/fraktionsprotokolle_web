@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DuerrenmattFriedrich",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DuerrenmattFriedrich",
   "name": "Friedrich Dürrenmatt",
   "givenName": "Friedrich",
   "familyName": "Dürrenmatt",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1921-01-05",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Stalden im Emmental"
-  },
-  "deathDate": "1990-12-14",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Neuenburg"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Schweizer Schriftsteller, Dramatiker und Maler"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118527908",
-    "https://de.wikipedia.org/wiki/Friedrich_D%C3%BCrrenmatt"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Friedrich Dürrenmatt",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118527908",
-    "wikipedia": "https://de.wikipedia.org/wiki/Friedrich_D%C3%BCrrenmatt",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Friedrich_D%C3%BCrrenmatt"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1921-01-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Stalden im Emmental"
+  },
+  "deathDate": "1990-12-14",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Neuenburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Schweizer Schriftsteller, Dramatiker und Maler"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118527908",
+    "https://de.wikipedia.org/wiki/Friedrich_D%C3%BCrrenmatt"
+  ]
 }

@@ -1,29 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchultzPaul",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchultzPaul",
   "name": "Paul Schultz",
   "givenName": "Paul",
   "familyName": "Schultz",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1945-10-02",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Neubrandenburg"
-  },
-  "deathDate": "1963-12-25",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Elektrikerlehrling"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Paul_Schultz_(Maueropfer)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Paul Schultz",
@@ -45,10 +29,25 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://de.wikipedia.org/wiki/Paul_Schultz_(Maueropfer)",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Paul_Schultz_(Maueropfer)"
   },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1945-10-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Neubrandenburg"
+  },
+  "deathDate": "1963-12-25",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Elektrikerlehrling"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Paul_Schultz_(Maueropfer)"
+  ],
   "fraktionsprotokolle:sonstiges": "bei Fluchtversuch an der Mauer erschossen"
 }

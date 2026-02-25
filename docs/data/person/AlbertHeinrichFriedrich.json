@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "AlbertHeinrichFriedrich",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/AlbertHeinrichFriedrich",
   "name": "Heinrich Friedrich Albert",
   "givenName": "Heinrich Friedrich",
   "familyName": "Albert",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1874-02-12",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Magdeburg"
-  },
-  "deathDate": "1960-11-01",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Wiesbaden"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1920–1921 Staatssekretär in der Reichskanzlei, 1922–1923 Reichsschatzminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/116263709",
-    "https://de.wikipedia.org/wiki/Heinrich_Friedrich_Albert"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Heinrich Friedrich Albert",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/116263709",
-    "wikipedia": "https://de.wikipedia.org/wiki/Heinrich_Friedrich_Albert",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Heinrich_Friedrich_Albert"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1874-02-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Magdeburg"
+  },
+  "deathDate": "1960-11-01",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Wiesbaden"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1920–1921 Staatssekretär in der Reichskanzlei, 1922–1923 Reichsschatzminister"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/116263709",
+    "https://de.wikipedia.org/wiki/Heinrich_Friedrich_Albert"
+  ]
 }

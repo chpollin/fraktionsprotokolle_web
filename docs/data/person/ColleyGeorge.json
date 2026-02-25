@@ -1,29 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ColleyGeorge",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ColleyGeorge",
   "name": "George Joseph Colley (irisch: Seoirse Ó Colla)",
   "givenName": "George Joseph",
   "familyName": "Colley",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1925-10-18",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Dublin"
-  },
-  "deathDate": "1983-02-17",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "London"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "irischer Politiker, 1970–1973 und 1977–1979 irischer Finanzminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/George_Colley"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "George Joseph Colley (irisch: Seoirse Ó Colla)",
@@ -45,9 +29,24 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://de.wikipedia.org/wiki/George_Colley",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/George_Colley"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1925-10-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Dublin"
+  },
+  "deathDate": "1983-02-17",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "London"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "irischer Politiker, 1970–1973 und 1977–1979 irischer Finanzminister"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/George_Colley"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "JorgensenAnker",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/JorgensenAnker",
   "name": "Anker Jørgensen",
   "givenName": "Anker Henrik",
   "familyName": "Jørgensen",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1922-07-13",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Kopenhagen"
-  },
-  "deathDate": "2016-03-20",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Kopenhagen"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Politiker, 1972-1973 und 1975-1982 dänischer Ministerpräsident (1978 zudem für einige Monate Außenminister), 1973–1987 Vorsitzender der Socialdemokraterne"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119007347",
-    "https://de.wikipedia.org/wiki/Anker_J%C3%B8rgensen"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Anker Jørgensen",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119007347",
-    "wikipedia": "https://de.wikipedia.org/wiki/Anker_J%C3%B8rgensen",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Anker_J%C3%B8rgensen"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1922-07-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kopenhagen"
+  },
+  "deathDate": "2016-03-20",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Kopenhagen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Politiker, 1972-1973 und 1975-1982 dänischer Ministerpräsident (1978 zudem für einige Monate Außenminister), 1973–1987 Vorsitzender der Socialdemokraterne"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119007347",
+    "https://de.wikipedia.org/wiki/Anker_J%C3%B8rgensen"
+  ]
 }

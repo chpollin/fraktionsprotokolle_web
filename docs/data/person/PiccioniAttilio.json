@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PiccioniAttilio",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PiccioniAttilio",
   "name": "Attilio Piccioni",
   "givenName": "Attilio",
   "familyName": "Piccioni",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1892-07-14",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Poggio Bustone"
-  },
-  "deathDate": "1976-03-10",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Poggio Bustone"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1954, 1962/63 italienischer Außenminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/151910367",
-    "https://de.wikipedia.org/wiki/Attilio_Piccioni"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Attilio Piccioni",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/151910367",
-    "wikipedia": "https://de.wikipedia.org/wiki/Attilio_Piccioni",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Attilio_Piccioni"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1892-07-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Poggio Bustone"
+  },
+  "deathDate": "1976-03-10",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Poggio Bustone"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1954, 1962/63 italienischer Außenminister"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/151910367",
+    "https://de.wikipedia.org/wiki/Attilio_Piccioni"
+  ]
 }

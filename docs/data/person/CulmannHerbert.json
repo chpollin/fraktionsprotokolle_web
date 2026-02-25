@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "CulmannHerbert",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/CulmannHerbert",
   "name": "Herbert Culmann",
   "givenName": "Herbert",
   "familyName": "Culmann",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1921-02-15",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Neustadt an der Weinstraße"
-  },
-  "deathDate": "1998-02-05",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bad Berleburg"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1972–1982 Vorstandsvorsitzender der Deutschen Lufthansa AG"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118522957",
-    "https://de.wikipedia.org/wiki/Herbert_Culmann"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Herbert Culmann",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118522957",
-    "wikipedia": "https://de.wikipedia.org/wiki/Herbert_Culmann",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Herbert_Culmann"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1921-02-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Neustadt an der Weinstraße"
+  },
+  "deathDate": "1998-02-05",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bad Berleburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1972–1982 Vorstandsvorsitzender der Deutschen Lufthansa AG"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118522957",
+    "https://de.wikipedia.org/wiki/Herbert_Culmann"
+  ]
 }

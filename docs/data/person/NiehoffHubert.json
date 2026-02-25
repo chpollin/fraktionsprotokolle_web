@@ -1,21 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "NiehoffHubert",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/NiehoffHubert",
   "name": "Hubert Niehoff",
   "givenName": "Hubert",
   "familyName": "Niehoff",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1948",
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Sozialpädagoge, Gründungsmitglied der Grünen, Mitarbeiter im Büro von MdB Eckhard Stratmann (Die Grünen) und der Grünen-Bundestagsfraktion (Arbeitskreis I: Schwerpunkt Wirtschaft) in der 10. Wahlperiode, 1985-1988 Landesvorsitzender der Grünen in Nordrhein–Westfalen, Grünen-Mitglied im Ausschuss für Bürgerangelegenheiten, Sicherheit und Ordnung sowie im Gestaltungsbeirat der Stadt Mülheim"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hubert Niehoff",
@@ -36,10 +28,11 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Male",
+  "birthDate": "1948",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Sozialpädagoge, Gründungsmitglied der Grünen, Mitarbeiter im Büro von MdB Eckhard Stratmann (Die Grünen) und der Grünen-Bundestagsfraktion (Arbeitskreis I: Schwerpunkt Wirtschaft) in der 10. Wahlperiode, 1985-1988 Landesvorsitzender der Grünen in Nordrhein–Westfalen, Grünen-Mitglied im Ausschuss für Bürgerangelegenheiten, Sicherheit und Ordnung sowie im Gestaltungsbeirat der Stadt Mülheim"
   }
 }

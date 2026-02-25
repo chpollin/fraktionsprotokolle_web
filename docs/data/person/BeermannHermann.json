@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BeermannHermann",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BeermannHermann",
   "name": "Hermann Beermann",
   "givenName": "Hermann",
   "familyName": "Beermann",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1903-08-28",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Linden bei Hannover"
-  },
-  "deathDate": "1973-08-18",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Neuss"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1953–1967 Vorsitzender des Verwaltungsrats bzw. Vorstandsvorsitzender der Bundesanstalt für Arbeitsvermittlung und Arbeitslosenversicherung, 1956–1969 Mitgl. des Bundesvorstands und 1962–1969 stv. Bundesvorsitzender des DGB"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/123554160",
-    "https://de.wikipedia.org/wiki/Hermann_Beermann"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hermann Beermann",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/123554160",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hermann_Beermann",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hermann_Beermann"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1903-08-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Linden bei Hannover"
+  },
+  "deathDate": "1973-08-18",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Neuss"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1953–1967 Vorsitzender des Verwaltungsrats bzw. Vorstandsvorsitzender der Bundesanstalt für Arbeitsvermittlung und Arbeitslosenversicherung, 1956–1969 Mitgl. des Bundesvorstands und 1962–1969 stv. Bundesvorsitzender des DGB"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/123554160",
+    "https://de.wikipedia.org/wiki/Hermann_Beermann"
+  ]
 }

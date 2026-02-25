@@ -1,29 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DobbernackWilhelm",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DobbernackWilhelm",
   "name": "Wilhelm Dobbernack",
   "givenName": "Wilhelm",
   "familyName": "Dobbernack",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1902-09-13",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Hamburg"
-  },
-  "deathDate": "1965-08-01",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Genf"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Versicherungsmathematiker, 1927–1945 im Reichsarbeitsministerium, Abt. Sozialversicherung, seit 1937 NSDAP-Mitglied, später Ministerialrat im Bundesministerium für Arbeit, seit 1952 im Internationalen Arbeitsamt (IAA) in Genf, dort seit 1960 Leiter der Abteilung für Sozialpolitik"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/133566323"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Wilhelm Dobbernack",
@@ -45,9 +29,24 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/133566323",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/133566323"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1902-09-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "deathDate": "1965-08-01",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Genf"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Versicherungsmathematiker, 1927–1945 im Reichsarbeitsministerium, Abt. Sozialversicherung, seit 1937 NSDAP-Mitglied, später Ministerialrat im Bundesministerium für Arbeit, seit 1952 im Internationalen Arbeitsamt (IAA) in Genf, dort seit 1960 Leiter der Abteilung für Sozialpolitik"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/133566323"
+  ]
 }

@@ -1,10 +1,60 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SanderHeinrich_1957-10-15",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SanderHeinrich_1957-10-15",
   "name": "Heinrich Sander",
   "givenName": "Heinrich",
   "familyName": "Sander",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Heinrich Sander",
+    "forename": "Heinrich",
+    "surname": "Sander",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1910-07-30",
+    "place": "Golmbach",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1982-09-19",
+    "place": "Stadtoldendorf",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 3,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 4,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    },
+    {
+      "period": 5,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001919",
+    "gnd": "https://d-nb.info/gnd/1116644541",
+    "wikipedia": "https://de.wikipedia.org/wiki/Heinrich_Sander_(Politiker)"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1910-07-30",
   "birthPlace": {
@@ -55,53 +105,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/1116644541",
     "https://de.wikipedia.org/wiki/Heinrich_Sander_(Politiker)"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Heinrich Sander",
-    "forename": "Heinrich",
-    "surname": "Sander",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1910-07-30",
-    "place": "Golmbach",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1982-09-19",
-    "place": "Stadtoldendorf",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 3,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1957-10-15",
-      "to": "1961-10-15"
-    },
-    {
-      "period": 4,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1961-10-17",
-      "to": "1965-10-17"
-    },
-    {
-      "period": 5,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1965-10-19",
-      "to": "1969-10-19"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11001919",
-    "gnd": "https://d-nb.info/gnd/1116644541",
-    "wikipedia": "https://de.wikipedia.org/wiki/Heinrich_Sander_(Politiker)",
-    "viaf": null
-  }
+  ]
 }

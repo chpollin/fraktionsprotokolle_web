@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "LeidingerAdalbert",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/LeidingerAdalbert",
   "name": "Adalbert Leidinger",
   "givenName": "Adalbert",
   "familyName": "Leidinger",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1926-01-20",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Werl"
-  },
-  "deathDate": "2019-08-29",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Düsseldorf"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1969–1992 Geschäftsführendes Vorstandsmitglied des Landkreistages Nordrhein-Westfalen, seit auch Geschäftsführendes Präsidialmitglied des Deutschen Deutschen Landkreistages"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1026041287",
-    "https://de.wikipedia.org/wiki/Adalbert_Leidinger"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Adalbert Leidinger",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1026041287",
-    "wikipedia": "https://de.wikipedia.org/wiki/Adalbert_Leidinger",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Adalbert_Leidinger"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1926-01-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Werl"
+  },
+  "deathDate": "2019-08-29",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Düsseldorf"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1969–1992 Geschäftsführendes Vorstandsmitglied des Landkreistages Nordrhein-Westfalen, seit auch Geschäftsführendes Präsidialmitglied des Deutschen Deutschen Landkreistages"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1026041287",
+    "https://de.wikipedia.org/wiki/Adalbert_Leidinger"
+  ]
 }

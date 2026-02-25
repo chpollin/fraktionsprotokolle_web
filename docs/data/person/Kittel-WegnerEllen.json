@@ -1,21 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "Kittel-WegnerEllen",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/Kittel-WegnerEllen",
   "name": "Ellen Kittel-Wegner",
   "givenName": "Ellen",
   "familyName": "Kittel-Wegner",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1965",
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Dipl.-Pädagogin, wahrscheinlich 1986 Mitarbeiterin des Bürger- und Basisbüros der Grünen in Hamburg, 2008–2020 Ratsfrau in der Ratsfraktion Bündnis 90/Die Grünen in Flensburg, 2009–2011 Mitarbeiterin im Wahlkreisbüro der Grünen-MdB Ingrid Nestle, seit 2020 Fachbereichsleitung Bildung, Sport, Kultur bei der Stadt Flensburg"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Ellen Kittel-Wegner",
@@ -36,10 +28,11 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Female",
+  "birthDate": "1965",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Pädagogin, wahrscheinlich 1986 Mitarbeiterin des Bürger- und Basisbüros der Grünen in Hamburg, 2008–2020 Ratsfrau in der Ratsfraktion Bündnis 90/Die Grünen in Flensburg, 2009–2011 Mitarbeiterin im Wahlkreisbüro der Grünen-MdB Ingrid Nestle, seit 2020 Fachbereichsleitung Bildung, Sport, Kultur bei der Stadt Flensburg"
   }
 }

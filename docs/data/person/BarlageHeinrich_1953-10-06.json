@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BarlageHeinrich_1953-10-06",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BarlageHeinrich_1953-10-06",
   "name": "Heinrich Barlage",
   "givenName": "Heinrich",
   "familyName": "Barlage",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1891-12-06",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Nordhorn"
-  },
-  "deathDate": "1968-04-18",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Nordhorn"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Baustoffgroßhändler [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1953-10-06",
-      "endDate": "1957-10-06"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1034700626",
-    "https://de.wikipedia.org/wiki/Heinrich_Barlage"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Heinrich Barlage",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000096",
     "gnd": "https://d-nb.info/gnd/1034700626",
-    "wikipedia": "https://de.wikipedia.org/wiki/Heinrich_Barlage",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Heinrich_Barlage"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1891-12-06",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Nordhorn"
+  },
+  "deathDate": "1968-04-18",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Nordhorn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Baustoffgroßhändler [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1034700626",
+    "https://de.wikipedia.org/wiki/Heinrich_Barlage"
+  ]
 }

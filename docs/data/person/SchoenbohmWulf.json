@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchoenbohmWulf",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchoenbohmWulf",
   "name": "Wulf Schönbohm",
   "givenName": "Wulf",
   "familyName": "Schönbohm",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1941",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Bad Saarow, Brandenburg"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Politiker (CDU), RCDS und Junge Union, Delegierter auf dem CDU-Parteitag 1969 in Mainz, 1971/72 Vorsitzender der JU Rheinland, 1968–1983 Mitarbeiter der Konrad-Adenauer-Stiftung"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/107863294",
-    "https://de.wikipedia.org/wiki/Wulf_Sch%C3%B6nbohm"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Wulf Schönbohm",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/107863294",
-    "wikipedia": "https://de.wikipedia.org/wiki/Wulf_Sch%C3%B6nbohm",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Wulf_Sch%C3%B6nbohm"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1941",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bad Saarow, Brandenburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Politiker (CDU), RCDS und Junge Union, Delegierter auf dem CDU-Parteitag 1969 in Mainz, 1971/72 Vorsitzender der JU Rheinland, 1968–1983 Mitarbeiter der Konrad-Adenauer-Stiftung"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/107863294",
+    "https://de.wikipedia.org/wiki/Wulf_Sch%C3%B6nbohm"
+  ]
 }

@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "EverlingUlrich",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/EverlingUlrich",
   "name": "Ulrich Everling",
   "givenName": "Ulrich",
   "familyName": "Everling",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1925-06-02",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "deathDate": "2018-09-20",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1970–1980 Ministerialdirektor und Leiter der »Abteilung E« (Europaabteilung) im Bundesministerium für Wirtschaft, 1980–1988 Richter am Europäischen Gerichtshof in Luxemburg"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119271621",
-    "https://de.wikipedia.org/wiki/Ulrich_Everling"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Ulrich Everling",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119271621",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ulrich_Everling",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ulrich_Everling"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1925-06-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "2018-09-20",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1970–1980 Ministerialdirektor und Leiter der »Abteilung E« (Europaabteilung) im Bundesministerium für Wirtschaft, 1980–1988 Richter am Europäischen Gerichtshof in Luxemburg"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119271621",
+    "https://de.wikipedia.org/wiki/Ulrich_Everling"
+  ]
 }

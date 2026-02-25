@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "AndersArtur_1963-04-17",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/AndersArtur_1963-04-17",
   "name": "Artur Anders",
   "givenName": "Artur",
   "familyName": "Anders",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1896-01-21",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Breslau (heute: Wrocław, Polen)"
-  },
-  "deathDate": "1976-07-13",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Lengerich"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Stadtdirektor a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1963-04-17",
-      "endDate": "1965-10-17"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1137839546",
-    "https://de.wikipedia.org/wiki/Artur_Anders"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Artur Anders",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000037",
     "gnd": "https://d-nb.info/gnd/1137839546",
-    "wikipedia": "https://de.wikipedia.org/wiki/Artur_Anders",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Artur_Anders"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1896-01-21",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Breslau (heute: Wrocław, Polen)"
+  },
+  "deathDate": "1976-07-13",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Lengerich"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Stadtdirektor a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1963-04-17",
+      "endDate": "1965-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1137839546",
+    "https://de.wikipedia.org/wiki/Artur_Anders"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BakhtiarShapour",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BakhtiarShapour",
   "name": "Shapour Bakhtiar, auch: Schapur Bachtiar",
   "givenName": "Shapour",
   "familyName": "Bakhtiar",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1914-06-26",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Kanarak bei Isfahan"
-  },
-  "deathDate": "1991-08-06",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Suresnes bei Paris"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "iranischer Politiker, Januar bis Februar 1979 Premierminister (Ministerpräsident des Kaiserreichs) des Iran"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/120309939",
-    "https://de.wikipedia.org/wiki/Schapur_Bachtiar"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Shapour Bakhtiar, auch: Schapur Bachtiar",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/120309939",
-    "wikipedia": "https://de.wikipedia.org/wiki/Schapur_Bachtiar",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Schapur_Bachtiar"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1914-06-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kanarak bei Isfahan"
+  },
+  "deathDate": "1991-08-06",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Suresnes bei Paris"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "iranischer Politiker, Januar bis Februar 1979 Premierminister (Ministerpräsident des Kaiserreichs) des Iran"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/120309939",
+    "https://de.wikipedia.org/wiki/Schapur_Bachtiar"
+  ]
 }

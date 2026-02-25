@@ -1,29 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WrightJeraud",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WrightJeraud",
   "name": "Jeraud Wright",
   "givenName": "Jeraud",
   "familyName": "Wright",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1898-06-04",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Amherst, Massachusetts"
-  },
-  "deathDate": "1995-04-27",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Washington, D.C."
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "amerikanischer Admiral, 1954–1960 Oberster Alliierter Befehlshaber Atlantik"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://en.wikipedia.org/wiki/Jerauld_Wright"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Jeraud Wright",
@@ -45,9 +29,24 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://en.wikipedia.org/wiki/Jerauld_Wright",
-    "viaf": null
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/Jerauld_Wright"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1898-06-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Amherst, Massachusetts"
+  },
+  "deathDate": "1995-04-27",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Washington, D.C."
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "amerikanischer Admiral, 1954–1960 Oberster Alliierter Befehlshaber Atlantik"
+  },
+  "sameAs": [
+    "https://en.wikipedia.org/wiki/Jerauld_Wright"
+  ]
 }

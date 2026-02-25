@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DonneppInge",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DonneppInge",
   "name": "Inge Donnepp, geb. Schnepper",
   "givenName": "Inge",
   "familyName": "Donnepp",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1918-12-13",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Unna"
-  },
-  "deathDate": "2002-07-31",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Recklinghausen"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Juristin, 1975–1983 MdL Nordrhein-Westfalen (SPD), 1975–1978 Ministerin für Bundesangelegenheiten, 1978–1983 Justizministerin des Landes Nordrhein-Westfalen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/189468823",
-    "https://de.wikipedia.org/wiki/Inge_Donnepp"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Inge Donnepp, geb. Schnepper",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/189468823",
-    "wikipedia": "https://de.wikipedia.org/wiki/Inge_Donnepp",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Inge_Donnepp"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1918-12-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Unna"
+  },
+  "deathDate": "2002-07-31",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Recklinghausen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Juristin, 1975–1983 MdL Nordrhein-Westfalen (SPD), 1975–1978 Ministerin für Bundesangelegenheiten, 1978–1983 Justizministerin des Landes Nordrhein-Westfalen"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/189468823",
+    "https://de.wikipedia.org/wiki/Inge_Donnepp"
+  ]
 }

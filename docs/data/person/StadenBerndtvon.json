@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "StadenBerndtvon",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/StadenBerndtvon",
   "name": "Berndt von Staden",
   "givenName": "Berndt",
   "familyName": "Staden",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1919-06-24",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Rostock"
-  },
-  "deathDate": "2014-10-17",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Ludwigsburg"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Diplomat, 1968–1970 Ministerialdirigent und Leiter der Unterabteilung A in der »Politischen Abteilung I«, 1970–1973 Direktor der Politischen Abteilung im Auswärtigen Amt, 1973–1979 Botschafter in den USA, 1981–1983 Staatssekretär des Auswärtigen Amts"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/120999986",
-    "https://de.wikipedia.org/wiki/Berndt_von_Staden"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Berndt von Staden",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/120999986",
-    "wikipedia": "https://de.wikipedia.org/wiki/Berndt_von_Staden",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Berndt_von_Staden"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1919-06-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Rostock"
+  },
+  "deathDate": "2014-10-17",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Ludwigsburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Diplomat, 1968–1970 Ministerialdirigent und Leiter der Unterabteilung A in der »Politischen Abteilung I«, 1970–1973 Direktor der Politischen Abteilung im Auswärtigen Amt, 1973–1979 Botschafter in den USA, 1981–1983 Staatssekretär des Auswärtigen Amts"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/120999986",
+    "https://de.wikipedia.org/wiki/Berndt_von_Staden"
+  ]
 }

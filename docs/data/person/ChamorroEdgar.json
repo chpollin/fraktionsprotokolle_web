@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ChamorroEdgar",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ChamorroEdgar",
   "name": "Édgar Chamorro",
   "givenName": "Édgar",
   "familyName": "Chamorro Coronel",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1931-07-23",
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1984 gestürzter Anführer der nicaraguanischen Rebellenorganisation Contra, später Rebellen-Kritiker"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://en.wikipedia.org/wiki/Edgar_Chamorro"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Édgar Chamorro",
@@ -39,9 +29,15 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://en.wikipedia.org/wiki/Edgar_Chamorro",
-    "viaf": null
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/Edgar_Chamorro"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1931-07-23",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1984 gestürzter Anführer der nicaraguanischen Rebellenorganisation Contra, später Rebellen-Kritiker"
+  },
+  "sameAs": [
+    "https://en.wikipedia.org/wiki/Edgar_Chamorro"
+  ]
 }

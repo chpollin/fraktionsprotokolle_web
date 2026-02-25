@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SaeveckeTheo",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SaeveckeTheo",
   "name": "Theo Saevecke",
   "givenName": "Theo",
   "familyName": "Saevecke",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1911-03-22",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Hamburg"
-  },
-  "deathDate": "2000-12-16",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Dissen am Teutoburger Wald"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "SS-Hauptsturmführer, Kriegsverbrecher, nach 1945 Kriminalrat beim Bundeskriminalamt"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/12064651X",
-    "https://de.wikipedia.org/wiki/Theo_Saevecke"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Theo Saevecke",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/12064651X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Theo_Saevecke",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Theo_Saevecke"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1911-03-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "deathDate": "2000-12-16",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Dissen am Teutoburger Wald"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "SS-Hauptsturmführer, Kriegsverbrecher, nach 1945 Kriminalrat beim Bundeskriminalamt"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/12064651X",
+    "https://de.wikipedia.org/wiki/Theo_Saevecke"
+  ]
 }

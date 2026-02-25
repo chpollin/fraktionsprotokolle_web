@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ReinertEgon",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ReinertEgon",
   "name": "Egon Reinert",
   "givenName": "Egon",
   "familyName": "Reinert",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1908-09-24",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Saarbrücken"
-  },
-  "deathDate": "1959-04-23",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Saarbrücken"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1957–1959 Landesvorsitzenden der CDU Saar, 1957–1959 Ministerpräsident des Saarlandes"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/126809852",
-    "https://de.wikipedia.org/wiki/Egon_Reinert"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Egon Reinert",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/126809852",
-    "wikipedia": "https://de.wikipedia.org/wiki/Egon_Reinert",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Egon_Reinert"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1908-09-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Saarbrücken"
+  },
+  "deathDate": "1959-04-23",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Saarbrücken"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1957–1959 Landesvorsitzenden der CDU Saar, 1957–1959 Ministerpräsident des Saarlandes"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/126809852",
+    "https://de.wikipedia.org/wiki/Egon_Reinert"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SareGuenter",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SareGuenter",
   "name": "Günter Sare",
   "givenName": "Günter",
   "familyName": "Sare",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1949-02-19",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Gelnhausen"
-  },
-  "deathDate": "1985-09-28",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Frankfurt am Main"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Maschinenschlosser; Mitarbeiter eines linken Jugendzentrums in Frankfurt-Bockenheim"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/129414697",
-    "https://de.wikipedia.org/wiki/G%C3%BCnter_Sare"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Günter Sare",
@@ -46,10 +29,27 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/129414697",
-    "wikipedia": "https://de.wikipedia.org/wiki/G%C3%BCnter_Sare",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/G%C3%BCnter_Sare"
   },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1949-02-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Gelnhausen"
+  },
+  "deathDate": "1985-09-28",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Frankfurt am Main"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Maschinenschlosser; Mitarbeiter eines linken Jugendzentrums in Frankfurt-Bockenheim"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/129414697",
+    "https://de.wikipedia.org/wiki/G%C3%BCnter_Sare"
+  ],
   "fraktionsprotokolle:sonstiges": "am 28. September 1985 während einer antifaschistischen Demonstration von einem Wasserwerfer überrollt"
 }

@@ -1,38 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchmidtArno_1990-12-20",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchmidtArno_1990-12-20",
   "name": "Arno Schmidt",
   "givenName": "Arno",
   "familyName": "Schmidt",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1945-12-20",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Laubusch/Krs. Hoyerswerda, ehem. Bez. Cottbus"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Dipl.-Pädagoge [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Freien Demokratischen Partei",
-        "alternateName": "FDP"
-      },
-      "startDate": "1990-12-20",
-      "endDate": "1994-11-10"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1241198470",
-    "https://de.wikipedia.org/wiki/Arno_Schmidt_(Politiker)"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Arno Schmidt",
@@ -64,7 +39,32 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11002000",
     "gnd": "https://d-nb.info/gnd/1241198470",
-    "wikipedia": "https://de.wikipedia.org/wiki/Arno_Schmidt_(Politiker)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Arno_Schmidt_(Politiker)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1945-12-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Laubusch/Krs. Hoyerswerda, ehem. Bez. Cottbus"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Pädagoge [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1241198470",
+    "https://de.wikipedia.org/wiki/Arno_Schmidt_(Politiker)"
+  ]
 }

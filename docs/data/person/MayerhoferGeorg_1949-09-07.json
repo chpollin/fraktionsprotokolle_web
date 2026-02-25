@@ -1,10 +1,53 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MayerhoferGeorg_1949-09-07",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MayerhoferGeorg_1949-09-07",
   "name": "Georg Mayerhofer",
   "givenName": "Georg",
   "familyName": "Mayerhofer",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Georg Mayerhofer",
+    "forename": "Georg",
+    "surname": "Mayerhofer",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1894-03-04",
+    "place": "Freyung",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1966-12-17",
+    "place": "Neumarkt-Sankt Veit",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "BP",
+      "faction_full": "Fraktion Bayernpartei",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 1,
+      "faction": "FU",
+      "faction_full": "Fraktion Föderalistische Union",
+      "from": "1951-12-14",
+      "to": "1953-09-07"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001449",
+    "gnd": "https://d-nb.info/gnd/116964219",
+    "wikipedia": "https://de.wikipedia.org/wiki/Georg_Mayerhofer"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1894-03-04",
   "birthPlace": {
@@ -45,46 +88,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/116964219",
     "https://de.wikipedia.org/wiki/Georg_Mayerhofer"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Georg Mayerhofer",
-    "forename": "Georg",
-    "surname": "Mayerhofer",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1894-03-04",
-    "place": "Freyung",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1966-12-17",
-    "place": "Neumarkt-Sankt Veit",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 1,
-      "faction": "BP",
-      "faction_full": "Fraktion Bayernpartei",
-      "from": "1949-09-07",
-      "to": "1953-09-07"
-    },
-    {
-      "period": 1,
-      "faction": "FU",
-      "faction_full": "Fraktion Föderalistische Union",
-      "from": "1951-12-14",
-      "to": "1953-09-07"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11001449",
-    "gnd": "https://d-nb.info/gnd/116964219",
-    "wikipedia": "https://de.wikipedia.org/wiki/Georg_Mayerhofer",
-    "viaf": null
-  }
+  ]
 }

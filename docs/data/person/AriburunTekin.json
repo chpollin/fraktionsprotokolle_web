@@ -1,29 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "AriburunTekin",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/AriburunTekin",
   "name": "Mehmet Tekin Ariburun",
   "givenName": "Mehmet Tekin",
   "familyName": "Ariburun",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1903-10-03",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Ishtib"
-  },
-  "deathDate": "1993-10-13",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Istanbul"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "türkischer Soldat und Politiker, 1970–1977 Präsident des türkischen Senats"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://en.wikipedia.org/wiki/Tekin_Ar%C4%B1burun"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Mehmet Tekin Ariburun",
@@ -45,9 +29,24 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://en.wikipedia.org/wiki/Tekin_Ar%C4%B1burun",
-    "viaf": null
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/Tekin_Ar%C4%B1burun"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1903-10-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Ishtib"
+  },
+  "deathDate": "1993-10-13",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Istanbul"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "türkischer Soldat und Politiker, 1970–1977 Präsident des türkischen Senats"
+  },
+  "sameAs": [
+    "https://en.wikipedia.org/wiki/Tekin_Ar%C4%B1burun"
+  ]
 }

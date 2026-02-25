@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KoberIngo",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KoberIngo",
   "name": "Ingo Kober",
   "givenName": "Ingo",
   "familyName": "Kober",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1942-07-22",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Liegnitz/Niederschlesien (heute: Legnica, Polen)"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Jurist, 1975–1981 Mitarbeiter im Bundesministerium der Justiz, 1981 Referent für Rechtspolitik der FDP-Bundestagsfraktion, 1991–1995 Staatssekretär im Bundesjustizministerium, 1996–2004 Präsident des Europäischen Patentamtes"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1012725707",
-    "https://de.wikipedia.org/wiki/Ingo_Kober"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Ingo Kober",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1012725707",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ingo_Kober",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ingo_Kober"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1942-07-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Liegnitz/Niederschlesien (heute: Legnica, Polen)"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Jurist, 1975–1981 Mitarbeiter im Bundesministerium der Justiz, 1981 Referent für Rechtspolitik der FDP-Bundestagsfraktion, 1991–1995 Staatssekretär im Bundesjustizministerium, 1996–2004 Präsident des Europäischen Patentamtes"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1012725707",
+    "https://de.wikipedia.org/wiki/Ingo_Kober"
+  ]
 }

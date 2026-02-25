@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BassoLelio",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BassoLelio",
   "name": "Lelio Basso",
   "givenName": "Lelio",
   "familyName": "Basso",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1978-12-16",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Varazze"
-  },
-  "deathDate": "1903-12-25",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Rom"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Jurist, Publizist und linkssozialistischer Politiker, Wegbereiter des 1979 in Anlehnung an die Russell-Tribunale gegründeten permanenten Völkertribunals"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119407310",
-    "https://de.wikipedia.org/wiki/Lelio_Basso"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Lelio Basso",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119407310",
-    "wikipedia": "https://de.wikipedia.org/wiki/Lelio_Basso",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Lelio_Basso"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1978-12-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Varazze"
+  },
+  "deathDate": "1903-12-25",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Rom"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Jurist, Publizist und linkssozialistischer Politiker, Wegbereiter des 1979 in Anlehnung an die Russell-Tribunale gegründeten permanenten Völkertribunals"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119407310",
+    "https://de.wikipedia.org/wiki/Lelio_Basso"
+  ]
 }

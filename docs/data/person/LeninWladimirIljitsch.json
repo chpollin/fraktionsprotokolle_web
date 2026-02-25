@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "LeninWladimirIljitsch",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/LeninWladimirIljitsch",
   "name": "Wladimir Iljitsch Lenin, eigentlich: Wladimir Iljitsch Uljanow",
   "givenName": "Wladimir Iljitsch",
   "familyName": "Lenin",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1870-04-22",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Simbirsk"
-  },
-  "deathDate": "1924-01-21",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Gorki bei Moskau"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "russischer kommunistischer Politiker und Revolutionär, 1917–1924 Vorsitzender des Rats der Volkskommissare der Russischen Sozialistischen Föderativen Sowjetrepublik bzw. der UdSSR"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118640402",
-    "https://de.wikipedia.org/wiki/Wladimir_Iljitsch_Lenin"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Wladimir Iljitsch Lenin, eigentlich: Wladimir Iljitsch Uljanow",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118640402",
-    "wikipedia": "https://de.wikipedia.org/wiki/Wladimir_Iljitsch_Lenin",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Wladimir_Iljitsch_Lenin"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1870-04-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Simbirsk"
+  },
+  "deathDate": "1924-01-21",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Gorki bei Moskau"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "russischer kommunistischer Politiker und Revolutionär, 1917–1924 Vorsitzender des Rats der Volkskommissare der Russischen Sozialistischen Föderativen Sowjetrepublik bzw. der UdSSR"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118640402",
+    "https://de.wikipedia.org/wiki/Wladimir_Iljitsch_Lenin"
+  ]
 }

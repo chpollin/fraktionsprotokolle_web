@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PernollErnst_1957-10-15",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PernollErnst_1957-10-15",
   "name": "Ernst Pernoll",
   "givenName": "Ernst",
   "familyName": "Pernoll",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1902-11-27",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Wedel"
-  },
-  "deathDate": "1959-07-15",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "St. Johann in Tirol"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Hauptgeschäftsführer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1957-10-15",
-      "endDate": "1959-07-15"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1018378138",
-    "https://de.wikipedia.org/wiki/Ernst_Pernoll"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Ernst Pernoll",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001690",
     "gnd": "https://d-nb.info/gnd/1018378138",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ernst_Pernoll",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ernst_Pernoll"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1902-11-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Wedel"
+  },
+  "deathDate": "1959-07-15",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "St. Johann in Tirol"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Hauptgeschäftsführer [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1957-10-15",
+      "endDate": "1959-07-15"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1018378138",
+    "https://de.wikipedia.org/wiki/Ernst_Pernoll"
+  ]
 }

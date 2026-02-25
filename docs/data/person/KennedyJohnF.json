@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KennedyJohnF",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KennedyJohnF",
   "name": "John F. Kennedy",
   "givenName": "John F.",
   "familyName": "Kennedy",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1917-05-29",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Brookline, Massachusetts"
-  },
-  "deathDate": "1963-11-22",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Dallas, Texas"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1961–1963 Präsident der Vereinigten Staaten von Amerika"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118561383",
-    "https://de.wikipedia.org/wiki/John_F._Kennedy"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "John F. Kennedy",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118561383",
-    "wikipedia": "https://de.wikipedia.org/wiki/John_F._Kennedy",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/John_F._Kennedy"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1917-05-29",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Brookline, Massachusetts"
+  },
+  "deathDate": "1963-11-22",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Dallas, Texas"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1961–1963 Präsident der Vereinigten Staaten von Amerika"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118561383",
+    "https://de.wikipedia.org/wiki/John_F._Kennedy"
+  ]
 }

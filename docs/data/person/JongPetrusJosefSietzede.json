@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "JongPetrusJosefSietzede",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/JongPetrusJosefSietzede",
   "name": "Petrus Josef Sietze (Piet) de Jong",
   "givenName": "Petrus Josef Sietze (Piet)",
   "familyName": "Jong",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1915-04-03",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Apeldoorn"
-  },
-  "deathDate": "2016-07-27",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Den Haag"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "niederländischer Marineoffizier und Politiker der Katholieke Volkspartij (KVP), 1967–Juni 1971 Ministerpräsident des Königreichs der Niederlande"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/123634962",
-    "https://de.wikipedia.org/wiki/Piet_de_Jong"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Petrus Josef Sietze (Piet) de Jong",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/123634962",
-    "wikipedia": "https://de.wikipedia.org/wiki/Piet_de_Jong",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Piet_de_Jong"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1915-04-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Apeldoorn"
+  },
+  "deathDate": "2016-07-27",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Den Haag"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "niederländischer Marineoffizier und Politiker der Katholieke Volkspartij (KVP), 1967–Juni 1971 Ministerpräsident des Königreichs der Niederlande"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/123634962",
+    "https://de.wikipedia.org/wiki/Piet_de_Jong"
+  ]
 }

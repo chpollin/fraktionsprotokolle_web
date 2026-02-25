@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "StarbattyJoachim",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/StarbattyJoachim",
   "name": "Joachim Starbatty",
   "givenName": "Joachim",
   "familyName": "Starbatty",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1940-05-09",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Düsseldorf"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Ökonom und Politiker, 1969-1972 war er wissenschaftlicher Referent für allgemeine Wirtschaftspolitik und internationale Währungspolitik der CDU/CSU-Bundestagsfraktion, 1976-1983  Professor für Wirtschaftspolitik an der Ruhr-Universität Bochum, 1983-2005 Professor für Volkswirtschaftslehre an der Eberhard Karls Universität Tübingen, 1970-1994 Mitglied der CDU, 2013-2015 Mitglied der AfD, 2014-2019 MdEP (AfD, später LKR, ALFA, parteilos)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/106980386",
-    "https://de.wikipedia.org/wiki/Joachim_Starbatty"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Joachim Starbatty",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/106980386",
-    "wikipedia": "https://de.wikipedia.org/wiki/Joachim_Starbatty",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Joachim_Starbatty"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1940-05-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Düsseldorf"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Ökonom und Politiker, 1969-1972 war er wissenschaftlicher Referent für allgemeine Wirtschaftspolitik und internationale Währungspolitik der CDU/CSU-Bundestagsfraktion, 1976-1983  Professor für Wirtschaftspolitik an der Ruhr-Universität Bochum, 1983-2005 Professor für Volkswirtschaftslehre an der Eberhard Karls Universität Tübingen, 1970-1994 Mitglied der CDU, 2013-2015 Mitglied der AfD, 2014-2019 MdEP (AfD, später LKR, ALFA, parteilos)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/106980386",
+    "https://de.wikipedia.org/wiki/Joachim_Starbatty"
+  ]
 }

@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PoppingaOnno",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PoppingaOnno",
   "name": "Onno Poppinga",
   "givenName": "Onno",
   "familyName": "Poppinga",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1943",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Ostfriesland"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1975–2009 Professor am Fachbereich Ökologische Agrarwissenschaften an der Gesamthochschule Kassel bzw. Universität Kassel; Mitgründer der Arbeitsgemeinschaft bäuerliche Landwirtschaft"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/13778628X",
-    "https://de.wikipedia.org/wiki/Onno_Poppinga"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Onno Poppinga",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/13778628X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Onno_Poppinga",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Onno_Poppinga"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1943",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Ostfriesland"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1975–2009 Professor am Fachbereich Ökologische Agrarwissenschaften an der Gesamthochschule Kassel bzw. Universität Kassel; Mitgründer der Arbeitsgemeinschaft bäuerliche Landwirtschaft"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/13778628X",
+    "https://de.wikipedia.org/wiki/Onno_Poppinga"
+  ]
 }

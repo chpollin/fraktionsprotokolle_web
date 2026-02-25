@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "VollmarGeorgvon",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/VollmarGeorgvon",
   "name": "Georg von Vollmar",
   "givenName": "Georg",
   "familyName": "Vollmar",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1850-03-07",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "deathDate": "1922-06-30",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Urfeld am Walchensee"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Journalist und Schriftsteller, 1890–1919 Mitglied des Reichstages (SPD), 1893–1918 Vorsitzender der SPD-Fraktion im Landtag des Königreichs Bayern, 1894–1918 erster Vorsitzender der bayerischen SPD"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118770209",
-    "https://de.wikipedia.org/wiki/Georg_von_Vollmar"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Georg von Vollmar",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118770209",
-    "wikipedia": "https://de.wikipedia.org/wiki/Georg_von_Vollmar",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Georg_von_Vollmar"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1850-03-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "deathDate": "1922-06-30",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Urfeld am Walchensee"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist und Schriftsteller, 1890–1919 Mitglied des Reichstages (SPD), 1893–1918 Vorsitzender der SPD-Fraktion im Landtag des Königreichs Bayern, 1894–1918 erster Vorsitzender der bayerischen SPD"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118770209",
+    "https://de.wikipedia.org/wiki/Georg_von_Vollmar"
+  ]
 }

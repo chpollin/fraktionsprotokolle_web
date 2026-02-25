@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "StrehlerGiorgio",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/StrehlerGiorgio",
   "name": "Giorgio Strehler",
   "givenName": "Giorgio",
   "familyName": "Strehler",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1921-08-14",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Triest"
-  },
-  "deathDate": "1997-12-25",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Lugano"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Theater- und Opernregisseur sowie Schauspieler, 1947 Mitbegründer des Piccolo Teatro di Milano, 1983–1984 MdEP (Partito Socialista Italiano, PSI), 1987–1992 Mitglied des Senato della Repubblica (Sinistra Indipendente)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118619225",
-    "https://de.wikipedia.org/wiki/Giorgio_Strehler"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Giorgio Strehler",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118619225",
-    "wikipedia": "https://de.wikipedia.org/wiki/Giorgio_Strehler",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Giorgio_Strehler"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1921-08-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Triest"
+  },
+  "deathDate": "1997-12-25",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Lugano"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Theater- und Opernregisseur sowie Schauspieler, 1947 Mitbegründer des Piccolo Teatro di Milano, 1983–1984 MdEP (Partito Socialista Italiano, PSI), 1987–1992 Mitglied des Senato della Repubblica (Sinistra Indipendente)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118619225",
+    "https://de.wikipedia.org/wiki/Giorgio_Strehler"
+  ]
 }

@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GoernerGunter",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GoernerGunter",
   "name": "Gunter Görner",
   "givenName": "Gunter",
   "familyName": "Görner",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1939",
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Sektionsleiter im Ministerium für Auswärtige Angelegenheiten der DDR, 1982 als Vertreter bei der Konferenz der Vereinigten Nationen bei der Unterzeichnung des Seerechtsübereinkommens"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/108414221X"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Gunter Görner",
@@ -39,9 +29,15 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/108414221X",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/108414221X"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1939",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Sektionsleiter im Ministerium für Auswärtige Angelegenheiten der DDR, 1982 als Vertreter bei der Konferenz der Vereinigten Nationen bei der Unterzeichnung des Seerechtsübereinkommens"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/108414221X"
+  ]
 }

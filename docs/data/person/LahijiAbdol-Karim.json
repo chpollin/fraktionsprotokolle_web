@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "LahijiAbdol-Karim",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/LahijiAbdol-Karim",
   "name": "Abdol-Karim Lahiji",
   "givenName": "Abdol-Karim",
   "familyName": "Lahiji",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1940",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Teheran"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Anwalt und Menschenrechtsaktivist, Aktivist der Confederation of Iranian Students National Union (CISNU), in den 1960er Jahren Studierendenvertreter in der Nationalen Front Irans, 1977–1980 Mitglied des Iranischen Komitees für die Verteidigung von Freiheit und Menschenrechten, 1979 Kandidat für die Wahl zur iranischen Verfassungsversammlung sowie 1980 für die Parlamentswahlen, ab 1983 Präsident der Liga für die Verteidigung der Menschenrechte im Iran, 1998–2013 stv. Präsident sowie 2013–2016 Präsident der Fédération internationale des ligues des droits de l’Homme (FIDH)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1337743690",
-    "https://en.wikipedia.org/wiki/Abdolkarim_Lahiji"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Abdol-Karim Lahiji",
@@ -43,10 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1337743690",
-    "wikipedia": "https://en.wikipedia.org/wiki/Abdolkarim_Lahiji",
-    "viaf": null
+    "wikipedia": "https://en.wikipedia.org/wiki/Abdolkarim_Lahiji"
   },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1940",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Teheran"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Anwalt und Menschenrechtsaktivist, Aktivist der Confederation of Iranian Students National Union (CISNU), in den 1960er Jahren Studierendenvertreter in der Nationalen Front Irans, 1977–1980 Mitglied des Iranischen Komitees für die Verteidigung von Freiheit und Menschenrechten, 1979 Kandidat für die Wahl zur iranischen Verfassungsversammlung sowie 1980 für die Parlamentswahlen, ab 1983 Präsident der Liga für die Verteidigung der Menschenrechte im Iran, 1998–2013 stv. Präsident sowie 2013–2016 Präsident der Fédération internationale des ligues des droits de l’Homme (FIDH)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1337743690",
+    "https://en.wikipedia.org/wiki/Abdolkarim_Lahiji"
+  ],
   "fraktionsprotokolle:sonstiges": "floh im März 1982 über Kurdistan aus dem Iran und emigrierte nach Paris"
 }

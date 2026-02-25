@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ChamounCamille",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ChamounCamille",
   "name": "Camille Nimr Chamoun",
   "givenName": "Camille",
   "familyName": "Chamoun",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1900-04-03",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Dair el-Qamar"
-  },
-  "deathDate": "1987-08-07",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Beirut"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1952 bis 1958 Präsident des Libanon, christlicher Führer während des libanesischen Bürgerkriegs"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118867067",
-    "https://de.wikipedia.org/wiki/Camille_Chamoun"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Camille Nimr Chamoun",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118867067",
-    "wikipedia": "https://de.wikipedia.org/wiki/Camille_Chamoun",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Camille_Chamoun"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1900-04-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Dair el-Qamar"
+  },
+  "deathDate": "1987-08-07",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Beirut"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1952 bis 1958 Präsident des Libanon, christlicher Führer während des libanesischen Bürgerkriegs"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118867067",
+    "https://de.wikipedia.org/wiki/Camille_Chamoun"
+  ]
 }

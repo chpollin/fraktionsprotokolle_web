@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PicassoPablo",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PicassoPablo",
   "name": "Pablo Picasso",
   "givenName": "Pablo",
   "familyName": "Ruiz Picasso",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1881-10-25",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Málaga"
-  },
-  "deathDate": "1973-04-08",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Mougins"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "spanischer Maler, Bildhauer, Grafiker"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118594206",
-    "https://de.wikipedia.org/wiki/Pablo_Picasso"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Pablo Picasso",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118594206",
-    "wikipedia": "https://de.wikipedia.org/wiki/Pablo_Picasso",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Pablo_Picasso"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1881-10-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Málaga"
+  },
+  "deathDate": "1973-04-08",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Mougins"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "spanischer Maler, Bildhauer, Grafiker"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118594206",
+    "https://de.wikipedia.org/wiki/Pablo_Picasso"
+  ]
 }

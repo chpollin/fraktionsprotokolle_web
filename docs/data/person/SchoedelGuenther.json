@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchoedelGuenther",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchoedelGuenther",
   "name": "Günther Schödel",
   "givenName": "Günther",
   "familyName": "Schödel",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1922-08-05",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Berlin-Schöneberg"
-  },
-  "deathDate": "2015-12-22",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Berchtesgaden"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Vortragender Legationsrat I. Klasse und 1968/69 Leiter des Referats »Besoldung« im Auswärtigen Amt"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1093248890",
-    "https://de.wikipedia.org/wiki/G%C3%BCnther_Sch%C3%B6del"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Günther Schödel",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1093248890",
-    "wikipedia": "https://de.wikipedia.org/wiki/G%C3%BCnther_Sch%C3%B6del",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/G%C3%BCnther_Sch%C3%B6del"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1922-08-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin-Schöneberg"
+  },
+  "deathDate": "2015-12-22",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berchtesgaden"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Vortragender Legationsrat I. Klasse und 1968/69 Leiter des Referats »Besoldung« im Auswärtigen Amt"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1093248890",
+    "https://de.wikipedia.org/wiki/G%C3%BCnther_Sch%C3%B6del"
+  ]
 }

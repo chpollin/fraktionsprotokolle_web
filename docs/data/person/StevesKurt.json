@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "StevesKurt",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/StevesKurt",
   "name": "Kurt Steves",
   "givenName": "Kurt",
   "familyName": "Steves",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1930-02-01",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Schwetzingen"
-  },
-  "deathDate": "2011-05-29",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Wirtschaftsjournalist der Tageszeitung »Die Welt« und Verbandsfunktionär"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/112008413X",
-    "https://de.wikipedia.org/wiki/Kurt_Steves"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Kurt Steves",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/112008413X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Kurt_Steves",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Kurt_Steves"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1930-02-01",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Schwetzingen"
+  },
+  "deathDate": "2011-05-29",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Wirtschaftsjournalist der Tageszeitung »Die Welt« und Verbandsfunktionär"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/112008413X",
+    "https://de.wikipedia.org/wiki/Kurt_Steves"
+  ]
 }

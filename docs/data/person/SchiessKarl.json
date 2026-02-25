@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchiessKarl",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchiessKarl",
   "name": "Karl Schiess",
   "givenName": "Karl",
   "familyName": "Schiess",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1914-03-25",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Konstanz"
-  },
-  "deathDate": "1999-09-08",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Überlingen"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1964–1980 MdL Baden-Württemberg (CDU), 1972–1978 Innenminister von Baden-Württemberg"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/10813489X",
-    "https://de.wikipedia.org/wiki/Karl_Schiess"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Karl Schiess",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/10813489X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Karl_Schiess",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Karl_Schiess"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1914-03-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Konstanz"
+  },
+  "deathDate": "1999-09-08",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Überlingen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1964–1980 MdL Baden-Württemberg (CDU), 1972–1978 Innenminister von Baden-Württemberg"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/10813489X",
+    "https://de.wikipedia.org/wiki/Karl_Schiess"
+  ]
 }

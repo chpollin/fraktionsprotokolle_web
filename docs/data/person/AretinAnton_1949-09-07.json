@@ -1,10 +1,53 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "AretinAnton_1949-09-07",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/AretinAnton_1949-09-07",
   "name": "Anton von Aretin",
   "givenName": "Anton",
   "familyName": "Aretin",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Anton von Aretin",
+    "forename": "Anton",
+    "surname": "Aretin",
+    "prefix": "von",
+    "role_name": "Freiherr",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1918-08-15",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1981-06-12",
+    "place": "Aldersbach, Niederbayern",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "BP",
+      "faction_full": "Fraktion Bayernpartei",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 1,
+      "faction": "FU",
+      "faction_full": "Fraktion Föderalistische Union",
+      "from": "1951-12-14",
+      "to": "1953-09-07"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000045",
+    "gnd": "https://d-nb.info/gnd/136162304",
+    "wikipedia": "https://de.wikipedia.org/wiki/Anton_von_Aretin_%28Politiker%29"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1918-08-15",
   "birthPlace": {
@@ -45,46 +88,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/136162304",
     "https://de.wikipedia.org/wiki/Anton_von_Aretin_%28Politiker%29"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Anton von Aretin",
-    "forename": "Anton",
-    "surname": "Aretin",
-    "prefix": "von",
-    "role_name": "Freiherr",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1918-08-15",
-    "place": "München",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1981-06-12",
-    "place": "Aldersbach, Niederbayern",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 1,
-      "faction": "BP",
-      "faction_full": "Fraktion Bayernpartei",
-      "from": "1949-09-07",
-      "to": "1953-09-07"
-    },
-    {
-      "period": 1,
-      "faction": "FU",
-      "faction_full": "Fraktion Föderalistische Union",
-      "from": "1951-12-14",
-      "to": "1953-09-07"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11000045",
-    "gnd": "https://d-nb.info/gnd/136162304",
-    "wikipedia": "https://de.wikipedia.org/wiki/Anton_von_Aretin_%28Politiker%29",
-    "viaf": null
-  }
+  ]
 }

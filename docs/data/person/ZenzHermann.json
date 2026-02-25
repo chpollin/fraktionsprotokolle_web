@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ZenzHermann",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ZenzHermann",
   "name": "Hermann Zenz",
   "givenName": "Hermann-Franz",
   "familyName": "Zenz",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1926-08-22",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Haag in Oberbayern"
-  },
-  "deathDate": "2009-06-07",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Schloßberg/Stephanskirchen"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1966–1990 MdL Bayern (CSU)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1020396504",
-    "https://de.wikipedia.org/wiki/Hermann_Zenz"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hermann Zenz",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1020396504",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hermann_Zenz",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hermann_Zenz"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1926-08-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Haag in Oberbayern"
+  },
+  "deathDate": "2009-06-07",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Schloßberg/Stephanskirchen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1966–1990 MdL Bayern (CSU)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1020396504",
+    "https://de.wikipedia.org/wiki/Hermann_Zenz"
+  ]
 }

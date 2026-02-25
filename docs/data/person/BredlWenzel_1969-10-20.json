@@ -1,48 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BredlWenzel_1969-10-20",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BredlWenzel_1969-10-20",
   "name": "Wenzel Bredl",
   "givenName": "Wenzel",
   "familyName": "Bredl",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1924-04-28",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Deffernik (heute: Železná Ruda, Tschechische Republik)"
-  },
-  "deathDate": "2003-09-17",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Kaufmännischer Angestellter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1969-10-20",
-      "endDate": "1972-09-22"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1972-12-13",
-      "endDate": "1976-12-13"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/106957127X",
-    "https://de.wikipedia.org/wiki/Wenzel_Bredl"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Wenzel Bredl",
@@ -81,7 +46,43 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000257",
     "gnd": "https://d-nb.info/gnd/106957127X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Wenzel_Bredl",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Wenzel_Bredl"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1924-04-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Deffernik (heute: Železná Ruda, Tschechische Republik)"
+  },
+  "deathDate": "2003-09-17",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Kaufmännischer Angestellter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1969-10-20",
+      "endDate": "1972-09-22"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1972-12-13",
+      "endDate": "1976-12-13"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/106957127X",
+    "https://de.wikipedia.org/wiki/Wenzel_Bredl"
+  ]
 }

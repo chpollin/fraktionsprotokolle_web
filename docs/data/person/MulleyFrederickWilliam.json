@@ -1,24 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MulleyFrederickWilliam",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MulleyFrederickWilliam",
   "name": "Frederick William Mulley",
   "givenName": "Frederick William",
   "familyName": "Mulley",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1918-07-03",
-  "birthPlace": null,
-  "deathDate": "1995-03-15",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1967–1969 Staatsminister im britischen Außenministerium, 1969/70 Transportminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/107516551",
-    "https://de.wikipedia.org/wiki/Frederick_Mulley"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Frederick William Mulley",
@@ -40,9 +29,18 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/107516551",
-    "wikipedia": "https://de.wikipedia.org/wiki/Frederick_Mulley",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Frederick_Mulley"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1918-07-03",
+  "deathDate": "1995-03-15",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1967–1969 Staatsminister im britischen Außenministerium, 1969/70 Transportminister"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/107516551",
+    "https://de.wikipedia.org/wiki/Frederick_Mulley"
+  ]
 }

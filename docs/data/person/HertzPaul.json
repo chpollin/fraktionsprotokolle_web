@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HertzPaul",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HertzPaul",
   "name": "Paul Hertz",
   "givenName": "Paul",
   "familyName": "Hertz",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1888-06-23",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Worms"
-  },
-  "deathDate": "1961-10-23",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Berlin (West)"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1951–1953 Berliner Senator für den Marshall-Plan und Kreditwesen, 1953–1955 Bevollmächtigter für das Kreditwesen, 1955–1961 Senator für Wirtschaft und Finanzen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/116754494",
-    "https://de.wikipedia.org/wiki/Paul_Hertz_(Politiker)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Paul Hertz",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/116754494",
-    "wikipedia": "https://de.wikipedia.org/wiki/Paul_Hertz_(Politiker)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Paul_Hertz_(Politiker)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1888-06-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Worms"
+  },
+  "deathDate": "1961-10-23",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin (West)"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1951–1953 Berliner Senator für den Marshall-Plan und Kreditwesen, 1953–1955 Bevollmächtigter für das Kreditwesen, 1955–1961 Senator für Wirtschaft und Finanzen"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/116754494",
+    "https://de.wikipedia.org/wiki/Paul_Hertz_(Politiker)"
+  ]
 }

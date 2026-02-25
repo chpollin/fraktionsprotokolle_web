@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HandkeGeorg",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HandkeGeorg",
   "name": "Georg Handke",
   "givenName": "Georg Ulrich",
   "familyName": "Handke",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1894-04-22",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Hanau"
-  },
-  "deathDate": "1962-09-07",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Ost-Berlin"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1949–1952 DDR-Minister für innerdeutschen Handel, 1953–1959 Staatssekretär im Ministerium für Auswärtige Angelegenheiten"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/105773441",
-    "https://de.wikipedia.org/wiki/Georg_Ulrich_Handke"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Georg Handke",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/105773441",
-    "wikipedia": "https://de.wikipedia.org/wiki/Georg_Ulrich_Handke",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Georg_Ulrich_Handke"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1894-04-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hanau"
+  },
+  "deathDate": "1962-09-07",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Ost-Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1949–1952 DDR-Minister für innerdeutschen Handel, 1953–1959 Staatssekretär im Ministerium für Auswärtige Angelegenheiten"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/105773441",
+    "https://de.wikipedia.org/wiki/Georg_Ulrich_Handke"
+  ]
 }

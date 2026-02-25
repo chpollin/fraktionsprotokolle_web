@@ -1,10 +1,74 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GleissnerFranz_1953-10-06",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GleissnerFranz_1953-10-06",
   "name": "Franz Gleissner",
   "givenName": "Franz",
   "familyName": "Gleissner",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Franz Gleissner",
+    "forename": "Franz",
+    "surname": "Gleissner",
+    "prefix": "",
+    "role_name": "",
+    "place": "(München)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1911-02-22",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1992-12-28",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 3,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 4,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    },
+    {
+      "period": 5,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    },
+    {
+      "period": 6,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1969-10-20",
+      "to": "1972-09-22"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000689",
+    "gnd": "https://d-nb.info/gnd/1060144751",
+    "wikipedia": "https://de.wikipedia.org/wiki/Franz_Gleissner"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1911-02-22",
   "birthPlace": {
@@ -12,7 +76,6 @@
     "name": "München"
   },
   "deathDate": "1992-12-28",
-  "deathPlace": null,
   "hasOccupation": {
     "@type": "Occupation",
     "name": "Direktor a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
@@ -73,68 +136,6 @@
     "https://d-nb.info/gnd/1060144751",
     "https://de.wikipedia.org/wiki/Franz_Gleissner"
   ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Franz Gleissner",
-    "forename": "Franz",
-    "surname": "Gleissner",
-    "prefix": "",
-    "role_name": "",
-    "place": "(München)"
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1911-02-22",
-    "place": "München",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1992-12-28",
-    "place": "",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 2,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1953-10-06",
-      "to": "1957-10-06"
-    },
-    {
-      "period": 3,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1957-10-15",
-      "to": "1961-10-15"
-    },
-    {
-      "period": 4,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1961-10-17",
-      "to": "1965-10-17"
-    },
-    {
-      "period": 5,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1965-10-19",
-      "to": "1969-10-19"
-    },
-    {
-      "period": 6,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1969-10-20",
-      "to": "1972-09-22"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11000689",
-    "gnd": "https://d-nb.info/gnd/1060144751",
-    "wikipedia": "https://de.wikipedia.org/wiki/Franz_Gleissner",
-    "viaf": null
-  },
   "fraktionsprotokolle:alt_names": [
     {
       "reg": "Franz Gleissner",

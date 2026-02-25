@@ -1,10 +1,53 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "LamplRoman_1950-11-10",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/LamplRoman_1950-11-10",
   "name": "Roman Lampl",
   "givenName": "Roman",
   "familyName": "Lampl",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Roman Lampl",
+    "forename": "Roman",
+    "surname": "Lampl",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1900-03-29",
+    "place": "Eurastetten",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1965-04-17",
+    "place": "München",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "BP",
+      "faction_full": "Fraktion Bayernpartei",
+      "from": "1950-11-10",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 1,
+      "faction": "FU",
+      "faction_full": "Fraktion Föderalistische Union",
+      "from": "1951-12-14",
+      "to": "1953-09-07"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001277",
+    "gnd": "https://d-nb.info/gnd/1313812706",
+    "wikipedia": "https://de.wikipedia.org/wiki/Roman_Lampl"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1900-03-29",
   "birthPlace": {
@@ -45,46 +88,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/1313812706",
     "https://de.wikipedia.org/wiki/Roman_Lampl"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Roman Lampl",
-    "forename": "Roman",
-    "surname": "Lampl",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1900-03-29",
-    "place": "Eurastetten",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1965-04-17",
-    "place": "München",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 1,
-      "faction": "BP",
-      "faction_full": "Fraktion Bayernpartei",
-      "from": "1950-11-10",
-      "to": "1953-09-07"
-    },
-    {
-      "period": 1,
-      "faction": "FU",
-      "faction_full": "Fraktion Föderalistische Union",
-      "from": "1951-12-14",
-      "to": "1953-09-07"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11001277",
-    "gnd": "https://d-nb.info/gnd/1313812706",
-    "wikipedia": "https://de.wikipedia.org/wiki/Roman_Lampl",
-    "viaf": null
-  }
+  ]
 }

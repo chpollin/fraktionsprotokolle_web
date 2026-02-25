@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SilvaLulada",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SilvaLulada",
   "name": "Lula da Silva",
   "givenName": "Luiz Inácio Lula",
   "familyName": "Silva",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1945-10-27",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Caetés, Pernambuco"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Metallfacharbeiter, Gewerkschaftsfunktionär und Politiker, Gründungsmitglied der brasilianischen Arbeiterpartei Partido dos Trabalhadores (PT), 2003–2011 Präsident Brasiliens"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/120309858",
-    "https://de.wikipedia.org/wiki/Luiz_In%C3%A1cio_Lula_da_Silva"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Lula da Silva",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/120309858",
-    "wikipedia": "https://de.wikipedia.org/wiki/Luiz_In%C3%A1cio_Lula_da_Silva",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Luiz_In%C3%A1cio_Lula_da_Silva"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1945-10-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Caetés, Pernambuco"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Metallfacharbeiter, Gewerkschaftsfunktionär und Politiker, Gründungsmitglied der brasilianischen Arbeiterpartei Partido dos Trabalhadores (PT), 2003–2011 Präsident Brasiliens"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/120309858",
+    "https://de.wikipedia.org/wiki/Luiz_In%C3%A1cio_Lula_da_Silva"
+  ]
 }

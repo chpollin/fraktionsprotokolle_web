@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PopovicKoca",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PopovicKoca",
   "name": "Koča Popović",
   "givenName": "Koča",
   "familyName": "Popović",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1908-03-14",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Belgrad"
-  },
-  "deathDate": "1992-10-20",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1946–1953 Chef des Generalstabs der jugoslawischen Volksarmee, 1953–1965 Außenminister, 1965–1972 Vizepräsident Jugoslawiens"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/124965709",
-    "https://de.wikipedia.org/wiki/Ko%C4%8Da_Popovi%C4%87"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Koča Popović",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/124965709",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ko%C4%8Da_Popovi%C4%87",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ko%C4%8Da_Popovi%C4%87"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1908-03-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Belgrad"
+  },
+  "deathDate": "1992-10-20",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1946–1953 Chef des Generalstabs der jugoslawischen Volksarmee, 1953–1965 Außenminister, 1965–1972 Vizepräsident Jugoslawiens"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/124965709",
+    "https://de.wikipedia.org/wiki/Ko%C4%8Da_Popovi%C4%87"
+  ]
 }

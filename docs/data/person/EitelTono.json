@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "EitelTono",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/EitelTono",
   "name": "Tono (Antonius) Eitel",
   "givenName": "Antonius",
   "familyName": "Eitel",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1933-06-05",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Münster, Westfalen"
-  },
-  "deathDate": "2017-06-25",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Münster, Westfalen"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Jurist und Diplomat, 1970–1973 Legationsrat I. Klasse bzw. Vortragender Legationsrat im Bundeskanzleramt und persönlicher Referent des Staatssekretärs Bahr"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/123440653",
-    "https://de.wikipedia.org/wiki/Tono_Eitel"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Tono (Antonius) Eitel",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/123440653",
-    "wikipedia": "https://de.wikipedia.org/wiki/Tono_Eitel",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Tono_Eitel"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1933-06-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Münster, Westfalen"
+  },
+  "deathDate": "2017-06-25",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Münster, Westfalen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Jurist und Diplomat, 1970–1973 Legationsrat I. Klasse bzw. Vortragender Legationsrat im Bundeskanzleramt und persönlicher Referent des Staatssekretärs Bahr"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/123440653",
+    "https://de.wikipedia.org/wiki/Tono_Eitel"
+  ]
 }

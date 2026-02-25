@@ -1,26 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GoetzVolker",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GoetzVolker",
   "name": "Volker Götz",
   "givenName": "Volker",
   "familyName": "Götz",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1945-03-24",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Rebesgrün/Vogtland"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Rechtsanwalt und DKP-Mitglied, 1973 Ernennung zum Richter auf Probe, Rücknahme der Ernennung aufgrund des »Radikalenerlasses«"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Volker_G%C3%B6tz"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Volker Götz",
@@ -42,9 +29,19 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://de.wikipedia.org/wiki/Volker_G%C3%B6tz",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Volker_G%C3%B6tz"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1945-03-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Rebesgrün/Vogtland"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsanwalt und DKP-Mitglied, 1973 Ernennung zum Richter auf Probe, Rücknahme der Ernennung aufgrund des »Radikalenerlasses«"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Volker_G%C3%B6tz"
+  ]
 }

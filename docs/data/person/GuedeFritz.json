@@ -1,26 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GuedeFritz",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GuedeFritz",
   "name": "Fritz Güde",
   "givenName": "Fritz",
   "familyName": "Güde",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1935-08-22",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Wolfach, Baden"
-  },
-  "deathDate": "2017-07-05",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Studienrat, Mitglied des Kommunistischen Bunds Westdeutschlands (KBW)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1079248765"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Fritz Güde",
@@ -42,10 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/1079248765",
-    "wikipedia": null,
-    "viaf": null
+    "gnd": "https://d-nb.info/gnd/1079248765"
   },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1935-08-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Wolfach, Baden"
+  },
+  "deathDate": "2017-07-05",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Studienrat, Mitglied des Kommunistischen Bunds Westdeutschlands (KBW)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1079248765"
+  ],
   "fraktionsprotokolle:sonstiges": "1974 vom baden-württembergischen Kultusministerium vom Schuldienst an öffentlichen Schulen suspendiert"
 }

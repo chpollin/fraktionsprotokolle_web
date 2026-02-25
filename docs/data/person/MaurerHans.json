@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MaurerHans",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MaurerHans",
   "name": "Hans Maurer",
   "givenName": "Hans",
   "familyName": "Maurer",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1933-05-03",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Neuendettelsau"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Kreisvorsitzender der CSU, 1990 bis 1993 der Bayerische Staatsminister für Ernährung, Landwirtschaft und Forsten"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/14363075X",
-    "https://de.wikipedia.org/wiki/Hans_Maurer_(Politiker,_1933)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hans Maurer",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/14363075X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Maurer_(Politiker,_1933)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Maurer_(Politiker,_1933)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1933-05-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Neuendettelsau"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Kreisvorsitzender der CSU, 1990 bis 1993 der Bayerische Staatsminister für Ernährung, Landwirtschaft und Forsten"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/14363075X",
+    "https://de.wikipedia.org/wiki/Hans_Maurer_(Politiker,_1933)"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SforzaCarlo",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SforzaCarlo",
   "name": "Carlo Sforza",
   "givenName": "Carlo",
   "familyName": "Sforza",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1872-09-24",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Montignoso"
-  },
-  "deathDate": "1952-09-04",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Rom"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1920–1921 und 1947–1951 italienischer Außenminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119338041",
-    "https://de.wikipedia.org/wiki/Carlo_Sforza"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Carlo Sforza",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119338041",
-    "wikipedia": "https://de.wikipedia.org/wiki/Carlo_Sforza",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Carlo_Sforza"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1872-09-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Montignoso"
+  },
+  "deathDate": "1952-09-04",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Rom"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1920–1921 und 1947–1951 italienischer Außenminister"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119338041",
+    "https://de.wikipedia.org/wiki/Carlo_Sforza"
+  ]
 }

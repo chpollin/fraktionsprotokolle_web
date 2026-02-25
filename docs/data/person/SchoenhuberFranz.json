@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchoenhuberFranz",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchoenhuberFranz",
   "name": "Franz Schönhuber",
   "givenName": "Franz",
   "familyName": "Schönhuber",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1923-01-10",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Trostberg"
-  },
-  "deathDate": "2005-11-27",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "rechtsextremer Politiker, Journalist, Moderator und Autor, Mitgründer und späterer Bundesvorsitzender der Partei Die Republikaner"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118610198",
-    "https://de.wikipedia.org/wiki/Franz_Sch%C3%B6nhuber"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Franz Schönhuber",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118610198",
-    "wikipedia": "https://de.wikipedia.org/wiki/Franz_Sch%C3%B6nhuber",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Franz_Sch%C3%B6nhuber"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1923-01-10",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Trostberg"
+  },
+  "deathDate": "2005-11-27",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "rechtsextremer Politiker, Journalist, Moderator und Autor, Mitgründer und späterer Bundesvorsitzender der Partei Die Republikaner"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118610198",
+    "https://de.wikipedia.org/wiki/Franz_Sch%C3%B6nhuber"
+  ]
 }

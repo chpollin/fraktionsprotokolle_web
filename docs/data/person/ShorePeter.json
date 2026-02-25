@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ShorePeter",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ShorePeter",
   "name": "Peter Shore",
   "givenName": "Peter",
   "familyName": "Shore",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1924-05-20",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Yarmouth, Norflok"
-  },
-  "deathDate": "2001-09-24",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "London"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "britischer Politiker der Labour Party, 1964–1997 Mitglied des britischen Unterhauses, 1967–1969 Wirtschaftsminister, 1969–1970 Minister ohne Geschäftsbereich, 1974–1976 Handelsminister, 1976–1979 Umweltminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/108925914X",
-    "https://de.wikipedia.org/wiki/Peter_Shore,_Baron_Shore_of_Stepney"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Peter Shore",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/108925914X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Peter_Shore,_Baron_Shore_of_Stepney",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Peter_Shore,_Baron_Shore_of_Stepney"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1924-05-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Yarmouth, Norflok"
+  },
+  "deathDate": "2001-09-24",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "London"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "britischer Politiker der Labour Party, 1964–1997 Mitglied des britischen Unterhauses, 1967–1969 Wirtschaftsminister, 1969–1970 Minister ohne Geschäftsbereich, 1974–1976 Handelsminister, 1976–1979 Umweltminister"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/108925914X",
+    "https://de.wikipedia.org/wiki/Peter_Shore,_Baron_Shore_of_Stepney"
+  ]
 }

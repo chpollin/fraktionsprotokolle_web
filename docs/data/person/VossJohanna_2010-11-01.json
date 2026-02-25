@@ -1,35 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "VossJohanna_2010-11-01",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/VossJohanna_2010-11-01",
   "name": "Johanna Voß",
   "givenName": "Johanna",
   "familyName": "Voß",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1957-09-03",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Rulle"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Dipl.-Sozialpädagogin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion DIE LINKE.",
-        "alternateName": "LINKE"
-      },
-      "startDate": "2010-11-01",
-      "endDate": "2013-10-22"
-    }
-  ],
-  "sameAs": null,
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Johanna Voß",
@@ -59,9 +37,28 @@
     }
   ],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11004212",
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
-  }
+    "mdb_stammdaten": "11004212"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1957-09-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Rulle"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Sozialpädagogin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion DIE LINKE.",
+        "alternateName": "LINKE"
+      },
+      "startDate": "2010-11-01",
+      "endDate": "2013-10-22"
+    }
+  ]
 }

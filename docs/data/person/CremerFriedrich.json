@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "CremerFriedrich",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/CremerFriedrich",
   "name": "Friedrich Cremer",
   "givenName": "Friedrich",
   "familyName": "Cremer",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1920-02-16",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Düsseldorf"
-  },
-  "deathDate": "2010-09-22",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Triefenstein"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "MdL Bayern (SPD)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/173424414",
-    "https://de.wikipedia.org/wiki/Friedrich_Cremer"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Friedrich Cremer",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/173424414",
-    "wikipedia": "https://de.wikipedia.org/wiki/Friedrich_Cremer",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Friedrich_Cremer"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1920-02-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Düsseldorf"
+  },
+  "deathDate": "2010-09-22",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Triefenstein"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "MdL Bayern (SPD)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/173424414",
+    "https://de.wikipedia.org/wiki/Friedrich_Cremer"
+  ]
 }

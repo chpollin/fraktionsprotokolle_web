@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GlobkeHans",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GlobkeHans",
   "name": "Hans Globke",
   "givenName": "Hans",
   "familyName": "Globke",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1898-09-10",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Düsseldorf"
-  },
-  "deathDate": "1973-02-13",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bonn"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1953–1963 Staatssekretär und Chef des Bundeskanzleramts"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118539779",
-    "https://de.wikipedia.org/wiki/Hans_Globke"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hans Globke",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118539779",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Globke",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Globke"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1898-09-10",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Düsseldorf"
+  },
+  "deathDate": "1973-02-13",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1953–1963 Staatssekretär und Chef des Bundeskanzleramts"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118539779",
+    "https://de.wikipedia.org/wiki/Hans_Globke"
+  ]
 }

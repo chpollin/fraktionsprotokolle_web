@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RehseHans-Joachim",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RehseHans-Joachim",
   "name": "Hans-Joachim Rehse",
   "givenName": "Hans-Joachim",
   "familyName": "Rehse",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1902-09-27",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Prenden, Landkreis Niederbarnim"
-  },
-  "deathDate": "1969-09-05",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Schleswig"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "NS-Jurist, beisitzender Richter im Ersten Senat des »Volksgerichtshofs«"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/140530797",
-    "https://de.wikipedia.org/wiki/Hans-Joachim_Rehse"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hans-Joachim Rehse",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/140530797",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hans-Joachim_Rehse",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans-Joachim_Rehse"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1902-09-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Prenden, Landkreis Niederbarnim"
+  },
+  "deathDate": "1969-09-05",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Schleswig"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "NS-Jurist, beisitzender Richter im Ersten Senat des »Volksgerichtshofs«"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/140530797",
+    "https://de.wikipedia.org/wiki/Hans-Joachim_Rehse"
+  ]
 }

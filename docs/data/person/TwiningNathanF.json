@@ -1,29 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "TwiningNathanF",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/TwiningNathanF",
   "name": "Nathan F. Twining",
   "givenName": "Nathan Farragut",
   "familyName": "Twining",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1897-10-11",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Monroe, Wisconsin"
-  },
-  "deathDate": "1982-03-29",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "San Antonio, Texas"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "amerikanischer General, 1957–1960 Vorsitzender der Vereinigten Stabschefs"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Nathan_F._Twining"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Nathan F. Twining",
@@ -45,9 +29,24 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://de.wikipedia.org/wiki/Nathan_F._Twining",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Nathan_F._Twining"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1897-10-11",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Monroe, Wisconsin"
+  },
+  "deathDate": "1982-03-29",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "San Antonio, Texas"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "amerikanischer General, 1957–1960 Vorsitzender der Vereinigten Stabschefs"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Nathan_F._Twining"
+  ]
 }

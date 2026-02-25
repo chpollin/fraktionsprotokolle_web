@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "StaeckKlaus",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/StaeckKlaus",
   "name": "Klaus Staeck",
   "givenName": "Klaus",
   "familyName": "Staeck",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1938-02-28",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Pulsnitz"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Grafikdesigner, Karikaturist und Jurist, 2006–2015 Präsident der Akademie der Künste in Berlin"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118616609",
-    "https://de.wikipedia.org/wiki/Klaus_Staeck"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Klaus Staeck",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118616609",
-    "wikipedia": "https://de.wikipedia.org/wiki/Klaus_Staeck",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Klaus_Staeck"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1938-02-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Pulsnitz"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Grafikdesigner, Karikaturist und Jurist, 2006–2015 Präsident der Akademie der Künste in Berlin"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118616609",
+    "https://de.wikipedia.org/wiki/Klaus_Staeck"
+  ]
 }

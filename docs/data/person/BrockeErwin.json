@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BrockeErwin",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BrockeErwin",
   "name": "Erwin Brocke",
   "givenName": "Erwin",
   "familyName": "Brocke",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1921-01-20",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Magdeburg"
-  },
-  "deathDate": "2004-02-02",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1951–1954 Rechtsanwalt, 1954–1961 Richter am Sozialgericht in Marburg, 1961–1988 Richter am Bundessozialgericht in Kassel"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1105300714",
-    "https://de.wikipedia.org/wiki/Erwin_Brocke"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Erwin Brocke",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1105300714",
-    "wikipedia": "https://de.wikipedia.org/wiki/Erwin_Brocke",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Erwin_Brocke"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1921-01-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Magdeburg"
+  },
+  "deathDate": "2004-02-02",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1951–1954 Rechtsanwalt, 1954–1961 Richter am Sozialgericht in Marburg, 1961–1988 Richter am Bundessozialgericht in Kassel"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1105300714",
+    "https://de.wikipedia.org/wiki/Erwin_Brocke"
+  ]
 }

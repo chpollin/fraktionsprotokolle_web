@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RisseRoland",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RisseRoland",
   "name": "Roland Risse",
   "givenName": "Roland",
   "familyName": "Risse",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1902-08-28",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Bochum"
-  },
-  "deathDate": "1990",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Ministerialdirektor im Bundesministerium für Wirtschaft, Leiter der Abteilung »Gewerbliche Wirtschaft«"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118601245",
-    "https://de.wikipedia.org/wiki/Roland_Risse"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Roland Risse",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118601245",
-    "wikipedia": "https://de.wikipedia.org/wiki/Roland_Risse",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Roland_Risse"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1902-08-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bochum"
+  },
+  "deathDate": "1990",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Ministerialdirektor im Bundesministerium für Wirtschaft, Leiter der Abteilung »Gewerbliche Wirtschaft«"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118601245",
+    "https://de.wikipedia.org/wiki/Roland_Risse"
+  ]
 }

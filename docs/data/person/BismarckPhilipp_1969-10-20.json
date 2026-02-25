@@ -1,10 +1,60 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BismarckPhilipp_1969-10-20",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BismarckPhilipp_1969-10-20",
   "name": "Philipp von Bismarck",
   "givenName": "Philipp",
   "familyName": "Bismarck",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Philipp von Bismarck",
+    "forename": "Philipp",
+    "surname": "Bismarck",
+    "prefix": "von",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1913-08-19",
+    "place": "Jarchlin/Pommern (heute: Jarchlino, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2006-07-20",
+    "place": "Obernholz, Landkreis Gifhorn",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 6,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1969-10-20",
+      "to": "1972-09-22"
+    },
+    {
+      "period": 7,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1972-12-13",
+      "to": "1976-12-13"
+    },
+    {
+      "period": 8,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1976-12-14",
+      "to": "1979-09-06"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000186",
+    "gnd": "https://d-nb.info/gnd/131930370",
+    "wikipedia": "https://de.wikipedia.org/wiki/Philipp_von_Bismarck"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1913-08-19",
   "birthPlace": {
@@ -55,53 +105,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/131930370",
     "https://de.wikipedia.org/wiki/Philipp_von_Bismarck"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Philipp von Bismarck",
-    "forename": "Philipp",
-    "surname": "Bismarck",
-    "prefix": "von",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1913-08-19",
-    "place": "Jarchlin/Pommern (heute: Jarchlino, Polen)",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "2006-07-20",
-    "place": "Obernholz, Landkreis Gifhorn",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 6,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1969-10-20",
-      "to": "1972-09-22"
-    },
-    {
-      "period": 7,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1972-12-13",
-      "to": "1976-12-13"
-    },
-    {
-      "period": 8,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1976-12-14",
-      "to": "1979-09-06"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11000186",
-    "gnd": "https://d-nb.info/gnd/131930370",
-    "wikipedia": "https://de.wikipedia.org/wiki/Philipp_von_Bismarck",
-    "viaf": null
-  }
+  ]
 }

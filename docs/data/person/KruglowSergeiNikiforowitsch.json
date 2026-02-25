@@ -1,24 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KruglowSergeiNikiforowitsch",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KruglowSergeiNikiforowitsch",
   "name": "Sergei Nikiforowitsch Kruglow",
   "givenName": "Sergei Nikiforowitsch",
   "familyName": "Kruglow",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1907-10-02",
-  "birthPlace": null,
-  "deathDate": "1977-06-06",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "sowjetischer General, 1945–1956 Innenminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/133707318",
-    "https://en.wikipedia.org/wiki/Sergei_Kruglov_(politician)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Sergei Nikiforowitsch Kruglow",
@@ -40,9 +29,18 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/133707318",
-    "wikipedia": "https://en.wikipedia.org/wiki/Sergei_Kruglov_(politician)",
-    "viaf": null
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/Sergei_Kruglov_(politician)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1907-10-02",
+  "deathDate": "1977-06-06",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "sowjetischer General, 1945–1956 Innenminister"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/133707318",
+    "https://en.wikipedia.org/wiki/Sergei_Kruglov_(politician)"
+  ]
 }

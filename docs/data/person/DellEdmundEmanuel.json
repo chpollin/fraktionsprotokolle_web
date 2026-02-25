@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DellEdmundEmanuel",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DellEdmundEmanuel",
   "name": "Edmund Emanuel Dell",
   "givenName": "Edmund Emanuel",
   "familyName": "Dell",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1921-08-15",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "London"
-  },
-  "deathDate": "1999-11-01",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "britischer Politiker, Mitglied des EG-»Ausschusses der Weisen«; 1976–1978 britischer Handelsminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/170358674",
-    "https://en.wikipedia.org/wiki/Edmund_Dell"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Edmund Emanuel Dell",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/170358674",
-    "wikipedia": "https://en.wikipedia.org/wiki/Edmund_Dell",
-    "viaf": null
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/Edmund_Dell"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1921-08-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "London"
+  },
+  "deathDate": "1999-11-01",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "britischer Politiker, Mitglied des EG-»Ausschusses der Weisen«; 1976–1978 britischer Handelsminister"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/170358674",
+    "https://en.wikipedia.org/wiki/Edmund_Dell"
+  ]
 }

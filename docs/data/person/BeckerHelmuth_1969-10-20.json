@@ -1,10 +1,88 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BeckerHelmuth_1969-10-20",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BeckerHelmuth_1969-10-20",
   "name": "Helmuth Becker",
   "givenName": "Helmuth",
   "familyName": "Becker",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Helmuth Becker",
+    "forename": "Helmuth",
+    "surname": "Becker",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Nienberge)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1929-09-03",
+    "place": "Münster/Westfalen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2011-05-20",
+    "place": "Münster/Westfalen",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 6,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1969-10-20",
+      "to": "1972-09-22"
+    },
+    {
+      "period": 7,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1972-12-13",
+      "to": "1976-12-13"
+    },
+    {
+      "period": 8,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1976-12-14",
+      "to": "1980-11-04"
+    },
+    {
+      "period": 9,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1980-11-04",
+      "to": "1983-03-29"
+    },
+    {
+      "period": 10,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1983-03-29",
+      "to": "1987-02-18"
+    },
+    {
+      "period": 11,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1987-02-18",
+      "to": "1990-12-20"
+    },
+    {
+      "period": 12,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1990-12-20",
+      "to": "1994-11-10"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000127",
+    "gnd": "https://d-nb.info/gnd/113368534",
+    "wikipedia": "https://de.wikipedia.org/wiki/Helmuth_Becker"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1929-09-03",
   "birthPlace": {
@@ -95,81 +173,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/113368534",
     "https://de.wikipedia.org/wiki/Helmuth_Becker"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Helmuth Becker",
-    "forename": "Helmuth",
-    "surname": "Becker",
-    "prefix": "",
-    "role_name": "",
-    "place": "(Nienberge)"
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1929-09-03",
-    "place": "Münster/Westfalen",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "2011-05-20",
-    "place": "Münster/Westfalen",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 6,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1969-10-20",
-      "to": "1972-09-22"
-    },
-    {
-      "period": 7,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1972-12-13",
-      "to": "1976-12-13"
-    },
-    {
-      "period": 8,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1976-12-14",
-      "to": "1980-11-04"
-    },
-    {
-      "period": 9,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1980-11-04",
-      "to": "1983-03-29"
-    },
-    {
-      "period": 10,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1983-03-29",
-      "to": "1987-02-18"
-    },
-    {
-      "period": 11,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1987-02-18",
-      "to": "1990-12-20"
-    },
-    {
-      "period": 12,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1990-12-20",
-      "to": "1994-11-10"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11000127",
-    "gnd": "https://d-nb.info/gnd/113368534",
-    "wikipedia": "https://de.wikipedia.org/wiki/Helmuth_Becker",
-    "viaf": null
-  }
+  ]
 }

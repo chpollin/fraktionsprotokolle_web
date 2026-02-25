@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KaganowitschLasarMoisejewitsch",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KaganowitschLasarMoisejewitsch",
   "name": "Lásar Moiséjewitsch Kaganowitsch",
   "givenName": "Lásar Moiséjewitsch",
   "familyName": "Kaganowitsch",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1893-11-22",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Kabany, Gouvernement Kiew"
-  },
-  "deathDate": "1991-07-25",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Moskau"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "bis 1957 Mitglied des Präsidiums des Zentralkomitees der KPdSU und Erster Stellvertretender Vorsitzender des Ministerrates der UdSSR"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118990306",
-    "https://de.wikipedia.org/wiki/Lasar_Moissejewitsch_Kaganowitsch"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Lásar Moiséjewitsch Kaganowitsch",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118990306",
-    "wikipedia": "https://de.wikipedia.org/wiki/Lasar_Moissejewitsch_Kaganowitsch",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Lasar_Moissejewitsch_Kaganowitsch"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1893-11-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kabany, Gouvernement Kiew"
+  },
+  "deathDate": "1991-07-25",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Moskau"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "bis 1957 Mitglied des Präsidiums des Zentralkomitees der KPdSU und Erster Stellvertretender Vorsitzender des Ministerrates der UdSSR"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118990306",
+    "https://de.wikipedia.org/wiki/Lasar_Moissejewitsch_Kaganowitsch"
+  ]
 }

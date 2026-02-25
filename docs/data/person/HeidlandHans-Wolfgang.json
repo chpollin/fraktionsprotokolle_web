@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HeidlandHans-Wolfgang",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HeidlandHans-Wolfgang",
   "name": "Hans-Wolfgang Heidland",
   "givenName": "Hans-Wolfgang",
   "familyName": "Heidland",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1912-07-20",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Koblenz"
-  },
-  "deathDate": "1992-01-11",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Malsburg-Marzell"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1964–1980 Landesbischof der Evangelischen Landeskirche in Baden"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118547828",
-    "https://de.wikipedia.org/wiki/Hans_Heidland"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hans-Wolfgang Heidland",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118547828",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Heidland",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Heidland"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1912-07-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Koblenz"
+  },
+  "deathDate": "1992-01-11",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Malsburg-Marzell"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1964–1980 Landesbischof der Evangelischen Landeskirche in Baden"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118547828",
+    "https://de.wikipedia.org/wiki/Hans_Heidland"
+  ]
 }

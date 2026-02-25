@@ -1,48 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchmidtManfred_1975-01-17",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchmidtManfred_1975-01-17",
   "name": "Manfred Schmidt",
   "givenName": "Manfred",
   "familyName": "Schmidt",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1929-04-29",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Treptow a. Tollense (heute: Altentreptow)"
-  },
-  "deathDate": "2005-01-30",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Pfarrer im Wartestand [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1975-01-17",
-      "endDate": "1976-12-13"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1976-12-14",
-      "endDate": "1980-11-04"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1120310415",
-    "https://de.wikipedia.org/wiki/Manfred_Schmidt_%28Politiker%2C_1929%29"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Manfred Schmidt",
@@ -81,7 +46,43 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11002012",
     "gnd": "https://d-nb.info/gnd/1120310415",
-    "wikipedia": "https://de.wikipedia.org/wiki/Manfred_Schmidt_%28Politiker%2C_1929%29",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Manfred_Schmidt_%28Politiker%2C_1929%29"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1929-04-29",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Treptow a. Tollense (heute: Altentreptow)"
+  },
+  "deathDate": "2005-01-30",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Pfarrer im Wartestand [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1975-01-17",
+      "endDate": "1976-12-13"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1976-12-14",
+      "endDate": "1980-11-04"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1120310415",
+    "https://de.wikipedia.org/wiki/Manfred_Schmidt_%28Politiker%2C_1929%29"
+  ]
 }

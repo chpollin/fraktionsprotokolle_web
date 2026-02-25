@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DietrichAnne",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DietrichAnne",
   "name": "Anne Dietrich",
   "givenName": "Anne",
   "familyName": "Dietrich",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1958",
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Mitarbeiterin der Grünen-Bundestagsfraktion in der 11. Wahlperiode; 1990/91 Mitglied im Landesvorstand der Grünen in Rheinland-Pfalz"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1023974371"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Anne Dietrich",
@@ -39,9 +29,15 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/1023974371",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/1023974371"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1958",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Mitarbeiterin der Grünen-Bundestagsfraktion in der 11. Wahlperiode; 1990/91 Mitglied im Landesvorstand der Grünen in Rheinland-Pfalz"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1023974371"
+  ]
 }

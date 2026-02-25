@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GeigerWilli",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GeigerWilli",
   "name": "Willi Geiger",
   "givenName": "Willi",
   "familyName": "Geiger",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1909-05-22",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Neustadt an der Weinstraße"
-  },
-  "deathDate": "1994-01-19",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Karlsruhe"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1951–1977 Richter des Bundesverfassungsgerichts"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118690043",
-    "https://de.wikipedia.org/wiki/Willi_Geiger_(Richter)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Willi Geiger",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118690043",
-    "wikipedia": "https://de.wikipedia.org/wiki/Willi_Geiger_(Richter)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Willi_Geiger_(Richter)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1909-05-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Neustadt an der Weinstraße"
+  },
+  "deathDate": "1994-01-19",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Karlsruhe"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1951–1977 Richter des Bundesverfassungsgerichts"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118690043",
+    "https://de.wikipedia.org/wiki/Willi_Geiger_(Richter)"
+  ]
 }

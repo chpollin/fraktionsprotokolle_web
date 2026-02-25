@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "IngraoPietro",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/IngraoPietro",
   "name": "Pietro Ingrao",
   "givenName": "Pietro",
   "familyName": "Ingrao",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1915-03-30",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Lenola"
-  },
-  "deathDate": "2015-09-27",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Rom"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1968–1972 Mitglied des italienischen Abgeordnetenhauses und Fraktionsvorsitzender der Kommunistischen Partei Italiens"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/122948149",
-    "https://de.wikipedia.org/wiki/Pietro_Ingrao"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Pietro Ingrao",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/122948149",
-    "wikipedia": "https://de.wikipedia.org/wiki/Pietro_Ingrao",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Pietro_Ingrao"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1915-03-30",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Lenola"
+  },
+  "deathDate": "2015-09-27",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Rom"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1968–1972 Mitglied des italienischen Abgeordnetenhauses und Fraktionsvorsitzender der Kommunistischen Partei Italiens"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/122948149",
+    "https://de.wikipedia.org/wiki/Pietro_Ingrao"
+  ]
 }

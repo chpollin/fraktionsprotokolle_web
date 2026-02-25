@@ -1,26 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "CrathorneLordThomasDugdale",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/CrathorneLordThomasDugdale",
   "name": "Lord Thomas Dugdale Crathorne",
   "givenName": "Thomas Dugdale",
   "familyName": "Crathorne",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1897-07-20",
-  "birthPlace": null,
-  "deathDate": "1977-03-26",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "London"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Mitglied der Beratenden Versammlung des Europarates und der Versammlung der Westeuropäischen Union, 1951–1954 britischer Minister für Landwirtschaft und Fischerei"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Thomas_Dugdale,_1._Baron_Crathorne"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Lord Thomas Dugdale Crathorne",
@@ -42,9 +29,20 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://de.wikipedia.org/wiki/Thomas_Dugdale,_1._Baron_Crathorne",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Thomas_Dugdale,_1._Baron_Crathorne"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1897-07-20",
+  "deathDate": "1977-03-26",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "London"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Mitglied der Beratenden Versammlung des Europarates und der Versammlung der Westeuropäischen Union, 1951–1954 britischer Minister für Landwirtschaft und Fischerei"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Thomas_Dugdale,_1._Baron_Crathorne"
+  ]
 }

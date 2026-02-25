@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GutenbergJohannes",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GutenbergJohannes",
   "name": "Johannes Gutenberg, geb. Gensfleisch",
   "givenName": "Johannes",
   "familyName": "Gutenberg",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1400",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Mainz"
-  },
-  "deathDate": "1468-02-25",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Mainz"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Erfinder des modernen Buchdrucks mit beweglichen Metalllettern"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118543768",
-    "https://de.wikipedia.org/wiki/Johannes_Gutenberg"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Johannes Gutenberg, geb. Gensfleisch",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118543768",
-    "wikipedia": "https://de.wikipedia.org/wiki/Johannes_Gutenberg",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Johannes_Gutenberg"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1400",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Mainz"
+  },
+  "deathDate": "1468-02-25",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Mainz"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Erfinder des modernen Buchdrucks mit beweglichen Metalllettern"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118543768",
+    "https://de.wikipedia.org/wiki/Johannes_Gutenberg"
+  ]
 }

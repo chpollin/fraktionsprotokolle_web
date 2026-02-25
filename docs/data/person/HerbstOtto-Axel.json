@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HerbstOtto-Axel",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HerbstOtto-Axel",
   "name": "Otto-Axel Herbst",
   "givenName": "Otto-Axel",
   "familyName": "Herbst",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1918-10-09",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Mülheim an der Ruhr"
-  },
-  "deathDate": "2016-04-03",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Diplomat, unter anderem von 1973 bis 1976 Ständiger Vertreter beim Büro der Vereinten Nationen in Genf und von 1976 bis 1983 Botschafter in Frankreich"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1096034115",
-    "https://de.wikipedia.org/wiki/Axel_Herbst"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Otto-Axel Herbst",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1096034115",
-    "wikipedia": "https://de.wikipedia.org/wiki/Axel_Herbst",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Axel_Herbst"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1918-10-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Mülheim an der Ruhr"
+  },
+  "deathDate": "2016-04-03",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Diplomat, unter anderem von 1973 bis 1976 Ständiger Vertreter beim Büro der Vereinten Nationen in Genf und von 1976 bis 1983 Botschafter in Frankreich"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1096034115",
+    "https://de.wikipedia.org/wiki/Axel_Herbst"
+  ]
 }

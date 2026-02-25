@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MorgenthauHansJoachim",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MorgenthauHansJoachim",
   "name": "Hans Joachim Morgenthau",
   "givenName": "Hans Joachim",
   "familyName": "Morgenthau",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1904-02-17",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Coburg"
-  },
-  "deathDate": "1980-07-19",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "New York"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "dt.-am. Jurist und Politikwissenschaftler"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119094436",
-    "https://de.wikipedia.org/wiki/Hans_Morgenthau#Amerika_(1937%E2%80%931980)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hans Joachim Morgenthau",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119094436",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Morgenthau#Amerika_(1937%E2%80%931980)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Morgenthau#Amerika_(1937%E2%80%931980)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1904-02-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Coburg"
+  },
+  "deathDate": "1980-07-19",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "New York"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "dt.-am. Jurist und Politikwissenschaftler"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119094436",
+    "https://de.wikipedia.org/wiki/Hans_Morgenthau#Amerika_(1937%E2%80%931980)"
+  ]
 }

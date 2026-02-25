@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BuchGeorg",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BuchGeorg",
   "name": "Georg Buch",
   "givenName": "Georg",
   "familyName": "Buch",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1903-09-24",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Wiesbaden"
-  },
-  "deathDate": "1995-08-05",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Wiesbaden"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1946–1950 und 1954–1974 MdL Hessen (SPD), 1960–1968 Oberbürgermeister von Wiesbaden, 1959–1960 Vorsitzender, 1960–1966 stellvertretender Vorsitzender der SPD-Landtagsfraktion, 1966–1974 Präsident des Hessischen Landtags"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119342200",
-    "https://de.wikipedia.org/wiki/Georg_Buch"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Georg Buch",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119342200",
-    "wikipedia": "https://de.wikipedia.org/wiki/Georg_Buch",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Georg_Buch"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1903-09-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Wiesbaden"
+  },
+  "deathDate": "1995-08-05",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Wiesbaden"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1946–1950 und 1954–1974 MdL Hessen (SPD), 1960–1968 Oberbürgermeister von Wiesbaden, 1959–1960 Vorsitzender, 1960–1966 stellvertretender Vorsitzender der SPD-Landtagsfraktion, 1966–1974 Präsident des Hessischen Landtags"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119342200",
+    "https://de.wikipedia.org/wiki/Georg_Buch"
+  ]
 }

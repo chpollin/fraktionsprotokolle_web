@@ -1,47 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FriessSieglinde_1989-02-21",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FriessSieglinde_1989-02-21",
   "name": "Sieglinde Frieß",
   "givenName": "Sieglinde",
   "familyName": "Frieß",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1959-04-01",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Burgau/Schwaben"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Dipl.-Sozialpädagogin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion Die Grünen",
-        "alternateName": "Grüne"
-      },
-      "startDate": "1989-02-21",
-      "endDate": "1990-12-20"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion Die Grünen/Bündnis 90",
-        "alternateName": "Grüne/B90"
-      },
-      "startDate": "1990-10-04",
-      "endDate": "1990-12-20"
-    }
-  ],
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Sieglinde_Frie%C3%9F"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Sieglinde Frieß",
@@ -79,8 +45,41 @@
   ],
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000598",
-    "gnd": null,
-    "wikipedia": "https://de.wikipedia.org/wiki/Sieglinde_Frie%C3%9F",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Sieglinde_Frie%C3%9F"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1959-04-01",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Burgau/Schwaben"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Sozialpädagogin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Die Grünen",
+        "alternateName": "Grüne"
+      },
+      "startDate": "1989-02-21",
+      "endDate": "1990-12-20"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Die Grünen/Bündnis 90",
+        "alternateName": "Grüne/B90"
+      },
+      "startDate": "1990-10-04",
+      "endDate": "1990-12-20"
+    }
+  ],
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Sieglinde_Frie%C3%9F"
+  ]
 }

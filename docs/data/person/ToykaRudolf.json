@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ToykaRudolf",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ToykaRudolf",
   "name": "Rudolf Toyka",
   "givenName": "Rudolf",
   "familyName": "Toyka",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1905-09-16",
-  "birthPlace": null,
-  "deathDate": "1981-04-02",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Ministerialdirigent im Bundesministerium des Innern, 1956–1964 Leiter der Unterabteilung VI A (Staatsschutz), 1964–1967 Leiter der Unterabteilung I B (Staatsangehörigkeit, Verwaltung, Verwaltungsgerichtsbarkeit und Kommunalwesen), seit 1967–1968 Leiter des Planungsstabes, 1968–1970 Leiter der Abteilung R (Raumordnung, Kommunalwesen)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1030283192"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Rudolf Toyka",
@@ -39,9 +29,16 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/1030283192",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/1030283192"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1905-09-16",
+  "deathDate": "1981-04-02",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Ministerialdirigent im Bundesministerium des Innern, 1956–1964 Leiter der Unterabteilung VI A (Staatsschutz), 1964–1967 Leiter der Unterabteilung I B (Staatsangehörigkeit, Verwaltung, Verwaltungsgerichtsbarkeit und Kommunalwesen), seit 1967–1968 Leiter des Planungsstabes, 1968–1970 Leiter der Abteilung R (Raumordnung, Kommunalwesen)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1030283192"
+  ]
 }

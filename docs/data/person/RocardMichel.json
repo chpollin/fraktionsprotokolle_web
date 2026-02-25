@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RocardMichel",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RocardMichel",
   "name": "Michel Rocard",
   "givenName": "Michel",
   "familyName": "Rocard",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1930-08-23",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Courbevoie"
-  },
-  "deathDate": "2016-07-02",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Paris"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "französischer sozialistischer Politiker, 1967–1973 nationaler Sekretär des Parti sociialiste unifié, 1969–1973, 1978–1981 und 1986–1988 Mitglied der Nationalversammlung, 1981–1983 Staatsminister für Wirtschaftsplanung und Raumordnung, 1983–1985 Landwirtschaftsminister, 1988–1991 Premierminister Frankreichs, 1993–1994 Erster Sekretär der Parti socialiste (PS), 1994–2009 MdEP (SPE), 1995–1997 französischer Senator"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118967657",
-    "https://de.wikipedia.org/wiki/Michel_Rocard"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Michel Rocard",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118967657",
-    "wikipedia": "https://de.wikipedia.org/wiki/Michel_Rocard",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Michel_Rocard"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1930-08-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Courbevoie"
+  },
+  "deathDate": "2016-07-02",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "französischer sozialistischer Politiker, 1967–1973 nationaler Sekretär des Parti sociialiste unifié, 1969–1973, 1978–1981 und 1986–1988 Mitglied der Nationalversammlung, 1981–1983 Staatsminister für Wirtschaftsplanung und Raumordnung, 1983–1985 Landwirtschaftsminister, 1988–1991 Premierminister Frankreichs, 1993–1994 Erster Sekretär der Parti socialiste (PS), 1994–2009 MdEP (SPE), 1995–1997 französischer Senator"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118967657",
+    "https://de.wikipedia.org/wiki/Michel_Rocard"
+  ]
 }

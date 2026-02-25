@@ -1,26 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WagnerWolfgang",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WagnerWolfgang",
   "name": "Wolfgang Wagner",
   "givenName": "Wolfgang",
   "familyName": "Wagner",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1925",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Aachen"
-  },
-  "deathDate": "2005-07-07",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Journalist, 1967–1994 Hrsg. des »Europa-Archiv« und des Jahrbuchs Internationale Politik, 1971–1988 Chefredakteur der »Hannoverschen Allgemeinen Zeitung«"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/11893855X"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Wolfgang Wagner",
@@ -42,9 +29,20 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/11893855X",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/11893855X"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1925",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Aachen"
+  },
+  "deathDate": "2005-07-07",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist, 1967–1994 Hrsg. des »Europa-Archiv« und des Jahrbuchs Internationale Politik, 1971–1988 Chefredakteur der »Hannoverschen Allgemeinen Zeitung«"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/11893855X"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BrunsJohann",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BrunsJohann",
   "name": "Johann »Joke« Bruns",
   "givenName": "Johann",
   "familyName": "Bruns",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1932-04-25",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Emden"
-  },
-  "deathDate": "2018-06-08",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Emden"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "seit 1958 Dozent und 1967–1974 Leiter (an) der Deutsch-Niederländischen Heimvolkshochschule Aurich, 1970–1994 MdL Niedersachsen (SPD) und dort 1973–1990 stv. sowie 1990–1994 Vorsitzender der SPD-Fraktion, 1984–1994 niedersächsischer SPD-Landesvorsitzender"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1034698311",
-    "https://de.wikipedia.org/wiki/Johann_Bruns_(Politiker)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Johann »Joke« Bruns",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1034698311",
-    "wikipedia": "https://de.wikipedia.org/wiki/Johann_Bruns_(Politiker)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Johann_Bruns_(Politiker)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1932-04-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Emden"
+  },
+  "deathDate": "2018-06-08",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Emden"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "seit 1958 Dozent und 1967–1974 Leiter (an) der Deutsch-Niederländischen Heimvolkshochschule Aurich, 1970–1994 MdL Niedersachsen (SPD) und dort 1973–1990 stv. sowie 1990–1994 Vorsitzender der SPD-Fraktion, 1984–1994 niedersächsischer SPD-Landesvorsitzender"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1034698311",
+    "https://de.wikipedia.org/wiki/Johann_Bruns_(Politiker)"
+  ]
 }

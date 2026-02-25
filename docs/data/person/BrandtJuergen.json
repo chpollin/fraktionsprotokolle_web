@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BrandtJuergen",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BrandtJuergen",
   "name": "Jürgen Brandt",
   "givenName": "Jürgen",
   "familyName": "Brandt",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1922-10-19",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Kiel"
-  },
-  "deathDate": "2003-07-26",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Meckenheim"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Offizier, zuletzt im Dienstgrad eines Generals, 1978–1983 Generalinspekteur der Bundeswehr"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1119898633",
-    "https://de.wikipedia.org/wiki/J%C3%BCrgen_Brandt"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Jürgen Brandt",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1119898633",
-    "wikipedia": "https://de.wikipedia.org/wiki/J%C3%BCrgen_Brandt",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/J%C3%BCrgen_Brandt"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1922-10-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kiel"
+  },
+  "deathDate": "2003-07-26",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Meckenheim"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Offizier, zuletzt im Dienstgrad eines Generals, 1978–1983 Generalinspekteur der Bundeswehr"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1119898633",
+    "https://de.wikipedia.org/wiki/J%C3%BCrgen_Brandt"
+  ]
 }

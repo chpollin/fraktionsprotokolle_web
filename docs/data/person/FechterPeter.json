@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FechterPeter",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FechterPeter",
   "name": "Peter Fechter",
   "givenName": "Peter",
   "familyName": "Fechter",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1944-01-14",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "deathDate": "1962-08-17",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Maurer, Todesopfer an der Berliner Mauer"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1024484599",
-    "https://de.wikipedia.org/wiki/Peter_Fechter"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Peter Fechter",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1024484599",
-    "wikipedia": "https://de.wikipedia.org/wiki/Peter_Fechter",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Peter_Fechter"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1944-01-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "1962-08-17",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Maurer, Todesopfer an der Berliner Mauer"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1024484599",
+    "https://de.wikipedia.org/wiki/Peter_Fechter"
+  ]
 }

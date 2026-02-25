@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FlorinPeter",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FlorinPeter",
   "name": "Peter Florin",
   "givenName": "Peter",
   "familyName": "Florin",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1921-10-02",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Köln-Poll"
-  },
-  "deathDate": "2014-02-17",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Politiker (SED), stellvertretender Außenminister und ständiger Vertreter der DDR bei den Vereinten Nationen in New York City"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/123560780",
-    "https://de.wikipedia.org/wiki/Peter_Florin"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Peter Florin",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/123560780",
-    "wikipedia": "https://de.wikipedia.org/wiki/Peter_Florin",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Peter_Florin"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1921-10-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Köln-Poll"
+  },
+  "deathDate": "2014-02-17",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Politiker (SED), stellvertretender Außenminister und ständiger Vertreter der DDR bei den Vereinten Nationen in New York City"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/123560780",
+    "https://de.wikipedia.org/wiki/Peter_Florin"
+  ]
 }

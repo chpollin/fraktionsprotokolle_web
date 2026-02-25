@@ -1,58 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "OrtlebSolkaRainer_1990-10-03",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/OrtlebSolkaRainer_1990-10-03",
   "name": "Rainer Ortleb (später auch: Rainer Solka)",
   "givenName": "Rainer",
   "familyName": "Ortleb",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1944-06-05",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Gera"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Universitätsprofessor a. D., Bundesminister a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Freien Demokratischen Partei",
-        "alternateName": "FDP"
-      },
-      "startDate": "1990-10-03",
-      "endDate": "1990-12-20"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Freien Demokratischen Partei",
-        "alternateName": "FDP"
-      },
-      "startDate": "1990-12-20",
-      "endDate": "1994-11-10"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Freien Demokratischen Partei",
-        "alternateName": "FDP"
-      },
-      "startDate": "1994-11-10",
-      "endDate": "1998-10-26"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/141654937",
-    "https://de.wikipedia.org/wiki/Rainer_Ortleb"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Rainer Ortleb (später auch: Rainer Solka)",
@@ -98,9 +53,54 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001657",
     "gnd": "https://d-nb.info/gnd/141654937",
-    "wikipedia": "https://de.wikipedia.org/wiki/Rainer_Ortleb",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Rainer_Ortleb"
   },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1944-06-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Gera"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Universitätsprofessor a. D., Bundesminister a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1990-10-03",
+      "endDate": "1990-12-20"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-10-26"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/141654937",
+    "https://de.wikipedia.org/wiki/Rainer_Ortleb"
+  ],
   "fraktionsprotokolle:alt_names": [
     {
       "reg": "Rainer Solka",

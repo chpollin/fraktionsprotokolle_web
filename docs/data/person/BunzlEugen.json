@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BunzlEugen",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BunzlEugen",
   "name": "Eugen Bunzl",
   "givenName": "Eugen",
   "familyName": "Bunzl",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1897",
-  "birthPlace": null,
-  "deathDate": "1977",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1947–1965 Geschäftsführer der Vereinigung der Arbeitgeberverbände in Bayern"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1201243289"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Eugen Bunzl",
@@ -39,9 +29,16 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/1201243289",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/1201243289"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1897",
+  "deathDate": "1977",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1947–1965 Geschäftsführer der Vereinigung der Arbeitgeberverbände in Bayern"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1201243289"
+  ]
 }

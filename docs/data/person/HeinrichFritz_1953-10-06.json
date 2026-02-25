@@ -1,10 +1,53 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HeinrichFritz_1953-10-06",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HeinrichFritz_1953-10-06",
   "name": "Fritz Heinrich",
   "givenName": "Fritz",
   "familyName": "Heinrich",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Fritz Heinrich",
+    "forename": "Fritz",
+    "surname": "Heinrich",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1921-02-08",
+    "place": "Feudingen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1959-03-07",
+    "place": "Biedenkopf",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 3,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1957-10-15",
+      "to": "1959-03-07"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000850",
+    "gnd": "https://d-nb.info/gnd/1221238663",
+    "wikipedia": "https://de.wikipedia.org/wiki/Fritz_Heinrich_(Politiker)"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1921-02-08",
   "birthPlace": {
@@ -45,46 +88,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/1221238663",
     "https://de.wikipedia.org/wiki/Fritz_Heinrich_(Politiker)"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Fritz Heinrich",
-    "forename": "Fritz",
-    "surname": "Heinrich",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1921-02-08",
-    "place": "Feudingen",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1959-03-07",
-    "place": "Biedenkopf",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 2,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1953-10-06",
-      "to": "1957-10-06"
-    },
-    {
-      "period": 3,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1957-10-15",
-      "to": "1959-03-07"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11000850",
-    "gnd": "https://d-nb.info/gnd/1221238663",
-    "wikipedia": "https://de.wikipedia.org/wiki/Fritz_Heinrich_(Politiker)",
-    "viaf": null
-  }
+  ]
 }

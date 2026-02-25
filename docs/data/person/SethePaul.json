@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SethePaul",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SethePaul",
   "name": "Paul Sethe",
   "givenName": "Paul",
   "familyName": "Sethe",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1901-12-12",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Bochum"
-  },
-  "deathDate": "1967-06-21",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Hamburg"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Journalist (»Die Welt«, »Die Zeit« und »Stern«) und Publizist"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119038382",
-    "https://de.wikipedia.org/wiki/Paul_Sethe"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Paul Sethe",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119038382",
-    "wikipedia": "https://de.wikipedia.org/wiki/Paul_Sethe",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Paul_Sethe"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1901-12-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bochum"
+  },
+  "deathDate": "1967-06-21",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist (»Die Welt«, »Die Zeit« und »Stern«) und Publizist"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119038382",
+    "https://de.wikipedia.org/wiki/Paul_Sethe"
+  ]
 }

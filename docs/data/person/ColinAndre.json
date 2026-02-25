@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ColinAndre",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ColinAndre",
   "name": "André Colin",
   "givenName": "André",
   "familyName": "Colin",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1910-01-19",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Brest"
-  },
-  "deathDate": "1978-08-29",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Carantec"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1946–1958 Mitglied der französischen Nationalversammlung (MRP), 1959–1978 des Senats; 1944–1955 Generalsekretär und 1959–1963 Vorsitzender des MRP"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://fr.wikipedia.org/wiki/Andr%C3%A9_Colin_(homme_politique)",
-    "http://viaf.org/viaf/43128856"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "André Colin",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
     "wikipedia": "https://fr.wikipedia.org/wiki/Andr%C3%A9_Colin_(homme_politique)",
     "viaf": "http://viaf.org/viaf/43128856"
-  }
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1910-01-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Brest"
+  },
+  "deathDate": "1978-08-29",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Carantec"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1946–1958 Mitglied der französischen Nationalversammlung (MRP), 1959–1978 des Senats; 1944–1955 Generalsekretär und 1959–1963 Vorsitzender des MRP"
+  },
+  "sameAs": [
+    "https://fr.wikipedia.org/wiki/Andr%C3%A9_Colin_(homme_politique)",
+    "http://viaf.org/viaf/43128856"
+  ]
 }

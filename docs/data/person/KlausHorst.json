@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KlausHorst",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KlausHorst",
   "name": "Horst Klaus",
   "givenName": "Horst",
   "familyName": "Klaus",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1930-05-13",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Bertelsdorf, Niederschlesien (heute: Uniemyśl, Polen)"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Gewerkschafter, 1983-1992 Vorstandsmitglied der Gewerkschaft IG Metall"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/128510528",
-    "https://de.wikipedia.org/wiki/Horst_Klaus"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Horst Klaus",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/128510528",
-    "wikipedia": "https://de.wikipedia.org/wiki/Horst_Klaus",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Horst_Klaus"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1930-05-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bertelsdorf, Niederschlesien (heute: Uniemyśl, Polen)"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Gewerkschafter, 1983-1992 Vorstandsmitglied der Gewerkschaft IG Metall"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/128510528",
+    "https://de.wikipedia.org/wiki/Horst_Klaus"
+  ]
 }

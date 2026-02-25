@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "StaimerEleonore",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/StaimerEleonore",
   "name": "Eleonore Staimer, geb. Pieck, verh. Springer",
   "givenName": "Eleonore",
   "familyName": "Staimer",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1906-04-14",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Bremen"
-  },
-  "deathDate": "1998-11-07",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Stenotypistin und Diplomatin, 1923-1930 Sekretärin im Zentralkomitee der KPD sowie Mitarbeiterin der KPD-Fraktion im Preußischen Landtag, 1934-1941 Sekretärin der Internationalen Roten Hilfe in Moskau, 1949-1953 Hauptabteilungsleiterin sowie 1953-1957 Staatssekretärin und stv. Ministerin im Ministerium für Außen- und Innerdeutschen Handel der DDR, 1958–1966 Gesandte sowie 1966–1969 Botschafterin der DDR in Belgrad"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/139262652",
-    "https://de.wikipedia.org/wiki/Eleonore_Staimer"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Eleonore Staimer, geb. Pieck, verh. Springer",
@@ -46,10 +29,27 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/139262652",
-    "wikipedia": "https://de.wikipedia.org/wiki/Eleonore_Staimer",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Eleonore_Staimer"
   },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1906-04-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bremen"
+  },
+  "deathDate": "1998-11-07",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Stenotypistin und Diplomatin, 1923-1930 Sekretärin im Zentralkomitee der KPD sowie Mitarbeiterin der KPD-Fraktion im Preußischen Landtag, 1934-1941 Sekretärin der Internationalen Roten Hilfe in Moskau, 1949-1953 Hauptabteilungsleiterin sowie 1953-1957 Staatssekretärin und stv. Ministerin im Ministerium für Außen- und Innerdeutschen Handel der DDR, 1958–1966 Gesandte sowie 1966–1969 Botschafterin der DDR in Belgrad"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/139262652",
+    "https://de.wikipedia.org/wiki/Eleonore_Staimer"
+  ],
   "fraktionsprotokolle:sonstiges": "Tochter des KPD-Führers und späteren DDR-Präsidenten Wilhelm Pieck"
 }

@@ -1,29 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "StarkeGotthold",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/StarkeGotthold",
   "name": "Gotthold Starke",
   "givenName": "Gotthold",
   "familyName": "Starke",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1896-01-27",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Runowo, Kreis Wirsitz (heute: Runowo Krajeńskie, Polen)"
-  },
-  "deathDate": "1968-11-27",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bonn"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Diplomat, Vortragender Legationsrat im Auswärtigen Amt"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Gotthold_Starke"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Gotthold Starke",
@@ -45,9 +29,24 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://de.wikipedia.org/wiki/Gotthold_Starke",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Gotthold_Starke"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1896-01-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Runowo, Kreis Wirsitz (heute: Runowo Krajeńskie, Polen)"
+  },
+  "deathDate": "1968-11-27",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Diplomat, Vortragender Legationsrat im Auswärtigen Amt"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Gotthold_Starke"
+  ]
 }

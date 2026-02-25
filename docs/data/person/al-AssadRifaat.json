@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "al-AssadRifaat",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/al-AssadRifaat",
   "name": "Rifaat al-Assad",
   "givenName": "Rifaat",
   "familyName": "al-Assad",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1937",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Qardaha"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "syrischer Politiker und Militär, (vor 1984) Befehlshaber syrischer Sicherheitskräfte, jüngerer Bruder von Hafiz al-Assad und Onkel von Baschar al-Assad"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1163951722",
-    "https://de.wikipedia.org/wiki/Rifaat_al-Assad"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Rifaat al-Assad",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1163951722",
-    "wikipedia": "https://de.wikipedia.org/wiki/Rifaat_al-Assad",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Rifaat_al-Assad"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1937",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Qardaha"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "syrischer Politiker und Militär, (vor 1984) Befehlshaber syrischer Sicherheitskräfte, jüngerer Bruder von Hafiz al-Assad und Onkel von Baschar al-Assad"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1163951722",
+    "https://de.wikipedia.org/wiki/Rifaat_al-Assad"
+  ]
 }

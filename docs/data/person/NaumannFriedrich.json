@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "NaumannFriedrich",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/NaumannFriedrich",
   "name": "Friedrich Naumann",
   "givenName": "Friedrich",
   "familyName": "Naumann",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1860-03-25",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Störmthal (heute: Teil von Großpösna bei Leipzig)"
-  },
-  "deathDate": "1919-08-24",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Travemünde"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "evangelischer Theologe, linksliberaler Politiker"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118738178",
-    "https://de.wikipedia.org/wiki/Friedrich_Naumann"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Friedrich Naumann",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118738178",
-    "wikipedia": "https://de.wikipedia.org/wiki/Friedrich_Naumann",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Friedrich_Naumann"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1860-03-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Störmthal (heute: Teil von Großpösna bei Leipzig)"
+  },
+  "deathDate": "1919-08-24",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Travemünde"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "evangelischer Theologe, linksliberaler Politiker"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118738178",
+    "https://de.wikipedia.org/wiki/Friedrich_Naumann"
+  ]
 }

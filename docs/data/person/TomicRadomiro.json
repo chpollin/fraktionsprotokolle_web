@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "TomicRadomiro",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/TomicRadomiro",
   "name": "Radomiro Tomic",
   "givenName": "Radomiro",
   "familyName": "Tomic Romero",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1914-05-07",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Calama"
-  },
-  "deathDate": "1992-01-03",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Santiago de Chile"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "chilenischer Politiker, führender Vertreter des linken Flügels der Christdemokratischen Partei Chiles, 1965–1968 chilenischer Botschafter in den USA, 1970 christdemokratischer Kandidat bei der Präsidentschaftswahl"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1057230561",
-    "https://en.wikipedia.org/wiki/Radomiro_Tomic"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Radomiro Tomic",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1057230561",
-    "wikipedia": "https://en.wikipedia.org/wiki/Radomiro_Tomic",
-    "viaf": null
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/Radomiro_Tomic"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1914-05-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Calama"
+  },
+  "deathDate": "1992-01-03",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Santiago de Chile"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "chilenischer Politiker, führender Vertreter des linken Flügels der Christdemokratischen Partei Chiles, 1965–1968 chilenischer Botschafter in den USA, 1970 christdemokratischer Kandidat bei der Präsidentschaftswahl"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1057230561",
+    "https://en.wikipedia.org/wiki/Radomiro_Tomic"
+  ]
 }

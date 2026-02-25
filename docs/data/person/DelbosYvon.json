@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DelbosYvon",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DelbosYvon",
   "name": "Yvon Delbos",
   "givenName": "Yvon",
   "familyName": "Delbos",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1885-05-07",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Thonac"
-  },
-  "deathDate": "1956-11-15",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Paris"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "französischer Politiker"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118671316",
-    "https://fr.wikipedia.org/wiki/Yvon_Delbos"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Yvon Delbos",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118671316",
-    "wikipedia": "https://fr.wikipedia.org/wiki/Yvon_Delbos",
-    "viaf": null
-  }
+    "wikipedia": "https://fr.wikipedia.org/wiki/Yvon_Delbos"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1885-05-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Thonac"
+  },
+  "deathDate": "1956-11-15",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "französischer Politiker"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118671316",
+    "https://fr.wikipedia.org/wiki/Yvon_Delbos"
+  ]
 }

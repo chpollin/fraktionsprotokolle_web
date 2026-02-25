@@ -1,26 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SpiroGideon",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SpiroGideon",
   "name": "Gideon Spiro",
   "givenName": "Ralph Gideon-Yaakov",
   "familyName": "Spiro",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1935",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "israelischer Journalist und linker Aktivist"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://en.wikipedia.org/wiki/Gideon_Spiro"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Gideon Spiro",
@@ -42,9 +29,19 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://en.wikipedia.org/wiki/Gideon_Spiro",
-    "viaf": null
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/Gideon_Spiro"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1935",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "israelischer Journalist und linker Aktivist"
+  },
+  "sameAs": [
+    "https://en.wikipedia.org/wiki/Gideon_Spiro"
+  ]
 }

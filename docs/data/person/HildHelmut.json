@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HildHelmut",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HildHelmut",
   "name": "Helmut Hild",
   "givenName": "Helmut",
   "familyName": "Hild",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1921-05-23",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Weinbach, Hessen"
-  },
-  "deathDate": "1999-09-11",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Darmstadt"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1969–1985 Präsident der Evangelischen Kirche in Hessen und Nassau"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118550918",
-    "https://de.wikipedia.org/wiki/Helmut_Hild"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Helmut Hild",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118550918",
-    "wikipedia": "https://de.wikipedia.org/wiki/Helmut_Hild",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Helmut_Hild"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1921-05-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Weinbach, Hessen"
+  },
+  "deathDate": "1999-09-11",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Darmstadt"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1969–1985 Präsident der Evangelischen Kirche in Hessen und Nassau"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118550918",
+    "https://de.wikipedia.org/wiki/Helmut_Hild"
+  ]
 }

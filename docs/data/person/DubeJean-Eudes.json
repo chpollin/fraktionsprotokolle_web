@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DubeJean-Eudes",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DubeJean-Eudes",
   "name": "Jean-Eudes Dubé",
   "givenName": "Jean-Eudes",
   "familyName": "Dubé",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1926-06-26",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "La Matapédia, Québec"
-  },
-  "deathDate": "2019-01-05",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Ottawa"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "kanadischer Politiker der Liberalen Partei, 1966/67 Präsident der NATO-Parlamentarierkonferenz"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/129345024",
-    "https://de.wikipedia.org/wiki/Jean-Eudes_Dub%C3%A9"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Jean-Eudes Dubé",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/129345024",
-    "wikipedia": "https://de.wikipedia.org/wiki/Jean-Eudes_Dub%C3%A9",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Jean-Eudes_Dub%C3%A9"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1926-06-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "La Matapédia, Québec"
+  },
+  "deathDate": "2019-01-05",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Ottawa"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "kanadischer Politiker der Liberalen Partei, 1966/67 Präsident der NATO-Parlamentarierkonferenz"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/129345024",
+    "https://de.wikipedia.org/wiki/Jean-Eudes_Dub%C3%A9"
+  ]
 }

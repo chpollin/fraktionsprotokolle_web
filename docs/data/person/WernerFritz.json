@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WernerFritz",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WernerFritz",
   "name": "Fritz Werner",
   "givenName": "Fritz",
   "familyName": "Werner",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1906-05-04",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Stettin (heute: Szczecin, Polen)"
-  },
-  "deathDate": "1969-12-26",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Hannover"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1958–1969 Präsident des Bundesverwaltungsgerichts"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118767119",
-    "https://de.wikipedia.org/wiki/Fritz_Werner_(Richter)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Fritz Werner",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118767119",
-    "wikipedia": "https://de.wikipedia.org/wiki/Fritz_Werner_(Richter)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Fritz_Werner_(Richter)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1906-05-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Stettin (heute: Szczecin, Polen)"
+  },
+  "deathDate": "1969-12-26",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hannover"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1958–1969 Präsident des Bundesverwaltungsgerichts"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118767119",
+    "https://de.wikipedia.org/wiki/Fritz_Werner_(Richter)"
+  ]
 }

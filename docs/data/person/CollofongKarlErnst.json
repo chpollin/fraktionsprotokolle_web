@@ -1,26 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "CollofongKarlErnst",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/CollofongKarlErnst",
   "name": "Karl Ernst Collofong",
   "givenName": "Karl Ernst",
   "familyName": "Collofong",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1900-04-22",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Lambrecht"
-  },
-  "deathDate": "1989",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1932–1945 Oberbürgermeister von Zweibrücken (NSDAP), 1961 Regierungsvizepräsident, 1965 FDP-Kandidat bei der Bundestagswahl"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/109500040"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Karl Ernst Collofong",
@@ -42,9 +29,20 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/109500040",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/109500040"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1900-04-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Lambrecht"
+  },
+  "deathDate": "1989",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1932–1945 Oberbürgermeister von Zweibrücken (NSDAP), 1961 Regierungsvizepräsident, 1965 FDP-Kandidat bei der Bundestagswahl"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/109500040"
+  ]
 }

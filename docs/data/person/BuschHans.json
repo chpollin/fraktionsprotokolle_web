@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BuschHans",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BuschHans",
   "name": "Hans Busch",
   "givenName": "Hans",
   "familyName": "Busch",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1896-11-08",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Lutzerath"
-  },
-  "deathDate": "1972-07-22",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1957–1961 Staatssekretär im Bundesarbeitsministerium, 1957–1961 im Bundesministerium für den wirtschaftlichen Besitz des Bundes, 1958–1966 Aufsichtsratsvorsitzender des Volkswagenwerks"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1023853574",
-    "https://de.wikipedia.org/wiki/Hans_Busch_(Staatssekret%C3%A4r)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hans Busch",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1023853574",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Busch_(Staatssekret%C3%A4r)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Busch_(Staatssekret%C3%A4r)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1896-11-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Lutzerath"
+  },
+  "deathDate": "1972-07-22",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1957–1961 Staatssekretär im Bundesarbeitsministerium, 1957–1961 im Bundesministerium für den wirtschaftlichen Besitz des Bundes, 1958–1966 Aufsichtsratsvorsitzender des Volkswagenwerks"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1023853574",
+    "https://de.wikipedia.org/wiki/Hans_Busch_(Staatssekret%C3%A4r)"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "JuchaczMarie",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/JuchaczMarie",
   "name": "Marie Juchacz, geb. Gohlke",
   "givenName": "Marie",
   "familyName": "Juchacz",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1879-03-15",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Landsberg an der Warthe (heute: Gorzów Wielkopolski, Polen)"
-  },
-  "deathDate": "1956-01-18",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Düsseldorf"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Schneiderin, 1913-1917 Frauensekretärin für den SPD-Parteibezirk Obere Rheinprovinz, 1919-1956 Gründerin, Vorsitzende und Ehrenvorsitzende des AWO-Bundesverbands, 1920-1933 MdR (SPD),  hielt sie am 19. Februar 1919 in der Weimarer Nationalversammlung als erste Frau eine Rede"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/128745452",
-    "https://de.wikipedia.org/wiki/Marie_Juchacz"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Marie Juchacz, geb. Gohlke",
@@ -46,10 +29,27 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/128745452",
-    "wikipedia": "https://de.wikipedia.org/wiki/Marie_Juchacz",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Marie_Juchacz"
   },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1879-03-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Landsberg an der Warthe (heute: Gorzów Wielkopolski, Polen)"
+  },
+  "deathDate": "1956-01-18",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Düsseldorf"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Schneiderin, 1913-1917 Frauensekretärin für den SPD-Parteibezirk Obere Rheinprovinz, 1919-1956 Gründerin, Vorsitzende und Ehrenvorsitzende des AWO-Bundesverbands, 1920-1933 MdR (SPD),  hielt sie am 19. Februar 1919 in der Weimarer Nationalversammlung als erste Frau eine Rede"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/128745452",
+    "https://de.wikipedia.org/wiki/Marie_Juchacz"
+  ],
   "fraktionsprotokolle:sonstiges": "hielt nach der Einführung des passiven Wahlrechts für Frauen am 19. Februar 1919 in der Weimarer Nationalversammlung als erste Frau eine Rede"
 }

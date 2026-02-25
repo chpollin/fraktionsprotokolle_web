@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WolgastErnst",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WolgastErnst",
   "name": "Ernst Wolgast",
   "givenName": "Ernst Johannes Christoph",
   "familyName": "Wolgast",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1888-06-06",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Kiel"
-  },
-  "deathDate": "1959-04-26",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Nürnberg"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Staats- und Völkerrechtler, 1929-1934 ordentlicher Professor des öffentlichen Rechts an der Universität Rostock, 1934-1945 Professor an der Universität Würzburg, 1947/48 Lehrbeauftragter an der Philosophisch-theologischen Hochschule Regensburg und an der Hochschule für Wirtschafts- und Sozialwissenschaften Nürnberg, 1948-1954 Professor des öffentlichen Rechts an der Universität Nürnberg"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/117432652",
-    "https://de.wikipedia.org/wiki/Ernst_Wolgast"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Ernst Wolgast",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/117432652",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ernst_Wolgast",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ernst_Wolgast"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1888-06-06",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kiel"
+  },
+  "deathDate": "1959-04-26",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Nürnberg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Staats- und Völkerrechtler, 1929-1934 ordentlicher Professor des öffentlichen Rechts an der Universität Rostock, 1934-1945 Professor an der Universität Würzburg, 1947/48 Lehrbeauftragter an der Philosophisch-theologischen Hochschule Regensburg und an der Hochschule für Wirtschafts- und Sozialwissenschaften Nürnberg, 1948-1954 Professor des öffentlichen Rechts an der Universität Nürnberg"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/117432652",
+    "https://de.wikipedia.org/wiki/Ernst_Wolgast"
+  ]
 }

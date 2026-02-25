@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MontesquieuCharlesLouisdeSecondatBarondeLaBredeetde",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MontesquieuCharlesLouisdeSecondatBarondeLaBredeetde",
   "name": "Charles Louis de Secondât Baron de La Brède et de Montesquieu",
   "givenName": "Charles Louis de Secondât Baron de La Brède et de",
   "familyName": "de La Brède et de Montesquieu",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1689-01-18",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Schloss La Brède bei Bordeaux"
-  },
-  "deathDate": "1755-02-10",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Paris"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "französischer Philosoph und Staatstheoretiker"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118583670",
-    "https://de.wikipedia.org/wiki/Charles_de_Secondat,_Baron_de_Montesquieu"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Charles Louis de Secondât Baron de La Brède et de Montesquieu",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118583670",
-    "wikipedia": "https://de.wikipedia.org/wiki/Charles_de_Secondat,_Baron_de_Montesquieu",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Charles_de_Secondat,_Baron_de_Montesquieu"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1689-01-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Schloss La Brède bei Bordeaux"
+  },
+  "deathDate": "1755-02-10",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "französischer Philosoph und Staatstheoretiker"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118583670",
+    "https://de.wikipedia.org/wiki/Charles_de_Secondat,_Baron_de_Montesquieu"
+  ]
 }

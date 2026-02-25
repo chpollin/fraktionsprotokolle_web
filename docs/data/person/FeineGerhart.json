@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FeineGerhart",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FeineGerhart",
   "name": "Gerhart Feine",
   "givenName": "Gerhart",
   "familyName": "Feine",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1894-06-17",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Göttingen"
-  },
-  "deathDate": "1959-04-09",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Kopenhagen"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "deutscher Diplomat"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/133567184",
-    "https://de.wikipedia.org/wiki/Gerhart_Feine"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Gerhart Feine",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/133567184",
-    "wikipedia": "https://de.wikipedia.org/wiki/Gerhart_Feine",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Gerhart_Feine"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1894-06-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Göttingen"
+  },
+  "deathDate": "1959-04-09",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Kopenhagen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Diplomat"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/133567184",
+    "https://de.wikipedia.org/wiki/Gerhart_Feine"
+  ]
 }

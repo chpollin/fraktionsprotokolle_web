@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "AmalrikAndreiAlexejewitsch",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/AmalrikAndreiAlexejewitsch",
   "name": "Andrei Alexejewitsch Amalrik",
   "givenName": "Andrei Alexejewitsch",
   "familyName": "Amalrik",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1938-05-12",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Moskau"
-  },
-  "deathDate": "1980-11-12",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "bei Guadalajara"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "russischer Schriftsteller und Regimekritiker, seit Mai 1976 im Exil"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118502387",
-    "https://de.wikipedia.org/wiki/Andrei_Alexejewitsch_Amalrik"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Andrei Alexejewitsch Amalrik",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118502387",
-    "wikipedia": "https://de.wikipedia.org/wiki/Andrei_Alexejewitsch_Amalrik",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Andrei_Alexejewitsch_Amalrik"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1938-05-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Moskau"
+  },
+  "deathDate": "1980-11-12",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "bei Guadalajara"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "russischer Schriftsteller und Regimekritiker, seit Mai 1976 im Exil"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118502387",
+    "https://de.wikipedia.org/wiki/Andrei_Alexejewitsch_Amalrik"
+  ]
 }

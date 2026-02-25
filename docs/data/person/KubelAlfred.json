@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KubelAlfred",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KubelAlfred",
   "name": "Alfred Kubel",
   "givenName": "Alfred",
   "familyName": "Kubel",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1909-05-25",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Braunschweig"
-  },
-  "deathDate": "1999-05-22",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bad Pyrmont"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1946 Ministerpräsident des Freistaates Braunschweig, 1946–1955, 1957–1970 niedersächsische Minister in verschiedenen Ressorts, 1970–1976 Ministerpräsident des Landes Niedersachsen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118724908",
-    "https://de.wikipedia.org/wiki/Alfred_Kubel"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Alfred Kubel",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118724908",
-    "wikipedia": "https://de.wikipedia.org/wiki/Alfred_Kubel",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Alfred_Kubel"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1909-05-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Braunschweig"
+  },
+  "deathDate": "1999-05-22",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bad Pyrmont"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1946 Ministerpräsident des Freistaates Braunschweig, 1946–1955, 1957–1970 niedersächsische Minister in verschiedenen Ressorts, 1970–1976 Ministerpräsident des Landes Niedersachsen"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118724908",
+    "https://de.wikipedia.org/wiki/Alfred_Kubel"
+  ]
 }

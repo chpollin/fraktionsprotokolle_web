@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "JentzschWilhelm_1953-10-06",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/JentzschWilhelm_1953-10-06",
   "name": "Wilhelm Jentzsch",
   "givenName": "Wilhelm",
   "familyName": "Jentzsch",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1910-08-03",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Kiel"
-  },
-  "deathDate": "1989-07-21",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Kiel"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Jurist [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Freien Demokratischen Partei",
-        "alternateName": "FDP"
-      },
-      "startDate": "1953-10-06",
-      "endDate": "1957-10-06"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1025243838",
-    "https://de.wikipedia.org/wiki/Wilhelm_Jentzsch"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Wilhelm Jentzsch",
@@ -67,8 +39,38 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001028",
     "gnd": "https://d-nb.info/gnd/1025243838",
-    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_Jentzsch",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_Jentzsch"
   },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1910-08-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kiel"
+  },
+  "deathDate": "1989-07-21",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Kiel"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Jurist [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1025243838",
+    "https://de.wikipedia.org/wiki/Wilhelm_Jentzsch"
+  ],
   "fraktionsprotokolle:sonstiges": "1936-1939 kaufmännischer und juristischer Sachbearbeiter, 1958–1960 Mitglied im FDP-Bundesvorstand, (mindestens) seit 1958 Verwaltungsrat der Deutschen Bundespost"
 }

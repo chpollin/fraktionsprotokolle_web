@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HussingPeter",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HussingPeter",
   "name": "Peter Hussing",
   "givenName": "Peter",
   "familyName": "Hussing",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1948-05-15",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Brachbach"
-  },
-  "deathDate": "2012-09-08",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Brachbach"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Boxer, Bonzemedaillengewinner bei den Olympischen Spielen 1972"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/189478586",
-    "https://de.wikipedia.org/wiki/Peter_Hussing"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Peter Hussing",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/189478586",
-    "wikipedia": "https://de.wikipedia.org/wiki/Peter_Hussing",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Peter_Hussing"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1948-05-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Brachbach"
+  },
+  "deathDate": "2012-09-08",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Brachbach"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Boxer, Bonzemedaillengewinner bei den Olympischen Spielen 1972"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/189478586",
+    "https://de.wikipedia.org/wiki/Peter_Hussing"
+  ]
 }

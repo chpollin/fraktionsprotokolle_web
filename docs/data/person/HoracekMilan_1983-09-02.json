@@ -1,37 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HoracekMilan_1983-09-02",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HoracekMilan_1983-09-02",
   "name": "Milan Horácek",
   "givenName": "Milan",
   "familyName": "Horácek",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1946-10-30",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Groß-Ullersdorf"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Elektromonteur [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion Die Grünen",
-        "alternateName": "Grüne"
-      },
-      "startDate": "1983-09-02",
-      "endDate": "1985-10-03"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1100973311"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Milan Horácek",
@@ -62,8 +38,31 @@
   ],
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000956",
-    "gnd": "https://d-nb.info/gnd/1100973311",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/1100973311"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1946-10-30",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Groß-Ullersdorf"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Elektromonteur [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Die Grünen",
+        "alternateName": "Grüne"
+      },
+      "startDate": "1983-09-02",
+      "endDate": "1985-10-03"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1100973311"
+  ]
 }

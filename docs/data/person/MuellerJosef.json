@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MuellerJosef",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MuellerJosef",
   "name": "Josef Müller",
   "givenName": "Josef",
   "familyName": "Müller",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1898-03-27",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Steinwiesen, Oberfranken"
-  },
-  "deathDate": "1979-09-12",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1946–1962 MdL Bayern (CSU), 1946–1949 Vorsitzender der CSU, 1947–1952 bayerischer Justizminister, 1947–1950 stv. Ministerpräsident Bayerns, 1952–1960 Vorsitzender der Münchner CSU"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/11858507X",
-    "https://de.wikipedia.org/wiki/Josef_M%C3%BCller_(Politiker,_1898)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Josef Müller",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/11858507X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Josef_M%C3%BCller_(Politiker,_1898)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Josef_M%C3%BCller_(Politiker,_1898)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1898-03-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Steinwiesen, Oberfranken"
+  },
+  "deathDate": "1979-09-12",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1946–1962 MdL Bayern (CSU), 1946–1949 Vorsitzender der CSU, 1947–1952 bayerischer Justizminister, 1947–1950 stv. Ministerpräsident Bayerns, 1952–1960 Vorsitzender der Münchner CSU"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/11858507X",
+    "https://de.wikipedia.org/wiki/Josef_M%C3%BCller_(Politiker,_1898)"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "AxenHermann",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/AxenHermann",
   "name": "Hermann Axen",
   "givenName": "Hermann",
   "familyName": "Axen",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1916-03-06",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Leipzig"
-  },
-  "deathDate": "1992-02-15",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Vorsitzender des Außenpolitischen Ausschusses der DDR-Volkskammer"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119328569",
-    "https://de.wikipedia.org/wiki/Hermann_Axen"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hermann Axen",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119328569",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hermann_Axen",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hermann_Axen"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1916-03-06",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Leipzig"
+  },
+  "deathDate": "1992-02-15",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Vorsitzender des Außenpolitischen Ausschusses der DDR-Volkskammer"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119328569",
+    "https://de.wikipedia.org/wiki/Hermann_Axen"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "NandaGulzarilal",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/NandaGulzarilal",
   "name": "Gulzarilal Nanda",
   "givenName": "Gulzarilal",
   "familyName": "Nanda",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1898-07-04",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Sialkot, Punjab"
-  },
-  "deathDate": "1998-01-15",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Neu Delhi"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "indischer Innenminister, im Jan. 1966 amtierender Ministerpräsident Indiens"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/120572249",
-    "https://de.wikipedia.org/wiki/Gulzarilal_Nanda"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Gulzarilal Nanda",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/120572249",
-    "wikipedia": "https://de.wikipedia.org/wiki/Gulzarilal_Nanda",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Gulzarilal_Nanda"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1898-07-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Sialkot, Punjab"
+  },
+  "deathDate": "1998-01-15",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Neu Delhi"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "indischer Innenminister, im Jan. 1966 amtierender Ministerpräsident Indiens"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/120572249",
+    "https://de.wikipedia.org/wiki/Gulzarilal_Nanda"
+  ]
 }

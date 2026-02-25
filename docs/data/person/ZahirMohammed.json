@@ -1,29 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ZahirMohammed",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ZahirMohammed",
   "name": "Mohammed Zahir",
   "givenName": "Mohammed",
   "familyName": "Zahir",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1914-10-15",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Kabul"
-  },
-  "deathDate": "2007-07-23",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Kabul"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1933–1973 König (Schah) von Afghanistan"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Mohammed_Zahir_Schah"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Mohammed Zahir",
@@ -45,9 +29,24 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://de.wikipedia.org/wiki/Mohammed_Zahir_Schah",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Mohammed_Zahir_Schah"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1914-10-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kabul"
+  },
+  "deathDate": "2007-07-23",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Kabul"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1933–1973 König (Schah) von Afghanistan"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Mohammed_Zahir_Schah"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SalinEdgar",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SalinEdgar",
   "name": "Edgar Salin",
   "givenName": "Edgar",
   "familyName": "Salin",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1892-02-10",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Frankfurt am Main"
-  },
-  "deathDate": "1974-05-17",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Veytaux"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "deutscher Wirtschaftswissenschaftler jüdischer Herkunft, 1927–1962 Professor für Nationalökonomie an der Universität Basel, Mitgründer des Wirtschaftsforschungs- und Beratungsunternehmens »Prognos«"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118750925",
-    "https://de.wikipedia.org/wiki/Edgar_Salin"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Edgar Salin",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118750925",
-    "wikipedia": "https://de.wikipedia.org/wiki/Edgar_Salin",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Edgar_Salin"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1892-02-10",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Frankfurt am Main"
+  },
+  "deathDate": "1974-05-17",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Veytaux"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Wirtschaftswissenschaftler jüdischer Herkunft, 1927–1962 Professor für Nationalökonomie an der Universität Basel, Mitgründer des Wirtschaftsforschungs- und Beratungsunternehmens »Prognos«"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118750925",
+    "https://de.wikipedia.org/wiki/Edgar_Salin"
+  ]
 }

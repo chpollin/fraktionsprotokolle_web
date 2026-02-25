@@ -1,34 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BarrientosSimone_2017-10-24",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BarrientosSimone_2017-10-24",
   "name": "Simone Barrientos",
   "givenName": "Simone",
   "familyName": "Barrientos",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1963-10-05",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Lutherstadt Eisleben"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Elektrikerin, Gebrauchswerberin, Verlegerin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion DIE LINKE.",
-        "alternateName": "LINKE"
-      },
-      "startDate": "2017-10-24"
-    }
-  ],
-  "sameAs": null,
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Simone Barrientos",
@@ -58,9 +37,27 @@
     }
   ],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11004660",
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
-  }
+    "mdb_stammdaten": "11004660"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1963-10-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Lutherstadt Eisleben"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Elektrikerin, Gebrauchswerberin, Verlegerin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion DIE LINKE.",
+        "alternateName": "LINKE"
+      },
+      "startDate": "2017-10-24"
+    }
+  ]
 }

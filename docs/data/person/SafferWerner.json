@@ -1,21 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SafferWerner",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SafferWerner",
   "name": "Werner Saffer",
   "givenName": "Werner",
   "familyName": "Saffer",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1950",
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1985 Mitglied der Grünen im Landesverband Bayern, 2020 Mitglied der Bayerischen Finanzgewerkschaft (bfg)"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Werner Saffer",
@@ -36,10 +28,11 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Male",
+  "birthDate": "1950",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1985 Mitglied der Grünen im Landesverband Bayern, 2020 Mitglied der Bayerischen Finanzgewerkschaft (bfg)"
   }
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "EoersiIstvan",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/EoersiIstvan",
   "name": "István Eörsi",
   "givenName": "István",
   "familyName": "Eörsi",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1931-06-16",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Budapest"
-  },
-  "deathDate": "2005-10-13",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Budapest"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "ungarischer Lyriker, Dramatiker und politischer Essayist"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118986201",
-    "https://de.wikipedia.org/wiki/Istv%C3%A1n_E%C3%B6rsi"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "István Eörsi",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118986201",
-    "wikipedia": "https://de.wikipedia.org/wiki/Istv%C3%A1n_E%C3%B6rsi",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Istv%C3%A1n_E%C3%B6rsi"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1931-06-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Budapest"
+  },
+  "deathDate": "2005-10-13",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Budapest"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "ungarischer Lyriker, Dramatiker und politischer Essayist"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118986201",
+    "https://de.wikipedia.org/wiki/Istv%C3%A1n_E%C3%B6rsi"
+  ]
 }

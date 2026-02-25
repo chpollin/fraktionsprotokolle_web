@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HagenHerbert",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HagenHerbert",
   "name": "Herbert Hagen",
   "givenName": "Herbert Martin",
   "familyName": "Hagen",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1913-09-20",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Neumünster"
-  },
-  "deathDate": "1999-08-07",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Rüthen"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "SS-Sturmbannführer, ab 1934 Tätigkeit beim SD-Hauptamt (Sicherheitsdienst des Reichsführers SS) in Berlin (u. a. 1937-1939 Leiter des Referats II/112 »Judentum«, 1940-1942 Leiter der Außendienststelle des Beauftragten des Chefs der Sicherheitspolizei und des SD in Bordeaux, ab 1942 persönlicher Referent beim Höheren SS- und Polizeiführer (HSSPF) in Paris, ab 1944 in Kärnten Führung des Einsatzkommandos »z. b. V. Einsatzgruppe Iltis Sonderaktion 1005« zur Bekämpfung jugoslawischer Partisanen, nach dem Ende des Zweiten Weltkriegs leitender kaufmännischer Angestellter in Industriebetrieben"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/123565375",
-    "https://de.wikipedia.org/wiki/Herbert_Hagen"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Herbert Hagen",
@@ -46,10 +29,27 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/123565375",
-    "wikipedia": "https://de.wikipedia.org/wiki/Herbert_Hagen",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Herbert_Hagen"
   },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1913-09-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Neumünster"
+  },
+  "deathDate": "1999-08-07",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Rüthen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "SS-Sturmbannführer, ab 1934 Tätigkeit beim SD-Hauptamt (Sicherheitsdienst des Reichsführers SS) in Berlin (u. a. 1937-1939 Leiter des Referats II/112 »Judentum«, 1940-1942 Leiter der Außendienststelle des Beauftragten des Chefs der Sicherheitspolizei und des SD in Bordeaux, ab 1942 persönlicher Referent beim Höheren SS- und Polizeiführer (HSSPF) in Paris, ab 1944 in Kärnten Führung des Einsatzkommandos »z. b. V. Einsatzgruppe Iltis Sonderaktion 1005« zur Bekämpfung jugoslawischer Partisanen, nach dem Ende des Zweiten Weltkriegs leitender kaufmännischer Angestellter in Industriebetrieben"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/123565375",
+    "https://de.wikipedia.org/wiki/Herbert_Hagen"
+  ],
   "fraktionsprotokolle:sonstiges": "einer der Hauptverantwortlichen für u. a. die Deportation von Jüdinnen und Juden in Frankreich, 1945-1948 in britischer bzw. französischer Kriegsgefangenschaft und Internierung, 1955 in Abwesenheit von einem Pariser Militärgericht wegen seiner Beteiligung an der Deportation von Juden aus Frankreich zu lebenslangem Arbeitslager sowie 1980 vom Kölner Landgericht wegen Beihilfe zum Mord an 73.000 Menschen zu einer Freiheitsstrafe von 12 Jahren (unter Anrechnung der Internierungshaft) verurteilt"
 }

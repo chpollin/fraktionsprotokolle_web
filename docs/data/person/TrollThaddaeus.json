@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "TrollThaddaeus",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/TrollThaddaeus",
   "name": "Thaddäus Troll, eigentlich Hans Bayer",
   "givenName": "Thaddäus",
   "familyName": "Troll",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1914-03-18",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Stuttgart-Cannstatt"
-  },
-  "deathDate": "1980-07-05",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Stuttgart"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Schriftsteller und einer der bekanntesten schwäbischen Mundartdichter, engagierte sich 1969 für die Wahl von Gustav Heinemann zum Bundespräsidenten, unterstützte seit 1972 gemeinsam mit Günter Grass, Heinrich Böll, Klaus Staeck und weiteren die Sozialdemokratische Wählerinitiative, 1974 erhielten mit Böll und Grass bei einer Sitzung der SPD-Bundestagsfraktion"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/107602830",
-    "https://de.wikipedia.org/wiki/Thadd%C3%A4us_Troll"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Thaddäus Troll, eigentlich Hans Bayer",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/107602830",
-    "wikipedia": "https://de.wikipedia.org/wiki/Thadd%C3%A4us_Troll",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Thadd%C3%A4us_Troll"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1914-03-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Stuttgart-Cannstatt"
+  },
+  "deathDate": "1980-07-05",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Stuttgart"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Schriftsteller und einer der bekanntesten schwäbischen Mundartdichter, engagierte sich 1969 für die Wahl von Gustav Heinemann zum Bundespräsidenten, unterstützte seit 1972 gemeinsam mit Günter Grass, Heinrich Böll, Klaus Staeck und weiteren die Sozialdemokratische Wählerinitiative, 1974 erhielten mit Böll und Grass bei einer Sitzung der SPD-Bundestagsfraktion"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/107602830",
+    "https://de.wikipedia.org/wiki/Thadd%C3%A4us_Troll"
+  ]
 }

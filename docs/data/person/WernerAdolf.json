@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WernerAdolf",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WernerAdolf",
   "name": "Adolf Werner",
   "givenName": "Adolf",
   "familyName": "Werner",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1910-10-27",
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Schuhverkäufer, am 28. November 1961 durch ein sowjetisches Militärtribunal in Kiew angeklagt und zu 15 Jahren Haft wegen Spionage im Auftrag des US-amerikanischen Geheimdienstes verurteilt, im Mai 1962 Freilassung und Rückkehr in die BRD"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1030496919"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Adolf Werner",
@@ -39,9 +29,15 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/1030496919",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/1030496919"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1910-10-27",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Schuhverkäufer, am 28. November 1961 durch ein sowjetisches Militärtribunal in Kiew angeklagt und zu 15 Jahren Haft wegen Spionage im Auftrag des US-amerikanischen Geheimdienstes verurteilt, im Mai 1962 Freilassung und Rückkehr in die BRD"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1030496919"
+  ]
 }

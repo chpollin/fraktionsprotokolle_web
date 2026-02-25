@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DullesJohnFoster",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DullesJohnFoster",
   "name": "John Foster Dulles",
   "givenName": "John Foster",
   "familyName": "Dulles",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1888-02-25",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Washington, D.C."
-  },
-  "deathDate": "1959-05-24",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Washington, D.C."
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1953–1959 Außenminister der USA"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118681168",
-    "https://de.wikipedia.org/wiki/John_Foster_Dulles"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "John Foster Dulles",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118681168",
-    "wikipedia": "https://de.wikipedia.org/wiki/John_Foster_Dulles",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/John_Foster_Dulles"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1888-02-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Washington, D.C."
+  },
+  "deathDate": "1959-05-24",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Washington, D.C."
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1953–1959 Außenminister der USA"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118681168",
+    "https://de.wikipedia.org/wiki/John_Foster_Dulles"
+  ]
 }

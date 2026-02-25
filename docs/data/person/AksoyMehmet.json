@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "AksoyMehmet",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/AksoyMehmet",
   "name": "Mehmet Aksoy",
   "givenName": "Mehmet",
   "familyName": "Aksoy",
-  "gender": "https://schema.org/Male",
-  "birthDate": null,
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Yayladağı, Hatay"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Bildhauer, seit 1972 Mitbegründer und Vorsitzender des Türkischen Akademiker- und Künstlervereins Berlin (West)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118501305",
-    "https://de.wikipedia.org/wiki/Mehmet_Aksoy"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Mehmet Aksoy",
@@ -43,9 +29,20 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118501305",
-    "wikipedia": "https://de.wikipedia.org/wiki/Mehmet_Aksoy",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Mehmet_Aksoy"
+  },
+  "gender": "https://schema.org/Male",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Yayladağı, Hatay"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Bildhauer, seit 1972 Mitbegründer und Vorsitzender des Türkischen Akademiker- und Künstlervereins Berlin (West)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118501305",
+    "https://de.wikipedia.org/wiki/Mehmet_Aksoy"
+  ]
 }

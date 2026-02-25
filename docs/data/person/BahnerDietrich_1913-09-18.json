@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BahnerDietrich_1913-09-18",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BahnerDietrich_1913-09-18",
   "name": "Dietrich Bahner senior",
   "givenName": "Christian Ernst Dietrich",
   "familyName": "Bahner",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1913-09-18",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Oberlungwitz"
-  },
-  "deathDate": "1987-03-11",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Augsburg"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Unternehmer und Politiker, 1967 bis 1970 Landesvorsitzender der FDP Bayern, 1970 bis 1977 Engagement in den Parteien Nationalliberale Aktion, Deutsche Union und Aktionsgemeinschaft Vierte Partei"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118505939",
-    "https://de.wikipedia.org/wiki/Dietrich_Bahner_senior"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Dietrich Bahner senior",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118505939",
-    "wikipedia": "https://de.wikipedia.org/wiki/Dietrich_Bahner_senior",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Dietrich_Bahner_senior"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1913-09-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Oberlungwitz"
+  },
+  "deathDate": "1987-03-11",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Augsburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Unternehmer und Politiker, 1967 bis 1970 Landesvorsitzender der FDP Bayern, 1970 bis 1977 Engagement in den Parteien Nationalliberale Aktion, Deutsche Union und Aktionsgemeinschaft Vierte Partei"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118505939",
+    "https://de.wikipedia.org/wiki/Dietrich_Bahner_senior"
+  ]
 }

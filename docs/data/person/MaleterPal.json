@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MaleterPal",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MaleterPal",
   "name": "Pal Maléter",
   "givenName": "Pal",
   "familyName": "Maléter",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1917-09-04",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Eperjes, Komitat Sáros"
-  },
-  "deathDate": "1958-06-16",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Budapest"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "ungarischer Politiker, 1956 Verteidigungsminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119312417",
-    "https://de.wikipedia.org/wiki/P%C3%A1l_Mal%C3%A9ter"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Pal Maléter",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119312417",
-    "wikipedia": "https://de.wikipedia.org/wiki/P%C3%A1l_Mal%C3%A9ter",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/P%C3%A1l_Mal%C3%A9ter"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1917-09-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Eperjes, Komitat Sáros"
+  },
+  "deathDate": "1958-06-16",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Budapest"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "ungarischer Politiker, 1956 Verteidigungsminister"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119312417",
+    "https://de.wikipedia.org/wiki/P%C3%A1l_Mal%C3%A9ter"
+  ]
 }

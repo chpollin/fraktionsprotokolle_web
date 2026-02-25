@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WeinmannGuenther",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WeinmannGuenther",
   "name": "Günther Weinmann",
   "givenName": "Günther",
   "familyName": "Weinmann",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1924-03-26",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Stuttgart"
-  },
-  "deathDate": "2023-05-16",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Stuttgart"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Jurist, ab 1972 Generalstaatsanwalt beim sowie 1980–1989 Präsident des Oberlandesgerichts Stuttgart, 1973–1978 Vorsitzender der Kommission zur Reform des Wirtschaftsstrafrechts, 1976–1982 Präsident der ständigen Deputation des Deutschen Juristentages, 1992–1996 Vorsitzender des Landesverbandes Baden-Württemberg des Volksbundes Deutscher Kriegsgräberfürsorge"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1109949154",
-    "https://de.wikipedia.org/wiki/G%C3%BCnther_Weinmann"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Günther Weinmann",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1109949154",
-    "wikipedia": "https://de.wikipedia.org/wiki/G%C3%BCnther_Weinmann",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/G%C3%BCnther_Weinmann"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1924-03-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Stuttgart"
+  },
+  "deathDate": "2023-05-16",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Stuttgart"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Jurist, ab 1972 Generalstaatsanwalt beim sowie 1980–1989 Präsident des Oberlandesgerichts Stuttgart, 1973–1978 Vorsitzender der Kommission zur Reform des Wirtschaftsstrafrechts, 1976–1982 Präsident der ständigen Deputation des Deutschen Juristentages, 1992–1996 Vorsitzender des Landesverbandes Baden-Württemberg des Volksbundes Deutscher Kriegsgräberfürsorge"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1109949154",
+    "https://de.wikipedia.org/wiki/G%C3%BCnther_Weinmann"
+  ]
 }

@@ -1,10 +1,81 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "VollmerAntje_1983-03-29",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/VollmerAntje_1983-03-29",
   "name": "Antje Vollmer",
   "givenName": "Antje",
   "familyName": "Vollmer",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Antje Vollmer",
+    "forename": "Antje",
+    "surname": "Vollmer",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1943-05-31",
+    "place": "Lübbecke/Westfalen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2023-03-15",
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 10,
+      "faction": "Grüne",
+      "faction_full": "Fraktion Die Grünen",
+      "from": "1983-03-29",
+      "to": "1985-04-02"
+    },
+    {
+      "period": 11,
+      "faction": "Grüne",
+      "faction_full": "Fraktion Die Grünen",
+      "from": "1987-02-18",
+      "to": "1990-12-20"
+    },
+    {
+      "period": 11,
+      "faction": "Grüne/B90",
+      "faction_full": "Fraktion Die Grünen/Bündnis 90",
+      "from": "1990-10-04",
+      "to": "1990-12-20"
+    },
+    {
+      "period": 13,
+      "faction": "B90/Grüne",
+      "faction_full": "Fraktion Bündnis 90/Die Grünen",
+      "from": "1994-11-10",
+      "to": "1998-10-26"
+    },
+    {
+      "period": 14,
+      "faction": "B90/Grüne",
+      "faction_full": "Fraktion Bündnis 90/Die Grünen",
+      "from": "1998-10-26",
+      "to": "2002-10-17"
+    },
+    {
+      "period": 15,
+      "faction": "B90/Grüne",
+      "faction_full": "Fraktion Bündnis 90/Die Grünen",
+      "from": "2002-10-17",
+      "to": "2005-10-18"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002391",
+    "gnd": "https://d-nb.info/gnd/118770217",
+    "wikipedia": "https://de.wikipedia.org/wiki/Antje_Vollmer"
+  },
   "gender": "https://schema.org/Female",
   "birthDate": "1943-05-31",
   "birthPlace": {
@@ -12,7 +83,6 @@
     "name": "Lübbecke/Westfalen"
   },
   "deathDate": "2023-03-15",
-  "deathPlace": null,
   "hasOccupation": {
     "@type": "Occupation",
     "name": "Vizepräsidentin DBT a. D., Theologin, Pädagogin, Publizistin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
@@ -82,74 +152,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/118770217",
     "https://de.wikipedia.org/wiki/Antje_Vollmer"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Antje Vollmer",
-    "forename": "Antje",
-    "surname": "Vollmer",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1943-05-31",
-    "place": "Lübbecke/Westfalen",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "2023-03-15",
-    "place": "",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 10,
-      "faction": "Grüne",
-      "faction_full": "Fraktion Die Grünen",
-      "from": "1983-03-29",
-      "to": "1985-04-02"
-    },
-    {
-      "period": 11,
-      "faction": "Grüne",
-      "faction_full": "Fraktion Die Grünen",
-      "from": "1987-02-18",
-      "to": "1990-12-20"
-    },
-    {
-      "period": 11,
-      "faction": "Grüne/B90",
-      "faction_full": "Fraktion Die Grünen/Bündnis 90",
-      "from": "1990-10-04",
-      "to": "1990-12-20"
-    },
-    {
-      "period": 13,
-      "faction": "B90/Grüne",
-      "faction_full": "Fraktion Bündnis 90/Die Grünen",
-      "from": "1994-11-10",
-      "to": "1998-10-26"
-    },
-    {
-      "period": 14,
-      "faction": "B90/Grüne",
-      "faction_full": "Fraktion Bündnis 90/Die Grünen",
-      "from": "1998-10-26",
-      "to": "2002-10-17"
-    },
-    {
-      "period": 15,
-      "faction": "B90/Grüne",
-      "faction_full": "Fraktion Bündnis 90/Die Grünen",
-      "from": "2002-10-17",
-      "to": "2005-10-18"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11002391",
-    "gnd": "https://d-nb.info/gnd/118770217",
-    "wikipedia": "https://de.wikipedia.org/wiki/Antje_Vollmer",
-    "viaf": null
-  }
+  ]
 }

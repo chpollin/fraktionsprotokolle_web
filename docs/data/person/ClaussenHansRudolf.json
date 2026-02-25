@@ -1,24 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ClaussenHansRudolf",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ClaussenHansRudolf",
   "name": "Hans Rudolf Claussen",
   "givenName": "Hans Rudolf",
   "familyName": "Claussen",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1922",
-  "birthPlace": null,
-  "deathDate": "1996",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1974–1987 Bundesdisziplinaranwalt"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118831259",
-    "http://viaf.org/viaf/35253462"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hans Rudolf Claussen",
@@ -40,9 +29,18 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118831259",
-    "wikipedia": null,
     "viaf": "http://viaf.org/viaf/35253462"
-  }
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1922",
+  "deathDate": "1996",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1974–1987 Bundesdisziplinaranwalt"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118831259",
+    "http://viaf.org/viaf/35253462"
+  ]
 }

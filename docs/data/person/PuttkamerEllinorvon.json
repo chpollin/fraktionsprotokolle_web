@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PuttkamerEllinorvon",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PuttkamerEllinorvon",
   "name": "Ellinor von Puttkamer",
   "givenName": "Ellinor",
   "familyName": "Puttkamer",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1910-07-18",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Versin, Kreis Rummelsburg, Pommern (heute: Wierszyno, Polen)"
-  },
-  "deathDate": "1999-11-13",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bonn"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Diplomatin und Historikerin, bis 1968 Vortragende Legationsrätin I. Klasse und Leiterin des Referats »Vereinte Nationen, weltweite internationale Organisationen« im Auswärtigen Amt, 1969–1974 Botschafterin und Leiterin der Deutschen Vertretung beim Europarat"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/12180271X",
-    "https://de.wikipedia.org/wiki/Ellinor_von_Puttkamer"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Ellinor von Puttkamer",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/12180271X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ellinor_von_Puttkamer",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ellinor_von_Puttkamer"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1910-07-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Versin, Kreis Rummelsburg, Pommern (heute: Wierszyno, Polen)"
+  },
+  "deathDate": "1999-11-13",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Diplomatin und Historikerin, bis 1968 Vortragende Legationsrätin I. Klasse und Leiterin des Referats »Vereinte Nationen, weltweite internationale Organisationen« im Auswärtigen Amt, 1969–1974 Botschafterin und Leiterin der Deutschen Vertretung beim Europarat"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/12180271X",
+    "https://de.wikipedia.org/wiki/Ellinor_von_Puttkamer"
+  ]
 }

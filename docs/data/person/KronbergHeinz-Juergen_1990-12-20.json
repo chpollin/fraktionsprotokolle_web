@@ -1,48 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KronbergHeinz-Juergen_1990-12-20",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KronbergHeinz-Juergen_1990-12-20",
   "name": "Heinz-Jürgen Kronberg",
   "givenName": "Heinz-Jürgen",
   "familyName": "Kronberg",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1959-06-15",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Erfurt/Thüringen"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Sozialarbeiter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1990-12-20",
-      "endDate": "1994-11-10"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1994-11-10",
-      "endDate": "1998-10-26"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1321625499",
-    "https://de.wikipedia.org/wiki/Heinz-J%C3%BCrgen_Kronberg"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Heinz-Jürgen Kronberg",
@@ -81,7 +46,42 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001224",
     "gnd": "https://d-nb.info/gnd/1321625499",
-    "wikipedia": "https://de.wikipedia.org/wiki/Heinz-J%C3%BCrgen_Kronberg",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Heinz-J%C3%BCrgen_Kronberg"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1959-06-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Erfurt/Thüringen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Sozialarbeiter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-10-26"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1321625499",
+    "https://de.wikipedia.org/wiki/Heinz-J%C3%BCrgen_Kronberg"
+  ]
 }

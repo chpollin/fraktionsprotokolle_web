@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WartenburgPaulGrafYorckvon",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WartenburgPaulGrafYorckvon",
   "name": "Paul Graf Yorck von Wartenburg",
   "givenName": "Hans Ludwig David Götz Peter Paul",
   "familyName": "Wartenburg",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1902-01-26",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Gut Klein-Öls, Landkreis Ohlau, Provinz Schlesien (heute: Oleśnica Mała, Polen)"
-  },
-  "deathDate": "2002-06-09",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Neureichenau"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Vortragender Legationsrat I. Klasse, 1945 Gründungsmitgliedern der CDU in Berlin, 1945–1950 Leiter des Evangelischen Hilfswerks in der Französischen Besatzungszone, 1950–1953 Tätigkeit in der Abteilung für Flüchtlingsfragen beim Weltrat der Kirchen in Genf, 1953–1964 erster Konsul der Bundesrepublik Deutschland in Frankreich am Generalkonsulat in Lyon, 1964–1966 Leiter der deutschen Handelsvertretung in Bukarest"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/11566033X",
-    "https://de.wikipedia.org/wiki/Paul_Graf_Yorck_von_Wartenburg"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Paul Graf Yorck von Wartenburg",
@@ -46,10 +29,27 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/11566033X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Paul_Graf_Yorck_von_Wartenburg",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Paul_Graf_Yorck_von_Wartenburg"
   },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1902-01-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Gut Klein-Öls, Landkreis Ohlau, Provinz Schlesien (heute: Oleśnica Mała, Polen)"
+  },
+  "deathDate": "2002-06-09",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Neureichenau"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Vortragender Legationsrat I. Klasse, 1945 Gründungsmitgliedern der CDU in Berlin, 1945–1950 Leiter des Evangelischen Hilfswerks in der Französischen Besatzungszone, 1950–1953 Tätigkeit in der Abteilung für Flüchtlingsfragen beim Weltrat der Kirchen in Genf, 1953–1964 erster Konsul der Bundesrepublik Deutschland in Frankreich am Generalkonsulat in Lyon, 1964–1966 Leiter der deutschen Handelsvertretung in Bukarest"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/11566033X",
+    "https://de.wikipedia.org/wiki/Paul_Graf_Yorck_von_Wartenburg"
+  ],
   "fraktionsprotokolle:sonstiges": "verweigerte als Offizier der Wehrmacht während des Zweiten Weltkriegs bei der Vereidigung des Heeres den Führereid auf Adolf Hitler"
 }

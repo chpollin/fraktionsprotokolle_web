@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BelloAhmadu",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BelloAhmadu",
   "name": "Ahmadu Bello",
   "givenName": "Ahmadu",
   "familyName": "Bello",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1909-06-12",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Rabbah"
-  },
-  "deathDate": "1966-01-15",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1954–1966 Ministerpräsident der nigerianischen Nordregion"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118850490",
-    "https://de.wikipedia.org/wiki/Ahmadu_Bello"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Ahmadu Bello",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118850490",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ahmadu_Bello",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ahmadu_Bello"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1909-06-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Rabbah"
+  },
+  "deathDate": "1966-01-15",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1954–1966 Ministerpräsident der nigerianischen Nordregion"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118850490",
+    "https://de.wikipedia.org/wiki/Ahmadu_Bello"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HennisWilhelm",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HennisWilhelm",
   "name": "Wilhelm Hennis",
   "givenName": "Wilhelm",
   "familyName": "Hennis",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1923-02-18",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Hildesheim"
-  },
-  "deathDate": "2012-11-10",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Freiburg im Breisgau"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1967–1988 Professor für Politische Theorie an der Universität Freiburg im Breisgau"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118837745",
-    "https://de.wikipedia.org/wiki/Wilhelm_Hennis"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Wilhelm Hennis",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118837745",
-    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_Hennis",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_Hennis"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1923-02-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hildesheim"
+  },
+  "deathDate": "2012-11-10",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Freiburg im Breisgau"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1967–1988 Professor für Politische Theorie an der Universität Freiburg im Breisgau"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118837745",
+    "https://de.wikipedia.org/wiki/Wilhelm_Hennis"
+  ]
 }

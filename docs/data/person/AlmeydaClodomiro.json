@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "AlmeydaClodomiro",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/AlmeydaClodomiro",
   "name": "Clodomiro Almeyda",
   "givenName": "Clodomiro",
   "familyName": "Almeyda Medina",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1923-02-11",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Santiago de Chile"
-  },
-  "deathDate": "1997-08-25",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Santiago de Chile"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "chilenischer Politiker, 1952–1953 chilenischer Bergbauminister und Arbeitsminister, 1970–1973 Außenminister, 1973 Verteidigungsminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119308150",
-    "https://de.wikipedia.org/wiki/Clodomiro_Almeyda"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Clodomiro Almeyda",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119308150",
-    "wikipedia": "https://de.wikipedia.org/wiki/Clodomiro_Almeyda",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Clodomiro_Almeyda"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1923-02-11",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Santiago de Chile"
+  },
+  "deathDate": "1997-08-25",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Santiago de Chile"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "chilenischer Politiker, 1952–1953 chilenischer Bergbauminister und Arbeitsminister, 1970–1973 Außenminister, 1973 Verteidigungsminister"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119308150",
+    "https://de.wikipedia.org/wiki/Clodomiro_Almeyda"
+  ]
 }

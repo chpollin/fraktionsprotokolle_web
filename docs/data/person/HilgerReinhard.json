@@ -1,21 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HilgerReinhard",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HilgerReinhard",
   "name": "Reinhard Hilger",
   "givenName": "Reinhard",
   "familyName": "Hilger",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1937",
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Diplomat, März 1972–Dez. 1973 Legationsrat I. Klasse im Referat »Allgemeines Völkerrecht« des Auswärtigen Amts, 2001–2003 Botschafter in der Schweiz"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Reinhard Hilger",
@@ -36,10 +28,11 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Male",
+  "birthDate": "1937",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Diplomat, März 1972–Dez. 1973 Legationsrat I. Klasse im Referat »Allgemeines Völkerrecht« des Auswärtigen Amts, 2001–2003 Botschafter in der Schweiz"
   }
 }

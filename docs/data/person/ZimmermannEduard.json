@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ZimmermannEduard",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ZimmermannEduard",
   "name": "Eduard »Ede« Zimmermann",
   "givenName": "Eduard »Ede«",
   "familyName": "Zimmermann",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1929-02-04",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "deathDate": "2009-09-19",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Journalist, Redakteur und Fernsehmoderator (u. a. 1964–1997 der von ihm initiierten ZDF-Reihe »Vorsicht Falle! – Nepper, Schlepper, Bauernfänger« sowie 1967–1997 der von ihm konzipierten ZDF-Sendung »Aktenzeichen XY … ungelöst«), Mitbegründer der Hilfsorganisation Weißer Ring e. V. für Kriminalitätsopfer und ihre Familien"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/131421840",
-    "https://de.wikipedia.org/wiki/Eduard_Zimmermann_(Moderator)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Eduard »Ede« Zimmermann",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/131421840",
-    "wikipedia": "https://de.wikipedia.org/wiki/Eduard_Zimmermann_(Moderator)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Eduard_Zimmermann_(Moderator)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1929-02-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "deathDate": "2009-09-19",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist, Redakteur und Fernsehmoderator (u. a. 1964–1997 der von ihm initiierten ZDF-Reihe »Vorsicht Falle! – Nepper, Schlepper, Bauernfänger« sowie 1967–1997 der von ihm konzipierten ZDF-Sendung »Aktenzeichen XY … ungelöst«), Mitbegründer der Hilfsorganisation Weißer Ring e. V. für Kriminalitätsopfer und ihre Familien"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/131421840",
+    "https://de.wikipedia.org/wiki/Eduard_Zimmermann_(Moderator)"
+  ]
 }

@@ -1,10 +1,60 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WalzHanna_1969-10-20",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WalzHanna_1969-10-20",
   "name": "Hanna Walz, geb. Kegel",
   "givenName": "Hanna",
   "familyName": "Walz",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hanna Walz, geb. Kegel",
+    "forename": "Hanna",
+    "surname": "Walz",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1918-11-28",
+    "place": "Templin/Uckermark",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1997-12-17",
+    "place": "Fulda",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 6,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1969-10-20",
+      "to": "1972-09-22"
+    },
+    {
+      "period": 7,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1972-12-13",
+      "to": "1976-12-13"
+    },
+    {
+      "period": 8,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1976-12-14",
+      "to": "1980-11-04"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002425",
+    "gnd": "https://d-nb.info/gnd/1117433757",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hanna_Walz"
+  },
   "gender": "https://schema.org/Female",
   "birthDate": "1918-11-28",
   "birthPlace": {
@@ -55,53 +105,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/1117433757",
     "https://de.wikipedia.org/wiki/Hanna_Walz"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Hanna Walz, geb. Kegel",
-    "forename": "Hanna",
-    "surname": "Walz",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1918-11-28",
-    "place": "Templin/Uckermark",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1997-12-17",
-    "place": "Fulda",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 6,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1969-10-20",
-      "to": "1972-09-22"
-    },
-    {
-      "period": 7,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1972-12-13",
-      "to": "1976-12-13"
-    },
-    {
-      "period": 8,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1976-12-14",
-      "to": "1980-11-04"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11002425",
-    "gnd": "https://d-nb.info/gnd/1117433757",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hanna_Walz",
-    "viaf": null
-  }
+  ]
 }

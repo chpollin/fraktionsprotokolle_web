@@ -1,48 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PriebusRosemarie_1990-10-03",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PriebusRosemarie_1990-10-03",
   "name": "Rosemarie Priebus, geb. Trenczek",
   "givenName": "Rosemarie",
   "familyName": "Priebus",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1947-01-11",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Zwickau"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Tierärztin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1990-10-03",
-      "endDate": "1990-12-20"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1990-12-20",
-      "endDate": "1994-11-10"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1121617999",
-    "https://de.wikipedia.org/wiki/Rosemarie_Priebus"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Rosemarie Priebus, geb. Trenczek",
@@ -81,7 +46,42 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001751",
     "gnd": "https://d-nb.info/gnd/1121617999",
-    "wikipedia": "https://de.wikipedia.org/wiki/Rosemarie_Priebus",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Rosemarie_Priebus"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1947-01-11",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Zwickau"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Tierärztin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1990-10-03",
+      "endDate": "1990-12-20"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1121617999",
+    "https://de.wikipedia.org/wiki/Rosemarie_Priebus"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "LeighGustavo",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/LeighGustavo",
   "name": "Gustavo Leigh",
   "givenName": "Gustavo",
   "familyName": "Leigh Guzman",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1920-09-19",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Santiago de Chile"
-  },
-  "deathDate": "1999-09-29",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Santiago de Chile"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "chilenischer Generalleutnant und Politiker, 1973–1978 Oberbefehlshaber der Luftwaffe und Mitglied der Militärjunta"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1020213884",
-    "https://de.wikipedia.org/wiki/Gustavo_Leigh"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Gustavo Leigh",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1020213884",
-    "wikipedia": "https://de.wikipedia.org/wiki/Gustavo_Leigh",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Gustavo_Leigh"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1920-09-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Santiago de Chile"
+  },
+  "deathDate": "1999-09-29",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Santiago de Chile"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "chilenischer Generalleutnant und Politiker, 1973–1978 Oberbefehlshaber der Luftwaffe und Mitglied der Militärjunta"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1020213884",
+    "https://de.wikipedia.org/wiki/Gustavo_Leigh"
+  ]
 }

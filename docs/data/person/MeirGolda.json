@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MeirGolda",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MeirGolda",
   "name": "Golda Meir, geb. Goldie Mabovitch oder Mabowitz, verh. Meyerson",
   "givenName": "Golda",
   "familyName": "Meir",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1898-05-03",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Kiew"
-  },
-  "deathDate": "1978-12-08",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Jerusalem"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Politikerin (Mapai/Awoda), 1956–1965 Außenministerin, 1969–1974 Ministerpräsidentin Israels"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118580256",
-    "https://de.wikipedia.org/wiki/Golda_Meir"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Golda Meir, geb. Goldie Mabovitch oder Mabowitz, verh. Meyerson",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118580256",
-    "wikipedia": "https://de.wikipedia.org/wiki/Golda_Meir",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Golda_Meir"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1898-05-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kiew"
+  },
+  "deathDate": "1978-12-08",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Jerusalem"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Politikerin (Mapai/Awoda), 1956–1965 Außenministerin, 1969–1974 Ministerpräsidentin Israels"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118580256",
+    "https://de.wikipedia.org/wiki/Golda_Meir"
+  ]
 }

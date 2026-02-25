@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HarrimanWilliamAverell",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HarrimanWilliamAverell",
   "name": "William Averell Harriman",
   "givenName": "William Averell",
   "familyName": "Harriman",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1891-11-15",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "New York City"
-  },
-  "deathDate": "1986-07-26",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Yorktown Heights, Westchester County, NY"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1963–65 Under Secretary of State for Political Affairs im US-Außenministerium, Sonderbotschafter des US-amerikanischen Präsidenten"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118546104",
-    "https://de.wikipedia.org/wiki/W._Averell_Harriman"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "William Averell Harriman",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118546104",
-    "wikipedia": "https://de.wikipedia.org/wiki/W._Averell_Harriman",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/W._Averell_Harriman"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1891-11-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "New York City"
+  },
+  "deathDate": "1986-07-26",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Yorktown Heights, Westchester County, NY"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1963–65 Under Secretary of State for Political Affairs im US-Außenministerium, Sonderbotschafter des US-amerikanischen Präsidenten"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118546104",
+    "https://de.wikipedia.org/wiki/W._Averell_Harriman"
+  ]
 }

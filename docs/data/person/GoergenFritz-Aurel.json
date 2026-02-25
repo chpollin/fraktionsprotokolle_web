@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GoergenFritz-Aurel",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GoergenFritz-Aurel",
   "name": "Fritz-Aurel Goergen",
   "givenName": "Fritz-Aurel",
   "familyName": "Goergen",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1909-06-11",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Gelsenkirchen"
-  },
-  "deathDate": "1986-11-04",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Cologny"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "deutscher Industriemanager, Sanierer der Hüttenwerke Phoenix AG in Duisburg und der Henschel-Werke in Kassel"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/124374611",
-    "https://de.wikipedia.org/wiki/Fritz-Aurel_Goergen"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Fritz-Aurel Goergen",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/124374611",
-    "wikipedia": "https://de.wikipedia.org/wiki/Fritz-Aurel_Goergen",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Fritz-Aurel_Goergen"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1909-06-11",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Gelsenkirchen"
+  },
+  "deathDate": "1986-11-04",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Cologny"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Industriemanager, Sanierer der Hüttenwerke Phoenix AG in Duisburg und der Henschel-Werke in Kassel"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/124374611",
+    "https://de.wikipedia.org/wiki/Fritz-Aurel_Goergen"
+  ]
 }

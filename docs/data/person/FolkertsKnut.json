@@ -1,21 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FolkertsKnut",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FolkertsKnut",
   "name": "Knut Folkerts",
   "givenName": "Knut Detlef",
   "familyName": "Folkerts",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1952-01-01",
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": null,
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1242950893",
-    "https://de.wikipedia.org/wiki/Knut_Folkerts"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Knut Folkerts",
@@ -37,10 +29,14 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1242950893",
-    "wikipedia": "https://de.wikipedia.org/wiki/Knut_Folkerts",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Knut_Folkerts"
   },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1952-01-01",
+  "sameAs": [
+    "https://d-nb.info/gnd/1242950893",
+    "https://de.wikipedia.org/wiki/Knut_Folkerts"
+  ],
   "fraktionsprotokolle:sonstiges": "Mitglied der terroristischen Vereinigung »Rote Armee Fraktion« (RAF)"
 }

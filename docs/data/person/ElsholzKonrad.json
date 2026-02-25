@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ElsholzKonrad",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ElsholzKonrad",
   "name": "Konrad Elsholz",
   "givenName": "Konrad",
   "familyName": "Elsholz",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1911",
-  "birthPlace": null,
-  "deathDate": "1990",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1950–1962 Ministerialrat im Bundesministerium der Finanzen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1137896531"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Konrad Elsholz",
@@ -39,9 +29,16 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/1137896531",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/1137896531"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1911",
+  "deathDate": "1990",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1950–1962 Ministerialrat im Bundesministerium der Finanzen"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1137896531"
+  ]
 }

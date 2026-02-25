@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KohlMichael",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KohlMichael",
   "name": "Michael Kohl",
   "givenName": "Michael",
   "familyName": "Kohl",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1929-09-28",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Sondershausen"
-  },
-  "deathDate": "1981-07-04",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Ost-Berlin"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1965–1974 Staatssekretär beim Ministerrat der DDR, 1974–1978 Leiter der Ständigen Vertretung der DDR in der Bundesrepublik Deutschland in Bonn"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1025261968",
-    "https://de.wikipedia.org/wiki/Michael_Kohl"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Michael Kohl",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1025261968",
-    "wikipedia": "https://de.wikipedia.org/wiki/Michael_Kohl",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Michael_Kohl"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1929-09-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Sondershausen"
+  },
+  "deathDate": "1981-07-04",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Ost-Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1965–1974 Staatssekretär beim Ministerrat der DDR, 1974–1978 Leiter der Ständigen Vertretung der DDR in der Bundesrepublik Deutschland in Bonn"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1025261968",
+    "https://de.wikipedia.org/wiki/Michael_Kohl"
+  ]
 }

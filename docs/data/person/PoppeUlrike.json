@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PoppeUlrike",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PoppeUlrike",
   "name": "Ulrike Poppe",
   "givenName": "Ulrike",
   "familyName": "Poppe",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1953-01-26",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Rostock"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Bürgerrechtlerin in der DDR, 2010-2017 Brandenburger Landesbeauftragte zur Aufarbeitung der Folgen der kommunistischen Diktatur"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/115016031",
-    "https://de.wikipedia.org/wiki/Ulrike_Poppe"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Ulrike Poppe",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/115016031",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ulrike_Poppe",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ulrike_Poppe"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1953-01-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Rostock"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Bürgerrechtlerin in der DDR, 2010-2017 Brandenburger Landesbeauftragte zur Aufarbeitung der Folgen der kommunistischen Diktatur"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/115016031",
+    "https://de.wikipedia.org/wiki/Ulrike_Poppe"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WestarpKunoGrafvon",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WestarpKunoGrafvon",
   "name": "Kuno Graf von Westarp",
   "givenName": "Kuno Friedrich Viktor",
   "familyName": "Westarp",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1864-08-12",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Ludom, Provinz Posen (heute: Ludomy, Polen)"
-  },
-  "deathDate": "1945-07-30",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1908–1918 und 1920–1930 MdR (Deutschkonservative, DNVP), 1925–1929 Fraktionsvorsitzender und 1926–1928 Parteivorsitzender der DNVP"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119310333",
-    "https://de.wikipedia.org/wiki/Kuno_von_Westarp"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Kuno Graf von Westarp",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119310333",
-    "wikipedia": "https://de.wikipedia.org/wiki/Kuno_von_Westarp",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Kuno_von_Westarp"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1864-08-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Ludom, Provinz Posen (heute: Ludomy, Polen)"
+  },
+  "deathDate": "1945-07-30",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1908–1918 und 1920–1930 MdR (Deutschkonservative, DNVP), 1925–1929 Fraktionsvorsitzender und 1926–1928 Parteivorsitzender der DNVP"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119310333",
+    "https://de.wikipedia.org/wiki/Kuno_von_Westarp"
+  ]
 }

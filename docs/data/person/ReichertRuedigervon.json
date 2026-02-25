@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ReichertRuedigervon",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ReichertRuedigervon",
   "name": "Rüdiger von Reichert",
   "givenName": "Bernhard Rüdiger",
   "familyName": "Reichert",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1917-08-18",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "deathDate": "2007-06-25",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Gauting"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "deutscher Offizier, zuletzt Generalleutnant, 1976–1978 Stellvertreter des Generalinspekteurs der Bundeswehr"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/123644402",
-    "https://de.wikipedia.org/wiki/R%C3%BCdiger_von_Reichert"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Rüdiger von Reichert",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/123644402",
-    "wikipedia": "https://de.wikipedia.org/wiki/R%C3%BCdiger_von_Reichert",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/R%C3%BCdiger_von_Reichert"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1917-08-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "deathDate": "2007-06-25",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Gauting"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Offizier, zuletzt Generalleutnant, 1976–1978 Stellvertreter des Generalinspekteurs der Bundeswehr"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/123644402",
+    "https://de.wikipedia.org/wiki/R%C3%BCdiger_von_Reichert"
+  ]
 }

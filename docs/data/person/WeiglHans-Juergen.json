@@ -1,21 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WeiglHans-Juergen",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WeiglHans-Juergen",
   "name": "Hans-Jürgen Weigl",
   "givenName": "Hans-Jürgen",
   "familyName": "Weigl",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1943-04-20",
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1974–1984 Vorsitzender sowie seit 2008 Ehrenvorsitzenden des SPD-Ortsvereins des Dillingen an der Donau, 1984–2008 Oberbürgermeister von Dillingen an der Donau, 1978–2019 Mitglied SPD-Kreistagsfraktion (u. a. Fraktionsvorsitzender) im Landkreis Dillingen"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hans-Jürgen Weigl",
@@ -36,10 +28,11 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Male",
+  "birthDate": "1943-04-20",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1974–1984 Vorsitzender sowie seit 2008 Ehrenvorsitzenden des SPD-Ortsvereins des Dillingen an der Donau, 1984–2008 Oberbürgermeister von Dillingen an der Donau, 1978–2019 Mitglied SPD-Kreistagsfraktion (u. a. Fraktionsvorsitzender) im Landkreis Dillingen"
   }
 }

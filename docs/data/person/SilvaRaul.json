@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SilvaRaul",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SilvaRaul",
   "name": "Raúl Silva",
   "givenName": "Raúl",
   "familyName": "Silva Henríquez",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1907-09-27",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Talca"
-  },
-  "deathDate": "1999-04-09",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Santiago de Chile"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "chilenischer katholischer Geistlicher, 1961–1983 Erzbischof von Santiago de Chile, seit 1962 Kardinal"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/122197372",
-    "https://de.wikipedia.org/wiki/Ra%C3%BAl_Silva_Henr%C3%ADquez"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Raúl Silva",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/122197372",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ra%C3%BAl_Silva_Henr%C3%ADquez",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ra%C3%BAl_Silva_Henr%C3%ADquez"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1907-09-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Talca"
+  },
+  "deathDate": "1999-04-09",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Santiago de Chile"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "chilenischer katholischer Geistlicher, 1961–1983 Erzbischof von Santiago de Chile, seit 1962 Kardinal"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/122197372",
+    "https://de.wikipedia.org/wiki/Ra%C3%BAl_Silva_Henr%C3%ADquez"
+  ]
 }

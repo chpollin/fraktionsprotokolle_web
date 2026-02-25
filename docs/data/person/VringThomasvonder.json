@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "VringThomasvonder",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/VringThomasvonder",
   "name": "Thomas von der Vring",
   "givenName": "Thomas",
   "familyName": "Vring",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1937-05-27",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Stuttgart"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Historiker, Soziologe, Volkswirt und Politiker (SPD), 1969–1970 stellvertretender Juso-Vorsitzender, 1970–1974 Gründungsrektor der Universität Bremen, 1974–2000 Professor für Politische Ökonomie und Wirtschaftswissenschaften an der Universität Bremen, 1979–1994 MdEP (SPE)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/122685873",
-    "https://de.wikipedia.org/wiki/Thomas_von_der_Vring"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Thomas von der Vring",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/122685873",
-    "wikipedia": "https://de.wikipedia.org/wiki/Thomas_von_der_Vring",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Thomas_von_der_Vring"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1937-05-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Stuttgart"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Historiker, Soziologe, Volkswirt und Politiker (SPD), 1969–1970 stellvertretender Juso-Vorsitzender, 1970–1974 Gründungsrektor der Universität Bremen, 1974–2000 Professor für Politische Ökonomie und Wirtschaftswissenschaften an der Universität Bremen, 1979–1994 MdEP (SPE)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/122685873",
+    "https://de.wikipedia.org/wiki/Thomas_von_der_Vring"
+  ]
 }

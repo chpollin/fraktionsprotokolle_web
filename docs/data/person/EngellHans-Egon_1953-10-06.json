@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "EngellHans-Egon_1953-10-06",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/EngellHans-Egon_1953-10-06",
   "name": "Hans-Egon Engell",
   "givenName": "Hans-Egon",
   "familyName": "Engell",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1897-11-15",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Hof Selmsdorf"
-  },
-  "deathDate": "1974-08-16",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bad Salzdetfurth"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Angestellter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion Gesamtdeutscher Block/Block der Heimatvertriebenen und Entrechteten",
-        "alternateName": "GB/BHE"
-      },
-      "startDate": "1953-10-06",
-      "endDate": "1957-10-06"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1017401888",
-    "https://de.wikipedia.org/wiki/Hans_Egon_Engell"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Hans-Egon Engell",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000473",
     "gnd": "https://d-nb.info/gnd/1017401888",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Egon_Engell",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Egon_Engell"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1897-11-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hof Selmsdorf"
+  },
+  "deathDate": "1974-08-16",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bad Salzdetfurth"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Angestellter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Gesamtdeutscher Block/Block der Heimatvertriebenen und Entrechteten",
+        "alternateName": "GB/BHE"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1017401888",
+    "https://de.wikipedia.org/wiki/Hans_Egon_Engell"
+  ]
 }

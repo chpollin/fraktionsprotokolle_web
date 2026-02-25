@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RohrHans-Juergen",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RohrHans-Juergen",
   "name": "Hans-Jürgen Rohr",
   "givenName": "Hans-Jürgen",
   "familyName": "Rohr",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1925-06-26",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Landsberg an der Warthe (heute: Gorzów Wielkopolski, Polen)"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Verwaltungsjurist, seit 1960 zuständig für agrarpolitische Belange der Europäischen Wirtschaftsgemeinschaft, seit 1961 Oberregierungsrat, seit 1965 Regierungsdirektor sowie seit 1966 Referatsleiter und Ministerialrat im Bundesministerium der Finanzen, anschließend Ministerialdirigent sowie 1973–1984 Staatssekretär im Bundesministerium für Ernährung, Landwirtschaft und Forsten"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/107746956",
-    "https://de.wikipedia.org/wiki/Hans-J%C3%BCrgen_Rohr"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hans-Jürgen Rohr",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/107746956",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hans-J%C3%BCrgen_Rohr",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans-J%C3%BCrgen_Rohr"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1925-06-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Landsberg an der Warthe (heute: Gorzów Wielkopolski, Polen)"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Verwaltungsjurist, seit 1960 zuständig für agrarpolitische Belange der Europäischen Wirtschaftsgemeinschaft, seit 1961 Oberregierungsrat, seit 1965 Regierungsdirektor sowie seit 1966 Referatsleiter und Ministerialrat im Bundesministerium der Finanzen, anschließend Ministerialdirigent sowie 1973–1984 Staatssekretär im Bundesministerium für Ernährung, Landwirtschaft und Forsten"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/107746956",
+    "https://de.wikipedia.org/wiki/Hans-J%C3%BCrgen_Rohr"
+  ]
 }

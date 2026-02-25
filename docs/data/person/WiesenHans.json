@@ -1,29 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WiesenHans",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WiesenHans",
   "name": "Hans Wiesen",
   "givenName": "Hans",
   "familyName": "Wiesen",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1936-05-07",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Braunschweig"
-  },
-  "deathDate": "2013-11-14",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Neumünster"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Agraringenieur und Politiker (SPD), 1988–1998 Landwirtschaftsminister des Landes Schleswig-Holstein"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Hans_Wiesen"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hans Wiesen",
@@ -45,9 +29,24 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Wiesen",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Wiesen"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1936-05-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Braunschweig"
+  },
+  "deathDate": "2013-11-14",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Neumünster"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Agraringenieur und Politiker (SPD), 1988–1998 Landwirtschaftsminister des Landes Schleswig-Holstein"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Hans_Wiesen"
+  ]
 }

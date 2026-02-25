@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ImmelmannMax",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ImmelmannMax",
   "name": "Max Immelmann",
   "givenName": "Max",
   "familyName": "Immelmann",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1890-09-21",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Dresden"
-  },
-  "deathDate": "1916-06-18",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Annay, Département Pas-de-Calais"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Jagdflieger des Ersten Weltkrieges"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118961640",
-    "https://de.wikipedia.org/wiki/Max_Immelmann#Rezeption"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Max Immelmann",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118961640",
-    "wikipedia": "https://de.wikipedia.org/wiki/Max_Immelmann#Rezeption",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Max_Immelmann#Rezeption"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1890-09-21",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Dresden"
+  },
+  "deathDate": "1916-06-18",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Annay, Département Pas-de-Calais"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Jagdflieger des Ersten Weltkrieges"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118961640",
+    "https://de.wikipedia.org/wiki/Max_Immelmann#Rezeption"
+  ]
 }

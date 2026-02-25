@@ -1,21 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KrohnErich",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KrohnErich",
   "name": "Erich Krohn",
   "givenName": "Erich",
   "familyName": "Krohn",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1917",
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1946-1981 FDP-Mitglied und Mitbegründer der Hamburger Jungdemokraten, ab 1981 Mitglied der Grünen"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Erich Krohn",
@@ -36,10 +28,11 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Male",
+  "birthDate": "1917",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1946-1981 FDP-Mitglied und Mitbegründer der Hamburger Jungdemokraten, ab 1981 Mitglied der Grünen"
   }
 }

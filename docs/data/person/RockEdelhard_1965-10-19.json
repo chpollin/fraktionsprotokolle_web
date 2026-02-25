@@ -1,48 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RockEdelhard_1965-10-19",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RockEdelhard_1965-10-19",
   "name": "Edelhard Rock",
   "givenName": "Edelhard",
   "familyName": "Rock",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1908-01-07",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Landeshut/Schlesien (heute: Kamienna Góra, Polen)"
-  },
-  "deathDate": "1985-03-07",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Speditionskauffrau [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1965-10-19",
-      "endDate": "1969-10-19"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1969-10-20",
-      "endDate": "1972-09-22"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1027033199",
-    "https://de.wikipedia.org/wiki/Edelhard_Rock"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Edelhard Rock",
@@ -81,7 +46,43 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001862",
     "gnd": "https://d-nb.info/gnd/1027033199",
-    "wikipedia": "https://de.wikipedia.org/wiki/Edelhard_Rock",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Edelhard_Rock"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1908-01-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Landeshut/Schlesien (heute: Kamienna Góra, Polen)"
+  },
+  "deathDate": "1985-03-07",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Speditionskauffrau [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1965-10-19",
+      "endDate": "1969-10-19"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1969-10-20",
+      "endDate": "1972-09-22"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1027033199",
+    "https://de.wikipedia.org/wiki/Edelhard_Rock"
+  ]
 }

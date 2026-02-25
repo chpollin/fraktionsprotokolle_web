@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BrueggemannJosef",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BrueggemannJosef",
   "name": "Josef Brüggemann",
   "givenName": "Josef",
   "familyName": "Brüggemann",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1923",
-  "birthPlace": null,
-  "deathDate": "2016",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "seit 1963 Verbandsdirektor des Gesamtverbandes Gemeinnütziger Wohnungsunternehmen Köln, später Direktor des Verbandes Rheinischer Wohnungsunternehmen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/142236462"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Josef Brüggemann",
@@ -39,9 +29,16 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/142236462",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/142236462"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1923",
+  "deathDate": "2016",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "seit 1963 Verbandsdirektor des Gesamtverbandes Gemeinnütziger Wohnungsunternehmen Köln, später Direktor des Verbandes Rheinischer Wohnungsunternehmen"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/142236462"
+  ]
 }

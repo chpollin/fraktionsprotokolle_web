@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchiettingerFritz",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchiettingerFritz",
   "name": "Fritz Schiettinger",
   "givenName": "Fritz",
   "familyName": "Schiettinger",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1909",
-  "birthPlace": null,
-  "deathDate": "1984-01-21",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1952–1955 in der Bundesgeschäftsstelle der CDU, 1955–1957 Geschäftsführer der IHK Düsseldorf, 1958–1963 Referatsleiter im Bundesministerium der Finanzen, 1964–1970 Abteilungsleiter im Bundemsinisterium für Wirtschaft, 1972–1976 Präsident der Landeszentralbank Baden-Württemberg"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1029691983"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Fritz Schiettinger",
@@ -39,9 +29,16 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/1029691983",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/1029691983"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1909",
+  "deathDate": "1984-01-21",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1952–1955 in der Bundesgeschäftsstelle der CDU, 1955–1957 Geschäftsführer der IHK Düsseldorf, 1958–1963 Referatsleiter im Bundesministerium der Finanzen, 1964–1970 Abteilungsleiter im Bundemsinisterium für Wirtschaft, 1972–1976 Präsident der Landeszentralbank Baden-Württemberg"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1029691983"
+  ]
 }

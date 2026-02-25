@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RabinJitzchak",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RabinJitzchak",
   "name": "Jitzchak Rabin",
   "givenName": "Jitzchak",
   "familyName": "Rabin",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1922-03-01",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Jerusalem"
-  },
-  "deathDate": "1995-11-04",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Tel Aviv"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1964–1967 Generalstabschef der israelischen Streitkräfte, 1968–1973 israelischer Botschafter in den USA, 1974–1977 und 1992–1995 (bis zu seiner Ermordung) Ministerpräsident, 1984–1990 Verteidigungsminister Israels"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118941119",
-    "https://de.wikipedia.org/wiki/Jitzchak_Rabin"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Jitzchak Rabin",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118941119",
-    "wikipedia": "https://de.wikipedia.org/wiki/Jitzchak_Rabin",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Jitzchak_Rabin"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1922-03-01",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Jerusalem"
+  },
+  "deathDate": "1995-11-04",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Tel Aviv"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1964–1967 Generalstabschef der israelischen Streitkräfte, 1968–1973 israelischer Botschafter in den USA, 1974–1977 und 1992–1995 (bis zu seiner Ermordung) Ministerpräsident, 1984–1990 Verteidigungsminister Israels"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118941119",
+    "https://de.wikipedia.org/wiki/Jitzchak_Rabin"
+  ]
 }

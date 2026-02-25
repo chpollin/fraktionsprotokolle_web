@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "TruetzschlerHeinzvonFreiherrzumFalkenstein",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/TruetzschlerHeinzvonFreiherrzumFalkenstein",
   "name": "Heinz von Trützschler Freiherr zum Falkenstein",
   "givenName": "Heinz Julius Hugo",
   "familyName": "Trützschler",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1902-11-26",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Nordhausen"
-  },
-  "deathDate": "1971-06-06",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "deutscher Diplomat, 1934–1945 und 1951–1967 im Auswärtigen Amt"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/11643385X",
-    "https://de.wikipedia.org/wiki/Heinz_Tr%C3%BCtzschler_von_Falkenstein"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Heinz von Trützschler Freiherr zum Falkenstein",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/11643385X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Heinz_Tr%C3%BCtzschler_von_Falkenstein",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Heinz_Tr%C3%BCtzschler_von_Falkenstein"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1902-11-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Nordhausen"
+  },
+  "deathDate": "1971-06-06",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Diplomat, 1934–1945 und 1951–1967 im Auswärtigen Amt"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/11643385X",
+    "https://de.wikipedia.org/wiki/Heinz_Tr%C3%BCtzschler_von_Falkenstein"
+  ]
 }

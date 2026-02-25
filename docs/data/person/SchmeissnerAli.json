@@ -1,26 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchmeissnerAli",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchmeissnerAli",
   "name": "Albrecht »Ali« Schmeißner",
   "givenName": "Albrecht »Ali«",
   "familyName": "Schmeißner",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1946",
-  "birthPlace": null,
-  "deathDate": "2015",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Tübingen"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1977-1988 Geschäftsführer des Studentenwerks e. V. Tübingen (wegen Veruntreuung fristlos entlassen), 1983-1986 Mitglied des Bundesvorstands der Grünen aus Baden-Württemberg"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1127895311"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Albrecht »Ali« Schmeißner",
@@ -42,9 +29,20 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/1127895311",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/1127895311"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1946",
+  "deathDate": "2015",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Tübingen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1977-1988 Geschäftsführer des Studentenwerks e. V. Tübingen (wegen Veruntreuung fristlos entlassen), 1983-1986 Mitglied des Bundesvorstands der Grünen aus Baden-Württemberg"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1127895311"
+  ]
 }

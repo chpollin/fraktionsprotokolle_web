@@ -1,37 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "EhmkeWolfgang_1983-03-29",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/EhmkeWolfgang_1983-03-29",
   "name": "Wolfgang Ehmke",
   "givenName": "Wolfgang",
   "familyName": "Ehmke",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1946-01-05",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Kolzow-Wartow/Krs. Wollin, Pommern (heute: Kołczewo, Polen)"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Konservator a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion Die Grünen",
-        "alternateName": "Grüne"
-      },
-      "startDate": "1983-03-29",
-      "endDate": "1985-03-28"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1137158174"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Wolfgang Ehmke",
@@ -62,8 +38,31 @@
   ],
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000441",
-    "gnd": "https://d-nb.info/gnd/1137158174",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/1137158174"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1946-01-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kolzow-Wartow/Krs. Wollin, Pommern (heute: Kołczewo, Polen)"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Konservator a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Die Grünen",
+        "alternateName": "Grüne"
+      },
+      "startDate": "1983-03-29",
+      "endDate": "1985-03-28"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1137158174"
+  ]
 }

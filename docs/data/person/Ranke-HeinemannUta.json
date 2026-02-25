@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "Ranke-HeinemannUta",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/Ranke-HeinemannUta",
   "name": "Uta Ranke-Heinemann",
   "givenName": "Uta",
   "familyName": "Ranke-Heinemann",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1927-10-02",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Essen"
-  },
-  "deathDate": "2021-03-25",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Essen"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Theologin, 1970–1980 Professorin für katholische Theologie an der Pädagogischen Hochschule Neuss, 1980–1985 an der Universität Duisburg, seit 1985 an der Universität Essen, 1987 Entzug der Lehrbefugnis durch den Bischof von Essen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119126559",
-    "https://de.wikipedia.org/wiki/Uta_Ranke-Heinemann"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Uta Ranke-Heinemann",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119126559",
-    "wikipedia": "https://de.wikipedia.org/wiki/Uta_Ranke-Heinemann",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Uta_Ranke-Heinemann"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1927-10-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Essen"
+  },
+  "deathDate": "2021-03-25",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Essen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Theologin, 1970–1980 Professorin für katholische Theologie an der Pädagogischen Hochschule Neuss, 1980–1985 an der Universität Duisburg, seit 1985 an der Universität Essen, 1987 Entzug der Lehrbefugnis durch den Bischof von Essen"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119126559",
+    "https://de.wikipedia.org/wiki/Uta_Ranke-Heinemann"
+  ]
 }

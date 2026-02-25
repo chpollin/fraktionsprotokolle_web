@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "JarringGunnar",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/JarringGunnar",
   "name": "Gunnar Jarring",
   "givenName": "Gunnar",
   "familyName": "Jarring",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1907-10-12",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Brunnby"
-  },
-  "deathDate": "2002-05-29",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1964–1973 schwedischer Botschafter in Moskau, 1967–1990 Sonderbevollmächtigter der UNO für den Nahen Osten"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118902342",
-    "https://de.wikipedia.org/wiki/Gunnar_Jarring"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Gunnar Jarring",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118902342",
-    "wikipedia": "https://de.wikipedia.org/wiki/Gunnar_Jarring",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Gunnar_Jarring"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1907-10-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Brunnby"
+  },
+  "deathDate": "2002-05-29",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1964–1973 schwedischer Botschafter in Moskau, 1967–1990 Sonderbevollmächtigter der UNO für den Nahen Osten"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118902342",
+    "https://de.wikipedia.org/wiki/Gunnar_Jarring"
+  ]
 }

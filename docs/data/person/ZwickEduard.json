@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ZwickEduard",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ZwickEduard",
   "name": "Eduard Zwick",
   "givenName": "Eduard",
   "familyName": "Zwick",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1921-08-15",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Bakova, Banat"
-  },
-  "deathDate": "1998-03-25",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bern"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "rumänisch-deutscher Mediziner und Unternehmer, gehörte zum inneren Zirkel des Freundeskreises des langjährigen Bundesministers, CSU-Vorsitzenden und bayerischen Ministerpräsidenten Franz Josef Strauß"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119303302",
-    "https://de.wikipedia.org/wiki/Eduard_Zwick"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Eduard Zwick",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119303302",
-    "wikipedia": "https://de.wikipedia.org/wiki/Eduard_Zwick",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Eduard_Zwick"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1921-08-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bakova, Banat"
+  },
+  "deathDate": "1998-03-25",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bern"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "rumänisch-deutscher Mediziner und Unternehmer, gehörte zum inneren Zirkel des Freundeskreises des langjährigen Bundesministers, CSU-Vorsitzenden und bayerischen Ministerpräsidenten Franz Josef Strauß"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119303302",
+    "https://de.wikipedia.org/wiki/Eduard_Zwick"
+  ]
 }

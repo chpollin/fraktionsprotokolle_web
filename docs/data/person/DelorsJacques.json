@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DelorsJacques",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DelorsJacques",
   "name": "Jacques Delors",
   "givenName": "Jacques Lucien Jean",
   "familyName": "Delors",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1925-07-20",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Paris"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Wirtschaftswissenschaftler, 1979-1981 MdEP (Parti socialiste, PS), 1981-1984 Wirtschafts- und Finanzminister Frankreichs, 1983-1984 Bürgermeister von Clichy, 1985-1995 Präsident der EU-Kommission"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119099993",
-    "https://de.wikipedia.org/wiki/Jacques_Delors"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Jacques Delors",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119099993",
-    "wikipedia": "https://de.wikipedia.org/wiki/Jacques_Delors",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Jacques_Delors"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1925-07-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Wirtschaftswissenschaftler, 1979-1981 MdEP (Parti socialiste, PS), 1981-1984 Wirtschafts- und Finanzminister Frankreichs, 1983-1984 Bürgermeister von Clichy, 1985-1995 Präsident der EU-Kommission"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119099993",
+    "https://de.wikipedia.org/wiki/Jacques_Delors"
+  ]
 }

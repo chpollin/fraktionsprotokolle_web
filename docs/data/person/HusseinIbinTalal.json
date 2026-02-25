@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HusseinIbinTalal",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HusseinIbinTalal",
   "name": "Hussein I. bin Talal",
   "givenName": "Hussein I. bin Talal",
   "familyName": "Hussein I. bin Talal",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1935-11-14",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Amman"
-  },
-  "deathDate": "1999-02-07",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Amman"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1952–1999 König des Haschemitischen Königreichs Jordanien"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118708279",
-    "https://de.wikipedia.org/wiki/Hussein_I._(Jordanien)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hussein I. bin Talal",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118708279",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hussein_I._(Jordanien)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hussein_I._(Jordanien)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1935-11-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Amman"
+  },
+  "deathDate": "1999-02-07",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Amman"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1952–1999 König des Haschemitischen Königreichs Jordanien"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118708279",
+    "https://de.wikipedia.org/wiki/Hussein_I._(Jordanien)"
+  ]
 }

@@ -1,31 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BoelkowLudwig",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BoelkowLudwig",
   "name": "Ludwig Bölkow",
   "givenName": "Ludwig",
   "familyName": "Bölkow",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1912-06-30",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Schwerin"
-  },
-  "deathDate": "2003-07-25",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Grünwald"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Ingenieur und Unternehmer, Gründer des Flugzeugherstellers Bölkow GmbH, 1976–1982 Präsident des Bundesverbandes der Deutschen Luft- und Raumfahrtindustrie"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118824341",
-    "https://de.wikipedia.org/wiki/Ludwig_B%C3%B6lkow",
-    "https://viaf.org/viaf/13104377"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Ludwig Bölkow",
@@ -47,9 +29,28 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118824341",
     "wikipedia": "https://de.wikipedia.org/wiki/Ludwig_B%C3%B6lkow",
     "viaf": "https://viaf.org/viaf/13104377"
-  }
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1912-06-30",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Schwerin"
+  },
+  "deathDate": "2003-07-25",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Grünwald"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Ingenieur und Unternehmer, Gründer des Flugzeugherstellers Bölkow GmbH, 1976–1982 Präsident des Bundesverbandes der Deutschen Luft- und Raumfahrtindustrie"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118824341",
+    "https://de.wikipedia.org/wiki/Ludwig_B%C3%B6lkow",
+    "https://viaf.org/viaf/13104377"
+  ]
 }

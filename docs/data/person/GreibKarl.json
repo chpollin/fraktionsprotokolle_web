@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GreibKarl",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GreibKarl",
   "name": "Karl Greib",
   "givenName": "Karl",
   "familyName": "Greib",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1899-09-05",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Amöneburg"
-  },
-  "deathDate": "1976-04-24",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bad Kissingen"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1950–1962 MdL (CSU)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/133520315",
-    "https://de.wikipedia.org/wiki/Karl_Greib"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Karl Greib",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/133520315",
-    "wikipedia": "https://de.wikipedia.org/wiki/Karl_Greib",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Karl_Greib"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1899-09-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Amöneburg"
+  },
+  "deathDate": "1976-04-24",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bad Kissingen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1950–1962 MdL (CSU)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/133520315",
+    "https://de.wikipedia.org/wiki/Karl_Greib"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "CosgraveLiam",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/CosgraveLiam",
   "name": "Liam Cosgrave",
   "givenName": "Liam",
   "familyName": "Cosgrave",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1920-04-13",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Templeogue, County Dublin"
-  },
-  "deathDate": "2017-10-04",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Dublin"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "irischer Politiker der Fine Gael, 1943–1981 Mitglied des Dáil Éireann, 1965–1977 Vorsitzender der Fine Gael, 1954–1957 irischer Außenminister, 1973–1977 Taoiseach (Ministerpräsident)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/120016516",
-    "https://de.wikipedia.org/wiki/Liam_Cosgrave"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Liam Cosgrave",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/120016516",
-    "wikipedia": "https://de.wikipedia.org/wiki/Liam_Cosgrave",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Liam_Cosgrave"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1920-04-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Templeogue, County Dublin"
+  },
+  "deathDate": "2017-10-04",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Dublin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "irischer Politiker der Fine Gael, 1943–1981 Mitglied des Dáil Éireann, 1965–1977 Vorsitzender der Fine Gael, 1954–1957 irischer Außenminister, 1973–1977 Taoiseach (Ministerpräsident)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/120016516",
+    "https://de.wikipedia.org/wiki/Liam_Cosgrave"
+  ]
 }

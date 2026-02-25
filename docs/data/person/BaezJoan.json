@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BaezJoan",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BaezJoan",
   "name": "Joan Baez",
   "givenName": "Joan Chandos",
   "familyName": "Baez",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1941-01-09",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "New York City, New York"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "US-amerikanische Folk-Sängerin und -Gitarristin, Bürgerrechtlerin, Pazifistin und Umweltaktivistin, Gründerin der Menschenrechtsorganisation »Humanitas«"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118653091",
-    "https://de.wikipedia.org/wiki/Joan_Baez"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Joan Baez",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118653091",
-    "wikipedia": "https://de.wikipedia.org/wiki/Joan_Baez",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Joan_Baez"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1941-01-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "New York City, New York"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "US-amerikanische Folk-Sängerin und -Gitarristin, Bürgerrechtlerin, Pazifistin und Umweltaktivistin, Gründerin der Menschenrechtsorganisation »Humanitas«"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118653091",
+    "https://de.wikipedia.org/wiki/Joan_Baez"
+  ]
 }

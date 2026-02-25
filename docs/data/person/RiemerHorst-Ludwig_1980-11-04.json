@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RiemerHorst-Ludwig_1980-11-04",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RiemerHorst-Ludwig_1980-11-04",
   "name": "Horst-Ludwig Riemer",
   "givenName": "Horst-Ludwig",
   "familyName": "Riemer",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1933-04-03",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Insterburg"
-  },
-  "deathDate": "2017-10-02",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Monschau"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Rechtsanwalt, 1970–1979 Minister für Wirtschaft, Mittelstand und Verkehr des Landes Nordrhein-Westfalen (FDP) [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Freien Demokratischen Partei",
-        "alternateName": "FDP"
-      },
-      "startDate": "1980-11-04",
-      "endDate": "1983-03-29"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/118745212",
-    "https://de.wikipedia.org/wiki/Horst-Ludwig_Riemer"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Horst-Ludwig Riemer",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001848",
     "gnd": "https://d-nb.info/gnd/118745212",
-    "wikipedia": "https://de.wikipedia.org/wiki/Horst-Ludwig_Riemer",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Horst-Ludwig_Riemer"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1933-04-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Insterburg"
+  },
+  "deathDate": "2017-10-02",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Monschau"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsanwalt, 1970–1979 Minister für Wirtschaft, Mittelstand und Verkehr des Landes Nordrhein-Westfalen (FDP) [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1980-11-04",
+      "endDate": "1983-03-29"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/118745212",
+    "https://de.wikipedia.org/wiki/Horst-Ludwig_Riemer"
+  ]
 }

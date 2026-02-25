@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "CollordeMelloFernando",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/CollordeMelloFernando",
   "name": "Fernando Collor de Mello",
   "givenName": "Fernando Affonso",
   "familyName": "Collor de Mello",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1949-08-12",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Rio de Janeiro"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1979–1983 Bürgermeister der Stadt Maceió, 1983–1987 Bundesabgeordneter in der Abgeordnetenkammer des Nationalkongresses, 1987–1989 Gouverneur der Bundesstaaates Alagoas, 1990–1992 Staatspräsident Brasiliens, 2007–2016 und seit 2022 Mitglied der Partido Trabalhista Brasileiro (PTB)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118936611",
-    "https://de.wikipedia.org/wiki/Fernando_Collor_de_Mello"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Fernando Collor de Mello",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118936611",
-    "wikipedia": "https://de.wikipedia.org/wiki/Fernando_Collor_de_Mello",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Fernando_Collor_de_Mello"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1949-08-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Rio de Janeiro"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1979–1983 Bürgermeister der Stadt Maceió, 1983–1987 Bundesabgeordneter in der Abgeordnetenkammer des Nationalkongresses, 1987–1989 Gouverneur der Bundesstaaates Alagoas, 1990–1992 Staatspräsident Brasiliens, 2007–2016 und seit 2022 Mitglied der Partido Trabalhista Brasileiro (PTB)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118936611",
+    "https://de.wikipedia.org/wiki/Fernando_Collor_de_Mello"
+  ]
 }

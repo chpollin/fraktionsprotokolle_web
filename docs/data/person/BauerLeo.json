@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BauerLeo",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BauerLeo",
   "name": "Leo (Leopold) Bauer, Pseudonym: Rudolf Katz",
   "givenName": "Leo (Leopold)",
   "familyName": "Bauer",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1912-12-18",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Skalat, Ostgalizien"
-  },
-  "deathDate": "1972-09-18",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bonn"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Politiker (KPD, SED, SPD) und Berater Willy Brandts, 1968–Sept. 1972 Chefredakteur der SPD-nahen Zeitschrift »Die Neue Gesellschaft«"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118653792",
-    "https://de.wikipedia.org/wiki/Leo_Bauer"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Leo (Leopold) Bauer, Pseudonym: Rudolf Katz",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118653792",
-    "wikipedia": "https://de.wikipedia.org/wiki/Leo_Bauer",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Leo_Bauer"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1912-12-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Skalat, Ostgalizien"
+  },
+  "deathDate": "1972-09-18",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Politiker (KPD, SED, SPD) und Berater Willy Brandts, 1968–Sept. 1972 Chefredakteur der SPD-nahen Zeitschrift »Die Neue Gesellschaft«"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118653792",
+    "https://de.wikipedia.org/wiki/Leo_Bauer"
+  ]
 }

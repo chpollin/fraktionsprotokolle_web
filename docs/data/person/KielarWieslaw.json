@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KielarWieslaw",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KielarWieslaw",
   "name": "Wiesław Kielar",
   "givenName": "Wiesław",
   "familyName": "Kielar",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1919-08-12",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Przeworsk"
-  },
-  "deathDate": "1990-06-01",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Wrocław"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Autor und Filmemacher"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118561944",
-    "https://de.wikipedia.org/wiki/Wies%C5%82aw_Kielar"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Wiesław Kielar",
@@ -46,10 +29,27 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118561944",
-    "wikipedia": "https://de.wikipedia.org/wiki/Wies%C5%82aw_Kielar",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Wies%C5%82aw_Kielar"
   },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1919-08-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Przeworsk"
+  },
+  "deathDate": "1990-06-01",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Wrocław"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Autor und Filmemacher"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118561944",
+    "https://de.wikipedia.org/wiki/Wies%C5%82aw_Kielar"
+  ],
   "fraktionsprotokolle:sonstiges": "Anfang Mai 1940 wegen der Mitgliedschaft in einer militärischen Organisation in Jaroslaw verhaftet, zunächst und im Gefängnis Tarnów inhaftiert und Mitte Juli 1940 mit dem ersten Transport von Gefangenen in das KZ Auschwitz sowie Ende Oktober in das KZ Sachsenhausen verbracht"
 }

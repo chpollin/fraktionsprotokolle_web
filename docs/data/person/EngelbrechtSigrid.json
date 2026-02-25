@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "EngelbrechtSigrid",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/EngelbrechtSigrid",
   "name": "Sigrid Engelbrecht, geb. Kaiser",
   "givenName": "Sigrid",
   "familyName": "Engelbrecht",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1954-09-07",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Bayreuth"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Dipl.-Designerin, Autorin, Malerin und Coach in der Erwachsenenbildung, 1989 Mitglied im Kommissarischen Bundesvorstand sowie Bundeshauptausschuss der Grünen und Vorsitzende der Bundesarbeitsgemeinschaft Frauenpolitik, 1990–2010 Grünen-Stadträtin in Bayreuth (1991–2008 Fraktionsvorsitzende)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/132004496",
-    "https://de.wikipedia.org/wiki/Sigrid_Engelbrecht"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Sigrid Engelbrecht, geb. Kaiser",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/132004496",
-    "wikipedia": "https://de.wikipedia.org/wiki/Sigrid_Engelbrecht",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Sigrid_Engelbrecht"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1954-09-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bayreuth"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Designerin, Autorin, Malerin und Coach in der Erwachsenenbildung, 1989 Mitglied im Kommissarischen Bundesvorstand sowie Bundeshauptausschuss der Grünen und Vorsitzende der Bundesarbeitsgemeinschaft Frauenpolitik, 1990–2010 Grünen-Stadträtin in Bayreuth (1991–2008 Fraktionsvorsitzende)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/132004496",
+    "https://de.wikipedia.org/wiki/Sigrid_Engelbrecht"
+  ]
 }

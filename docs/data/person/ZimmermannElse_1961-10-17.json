@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ZimmermannElse_1961-10-17",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ZimmermannElse_1961-10-17",
   "name": "Else Zimmermann, geb. Schoenen",
   "givenName": "Else",
   "familyName": "Zimmermann",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1907-08-14",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Mönchengladbach"
-  },
-  "deathDate": "1995-06-21",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Hannover"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Geschäftsführerin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1961-10-17",
-      "endDate": "1965-10-17"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/143460757",
-    "https://de.wikipedia.org/wiki/Else_Zimmermann"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Else Zimmermann, geb. Schoenen",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11002596",
     "gnd": "https://d-nb.info/gnd/143460757",
-    "wikipedia": "https://de.wikipedia.org/wiki/Else_Zimmermann",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Else_Zimmermann"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1907-08-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Mönchengladbach"
+  },
+  "deathDate": "1995-06-21",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hannover"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Geschäftsführerin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1961-10-17",
+      "endDate": "1965-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/143460757",
+    "https://de.wikipedia.org/wiki/Else_Zimmermann"
+  ]
 }

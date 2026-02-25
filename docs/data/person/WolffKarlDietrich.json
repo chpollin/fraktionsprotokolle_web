@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WolffKarlDietrich",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WolffKarlDietrich",
   "name": "Karl Dietrich Wolff",
   "givenName": "Karl Dietrich",
   "familyName": "Wolff",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1943-02-27",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Marburg"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1967/68 Erster Vorsitzender des Sozialistischen Deutschen Studentenbundes"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/115500170",
-    "https://de.wikipedia.org/wiki/Karl_Dietrich_Wolff"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Karl Dietrich Wolff",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/115500170",
-    "wikipedia": "https://de.wikipedia.org/wiki/Karl_Dietrich_Wolff",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Karl_Dietrich_Wolff"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1943-02-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Marburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1967/68 Erster Vorsitzender des Sozialistischen Deutschen Studentenbundes"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/115500170",
+    "https://de.wikipedia.org/wiki/Karl_Dietrich_Wolff"
+  ]
 }

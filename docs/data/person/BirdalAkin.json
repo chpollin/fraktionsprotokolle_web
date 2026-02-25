@@ -1,26 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BirdalAkin",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BirdalAkin",
   "name": "Akın Birdal",
   "givenName": "Akın",
   "familyName": "Birdal",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1948-01-02",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Niğde"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Landwirtschaftsingenieur und Menschenrechtler, 1986 Mitgründer und Generalsekretär der türkischen Menschenrechtsorganisation İnsan Hakları Derneği sowie ab 1992 deren Präsident, 2007–2009 Mitglied der Großen Nationalversammlung der Türkei für die Partiya Civaka Demokratîk (PCD) bzw. 2009–2011 für die Partiya Aştî û Demokrasiyê (BDP)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Ak%C4%B1n_Birdal"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Akın Birdal",
@@ -42,9 +29,19 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://de.wikipedia.org/wiki/Ak%C4%B1n_Birdal",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ak%C4%B1n_Birdal"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1948-01-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Niğde"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Landwirtschaftsingenieur und Menschenrechtler, 1986 Mitgründer und Generalsekretär der türkischen Menschenrechtsorganisation İnsan Hakları Derneği sowie ab 1992 deren Präsident, 2007–2009 Mitglied der Großen Nationalversammlung der Türkei für die Partiya Civaka Demokratîk (PCD) bzw. 2009–2011 für die Partiya Aştî û Demokrasiyê (BDP)"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Ak%C4%B1n_Birdal"
+  ]
 }

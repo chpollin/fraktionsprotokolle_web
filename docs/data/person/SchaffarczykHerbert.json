@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchaffarczykHerbert",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchaffarczykHerbert",
   "name": "Herbert Schaffarczyk",
   "givenName": "Herbert",
   "familyName": "Schaffarczyk",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1901-07-02",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Königshütte, Oberschlesien (heute: Chorzów, Polen)"
-  },
-  "deathDate": "1979-04-17",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bonn"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1936–1938 und 1939–1943 kommissarisch im Auswäertigen Amt, 1950 Bundeskanzleramt (Dienststelle für Auswärtige  Angelegenheiten), dann AA, 1953–1959 Generalkonsul in Madrid, 1959–1966 Botschafter in Lissabon"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Herbert_Schaffarczyk",
-    "http://viaf.org/viaf/306119990"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Herbert Schaffarczyk",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
     "wikipedia": "https://de.wikipedia.org/wiki/Herbert_Schaffarczyk",
     "viaf": "http://viaf.org/viaf/306119990"
-  }
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1901-07-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Königshütte, Oberschlesien (heute: Chorzów, Polen)"
+  },
+  "deathDate": "1979-04-17",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1936–1938 und 1939–1943 kommissarisch im Auswäertigen Amt, 1950 Bundeskanzleramt (Dienststelle für Auswärtige  Angelegenheiten), dann AA, 1953–1959 Generalkonsul in Madrid, 1959–1966 Botschafter in Lissabon"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Herbert_Schaffarczyk",
+    "http://viaf.org/viaf/306119990"
+  ]
 }

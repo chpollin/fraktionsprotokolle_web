@@ -1,10 +1,67 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "Sayn-Wittgenstein-HohensteinBotho_1965-10-19",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/Sayn-Wittgenstein-HohensteinBotho_1965-10-19",
   "name": "Botho zu Sayn-Wittgenstein-Hohenstein",
   "givenName": "Botho",
   "familyName": "Sayn-Wittgenstein-Hohenstein",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Botho zu Sayn-Wittgenstein-Hohenstein",
+    "forename": "Botho",
+    "surname": "Sayn-Wittgenstein-Hohenstein",
+    "prefix": "zu",
+    "role_name": "Prinz",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1927-02-16",
+    "place": "Eisenach/Thüringen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2008-01-27",
+    "place": "Bad Reichenhall",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 5,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    },
+    {
+      "period": 6,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1969-10-20",
+      "to": "1972-09-22"
+    },
+    {
+      "period": 7,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1972-12-13",
+      "to": "1976-12-13"
+    },
+    {
+      "period": 8,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1976-12-14",
+      "to": "1980-11-04"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001928",
+    "gnd": "https://d-nb.info/gnd/114990638",
+    "wikipedia": "https://de.wikipedia.org/wiki/Botho_Prinz_zu_Sayn-Wittgenstein-Hohenstein"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1927-02-16",
   "birthPlace": {
@@ -65,60 +122,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/114990638",
     "https://de.wikipedia.org/wiki/Botho_Prinz_zu_Sayn-Wittgenstein-Hohenstein"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Botho zu Sayn-Wittgenstein-Hohenstein",
-    "forename": "Botho",
-    "surname": "Sayn-Wittgenstein-Hohenstein",
-    "prefix": "zu",
-    "role_name": "Prinz",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1927-02-16",
-    "place": "Eisenach/Thüringen",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "2008-01-27",
-    "place": "Bad Reichenhall",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 5,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1965-10-19",
-      "to": "1969-10-19"
-    },
-    {
-      "period": 6,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1969-10-20",
-      "to": "1972-09-22"
-    },
-    {
-      "period": 7,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1972-12-13",
-      "to": "1976-12-13"
-    },
-    {
-      "period": 8,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1976-12-14",
-      "to": "1980-11-04"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11001928",
-    "gnd": "https://d-nb.info/gnd/114990638",
-    "wikipedia": "https://de.wikipedia.org/wiki/Botho_Prinz_zu_Sayn-Wittgenstein-Hohenstein",
-    "viaf": null
-  }
+  ]
 }

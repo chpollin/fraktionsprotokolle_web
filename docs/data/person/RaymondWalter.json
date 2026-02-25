@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RaymondWalter",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RaymondWalter",
   "name": "Walter Raymond",
   "givenName": "Walter",
   "familyName": "Raymond",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1886-05-23",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Kammelwitz/Schlesien (heute: Kębłowice, Polen)"
-  },
-  "deathDate": "1972-06-15",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Heidelberg"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1949–1954 Vorsitzender der Vereinigung der Deutschen Arbeitgeberverbände"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119435675",
-    "https://de.wikipedia.org/wiki/Walter_Raymond"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Walter Raymond",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119435675",
-    "wikipedia": "https://de.wikipedia.org/wiki/Walter_Raymond",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Walter_Raymond"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1886-05-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kammelwitz/Schlesien (heute: Kębłowice, Polen)"
+  },
+  "deathDate": "1972-06-15",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Heidelberg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1949–1954 Vorsitzender der Vereinigung der Deutschen Arbeitgeberverbände"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119435675",
+    "https://de.wikipedia.org/wiki/Walter_Raymond"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KarajanHerbertvon",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KarajanHerbertvon",
   "name": "Herbert von Karajan, geb. Heribert Ritter von Karajan",
   "givenName": "Herbert",
   "familyName": "Karajan",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1908-04-05",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Salzburg"
-  },
-  "deathDate": "1989-07-15",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Anif, Salzburg"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1955–1989 Chefdirigent der Berliner Philharmoniker"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118559915",
-    "https://de.wikipedia.org/wiki/Herbert_von_Karajan"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Herbert von Karajan, geb. Heribert Ritter von Karajan",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118559915",
-    "wikipedia": "https://de.wikipedia.org/wiki/Herbert_von_Karajan",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Herbert_von_Karajan"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1908-04-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Salzburg"
+  },
+  "deathDate": "1989-07-15",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Anif, Salzburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1955–1989 Chefdirigent der Berliner Philharmoniker"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118559915",
+    "https://de.wikipedia.org/wiki/Herbert_von_Karajan"
+  ]
 }

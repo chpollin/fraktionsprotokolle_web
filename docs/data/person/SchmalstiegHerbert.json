@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchmalstiegHerbert",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchmalstiegHerbert",
   "name": "Herbert Schmalstieg",
   "givenName": "Herbert",
   "familyName": "Schmalstieg",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1943-06-08",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Hannover"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1972–2006 Oberbürgermeister von Hannover, 1986–1996 MdL Niedersachsen (SPD), 1986-1989 Präsident des Deutschen Städtetages"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/115434259",
-    "https://de.wikipedia.org/wiki/Herbert_Schmalstieg"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Herbert Schmalstieg",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/115434259",
-    "wikipedia": "https://de.wikipedia.org/wiki/Herbert_Schmalstieg",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Herbert_Schmalstieg"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1943-06-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hannover"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1972–2006 Oberbürgermeister von Hannover, 1986–1996 MdL Niedersachsen (SPD), 1986-1989 Präsident des Deutschen Städtetages"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/115434259",
+    "https://de.wikipedia.org/wiki/Herbert_Schmalstieg"
+  ]
 }

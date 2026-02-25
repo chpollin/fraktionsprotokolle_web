@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MettenheimCarl-Friedrich",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MettenheimCarl-Friedrich",
   "name": "Carl-Friedrich Mettenheim",
   "givenName": "Carl-Friedrich",
   "familyName": "Mettenheim",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1901",
-  "birthPlace": null,
-  "deathDate": "1961",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Jurist, 1928–1933 Syndikus des Verbandes Preußischer Polizeibeamter, 1933–1945 Tätigkeit in der Privatwirtschaft, seit 1950 beim Berliner Senator für Bundesangelegenheiten, Dienststelle Bonn, ab 1959 als Senatsrat, Leiter des Referats Auswärtige und Verteidigungsangelegenheiten"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1030539065"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Carl-Friedrich Mettenheim",
@@ -39,9 +29,16 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/1030539065",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/1030539065"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1901",
+  "deathDate": "1961",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Jurist, 1928–1933 Syndikus des Verbandes Preußischer Polizeibeamter, 1933–1945 Tätigkeit in der Privatwirtschaft, seit 1950 beim Berliner Senator für Bundesangelegenheiten, Dienststelle Bonn, ab 1959 als Senatsrat, Leiter des Referats Auswärtige und Verteidigungsangelegenheiten"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1030539065"
+  ]
 }

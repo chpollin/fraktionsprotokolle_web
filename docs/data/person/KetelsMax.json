@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KetelsMax",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KetelsMax",
   "name": "Max Ketels",
   "givenName": "Max Detlev",
   "familyName": "Ketels",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1889-01-08",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Husum"
-  },
-  "deathDate": "1968-08-29",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Hamburg"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1945–1946 Senator für Handel, Schifffahrt und Gewerbe in Hamburg, 1946–1948 Vorsitzender der CDU Hamburg"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1016614675",
-    "https://de.wikipedia.org/wiki/Max_Ketels"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Max Ketels",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1016614675",
-    "wikipedia": "https://de.wikipedia.org/wiki/Max_Ketels",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Max_Ketels"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1889-01-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Husum"
+  },
+  "deathDate": "1968-08-29",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1945–1946 Senator für Handel, Schifffahrt und Gewerbe in Hamburg, 1946–1948 Vorsitzender der CDU Hamburg"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1016614675",
+    "https://de.wikipedia.org/wiki/Max_Ketels"
+  ]
 }

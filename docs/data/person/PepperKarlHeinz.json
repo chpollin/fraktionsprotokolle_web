@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PepperKarlHeinz",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PepperKarlHeinz",
   "name": "Karl Heinz Pepper",
   "givenName": "Karl Heinz",
   "familyName": "Pepper",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1910-03-17",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "deathDate": "2003-10-15",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Geschäftsführer der Berliner Europahaus Grundstücksgesellschaft"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1051520169",
-    "https://de.wikipedia.org/wiki/Karl_Heinz_Pepper"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Karl Heinz Pepper",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1051520169",
-    "wikipedia": "https://de.wikipedia.org/wiki/Karl_Heinz_Pepper",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Karl_Heinz_Pepper"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1910-03-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "2003-10-15",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Geschäftsführer der Berliner Europahaus Grundstücksgesellschaft"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1051520169",
+    "https://de.wikipedia.org/wiki/Karl_Heinz_Pepper"
+  ]
 }

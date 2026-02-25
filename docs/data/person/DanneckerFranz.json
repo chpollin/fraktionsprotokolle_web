@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DanneckerFranz",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DanneckerFranz",
   "name": "Franz Josef Dannecker",
   "givenName": "Franz Josef",
   "familyName": "Dannecker",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1927-06-24",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Brenz an der Brenz"
-  },
-  "deathDate": "1992-07-18",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Schatzmeister und Justitiar der CSU"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/107293234",
-    "https://de.wikipedia.org/wiki/Franz_Josef_Dannecker"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Franz Josef Dannecker",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/107293234",
-    "wikipedia": "https://de.wikipedia.org/wiki/Franz_Josef_Dannecker",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Franz_Josef_Dannecker"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1927-06-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Brenz an der Brenz"
+  },
+  "deathDate": "1992-07-18",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Schatzmeister und Justitiar der CSU"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/107293234",
+    "https://de.wikipedia.org/wiki/Franz_Josef_Dannecker"
+  ]
 }

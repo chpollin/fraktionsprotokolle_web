@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KishiNobusuke",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KishiNobusuke",
   "name": "Nobusuke Kishi",
   "givenName": "Nobusuke",
   "familyName": "Kishi",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1896-11-13",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Yamaguchi"
-  },
-  "deathDate": "1987-08-07",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Shinjuku"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1957–1960 japanischer Ministerpräsident"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/124545696",
-    "https://de.wikipedia.org/wiki/Kishi_Nobusuke"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Nobusuke Kishi",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/124545696",
-    "wikipedia": "https://de.wikipedia.org/wiki/Kishi_Nobusuke",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Kishi_Nobusuke"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1896-11-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Yamaguchi"
+  },
+  "deathDate": "1987-08-07",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Shinjuku"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1957–1960 japanischer Ministerpräsident"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/124545696",
+    "https://de.wikipedia.org/wiki/Kishi_Nobusuke"
+  ]
 }

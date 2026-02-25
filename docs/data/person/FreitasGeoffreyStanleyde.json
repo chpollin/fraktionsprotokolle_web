@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FreitasGeoffreyStanleyde",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FreitasGeoffreyStanleyde",
   "name": "Geoffrey Stanley de Freitas",
   "givenName": "Geoffrey Stanley de",
   "familyName": "Freitas",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1913-04-07",
-  "birthPlace": null,
-  "deathDate": "1982-08-10",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Cambridge"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1966–1969 Vorsitzender des Europarates"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1165582961",
-    "https://de.wikipedia.org/wiki/Geoffrey_de_Freitas"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Geoffrey Stanley de Freitas",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1165582961",
-    "wikipedia": "https://de.wikipedia.org/wiki/Geoffrey_de_Freitas",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Geoffrey_de_Freitas"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1913-04-07",
+  "deathDate": "1982-08-10",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Cambridge"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1966–1969 Vorsitzender des Europarates"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1165582961",
+    "https://de.wikipedia.org/wiki/Geoffrey_de_Freitas"
+  ]
 }

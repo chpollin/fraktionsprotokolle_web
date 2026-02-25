@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KrausHans",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KrausHans",
   "name": "Hans Kraus",
   "givenName": "Hans",
   "familyName": "Kraus",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1879-04-22",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Unterafferbach"
-  },
-  "deathDate": "1952-05-30",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Gräfelfing"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1946 Staatssekretär und Leiter der Bayerischen Staatskanzlei, 1947–1950 Bayerischer Staatsminister der Finanzen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/131627597",
-    "https://de.wikipedia.org/wiki/Hans_Kraus_(Politiker,_1879)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hans Kraus",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/131627597",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Kraus_(Politiker,_1879)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Kraus_(Politiker,_1879)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1879-04-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Unterafferbach"
+  },
+  "deathDate": "1952-05-30",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Gräfelfing"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1946 Staatssekretär und Leiter der Bayerischen Staatskanzlei, 1947–1950 Bayerischer Staatsminister der Finanzen"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/131627597",
+    "https://de.wikipedia.org/wiki/Hans_Kraus_(Politiker,_1879)"
+  ]
 }

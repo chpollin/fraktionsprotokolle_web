@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BismarckKlausvon",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BismarckKlausvon",
   "name": "Klaus von Bismarck",
   "givenName": "Klaus",
   "familyName": "Bismarck",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1912-03-06",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Gut Jarchlin, Landkreis Naugard"
-  },
-  "deathDate": "1997-05-22",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Hamburg"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1955–1967 Mitglied der Gesamtdeutschen Synode der EKD, 1957–1964 Präsident der Gesellschaft für Sozialen Fortschritt, 1961–1976 Intendant des WDR"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119025027",
-    "https://de.wikipedia.org/wiki/Klaus_von_Bismarck"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Klaus von Bismarck",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119025027",
-    "wikipedia": "https://de.wikipedia.org/wiki/Klaus_von_Bismarck",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Klaus_von_Bismarck"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1912-03-06",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Gut Jarchlin, Landkreis Naugard"
+  },
+  "deathDate": "1997-05-22",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1955–1967 Mitglied der Gesamtdeutschen Synode der EKD, 1957–1964 Präsident der Gesellschaft für Sozialen Fortschritt, 1961–1976 Intendant des WDR"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119025027",
+    "https://de.wikipedia.org/wiki/Klaus_von_Bismarck"
+  ]
 }

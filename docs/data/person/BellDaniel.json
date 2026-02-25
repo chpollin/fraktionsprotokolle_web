@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BellDaniel",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BellDaniel",
   "name": "Daniel Bell, geb. Bolotsky",
   "givenName": "Daniel",
   "familyName": "Bell",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1919-05-10",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "New York City, New York"
-  },
-  "deathDate": "2011-01-25",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Cambridge, Massachusetts"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Soziologe, Hochschullehrer und Journalist, 1959–1969 Professor für Soziologie an der Columbia University und 1969–1990 an der Harvard University"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118658018",
-    "https://de.wikipedia.org/wiki/Daniel_Bell_(Soziologe)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Daniel Bell, geb. Bolotsky",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118658018",
-    "wikipedia": "https://de.wikipedia.org/wiki/Daniel_Bell_(Soziologe)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Daniel_Bell_(Soziologe)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1919-05-10",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "New York City, New York"
+  },
+  "deathDate": "2011-01-25",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Cambridge, Massachusetts"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Soziologe, Hochschullehrer und Journalist, 1959–1969 Professor für Soziologie an der Columbia University und 1969–1990 an der Harvard University"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118658018",
+    "https://de.wikipedia.org/wiki/Daniel_Bell_(Soziologe)"
+  ]
 }

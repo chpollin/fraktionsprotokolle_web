@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GomulkaWladyslaw",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GomulkaWladyslaw",
   "name": "Wladyslaw Gomulka",
   "givenName": "Wladyslaw",
   "familyName": "Gomulka",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1905-02-06",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Krosno, Galizien"
-  },
-  "deathDate": "1982-09-01",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Konstancin-Jeziorna"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1956–1970 Erster Sekretär des Zentralkomitees der Polnischen Vereinigten Arbeiterpartei"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/11854067X",
-    "https://de.wikipedia.org/wiki/W%C5%82adys%C5%82aw_Gomu%C5%82ka"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Wladyslaw Gomulka",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/11854067X",
-    "wikipedia": "https://de.wikipedia.org/wiki/W%C5%82adys%C5%82aw_Gomu%C5%82ka",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/W%C5%82adys%C5%82aw_Gomu%C5%82ka"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1905-02-06",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Krosno, Galizien"
+  },
+  "deathDate": "1982-09-01",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Konstancin-Jeziorna"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1956–1970 Erster Sekretär des Zentralkomitees der Polnischen Vereinigten Arbeiterpartei"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/11854067X",
+    "https://de.wikipedia.org/wiki/W%C5%82adys%C5%82aw_Gomu%C5%82ka"
+  ]
 }

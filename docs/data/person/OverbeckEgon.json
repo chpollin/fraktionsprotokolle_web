@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "OverbeckEgon",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/OverbeckEgon",
   "name": "Egon Overbeck",
   "givenName": "Egon",
   "familyName": "Overbeck",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1918-01-11",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Heide"
-  },
-  "deathDate": "1996-08-12",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Düsseldorf"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Offizier, Betriebswirt und Manager, ab 1959 stv. und ab 1962 Vorstandsmitglied der Vereinigten Deutsche Metallwerke AG (VDM), 1962–1983 Vorstandsvorsitzender der Mannesmann AG, u. a. Aufsichtsratsmitglied der Hoechst AG, der Esso AG, der Allianz Versicherung AG, der Deutschen Babcock AG, der Victoria Versicherung/Leben AG der Bertelsmann AG, der Siemens AG, Ruhrkohle AG, der J. M. Voith AG sowie der Ruhrgas AG, 1969–1973 Vorsitzender der Wirtschaftsvereinigung Eisen- und Stahl, 1979–1984 Präsident der Deutschen Gruppe der Internationalen Handelskammer"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119346796",
-    "https://de.wikipedia.org/wiki/Egon_Overbeck"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Egon Overbeck",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119346796",
-    "wikipedia": "https://de.wikipedia.org/wiki/Egon_Overbeck",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Egon_Overbeck"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1918-01-11",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Heide"
+  },
+  "deathDate": "1996-08-12",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Düsseldorf"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Offizier, Betriebswirt und Manager, ab 1959 stv. und ab 1962 Vorstandsmitglied der Vereinigten Deutsche Metallwerke AG (VDM), 1962–1983 Vorstandsvorsitzender der Mannesmann AG, u. a. Aufsichtsratsmitglied der Hoechst AG, der Esso AG, der Allianz Versicherung AG, der Deutschen Babcock AG, der Victoria Versicherung/Leben AG der Bertelsmann AG, der Siemens AG, Ruhrkohle AG, der J. M. Voith AG sowie der Ruhrgas AG, 1969–1973 Vorsitzender der Wirtschaftsvereinigung Eisen- und Stahl, 1979–1984 Präsident der Deutschen Gruppe der Internationalen Handelskammer"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119346796",
+    "https://de.wikipedia.org/wiki/Egon_Overbeck"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "LiQuiang",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/LiQuiang",
   "name": "Li Quiang",
   "givenName": "Li Quiang",
   "familyName": "Li Quiang",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1905-09-26",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Changshu"
-  },
-  "deathDate": "1996-09-29",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Peking"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1973–1981 Außenhandelsminister der Volksrepublik China"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1232577324",
-    "https://en.wikipedia.org/wiki/Li_Qiang_(revolutionary)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Li Quiang",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1232577324",
-    "wikipedia": "https://en.wikipedia.org/wiki/Li_Qiang_(revolutionary)",
-    "viaf": null
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/Li_Qiang_(revolutionary)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1905-09-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Changshu"
+  },
+  "deathDate": "1996-09-29",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Peking"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1973–1981 Außenhandelsminister der Volksrepublik China"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1232577324",
+    "https://en.wikipedia.org/wiki/Li_Qiang_(revolutionary)"
+  ]
 }

@@ -1,35 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KertscherNorbert_1990-10-03",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KertscherNorbert_1990-10-03",
   "name": "Norbert Kertscher",
   "givenName": "Norbert",
   "familyName": "Kertscher",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1954-01-21",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "ohne Angaben"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Mitglied der Volkskammer, Dipl.-Gesellschaftswissenschaftler [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Gruppe der Partei des Demokratischen Sozialismus",
-        "alternateName": "Grp. PDS"
-      },
-      "startDate": "1990-10-03",
-      "endDate": "1990-12-20"
-    }
-  ],
-  "sameAs": null,
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Norbert Kertscher",
@@ -59,9 +37,28 @@
     }
   ],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11001088",
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
-  }
+    "mdb_stammdaten": "11001088"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1954-01-21",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "ohne Angaben"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Mitglied der Volkskammer, Dipl.-Gesellschaftswissenschaftler [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Gruppe der Partei des Demokratischen Sozialismus",
+        "alternateName": "Grp. PDS"
+      },
+      "startDate": "1990-10-03",
+      "endDate": "1990-12-20"
+    }
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DeegPeter",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DeegPeter",
   "name": "Peter Deeg",
   "givenName": "Peter",
   "familyName": "Deeg",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1908-05-14",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Bad Kissingen"
-  },
-  "deathDate": "2005-06-25",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bad Kissingen"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Jurist, Autor völkisch-antisemitischer Schriften, Mitglied der NSDAP und später der CSU"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/135850207",
-    "https://de.wikipedia.org/wiki/Peter_Deeg"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Peter Deeg",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/135850207",
-    "wikipedia": "https://de.wikipedia.org/wiki/Peter_Deeg",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Peter_Deeg"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1908-05-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bad Kissingen"
+  },
+  "deathDate": "2005-06-25",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bad Kissingen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Jurist, Autor völkisch-antisemitischer Schriften, Mitglied der NSDAP und später der CSU"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/135850207",
+    "https://de.wikipedia.org/wiki/Peter_Deeg"
+  ]
 }

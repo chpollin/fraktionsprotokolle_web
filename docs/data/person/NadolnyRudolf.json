@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "NadolnyRudolf",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/NadolnyRudolf",
   "name": "Rudolf Nadolny",
   "givenName": "Rudolf",
   "familyName": "Nadolny",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1873-07-12",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Groß Stürlack, Ostpreußen (heute: Sterławki Wielkie, Polen)"
-  },
-  "deathDate": "1953-05-18",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Düsseldorf"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "ehemaliger deutscher Diplomat, 1933–1934 Botschafter in Moskau, 1945 Präsident des Deutschen Roten Kreuzes, Mitglied der »Gesellschaft für die Wiedervereinigung Deutschlands«"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118737813",
-    "https://de.wikipedia.org/wiki/Rudolf_Nadolny"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Rudolf Nadolny",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118737813",
-    "wikipedia": "https://de.wikipedia.org/wiki/Rudolf_Nadolny",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Rudolf_Nadolny"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1873-07-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Groß Stürlack, Ostpreußen (heute: Sterławki Wielkie, Polen)"
+  },
+  "deathDate": "1953-05-18",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Düsseldorf"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "ehemaliger deutscher Diplomat, 1933–1934 Botschafter in Moskau, 1945 Präsident des Deutschen Roten Kreuzes, Mitglied der »Gesellschaft für die Wiedervereinigung Deutschlands«"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118737813",
+    "https://de.wikipedia.org/wiki/Rudolf_Nadolny"
+  ]
 }

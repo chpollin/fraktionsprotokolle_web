@@ -1,38 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "NitschEgbert_1996-06-04",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/NitschEgbert_1996-06-04",
   "name": "Egbert Nitsch",
   "givenName": "Egbert",
   "familyName": "Nitsch",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1934-07-08",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Königsberg, Ostpreußen (heute: Kaliningrad, Russland)"
-  },
-  "deathDate": "2005-09-06",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Ökologischer Gärtner [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion Bündnis 90/Die Grünen",
-        "alternateName": "B90/Grüne"
-      },
-      "startDate": "1996-06-04",
-      "endDate": "1998-10-26"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1139319906",
-    "https://de.wikipedia.org/wiki/Egbert_Nitsch"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Egbert Nitsch",
@@ -64,7 +39,33 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11002947",
     "gnd": "https://d-nb.info/gnd/1139319906",
-    "wikipedia": "https://de.wikipedia.org/wiki/Egbert_Nitsch",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Egbert_Nitsch"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1934-07-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Königsberg, Ostpreußen (heute: Kaliningrad, Russland)"
+  },
+  "deathDate": "2005-09-06",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Ökologischer Gärtner [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Bündnis 90/Die Grünen",
+        "alternateName": "B90/Grüne"
+      },
+      "startDate": "1996-06-04",
+      "endDate": "1998-10-26"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1139319906",
+    "https://de.wikipedia.org/wiki/Egbert_Nitsch"
+  ]
 }

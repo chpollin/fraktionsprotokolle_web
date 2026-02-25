@@ -1,29 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PeaseHenry",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PeaseHenry",
   "name": "Henry Pease",
   "givenName": "Henry Gustavo",
   "familyName": "Pease García-Yrigoyen",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1944-12-11",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Lima"
-  },
-  "deathDate": "2014-08-09",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Lima"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Soziologe, 1990 Präsidentschaftskandidat der Izquierda Unida (IU), 1995-2006 Abgeordneter der Republik (Unión por el Perú (UPP) und Perú Posible), 2003-2004 Präsident des Kongresses der Republik, Professor an der Päpstlichen Katholischen Universität Peru"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1056247576"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Henry Pease",
@@ -45,9 +29,24 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/1056247576",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/1056247576"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1944-12-11",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Lima"
+  },
+  "deathDate": "2014-08-09",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Lima"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Soziologe, 1990 Präsidentschaftskandidat der Izquierda Unida (IU), 1995-2006 Abgeordneter der Republik (Unión por el Perú (UPP) und Perú Posible), 2003-2004 Präsident des Kongresses der Republik, Professor an der Päpstlichen Katholischen Universität Peru"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1056247576"
+  ]
 }

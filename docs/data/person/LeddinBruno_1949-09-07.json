@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "LeddinBruno_1949-09-07",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/LeddinBruno_1949-09-07",
   "name": "Bruno Leddin",
   "givenName": "Bruno",
   "familyName": "Leddin",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1898-02-17",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "deathDate": "1951-03-25",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Hannover"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Kaufmann, Verwaltungsbeamter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1949-09-07",
-      "endDate": "1951-03-25"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1034940821",
-    "https://de.wikipedia.org/wiki/Bruno_Leddin"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Bruno Leddin",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001300",
     "gnd": "https://d-nb.info/gnd/1034940821",
-    "wikipedia": "https://de.wikipedia.org/wiki/Bruno_Leddin",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Bruno_Leddin"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1898-02-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "1951-03-25",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hannover"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Kaufmann, Verwaltungsbeamter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1951-03-25"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1034940821",
+    "https://de.wikipedia.org/wiki/Bruno_Leddin"
+  ]
 }

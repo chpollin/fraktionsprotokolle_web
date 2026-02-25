@@ -1,26 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "AcostaVargasGladys",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/AcostaVargasGladys",
   "name": "Gladys Acosta Vargas",
   "givenName": "Gladys",
   "familyName": "Acosta Vargas",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1951-07-24",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Cusco"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Menschenrechtlerin, Rechtsanwältin und Sozialwissenschaftlerin, 2015-2018 Mitglied des »Committee on the Elimination of Discrimination against Women« (CEDW) und anschließend dessen Vorsitzende"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1047927845"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Gladys Acosta Vargas",
@@ -42,9 +29,19 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/1047927845",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/1047927845"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1951-07-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Cusco"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Menschenrechtlerin, Rechtsanwältin und Sozialwissenschaftlerin, 2015-2018 Mitglied des »Committee on the Elimination of Discrimination against Women« (CEDW) und anschließend dessen Vorsitzende"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1047927845"
+  ]
 }

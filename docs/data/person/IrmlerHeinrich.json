@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "IrmlerHeinrich",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/IrmlerHeinrich",
   "name": "Heinrich Irmler",
   "givenName": "Heinrich",
   "familyName": "Irmler",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1911-08-27",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Leipzig"
-  },
-  "deathDate": "2002-04-27",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Bankmanager, 1962–1964 Präsident der Landeszentralbank Niedersachsen, 1964–1979 Mitglied des Direktoriums der Deutschen Bundesbank"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/17075815X",
-    "https://de.wikipedia.org/wiki/Heinrich_Irmler"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Heinrich Irmler",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/17075815X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Heinrich_Irmler",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Heinrich_Irmler"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1911-08-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Leipzig"
+  },
+  "deathDate": "2002-04-27",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Bankmanager, 1962–1964 Präsident der Landeszentralbank Niedersachsen, 1964–1979 Mitglied des Direktoriums der Deutschen Bundesbank"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/17075815X",
+    "https://de.wikipedia.org/wiki/Heinrich_Irmler"
+  ]
 }

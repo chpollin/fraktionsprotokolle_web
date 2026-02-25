@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PattakosStylianos",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PattakosStylianos",
   "name": "Stylianos Pattakos",
   "givenName": "Stylianos",
   "familyName": "Pattakos",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1912-11-08",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Agia Paraskevi"
-  },
-  "deathDate": "2016-10-08",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Athen"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Brigadegeneral, vom 21.4.1967 an Innenminister und stellvertretender Ministerpräsident"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1158277172",
-    "https://de.wikipedia.org/wiki/Stylianos_Pattakos"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Stylianos Pattakos",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1158277172",
-    "wikipedia": "https://de.wikipedia.org/wiki/Stylianos_Pattakos",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Stylianos_Pattakos"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1912-11-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Agia Paraskevi"
+  },
+  "deathDate": "2016-10-08",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Athen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Brigadegeneral, vom 21.4.1967 an Innenminister und stellvertretender Ministerpräsident"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1158277172",
+    "https://de.wikipedia.org/wiki/Stylianos_Pattakos"
+  ]
 }

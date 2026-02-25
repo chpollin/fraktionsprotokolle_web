@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "JayDouglas",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/JayDouglas",
   "name": "Douglas Jay",
   "givenName": "Douglas",
   "familyName": "Jay",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1907-03-23",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Woolwich"
-  },
-  "deathDate": "1996-03-06",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Minster Lovell, Oxfordshire"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1964–1967 britischer Handelsminister (Vorsitzender des Board of Trade)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/124476872",
-    "https://de.wikipedia.org/wiki/Douglas_Jay,_Baron_Jay"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Douglas Jay",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/124476872",
-    "wikipedia": "https://de.wikipedia.org/wiki/Douglas_Jay,_Baron_Jay",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Douglas_Jay,_Baron_Jay"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1907-03-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Woolwich"
+  },
+  "deathDate": "1996-03-06",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Minster Lovell, Oxfordshire"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1964–1967 britischer Handelsminister (Vorsitzender des Board of Trade)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/124476872",
+    "https://de.wikipedia.org/wiki/Douglas_Jay,_Baron_Jay"
+  ]
 }

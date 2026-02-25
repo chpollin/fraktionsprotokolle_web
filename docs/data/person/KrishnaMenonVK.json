@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KrishnaMenonVK",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KrishnaMenonVK",
   "name": "V. K. Krishna Menon",
   "givenName": "Vengalil Krishnan Kurup",
   "familyName": "Krishna Menon",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1896-05-03",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Calicut"
-  },
-  "deathDate": "1974-10-06",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Delhi"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1957–1962 indischer Verteidigungsminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118994999",
-    "https://de.wikipedia.org/wiki/V._K._Krishna_Menon"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "V. K. Krishna Menon",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118994999",
-    "wikipedia": "https://de.wikipedia.org/wiki/V._K._Krishna_Menon",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/V._K._Krishna_Menon"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1896-05-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Calicut"
+  },
+  "deathDate": "1974-10-06",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Delhi"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1957–1962 indischer Verteidigungsminister"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118994999",
+    "https://de.wikipedia.org/wiki/V._K._Krishna_Menon"
+  ]
 }

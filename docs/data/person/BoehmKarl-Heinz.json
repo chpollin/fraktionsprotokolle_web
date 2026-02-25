@@ -1,24 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BoehmKarl-Heinz",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BoehmKarl-Heinz",
   "name": "Karl-Heinz Böhm",
   "givenName": "Karl-Heinz",
   "familyName": "Böhm",
-  "gender": "https://schema.org/Male",
-  "birthDate": null,
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "österreichischer Schauspieler deutscher Herkunft, 1981 Gründer der Hilfsorganisation »Menschen für Menschen«"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118796585",
-    "https://de.wikipedia.org/wiki/Karlheinz_B%C3%B6hm"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Karl-Heinz Böhm",
@@ -40,9 +29,16 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118796585",
-    "wikipedia": "https://de.wikipedia.org/wiki/Karlheinz_B%C3%B6hm",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Karlheinz_B%C3%B6hm"
+  },
+  "gender": "https://schema.org/Male",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "österreichischer Schauspieler deutscher Herkunft, 1981 Gründer der Hilfsorganisation »Menschen für Menschen«"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118796585",
+    "https://de.wikipedia.org/wiki/Karlheinz_B%C3%B6hm"
+  ]
 }

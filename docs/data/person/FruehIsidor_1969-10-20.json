@@ -1,10 +1,60 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FruehIsidor_1969-10-20",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FruehIsidor_1969-10-20",
   "name": "Isidor Früh",
   "givenName": "Isidor",
   "familyName": "Früh",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Isidor Früh",
+    "forename": "Isidor",
+    "surname": "Früh",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1922-04-13",
+    "place": "Sasbach",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2002-08-28",
+    "place": "Sasbach",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 6,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1969-10-20",
+      "to": "1972-09-22"
+    },
+    {
+      "period": 7,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1972-12-13",
+      "to": "1976-12-13"
+    },
+    {
+      "period": 8,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1976-12-14",
+      "to": "1980-11-04"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000609",
+    "gnd": "https://d-nb.info/gnd/101271750X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Isidor_Fr%C3%BCh"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1922-04-13",
   "birthPlace": {
@@ -55,53 +105,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/101271750X",
     "https://de.wikipedia.org/wiki/Isidor_Fr%C3%BCh"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Isidor Früh",
-    "forename": "Isidor",
-    "surname": "Früh",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1922-04-13",
-    "place": "Sasbach",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "2002-08-28",
-    "place": "Sasbach",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 6,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1969-10-20",
-      "to": "1972-09-22"
-    },
-    {
-      "period": 7,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1972-12-13",
-      "to": "1976-12-13"
-    },
-    {
-      "period": 8,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1976-12-14",
-      "to": "1980-11-04"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11000609",
-    "gnd": "https://d-nb.info/gnd/101271750X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Isidor_Fr%C3%BCh",
-    "viaf": null
-  }
+  ]
 }

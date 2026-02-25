@@ -1,21 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "AilleretCharles",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/AilleretCharles",
   "name": "Charles Ailleret",
   "givenName": "Charles",
   "familyName": "Ailleret",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1907",
-  "birthPlace": null,
-  "deathDate": "1968",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1962–1968 Chef des französischen Generalstabs"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Charles Ailleret",
@@ -36,10 +28,12 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Male",
+  "birthDate": "1907",
+  "deathDate": "1968",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1962–1968 Chef des französischen Generalstabs"
   }
 }

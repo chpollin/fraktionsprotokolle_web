@@ -1,47 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SundOlaf_1972-12-13",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SundOlaf_1972-12-13",
   "name": "Olaf Sund",
   "givenName": "Olaf",
   "familyName": "Sund",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1931-08-31",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Heide"
-  },
-  "deathDate": "2010-01-08",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Dipl.-Volkswirt, Leiter einer Heimvolksschule [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1972-12-13",
-      "endDate": "1976-12-13"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1976-12-14",
-      "endDate": "1977-05-17"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/170451275"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Olaf Sund",
@@ -79,8 +45,42 @@
   ],
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11002291",
-    "gnd": "https://d-nb.info/gnd/170451275",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/170451275"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1931-08-31",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Heide"
+  },
+  "deathDate": "2010-01-08",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Volkswirt, Leiter einer Heimvolksschule [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1972-12-13",
+      "endDate": "1976-12-13"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1976-12-14",
+      "endDate": "1977-05-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/170451275"
+  ]
 }

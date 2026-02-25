@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RiemerFranzSeraph",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RiemerFranzSeraph",
   "name": "Franz Seraph Riemer",
   "givenName": "Franz Seraph",
   "familyName": "Riemer",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1884-09-30",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Pfarrkirchen"
-  },
-  "deathDate": "1965-10-28",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Passau"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Priester und Generalvikar im Bistum Passau"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/140487875",
-    "https://de.wikipedia.org/wiki/Franz_Riemer_(Geistlicher)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Franz Seraph Riemer",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/140487875",
-    "wikipedia": "https://de.wikipedia.org/wiki/Franz_Riemer_(Geistlicher)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Franz_Riemer_(Geistlicher)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1884-09-30",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Pfarrkirchen"
+  },
+  "deathDate": "1965-10-28",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Passau"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Priester und Generalvikar im Bistum Passau"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/140487875",
+    "https://de.wikipedia.org/wiki/Franz_Riemer_(Geistlicher)"
+  ]
 }

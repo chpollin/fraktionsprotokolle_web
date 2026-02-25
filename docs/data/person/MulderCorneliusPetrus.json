@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MulderCorneliusPetrus",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MulderCorneliusPetrus",
   "name": "Cornelius »Connie« Petrus Mulder",
   "givenName": "Cornelius »Connie« Petrus",
   "familyName": "Mulder",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1925-06-05",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Warmbaths, Transvaal"
-  },
-  "deathDate": "1988-01-12",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Johannesburg"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "südafrikanischer Politiker während der Apartheid, 1958–1978 Mitglied der Nationalversammlung von Südafrika (Nasionale Party), 1968–1977 Minister für Information, zwischenzeitlich auch für Inneres, Volkswohl und Einwanderung (zuständig für die Umsetzung der Apartheidpolitik), 1978 Minister für plurale Beziehungen und Entwicklung"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Cornelius_Petrus_Mulder",
-    "https://viaf.org/viaf/51457214/"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Cornelius »Connie« Petrus Mulder",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
     "wikipedia": "https://de.wikipedia.org/wiki/Cornelius_Petrus_Mulder",
     "viaf": "https://viaf.org/viaf/51457214/"
-  }
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1925-06-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Warmbaths, Transvaal"
+  },
+  "deathDate": "1988-01-12",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Johannesburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "südafrikanischer Politiker während der Apartheid, 1958–1978 Mitglied der Nationalversammlung von Südafrika (Nasionale Party), 1968–1977 Minister für Information, zwischenzeitlich auch für Inneres, Volkswohl und Einwanderung (zuständig für die Umsetzung der Apartheidpolitik), 1978 Minister für plurale Beziehungen und Entwicklung"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Cornelius_Petrus_Mulder",
+    "https://viaf.org/viaf/51457214/"
+  ]
 }

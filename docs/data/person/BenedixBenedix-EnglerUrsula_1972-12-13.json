@@ -1,10 +1,60 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BenedixBenedix-EnglerUrsula_1972-12-13",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BenedixBenedix-EnglerUrsula_1972-12-13",
   "name": "Ursula Benedix-Engler",
   "givenName": "Ursula",
   "familyName": "Benedix",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Ursula Benedix-Engler",
+    "forename": "Ursula",
+    "surname": "Benedix",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1922-09-12",
+    "place": "Neurode/Schlesien (heute: Nowa Ruda, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2014-05-17",
+    "place": "Emden",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 7,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1972-12-13",
+      "to": "1976-12-13"
+    },
+    {
+      "period": 8,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1976-12-14",
+      "to": "1980-11-04"
+    },
+    {
+      "period": 9,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1980-11-04",
+      "to": "1983-03-29"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000141",
+    "gnd": "https://d-nb.info/gnd/129741434",
+    "wikipedia": "https://de.wikipedia.org/wiki/Ursula_Benedix"
+  },
   "gender": "https://schema.org/Female",
   "birthDate": "1922-09-12",
   "birthPlace": {
@@ -56,54 +106,6 @@
     "https://d-nb.info/gnd/129741434",
     "https://de.wikipedia.org/wiki/Ursula_Benedix"
   ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Ursula Benedix-Engler",
-    "forename": "Ursula",
-    "surname": "Benedix",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1922-09-12",
-    "place": "Neurode/Schlesien (heute: Nowa Ruda, Polen)",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "2014-05-17",
-    "place": "Emden",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 7,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1972-12-13",
-      "to": "1976-12-13"
-    },
-    {
-      "period": 8,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1976-12-14",
-      "to": "1980-11-04"
-    },
-    {
-      "period": 9,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1980-11-04",
-      "to": "1983-03-29"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11000141",
-    "gnd": "https://d-nb.info/gnd/129741434",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ursula_Benedix",
-    "viaf": null
-  },
   "fraktionsprotokolle:alt_names": [
     {
       "reg": "Ursula Benedix-Engler",

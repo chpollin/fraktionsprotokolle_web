@@ -1,29 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PhilippReinhard",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PhilippReinhard",
   "name": "Reinhard Philipp",
   "givenName": "Reinhard",
   "familyName": "Philipp",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1925-04-28",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Hamburg"
-  },
-  "deathDate": "1988-01-12",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Hamburg"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1961–1971 und 1974–1978 MdHB (FDP), 1970/71 Kultursenator, 1971–1974 Wissenschaftssenator der Freien Hansestadt Hamburg, 1972 Präsident der Kultusministerkonferenz"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Reinhard_Philipp"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Reinhard Philipp",
@@ -45,9 +29,24 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://de.wikipedia.org/wiki/Reinhard_Philipp",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Reinhard_Philipp"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1925-04-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "deathDate": "1988-01-12",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1961–1971 und 1974–1978 MdHB (FDP), 1970/71 Kultursenator, 1971–1974 Wissenschaftssenator der Freien Hansestadt Hamburg, 1972 Präsident der Kultusministerkonferenz"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Reinhard_Philipp"
+  ]
 }

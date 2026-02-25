@@ -1,26 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RentropWilhelm",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RentropWilhelm",
   "name": "Wilhelm Rentrop",
   "givenName": "Wilhelm",
   "familyName": "Rentrop",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1904",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Hagen"
-  },
-  "deathDate": "1989",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1952–1958 Beamter in der Dienststelle Blank/Bundesministerium für Verteidigung, dort 1956–1958 Leiter der Abteilung Beschaffung, 1958 Versetzung in den einstweiligen Ruhestand"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1026905028"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Wilhelm Rentrop",
@@ -42,9 +29,20 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/1026905028",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/1026905028"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1904",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hagen"
+  },
+  "deathDate": "1989",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1952–1958 Beamter in der Dienststelle Blank/Bundesministerium für Verteidigung, dort 1956–1958 Leiter der Abteilung Beschaffung, 1958 Versetzung in den einstweiligen Ruhestand"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1026905028"
+  ]
 }

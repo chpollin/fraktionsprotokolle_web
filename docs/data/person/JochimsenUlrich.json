@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "JochimsenUlrich",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/JochimsenUlrich",
   "name": "Ulrich Jochimsen",
   "givenName": "Ulrich",
   "familyName": "Jochimsen",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1935-06-28",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Niebüll, Nordfriesland"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Elektroingenieur, Unternehmer und Politikberater, 1991–2007 Vorstandsmitglied des Bundesverbands Erneuerbare Energie"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Ulrich_Jochimsen",
-    "https://viaf.org/viaf/39959563/"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Ulrich Jochimsen",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
     "wikipedia": "https://de.wikipedia.org/wiki/Ulrich_Jochimsen",
     "viaf": "https://viaf.org/viaf/39959563/"
-  }
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1935-06-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Niebüll, Nordfriesland"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Elektroingenieur, Unternehmer und Politikberater, 1991–2007 Vorstandsmitglied des Bundesverbands Erneuerbare Energie"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Ulrich_Jochimsen",
+    "https://viaf.org/viaf/39959563/"
+  ]
 }

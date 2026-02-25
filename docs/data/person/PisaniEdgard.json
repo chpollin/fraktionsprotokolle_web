@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PisaniEdgard",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PisaniEdgard",
   "name": "Edgard Pisani",
   "givenName": "Edgard",
   "familyName": "Pisani",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1918-10-09",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Tunis"
-  },
-  "deathDate": "2016-06-20",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "frz. Politiker, 1954–1961 Senator, 1961–1966 Landwirtschaftsminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119104997",
-    "https://de.wikipedia.org/wiki/Edgard_Pisani"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Edgard Pisani",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119104997",
-    "wikipedia": "https://de.wikipedia.org/wiki/Edgard_Pisani",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Edgard_Pisani"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1918-10-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Tunis"
+  },
+  "deathDate": "2016-06-20",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "frz. Politiker, 1954–1961 Senator, 1961–1966 Landwirtschaftsminister"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119104997",
+    "https://de.wikipedia.org/wiki/Edgard_Pisani"
+  ]
 }

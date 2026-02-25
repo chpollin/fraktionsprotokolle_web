@@ -1,26 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WuestenhagenHans-Helmuth",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WuestenhagenHans-Helmuth",
   "name": "Hans-Helmuth Wüstenhagen",
   "givenName": "Hans-Helmuth",
   "familyName": "Wüstenhagen",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1923",
-  "birthPlace": null,
-  "deathDate": "1996",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Norden"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1973–1977 Bundesvorsitzender des Bundesverbandes Bürgerinitiativen Umweltschutz e.V (BBU)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Hans-Helmuth_W%C3%BCstenhagen"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hans-Helmuth Wüstenhagen",
@@ -42,9 +29,20 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://de.wikipedia.org/wiki/Hans-Helmuth_W%C3%BCstenhagen",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans-Helmuth_W%C3%BCstenhagen"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1923",
+  "deathDate": "1996",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Norden"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1973–1977 Bundesvorsitzender des Bundesverbandes Bürgerinitiativen Umweltschutz e.V (BBU)"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Hans-Helmuth_W%C3%BCstenhagen"
+  ]
 }

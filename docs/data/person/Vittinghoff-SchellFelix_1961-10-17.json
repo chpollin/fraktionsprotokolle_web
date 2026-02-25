@@ -1,10 +1,53 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "Vittinghoff-SchellFelix_1961-10-17",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/Vittinghoff-SchellFelix_1961-10-17",
   "name": "Felix von Vittinghoff-Schell",
   "givenName": "Felix",
   "familyName": "Vittinghoff-Schell",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Felix von Vittinghoff-Schell",
+    "forename": "Felix",
+    "surname": "Vittinghoff-Schell",
+    "prefix": "von",
+    "role_name": "Freiherr",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1910-10-03",
+    "place": "Haus Kalbeck bei Goch/NRW-Kleve, Weeze",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1992-11-13",
+    "place": "Goch",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 4,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    },
+    {
+      "period": 5,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002375",
+    "gnd": "https://d-nb.info/gnd/125575548",
+    "wikipedia": "https://de.wikipedia.org/wiki/Felix_von_Vittinghoff-Schell"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1910-10-03",
   "birthPlace": {
@@ -45,46 +88,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/125575548",
     "https://de.wikipedia.org/wiki/Felix_von_Vittinghoff-Schell"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Felix von Vittinghoff-Schell",
-    "forename": "Felix",
-    "surname": "Vittinghoff-Schell",
-    "prefix": "von",
-    "role_name": "Freiherr",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1910-10-03",
-    "place": "Haus Kalbeck bei Goch/NRW-Kleve, Weeze",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1992-11-13",
-    "place": "Goch",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 4,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1961-10-17",
-      "to": "1965-10-17"
-    },
-    {
-      "period": 5,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1965-10-19",
-      "to": "1969-10-19"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11002375",
-    "gnd": "https://d-nb.info/gnd/125575548",
-    "wikipedia": "https://de.wikipedia.org/wiki/Felix_von_Vittinghoff-Schell",
-    "viaf": null
-  }
+  ]
 }

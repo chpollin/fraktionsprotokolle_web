@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KuhnAnnette",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KuhnAnnette",
   "name": "Annette Kuhn",
   "givenName": "Annette",
   "familyName": "Kuhn",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1934-05-22",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "deathDate": "2019-11-27",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bonn"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Historikerin sowie Friedens- und Frauenforscherin; 1966–1999 Professorin für Geschichtsdidaktik und später auch für Frauenforschung an der Pädagogischen Hochschule Rheinland (Abteilung Bonn) und nach deren Auflösung 1980 an der Universität Bonn"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/115505180",
-    "https://de.wikipedia.org/wiki/Annette_Kuhn"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Annette Kuhn",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/115505180",
-    "wikipedia": "https://de.wikipedia.org/wiki/Annette_Kuhn",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Annette_Kuhn"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1934-05-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "2019-11-27",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Historikerin sowie Friedens- und Frauenforscherin; 1966–1999 Professorin für Geschichtsdidaktik und später auch für Frauenforschung an der Pädagogischen Hochschule Rheinland (Abteilung Bonn) und nach deren Auflösung 1980 an der Universität Bonn"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/115505180",
+    "https://de.wikipedia.org/wiki/Annette_Kuhn"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BaehreIngeLore",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BaehreIngeLore",
   "name": "Inge Lore Bähre, geb. Petri",
   "givenName": "Inge Lore Ursula",
   "familyName": "Bähre",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1920-02-13",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Insterburg"
-  },
-  "deathDate": "1987-01-23",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "West-Berlin"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Wirtschaftswissenschaftlerin und Bankenaufseherin, 1951–1962 im niedersächsischen Finanzministerium für Bankenaufsicht zuständig, ab 1962 Leiterin der Abteilung Kreditgenossenschaften und ab 1971 zudem Stellvertreterin des Präsidenten beim Bundesaufsichtsamt für das Kreditwesen (BAKred) sowie 1975-1984 dessen Präsidentin"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1097924246",
-    "https://de.wikipedia.org/wiki/Inge_Lore_B%C3%A4hre"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Inge Lore Bähre, geb. Petri",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1097924246",
-    "wikipedia": "https://de.wikipedia.org/wiki/Inge_Lore_B%C3%A4hre",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Inge_Lore_B%C3%A4hre"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1920-02-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Insterburg"
+  },
+  "deathDate": "1987-01-23",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "West-Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Wirtschaftswissenschaftlerin und Bankenaufseherin, 1951–1962 im niedersächsischen Finanzministerium für Bankenaufsicht zuständig, ab 1962 Leiterin der Abteilung Kreditgenossenschaften und ab 1971 zudem Stellvertreterin des Präsidenten beim Bundesaufsichtsamt für das Kreditwesen (BAKred) sowie 1975-1984 dessen Präsidentin"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1097924246",
+    "https://de.wikipedia.org/wiki/Inge_Lore_B%C3%A4hre"
+  ]
 }

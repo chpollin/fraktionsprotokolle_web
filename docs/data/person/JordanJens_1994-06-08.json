@@ -1,38 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "JordanJens_1994-06-08",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/JordanJens_1994-06-08",
   "name": "Jens Jordan",
   "givenName": "Jens",
   "familyName": "Jordan",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1943-04-24",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Nordrach/Schwarzwald"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Chemiker [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Freien Demokratischen Partei",
-        "alternateName": "FDP"
-      },
-      "startDate": "1994-06-08",
-      "endDate": "1994-11-10"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1339566834",
-    "https://de.wikipedia.org/wiki/Jens_Jordan_(Politiker)"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Jens Jordan",
@@ -64,7 +39,32 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001031",
     "gnd": "https://d-nb.info/gnd/1339566834",
-    "wikipedia": "https://de.wikipedia.org/wiki/Jens_Jordan_(Politiker)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Jens_Jordan_(Politiker)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1943-04-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Nordrach/Schwarzwald"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Chemiker [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1994-06-08",
+      "endDate": "1994-11-10"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1339566834",
+    "https://de.wikipedia.org/wiki/Jens_Jordan_(Politiker)"
+  ]
 }

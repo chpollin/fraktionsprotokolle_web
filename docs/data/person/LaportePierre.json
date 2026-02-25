@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "LaportePierre",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/LaportePierre",
   "name": "Pierre Laporte",
   "givenName": "Pierre",
   "familyName": "Laporte",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1921-02-25",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Montreal, Quebec"
-  },
-  "deathDate": "1970-10-17",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "kanadischer Politiker der Parti libéral du Québec, 1962–1966 Québecer Minister für Gemeinden, 1964–1966 zusätzlich Kulturminister, 1970 stv. Premierminister und Arbeitsminister von Québec"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/128558997",
-    "https://de.wikipedia.org/wiki/Pierre_Laporte"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Pierre Laporte",
@@ -43,10 +29,23 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/128558997",
-    "wikipedia": "https://de.wikipedia.org/wiki/Pierre_Laporte",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Pierre_Laporte"
   },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1921-02-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Montreal, Quebec"
+  },
+  "deathDate": "1970-10-17",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "kanadischer Politiker der Parti libéral du Québec, 1962–1966 Québecer Minister für Gemeinden, 1964–1966 zusätzlich Kulturminister, 1970 stv. Premierminister und Arbeitsminister von Québec"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/128558997",
+    "https://de.wikipedia.org/wiki/Pierre_Laporte"
+  ],
   "fraktionsprotokolle:sonstiges": "1970 von Terroristen der »Front de libération du Québecy (FLQ) entführt und am 17. Oktober 1970 ermordet"
 }

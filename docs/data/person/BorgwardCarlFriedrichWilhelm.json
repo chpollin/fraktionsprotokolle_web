@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BorgwardCarlFriedrichWilhelm",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BorgwardCarlFriedrichWilhelm",
   "name": "Carl Friedrich Wilhelm Borgward",
   "givenName": "Carl Friedrich Wilhelm",
   "familyName": "Borgward",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1890-11-10",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Altona"
-  },
-  "deathDate": "1963-07-28",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bremen"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "deutscher Ingenieur und Unternehmer (Automobilbau)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118513567",
-    "https://de.wikipedia.org/wiki/Carl_Friedrich_Wilhelm_Borgward"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Carl Friedrich Wilhelm Borgward",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118513567",
-    "wikipedia": "https://de.wikipedia.org/wiki/Carl_Friedrich_Wilhelm_Borgward",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Carl_Friedrich_Wilhelm_Borgward"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1890-11-10",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Altona"
+  },
+  "deathDate": "1963-07-28",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bremen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Ingenieur und Unternehmer (Automobilbau)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118513567",
+    "https://de.wikipedia.org/wiki/Carl_Friedrich_Wilhelm_Borgward"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PedersenGustav",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PedersenGustav",
   "name": "Gustav Pedersen",
   "givenName": "Gustav",
   "familyName": "Pedersen",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1893",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Aarhus"
-  },
-  "deathDate": "1975",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Kopenhagen"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1924–1926 und 1934–1964 Mitglied des dänischen Folketing (Sozialdemokraten), 1953–1964 Präsident des Folketing"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1225127823",
-    "https://da.wikipedia.org/wiki/Gustav_Pedersen"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Gustav Pedersen",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1225127823",
-    "wikipedia": "https://da.wikipedia.org/wiki/Gustav_Pedersen",
-    "viaf": null
-  }
+    "wikipedia": "https://da.wikipedia.org/wiki/Gustav_Pedersen"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1893",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Aarhus"
+  },
+  "deathDate": "1975",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Kopenhagen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1924–1926 und 1934–1964 Mitglied des dänischen Folketing (Sozialdemokraten), 1953–1964 Präsident des Folketing"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1225127823",
+    "https://da.wikipedia.org/wiki/Gustav_Pedersen"
+  ]
 }

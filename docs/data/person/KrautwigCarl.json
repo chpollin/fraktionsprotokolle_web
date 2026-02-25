@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KrautwigCarl",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KrautwigCarl",
   "name": "Carl Krautwig",
   "givenName": "Carl",
   "familyName": "Krautwig",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1904-11-05",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Köln"
-  },
-  "deathDate": "1981-12-18",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Köln"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1949–1963 im Bundeswirtschaftsministerium, 1953–1963 Leiter der Abteilung Gewerbliche Wirtschaft, 1963–1968 Staatssekretär im Bundesministerium für gesamtdeutsche Fragen, 1966–1969 Bevollmächtigter der Bundesrepublik in Berlin"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1031743308",
-    "https://de.wikipedia.org/wiki/Carl_Krautwig"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Carl Krautwig",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1031743308",
-    "wikipedia": "https://de.wikipedia.org/wiki/Carl_Krautwig",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Carl_Krautwig"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1904-11-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Köln"
+  },
+  "deathDate": "1981-12-18",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Köln"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1949–1963 im Bundeswirtschaftsministerium, 1953–1963 Leiter der Abteilung Gewerbliche Wirtschaft, 1963–1968 Staatssekretär im Bundesministerium für gesamtdeutsche Fragen, 1966–1969 Bevollmächtigter der Bundesrepublik in Berlin"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1031743308",
+    "https://de.wikipedia.org/wiki/Carl_Krautwig"
+  ]
 }

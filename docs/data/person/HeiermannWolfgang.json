@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HeiermannWolfgang",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HeiermannWolfgang",
   "name": "Wolfgang Heiermann",
   "givenName": "Wolfgang",
   "familyName": "Heiermann",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1935",
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Rechtsanwalt, Gutachter und Berater auf dem Gebiet des Bauvertragsrechts, Professor"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118041533"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Wolfgang Heiermann",
@@ -39,9 +29,15 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/118041533",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/118041533"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1935",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsanwalt, Gutachter und Berater auf dem Gebiet des Bauvertragsrechts, Professor"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118041533"
+  ]
 }

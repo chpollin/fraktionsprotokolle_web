@@ -1,35 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BauerHarald_1990-10-03",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BauerHarald_1990-10-03",
   "name": "Harald Bauer",
   "givenName": "Harald",
   "familyName": "Bauer",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1949-04-24",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Langendorf/Krs. Weißenfels"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Stellvertretender Vorsitzender b. Rat des Kreises Burg, Physiker [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1990-10-03",
-      "endDate": "1990-12-20"
-    }
-  ],
-  "sameAs": null,
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Harald Bauer",
@@ -59,9 +37,28 @@
     }
   ],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11000106",
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
-  }
+    "mdb_stammdaten": "11000106"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1949-04-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Langendorf/Krs. Weißenfels"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Stellvertretender Vorsitzender b. Rat des Kreises Burg, Physiker [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1990-10-03",
+      "endDate": "1990-12-20"
+    }
+  ]
 }

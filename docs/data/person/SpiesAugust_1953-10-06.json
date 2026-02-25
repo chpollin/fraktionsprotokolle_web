@@ -1,10 +1,53 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SpiesAugust_1953-10-06",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SpiesAugust_1953-10-06",
   "name": "August Spies",
   "givenName": "August",
   "familyName": "Spies",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "August Spies",
+    "forename": "August",
+    "surname": "Spies",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Brücken)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1893-12-13",
+    "place": "Brücken",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1972-06-30",
+    "place": "Brücken",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 3,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002197",
+    "gnd": "https://d-nb.info/gnd/1120449464",
+    "wikipedia": "https://de.wikipedia.org/wiki/August_Spies_(Politiker)"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1893-12-13",
   "birthPlace": {
@@ -45,46 +88,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/1120449464",
     "https://de.wikipedia.org/wiki/August_Spies_(Politiker)"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "August Spies",
-    "forename": "August",
-    "surname": "Spies",
-    "prefix": "",
-    "role_name": "",
-    "place": "(Brücken)"
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1893-12-13",
-    "place": "Brücken",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1972-06-30",
-    "place": "Brücken",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 2,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1953-10-06",
-      "to": "1957-10-06"
-    },
-    {
-      "period": 3,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1957-10-15",
-      "to": "1961-10-15"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11002197",
-    "gnd": "https://d-nb.info/gnd/1120449464",
-    "wikipedia": "https://de.wikipedia.org/wiki/August_Spies_(Politiker)",
-    "viaf": null
-  }
+  ]
 }

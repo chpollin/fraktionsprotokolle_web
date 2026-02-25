@@ -1,10 +1,53 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ModrowHans_1990-10-03",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ModrowHans_1990-10-03",
   "name": "Hans Modrow",
   "givenName": "Hans",
   "familyName": "Modrow",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans Modrow",
+    "forename": "Hans",
+    "surname": "Modrow",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1928-01-27",
+    "place": "Jasenitz, Kreis Randow, Provinz Pommern (heute: Jasienica, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2023-02-10",
+    "place": "Berlin",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 11,
+      "faction": "Grp. PDS",
+      "faction_full": "Gruppe der Partei des Demokratischen Sozialismus",
+      "from": "1990-10-03",
+      "to": "1990-12-20"
+    },
+    {
+      "period": 12,
+      "faction": "Grp. PDS/LL",
+      "faction_full": "Gruppe der Partei des Demokratischen Sozialismus/Linke Liste",
+      "from": "1990-12-20",
+      "to": "1994-11-10"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001518",
+    "gnd": "https://d-nb.info/gnd/118906925",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Modrow"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1928-01-27",
   "birthPlace": {
@@ -45,46 +88,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/118906925",
     "https://de.wikipedia.org/wiki/Hans_Modrow"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Hans Modrow",
-    "forename": "Hans",
-    "surname": "Modrow",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1928-01-27",
-    "place": "Jasenitz, Kreis Randow, Provinz Pommern (heute: Jasienica, Polen)",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "2023-02-10",
-    "place": "Berlin",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 11,
-      "faction": "Grp. PDS",
-      "faction_full": "Gruppe der Partei des Demokratischen Sozialismus",
-      "from": "1990-10-03",
-      "to": "1990-12-20"
-    },
-    {
-      "period": 12,
-      "faction": "Grp. PDS/LL",
-      "faction_full": "Gruppe der Partei des Demokratischen Sozialismus/Linke Liste",
-      "from": "1990-12-20",
-      "to": "1994-11-10"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11001518",
-    "gnd": "https://d-nb.info/gnd/118906925",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Modrow",
-    "viaf": null
-  }
+  ]
 }

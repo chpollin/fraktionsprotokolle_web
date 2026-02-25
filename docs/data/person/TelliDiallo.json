@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "TelliDiallo",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/TelliDiallo",
   "name": "Diallo Telli",
   "givenName": "Diallo",
   "familyName": "Telli",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1925",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Poredaka"
-  },
-  "deathDate": "1977-03-01",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Camp Boiro"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1964–1972 Generalsekretär der Organisation für Afrikanische Einheit"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/117912166X",
-    "https://de.wikipedia.org/wiki/Diallo_Telli"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Diallo Telli",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/117912166X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Diallo_Telli",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Diallo_Telli"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1925",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Poredaka"
+  },
+  "deathDate": "1977-03-01",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Camp Boiro"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1964–1972 Generalsekretär der Organisation für Afrikanische Einheit"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/117912166X",
+    "https://de.wikipedia.org/wiki/Diallo_Telli"
+  ]
 }

@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "LauffsHellmut",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/LauffsHellmut",
   "name": "Hellmut Lauffs",
   "givenName": "Hellmut",
   "familyName": "Lauffs",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1890",
-  "birthPlace": null,
-  "deathDate": "1985",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Gymnasiallehrer, 1951–1961 Vorsitzender des Evangelischen Arbeitskreises Rheinland"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/189484470"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hellmut Lauffs",
@@ -39,9 +29,16 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/189484470",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/189484470"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1890",
+  "deathDate": "1985",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Gymnasiallehrer, 1951–1961 Vorsitzender des Evangelischen Arbeitskreises Rheinland"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/189484470"
+  ]
 }

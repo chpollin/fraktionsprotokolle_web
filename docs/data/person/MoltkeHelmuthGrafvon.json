@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MoltkeHelmuthGrafvon",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MoltkeHelmuthGrafvon",
   "name": "Helmuth Karl Bernhard von Moltke, ab 1870 Graf, genannt Moltke der Ältere",
   "givenName": "Helmuth",
   "familyName": "Moltke",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1800-10-26",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Parchim"
-  },
-  "deathDate": "1891-04-24",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "preußischer Generalfeldmarschall"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118583387",
-    "https://de.wikipedia.org/wiki/Helmuth_von_Moltke_(Generalfeldmarschall)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Helmuth Karl Bernhard von Moltke, ab 1870 Graf, genannt Moltke der Ältere",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118583387",
-    "wikipedia": "https://de.wikipedia.org/wiki/Helmuth_von_Moltke_(Generalfeldmarschall)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Helmuth_von_Moltke_(Generalfeldmarschall)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1800-10-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Parchim"
+  },
+  "deathDate": "1891-04-24",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "preußischer Generalfeldmarschall"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118583387",
+    "https://de.wikipedia.org/wiki/Helmuth_von_Moltke_(Generalfeldmarschall)"
+  ]
 }

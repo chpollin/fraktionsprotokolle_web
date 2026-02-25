@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "NerlichMichael",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/NerlichMichael",
   "name": "Michael Nerlich",
   "givenName": "Michael Nerlich",
   "familyName": "Nerlich",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1939-03-11",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Brandenburg an der Havel"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Romanist, 1969–2000 Professor für Romanische Literaturwissenschaft an der TU Berlin"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/115759409",
-    "https://de.wikipedia.org/wiki/Michael_Nerlich"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Michael Nerlich",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/115759409",
-    "wikipedia": "https://de.wikipedia.org/wiki/Michael_Nerlich",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Michael_Nerlich"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1939-03-11",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Brandenburg an der Havel"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Romanist, 1969–2000 Professor für Romanische Literaturwissenschaft an der TU Berlin"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/115759409",
+    "https://de.wikipedia.org/wiki/Michael_Nerlich"
+  ]
 }

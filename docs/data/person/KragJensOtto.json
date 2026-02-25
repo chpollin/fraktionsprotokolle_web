@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KragJensOtto",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KragJensOtto",
   "name": "Jens Otto Krag",
   "givenName": "Jens Otto",
   "familyName": "Krag",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1914-09-15",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Randers"
-  },
-  "deathDate": "1978-06-22",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Skiveren, Kommune Frederikshavn"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1962–1968 Ministerpräsident von Dänemark, Nov. 1966–Sept. 1967 zugleich Außenminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/121452417",
-    "https://de.wikipedia.org/wiki/Jens_Otto_Krag"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Jens Otto Krag",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/121452417",
-    "wikipedia": "https://de.wikipedia.org/wiki/Jens_Otto_Krag",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Jens_Otto_Krag"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1914-09-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Randers"
+  },
+  "deathDate": "1978-06-22",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Skiveren, Kommune Frederikshavn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1962–1968 Ministerpräsident von Dänemark, Nov. 1966–Sept. 1967 zugleich Außenminister"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/121452417",
+    "https://de.wikipedia.org/wiki/Jens_Otto_Krag"
+  ]
 }

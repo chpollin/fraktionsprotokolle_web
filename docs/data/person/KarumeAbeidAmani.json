@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KarumeAbeidAmani",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KarumeAbeidAmani",
   "name": "Abeid Amani Karume",
   "givenName": "Abeid Amani",
   "familyName": "Karume",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1905-04-04",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Mwera"
-  },
-  "deathDate": "1972-04-07",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Sansibar-Stadt"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Januar–April 1964 Präsident der Volksrepublik Sansibar, danach Erster Vizepräsident der Vereinigten Republik von Tanganjika und Sansibar (seit Oktober 1964: Vereinigte Republik Tansania)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1015426263",
-    "https://de.wikipedia.org/wiki/Abeid_Amani_Karume"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Abeid Amani Karume",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1015426263",
-    "wikipedia": "https://de.wikipedia.org/wiki/Abeid_Amani_Karume",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Abeid_Amani_Karume"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1905-04-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Mwera"
+  },
+  "deathDate": "1972-04-07",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Sansibar-Stadt"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Januar–April 1964 Präsident der Volksrepublik Sansibar, danach Erster Vizepräsident der Vereinigten Republik von Tanganjika und Sansibar (seit Oktober 1964: Vereinigte Republik Tansania)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1015426263",
+    "https://de.wikipedia.org/wiki/Abeid_Amani_Karume"
+  ]
 }

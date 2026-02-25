@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KochReinhard",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KochReinhard",
   "name": "Reinhard Koch",
   "givenName": "Reinhard",
   "familyName": "Koch",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1920-07-18",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Sulzbach, Saar"
-  },
-  "deathDate": "2009-08-17",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Saarbrücken"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1965–1970 MdL Saarland (FDP/DPS), 1965–1967 Minister für Finanzen und Forsten, 1967–1970 Minister für Wirtschaft, Verkehr und Landwirtschaft des Saarlands"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1120589592",
-    "https://de.wikipedia.org/wiki/Reinhard_Koch_(Politiker)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Reinhard Koch",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1120589592",
-    "wikipedia": "https://de.wikipedia.org/wiki/Reinhard_Koch_(Politiker)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Reinhard_Koch_(Politiker)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1920-07-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Sulzbach, Saar"
+  },
+  "deathDate": "2009-08-17",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Saarbrücken"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1965–1970 MdL Saarland (FDP/DPS), 1965–1967 Minister für Finanzen und Forsten, 1967–1970 Minister für Wirtschaft, Verkehr und Landwirtschaft des Saarlands"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1120589592",
+    "https://de.wikipedia.org/wiki/Reinhard_Koch_(Politiker)"
+  ]
 }

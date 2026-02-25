@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "CarlosIlichRamirezSanchez",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/CarlosIlichRamirezSanchez",
   "name": "Ilich Ramírez Sánchez, bekannt als Carlos, der Schakal",
   "givenName": "Ilich Ramírez",
   "familyName": "Sánchez",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1949-10-12",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Michelena, Táchira"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "venezolanischer Terrorist, beging zwischen 1973 und 1994 in Westeuropa und verschiedenen arabischen Ländern zahlreiche Anschläge mit vielen Toten und Verletzten"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119033577",
-    "https://de.wikipedia.org/wiki/Ilich_Ram%C3%ADrez_S%C3%A1nchez"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Ilich Ramírez Sánchez, bekannt als Carlos, der Schakal",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119033577",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ilich_Ram%C3%ADrez_S%C3%A1nchez",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ilich_Ram%C3%ADrez_S%C3%A1nchez"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1949-10-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Michelena, Táchira"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "venezolanischer Terrorist, beging zwischen 1973 und 1994 in Westeuropa und verschiedenen arabischen Ländern zahlreiche Anschläge mit vielen Toten und Verletzten"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119033577",
+    "https://de.wikipedia.org/wiki/Ilich_Ram%C3%ADrez_S%C3%A1nchez"
+  ]
 }

@@ -1,24 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GrauWilhelm",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GrauWilhelm",
   "name": "Wilhelm Grau",
   "givenName": "Wilhelm",
   "familyName": "Grau",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1901",
-  "birthPlace": null,
-  "deathDate": "1975",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "deutscher Ministerialbeamter, 1949–1955 Referatsleiter im Bundeskanzleramt, 1955–1959 im Bundesministerium für Atomfragen, 1959–1966 im Bundesverkehrsministerium"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1030243549",
-    "https://de.wikipedia.org/wiki/Wilhelm_Grau_(Ministerialdirektor)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Wilhelm Grau",
@@ -40,9 +29,18 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1030243549",
-    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_Grau_(Ministerialdirektor)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Wilhelm_Grau_(Ministerialdirektor)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1901",
+  "deathDate": "1975",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Ministerialbeamter, 1949–1955 Referatsleiter im Bundeskanzleramt, 1955–1959 im Bundesministerium für Atomfragen, 1959–1966 im Bundesverkehrsministerium"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1030243549",
+    "https://de.wikipedia.org/wiki/Wilhelm_Grau_(Ministerialdirektor)"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DobryninAnatolijFjodorowitsch",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DobryninAnatolijFjodorowitsch",
   "name": "Anatolij Fjodorowitsch Dobrynin",
   "givenName": "Anatolij Fjodorowitsch",
   "familyName": "Dobrynin",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1919-11-16",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Krasnaja Gorka, Moschaisk im Gouvernement Moskau"
-  },
-  "deathDate": "2010-04-06",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Moskau"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1962–1986 Botschafter der Sowjetunion in den USA"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119338777",
-    "https://de.wikipedia.org/wiki/Anatoli_Fjodorowitsch_Dobrynin"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Anatolij Fjodorowitsch Dobrynin",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119338777",
-    "wikipedia": "https://de.wikipedia.org/wiki/Anatoli_Fjodorowitsch_Dobrynin",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Anatoli_Fjodorowitsch_Dobrynin"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1919-11-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Krasnaja Gorka, Moschaisk im Gouvernement Moskau"
+  },
+  "deathDate": "2010-04-06",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Moskau"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1962–1986 Botschafter der Sowjetunion in den USA"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119338777",
+    "https://de.wikipedia.org/wiki/Anatoli_Fjodorowitsch_Dobrynin"
+  ]
 }

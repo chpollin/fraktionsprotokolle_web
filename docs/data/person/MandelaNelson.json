@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MandelaNelson",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MandelaNelson",
   "name": "Nelson Mandela",
   "givenName": "Nelson Rolihlahla",
   "familyName": "Mandela",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1918-07-18",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Mvezo"
-  },
-  "deathDate": "2013-12-05",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Johannesburg"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Aktivist gegen die Apartheid und Politiker, 1963–1990 aufgrund seines Widerstandes gegen die Apartheid inahftiert, 1994-1999 Präsident Südafrikas"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118730541",
-    "https://de.wikipedia.org/wiki/Nelson_Mandela"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Nelson Mandela",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118730541",
-    "wikipedia": "https://de.wikipedia.org/wiki/Nelson_Mandela",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Nelson_Mandela"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1918-07-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Mvezo"
+  },
+  "deathDate": "2013-12-05",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Johannesburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Aktivist gegen die Apartheid und Politiker, 1963–1990 aufgrund seines Widerstandes gegen die Apartheid inahftiert, 1994-1999 Präsident Südafrikas"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118730541",
+    "https://de.wikipedia.org/wiki/Nelson_Mandela"
+  ]
 }

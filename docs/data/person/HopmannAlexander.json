@@ -1,24 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HopmannAlexander",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HopmannAlexander",
   "name": "Alexander Hopmann",
   "givenName": "Alexander",
   "familyName": "Hopmann",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1906-11-20",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Schwerin"
-  },
-  "deathDate": "1967",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Diplomat, 1959–1961 Ministerialdirektor und Leiter der Personalabteilung im Auswärtigen Amt"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Alexander Hopmann",
@@ -39,10 +28,16 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Male",
+  "birthDate": "1906-11-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Schwerin"
+  },
+  "deathDate": "1967",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Diplomat, 1959–1961 Ministerialdirektor und Leiter der Personalabteilung im Auswärtigen Amt"
   }
 }

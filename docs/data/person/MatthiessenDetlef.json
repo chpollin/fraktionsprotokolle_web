@@ -1,26 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MatthiessenDetlef",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MatthiessenDetlef",
   "name": "Detlef Matthiessen",
   "givenName": "Detlef",
   "familyName": "Matthiessen",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1954-05-14",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Schülp (Dithmarschen)"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Tierarzt, 1984–1986 Mitglied im Landesvorstand der Grünen im Landesverband Schleswig-Holstein und Mitglied des Bundeshauptausschusses der Grünen, 1984–1996 Sprecher der Landesarbeitsgemeinschaft Landwirtschaft, 1996–2000 sowie 2002–2005 und 2006–2017 MdL Niedersachsen, 2000–2005 Geschäftsführer der Fördergesellschaft Windenergie e. V."
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Detlef_Matthiessen"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Detlef Matthiessen",
@@ -42,9 +29,19 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://de.wikipedia.org/wiki/Detlef_Matthiessen",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Detlef_Matthiessen"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1954-05-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Schülp (Dithmarschen)"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Tierarzt, 1984–1986 Mitglied im Landesvorstand der Grünen im Landesverband Schleswig-Holstein und Mitglied des Bundeshauptausschusses der Grünen, 1984–1996 Sprecher der Landesarbeitsgemeinschaft Landwirtschaft, 1996–2000 sowie 2002–2005 und 2006–2017 MdL Niedersachsen, 2000–2005 Geschäftsführer der Fördergesellschaft Windenergie e. V."
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Detlef_Matthiessen"
+  ]
 }

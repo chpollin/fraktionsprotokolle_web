@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WegenerBettina",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WegenerBettina",
   "name": "Bettina Wegener",
   "givenName": "Bettina",
   "familyName": "Wegener",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1947-11-04",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Liedermacherin und Lyrikerin"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118004034",
-    "https://de.wikipedia.org/wiki/Bettina_Wegner"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Bettina Wegener",
@@ -43,10 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118004034",
-    "wikipedia": "https://de.wikipedia.org/wiki/Bettina_Wegner",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Bettina_Wegner"
   },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1947-11-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Liedermacherin und Lyrikerin"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118004034",
+    "https://de.wikipedia.org/wiki/Bettina_Wegner"
+  ],
   "fraktionsprotokolle:sonstiges": "1983 Übersiedelung aus der DDR nach Berlin (West)"
 }

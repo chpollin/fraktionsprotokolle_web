@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KiehlDieter",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KiehlDieter",
   "name": "Dieter Kiehl",
   "givenName": "Dieter",
   "familyName": "Kiehl",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1926",
-  "birthPlace": null,
-  "deathDate": "2014",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Pressesprecher der CSU, Journalist"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1075348390"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Dieter Kiehl",
@@ -39,9 +29,16 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/1075348390",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/1075348390"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1926",
+  "deathDate": "2014",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Pressesprecher der CSU, Journalist"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1075348390"
+  ]
 }

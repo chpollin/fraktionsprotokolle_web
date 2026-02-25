@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PfenderFranz_1949-09-07",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PfenderFranz_1949-09-07",
   "name": "Franz Pfender",
   "givenName": "Franz",
   "familyName": "Pfender",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1899-08-05",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Untersulmetingen/Laupheim-Ulm"
-  },
-  "deathDate": "1972-07-09",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Laupheim"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Angestellter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1949-09-07",
-      "endDate": "1953-09-07"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1116818841",
-    "https://de.wikipedia.org/wiki/Franz_Pfender"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Franz Pfender",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001705",
     "gnd": "https://d-nb.info/gnd/1116818841",
-    "wikipedia": "https://de.wikipedia.org/wiki/Franz_Pfender",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Franz_Pfender"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1899-08-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Untersulmetingen/Laupheim-Ulm"
+  },
+  "deathDate": "1972-07-09",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Laupheim"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Angestellter [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1953-09-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1116818841",
+    "https://de.wikipedia.org/wiki/Franz_Pfender"
+  ]
 }

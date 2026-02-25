@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MauroyPierre",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MauroyPierre",
   "name": "Pierre Mauroy",
   "givenName": "Pierre",
   "familyName": "Mauroy",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1928-07-05",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Cartignies, Département Nord"
-  },
-  "deathDate": "2013-06-07",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Clamart, Département Hauts-de-Seine"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "französischer Politiker (Sozialistische Partei), 1973–2001 Bürgermeister von Lille, 1973–1981 und 1986–1992 Mitglied der Nationalversammlung, 1979–1980 MdEP (SPE), 1981–1984 Premierminister von Frankreich, 1988–1992 Erster Sekretär der Sozialistischen Partei, 1992–1999 Präsident der Sozialistischen Internationale, 1992–2011 Mitglied des französischen Senats"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119338599",
-    "https://de.wikipedia.org/wiki/Pierre_Mauroy"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Pierre Mauroy",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119338599",
-    "wikipedia": "https://de.wikipedia.org/wiki/Pierre_Mauroy",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Pierre_Mauroy"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1928-07-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Cartignies, Département Nord"
+  },
+  "deathDate": "2013-06-07",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Clamart, Département Hauts-de-Seine"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "französischer Politiker (Sozialistische Partei), 1973–2001 Bürgermeister von Lille, 1973–1981 und 1986–1992 Mitglied der Nationalversammlung, 1979–1980 MdEP (SPE), 1981–1984 Premierminister von Frankreich, 1988–1992 Erster Sekretär der Sozialistischen Partei, 1992–1999 Präsident der Sozialistischen Internationale, 1992–2011 Mitglied des französischen Senats"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119338599",
+    "https://de.wikipedia.org/wiki/Pierre_Mauroy"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchoellhornJohannBaptist",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchoellhornJohannBaptist",
   "name": "Johann Baptist Schöllhorn",
   "givenName": "Johann Baptist",
   "familyName": "Schöllhorn",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1922-03-16",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Bischofsmais"
-  },
-  "deathDate": "2009-12-06",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Kiel"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1967–1972 beamteter Staatssekretär im Bundesministerium für Wirtschaft, Präsident der Landeszentralbank in Schleswig-Holstein"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1030156247",
-    "https://de.wikipedia.org/wiki/Johann_Baptist_Sch%C3%B6llhorn"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Johann Baptist Schöllhorn",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1030156247",
-    "wikipedia": "https://de.wikipedia.org/wiki/Johann_Baptist_Sch%C3%B6llhorn",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Johann_Baptist_Sch%C3%B6llhorn"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1922-03-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bischofsmais"
+  },
+  "deathDate": "2009-12-06",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Kiel"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1967–1972 beamteter Staatssekretär im Bundesministerium für Wirtschaft, Präsident der Landeszentralbank in Schleswig-Holstein"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1030156247",
+    "https://de.wikipedia.org/wiki/Johann_Baptist_Sch%C3%B6llhorn"
+  ]
 }

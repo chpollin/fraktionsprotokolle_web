@@ -1,35 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchmidAngela_2004-07-28",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchmidAngela_2004-07-28",
   "name": "Angela Schmid",
   "givenName": "Angela",
   "familyName": "Schmid",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1943-08-01",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Nordhausen"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Juristin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "2004-07-28",
-      "endDate": "2005-10-18"
-    }
-  ],
-  "sameAs": null,
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Angela Schmid",
@@ -59,9 +37,28 @@
     }
   ],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11003708",
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
-  }
+    "mdb_stammdaten": "11003708"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1943-08-01",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Nordhausen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Juristin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "2004-07-28",
+      "endDate": "2005-10-18"
+    }
+  ]
 }

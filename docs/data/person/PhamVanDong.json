@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PhamVanDong",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PhamVanDong",
   "name": "Pham Van Dong",
   "givenName": "Pham Van Dong",
   "familyName": "Pham Van Dong",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1906-03-01",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Duc Tan"
-  },
-  "deathDate": "2000-04-29",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Hanoi"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1955–1976 Premierminister von Nordvietnam, 1976–1987 Premierminister des wiedervereinigten Vietnam"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/11307168X",
-    "https://de.wikipedia.org/wiki/Ph%E1%BA%A1m_V%C4%83n_%C4%90%E1%BB%93ng"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Pham Van Dong",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/11307168X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ph%E1%BA%A1m_V%C4%83n_%C4%90%E1%BB%93ng",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ph%E1%BA%A1m_V%C4%83n_%C4%90%E1%BB%93ng"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1906-03-01",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Duc Tan"
+  },
+  "deathDate": "2000-04-29",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hanoi"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1955–1976 Premierminister von Nordvietnam, 1976–1987 Premierminister des wiedervereinigten Vietnam"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/11307168X",
+    "https://de.wikipedia.org/wiki/Ph%E1%BA%A1m_V%C4%83n_%C4%90%E1%BB%93ng"
+  ]
 }

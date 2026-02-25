@@ -1,29 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BishopWilliamAlec",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BishopWilliamAlec",
   "name": "William Alec Bishop",
   "givenName": "William Henry Alexander (Alec)",
   "familyName": "Bishop",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1897-06-20",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Plymstock"
-  },
-  "deathDate": "1984-05-15",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Hastings"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "britischer Offizier, 1948–1950 Landeskommissar für Nordrhein-Westfalen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://en.wikipedia.org/wiki/Alec_Bishop"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "William Alec Bishop",
@@ -45,9 +29,24 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://en.wikipedia.org/wiki/Alec_Bishop",
-    "viaf": null
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/Alec_Bishop"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1897-06-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Plymstock"
+  },
+  "deathDate": "1984-05-15",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hastings"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "britischer Offizier, 1948–1950 Landeskommissar für Nordrhein-Westfalen"
+  },
+  "sameAs": [
+    "https://en.wikipedia.org/wiki/Alec_Bishop"
+  ]
 }

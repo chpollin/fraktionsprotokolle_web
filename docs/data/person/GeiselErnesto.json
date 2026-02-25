@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GeiselErnesto",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GeiselErnesto",
   "name": "Ernesto Beckmann Geisel",
   "givenName": "Ernesto",
   "familyName": "Geisel",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1908-08-03",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Bento Gonçalves RS"
-  },
-  "deathDate": "1996-09-12",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Rio de Janeiro"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "während der Militärdiktatur in den 1970er Jahren Staatspräsident Brasiliens"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119460084",
-    "https://de.wikipedia.org/wiki/Ernesto_Geisel"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Ernesto Beckmann Geisel",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119460084",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ernesto_Geisel",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ernesto_Geisel"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1908-08-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bento Gonçalves RS"
+  },
+  "deathDate": "1996-09-12",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Rio de Janeiro"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "während der Militärdiktatur in den 1970er Jahren Staatspräsident Brasiliens"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119460084",
+    "https://de.wikipedia.org/wiki/Ernesto_Geisel"
+  ]
 }

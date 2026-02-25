@@ -1,24 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RustMathias",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RustMathias",
   "name": "Mathias Rust",
   "givenName": "Mathias",
   "familyName": "Rust",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1968-06-01",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Wedel"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": null,
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118969072",
-    "https://de.wikipedia.org/wiki/Mathias_Rust"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Mathias Rust",
@@ -40,10 +29,18 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118969072",
-    "wikipedia": "https://de.wikipedia.org/wiki/Mathias_Rust",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Mathias_Rust"
   },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1968-06-01",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Wedel"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118969072",
+    "https://de.wikipedia.org/wiki/Mathias_Rust"
+  ],
   "fraktionsprotokolle:sonstiges": "Privatpilot, der am 28. Mai 1987 mit einem Flugzeug vom Typ Cessna 172 P auf der Großen Moskwa-Brücke unweit des Roten Platzes in Moskau landete"
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BeckerErwinWilly",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BeckerErwinWilly",
   "name": "Erwin Willy Becker",
   "givenName": "Erwin Willy",
   "familyName": "Becker",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1920-08-24",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Magdeburg"
-  },
-  "deathDate": "2011-05-19",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Karlsruhe"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Physiker und Hochschullehrer, Professur für Kernverfahrenstechnik sowie Mikrostrukturtechnik an der Universität Karlsruhe"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/124661548",
-    "https://de.wikipedia.org/wiki/Erwin_Willy_Becker"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Erwin Willy Becker",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/124661548",
-    "wikipedia": "https://de.wikipedia.org/wiki/Erwin_Willy_Becker",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Erwin_Willy_Becker"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1920-08-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Magdeburg"
+  },
+  "deathDate": "2011-05-19",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Karlsruhe"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Physiker und Hochschullehrer, Professur für Kernverfahrenstechnik sowie Mikrostrukturtechnik an der Universität Karlsruhe"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/124661548",
+    "https://de.wikipedia.org/wiki/Erwin_Willy_Becker"
+  ]
 }

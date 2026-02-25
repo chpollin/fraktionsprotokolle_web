@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DuclosJacques",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DuclosJacques",
   "name": "Jacques Duclos",
   "givenName": "Jacques",
   "familyName": "Duclos",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1896-10-02",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Louey, Département Haute-Pyrénées"
-  },
-  "deathDate": "1975-04-25",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Montreuil"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "französischer Senator, 1969 Kandidat der Kommunistischen Partei bei der französischen Präsidentenwahl"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118672584",
-    "https://de.wikipedia.org/wiki/Jacques_Duclos"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Jacques Duclos",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118672584",
-    "wikipedia": "https://de.wikipedia.org/wiki/Jacques_Duclos",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Jacques_Duclos"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1896-10-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Louey, Département Haute-Pyrénées"
+  },
+  "deathDate": "1975-04-25",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Montreuil"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "französischer Senator, 1969 Kandidat der Kommunistischen Partei bei der französischen Präsidentenwahl"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118672584",
+    "https://de.wikipedia.org/wiki/Jacques_Duclos"
+  ]
 }

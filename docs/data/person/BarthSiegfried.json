@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BarthSiegfried",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BarthSiegfried",
   "name": "Siegfried Barth",
   "givenName": "Siegfried",
   "familyName": "Barth",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1916-01-23",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Augsburg"
-  },
-  "deathDate": "1997-12-19",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bad Wörishofen"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Oberst der Luftwaffe der Bundeswehr, 1958–1961 erster Kommodore des Jagdbombergeschwaders 32 in Lechfeld, 1961 Beschwerde gegen Verteidigungsminister Strauß wegen Dienststellen- und Ehrenminderung, 1961–1963 Abteilungsleiter im Allgemeinen Luftwaffenamt, 1963–1969 bei der Militärberatergruppe Operations-Research der Luftwaffe in Ottobrunn, seit 1965 deren Leiter, 1969–1972 im NATO-Hauptquartier"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1029668531",
-    "https://de.wikipedia.org/wiki/Siegfried_Barth_(Offizier)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Siegfried Barth",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1029668531",
-    "wikipedia": "https://de.wikipedia.org/wiki/Siegfried_Barth_(Offizier)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Siegfried_Barth_(Offizier)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1916-01-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Augsburg"
+  },
+  "deathDate": "1997-12-19",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bad Wörishofen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Oberst der Luftwaffe der Bundeswehr, 1958–1961 erster Kommodore des Jagdbombergeschwaders 32 in Lechfeld, 1961 Beschwerde gegen Verteidigungsminister Strauß wegen Dienststellen- und Ehrenminderung, 1961–1963 Abteilungsleiter im Allgemeinen Luftwaffenamt, 1963–1969 bei der Militärberatergruppe Operations-Research der Luftwaffe in Ottobrunn, seit 1965 deren Leiter, 1969–1972 im NATO-Hauptquartier"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1029668531",
+    "https://de.wikipedia.org/wiki/Siegfried_Barth_(Offizier)"
+  ]
 }

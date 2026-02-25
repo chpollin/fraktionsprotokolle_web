@@ -1,38 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ThaddenFranz-Lorenz_1969-10-20",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ThaddenFranz-Lorenz_1969-10-20",
   "name": "Franz-Lorenz von Thadden",
   "givenName": "Franz-Lorenz",
   "familyName": "Thadden",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1924-05-06",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Vahnerow/Pommern (heute: Wapnica, Polen)"
-  },
-  "deathDate": "1979-04-23",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Journalist [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1969-10-20",
-      "endDate": "1972-09-22"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1072577577",
-    "https://de.wikipedia.org/wiki/Franz-Lorenz_von_Thadden"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Franz-Lorenz von Thadden",
@@ -64,7 +39,33 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11002310",
     "gnd": "https://d-nb.info/gnd/1072577577",
-    "wikipedia": "https://de.wikipedia.org/wiki/Franz-Lorenz_von_Thadden",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Franz-Lorenz_von_Thadden"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1924-05-06",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Vahnerow/Pommern (heute: Wapnica, Polen)"
+  },
+  "deathDate": "1979-04-23",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1969-10-20",
+      "endDate": "1972-09-22"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1072577577",
+    "https://de.wikipedia.org/wiki/Franz-Lorenz_von_Thadden"
+  ]
 }

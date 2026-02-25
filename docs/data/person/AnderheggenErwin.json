@@ -1,29 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "AnderheggenErwin",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/AnderheggenErwin",
   "name": "Erwin Anderheggen",
   "givenName": "Erwin",
   "familyName": "Anderheggen",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1909-01-23",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Köln"
-  },
-  "deathDate": "1984-07-30",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Düsseldorf"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Bergwerksdirektor, 1956–1969 Vorstandsvorsitzender der Steinkohlenbergwerk Friedrich Heinrich AG in Kamp-Lintfort, 1969–1972 Vorstandsmitglied, ab 1972 Vorstandsvorsitzender des Saarbergbaus in Saarbrücken"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1097923916"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Erwin Anderheggen",
@@ -45,9 +29,24 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/1097923916",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/1097923916"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1909-01-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Köln"
+  },
+  "deathDate": "1984-07-30",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Düsseldorf"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Bergwerksdirektor, 1956–1969 Vorstandsvorsitzender der Steinkohlenbergwerk Friedrich Heinrich AG in Kamp-Lintfort, 1969–1972 Vorstandsmitglied, ab 1972 Vorstandsvorsitzender des Saarbergbaus in Saarbrücken"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1097923916"
+  ]
 }

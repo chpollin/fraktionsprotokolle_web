@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BriandAristide",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BriandAristide",
   "name": "Aristide Briand",
   "givenName": "Aristide",
   "familyName": "Briand",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1862-03-28",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Nantes"
-  },
-  "deathDate": "1932-03-07",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Paris"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1925–1932 französischer Außenminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118674056",
-    "https://de.wikipedia.org/wiki/Aristide_Briand"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Aristide Briand",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118674056",
-    "wikipedia": "https://de.wikipedia.org/wiki/Aristide_Briand",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Aristide_Briand"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1862-03-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Nantes"
+  },
+  "deathDate": "1932-03-07",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1925–1932 französischer Außenminister"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118674056",
+    "https://de.wikipedia.org/wiki/Aristide_Briand"
+  ]
 }

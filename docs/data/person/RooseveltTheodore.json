@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RooseveltTheodore",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RooseveltTheodore",
   "name": "Theodore Roosevelt",
   "givenName": "Theodore",
   "familyName": "Roosevelt",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1858-10-27",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "New York City, New York"
-  },
-  "deathDate": "1919-01-06",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Oyster Bay, New York"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1901–1909 Präsident der Vereinigten Staaten von Amerika"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118749633",
-    "https://de.wikipedia.org/wiki/Theodore_Roosevelt"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Theodore Roosevelt",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118749633",
-    "wikipedia": "https://de.wikipedia.org/wiki/Theodore_Roosevelt",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Theodore_Roosevelt"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1858-10-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "New York City, New York"
+  },
+  "deathDate": "1919-01-06",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Oyster Bay, New York"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1901–1909 Präsident der Vereinigten Staaten von Amerika"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118749633",
+    "https://de.wikipedia.org/wiki/Theodore_Roosevelt"
+  ]
 }

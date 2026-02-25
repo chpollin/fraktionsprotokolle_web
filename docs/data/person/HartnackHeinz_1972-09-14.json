@@ -1,38 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HartnackHeinz_1972-09-14",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HartnackHeinz_1972-09-14",
   "name": "Heinz Hartnack",
   "givenName": "Heinz",
   "familyName": "Hartnack",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1929-07-02",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "deathDate": "1990-01-01",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Verlagskaufmann [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1972-09-14",
-      "endDate": "1972-09-22"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1081799145",
-    "https://de.wikipedia.org/wiki/Heinz_Hartnack"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Heinz Hartnack",
@@ -64,7 +39,33 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000817",
     "gnd": "https://d-nb.info/gnd/1081799145",
-    "wikipedia": "https://de.wikipedia.org/wiki/Heinz_Hartnack",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Heinz_Hartnack"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1929-07-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "1990-01-01",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Verlagskaufmann [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1972-09-14",
+      "endDate": "1972-09-22"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1081799145",
+    "https://de.wikipedia.org/wiki/Heinz_Hartnack"
+  ]
 }

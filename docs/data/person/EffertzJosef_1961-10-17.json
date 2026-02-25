@@ -1,10 +1,53 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "EffertzJosef_1961-10-17",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/EffertzJosef_1961-10-17",
   "name": "Josef Effertz",
   "givenName": "Josef",
   "familyName": "Effertz",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Josef Effertz",
+    "forename": "Josef",
+    "surname": "Effertz",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1907-03-29",
+    "place": "Fliesteden",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1984-05-31",
+    "place": "Bonn",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 4,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    },
+    {
+      "period": 5,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1965-10-19",
+      "to": "1968-03-04"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000436",
+    "gnd": "https://d-nb.info/gnd/138823669",
+    "wikipedia": "https://de.wikipedia.org/wiki/Josef_Effertz"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1907-03-29",
   "birthPlace": {
@@ -45,46 +88,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/138823669",
     "https://de.wikipedia.org/wiki/Josef_Effertz"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Josef Effertz",
-    "forename": "Josef",
-    "surname": "Effertz",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1907-03-29",
-    "place": "Fliesteden",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1984-05-31",
-    "place": "Bonn",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 4,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1961-10-17",
-      "to": "1965-10-17"
-    },
-    {
-      "period": 5,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1965-10-19",
-      "to": "1968-03-04"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11000436",
-    "gnd": "https://d-nb.info/gnd/138823669",
-    "wikipedia": "https://de.wikipedia.org/wiki/Josef_Effertz",
-    "viaf": null
-  }
+  ]
 }

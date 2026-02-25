@@ -1,38 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HickelErika_1983-03-29",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HickelErika_1983-03-29",
   "name": "Erika Hickel",
   "givenName": "Erika",
   "familyName": "Hickel",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1934-09-14",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Königsberg, Ostpreußen (heute: Kaliningrad, Russland)"
-  },
-  "deathDate": "2020-09-07",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Universitätsprofessorin, Apothekerin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion Die Grünen",
-        "alternateName": "Grüne"
-      },
-      "startDate": "1983-03-29",
-      "endDate": "1985-03-09"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/132401835",
-    "https://de.wikipedia.org/wiki/Erika_Hickel"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Erika Hickel",
@@ -64,7 +39,33 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000898",
     "gnd": "https://d-nb.info/gnd/132401835",
-    "wikipedia": "https://de.wikipedia.org/wiki/Erika_Hickel",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Erika_Hickel"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1934-09-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Königsberg, Ostpreußen (heute: Kaliningrad, Russland)"
+  },
+  "deathDate": "2020-09-07",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Universitätsprofessorin, Apothekerin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Die Grünen",
+        "alternateName": "Grüne"
+      },
+      "startDate": "1983-03-29",
+      "endDate": "1985-03-09"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/132401835",
+    "https://de.wikipedia.org/wiki/Erika_Hickel"
+  ]
 }

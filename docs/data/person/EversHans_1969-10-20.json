@@ -1,10 +1,60 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "EversHans_1969-10-20",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/EversHans_1969-10-20",
   "name": "Hans Evers",
   "givenName": "Hans",
   "familyName": "Evers",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans Evers",
+    "forename": "Hans",
+    "surname": "Evers",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1925-09-24",
+    "place": "Helsinki",
+    "country": "Finnland"
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1999-03-03",
+    "place": "Freiburg im Breisgau",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 6,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1969-10-20",
+      "to": "1972-09-22"
+    },
+    {
+      "period": 7,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1972-12-13",
+      "to": "1976-12-13"
+    },
+    {
+      "period": 8,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1976-12-14",
+      "to": "1980-11-04"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000503",
+    "gnd": "https://d-nb.info/gnd/14123055X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Evers_(Politiker)"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1925-09-24",
   "birthPlace": {
@@ -55,53 +105,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/14123055X",
     "https://de.wikipedia.org/wiki/Hans_Evers_(Politiker)"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Hans Evers",
-    "forename": "Hans",
-    "surname": "Evers",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1925-09-24",
-    "place": "Helsinki",
-    "country": "Finnland"
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1999-03-03",
-    "place": "Freiburg im Breisgau",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 6,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1969-10-20",
-      "to": "1972-09-22"
-    },
-    {
-      "period": 7,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1972-12-13",
-      "to": "1976-12-13"
-    },
-    {
-      "period": 8,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1976-12-14",
-      "to": "1980-11-04"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11000503",
-    "gnd": "https://d-nb.info/gnd/14123055X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Evers_(Politiker)",
-    "viaf": null
-  }
+  ]
 }

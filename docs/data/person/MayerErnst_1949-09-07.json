@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MayerErnst_1949-09-07",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MayerErnst_1949-09-07",
   "name": "Ernst Mayer",
   "givenName": "Ernst",
   "familyName": "Mayer",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1901-06-08",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Zweibrücken"
-  },
-  "deathDate": "1952-12-18",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Stuttgart"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Redakteur [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Freien Demokratischen Partei",
-        "alternateName": "FDP"
-      },
-      "startDate": "1949-09-07",
-      "endDate": "1952-12-18"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1031764135",
-    "https://de.wikipedia.org/wiki/Ernst_Mayer_(Politiker,_1901)"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Ernst Mayer",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001446",
     "gnd": "https://d-nb.info/gnd/1031764135",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ernst_Mayer_(Politiker,_1901)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ernst_Mayer_(Politiker,_1901)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1901-06-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Zweibrücken"
+  },
+  "deathDate": "1952-12-18",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Stuttgart"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Redakteur [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1949-09-07",
+      "endDate": "1952-12-18"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1031764135",
+    "https://de.wikipedia.org/wiki/Ernst_Mayer_(Politiker,_1901)"
+  ]
 }

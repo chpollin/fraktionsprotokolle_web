@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DegrelleLeon",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DegrelleLeon",
   "name": "Léon Degrelle",
   "givenName": "Léon",
   "familyName": "Degrelle",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1906-06-15",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Bouillon"
-  },
-  "deathDate": "1994-03-31",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Malaga"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "belgischer Kommandeur SS-Freiwilligen-Legion »Wallonien« (Obersturmbannführer Waffen-SS), 1945 Flucht nach Spanien, in Abwesenheit von einem belgischen Sondergericht zum Tode verurteilt"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119131374",
-    "https://de.wikipedia.org/wiki/L%C3%A9on_Degrelle"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Léon Degrelle",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119131374",
-    "wikipedia": "https://de.wikipedia.org/wiki/L%C3%A9on_Degrelle",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/L%C3%A9on_Degrelle"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1906-06-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bouillon"
+  },
+  "deathDate": "1994-03-31",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Malaga"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "belgischer Kommandeur SS-Freiwilligen-Legion »Wallonien« (Obersturmbannführer Waffen-SS), 1945 Flucht nach Spanien, in Abwesenheit von einem belgischen Sondergericht zum Tode verurteilt"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119131374",
+    "https://de.wikipedia.org/wiki/L%C3%A9on_Degrelle"
+  ]
 }

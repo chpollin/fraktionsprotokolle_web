@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GyorgyAnna",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GyorgyAnna",
   "name": "Anna Gyorgy",
   "givenName": "Anna",
   "familyName": "Gyorgy",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1946-11",
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Anti-Atom-Pazifistin und Mitbegründerin der ökofeministischen Organisation »Women and Life On Earth« (WLOE), 1988 politische Direktorin der Initiative »Massachusetts Citizens for Safe Energy« (zur Frage über die Stilllegung der Atomkraftwerke Pilgrim und Yankee Rowe in Massachusetts), 1989–1990 in einem Werkverhältnis mit der Grünen-Bundestagsfraktion"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://viaf.org/viaf/305134584/"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Anna Gyorgy",
@@ -39,9 +29,15 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
     "viaf": "https://viaf.org/viaf/305134584/"
-  }
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1946-11",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Anti-Atom-Pazifistin und Mitbegründerin der ökofeministischen Organisation »Women and Life On Earth« (WLOE), 1988 politische Direktorin der Initiative »Massachusetts Citizens for Safe Energy« (zur Frage über die Stilllegung der Atomkraftwerke Pilgrim und Yankee Rowe in Massachusetts), 1989–1990 in einem Werkverhältnis mit der Grünen-Bundestagsfraktion"
+  },
+  "sameAs": [
+    "https://viaf.org/viaf/305134584/"
+  ]
 }

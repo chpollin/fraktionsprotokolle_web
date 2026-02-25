@@ -1,21 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GuderKarin",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GuderKarin",
   "name": "Karin Guder",
   "givenName": "Karin",
   "familyName": "Guder",
-  "gender": "https://schema.org/Female",
-  "birthDate": null,
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1981–1990 Mitarbeiterin der Grünen im Hessischen Landtag und Landesgeschäftsführerin der Grünen Hessen, Mitglied der Bundesarbeitsgemeinschaft »Medien«, 1994-2018 Lehrerin im hessischen Schuldienst"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Karin Guder",
@@ -36,10 +28,10 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Female",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1981–1990 Mitarbeiterin der Grünen im Hessischen Landtag und Landesgeschäftsführerin der Grünen Hessen, Mitglied der Bundesarbeitsgemeinschaft »Medien«, 1994-2018 Lehrerin im hessischen Schuldienst"
   }
 }

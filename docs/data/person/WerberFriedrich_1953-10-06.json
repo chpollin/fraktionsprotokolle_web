@@ -1,10 +1,53 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WerberFriedrich_1953-10-06",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WerberFriedrich_1953-10-06",
   "name": "Friedrich Werber",
   "givenName": "Friedrich",
   "familyName": "Werber",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Friedrich Werber",
+    "forename": "Friedrich",
+    "surname": "Werber",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1901-05-31",
+    "place": "Karlsruhe",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1981-01-04",
+    "place": "Karlsruhe",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 3,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002481",
+    "gnd": "https://d-nb.info/gnd/117295493",
+    "wikipedia": "https://de.wikipedia.org/wiki/Friedrich_Werber"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1901-05-31",
   "birthPlace": {
@@ -45,46 +88,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/117295493",
     "https://de.wikipedia.org/wiki/Friedrich_Werber"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Friedrich Werber",
-    "forename": "Friedrich",
-    "surname": "Werber",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1901-05-31",
-    "place": "Karlsruhe",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1981-01-04",
-    "place": "Karlsruhe",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 2,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1953-10-06",
-      "to": "1957-10-06"
-    },
-    {
-      "period": 3,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1957-10-15",
-      "to": "1961-10-15"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11002481",
-    "gnd": "https://d-nb.info/gnd/117295493",
-    "wikipedia": "https://de.wikipedia.org/wiki/Friedrich_Werber",
-    "viaf": null
-  }
+  ]
 }

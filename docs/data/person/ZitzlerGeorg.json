@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ZitzlerGeorg",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ZitzlerGeorg",
   "name": "Georg Zitzler",
   "givenName": "Georg",
   "familyName": "Zitzler",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1903-12-08",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Amberg"
-  },
-  "deathDate": "1986-05-24",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Regensburg"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1946–1950 MdL Bayern (CSU), 1948–1952 Oberbürgermeister von Regensburg"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/155332511",
-    "https://de.wikipedia.org/wiki/Georg_Zitzler"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Georg Zitzler",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/155332511",
-    "wikipedia": "https://de.wikipedia.org/wiki/Georg_Zitzler",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Georg_Zitzler"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1903-12-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Amberg"
+  },
+  "deathDate": "1986-05-24",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Regensburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1946–1950 MdL Bayern (CSU), 1948–1952 Oberbürgermeister von Regensburg"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/155332511",
+    "https://de.wikipedia.org/wiki/Georg_Zitzler"
+  ]
 }

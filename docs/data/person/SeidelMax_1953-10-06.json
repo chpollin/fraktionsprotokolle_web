@@ -1,10 +1,74 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SeidelMax_1953-10-06",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SeidelMax_1953-10-06",
   "name": "Max Seidel",
   "givenName": "Max",
   "familyName": "Seidel",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Max Seidel",
+    "forename": "Max",
+    "surname": "Seidel",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Fürth)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1906-01-21",
+    "place": "Breslau (heute: Wrocław, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1983-03-21",
+    "place": "Fürth",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 3,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 4,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    },
+    {
+      "period": 5,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    },
+    {
+      "period": 6,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1969-10-20",
+      "to": "1972-09-22"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002150",
+    "gnd": "https://d-nb.info/gnd/1027749933",
+    "wikipedia": "https://de.wikipedia.org/wiki/Max_Seidel_(Politiker)"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1906-01-21",
   "birthPlace": {
@@ -76,68 +140,6 @@
     "https://d-nb.info/gnd/1027749933",
     "https://de.wikipedia.org/wiki/Max_Seidel_(Politiker)"
   ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Max Seidel",
-    "forename": "Max",
-    "surname": "Seidel",
-    "prefix": "",
-    "role_name": "",
-    "place": "(Fürth)"
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1906-01-21",
-    "place": "Breslau (heute: Wrocław, Polen)",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1983-03-21",
-    "place": "Fürth",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 2,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1953-10-06",
-      "to": "1957-10-06"
-    },
-    {
-      "period": 3,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1957-10-15",
-      "to": "1961-10-15"
-    },
-    {
-      "period": 4,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1961-10-17",
-      "to": "1965-10-17"
-    },
-    {
-      "period": 5,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1965-10-19",
-      "to": "1969-10-19"
-    },
-    {
-      "period": 6,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1969-10-20",
-      "to": "1972-09-22"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11002150",
-    "gnd": "https://d-nb.info/gnd/1027749933",
-    "wikipedia": "https://de.wikipedia.org/wiki/Max_Seidel_(Politiker)",
-    "viaf": null
-  },
   "fraktionsprotokolle:alt_names": [
     {
       "reg": "Max Seidel",

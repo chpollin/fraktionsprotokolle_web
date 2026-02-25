@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BuehlerEduard",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BuehlerEduard",
   "name": "Eduard Bühler",
   "givenName": "Eduard",
   "familyName": "Bühler",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1954",
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Mitarbeiter der Grünen-Bundestagsfraktion in der 11. Wahlperiode"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/170071502"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Eduard Bühler",
@@ -39,9 +29,15 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/170071502",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/170071502"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1954",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Mitarbeiter der Grünen-Bundestagsfraktion in der 11. Wahlperiode"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/170071502"
+  ]
 }

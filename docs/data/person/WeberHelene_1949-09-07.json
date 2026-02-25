@@ -1,10 +1,67 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WeberHelene_1949-09-07",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WeberHelene_1949-09-07",
   "name": "Helene Weber",
   "givenName": "Helene",
   "familyName": "Weber",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Helene Weber",
+    "forename": "Helene",
+    "surname": "Weber",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Essen)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1881-03-17",
+    "place": "Elberfeld (heute: Wuppertal-Elberfeld)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1962-07-25",
+    "place": "Bonn",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 2,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 3,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 4,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1961-10-17",
+      "to": "1962-07-25"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002435",
+    "gnd": "https://d-nb.info/gnd/11876585X",
+    "wikipedia": "https://de.wikipedia.org/wiki/Helene_Weber"
+  },
   "gender": "https://schema.org/Female",
   "birthDate": "1881-03-17",
   "birthPlace": {
@@ -66,61 +123,6 @@
     "https://d-nb.info/gnd/11876585X",
     "https://de.wikipedia.org/wiki/Helene_Weber"
   ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Helene Weber",
-    "forename": "Helene",
-    "surname": "Weber",
-    "prefix": "",
-    "role_name": "",
-    "place": "(Essen)"
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1881-03-17",
-    "place": "Elberfeld (heute: Wuppertal-Elberfeld)",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1962-07-25",
-    "place": "Bonn",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 1,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1949-09-07",
-      "to": "1953-09-07"
-    },
-    {
-      "period": 2,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1953-10-06",
-      "to": "1957-10-06"
-    },
-    {
-      "period": 3,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1957-10-15",
-      "to": "1961-10-15"
-    },
-    {
-      "period": 4,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1961-10-17",
-      "to": "1962-07-25"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11002435",
-    "gnd": "https://d-nb.info/gnd/11876585X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Helene_Weber",
-    "viaf": null
-  },
   "fraktionsprotokolle:alt_names": [
     {
       "reg": "Helene Weber",

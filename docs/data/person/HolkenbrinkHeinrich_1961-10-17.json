@@ -1,10 +1,53 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HolkenbrinkHeinrich_1961-10-17",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HolkenbrinkHeinrich_1961-10-17",
   "name": "Heinrich Holkenbrink",
   "givenName": "Heinrich",
   "familyName": "Holkenbrink",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Heinrich Holkenbrink",
+    "forename": "Heinrich",
+    "surname": "Holkenbrink",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1920-01-23",
+    "place": "Handorf",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1998-11-29",
+    "place": "Trier",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 4,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    },
+    {
+      "period": 5,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1965-10-19",
+      "to": "1967-07-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000944",
+    "gnd": "https://d-nb.info/gnd/1025209737",
+    "wikipedia": "https://de.wikipedia.org/wiki/Heinrich_Holkenbrink"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1920-01-23",
   "birthPlace": {
@@ -45,46 +88,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/1025209737",
     "https://de.wikipedia.org/wiki/Heinrich_Holkenbrink"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Heinrich Holkenbrink",
-    "forename": "Heinrich",
-    "surname": "Holkenbrink",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1920-01-23",
-    "place": "Handorf",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1998-11-29",
-    "place": "Trier",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 4,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1961-10-17",
-      "to": "1965-10-17"
-    },
-    {
-      "period": 5,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1965-10-19",
-      "to": "1967-07-17"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11000944",
-    "gnd": "https://d-nb.info/gnd/1025209737",
-    "wikipedia": "https://de.wikipedia.org/wiki/Heinrich_Holkenbrink",
-    "viaf": null
-  }
+  ]
 }

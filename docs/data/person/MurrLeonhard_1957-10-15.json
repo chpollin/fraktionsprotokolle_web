@@ -1,10 +1,53 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MurrLeonhard_1957-10-15",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MurrLeonhard_1957-10-15",
   "name": "Leonhard Murr",
   "givenName": "Leonhard",
   "familyName": "Murr",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Leonhard Murr",
+    "forename": "Leonhard",
+    "surname": "Murr",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1896-08-22",
+    "place": "Moosbach",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1967-10-02",
+    "place": "Moosbach",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 3,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 4,
+      "faction": "FDP",
+      "faction_full": "Fraktion der Freien Demokratischen Partei",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001576",
+    "gnd": "https://d-nb.info/gnd/1119643414",
+    "wikipedia": "https://de.wikipedia.org/wiki/Leonhard_Murr"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1896-08-22",
   "birthPlace": {
@@ -45,46 +88,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/1119643414",
     "https://de.wikipedia.org/wiki/Leonhard_Murr"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Leonhard Murr",
-    "forename": "Leonhard",
-    "surname": "Murr",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1896-08-22",
-    "place": "Moosbach",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1967-10-02",
-    "place": "Moosbach",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 3,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1957-10-15",
-      "to": "1961-10-15"
-    },
-    {
-      "period": 4,
-      "faction": "FDP",
-      "faction_full": "Fraktion der Freien Demokratischen Partei",
-      "from": "1961-10-17",
-      "to": "1965-10-17"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11001576",
-    "gnd": "https://d-nb.info/gnd/1119643414",
-    "wikipedia": "https://de.wikipedia.org/wiki/Leonhard_Murr",
-    "viaf": null
-  }
+  ]
 }

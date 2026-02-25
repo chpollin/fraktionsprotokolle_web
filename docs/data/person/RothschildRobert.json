@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RothschildRobert",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RothschildRobert",
   "name": "Robert Rothschild",
   "givenName": "Robert",
   "familyName": "Rothschild",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1911",
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "belgischer Botschafter in Paris"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/12092854X"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Robert Rothschild",
@@ -39,9 +29,15 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/12092854X",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/12092854X"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1911",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "belgischer Botschafter in Paris"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/12092854X"
+  ]
 }

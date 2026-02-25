@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MeyerAlbert",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MeyerAlbert",
   "name": "Albert Meyer",
   "givenName": "Albert",
   "familyName": "Meyer",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1926-03-31",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Schweinfurt"
-  },
-  "deathDate": "2020-11-26",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1966–1998 MdL Bayern (CSU), 1971–1993 Vorsitzender des CSU-Bezirksverbandes Unterfranken, 1974–1993 Staatssekretär im Bayerischen Staatsministerium der Finanzen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/140391754",
-    "https://de.wikipedia.org/wiki/Albert_Meyer_(Politiker,_1926)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Albert Meyer",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/140391754",
-    "wikipedia": "https://de.wikipedia.org/wiki/Albert_Meyer_(Politiker,_1926)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Albert_Meyer_(Politiker,_1926)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1926-03-31",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Schweinfurt"
+  },
+  "deathDate": "2020-11-26",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1966–1998 MdL Bayern (CSU), 1971–1993 Vorsitzender des CSU-Bezirksverbandes Unterfranken, 1974–1993 Staatssekretär im Bayerischen Staatsministerium der Finanzen"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/140391754",
+    "https://de.wikipedia.org/wiki/Albert_Meyer_(Politiker,_1926)"
+  ]
 }

@@ -1,21 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ErasmusFriedrichCarl",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ErasmusFriedrichCarl",
   "name": "Friedrich Carl Erasmus",
   "givenName": "Friedrich Carl",
   "familyName": "Erasmus",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1927-09-28",
-  "birthPlace": null,
-  "deathDate": "2016-12-30",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "seit 1968 Vorstandsmitglied der Ruhrkohle AG (RAG)"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Friedrich Carl Erasmus",
@@ -36,10 +28,12 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Male",
+  "birthDate": "1927-09-28",
+  "deathDate": "2016-12-30",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "seit 1968 Vorstandsmitglied der Ruhrkohle AG (RAG)"
   }
 }

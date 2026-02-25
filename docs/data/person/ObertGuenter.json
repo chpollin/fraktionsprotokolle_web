@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ObertGuenter",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ObertGuenter",
   "name": "Günter Obert",
   "givenName": "Günter",
   "familyName": "Obert",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1926-08-25",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Sommerau, Ostpreußen (heute: Ząbrowo, Polen)"
-  },
-  "deathDate": "2017-02-20",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Verwaltungsjurist, seit 1953 Beschäftigung (1978-1989 beamteter Staatssekretär) im  Bundesministerium der Finanzen (BMF)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1028565461",
-    "https://de.wikipedia.org/wiki/G%C3%BCnter_Obert"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Günter Obert",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1028565461",
-    "wikipedia": "https://de.wikipedia.org/wiki/G%C3%BCnter_Obert",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/G%C3%BCnter_Obert"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1926-08-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Sommerau, Ostpreußen (heute: Ząbrowo, Polen)"
+  },
+  "deathDate": "2017-02-20",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Verwaltungsjurist, seit 1953 Beschäftigung (1978-1989 beamteter Staatssekretär) im  Bundesministerium der Finanzen (BMF)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1028565461",
+    "https://de.wikipedia.org/wiki/G%C3%BCnter_Obert"
+  ]
 }

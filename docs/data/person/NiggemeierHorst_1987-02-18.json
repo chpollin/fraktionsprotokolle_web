@@ -1,10 +1,53 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "NiggemeierHorst_1987-02-18",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/NiggemeierHorst_1987-02-18",
   "name": "Horst Niggemeier",
   "givenName": "Horst",
   "familyName": "Niggemeier",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Horst Niggemeier",
+    "forename": "Horst",
+    "surname": "Niggemeier",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1929-05-10",
+    "place": "Datteln/Krs. Recklinghausen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2000-10-01",
+    "place": "Datteln",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 11,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1987-02-18",
+      "to": "1990-12-20"
+    },
+    {
+      "period": 12,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1990-12-20",
+      "to": "1994-11-10"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001611",
+    "gnd": "https://d-nb.info/gnd/1026503779",
+    "wikipedia": "https://de.wikipedia.org/wiki/Horst_Niggemeier"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1929-05-10",
   "birthPlace": {
@@ -45,46 +88,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/1026503779",
     "https://de.wikipedia.org/wiki/Horst_Niggemeier"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Horst Niggemeier",
-    "forename": "Horst",
-    "surname": "Niggemeier",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1929-05-10",
-    "place": "Datteln/Krs. Recklinghausen",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "2000-10-01",
-    "place": "Datteln",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 11,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1987-02-18",
-      "to": "1990-12-20"
-    },
-    {
-      "period": 12,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1990-12-20",
-      "to": "1994-11-10"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11001611",
-    "gnd": "https://d-nb.info/gnd/1026503779",
-    "wikipedia": "https://de.wikipedia.org/wiki/Horst_Niggemeier",
-    "viaf": null
-  }
+  ]
 }

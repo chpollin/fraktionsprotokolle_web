@@ -1,24 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WalzReinhold",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WalzReinhold",
   "name": "Reinhold Walz",
   "givenName": "Reinhold",
   "familyName": "Walz",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1909-04-12",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "deathDate": "1989",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1951–1953 stellvertretender SPD-Kreisvorsitzender Berlin-Reinickendorf, Bezirksstadtrat"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Reinhold Walz",
@@ -39,10 +28,16 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Male",
+  "birthDate": "1909-04-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "1989",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1951–1953 stellvertretender SPD-Kreisvorsitzender Berlin-Reinickendorf, Bezirksstadtrat"
   }
 }

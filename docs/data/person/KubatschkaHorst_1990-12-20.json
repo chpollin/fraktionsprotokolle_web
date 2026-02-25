@@ -1,10 +1,67 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KubatschkaHorst_1990-12-20",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KubatschkaHorst_1990-12-20",
   "name": "Horst Kubatschka",
   "givenName": "Horst",
   "familyName": "Kubatschka",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Horst Kubatschka",
+    "forename": "Horst",
+    "surname": "Kubatschka",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1941-06-10",
+    "place": "Bielitz (heute: Bielsko-Biała, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2022-03-19",
+    "place": "Landshut",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 12,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1990-12-20",
+      "to": "1994-11-10"
+    },
+    {
+      "period": 13,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1994-11-10",
+      "to": "1998-10-26"
+    },
+    {
+      "period": 14,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1998-10-26",
+      "to": "2002-10-17"
+    },
+    {
+      "period": 15,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "2002-10-17",
+      "to": "2005-10-18"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001234",
+    "gnd": "https://d-nb.info/gnd/1060150018",
+    "wikipedia": "https://de.wikipedia.org/wiki/Horst_Kubatschka"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1941-06-10",
   "birthPlace": {
@@ -65,60 +122,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/1060150018",
     "https://de.wikipedia.org/wiki/Horst_Kubatschka"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Horst Kubatschka",
-    "forename": "Horst",
-    "surname": "Kubatschka",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1941-06-10",
-    "place": "Bielitz (heute: Bielsko-Biała, Polen)",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "2022-03-19",
-    "place": "Landshut",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 12,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1990-12-20",
-      "to": "1994-11-10"
-    },
-    {
-      "period": 13,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1994-11-10",
-      "to": "1998-10-26"
-    },
-    {
-      "period": 14,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1998-10-26",
-      "to": "2002-10-17"
-    },
-    {
-      "period": 15,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "2002-10-17",
-      "to": "2005-10-18"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11001234",
-    "gnd": "https://d-nb.info/gnd/1060150018",
-    "wikipedia": "https://de.wikipedia.org/wiki/Horst_Kubatschka",
-    "viaf": null
-  }
+  ]
 }

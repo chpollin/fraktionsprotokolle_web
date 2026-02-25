@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MittagGuenter",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MittagGuenter",
   "name": "Günter Mittag",
   "givenName": "Günter",
   "familyName": "Mittag",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1926-10-08",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Stettin (heute: Szczecin, Polen)"
-  },
-  "deathDate": "1994-03-18",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1966 bis zum Herbst 1989 Mitglied des Politbüros des Zentralkomitees der SED, ab 1976 als ZK-Sekretär der SED für Wirtschaftsfragen der Planwirtschaft der DDR zuständig"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/11897629X",
-    "https://de.wikipedia.org/wiki/G%C3%BCnter_Mittag"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Günter Mittag",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/11897629X",
-    "wikipedia": "https://de.wikipedia.org/wiki/G%C3%BCnter_Mittag",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/G%C3%BCnter_Mittag"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1926-10-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Stettin (heute: Szczecin, Polen)"
+  },
+  "deathDate": "1994-03-18",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1966 bis zum Herbst 1989 Mitglied des Politbüros des Zentralkomitees der SED, ab 1976 als ZK-Sekretär der SED für Wirtschaftsfragen der Planwirtschaft der DDR zuständig"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/11897629X",
+    "https://de.wikipedia.org/wiki/G%C3%BCnter_Mittag"
+  ]
 }

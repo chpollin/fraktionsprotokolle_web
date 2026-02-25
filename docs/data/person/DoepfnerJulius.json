@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DoepfnerJulius",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DoepfnerJulius",
   "name": "Julius Döpfner",
   "givenName": "Julius",
   "familyName": "Döpfner",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1913-08-26",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Hausenbei Bad Kissingen"
-  },
-  "deathDate": "1976-07-24",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1958 Kardinal, 1961–1976 Erzbischof von München und Freising"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/11852626X",
-    "https://de.wikipedia.org/wiki/Julius_D%C3%B6pfner"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Julius Döpfner",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/11852626X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Julius_D%C3%B6pfner",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Julius_D%C3%B6pfner"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1913-08-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hausenbei Bad Kissingen"
+  },
+  "deathDate": "1976-07-24",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1958 Kardinal, 1961–1976 Erzbischof von München und Freising"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/11852626X",
+    "https://de.wikipedia.org/wiki/Julius_D%C3%B6pfner"
+  ]
 }

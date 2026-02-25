@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "LuetkensCharlotte",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/LuetkensCharlotte",
   "name": "Charlotte Lütkens, geb. Mendelsohn",
   "givenName": "Charlotte",
   "familyName": "Lütkens",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1896-12-26",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Erfurt"
-  },
-  "deathDate": "1967-03-18",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bonn"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Soziologin und Publizistin, 1937–1950 Dozentin an der London School of Economics and Political Science, ab 1955 Mitglied im Vorstand der Deutschen Gesellschaft für Soziologie e. V. (DGS)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/104803649",
-    "https://de.wikipedia.org/wiki/Charlotte_L%C3%BCtkens"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Charlotte Lütkens, geb. Mendelsohn",
@@ -46,10 +29,27 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/104803649",
-    "wikipedia": "https://de.wikipedia.org/wiki/Charlotte_L%C3%BCtkens",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Charlotte_L%C3%BCtkens"
   },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1896-12-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Erfurt"
+  },
+  "deathDate": "1967-03-18",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Soziologin und Publizistin, 1937–1950 Dozentin an der London School of Economics and Political Science, ab 1955 Mitglied im Vorstand der Deutschen Gesellschaft für Soziologie e. V. (DGS)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/104803649",
+    "https://de.wikipedia.org/wiki/Charlotte_L%C3%BCtkens"
+  ],
   "fraktionsprotokolle:sonstiges": "ab 1937 im Exil in  Großbritannien, 1950 Rückkehr nach Deutschland"
 }

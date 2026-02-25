@@ -1,48 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "StaakWerner_1970-05-21",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/StaakWerner_1970-05-21",
   "name": "Werner Staak",
   "givenName": "Werner",
   "familyName": "Staak",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1933-01-29",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Trittau/Krs. Stormarn"
-  },
-  "deathDate": "2006-11-27",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Betriebswirt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1970-05-21",
-      "endDate": "1972-09-22"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1972-12-13",
-      "endDate": "1974-11-13"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1276222637",
-    "https://de.wikipedia.org/wiki/Werner_Staak"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Werner Staak",
@@ -81,7 +46,43 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11002210",
     "gnd": "https://d-nb.info/gnd/1276222637",
-    "wikipedia": "https://de.wikipedia.org/wiki/Werner_Staak",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Werner_Staak"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1933-01-29",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Trittau/Krs. Stormarn"
+  },
+  "deathDate": "2006-11-27",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Betriebswirt [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1970-05-21",
+      "endDate": "1972-09-22"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1972-12-13",
+      "endDate": "1974-11-13"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1276222637",
+    "https://de.wikipedia.org/wiki/Werner_Staak"
+  ]
 }

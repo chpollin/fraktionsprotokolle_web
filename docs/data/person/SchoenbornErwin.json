@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchoenbornErwin",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchoenbornErwin",
   "name": "Erwin Schönborn",
   "givenName": "Erwin",
   "familyName": "Schönborn",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1914-10-08",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Sohlen (heute: Magdeburg-Beyendorf-Sohlen)"
-  },
-  "deathDate": "1989",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Dolmetscher und Verleger, 1935–1939 Oberfeldmeister im Reichsarbeitsdienst (RAD) sowie Adjutant beim Generalarbeitsführer des Gaus Franken"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/11861004X",
-    "https://de.wikipedia.org/wiki/Erwin_Sch%C3%B6nborn"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Erwin Schönborn",
@@ -43,10 +29,23 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/11861004X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Erwin_Sch%C3%B6nborn",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Erwin_Sch%C3%B6nborn"
   },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1914-10-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Sohlen (heute: Magdeburg-Beyendorf-Sohlen)"
+  },
+  "deathDate": "1989",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dolmetscher und Verleger, 1935–1939 Oberfeldmeister im Reichsarbeitsdienst (RAD) sowie Adjutant beim Generalarbeitsführer des Gaus Franken"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/11861004X",
+    "https://de.wikipedia.org/wiki/Erwin_Sch%C3%B6nborn"
+  ],
   "fraktionsprotokolle:sonstiges": "Neonazi, Geschichtsrevisionist und Holocaustleugner, 1975 Mitbegründer des Kampfbunds Deutscher Soldaten (KDS), u. a. 1979 wegen Beleidigung, übler Nachrede und Nötigung zu 18 Monaten Haft verurteilt"
 }

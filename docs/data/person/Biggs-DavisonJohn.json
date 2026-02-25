@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "Biggs-DavisonJohn",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/Biggs-DavisonJohn",
   "name": "John Biggs-Davison",
   "givenName": "John Alec",
   "familyName": "Biggs-Davison",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1918-06-07",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Boscombe"
-  },
-  "deathDate": "1988-09-17",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1955–1988 Mitglied des britischen Unterhauses"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/131972057",
-    "https://en.wikipedia.org/wiki/John_Biggs-Davison"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "John Biggs-Davison",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/131972057",
-    "wikipedia": "https://en.wikipedia.org/wiki/John_Biggs-Davison",
-    "viaf": null
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/John_Biggs-Davison"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1918-06-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Boscombe"
+  },
+  "deathDate": "1988-09-17",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1955–1988 Mitglied des britischen Unterhauses"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/131972057",
+    "https://en.wikipedia.org/wiki/John_Biggs-Davison"
+  ]
 }

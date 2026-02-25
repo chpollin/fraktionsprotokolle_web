@@ -1,10 +1,60 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DielAnton_1949-09-07",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DielAnton_1949-09-07",
   "name": "Anton Diel",
   "givenName": "Anton",
   "familyName": "Diel",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Anton Diel",
+    "forename": "Anton",
+    "surname": "Diel",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1898-01-25",
+    "place": "Horressen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1959-04-06",
+    "place": "Horressen",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 2,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 3,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1957-10-15",
+      "to": "1959-04-06"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000385",
+    "gnd": "https://d-nb.info/gnd/1316712788",
+    "wikipedia": "https://de.wikipedia.org/wiki/Anton_Diel"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1898-01-25",
   "birthPlace": {
@@ -56,54 +106,6 @@
     "https://d-nb.info/gnd/1316712788",
     "https://de.wikipedia.org/wiki/Anton_Diel"
   ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Anton Diel",
-    "forename": "Anton",
-    "surname": "Diel",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1898-01-25",
-    "place": "Horressen",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1959-04-06",
-    "place": "Horressen",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 1,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1949-09-07",
-      "to": "1953-09-07"
-    },
-    {
-      "period": 2,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1953-10-06",
-      "to": "1957-10-06"
-    },
-    {
-      "period": 3,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1957-10-15",
-      "to": "1959-04-06"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11000385",
-    "gnd": "https://d-nb.info/gnd/1316712788",
-    "wikipedia": "https://de.wikipedia.org/wiki/Anton_Diel",
-    "viaf": null
-  },
   "fraktionsprotokolle:alt_names": [
     {
       "reg": "Anton Diel",

@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RungeErika",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RungeErika",
   "name": "Erika Runge",
   "givenName": "Erika Anna Maria",
   "familyName": "Runge",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1939-01-22",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Halle (Saale)"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Schriftstellerin, Psychotherapeutin, Drehbuchautorin und Regisseurin, 1968–1989 Mitglied der  Deutschen Kommunistischen Partei (DKP)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/116707178",
-    "https://de.wikipedia.org/wiki/Erika_Runge"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Erika Runge",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/116707178",
-    "wikipedia": "https://de.wikipedia.org/wiki/Erika_Runge",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Erika_Runge"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1939-01-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Halle (Saale)"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Schriftstellerin, Psychotherapeutin, Drehbuchautorin und Regisseurin, 1968–1989 Mitglied der  Deutschen Kommunistischen Partei (DKP)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/116707178",
+    "https://de.wikipedia.org/wiki/Erika_Runge"
+  ]
 }

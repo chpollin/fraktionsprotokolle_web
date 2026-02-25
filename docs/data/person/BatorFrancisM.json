@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BatorFrancisM",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BatorFrancisM",
   "name": "Francis M. Bator",
   "givenName": "Francis M.",
   "familyName": "Bator",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1925",
-  "birthPlace": null,
-  "deathDate": "2018",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "US-Ökonom, 1964–1965 Mitgl. Nationaler Sicherheitsrat, 1965–1967 stv. Sicherheitsberater des US-Präsidenten für Außenwirtschaftspolitik und US-europ. Beziehungen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/170749746"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Francis M. Bator",
@@ -39,9 +29,16 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/170749746",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/170749746"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1925",
+  "deathDate": "2018",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "US-Ökonom, 1964–1965 Mitgl. Nationaler Sicherheitsrat, 1965–1967 stv. Sicherheitsberater des US-Präsidenten für Außenwirtschaftspolitik und US-europ. Beziehungen"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/170749746"
+  ]
 }

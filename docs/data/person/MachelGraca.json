@@ -1,28 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MachelGraca",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MachelGraca",
   "name": "Graça Machel",
   "givenName": "Graça",
   "familyName": "Machel",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1945-10-17",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Manjacaze"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Politikerin und Menschenrechtlerin, 1975–1989 Erziehungs- und Kulturministerin Mosambiks, 1999–2019 Kanzlerin der Universität Kapstadt, seit 2012 Präsidentin der SOAS University of London"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1047740451",
-    "https://de.wikipedia.org/wiki/Gra%C3%A7a_Machel",
-    "https://viaf.org/viaf/75572506/"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Graça Machel",
@@ -44,9 +29,23 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1047740451",
     "wikipedia": "https://de.wikipedia.org/wiki/Gra%C3%A7a_Machel",
     "viaf": "https://viaf.org/viaf/75572506/"
-  }
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1945-10-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Manjacaze"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Politikerin und Menschenrechtlerin, 1975–1989 Erziehungs- und Kulturministerin Mosambiks, 1999–2019 Kanzlerin der Universität Kapstadt, seit 2012 Präsidentin der SOAS University of London"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1047740451",
+    "https://de.wikipedia.org/wiki/Gra%C3%A7a_Machel",
+    "https://viaf.org/viaf/75572506/"
+  ]
 }

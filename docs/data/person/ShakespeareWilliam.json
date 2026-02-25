@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ShakespeareWilliam",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ShakespeareWilliam",
   "name": "William Shakespeare",
   "givenName": "William",
   "familyName": "Shakespeare",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1564-04-26",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Stratford-upon-Avon"
-  },
-  "deathDate": "1616-04-23",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Stratford-upon-Avon"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "englischer Dramatiker und Lyriker"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118613723",
-    "https://de.wikipedia.org/wiki/William_Shakespeare"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "William Shakespeare",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118613723",
-    "wikipedia": "https://de.wikipedia.org/wiki/William_Shakespeare",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/William_Shakespeare"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1564-04-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Stratford-upon-Avon"
+  },
+  "deathDate": "1616-04-23",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Stratford-upon-Avon"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "englischer Dramatiker und Lyriker"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118613723",
+    "https://de.wikipedia.org/wiki/William_Shakespeare"
+  ]
 }

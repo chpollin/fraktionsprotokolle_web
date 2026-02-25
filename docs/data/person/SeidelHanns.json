@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SeidelHanns",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SeidelHanns",
   "name": "Hanns Seidel",
   "givenName": "Hanns, eigentlich Franz Wendelin",
   "familyName": "Seidel",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1901-10-12",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Schweinheim (heute: Stadtteil von Aschaffenburg)"
-  },
-  "deathDate": "1961-08-05",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1955–1961 Parteivorsitzender der CSU, 1957–1960 Ministerpräsident des Freistaates Bayern"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118612824",
-    "https://de.wikipedia.org/wiki/Hanns_Seidel"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hanns Seidel",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118612824",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hanns_Seidel",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hanns_Seidel"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1901-10-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Schweinheim (heute: Stadtteil von Aschaffenburg)"
+  },
+  "deathDate": "1961-08-05",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1955–1961 Parteivorsitzender der CSU, 1957–1960 Ministerpräsident des Freistaates Bayern"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118612824",
+    "https://de.wikipedia.org/wiki/Hanns_Seidel"
+  ]
 }

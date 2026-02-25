@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ReventlowErnstGrafzu",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ReventlowErnstGrafzu",
   "name": "Ernst Graf zu Reventlow",
   "givenName": "Ernst Christian Einar Ludwig Detlev",
   "familyName": "Reventlow",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1869-08-18",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Husum"
-  },
-  "deathDate": "1943-11-21",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1924–1943 MdR (Deutschvölkische Freiheitspartei, seit 1927 NSDAP)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118788477",
-    "https://de.wikipedia.org/wiki/Ernst_Graf_zu_Reventlow"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Ernst Graf zu Reventlow",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118788477",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ernst_Graf_zu_Reventlow",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ernst_Graf_zu_Reventlow"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1869-08-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Husum"
+  },
+  "deathDate": "1943-11-21",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1924–1943 MdR (Deutschvölkische Freiheitspartei, seit 1927 NSDAP)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118788477",
+    "https://de.wikipedia.org/wiki/Ernst_Graf_zu_Reventlow"
+  ]
 }

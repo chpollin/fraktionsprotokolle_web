@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BurnsEedsonLouisMillard",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BurnsEedsonLouisMillard",
   "name": "Eedson Louis Millard Burns",
   "givenName": "Eedson Louis Millard",
   "familyName": "Burns",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1897-09-16",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Montreal, Québec"
-  },
-  "deathDate": "1985-09-13",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "kanadischer Offizier, Leiter der kanadischen Delegation bei der Konferenz der 18-Mächte-Abrüstungskommission in Genf"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1089482205",
-    "https://de.wikipedia.org/wiki/Eedson_Louis_Millard_Burns"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Eedson Louis Millard Burns",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1089482205",
-    "wikipedia": "https://de.wikipedia.org/wiki/Eedson_Louis_Millard_Burns",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Eedson_Louis_Millard_Burns"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1897-09-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Montreal, Québec"
+  },
+  "deathDate": "1985-09-13",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "kanadischer Offizier, Leiter der kanadischen Delegation bei der Konferenz der 18-Mächte-Abrüstungskommission in Genf"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1089482205",
+    "https://de.wikipedia.org/wiki/Eedson_Louis_Millard_Burns"
+  ]
 }

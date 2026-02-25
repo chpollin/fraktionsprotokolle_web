@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "LampeErnst-Joachim",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/LampeErnst-Joachim",
   "name": "Ernst-Joachim Lampe",
   "givenName": "Ernst-Joachim",
   "familyName": "Lampe",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1933-01-04",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Oppeln, Schlesien (heute: Opole, Polen"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1966–1971 Privatdozent für Strafrecht und Rechtsphilosophie an der Universität Mainz, 1971–1998 an der Universität Bielefeld"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/115607927",
-    "https://de.wikipedia.org/wiki/Ernst-Joachim_Lampe"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Ernst-Joachim Lampe",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/115607927",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ernst-Joachim_Lampe",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ernst-Joachim_Lampe"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1933-01-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Oppeln, Schlesien (heute: Opole, Polen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1966–1971 Privatdozent für Strafrecht und Rechtsphilosophie an der Universität Mainz, 1971–1998 an der Universität Bielefeld"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/115607927",
+    "https://de.wikipedia.org/wiki/Ernst-Joachim_Lampe"
+  ]
 }

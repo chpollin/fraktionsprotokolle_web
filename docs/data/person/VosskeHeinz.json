@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "VosskeHeinz",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/VosskeHeinz",
   "name": "Heinz Voßke",
   "givenName": "Heinz",
   "familyName": "Voßke",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1929-05-08",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Anklam"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Historiker, Archivar, 1945–1949 sowjetische Kriegsgefangenschaft, 1949 Mitglied der SED, 1951 Lehrer an der SED-Landesparteischule in Mecklenburg, nach Studium an der Parteihochschule Mitarbeiter beim Institut für Marxismus-Leninismus beim Zentralkomitee der SED, 1963–1990 Leiter des Zentralen Parteiarchivs der SED"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/170208338",
-    "https://de.wikipedia.org/wiki/Heinz_Vo%C3%9Fke"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Heinz Voßke",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/170208338",
-    "wikipedia": "https://de.wikipedia.org/wiki/Heinz_Vo%C3%9Fke",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Heinz_Vo%C3%9Fke"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1929-05-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Anklam"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Historiker, Archivar, 1945–1949 sowjetische Kriegsgefangenschaft, 1949 Mitglied der SED, 1951 Lehrer an der SED-Landesparteischule in Mecklenburg, nach Studium an der Parteihochschule Mitarbeiter beim Institut für Marxismus-Leninismus beim Zentralkomitee der SED, 1963–1990 Leiter des Zentralen Parteiarchivs der SED"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/170208338",
+    "https://de.wikipedia.org/wiki/Heinz_Vo%C3%9Fke"
+  ]
 }

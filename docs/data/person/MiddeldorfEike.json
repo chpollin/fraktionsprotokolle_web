@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MiddeldorfEike",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MiddeldorfEike",
   "name": "Eike Middeldorf",
   "givenName": "Eike",
   "familyName": "Middeldorf",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1915-06-27",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Adamsdorf in der Neumark (heute: Sulimierz, Polen)"
-  },
-  "deathDate": "1995-11-01",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Swisttal"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Generalmajor der Bundeswehr, 1969–1971 Kommandeur der 7. Panzergrenadierdivision in Unna"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1161677496",
-    "https://de.wikipedia.org/wiki/Eike_Middeldorf"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Eike Middeldorf",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1161677496",
-    "wikipedia": "https://de.wikipedia.org/wiki/Eike_Middeldorf",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Eike_Middeldorf"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1915-06-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Adamsdorf in der Neumark (heute: Sulimierz, Polen)"
+  },
+  "deathDate": "1995-11-01",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Swisttal"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Generalmajor der Bundeswehr, 1969–1971 Kommandeur der 7. Panzergrenadierdivision in Unna"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1161677496",
+    "https://de.wikipedia.org/wiki/Eike_Middeldorf"
+  ]
 }

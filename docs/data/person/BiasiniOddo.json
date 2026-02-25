@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BiasiniOddo",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BiasiniOddo",
   "name": "Oddo Biasini",
   "givenName": "Oddo",
   "familyName": "Biasini",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1917-03-13",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Cesena"
-  },
-  "deathDate": "2009-07-08",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Cesena"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "italienischer Politiker, 1975–1979 Generalsekretär des »Partito Repubblicano Italiano«"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://it.wikipedia.org/wiki/Oddo_Biasini",
-    "https://viaf.org/viaf/91036478"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Oddo Biasini",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
     "wikipedia": "https://it.wikipedia.org/wiki/Oddo_Biasini",
     "viaf": "https://viaf.org/viaf/91036478"
-  }
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1917-03-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Cesena"
+  },
+  "deathDate": "2009-07-08",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Cesena"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "italienischer Politiker, 1975–1979 Generalsekretär des »Partito Repubblicano Italiano«"
+  },
+  "sameAs": [
+    "https://it.wikipedia.org/wiki/Oddo_Biasini",
+    "https://viaf.org/viaf/91036478"
+  ]
 }

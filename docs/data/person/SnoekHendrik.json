@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SnoekHendrik",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SnoekHendrik",
   "name": "Hendrik Snoek",
   "givenName": "Hendrik",
   "familyName": "Snoek",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1948-04-02",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Münster, Westfalen"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Springreiter und Dipl.-Kaufmann, 1978–2005 Mitglied (seit 1993 Vorsitzender) des Springausschusses des Deutschen Olympiade-Komitees für Reiterei (DOKR)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1185799192",
-    "https://de.wikipedia.org/wiki/Hendrik_Snoek"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hendrik Snoek",
@@ -43,10 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1185799192",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hendrik_Snoek",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Hendrik_Snoek"
   },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1948-04-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Münster, Westfalen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Springreiter und Dipl.-Kaufmann, 1978–2005 Mitglied (seit 1993 Vorsitzender) des Springausschusses des Deutschen Olympiade-Komitees für Reiterei (DOKR)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1185799192",
+    "https://de.wikipedia.org/wiki/Hendrik_Snoek"
+  ],
   "fraktionsprotokolle:sonstiges": "1975 Mannschafts-Europameister im Springreiten, am 3. November 1976 entführt und am 5. November 1976 von der Polizei befreit, nachdem der Kontakt von den Entführern trotz Lösegeldzahlung abgebrochen worden war"
 }

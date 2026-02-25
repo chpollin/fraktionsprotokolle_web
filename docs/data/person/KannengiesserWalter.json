@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KannengiesserWalter",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KannengiesserWalter",
   "name": "Walter Kannengießer",
   "givenName": "Walter",
   "familyName": "Kannengießer",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1929-08-13",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Osnabrück"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "deutscher Wirtschaftsjournalist, 1963–1996 Mitarbeiter der Wirtschaftsredaktion der »FAZ«"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/107876868",
-    "https://de.wikipedia.org/wiki/Walter_Kannengie%C3%9Fer"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Walter Kannengießer",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/107876868",
-    "wikipedia": "https://de.wikipedia.org/wiki/Walter_Kannengie%C3%9Fer",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Walter_Kannengie%C3%9Fer"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1929-08-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Osnabrück"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Wirtschaftsjournalist, 1963–1996 Mitarbeiter der Wirtschaftsredaktion der »FAZ«"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/107876868",
+    "https://de.wikipedia.org/wiki/Walter_Kannengie%C3%9Fer"
+  ]
 }

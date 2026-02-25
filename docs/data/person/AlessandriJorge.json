@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "AlessandriJorge",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/AlessandriJorge",
   "name": "Jorge Alessandri",
   "givenName": "Jorge",
   "familyName": "Alessandri",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1896-05-18",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Santiago de Chile"
-  },
-  "deathDate": "1986-08-31",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Santiago de Chile"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1958–1964 Präsident der Republik Chile, 1970 Kandidat der Unabhängigen und Nationalen Partei bei der chilenischen Präsidentschaftswahl"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/142192236",
-    "https://de.wikipedia.org/wiki/Jorge_Alessandri"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Jorge Alessandri",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/142192236",
-    "wikipedia": "https://de.wikipedia.org/wiki/Jorge_Alessandri",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Jorge_Alessandri"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1896-05-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Santiago de Chile"
+  },
+  "deathDate": "1986-08-31",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Santiago de Chile"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1958–1964 Präsident der Republik Chile, 1970 Kandidat der Unabhängigen und Nationalen Partei bei der chilenischen Präsidentschaftswahl"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/142192236",
+    "https://de.wikipedia.org/wiki/Jorge_Alessandri"
+  ]
 }

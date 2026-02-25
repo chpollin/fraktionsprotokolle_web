@@ -1,48 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KriednerArnulf_1990-12-20",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KriednerArnulf_1990-12-20",
   "name": "Arnulf Kriedner",
   "givenName": "Arnulf",
   "familyName": "Kriedner",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1938-05-16",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Mühlbach/Pirna"
-  },
-  "deathDate": "2021-12-20",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Unternehmensberater, Bezirksbürgermeister a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1990-12-20",
-      "endDate": "1994-11-10"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1994-11-10",
-      "endDate": "1998-10-26"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1056398116",
-    "https://de.wikipedia.org/wiki/Arnulf_Kriedner"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Arnulf Kriedner",
@@ -81,7 +46,43 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001217",
     "gnd": "https://d-nb.info/gnd/1056398116",
-    "wikipedia": "https://de.wikipedia.org/wiki/Arnulf_Kriedner",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Arnulf_Kriedner"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1938-05-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Mühlbach/Pirna"
+  },
+  "deathDate": "2021-12-20",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Unternehmensberater, Bezirksbürgermeister a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-10-26"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1056398116",
+    "https://de.wikipedia.org/wiki/Arnulf_Kriedner"
+  ]
 }

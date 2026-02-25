@@ -1,21 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PedacheRoque",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PedacheRoque",
   "name": "Roque Pedache",
   "givenName": "Roque",
   "familyName": "Pedache",
-  "gender": "https://schema.org/Male",
-  "birthDate": null,
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Umweltaktivist, Experte für Energietechnologiepolitik und Klimawandel, Dozent an der Universität von Buenos Aires (UBA), Gründer des »Movimiento por la Vida y la Paz«, des »Foro del Buen Ayre« und von »Los Verdes«"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Roque Pedache",
@@ -36,10 +28,10 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Male",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Umweltaktivist, Experte für Energietechnologiepolitik und Klimawandel, Dozent an der Universität von Buenos Aires (UBA), Gründer des »Movimiento por la Vida y la Paz«, des »Foro del Buen Ayre« und von »Los Verdes«"
   }
 }

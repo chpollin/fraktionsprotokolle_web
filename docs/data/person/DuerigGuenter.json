@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DuerigGuenter",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DuerigGuenter",
   "name": "Günter Dürig",
   "givenName": "Günter",
   "familyName": "Dürig",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1920-01-25",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Breslau (heute: Wrocław, Polen)"
-  },
-  "deathDate": "1996-11-22",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Tübingen"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Jurist, 1955–1985 Professor für Öffentliches Recht und Direktor des Völkerrechtlichen Seminars an der Universität Tübingen, begründete 1958 zusammen mit Theodor Maunz einen der führenden Kommentare zum Grundgesetz"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118681060",
-    "https://de.wikipedia.org/wiki/G%C3%BCnter_D%C3%BCrig"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Günter Dürig",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118681060",
-    "wikipedia": "https://de.wikipedia.org/wiki/G%C3%BCnter_D%C3%BCrig",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/G%C3%BCnter_D%C3%BCrig"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1920-01-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Breslau (heute: Wrocław, Polen)"
+  },
+  "deathDate": "1996-11-22",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Tübingen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Jurist, 1955–1985 Professor für Öffentliches Recht und Direktor des Völkerrechtlichen Seminars an der Universität Tübingen, begründete 1958 zusammen mit Theodor Maunz einen der führenden Kommentare zum Grundgesetz"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118681060",
+    "https://de.wikipedia.org/wiki/G%C3%BCnter_D%C3%BCrig"
+  ]
 }

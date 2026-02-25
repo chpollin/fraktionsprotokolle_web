@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "VossHeinrich_1953-10-06",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/VossHeinrich_1953-10-06",
   "name": "Heinrich Voß",
   "givenName": "Heinrich",
   "familyName": "Voß",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1909-01-20",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Hagen-Vorhalle"
-  },
-  "deathDate": "1982-03-22",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Metzingen"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Heimleiter, Diakon [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1953-10-06",
-      "endDate": "1957-10-06"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1328365166",
-    "https://de.wikipedia.org/wiki/Heinrich_Vo%C3%9F_(Politiker)"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Heinrich Voß",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11002397",
     "gnd": "https://d-nb.info/gnd/1328365166",
-    "wikipedia": "https://de.wikipedia.org/wiki/Heinrich_Vo%C3%9F_(Politiker)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Heinrich_Vo%C3%9F_(Politiker)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1909-01-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hagen-Vorhalle"
+  },
+  "deathDate": "1982-03-22",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Metzingen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Heimleiter, Diakon [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1328365166",
+    "https://de.wikipedia.org/wiki/Heinrich_Vo%C3%9F_(Politiker)"
+  ]
 }

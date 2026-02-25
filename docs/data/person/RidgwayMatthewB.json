@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RidgwayMatthewB",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RidgwayMatthewB",
   "name": "Matthew B. Ridgway",
   "givenName": "Matthew B.",
   "familyName": "Ridgway",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1895-03-03",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Fort Monroe, Virginia"
-  },
-  "deathDate": "1993-07-26",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Fox Chapel, Pennsylvania"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "US-amerikanischer General, 1952/53 Supreme Allied Commander Europe (SACEUR), 1953–1955 Chief of Staff of the Army"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119175991",
-    "https://de.wikipedia.org/wiki/Matthew_B._Ridgway"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Matthew B. Ridgway",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119175991",
-    "wikipedia": "https://de.wikipedia.org/wiki/Matthew_B._Ridgway",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Matthew_B._Ridgway"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1895-03-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Fort Monroe, Virginia"
+  },
+  "deathDate": "1993-07-26",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Fox Chapel, Pennsylvania"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "US-amerikanischer General, 1952/53 Supreme Allied Commander Europe (SACEUR), 1953–1955 Chief of Staff of the Army"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119175991",
+    "https://de.wikipedia.org/wiki/Matthew_B._Ridgway"
+  ]
 }

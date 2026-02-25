@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MoldtEwald",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MoldtEwald",
   "name": "Ewald Moldt",
   "givenName": "Ewald",
   "familyName": "Moldt",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1927-04-22",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Greifswald"
-  },
-  "deathDate": "2019-10-17",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Diplomat, SED-Politiker, 1970-1978 und 1988-1990 Stellvertretender Außenminister der DDR, 1978-1988 Leiter der Ständigen Vertretung der DDR in der Bundesrepublik Deutschland"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/106288759X",
-    "https://de.wikipedia.org/wiki/Ewald_Moldt"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Ewald Moldt",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/106288759X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ewald_Moldt",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ewald_Moldt"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1927-04-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Greifswald"
+  },
+  "deathDate": "2019-10-17",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Diplomat, SED-Politiker, 1970-1978 und 1988-1990 Stellvertretender Außenminister der DDR, 1978-1988 Leiter der Ständigen Vertretung der DDR in der Bundesrepublik Deutschland"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/106288759X",
+    "https://de.wikipedia.org/wiki/Ewald_Moldt"
+  ]
 }

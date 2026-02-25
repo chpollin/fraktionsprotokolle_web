@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GoergenHermannMathias_1957-10-15",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GoergenHermannMathias_1957-10-15",
   "name": "Hermann Mathias Görgen",
   "givenName": "Hermann Mathias",
   "familyName": "Görgen",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1908-12-23",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Wallerfangen/Saarland"
-  },
-  "deathDate": "1994-05-03",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bonn"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Professor, Generaldirektor a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1957-10-15",
-      "endDate": "1961-10-15"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/119543907",
-    "https://de.wikipedia.org/wiki/Hermann_Mathias_G%C3%B6rgen"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Hermann Mathias Görgen",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000699",
     "gnd": "https://d-nb.info/gnd/119543907",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hermann_Mathias_G%C3%B6rgen",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hermann_Mathias_G%C3%B6rgen"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1908-12-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Wallerfangen/Saarland"
+  },
+  "deathDate": "1994-05-03",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Professor, Generaldirektor a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1957-10-15",
+      "endDate": "1961-10-15"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/119543907",
+    "https://de.wikipedia.org/wiki/Hermann_Mathias_G%C3%B6rgen"
+  ]
 }

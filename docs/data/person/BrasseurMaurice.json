@@ -1,21 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BrasseurMaurice",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BrasseurMaurice",
   "name": "Maurice Brasseur",
   "givenName": "Maurice",
   "familyName": "Brasseur",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1909",
-  "birthPlace": null,
-  "deathDate": "1996",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "belgischer Politiker, CVP/PSC, 1961–1965 Minister für Außenhandel und Entwicklungshilfe"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Maurice Brasseur",
@@ -36,10 +28,12 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Male",
+  "birthDate": "1909",
+  "deathDate": "1996",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "belgischer Politiker, CVP/PSC, 1961–1965 Minister für Außenhandel und Entwicklungshilfe"
   }
 }

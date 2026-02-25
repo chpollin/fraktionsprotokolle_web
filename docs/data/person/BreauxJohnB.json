@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BreauxJohnB",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BreauxJohnB",
   "name": "John Berlinger Breaux",
   "givenName": "John Berlinger",
   "familyName": "Breaux",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1944-03-01",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Crowley, Louisiana"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "US-amerikanischer Politiker, 1972–1987 Mitglied des amerikanischen Repräsentantenhauses"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1057066087",
-    "https://de.wikipedia.org/wiki/John_Breaux"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "John Berlinger Breaux",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1057066087",
-    "wikipedia": "https://de.wikipedia.org/wiki/John_Breaux",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/John_Breaux"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1944-03-01",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Crowley, Louisiana"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "US-amerikanischer Politiker, 1972–1987 Mitglied des amerikanischen Repräsentantenhauses"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1057066087",
+    "https://de.wikipedia.org/wiki/John_Breaux"
+  ]
 }

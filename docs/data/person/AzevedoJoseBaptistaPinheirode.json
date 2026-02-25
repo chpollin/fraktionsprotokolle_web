@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "AzevedoJoseBaptistaPinheirode",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/AzevedoJoseBaptistaPinheirode",
   "name": "José Baptista Pinheiro de Azevedo",
   "givenName": "José Baptista Pinheiro",
   "familyName": "Azevedo",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1917-07-05",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Luanda"
-  },
-  "deathDate": "1983-08-10",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Lissabon"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "portugiesischer Admiral; Sept. 1975–Juli 1976 Ministerpräsident der Republik Portugal"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1165658674",
-    "https://de.wikipedia.org/wiki/Jos%C3%A9_Baptista_Pinheiro_de_Azevedo"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "José Baptista Pinheiro de Azevedo",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1165658674",
-    "wikipedia": "https://de.wikipedia.org/wiki/Jos%C3%A9_Baptista_Pinheiro_de_Azevedo",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Jos%C3%A9_Baptista_Pinheiro_de_Azevedo"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1917-07-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Luanda"
+  },
+  "deathDate": "1983-08-10",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Lissabon"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "portugiesischer Admiral; Sept. 1975–Juli 1976 Ministerpräsident der Republik Portugal"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1165658674",
+    "https://de.wikipedia.org/wiki/Jos%C3%A9_Baptista_Pinheiro_de_Azevedo"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "VeilSimone",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/VeilSimone",
   "name": "Simone Veil, geb. Jacob",
   "givenName": "Simone",
   "familyName": "Veil",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1927-07-13",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Nizza"
-  },
-  "deathDate": "2017-06-30",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Paris"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Richterin, 1974–1979 französische Gesundheitsministerin, 1979–1993 MdEP (UDF), 1979–1982 Präsidentin des Europaparlaments, 1993–1995 französische Sozialministerin, 1998–2007 Mitglied des Verfassungsrats"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/11929642X",
-    "https://de.wikipedia.org/wiki/Simone_Veil"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Simone Veil, geb. Jacob",
@@ -46,10 +29,27 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/11929642X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Simone_Veil",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Simone_Veil"
   },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1927-07-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Nizza"
+  },
+  "deathDate": "2017-06-30",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Richterin, 1974–1979 französische Gesundheitsministerin, 1979–1993 MdEP (UDF), 1979–1982 Präsidentin des Europaparlaments, 1993–1995 französische Sozialministerin, 1998–2007 Mitglied des Verfassungsrats"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/11929642X",
+    "https://de.wikipedia.org/wiki/Simone_Veil"
+  ],
   "fraktionsprotokolle:sonstiges": "wurde 1944 mit ihrer Familie von der Gestapo verhaftet und u. a. im KZ Auschwitz-Birkenau und KZ Bergen-Belsen inhaftiert"
 }

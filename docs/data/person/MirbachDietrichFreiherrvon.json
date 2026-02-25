@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MirbachDietrichFreiherrvon",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MirbachDietrichFreiherrvon",
   "name": "Dietrich Freiherr von Mirbach",
   "givenName": "Dietrich",
   "familyName": "Mirbach",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1907-09-20",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Potsdam"
-  },
-  "deathDate": "1977-12-29",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Gmund am Tegernsee"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1965–1970 Botschafter der Bundesrepublik Deutschland in Neu-Delhi"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/138388563",
-    "https://de.wikipedia.org/wiki/Dietrich_von_Mirbach"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Dietrich Freiherr von Mirbach",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/138388563",
-    "wikipedia": "https://de.wikipedia.org/wiki/Dietrich_von_Mirbach",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Dietrich_von_Mirbach"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1907-09-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Potsdam"
+  },
+  "deathDate": "1977-12-29",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Gmund am Tegernsee"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1965–1970 Botschafter der Bundesrepublik Deutschland in Neu-Delhi"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/138388563",
+    "https://de.wikipedia.org/wiki/Dietrich_von_Mirbach"
+  ]
 }

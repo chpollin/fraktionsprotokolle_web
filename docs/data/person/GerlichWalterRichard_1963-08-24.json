@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GerlichWalterRichard_1963-08-24",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GerlichWalterRichard_1963-08-24",
   "name": "Walter Richard Gerlich",
   "givenName": "Walter Richard",
   "familyName": "Gerlich",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1908-10-28",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Troppau (heute: Opava, Tschechische Republik)"
-  },
-  "deathDate": "1981-03-21",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Neumünster"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Oberstudienrat [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-        "alternateName": "CDU/CSU"
-      },
-      "startDate": "1963-08-24",
-      "endDate": "1965-10-17"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1276234708",
-    "https://de.wikipedia.org/wiki/Walter_Richard_Gerlich"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Walter Richard Gerlich",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000666",
     "gnd": "https://d-nb.info/gnd/1276234708",
-    "wikipedia": "https://de.wikipedia.org/wiki/Walter_Richard_Gerlich",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Walter_Richard_Gerlich"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1908-10-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Troppau (heute: Opava, Tschechische Republik)"
+  },
+  "deathDate": "1981-03-21",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Neumünster"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Oberstudienrat [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+        "alternateName": "CDU/CSU"
+      },
+      "startDate": "1963-08-24",
+      "endDate": "1965-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1276234708",
+    "https://de.wikipedia.org/wiki/Walter_Richard_Gerlich"
+  ]
 }

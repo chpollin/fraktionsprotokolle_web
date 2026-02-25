@@ -1,10 +1,60 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HoermannHans_1961-10-17",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HoermannHans_1961-10-17",
   "name": "Hans Hörmann",
   "givenName": "Hans",
   "familyName": "Hörmann",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Hans Hörmann",
+    "forename": "Hans",
+    "surname": "Hörmann",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Freiburg)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1926-08-07",
+    "place": "Penzberg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2011-07-29",
+    "place": "Freiburg im Breisgau",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 4,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    },
+    {
+      "period": 5,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    },
+    {
+      "period": 6,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1969-10-20",
+      "to": "1972-09-22"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000929",
+    "gnd": "https://d-nb.info/gnd/1025290151",
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_H%C3%B6rmann_(Politiker)"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1926-08-07",
   "birthPlace": {
@@ -55,53 +105,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/1025290151",
     "https://de.wikipedia.org/wiki/Hans_H%C3%B6rmann_(Politiker)"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Hans Hörmann",
-    "forename": "Hans",
-    "surname": "Hörmann",
-    "prefix": "",
-    "role_name": "",
-    "place": "(Freiburg)"
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1926-08-07",
-    "place": "Penzberg",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "2011-07-29",
-    "place": "Freiburg im Breisgau",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 4,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1961-10-17",
-      "to": "1965-10-17"
-    },
-    {
-      "period": 5,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1965-10-19",
-      "to": "1969-10-19"
-    },
-    {
-      "period": 6,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1969-10-20",
-      "to": "1972-09-22"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11000929",
-    "gnd": "https://d-nb.info/gnd/1025290151",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hans_H%C3%B6rmann_(Politiker)",
-    "viaf": null
-  }
+  ]
 }

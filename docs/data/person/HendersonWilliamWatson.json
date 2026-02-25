@@ -1,24 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HendersonWilliamWatson",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HendersonWilliamWatson",
   "name": "William Watson Henderson",
   "givenName": "William Watson",
   "familyName": "Henderson",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1891-08-08",
-  "birthPlace": null,
-  "deathDate": "1984-04-04",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1923–1924 und 1929–1931 Mitglied des britischen Unterhauses (Labour), 1945–1984 Mitglied des Oberhauses, 1948–1951 »Parliamentary Under-Secretary of State for Foreign Affairs«"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://en.wikipedia.org/wiki/William_Henderson,_1st_Baron_Henderson",
-    "http://viaf.org/viaf/315945562"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "William Watson Henderson",
@@ -40,9 +29,18 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
     "wikipedia": "https://en.wikipedia.org/wiki/William_Henderson,_1st_Baron_Henderson",
     "viaf": "http://viaf.org/viaf/315945562"
-  }
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1891-08-08",
+  "deathDate": "1984-04-04",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1923–1924 und 1929–1931 Mitglied des britischen Unterhauses (Labour), 1945–1984 Mitglied des Oberhauses, 1948–1951 »Parliamentary Under-Secretary of State for Foreign Affairs«"
+  },
+  "sameAs": [
+    "https://en.wikipedia.org/wiki/William_Henderson,_1st_Baron_Henderson",
+    "http://viaf.org/viaf/315945562"
+  ]
 }

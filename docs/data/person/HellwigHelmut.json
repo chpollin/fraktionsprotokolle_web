@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HellwigHelmut",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HellwigHelmut",
   "name": "Helmut Hellwig",
   "givenName": "Helmut",
   "familyName": "Hellwig",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1933-12-20",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Wanne-Eickel"
-  },
-  "deathDate": "2016-06-07",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Herne"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Lehre bei der Deutschen Bundespost, 1948-1956 Mitglied der Deutschen Postgewerkschaft (DPG) und ab 1957 Mitglied der Gewerkschaft Öffentliche Dienste, Transport und Verkehr (ÖTV), 1962-1980 hauptamtlicher Geschäftsführer und NRW-Landesvorsitzender der Sozialistischen Jugend Deutschlands – Die Falken (SJD – Die Falken), 1964-1975 SPD-Stadtverordneter der Stadt Wanne-Eickel (dort 1969-1975 Vorsitzender der SPD-Stadtratsfraktion), 1970-1995 MdL Nordrhein-Westfalen (SPD)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1103966308",
-    "https://de.wikipedia.org/wiki/Helmut_Hellwig"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Helmut Hellwig",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1103966308",
-    "wikipedia": "https://de.wikipedia.org/wiki/Helmut_Hellwig",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Helmut_Hellwig"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1933-12-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Wanne-Eickel"
+  },
+  "deathDate": "2016-06-07",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Herne"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Lehre bei der Deutschen Bundespost, 1948-1956 Mitglied der Deutschen Postgewerkschaft (DPG) und ab 1957 Mitglied der Gewerkschaft Öffentliche Dienste, Transport und Verkehr (ÖTV), 1962-1980 hauptamtlicher Geschäftsführer und NRW-Landesvorsitzender der Sozialistischen Jugend Deutschlands – Die Falken (SJD – Die Falken), 1964-1975 SPD-Stadtverordneter der Stadt Wanne-Eickel (dort 1969-1975 Vorsitzender der SPD-Stadtratsfraktion), 1970-1995 MdL Nordrhein-Westfalen (SPD)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1103966308",
+    "https://de.wikipedia.org/wiki/Helmut_Hellwig"
+  ]
 }

@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HansardLuke",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HansardLuke",
   "name": "Luke Hansard",
   "givenName": "Luke",
   "familyName": "Hansard",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1752-07-05",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Norwich"
-  },
-  "deathDate": "1828-10-29",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "englischer Buchdrucker (»Journals of the House of Commons«)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119095122",
-    "https://en.wikipedia.org/wiki/Luke_Hansard"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Luke Hansard",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119095122",
-    "wikipedia": "https://en.wikipedia.org/wiki/Luke_Hansard",
-    "viaf": null
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/Luke_Hansard"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1752-07-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Norwich"
+  },
+  "deathDate": "1828-10-29",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "englischer Buchdrucker (»Journals of the House of Commons«)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119095122",
+    "https://en.wikipedia.org/wiki/Luke_Hansard"
+  ]
 }

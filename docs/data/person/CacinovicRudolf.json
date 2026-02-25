@@ -1,29 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "CacinovicRudolf",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/CacinovicRudolf",
   "name": "Rudolf »Rudi« Čačinovič",
   "givenName": "Rudolf",
   "familyName": "Čačinovič",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1914-03-23",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Rakičan"
-  },
-  "deathDate": "2008-01-14",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Ljubljana"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Vizepräsident der slowenischen Regierung; 1968–Juni 1973 jugoslawischer Botschafter in Bonn"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://sl.wikipedia.org/wiki/Rudi_%C4%8Ca%C4%8Dinovi%C4%8D"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Rudolf »Rudi« Čačinovič",
@@ -45,9 +29,24 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://sl.wikipedia.org/wiki/Rudi_%C4%8Ca%C4%8Dinovi%C4%8D",
-    "viaf": null
-  }
+    "wikipedia": "https://sl.wikipedia.org/wiki/Rudi_%C4%8Ca%C4%8Dinovi%C4%8D"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1914-03-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Rakičan"
+  },
+  "deathDate": "2008-01-14",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Ljubljana"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Vizepräsident der slowenischen Regierung; 1968–Juni 1973 jugoslawischer Botschafter in Bonn"
+  },
+  "sameAs": [
+    "https://sl.wikipedia.org/wiki/Rudi_%C4%8Ca%C4%8Dinovi%C4%8D"
+  ]
 }

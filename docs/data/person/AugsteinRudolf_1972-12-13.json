@@ -1,38 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "AugsteinRudolf_1972-12-13",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/AugsteinRudolf_1972-12-13",
   "name": "Rudolf Augstein",
   "givenName": "Rudolf",
   "familyName": "Augstein",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1923-11-05",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Hannover"
-  },
-  "deathDate": "2002-11-07",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Verleger [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Freien Demokratischen Partei",
-        "alternateName": "FDP"
-      },
-      "startDate": "1972-12-13",
-      "endDate": "1973-01-24"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/118651080",
-    "https://de.wikipedia.org/wiki/Rudolf_Augstein"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Rudolf Augstein",
@@ -64,8 +39,34 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000061",
     "gnd": "https://d-nb.info/gnd/118651080",
-    "wikipedia": "https://de.wikipedia.org/wiki/Rudolf_Augstein",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Rudolf_Augstein"
   },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1923-11-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hannover"
+  },
+  "deathDate": "2002-11-07",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Verleger [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "1972-12-13",
+      "endDate": "1973-01-24"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/118651080",
+    "https://de.wikipedia.org/wiki/Rudolf_Augstein"
+  ],
   "fraktionsprotokolle:sonstiges": "Journalist, Publizist, Herausgeber »Der Spiegel«"
 }

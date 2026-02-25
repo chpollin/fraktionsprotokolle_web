@@ -1,45 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "OstrowskiChristine_1990-10-03",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/OstrowskiChristine_1990-10-03",
   "name": "Christine Ostrowski",
   "givenName": "Christine",
   "familyName": "Ostrowski",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1945-08-24",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Plauen/Vogtland"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Lehrerin, Dipl.-Gesellschaftswissenschaftlerin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Gruppe der Partei des Demokratischen Sozialismus",
-        "alternateName": "Grp. PDS"
-      },
-      "startDate": "1990-10-03",
-      "endDate": "1990-12-20"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Partei des Demokratischen Sozialismus",
-        "alternateName": "PDS"
-      },
-      "startDate": "1998-10-26",
-      "endDate": "2002-10-17"
-    }
-  ],
-  "sameAs": null,
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Christine Ostrowski",
@@ -76,9 +44,38 @@
     }
   ],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11001662",
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
-  }
+    "mdb_stammdaten": "11001662"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1945-08-24",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Plauen/Vogtland"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Lehrerin, Dipl.-Gesellschaftswissenschaftlerin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Gruppe der Partei des Demokratischen Sozialismus",
+        "alternateName": "Grp. PDS"
+      },
+      "startDate": "1990-10-03",
+      "endDate": "1990-12-20"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Partei des Demokratischen Sozialismus",
+        "alternateName": "PDS"
+      },
+      "startDate": "1998-10-26",
+      "endDate": "2002-10-17"
+    }
+  ]
 }

@@ -1,10 +1,53 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KaterHelmut_1969-10-20",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KaterHelmut_1969-10-20",
   "name": "Helmut Kater",
   "givenName": "Helmut",
   "familyName": "Kater",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Helmut Kater",
+    "forename": "Helmut",
+    "surname": "Kater",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1927-08-30",
+    "place": "Danzig (heute: Gdańsk, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "2012-09-07",
+    "place": "Timmendorfer Strand",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 6,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1969-10-20",
+      "to": "1972-09-22"
+    },
+    {
+      "period": 7,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1972-12-13",
+      "to": "1976-12-13"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001071",
+    "gnd": "https://d-nb.info/gnd/134068041",
+    "wikipedia": "https://de.wikipedia.org/wiki/Helmut_Kater"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1927-08-30",
   "birthPlace": {
@@ -45,46 +88,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/134068041",
     "https://de.wikipedia.org/wiki/Helmut_Kater"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Helmut Kater",
-    "forename": "Helmut",
-    "surname": "Kater",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1927-08-30",
-    "place": "Danzig (heute: Gdańsk, Polen)",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "2012-09-07",
-    "place": "Timmendorfer Strand",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 6,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1969-10-20",
-      "to": "1972-09-22"
-    },
-    {
-      "period": 7,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1972-12-13",
-      "to": "1976-12-13"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11001071",
-    "gnd": "https://d-nb.info/gnd/134068041",
-    "wikipedia": "https://de.wikipedia.org/wiki/Helmut_Kater",
-    "viaf": null
-  }
+  ]
 }

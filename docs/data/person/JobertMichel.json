@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "JobertMichel",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/JobertMichel",
   "name": "Michel Jobert",
   "givenName": "Michel",
   "familyName": "Jobert",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1921-09-11",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Meknès"
-  },
-  "deathDate": "2002-05-25",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Paris"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1973/74 französischer Außenminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/11898554X",
-    "https://de.wikipedia.org/wiki/Michel_Jobert"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Michel Jobert",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/11898554X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Michel_Jobert",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Michel_Jobert"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1921-09-11",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Meknès"
+  },
+  "deathDate": "2002-05-25",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1973/74 französischer Außenminister"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/11898554X",
+    "https://de.wikipedia.org/wiki/Michel_Jobert"
+  ]
 }

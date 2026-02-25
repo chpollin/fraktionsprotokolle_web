@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "LaeppleFriedel",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/LaeppleFriedel",
   "name": "Friedel Läpple",
   "givenName": "Friedel",
   "familyName": "Läpple",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1938-06-20",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Schiffweiler"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1970–1999 MdL Saarland (SPD) sowie 1973–1985 Vorsitzender der SPD-Landtagsfraktion, 1970–1977 Vorsitzender der SPD Saarland, 1985–1999 saarländischer Innenminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/108403459",
-    "https://de.wikipedia.org/wiki/Friedel_L%C3%A4pple"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Friedel Läpple",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/108403459",
-    "wikipedia": "https://de.wikipedia.org/wiki/Friedel_L%C3%A4pple",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Friedel_L%C3%A4pple"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1938-06-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Schiffweiler"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1970–1999 MdL Saarland (SPD) sowie 1973–1985 Vorsitzender der SPD-Landtagsfraktion, 1970–1977 Vorsitzender der SPD Saarland, 1985–1999 saarländischer Innenminister"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/108403459",
+    "https://de.wikipedia.org/wiki/Friedel_L%C3%A4pple"
+  ]
 }

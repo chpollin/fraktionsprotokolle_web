@@ -1,24 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KuehneLothar",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KuehneLothar",
   "name": "Lothar Kühne",
   "givenName": "Lothar",
   "familyName": "Kühne",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1908-01-02",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Steinbach"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1937 SS-Untersturmführer im Büro des Reichsaußenministers von Ribbentrop, nach 1945 Rechtsanwalt u. Notar, FDP-Mitglied, mehrfach FDP-Kandidat bei Bundestagswahlen"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Lothar Kühne",
@@ -39,10 +28,15 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Male",
+  "birthDate": "1908-01-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Steinbach"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1937 SS-Untersturmführer im Büro des Reichsaußenministers von Ribbentrop, nach 1945 Rechtsanwalt u. Notar, FDP-Mitglied, mehrfach FDP-Kandidat bei Bundestagswahlen"
   }
 }

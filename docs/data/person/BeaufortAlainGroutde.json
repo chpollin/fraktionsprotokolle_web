@@ -1,29 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BeaufortAlainGroutde",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BeaufortAlainGroutde",
   "name": "Alain Grout de Beaufort",
   "givenName": "Alain Grout de Beaufort",
   "familyName": "Beaufort",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1918-05-03",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Châtellerault"
-  },
-  "deathDate": "1944-08-15",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Domont"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Offizier der französischen Luftwaffe"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://fr.wikipedia.org/wiki/Alain_Grout_de_Beaufort"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Alain Grout de Beaufort",
@@ -45,9 +29,24 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://fr.wikipedia.org/wiki/Alain_Grout_de_Beaufort",
-    "viaf": null
-  }
+    "wikipedia": "https://fr.wikipedia.org/wiki/Alain_Grout_de_Beaufort"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1918-05-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Châtellerault"
+  },
+  "deathDate": "1944-08-15",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Domont"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Offizier der französischen Luftwaffe"
+  },
+  "sameAs": [
+    "https://fr.wikipedia.org/wiki/Alain_Grout_de_Beaufort"
+  ]
 }

@@ -1,29 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FetzerMax",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FetzerMax",
   "name": "Max Fetzer",
   "givenName": "Max",
   "familyName": "Fetzer",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1895-02-08",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Stuttgart"
-  },
-  "deathDate": "1988-12-29",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Stuttgart"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1948–1951 Ministerialdirektor im Verkehrsministerium von Württemberg-Baden, dann bis 1962 Ministerialdirektor im Innenministerium von Baden-Württemberg"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1012377857"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Max Fetzer",
@@ -45,9 +29,24 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/1012377857",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/1012377857"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1895-02-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Stuttgart"
+  },
+  "deathDate": "1988-12-29",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Stuttgart"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1948–1951 Ministerialdirektor im Verkehrsministerium von Württemberg-Baden, dann bis 1962 Ministerialdirektor im Innenministerium von Baden-Württemberg"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1012377857"
+  ]
 }

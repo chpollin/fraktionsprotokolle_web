@@ -1,34 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MrosekAndreas_2017-10-24",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MrosekAndreas_2017-10-24",
   "name": "Andreas Mrosek",
   "givenName": "Andreas",
   "familyName": "Mrosek",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1958-01-18",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Dessau"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Dipl.-Ing. für Schiffsführung [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Alternative für Deutschland",
-        "alternateName": "AfD"
-      },
-      "startDate": "2017-10-24"
-    }
-  ],
-  "sameAs": null,
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Andreas Mrosek",
@@ -58,9 +37,27 @@
     }
   ],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11004827",
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
-  }
+    "mdb_stammdaten": "11004827"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1958-01-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Dessau"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Ing. für Schiffsführung [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Alternative für Deutschland",
+        "alternateName": "AfD"
+      },
+      "startDate": "2017-10-24"
+    }
+  ]
 }

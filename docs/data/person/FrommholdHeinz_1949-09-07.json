@@ -1,10 +1,67 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FrommholdHeinz_1949-09-07",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FrommholdHeinz_1949-09-07",
   "name": "Heinz Frommhold",
   "givenName": "Heinz",
   "familyName": "Frommhold",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Heinz Frommhold",
+    "forename": "Heinz",
+    "surname": "Frommhold",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1906-11-26",
+    "place": "Striegau (heute: Strzegom, Polen)",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1979-10-24",
+    "place": "Bonn",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "DRP/NR",
+      "faction_full": "Fraktion Deutsche Reichspartei/Nationale Rechte",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 1,
+      "faction": "Fraktionslos",
+      "faction_full": "Fraktionslos",
+      "from": "1950-10-05",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 1,
+      "faction": "DP/DPB (Gast)",
+      "faction_full": "Fraktion DP/DPB (Gast)",
+      "from": "1952-03-26",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 1,
+      "faction": "Fraktionslos",
+      "faction_full": "Fraktionslos",
+      "from": "1953-02-11",
+      "to": "1953-09-07"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000608",
+    "gnd": "https://d-nb.info/gnd/1233605216",
+    "wikipedia": "https://de.wikipedia.org/wiki/Heinz_Frommhold"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1906-11-26",
   "birthPlace": {
@@ -65,60 +122,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/1233605216",
     "https://de.wikipedia.org/wiki/Heinz_Frommhold"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Heinz Frommhold",
-    "forename": "Heinz",
-    "surname": "Frommhold",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1906-11-26",
-    "place": "Striegau (heute: Strzegom, Polen)",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1979-10-24",
-    "place": "Bonn",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 1,
-      "faction": "DRP/NR",
-      "faction_full": "Fraktion Deutsche Reichspartei/Nationale Rechte",
-      "from": "1949-09-07",
-      "to": "1953-09-07"
-    },
-    {
-      "period": 1,
-      "faction": "Fraktionslos",
-      "faction_full": "Fraktionslos",
-      "from": "1950-10-05",
-      "to": "1953-09-07"
-    },
-    {
-      "period": 1,
-      "faction": "DP/DPB (Gast)",
-      "faction_full": "Fraktion DP/DPB (Gast)",
-      "from": "1952-03-26",
-      "to": "1953-09-07"
-    },
-    {
-      "period": 1,
-      "faction": "Fraktionslos",
-      "faction_full": "Fraktionslos",
-      "from": "1953-02-11",
-      "to": "1953-09-07"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11000608",
-    "gnd": "https://d-nb.info/gnd/1233605216",
-    "wikipedia": "https://de.wikipedia.org/wiki/Heinz_Frommhold",
-    "viaf": null
-  }
+  ]
 }

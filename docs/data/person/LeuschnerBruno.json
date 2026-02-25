@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "LeuschnerBruno",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/LeuschnerBruno",
   "name": "Bruno Leuschner",
   "givenName": "Bruno",
   "familyName": "Leuschner",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1910-08-12",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Rixdorf"
-  },
-  "deathDate": "1965-02-10",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Ost-Berlin"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1955–1965 Stellvertretender Vorsitzender des Ministerrates der DDR"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118572229",
-    "https://de.wikipedia.org/wiki/Bruno_Leuschner_(Politiker)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Bruno Leuschner",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118572229",
-    "wikipedia": "https://de.wikipedia.org/wiki/Bruno_Leuschner_(Politiker)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Bruno_Leuschner_(Politiker)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1910-08-12",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Rixdorf"
+  },
+  "deathDate": "1965-02-10",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Ost-Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1955–1965 Stellvertretender Vorsitzender des Ministerrates der DDR"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118572229",
+    "https://de.wikipedia.org/wiki/Bruno_Leuschner_(Politiker)"
+  ]
 }

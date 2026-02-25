@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ChristophersenThies",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ChristophersenThies",
   "name": "Thies Christophersen",
   "givenName": "Thies",
   "familyName": "Christophersen",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1918-01-27",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Kiel"
-  },
-  "deathDate": "1997-02-13",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Molfsee"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Agrarjournalist, Landwirt, Publizist und Versandhändler, seit 1965 Herausgeber des Monatsblatts »Deutscher Bauer« sowie seit 1969 der Zeitschrift »Die Bauernschaft«"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118520717",
-    "https://de.wikipedia.org/wiki/Thies_Christophersen"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Thies Christophersen",
@@ -46,10 +29,27 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118520717",
-    "wikipedia": "https://de.wikipedia.org/wiki/Thies_Christophersen",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Thies_Christophersen"
   },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1918-01-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kiel"
+  },
+  "deathDate": "1997-02-13",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Molfsee"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Agrarjournalist, Landwirt, Publizist und Versandhändler, seit 1965 Herausgeber des Monatsblatts »Deutscher Bauer« sowie seit 1969 der Zeitschrift »Die Bauernschaft«"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118520717",
+    "https://de.wikipedia.org/wiki/Thies_Christophersen"
+  ],
   "fraktionsprotokolle:sonstiges": "Holocaustleugner (veröffentlichte u. a. 1973 die Broschüre »Die Auschwitz-Lüge«, die 1978 gerichtlich eingezogen wurde), 1976 wegen der Verbreitung von nationalsozialistischer Propaganda zu einer Geldstrafe von 1500 DM und später wegen des Verbreitens von Kennzeichen verfassungsfeindlicher Organisationen sowie Verunglimpfung des Staates und des Andenkens Verstorbener verurteilt"
 }

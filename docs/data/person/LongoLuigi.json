@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "LongoLuigi",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/LongoLuigi",
   "name": "Luigi Longo",
   "givenName": "Luigi",
   "familyName": "Longo",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1900-03-15",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Fubine Montferrato, Provinz Alessandria"
-  },
-  "deathDate": "1980-10-16",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Rom"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1964–1972 Generalsekretär der Kommunistischen Partei Italiens"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119382512",
-    "https://de.wikipedia.org/wiki/Luigi_Longo"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Luigi Longo",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119382512",
-    "wikipedia": "https://de.wikipedia.org/wiki/Luigi_Longo",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Luigi_Longo"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1900-03-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Fubine Montferrato, Provinz Alessandria"
+  },
+  "deathDate": "1980-10-16",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Rom"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1964–1972 Generalsekretär der Kommunistischen Partei Italiens"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119382512",
+    "https://de.wikipedia.org/wiki/Luigi_Longo"
+  ]
 }

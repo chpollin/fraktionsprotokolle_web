@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PercyCharlesH",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PercyCharlesH",
   "name": "Charles Harting Percy",
   "givenName": "Charles Harting",
   "familyName": "Percy",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1919-09-27",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Pensacola, Florida"
-  },
-  "deathDate": "2011-09-17",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Washington, D. C."
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "US-amerikanischer Politiker der Republikanischen Partei, 1967–1985 US-Senator aus Illinois"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1173200967",
-    "https://de.wikipedia.org/wiki/Charles_H._Percy"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Charles Harting Percy",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1173200967",
-    "wikipedia": "https://de.wikipedia.org/wiki/Charles_H._Percy",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Charles_H._Percy"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1919-09-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Pensacola, Florida"
+  },
+  "deathDate": "2011-09-17",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Washington, D. C."
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "US-amerikanischer Politiker der Republikanischen Partei, 1967–1985 US-Senator aus Illinois"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1173200967",
+    "https://de.wikipedia.org/wiki/Charles_H._Percy"
+  ]
 }

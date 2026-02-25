@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchroederHorst",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchroederHorst",
   "name": "Horst Schröder",
   "givenName": "Horst",
   "familyName": "Schröder",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1913-03-09",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Bremen"
-  },
-  "deathDate": "1973-09-12",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Viareggio"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Rechtswissenschaftler und Hochschullehrer an der Eberhard-Karls-Universität Tübingen, Mitverfasser des Kommentars zum Strafgesetzbuch (Schönke/Schröder)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/11861083X",
-    "https://de.wikipedia.org/wiki/Horst_Schr%C3%B6der_(Jurist)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Horst Schröder",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/11861083X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Horst_Schr%C3%B6der_(Jurist)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Horst_Schr%C3%B6der_(Jurist)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1913-03-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bremen"
+  },
+  "deathDate": "1973-09-12",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Viareggio"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtswissenschaftler und Hochschullehrer an der Eberhard-Karls-Universität Tübingen, Mitverfasser des Kommentars zum Strafgesetzbuch (Schönke/Schröder)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/11861083X",
+    "https://de.wikipedia.org/wiki/Horst_Schr%C3%B6der_(Jurist)"
+  ]
 }

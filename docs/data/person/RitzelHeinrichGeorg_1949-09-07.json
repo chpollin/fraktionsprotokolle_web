@@ -1,10 +1,67 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RitzelHeinrichGeorg_1949-09-07",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RitzelHeinrichGeorg_1949-09-07",
   "name": "Heinrich Georg Ritzel",
   "givenName": "Heinrich Georg",
   "familyName": "Ritzel",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Heinrich Georg Ritzel",
+    "forename": "Heinrich Georg",
+    "surname": "Ritzel",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1893-04-10",
+    "place": "Offenbach",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1971-06-19",
+    "place": "Basel",
+    "country": "Schweiz"
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 1,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1949-09-07",
+      "to": "1953-09-07"
+    },
+    {
+      "period": 2,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 3,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 4,
+      "faction": "SPD",
+      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11001860",
+    "gnd": "https://d-nb.info/gnd/116574461",
+    "wikipedia": "https://de.wikipedia.org/wiki/Heinrich_Ritzel"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1893-04-10",
   "birthPlace": {
@@ -65,60 +122,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/116574461",
     "https://de.wikipedia.org/wiki/Heinrich_Ritzel"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Heinrich Georg Ritzel",
-    "forename": "Heinrich Georg",
-    "surname": "Ritzel",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1893-04-10",
-    "place": "Offenbach",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1971-06-19",
-    "place": "Basel",
-    "country": "Schweiz"
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 1,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1949-09-07",
-      "to": "1953-09-07"
-    },
-    {
-      "period": 2,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1953-10-06",
-      "to": "1957-10-06"
-    },
-    {
-      "period": 3,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1957-10-15",
-      "to": "1961-10-15"
-    },
-    {
-      "period": 4,
-      "faction": "SPD",
-      "faction_full": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-      "from": "1961-10-17",
-      "to": "1965-10-17"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11001860",
-    "gnd": "https://d-nb.info/gnd/116574461",
-    "wikipedia": "https://de.wikipedia.org/wiki/Heinrich_Ritzel",
-    "viaf": null
-  }
+  ]
 }

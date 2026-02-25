@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "AaronDavidL",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/AaronDavidL",
   "name": "David Laurence Aaron",
   "givenName": "David Laurence",
   "familyName": "Aaron",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1938-08-21",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Chicago, Illinois"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "US-amerikanischer Diplomat und Autor, 1977–1981 stellvertretender Sicherheitsberater des amerikanischen Präsidenten"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1162706007",
-    "https://en.wikipedia.org/wiki/David_L._Aaron"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "David Laurence Aaron",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1162706007",
-    "wikipedia": "https://en.wikipedia.org/wiki/David_L._Aaron",
-    "viaf": null
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/David_L._Aaron"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1938-08-21",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Chicago, Illinois"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "US-amerikanischer Diplomat und Autor, 1977–1981 stellvertretender Sicherheitsberater des amerikanischen Präsidenten"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1162706007",
+    "https://en.wikipedia.org/wiki/David_L._Aaron"
+  ]
 }

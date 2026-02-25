@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HeimesWilfried",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HeimesWilfried",
   "name": "Wilfried Heimes",
   "givenName": "Wilfried",
   "familyName": "Heimes",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1927-09-28",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Haan"
-  },
-  "deathDate": "2010-08-28",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1970–1990 MdL Nordrhein-Westfalen (CDU)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/123831350",
-    "https://de.wikipedia.org/wiki/Wilfried_Heimes"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Wilfried Heimes",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/123831350",
-    "wikipedia": "https://de.wikipedia.org/wiki/Wilfried_Heimes",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Wilfried_Heimes"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1927-09-28",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Haan"
+  },
+  "deathDate": "2010-08-28",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1970–1990 MdL Nordrhein-Westfalen (CDU)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/123831350",
+    "https://de.wikipedia.org/wiki/Wilfried_Heimes"
+  ]
 }

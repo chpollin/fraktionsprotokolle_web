@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BroadbentEd",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BroadbentEd",
   "name": "Ed Broadbent",
   "givenName": "John Edward »Ed«",
   "familyName": "Broadbent",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1936-03-21",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Oshawa, Ontario"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "kanadischer Politiker, 1975–1989 Vorsitzender der New Democratic Party (NDP), 1968–1990 und 2004–2006 Mitglied des Kanadischen Parlaments"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118876236",
-    "https://en.wikipedia.org/wiki/Ed_Broadbent"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Ed Broadbent",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118876236",
-    "wikipedia": "https://en.wikipedia.org/wiki/Ed_Broadbent",
-    "viaf": null
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/Ed_Broadbent"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1936-03-21",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Oshawa, Ontario"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "kanadischer Politiker, 1975–1989 Vorsitzender der New Democratic Party (NDP), 1968–1990 und 2004–2006 Mitglied des Kanadischen Parlaments"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118876236",
+    "https://en.wikipedia.org/wiki/Ed_Broadbent"
+  ]
 }

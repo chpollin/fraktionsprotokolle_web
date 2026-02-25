@@ -1,26 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FreudenthalGideon",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FreudenthalGideon",
   "name": "Gideon Freudenthal",
   "givenName": "Gideon",
   "familyName": "Freudenthal",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1947",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Jerusalem"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Historiker und Philosoph, Professor am Cohn Institute for the History and Philosophy of Science and Ideas der Universität Tel Aviv"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/140919120"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Gideon Freudenthal",
@@ -42,9 +29,19 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/140919120",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/140919120"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1947",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Jerusalem"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Historiker und Philosoph, Professor am Cohn Institute for the History and Philosophy of Science and Ideas der Universität Tel Aviv"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/140919120"
+  ]
 }

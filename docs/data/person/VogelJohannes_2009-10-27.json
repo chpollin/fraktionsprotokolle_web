@@ -1,44 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "VogelJohannes_2009-10-27",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/VogelJohannes_2009-10-27",
   "name": "Johannes Vogel",
   "givenName": "Johannes",
   "familyName": "Vogel",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1982-04-29",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Wermelskirchen"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Politikwissenschaftler [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Freien Demokratischen Partei",
-        "alternateName": "FDP"
-      },
-      "startDate": "2009-10-27",
-      "endDate": "2013-10-22"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Freien Demokratischen Partei",
-        "alternateName": "FDP"
-      },
-      "startDate": "2017-10-24"
-    }
-  ],
-  "sameAs": null,
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Johannes Vogel",
@@ -75,11 +44,39 @@
     }
   ],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11004179",
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+    "mdb_stammdaten": "11004179"
   },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1982-04-29",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Wermelskirchen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Politikwissenschaftler [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "2009-10-27",
+      "endDate": "2013-10-22"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "2017-10-24"
+    }
+  ],
   "fraktionsprotokolle:alt_names": [
     {
       "reg": "Johannes Vogel",

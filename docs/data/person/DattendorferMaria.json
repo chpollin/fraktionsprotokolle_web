@@ -1,26 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DattendorferMaria",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DattendorferMaria",
   "name": "Maria Dattendorfer, geb. Hocke, geschiedene van Horn, verwitwete Götze, geschiedene Wagert, geschiedene Clerc",
   "givenName": "Maria",
   "familyName": "Dattendorfer",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1917-07-14",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Bonn"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Journalistin, (mindestens) in den 1950er Jahren Mitarbeiterin des CDU-Staatssekretärs Otto Lenz"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1277175950"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Maria Dattendorfer, geb. Hocke, geschiedene van Horn, verwitwete Götze, geschiedene Wagert, geschiedene Clerc",
@@ -42,10 +29,20 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/1277175950",
-    "wikipedia": null,
-    "viaf": null
+    "gnd": "https://d-nb.info/gnd/1277175950"
   },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1917-07-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalistin, (mindestens) in den 1950er Jahren Mitarbeiterin des CDU-Staatssekretärs Otto Lenz"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1277175950"
+  ],
   "fraktionsprotokolle:sonstiges": "involviert in die sog. HS-30-Affäre"
 }

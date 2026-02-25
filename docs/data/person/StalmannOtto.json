@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "StalmannOtto",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/StalmannOtto",
   "name": "Otto Stalmann",
   "givenName": "Otto",
   "familyName": "Stalmann",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1905",
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Ministerialdirektor, 1950–1970 im Bundeslandwirtschaftsministerium, dort 1953–1970 Leiter der Abteilung VII (Außenwirtschaft)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/172407044"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Otto Stalmann",
@@ -39,9 +29,15 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/172407044",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/172407044"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1905",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Ministerialdirektor, 1950–1970 im Bundeslandwirtschaftsministerium, dort 1953–1970 Leiter der Abteilung VII (Außenwirtschaft)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/172407044"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HegelGeorgWilhelmFriedrich",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HegelGeorgWilhelmFriedrich",
   "name": "Georg Wilhelm Friedrich Hegel",
   "givenName": "Georg Wilhelm Friedrich",
   "familyName": "Hegel",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1770-08-27",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Stuttgart"
-  },
-  "deathDate": "1831-11-14",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "deutscher Philosoph, Professor für Philosophie"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118547739",
-    "https://de.wikipedia.org/wiki/Georg_Wilhelm_Friedrich_Hegel"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Georg Wilhelm Friedrich Hegel",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118547739",
-    "wikipedia": "https://de.wikipedia.org/wiki/Georg_Wilhelm_Friedrich_Hegel",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Georg_Wilhelm_Friedrich_Hegel"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1770-08-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Stuttgart"
+  },
+  "deathDate": "1831-11-14",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutscher Philosoph, Professor für Philosophie"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118547739",
+    "https://de.wikipedia.org/wiki/Georg_Wilhelm_Friedrich_Hegel"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GompersSamuel",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GompersSamuel",
   "name": "Samuel Gompers",
   "givenName": "Samuel",
   "familyName": "Gompers",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1850-01-27",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "London"
-  },
-  "deathDate": "1924-12-13",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "San Antonio, Texas"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "amerikanischer Gewerkschaftsführer, 1886–1894 und 1895–1924 Präsident des amerikanischen Gewerkschaftsbundes »American Federation of Labor«"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118718088",
-    "https://de.wikipedia.org/wiki/Samuel_Gompers"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Samuel Gompers",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118718088",
-    "wikipedia": "https://de.wikipedia.org/wiki/Samuel_Gompers",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Samuel_Gompers"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1850-01-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "London"
+  },
+  "deathDate": "1924-12-13",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "San Antonio, Texas"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "amerikanischer Gewerkschaftsführer, 1886–1894 und 1895–1924 Präsident des amerikanischen Gewerkschaftsbundes »American Federation of Labor«"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118718088",
+    "https://de.wikipedia.org/wiki/Samuel_Gompers"
+  ]
 }

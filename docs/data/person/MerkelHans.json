@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MerkelHans",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MerkelHans",
   "name": "Hans Merkel",
   "givenName": "Hans",
   "familyName": "Merkel",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1934-04-20",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Nürnberg"
-  },
-  "deathDate": "2020-12-03",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bonn"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1961-1970 im Bundesministerium der Verteidigung, dann persönlicher Referent des Landesgruppenvorsitzenden Stücklen, 1979 Referent für Außen-, Deutschland- und Verteidigungspolitik der CSU-Landesgruppe, 1979-1983 Leiter des Büros von Bundestagspräsident Stücklen, seit 1983 Leiter der Abteilung für internationale parlamentarische Beziehungen des Deutschen Bundestages"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1083857517",
-    "https://de.wikipedia.org/wiki/Hans_Merkel_(Jurist,_1934)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hans Merkel",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1083857517",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Merkel_(Jurist,_1934)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Merkel_(Jurist,_1934)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1934-04-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Nürnberg"
+  },
+  "deathDate": "2020-12-03",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1961-1970 im Bundesministerium der Verteidigung, dann persönlicher Referent des Landesgruppenvorsitzenden Stücklen, 1979 Referent für Außen-, Deutschland- und Verteidigungspolitik der CSU-Landesgruppe, 1979-1983 Leiter des Büros von Bundestagspräsident Stücklen, seit 1983 Leiter der Abteilung für internationale parlamentarische Beziehungen des Deutschen Bundestages"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1083857517",
+    "https://de.wikipedia.org/wiki/Hans_Merkel_(Jurist,_1934)"
+  ]
 }

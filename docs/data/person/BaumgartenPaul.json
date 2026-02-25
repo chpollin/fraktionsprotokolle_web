@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BaumgartenPaul",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BaumgartenPaul",
   "name": "Paul Baumgarten",
   "givenName": "Paul",
   "familyName": "Baumgarten",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1900-05-05",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Tilsit (heute: Sowetsk, Russland)"
-  },
-  "deathDate": "1984-10-08",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Architekt, 1952–1965 Professor an der Hochschule der Künste in Berlin"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118849808",
-    "https://de.wikipedia.org/wiki/Paul_Baumgarten_(Architekt,_1900)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Paul Baumgarten",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118849808",
-    "wikipedia": "https://de.wikipedia.org/wiki/Paul_Baumgarten_(Architekt,_1900)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Paul_Baumgarten_(Architekt,_1900)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1900-05-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Tilsit (heute: Sowetsk, Russland)"
+  },
+  "deathDate": "1984-10-08",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Architekt, 1952–1965 Professor an der Hochschule der Künste in Berlin"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118849808",
+    "https://de.wikipedia.org/wiki/Paul_Baumgarten_(Architekt,_1900)"
+  ]
 }

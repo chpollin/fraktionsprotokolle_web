@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HigginsMarguerite",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HigginsMarguerite",
   "name": "Marguerite Higgins Hall",
   "givenName": "Marguerite",
   "familyName": "Higgins Hall",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1920-09-03",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Hong Kong"
-  },
-  "deathDate": "1966-01-03",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Washington, D.C."
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Journalistin, 1942–1963 Tätigkeit bei der »New York Herald Tribune« (u. a. Berichterstattung über den Nürnberger Prozess) sowie 1963–1965 Kolumnistin der »Newsday«, hielt sich 1945 als Kriegsberichterstatterin in Deutschland auf und interviewte u. a. Hermann Göring, Julius Streicher sowie Emmy Göring"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1029993203",
-    "https://de.wikipedia.org/wiki/Marguerite_Higgins"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Marguerite Higgins Hall",
@@ -46,10 +29,27 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1029993203",
-    "wikipedia": "https://de.wikipedia.org/wiki/Marguerite_Higgins",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Marguerite_Higgins"
   },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1920-09-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hong Kong"
+  },
+  "deathDate": "1966-01-03",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Washington, D.C."
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalistin, 1942–1963 Tätigkeit bei der »New York Herald Tribune« (u. a. Berichterstattung über den Nürnberger Prozess) sowie 1963–1965 Kolumnistin der »Newsday«, hielt sich 1945 als Kriegsberichterstatterin in Deutschland auf und interviewte u. a. Hermann Göring, Julius Streicher sowie Emmy Göring"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1029993203",
+    "https://de.wikipedia.org/wiki/Marguerite_Higgins"
+  ],
   "fraktionsprotokolle:sonstiges": "1951 als erste Frau mit dem Pulitzer-Preis für ihre Kriegsberichterstatterung aus dem Koreakrieg ausgezeichnet"
 }

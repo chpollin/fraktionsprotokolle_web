@@ -1,48 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "AhlersConrad_1972-12-13",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/AhlersConrad_1972-12-13",
   "name": "Conrad Ahlers",
   "givenName": "Conrad",
   "familyName": "Ahlers",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1922-11-08",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Hamburg"
-  },
-  "deathDate": "1980-12-19",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Journalist [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1972-12-13",
-      "endDate": "1976-12-13"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1976-12-14",
-      "endDate": "1980-03-07"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/123440084",
-    "https://de.wikipedia.org/wiki/Conrad_Ahlers"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Conrad Ahlers",
@@ -81,8 +46,44 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000014",
     "gnd": "https://d-nb.info/gnd/123440084",
-    "wikipedia": "https://de.wikipedia.org/wiki/Conrad_Ahlers",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Conrad_Ahlers"
   },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1922-11-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "deathDate": "1980-12-19",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Journalist [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1972-12-13",
+      "endDate": "1976-12-13"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1976-12-14",
+      "endDate": "1980-03-07"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/123440084",
+    "https://de.wikipedia.org/wiki/Conrad_Ahlers"
+  ],
   "fraktionsprotokolle:sonstiges": "1966–1969 stellv. Leiter, 1969–1972 Leiter des Presse- und Informationsamtes der Bundesregierung und Staatssekretär"
 }

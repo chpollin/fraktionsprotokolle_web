@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "CornfeldBernard",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/CornfeldBernard",
   "name": "Bernard Cornfeld",
   "givenName": "Bernard",
   "familyName": "Cornfeld",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1927-08-17",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Istanbul"
-  },
-  "deathDate": "1995-02-27",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "London"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "US-amerikanischer Unternehmer, Gründer der Fondsgesellschaft »Investors Overseas Services« (IOS)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/124375111",
-    "https://de.wikipedia.org/wiki/Bernard_Cornfeld"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Bernard Cornfeld",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/124375111",
-    "wikipedia": "https://de.wikipedia.org/wiki/Bernard_Cornfeld",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Bernard_Cornfeld"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1927-08-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Istanbul"
+  },
+  "deathDate": "1995-02-27",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "London"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "US-amerikanischer Unternehmer, Gründer der Fondsgesellschaft »Investors Overseas Services« (IOS)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/124375111",
+    "https://de.wikipedia.org/wiki/Bernard_Cornfeld"
+  ]
 }

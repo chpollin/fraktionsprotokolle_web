@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HildebrandtEckart",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HildebrandtEckart",
   "name": "Eckart Hildebrandt",
   "givenName": "Eckart",
   "familyName": "Hildebrandt",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1943-04-09",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Berlin"
-  },
-  "deathDate": "2016-07-24",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Politikwissenschaftler, Hochschullehrer und Umweltaktivist; 1977-2008 wissenschaftlicher Mitarbeiter am Wissenschaftszentrum Berlin für Sozialforschung"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/17032057X",
-    "https://de.wikipedia.org/wiki/Eckart_Hildebrandt"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Eckart Hildebrandt",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/17032057X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Eckart_Hildebrandt",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Eckart_Hildebrandt"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1943-04-09",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Berlin"
+  },
+  "deathDate": "2016-07-24",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Politikwissenschaftler, Hochschullehrer und Umweltaktivist; 1977-2008 wissenschaftlicher Mitarbeiter am Wissenschaftszentrum Berlin für Sozialforschung"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/17032057X",
+    "https://de.wikipedia.org/wiki/Eckart_Hildebrandt"
+  ]
 }

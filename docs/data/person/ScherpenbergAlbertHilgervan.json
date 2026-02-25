@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ScherpenbergAlbertHilgervan",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ScherpenbergAlbertHilgervan",
   "name": "Albert Hilger van Scherpenberg",
   "givenName": "Albert Hilger",
   "familyName": "Scherpenberg",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1899-10-04",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "München"
-  },
-  "deathDate": "1969-09-12",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Hohenpeißenberg"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1958–1961 Staatssekretär im Auswärtigen Amt, 1961–1964 Botschafter beim Heiligen Stuhl"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1030549737",
-    "https://de.wikipedia.org/wiki/Hilger_van_Scherpenberg"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Albert Hilger van Scherpenberg",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1030549737",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hilger_van_Scherpenberg",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hilger_van_Scherpenberg"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1899-10-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "München"
+  },
+  "deathDate": "1969-09-12",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Hohenpeißenberg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1958–1961 Staatssekretär im Auswärtigen Amt, 1961–1964 Botschafter beim Heiligen Stuhl"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1030549737",
+    "https://de.wikipedia.org/wiki/Hilger_van_Scherpenberg"
+  ]
 }

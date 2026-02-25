@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WallachJohn",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WallachJohn",
   "name": "John Paul Wallach",
   "givenName": "John Paul",
   "familyName": "Wallach",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1943-01-18",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "New York City"
-  },
-  "deathDate": "2020-07-10",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "New York City"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "US-amerikanischer Journalist und Autor, Auslandsredakteur (»Hearst Newspapers«)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/136540597",
-    "https://en.wikipedia.org/wiki/John_Wallach"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "John Paul Wallach",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/136540597",
-    "wikipedia": "https://en.wikipedia.org/wiki/John_Wallach",
-    "viaf": null
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/John_Wallach"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1943-01-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "New York City"
+  },
+  "deathDate": "2020-07-10",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "New York City"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "US-amerikanischer Journalist und Autor, Auslandsredakteur (»Hearst Newspapers«)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/136540597",
+    "https://en.wikipedia.org/wiki/John_Wallach"
+  ]
 }

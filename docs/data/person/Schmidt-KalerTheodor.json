@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "Schmidt-KalerTheodor",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/Schmidt-KalerTheodor",
   "name": "Theodor Schmidt-Kaler",
   "givenName": "Theodor",
   "familyName": "Schmidt-Kaler",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1930-06-08",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Seibelsdorf"
-  },
-  "deathDate": "2107-06-01",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Margetshöchheim"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Astronom und Demographie-Experte, 1966-1995 ordentlicher Professor und Direktor des Astronomischen Instituts der Ruhr-Universität Bochum, CDU-Mitglied"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/136855431",
-    "https://de.wikipedia.org/wiki/Theodor_Schmidt-Kaler"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Theodor Schmidt-Kaler",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/136855431",
-    "wikipedia": "https://de.wikipedia.org/wiki/Theodor_Schmidt-Kaler",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Theodor_Schmidt-Kaler"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1930-06-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Seibelsdorf"
+  },
+  "deathDate": "2107-06-01",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Margetshöchheim"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Astronom und Demographie-Experte, 1966-1995 ordentlicher Professor und Direktor des Astronomischen Instituts der Ruhr-Universität Bochum, CDU-Mitglied"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/136855431",
+    "https://de.wikipedia.org/wiki/Theodor_Schmidt-Kaler"
+  ]
 }

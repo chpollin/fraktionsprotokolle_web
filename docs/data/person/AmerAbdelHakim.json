@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "AmerAbdelHakim",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/AmerAbdelHakim",
   "name": "Abdel Hakim Amer",
   "givenName": "Abdel Hakim",
   "familyName": "Amer",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1919-12-11",
-  "birthPlace": null,
-  "deathDate": "1967-09-13",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "ägyptischer Erster Vizepräsident und Oberbefehlshaber der Streitkräfte"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://en.wikipedia.org/wiki/Abdel_Hakim_Amer"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Abdel Hakim Amer",
@@ -39,9 +29,16 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://en.wikipedia.org/wiki/Abdel_Hakim_Amer",
-    "viaf": null
-  }
+    "wikipedia": "https://en.wikipedia.org/wiki/Abdel_Hakim_Amer"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1919-12-11",
+  "deathDate": "1967-09-13",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "ägyptischer Erster Vizepräsident und Oberbefehlshaber der Streitkräfte"
+  },
+  "sameAs": [
+    "https://en.wikipedia.org/wiki/Abdel_Hakim_Amer"
+  ]
 }

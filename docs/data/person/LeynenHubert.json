@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "LeynenHubert",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/LeynenHubert",
   "name": "Hubert Leynen",
   "givenName": "Hubert",
   "familyName": "Leynen",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1909",
-  "birthPlace": null,
-  "deathDate": "1997",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "belgischer Politiker, Mitglied der Beratenden Versammlung des Europarats und der Versammlung der Westeuropäischen Union"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1053184689"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hubert Leynen",
@@ -39,9 +29,16 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/1053184689",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/1053184689"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1909",
+  "deathDate": "1997",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "belgischer Politiker, Mitglied der Beratenden Versammlung des Europarats und der Versammlung der Westeuropäischen Union"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1053184689"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MackGeorg",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MackGeorg",
   "name": "Georg Mack",
   "givenName": "Georg",
   "familyName": "Mack",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1899-05-15",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Auerbach"
-  },
-  "deathDate": "1973-10-12",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Auerbach"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1946–1970 MdL Bayern (CSU)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1014767466",
-    "https://de.wikipedia.org/wiki/Georg_Mack"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Georg Mack",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1014767466",
-    "wikipedia": "https://de.wikipedia.org/wiki/Georg_Mack",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Georg_Mack"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1899-05-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Auerbach"
+  },
+  "deathDate": "1973-10-12",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Auerbach"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1946–1970 MdL Bayern (CSU)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1014767466",
+    "https://de.wikipedia.org/wiki/Georg_Mack"
+  ]
 }

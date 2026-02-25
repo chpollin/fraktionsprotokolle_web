@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "Habib-DeloncleMichel",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/Habib-DeloncleMichel",
   "name": "Michel Habib-Deloncle",
   "givenName": "Michel",
   "familyName": "Habib-Deloncle",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1921-11-26",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Neuilly-sur-Seine"
-  },
-  "deathDate": "2006-10-26",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Paris"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "französischer gaullistischer Politiker, 1958–1963 und 1967–1973 Abgeordneter in der französischen Nationalversammlung, 1962–1966 Staatssekretär im franzäsischen Außenministerium, 1966–1967 Staatssekretär im Bildungsministerium"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1158090919",
-    "https://de.wikipedia.org/wiki/Michel_Habib-Deloncle"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Michel Habib-Deloncle",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1158090919",
-    "wikipedia": "https://de.wikipedia.org/wiki/Michel_Habib-Deloncle",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Michel_Habib-Deloncle"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1921-11-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Neuilly-sur-Seine"
+  },
+  "deathDate": "2006-10-26",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "französischer gaullistischer Politiker, 1958–1963 und 1967–1973 Abgeordneter in der französischen Nationalversammlung, 1962–1966 Staatssekretär im franzäsischen Außenministerium, 1966–1967 Staatssekretär im Bildungsministerium"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1158090919",
+    "https://de.wikipedia.org/wiki/Michel_Habib-Deloncle"
+  ]
 }

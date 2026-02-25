@@ -1,29 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BiroJozsef",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BiroJozsef",
   "name": "József Bíró",
   "givenName": "József",
   "familyName": "Bíró",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1921-02-13",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Budapest"
-  },
-  "deathDate": "2001-05-18",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Budapest"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1963–1979 ungarischer Außenhandelsminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/J%C3%B3zsef_B%C3%ADr%C3%B3"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "József Bíró",
@@ -45,9 +29,24 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://de.wikipedia.org/wiki/J%C3%B3zsef_B%C3%ADr%C3%B3",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/J%C3%B3zsef_B%C3%ADr%C3%B3"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1921-02-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Budapest"
+  },
+  "deathDate": "2001-05-18",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Budapest"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1963–1979 ungarischer Außenhandelsminister"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/J%C3%B3zsef_B%C3%ADr%C3%B3"
+  ]
 }

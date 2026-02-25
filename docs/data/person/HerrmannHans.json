@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HerrmannHans",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HerrmannHans",
   "name": "Hans Herrmann",
   "givenName": "Hans",
   "familyName": "Herrmann",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1889-01-26",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Regensburg"
-  },
-  "deathDate": "1959-08-20",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Regensburg"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1952–1960 Oberbürgermeister von Regensburg, 1954–1958 Abgeordneter des bayerischen Landtags (CSU)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/121120414",
-    "https://de.wikipedia.org/wiki/Hans_Herrmann_(Politiker,_1889)"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hans Herrmann",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/121120414",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Herrmann_(Politiker,_1889)",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Herrmann_(Politiker,_1889)"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1889-01-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Regensburg"
+  },
+  "deathDate": "1959-08-20",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Regensburg"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1952–1960 Oberbürgermeister von Regensburg, 1954–1958 Abgeordneter des bayerischen Landtags (CSU)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/121120414",
+    "https://de.wikipedia.org/wiki/Hans_Herrmann_(Politiker,_1889)"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RohwedderDetlevKarsten",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RohwedderDetlevKarsten",
   "name": "Detlev Karsten Rohwedder",
   "givenName": "Detlev Karsten",
   "familyName": "Rohwedder",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1932-10-16",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Gotha"
-  },
-  "deathDate": "1991-04-01",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Düsseldorf"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Manager und Politiker, 1969–1978 Staatssekretär im Bundesministerium für Wirtschaft, 1990–1991 Vorsitzender und Präsident der Treuhandanstalt"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/11913862X",
-    "https://de.wikipedia.org/wiki/Detlev_Rohwedder"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Detlev Karsten Rohwedder",
@@ -46,10 +29,27 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/11913862X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Detlev_Rohwedder",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Detlev_Rohwedder"
   },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1932-10-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Gotha"
+  },
+  "deathDate": "1991-04-01",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Düsseldorf"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Manager und Politiker, 1969–1978 Staatssekretär im Bundesministerium für Wirtschaft, 1990–1991 Vorsitzender und Präsident der Treuhandanstalt"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/11913862X",
+    "https://de.wikipedia.org/wiki/Detlev_Rohwedder"
+  ],
   "fraktionsprotokolle:sonstiges": "am 1. April 1991 in seinem Haus von einem Heckenschützen ermordet"
 }

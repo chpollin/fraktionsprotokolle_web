@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "Meyer-WilmesHedwig",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/Meyer-WilmesHedwig",
   "name": "Hedwig Meyer-Wilmes",
   "givenName": "Hedwig",
   "familyName": "Meyer-Wilmes",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1953-12-21",
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "katholische Theologin, 1983 Bundestags-Kandidatin der Grünen in NRW, seit 1986 Dozentin und 1994/95 Hauptdozentin für feministische Theologie an der Radboud-Universität Nijmegen, 1997-2001 Präsidentin der Europäischen Gesellschaft für theologische Forschung von Frauen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/13778984X"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hedwig Meyer-Wilmes",
@@ -39,9 +29,15 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/13778984X",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/13778984X"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1953-12-21",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "katholische Theologin, 1983 Bundestags-Kandidatin der Grünen in NRW, seit 1986 Dozentin und 1994/95 Hauptdozentin für feministische Theologie an der Radboud-Universität Nijmegen, 1997-2001 Präsidentin der Europäischen Gesellschaft für theologische Forschung von Frauen"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/13778984X"
+  ]
 }

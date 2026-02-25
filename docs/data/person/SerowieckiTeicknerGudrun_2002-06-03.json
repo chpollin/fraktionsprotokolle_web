@@ -1,37 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SerowieckiTeicknerGudrun_2002-06-03",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SerowieckiTeicknerGudrun_2002-06-03",
   "name": "Gudrun Teickner, geb. Weidemann, frühere Serowiecki",
   "givenName": "Gudrun",
   "familyName": "Serowiecki",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1956-08-01",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Aschersleben"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Dipl.-Lehrerin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Freien Demokratischen Partei",
-        "alternateName": "FDP"
-      },
-      "startDate": "2002-06-03",
-      "endDate": "2002-10-17"
-    }
-  ],
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Gudrun_Serowiecki"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Gudrun Teickner, geb. Weidemann, frühere Serowiecki",
@@ -62,10 +38,33 @@
   ],
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11003490",
-    "gnd": null,
-    "wikipedia": "https://de.wikipedia.org/wiki/Gudrun_Serowiecki",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Gudrun_Serowiecki"
   },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1956-08-01",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Aschersleben"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Dipl.-Lehrerin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "2002-06-03",
+      "endDate": "2002-10-17"
+    }
+  ],
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Gudrun_Serowiecki"
+  ],
   "fraktionsprotokolle:alt_names": [
     {
       "reg": "Gudrun Teickner",

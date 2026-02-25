@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HidschaziAbdal-AzizMuhammad",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HidschaziAbdal-AzizMuhammad",
   "name": "Abd al-Aziz Muhammad Hidschazi, alternativ in Wiki: Abd-Elaziz Hegazy oder Abdelaziz Mohamed Hejazi",
   "givenName": "Abd al-Aziz Muhammad",
   "familyName": "Hidschazi",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1923-01-03",
-  "birthPlace": null,
-  "deathDate": "2014-12-22",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "ägyptischer Politiker, 1968–1972 Finanzminister, 1973–1974 Außenminister, September 1974 bis April 1975 Premierminister Ägyptens"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Abd_al-Aziz_Muhammad_Hidschazi"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Abd al-Aziz Muhammad Hidschazi, alternativ in Wiki: Abd-Elaziz Hegazy oder Abdelaziz Mohamed Hejazi",
@@ -39,9 +29,16 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://de.wikipedia.org/wiki/Abd_al-Aziz_Muhammad_Hidschazi",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Abd_al-Aziz_Muhammad_Hidschazi"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1923-01-03",
+  "deathDate": "2014-12-22",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "ägyptischer Politiker, 1968–1972 Finanzminister, 1973–1974 Außenminister, September 1974 bis April 1975 Premierminister Ägyptens"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Abd_al-Aziz_Muhammad_Hidschazi"
+  ]
 }

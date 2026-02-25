@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BiesheuvelBarendW",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BiesheuvelBarendW",
   "name": "Barend W. Biesheuvel",
   "givenName": "Barend W.",
   "familyName": "Biesheuvel",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1920-04-05",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Haarlemmerliede"
-  },
-  "deathDate": "2001-04-29",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Haarlem"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "niederländischer Politiker, ARP, 1956–1973 Abg. der Zweiten Kammer, 1957–1961 MdEP, 1963–1966 stv. Premierminister, 1963–1967 Landwirtschaftsminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1024664503",
-    "https://de.wikipedia.org/wiki/Barend_Biesheuvel"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Barend W. Biesheuvel",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1024664503",
-    "wikipedia": "https://de.wikipedia.org/wiki/Barend_Biesheuvel",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Barend_Biesheuvel"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1920-04-05",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Haarlemmerliede"
+  },
+  "deathDate": "2001-04-29",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Haarlem"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "niederländischer Politiker, ARP, 1956–1973 Abg. der Zweiten Kammer, 1957–1961 MdEP, 1963–1966 stv. Premierminister, 1963–1967 Landwirtschaftsminister"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1024664503",
+    "https://de.wikipedia.org/wiki/Barend_Biesheuvel"
+  ]
 }

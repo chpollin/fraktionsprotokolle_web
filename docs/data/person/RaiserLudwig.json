@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RaiserLudwig",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RaiserLudwig",
   "name": "Ludwig Raiser",
   "givenName": "Ludwig",
   "familyName": "Raiser",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1904-10-27",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Stuttgart"
-  },
-  "deathDate": "1980-06-13",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Tübingen"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1955–1973 Professor für Bürgerliches, Handels- und Wirtschaftsrecht an der Eberhard-Karls-Universität Tübingen, 1961–1965 Vorsitzender des Wissenschaftsrates"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118597957",
-    "https://de.wikipedia.org/wiki/Ludwig_Raiser"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Ludwig Raiser",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118597957",
-    "wikipedia": "https://de.wikipedia.org/wiki/Ludwig_Raiser",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Ludwig_Raiser"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1904-10-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Stuttgart"
+  },
+  "deathDate": "1980-06-13",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Tübingen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1955–1973 Professor für Bürgerliches, Handels- und Wirtschaftsrecht an der Eberhard-Karls-Universität Tübingen, 1961–1965 Vorsitzender des Wissenschaftsrates"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118597957",
+    "https://de.wikipedia.org/wiki/Ludwig_Raiser"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BurckhardtJacob",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BurckhardtJacob",
   "name": "Jacob Burckhardt",
   "givenName": "Jacob",
   "familyName": "Burckhardt",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1818-05-25",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Basel"
-  },
-  "deathDate": "1897-08-08",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Basel"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Schweizer Kulturhistoriker"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/11851752X",
-    "https://de.wikipedia.org/wiki/Jacob_Burckhardt"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Jacob Burckhardt",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/11851752X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Jacob_Burckhardt",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Jacob_Burckhardt"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1818-05-25",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Basel"
+  },
+  "deathDate": "1897-08-08",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Basel"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Schweizer Kulturhistoriker"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/11851752X",
+    "https://de.wikipedia.org/wiki/Jacob_Burckhardt"
+  ]
 }

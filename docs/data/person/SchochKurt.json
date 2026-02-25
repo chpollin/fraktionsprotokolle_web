@@ -1,29 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchochKurt",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchochKurt",
   "name": "Kurt Schoch",
   "givenName": "Kurt",
   "familyName": "Schoch",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1904-02-07",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Schleitheim"
-  },
-  "deathDate": "1980-02-03",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Schleitheim"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "schweizerischer Bundesrichter"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/183246853"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Kurt Schoch",
@@ -45,10 +29,25 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/183246853",
-    "wikipedia": null,
-    "viaf": null
+    "gnd": "https://d-nb.info/gnd/183246853"
   },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1904-02-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Schleitheim"
+  },
+  "deathDate": "1980-02-03",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Schleitheim"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "schweizerischer Bundesrichter"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/183246853"
+  ],
   "fraktionsprotokolle:sonstiges": "s1959/60 Mitglied einer internationalen Kommission (sog. Lemberg-Kommission) zur Untersuchung der Vorwürfe gegen Bundesminister Oberländer"
 }

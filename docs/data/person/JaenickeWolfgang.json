@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "JaenickeWolfgang",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/JaenickeWolfgang",
   "name": "Wolfgang Jaenicke",
   "givenName": "Wolfgang",
   "familyName": "Jaenicke",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1881-10-17",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Breslau (heute: Wrocław, Polen)"
-  },
-  "deathDate": "1968-04-05",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Lenggries"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1930–1932 MdR(Deutsche Staatspartei), 1947–1950 Staatssekretär für das Flüchtlingswesen in Bayern, 1952–1954 Botschafter der Bundesrepublik Deutschland in Pakistan, 1954–1958 Botschafter beim Heiligen Stuhl"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/124461484",
-    "https://de.wikipedia.org/wiki/Wolfgang_Jaenicke"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Wolfgang Jaenicke",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/124461484",
-    "wikipedia": "https://de.wikipedia.org/wiki/Wolfgang_Jaenicke",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Wolfgang_Jaenicke"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1881-10-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Breslau (heute: Wrocław, Polen)"
+  },
+  "deathDate": "1968-04-05",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Lenggries"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1930–1932 MdR(Deutsche Staatspartei), 1947–1950 Staatssekretär für das Flüchtlingswesen in Bayern, 1952–1954 Botschafter der Bundesrepublik Deutschland in Pakistan, 1954–1958 Botschafter beim Heiligen Stuhl"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/124461484",
+    "https://de.wikipedia.org/wiki/Wolfgang_Jaenicke"
+  ]
 }

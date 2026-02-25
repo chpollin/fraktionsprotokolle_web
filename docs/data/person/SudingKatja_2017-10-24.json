@@ -1,34 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SudingKatja_2017-10-24",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SudingKatja_2017-10-24",
   "name": "Katja Suding",
   "givenName": "Katja",
   "familyName": "Suding",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1975-12-30",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Vechta"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Kommunikationsberaterin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Freien Demokratischen Partei",
-        "alternateName": "FDP"
-      },
-      "startDate": "2017-10-24"
-    }
-  ],
-  "sameAs": null,
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Katja Suding",
@@ -58,9 +37,27 @@
     }
   ],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11004910",
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
-  }
+    "mdb_stammdaten": "11004910"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1975-12-30",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Vechta"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Kommunikationsberaterin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Freien Demokratischen Partei",
+        "alternateName": "FDP"
+      },
+      "startDate": "2017-10-24"
+    }
+  ]
 }

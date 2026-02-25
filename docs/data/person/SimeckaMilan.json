@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SimeckaMilan",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SimeckaMilan",
   "name": "Milan Šimečka",
   "givenName": "Milan",
   "familyName": "Šimečka",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1930-03-06",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Nový Bohumín"
-  },
-  "deathDate": "1990-09-23",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Prag"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "tschechoslowakischer Schriftsteller und Dissident; 1990 Abgeordneter im Slowakischen Nationalrat und außenpolitischer Berater im Stab von Präsident Václav Havel"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/12103013X",
-    "https://cs.wikipedia.org/wiki/Milan_%C5%A0ime%C4%8Dka"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Milan Šimečka",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/12103013X",
-    "wikipedia": "https://cs.wikipedia.org/wiki/Milan_%C5%A0ime%C4%8Dka",
-    "viaf": null
-  }
+    "wikipedia": "https://cs.wikipedia.org/wiki/Milan_%C5%A0ime%C4%8Dka"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1930-03-06",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Nový Bohumín"
+  },
+  "deathDate": "1990-09-23",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Prag"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "tschechoslowakischer Schriftsteller und Dissident; 1990 Abgeordneter im Slowakischen Nationalrat und außenpolitischer Berater im Stab von Präsident Václav Havel"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/12103013X",
+    "https://cs.wikipedia.org/wiki/Milan_%C5%A0ime%C4%8Dka"
+  ]
 }

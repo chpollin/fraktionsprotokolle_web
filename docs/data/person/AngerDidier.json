@@ -1,26 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "AngerDidier",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/AngerDidier",
   "name": "Didier Anger",
   "givenName": "Didier",
   "familyName": "Anger",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1939-01-26",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Lengronne (Manche)"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Lehrer, Anti-Atomkraft-Aktivist und Gründungsmitglied der französischen Umweltpartei Les Verts, 1986–2004 Regionalrat der Basse-Normandie, 1989–1991 MdEP"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://fr.wikipedia.org/wiki/Didier_Anger"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Didier Anger",
@@ -42,9 +29,19 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": "https://fr.wikipedia.org/wiki/Didier_Anger",
-    "viaf": null
-  }
+    "wikipedia": "https://fr.wikipedia.org/wiki/Didier_Anger"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1939-01-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Lengronne (Manche)"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Lehrer, Anti-Atomkraft-Aktivist und Gründungsmitglied der französischen Umweltpartei Les Verts, 1986–2004 Regionalrat der Basse-Normandie, 1989–1991 MdEP"
+  },
+  "sameAs": [
+    "https://fr.wikipedia.org/wiki/Didier_Anger"
+  ]
 }

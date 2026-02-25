@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BuelowBernhardvon",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BuelowBernhardvon",
   "name": "Bernhard von Bülow",
   "givenName": "Bernhard",
   "familyName": "Bülow",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1849-05-03",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Klein Flottbeck"
-  },
-  "deathDate": "1929-10-28",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Rom"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1897–1900 Staatssekretär des Äußeren, 1900–1909 Reichkanzler des Deutschen Kaiserreichs und preußischer Ministerpräsident, 1897–1909 preußischer Außenminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118517023",
-    "https://de.wikipedia.org/wiki/Bernhard_von_B%C3%BClow"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Bernhard von Bülow",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118517023",
-    "wikipedia": "https://de.wikipedia.org/wiki/Bernhard_von_B%C3%BClow",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Bernhard_von_B%C3%BClow"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1849-05-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Klein Flottbeck"
+  },
+  "deathDate": "1929-10-28",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Rom"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1897–1900 Staatssekretär des Äußeren, 1900–1909 Reichkanzler des Deutschen Kaiserreichs und preußischer Ministerpräsident, 1897–1909 preußischer Außenminister"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118517023",
+    "https://de.wikipedia.org/wiki/Bernhard_von_B%C3%BClow"
+  ]
 }

@@ -1,24 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchaeferAdolf",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchaeferAdolf",
   "name": "Adolf Schäfer",
   "givenName": "Adolf",
   "familyName": "Schäfer",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1937-01-11",
-  "birthPlace": null,
-  "deathDate": "2009-12-05",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1970–1994 Oberbürgermeister von freising (SPD)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1098716299",
-    "https://de.wikipedia.org/wiki/Adolf_Sch%C3%A4fer"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Adolf Schäfer",
@@ -40,9 +29,18 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1098716299",
-    "wikipedia": "https://de.wikipedia.org/wiki/Adolf_Sch%C3%A4fer",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Adolf_Sch%C3%A4fer"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1937-01-11",
+  "deathDate": "2009-12-05",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1970–1994 Oberbürgermeister von freising (SPD)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1098716299",
+    "https://de.wikipedia.org/wiki/Adolf_Sch%C3%A4fer"
+  ]
 }

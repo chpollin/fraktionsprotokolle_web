@@ -1,41 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GilleAlfred_1953-10-06",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GilleAlfred_1953-10-06",
   "name": "Alfred Gille",
   "givenName": "Alfred",
   "familyName": "Gille",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1901-09-15",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Insterburg, Ostpreußen (heute: Tschernjachowsk, Kaliningrad, Russland)"
-  },
-  "deathDate": "1971-02-18",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Rheinbach"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Rechtsanwalt und Notar [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion Gesamtdeutscher Block/Block der Heimatvertriebenen und Entrechteten",
-        "alternateName": "GB/BHE"
-      },
-      "startDate": "1953-10-06",
-      "endDate": "1957-10-06"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/124317529",
-    "https://de.wikipedia.org/wiki/Alfred_Gille"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Alfred Gille",
@@ -67,7 +39,37 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11000681",
     "gnd": "https://d-nb.info/gnd/124317529",
-    "wikipedia": "https://de.wikipedia.org/wiki/Alfred_Gille",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Alfred_Gille"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1901-09-15",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Insterburg, Ostpreußen (heute: Tschernjachowsk, Kaliningrad, Russland)"
+  },
+  "deathDate": "1971-02-18",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Rheinbach"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsanwalt und Notar [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Gesamtdeutscher Block/Block der Heimatvertriebenen und Entrechteten",
+        "alternateName": "GB/BHE"
+      },
+      "startDate": "1953-10-06",
+      "endDate": "1957-10-06"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/124317529",
+    "https://de.wikipedia.org/wiki/Alfred_Gille"
+  ]
 }

@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "NuesselSimon",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/NuesselSimon",
   "name": "Simon Nüssel",
   "givenName": "Simon",
   "familyName": "Nüssel",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1924-01-20",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Rimlas, Oberfranken"
-  },
-  "deathDate": "2015-11-17",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1954–1994 MdL Bayern (Bayernpartei, seit 1959 CSU), 1970 Staatssekretär im Bayerischen Staatsministerium für Ernährung, Landwirtschaft und Forsten, 1987–1990 Bayerischer Staatsminister ebendort"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/14051919X",
-    "https://de.wikipedia.org/wiki/Simon_N%C3%BCssel"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Simon Nüssel",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/14051919X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Simon_N%C3%BCssel",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Simon_N%C3%BCssel"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1924-01-20",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Rimlas, Oberfranken"
+  },
+  "deathDate": "2015-11-17",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1954–1994 MdL Bayern (Bayernpartei, seit 1959 CSU), 1970 Staatssekretär im Bayerischen Staatsministerium für Ernährung, Landwirtschaft und Forsten, 1987–1990 Bayerischer Staatsminister ebendort"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/14051919X",
+    "https://de.wikipedia.org/wiki/Simon_N%C3%BCssel"
+  ]
 }

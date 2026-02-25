@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "CastroRuzFidel",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/CastroRuzFidel",
   "name": "Fidel Castro Ruz",
   "givenName": "Fidel",
   "familyName": "Castro Ruz",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1926-08-13",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Biran bei Mayari"
-  },
-  "deathDate": "2016-11-25",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Havanna"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Revolutionär, 1959–1976 Premierminister, 1976–2008 Staatspräsident von Kuba, Erster Sekretär des Zentralkomitees der Kommunistischen Partei Kubas"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118519654",
-    "https://de.wikipedia.org/wiki/Fidel_Castro"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Fidel Castro Ruz",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118519654",
-    "wikipedia": "https://de.wikipedia.org/wiki/Fidel_Castro",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Fidel_Castro"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1926-08-13",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Biran bei Mayari"
+  },
+  "deathDate": "2016-11-25",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Havanna"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Revolutionär, 1959–1976 Premierminister, 1976–2008 Staatspräsident von Kuba, Erster Sekretär des Zentralkomitees der Kommunistischen Partei Kubas"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118519654",
+    "https://de.wikipedia.org/wiki/Fidel_Castro"
+  ]
 }

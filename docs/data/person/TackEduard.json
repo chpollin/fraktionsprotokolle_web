@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "TackEduard",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/TackEduard",
   "name": "Eduard Tack",
   "givenName": "Eduard",
   "familyName": "Tack",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1938",
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1966–1969 stv. Vorsitzender der Bundesprüfstelle für jugendgefährdente Medien (BPjM), 1970–2003 Tätigkeit beim Bundesministerium für Familie, Jugend und Gesundheit bzw. Familie, Senioren, Frauen und Jugend (u. a. Regierungsdirektor, 1985–1988 Leiter des Büros von Bundesministerin Süssmuth, 1988–1991 Leiter des Referats »Seniorenpolitik« bzw. Unterabteilungsleiter »Altenpolitik«, 1991–2003 Leiter der Abteilung »Senioren – Ältere Menschen«)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/126892970"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Eduard Tack",
@@ -39,9 +29,15 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/126892970",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/126892970"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1938",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1966–1969 stv. Vorsitzender der Bundesprüfstelle für jugendgefährdente Medien (BPjM), 1970–2003 Tätigkeit beim Bundesministerium für Familie, Jugend und Gesundheit bzw. Familie, Senioren, Frauen und Jugend (u. a. Regierungsdirektor, 1985–1988 Leiter des Büros von Bundesministerin Süssmuth, 1988–1991 Leiter des Referats »Seniorenpolitik« bzw. Unterabteilungsleiter »Altenpolitik«, 1991–2003 Leiter der Abteilung »Senioren – Ältere Menschen«)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/126892970"
+  ]
 }

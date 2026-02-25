@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "LudzPeterChristian",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/LudzPeterChristian",
   "name": "Peter Christian Ludz",
   "givenName": "Peter Christian",
   "familyName": "Ludz",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1931-05-22",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Stettin (heute: Szczecin, Polen)"
-  },
-  "deathDate": "1979-09-01",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Traubing"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Politologe und Soziologe, vergleichender Deutschlandforscher, ab 1970 Professur für Politische Wissenschaft und Soziologie an der Universität Bielefeld, ab 1973 am Lehrstuhl für Politische Wissenschaft I des  Geschwister-Scholl-Instituts in München"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/115844430",
-    "https://de.wikipedia.org/wiki/Peter_Christian_Ludz"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Peter Christian Ludz",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/115844430",
-    "wikipedia": "https://de.wikipedia.org/wiki/Peter_Christian_Ludz",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Peter_Christian_Ludz"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1931-05-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Stettin (heute: Szczecin, Polen)"
+  },
+  "deathDate": "1979-09-01",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Traubing"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Politologe und Soziologe, vergleichender Deutschlandforscher, ab 1970 Professur für Politische Wissenschaft und Soziologie an der Universität Bielefeld, ab 1973 am Lehrstuhl für Politische Wissenschaft I des  Geschwister-Scholl-Instituts in München"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/115844430",
+    "https://de.wikipedia.org/wiki/Peter_Christian_Ludz"
+  ]
 }

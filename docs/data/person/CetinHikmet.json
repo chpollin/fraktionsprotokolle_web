@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "CetinHikmet",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/CetinHikmet",
   "name": "Hikmet Çetin",
   "givenName": "Hikmet",
   "familyName": "Çetin",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1937",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Lice, Diyarbakır"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "türkischer Politiker, ehemaliger Vorsitzender der Republikanischen Volkspartei, 1991–1994 Außenminister der Türkei"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://de.wikipedia.org/wiki/Hikmet_%C3%87etin",
-    "https://viaf.org/viaf/84474940/"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hikmet Çetin",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
     "wikipedia": "https://de.wikipedia.org/wiki/Hikmet_%C3%87etin",
     "viaf": "https://viaf.org/viaf/84474940/"
-  }
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1937",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Lice, Diyarbakır"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "türkischer Politiker, ehemaliger Vorsitzender der Republikanischen Volkspartei, 1991–1994 Außenminister der Türkei"
+  },
+  "sameAs": [
+    "https://de.wikipedia.org/wiki/Hikmet_%C3%87etin",
+    "https://viaf.org/viaf/84474940/"
+  ]
 }

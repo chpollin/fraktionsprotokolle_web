@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "AudlandChristopherJohn",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/AudlandChristopherJohn",
   "name": "Sir Christopher John Audland",
   "givenName": "Christopher John",
   "familyName": "Audland",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1926-07-07",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Wiesbaden"
-  },
-  "deathDate": "2019-12-29",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "britischer Diplomat, März 1970 –1973 Botschaftsrat an der britischen Botschaft in Bonn, 1981–1986 Leiter der Generaldirektion für Energie der Europäischen Kommission"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/170019861",
-    "https://de.wikipedia.org/wiki/Christopher_Audland"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Sir Christopher John Audland",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/170019861",
-    "wikipedia": "https://de.wikipedia.org/wiki/Christopher_Audland",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Christopher_Audland"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1926-07-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Wiesbaden"
+  },
+  "deathDate": "2019-12-29",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "britischer Diplomat, März 1970 –1973 Botschaftsrat an der britischen Botschaft in Bonn, 1981–1986 Leiter der Generaldirektion für Energie der Europäischen Kommission"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/170019861",
+    "https://de.wikipedia.org/wiki/Christopher_Audland"
+  ]
 }

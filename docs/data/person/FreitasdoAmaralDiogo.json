@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FreitasdoAmaralDiogo",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FreitasdoAmaralDiogo",
   "name": "Diogo Freitas do Amaral",
   "givenName": "Diogo",
   "familyName": "Freitas do Amaral",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1941-07-21",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Póvoa de Varzim"
-  },
-  "deathDate": "2019-10-03",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Cascais"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "portugiesischer christdemokratischer Politiker, 1975-1983 und 1988-1992 Parteivorsitzender des Centro Democrático e Social (CDS), Januar 1980-Januar 1981 Außenminister und stellvertretender portugiesischer Ministerpräsident, Dezember 1980-Januar 1981 zugleich amtierender Ministerpräsident, 1981-1983 Verteidigungsminister, 2005-2006 erneut Außenminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119381664",
-    "https://de.wikipedia.org/wiki/Diogo_Freitas_do_Amaral"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Diogo Freitas do Amaral",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119381664",
-    "wikipedia": "https://de.wikipedia.org/wiki/Diogo_Freitas_do_Amaral",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Diogo_Freitas_do_Amaral"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1941-07-21",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Póvoa de Varzim"
+  },
+  "deathDate": "2019-10-03",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Cascais"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "portugiesischer christdemokratischer Politiker, 1975-1983 und 1988-1992 Parteivorsitzender des Centro Democrático e Social (CDS), Januar 1980-Januar 1981 Außenminister und stellvertretender portugiesischer Ministerpräsident, Dezember 1980-Januar 1981 zugleich amtierender Ministerpräsident, 1981-1983 Verteidigungsminister, 2005-2006 erneut Außenminister"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119381664",
+    "https://de.wikipedia.org/wiki/Diogo_Freitas_do_Amaral"
+  ]
 }

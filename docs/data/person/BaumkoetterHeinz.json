@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BaumkoetterHeinz",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BaumkoetterHeinz",
   "name": "Heinz Baumkötter",
   "givenName": "Heinz",
   "familyName": "Baumkötter",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1912-02-07",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Burgsteinfurt"
-  },
-  "deathDate": "2001-04-22",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Münster"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "SS-Hauptsturmführer und KZ-Arzt in den Konzentrationslagern Mauthausen, Natzweiler-Struthof und Sachsenhausen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1096350254",
-    "https://de.wikipedia.org/wiki/Heinz_Baumk%C3%B6tter"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Heinz Baumkötter",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1096350254",
-    "wikipedia": "https://de.wikipedia.org/wiki/Heinz_Baumk%C3%B6tter",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Heinz_Baumk%C3%B6tter"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1912-02-07",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Burgsteinfurt"
+  },
+  "deathDate": "2001-04-22",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Münster"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "SS-Hauptsturmführer und KZ-Arzt in den Konzentrationslagern Mauthausen, Natzweiler-Struthof und Sachsenhausen"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1096350254",
+    "https://de.wikipedia.org/wiki/Heinz_Baumk%C3%B6tter"
+  ]
 }

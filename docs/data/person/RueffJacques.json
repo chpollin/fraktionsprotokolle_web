@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RueffJacques",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RueffJacques",
   "name": "Jacques Rueff",
   "givenName": "Jacques",
   "familyName": "Rueff",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1896-08-22",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Paris"
-  },
-  "deathDate": "1978-04-23",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Paris"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Wirtschaftsberater der französischen Regierung, 1952–1958 Richter am Gerichtshof der Europäischen Gemeinschaft für Kohle und Stahl, 1958–1962 Richter am Gerichtshof der Europäischen Gemeinschaften"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/119475766",
-    "https://de.wikipedia.org/wiki/Jacques_Rueff"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Jacques Rueff",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/119475766",
-    "wikipedia": "https://de.wikipedia.org/wiki/Jacques_Rueff",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Jacques_Rueff"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1896-08-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "deathDate": "1978-04-23",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Paris"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Wirtschaftsberater der französischen Regierung, 1952–1958 Richter am Gerichtshof der Europäischen Gemeinschaft für Kohle und Stahl, 1958–1962 Richter am Gerichtshof der Europäischen Gemeinschaften"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/119475766",
+    "https://de.wikipedia.org/wiki/Jacques_Rueff"
+  ]
 }

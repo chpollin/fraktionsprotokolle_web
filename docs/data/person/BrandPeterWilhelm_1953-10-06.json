@@ -1,10 +1,67 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BrandPeterWilhelm_1953-10-06",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BrandPeterWilhelm_1953-10-06",
   "name": "Peter Wilhelm Brand",
   "givenName": "Peter Wilhelm",
   "familyName": "Brand",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Peter Wilhelm Brand",
+    "forename": "Peter Wilhelm",
+    "surname": "Brand",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Remscheid)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1900-08-03",
+    "place": "Remscheid",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1978-08-01",
+    "place": "Remscheid",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 2,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1953-10-06",
+      "to": "1957-10-06"
+    },
+    {
+      "period": 3,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1957-10-15",
+      "to": "1961-10-15"
+    },
+    {
+      "period": 4,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    },
+    {
+      "period": 5,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000243",
+    "gnd": "https://d-nb.info/gnd/174384300",
+    "wikipedia": "https://de.wikipedia.org/wiki/Peter_Wilhelm_Brand"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1900-08-03",
   "birthPlace": {
@@ -66,61 +123,6 @@
     "https://d-nb.info/gnd/174384300",
     "https://de.wikipedia.org/wiki/Peter_Wilhelm_Brand"
   ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Peter Wilhelm Brand",
-    "forename": "Peter Wilhelm",
-    "surname": "Brand",
-    "prefix": "",
-    "role_name": "",
-    "place": "(Remscheid)"
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1900-08-03",
-    "place": "Remscheid",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1978-08-01",
-    "place": "Remscheid",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 2,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1953-10-06",
-      "to": "1957-10-06"
-    },
-    {
-      "period": 3,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1957-10-15",
-      "to": "1961-10-15"
-    },
-    {
-      "period": 4,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1961-10-17",
-      "to": "1965-10-17"
-    },
-    {
-      "period": 5,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1965-10-19",
-      "to": "1969-10-19"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11000243",
-    "gnd": "https://d-nb.info/gnd/174384300",
-    "wikipedia": "https://de.wikipedia.org/wiki/Peter_Wilhelm_Brand",
-    "viaf": null
-  },
   "fraktionsprotokolle:alt_names": [
     {
       "reg": "Peter Wilhelm Brand",

@@ -1,10 +1,53 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "FalkeFranz_1961-10-17",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/FalkeFranz_1961-10-17",
   "name": "Franz Falke",
   "givenName": "Franz",
   "familyName": "Falke",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Franz Falke",
+    "forename": "Franz",
+    "surname": "Falke",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1909-03-22",
+    "place": "Ascheberg",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1994-12-09",
+    "place": "Ibbenbüren",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 4,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1961-10-17",
+      "to": "1965-10-17"
+    },
+    {
+      "period": 5,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1967-07-27",
+      "to": "1969-10-19"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11000514",
+    "gnd": "https://d-nb.info/gnd/1112116532",
+    "wikipedia": "https://de.wikipedia.org/wiki/Franz_Falke_(Politiker)"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1909-03-22",
   "birthPlace": {
@@ -45,46 +88,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/1112116532",
     "https://de.wikipedia.org/wiki/Franz_Falke_(Politiker)"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Franz Falke",
-    "forename": "Franz",
-    "surname": "Falke",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1909-03-22",
-    "place": "Ascheberg",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1994-12-09",
-    "place": "Ibbenbüren",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 4,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1961-10-17",
-      "to": "1965-10-17"
-    },
-    {
-      "period": 5,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1967-07-27",
-      "to": "1969-10-19"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11000514",
-    "gnd": "https://d-nb.info/gnd/1112116532",
-    "wikipedia": "https://de.wikipedia.org/wiki/Franz_Falke_(Politiker)",
-    "viaf": null
-  }
+  ]
 }

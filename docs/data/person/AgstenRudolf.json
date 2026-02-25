@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "AgstenRudolf",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/AgstenRudolf",
   "name": "Rudolf Agsten",
   "givenName": "Rudolf",
   "familyName": "Agsten",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1926-10-31",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Leipzig"
-  },
-  "deathDate": "2008-04-20",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bernau bei Berlin"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1954–1989 Mitglied der Volkskammer der DDR, Fraktionsvorsitzender der LDPD"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/107210150",
-    "https://de.wikipedia.org/wiki/Rudolf_Agsten"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Rudolf Agsten",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/107210150",
-    "wikipedia": "https://de.wikipedia.org/wiki/Rudolf_Agsten",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Rudolf_Agsten"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1926-10-31",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Leipzig"
+  },
+  "deathDate": "2008-04-20",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bernau bei Berlin"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1954–1989 Mitglied der Volkskammer der DDR, Fraktionsvorsitzender der LDPD"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/107210150",
+    "https://de.wikipedia.org/wiki/Rudolf_Agsten"
+  ]
 }

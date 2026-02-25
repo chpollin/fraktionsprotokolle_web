@@ -1,18 +1,92 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "Goering-EckardtKatrinDagmar_1998-10-26",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/Goering-EckardtKatrinDagmar_1998-10-26",
   "name": "Katrin Dagmar Göring-Eckardt",
   "givenName": "Katrin Dagmar",
   "familyName": "Göring-Eckardt",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Katrin Dagmar Göring-Eckardt",
+    "forename": "Katrin Dagmar",
+    "surname": "Göring-Eckardt",
+    "prefix": "",
+    "role_name": "",
+    "place": ""
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1966-05-03",
+    "place": "Friedrichroda/Thüringen",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 14,
+      "faction": "B90/Grüne",
+      "faction_full": "Fraktion Bündnis 90/Die Grünen",
+      "from": "1998-10-26",
+      "to": "2002-10-17"
+    },
+    {
+      "period": 14,
+      "faction": "B90/Grüne",
+      "faction_full": "Fraktion Bündnis 90/Die Grünen",
+      "from": "1998-10-26",
+      "to": "2002-10-17"
+    },
+    {
+      "period": 15,
+      "faction": "B90/Grüne",
+      "faction_full": "Fraktion Bündnis 90/Die Grünen",
+      "from": "2002-10-17",
+      "to": "2005-10-18"
+    },
+    {
+      "period": 16,
+      "faction": "B90/Grüne",
+      "faction_full": "Fraktion Bündnis 90/Die Grünen",
+      "from": "2005-10-18",
+      "to": "2009-10-27"
+    },
+    {
+      "period": 17,
+      "faction": "B90/Grüne",
+      "faction_full": "Fraktion Bündnis 90/Die Grünen",
+      "from": "2009-10-27",
+      "to": "2013-10-22"
+    },
+    {
+      "period": 18,
+      "faction": "B90/Grüne",
+      "faction_full": "Fraktion Bündnis 90/Die Grünen",
+      "from": "2013-10-22",
+      "to": "2017-10-24"
+    },
+    {
+      "period": 19,
+      "faction": "B90/Grüne",
+      "faction_full": "Fraktion Bündnis 90/Die Grünen",
+      "from": "2017-10-24",
+      "to": ""
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11003132"
+  },
   "gender": "https://schema.org/Female",
   "birthDate": "1966-05-03",
   "birthPlace": {
     "@type": "Place",
     "name": "Friedrichroda/Thüringen"
   },
-  "deathDate": null,
-  "deathPlace": null,
   "hasOccupation": {
     "@type": "Occupation",
     "name": "Vizepräsidentin DBT a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
@@ -88,83 +162,6 @@
       "startDate": "2017-10-24"
     }
   ],
-  "sameAs": null,
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Katrin Dagmar Göring-Eckardt",
-    "forename": "Katrin Dagmar",
-    "surname": "Göring-Eckardt",
-    "prefix": "",
-    "role_name": "",
-    "place": ""
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1966-05-03",
-    "place": "Friedrichroda/Thüringen",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": null,
-    "place": "",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 14,
-      "faction": "B90/Grüne",
-      "faction_full": "Fraktion Bündnis 90/Die Grünen",
-      "from": "1998-10-26",
-      "to": "2002-10-17"
-    },
-    {
-      "period": 14,
-      "faction": "B90/Grüne",
-      "faction_full": "Fraktion Bündnis 90/Die Grünen",
-      "from": "1998-10-26",
-      "to": "2002-10-17"
-    },
-    {
-      "period": 15,
-      "faction": "B90/Grüne",
-      "faction_full": "Fraktion Bündnis 90/Die Grünen",
-      "from": "2002-10-17",
-      "to": "2005-10-18"
-    },
-    {
-      "period": 16,
-      "faction": "B90/Grüne",
-      "faction_full": "Fraktion Bündnis 90/Die Grünen",
-      "from": "2005-10-18",
-      "to": "2009-10-27"
-    },
-    {
-      "period": 17,
-      "faction": "B90/Grüne",
-      "faction_full": "Fraktion Bündnis 90/Die Grünen",
-      "from": "2009-10-27",
-      "to": "2013-10-22"
-    },
-    {
-      "period": 18,
-      "faction": "B90/Grüne",
-      "faction_full": "Fraktion Bündnis 90/Die Grünen",
-      "from": "2013-10-22",
-      "to": "2017-10-24"
-    },
-    {
-      "period": 19,
-      "faction": "B90/Grüne",
-      "faction_full": "Fraktion Bündnis 90/Die Grünen",
-      "from": "2017-10-24",
-      "to": ""
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11003132",
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
-  },
   "fraktionsprotokolle:alt_names": [
     {
       "reg": "Katrin Göring-Eckardt",

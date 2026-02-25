@@ -1,68 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchroeterHilbrechtGisela_1990-12-20",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchroeterHilbrechtGisela_1990-12-20",
   "name": "Gisela Hilbrecht, geb. Schreier, frühere Schröter",
   "givenName": "Gisela",
   "familyName": "Schröter",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1948-08-16",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Geisa/Krs. Bad Salzungen"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Sonderschulpädagogin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1990-12-20",
-      "endDate": "1994-11-10"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1994-11-10",
-      "endDate": "1998-10-26"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1998-10-26",
-      "endDate": "2002-10-17"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "2002-10-17",
-      "endDate": "2005-10-18"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1321408161",
-    "https://de.wikipedia.org/wiki/Gisela_Hilbrecht"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Gisela Hilbrecht, geb. Schreier, frühere Schröter",
@@ -115,9 +60,64 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11002086",
     "gnd": "https://d-nb.info/gnd/1321408161",
-    "wikipedia": "https://de.wikipedia.org/wiki/Gisela_Hilbrecht",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Gisela_Hilbrecht"
   },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1948-08-16",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Geisa/Krs. Bad Salzungen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Sonderschulpädagogin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1990-12-20",
+      "endDate": "1994-11-10"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1994-11-10",
+      "endDate": "1998-10-26"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1998-10-26",
+      "endDate": "2002-10-17"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "2002-10-17",
+      "endDate": "2005-10-18"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1321408161",
+    "https://de.wikipedia.org/wiki/Gisela_Hilbrecht"
+  ],
   "fraktionsprotokolle:alt_names": [
     {
       "reg": "Gisela Hilbrecht",

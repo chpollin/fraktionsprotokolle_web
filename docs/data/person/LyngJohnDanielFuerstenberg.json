@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "LyngJohnDanielFuerstenberg",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/LyngJohnDanielFuerstenberg",
   "name": "John Daniel Fürstenberg Lyng",
   "givenName": "John Daniel Fürstenberg",
   "familyName": "Lyng",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1905-08-22",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Trondheim"
-  },
-  "deathDate": "1978-01-18",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1963 Ministerpräsident Norwegens, 1965–1970 norwegischer Außenminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/170823539",
-    "https://de.wikipedia.org/wiki/John_Lyng"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "John Daniel Fürstenberg Lyng",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/170823539",
-    "wikipedia": "https://de.wikipedia.org/wiki/John_Lyng",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/John_Lyng"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1905-08-22",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Trondheim"
+  },
+  "deathDate": "1978-01-18",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1963 Ministerpräsident Norwegens, 1965–1970 norwegischer Außenminister"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/170823539",
+    "https://de.wikipedia.org/wiki/John_Lyng"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "WertzHans",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/WertzHans",
   "name": "Hans Wertz",
   "givenName": "Hans",
   "familyName": "Wertz",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1922-07-04",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Aachen"
-  },
-  "deathDate": "2012-05-23",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Aachen"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1954–1966 und 1967–1975 MdL Nordrhein-Westfalen (SPD), 1966–1975 Finanzminister des Landes Nordrhein-Westfalen, 1976–1990 Präsident der Landeszentralbank Nordrhein-Westfalen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1028281293",
-    "https://de.wikipedia.org/wiki/Hans_Wertz"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hans Wertz",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1028281293",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Wertz",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Wertz"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1922-07-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Aachen"
+  },
+  "deathDate": "2012-05-23",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Aachen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1954–1966 und 1967–1975 MdL Nordrhein-Westfalen (SPD), 1966–1975 Finanzminister des Landes Nordrhein-Westfalen, 1976–1990 Präsident der Landeszentralbank Nordrhein-Westfalen"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1028281293",
+    "https://de.wikipedia.org/wiki/Hans_Wertz"
+  ]
 }

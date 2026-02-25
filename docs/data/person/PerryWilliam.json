@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PerryWilliam",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PerryWilliam",
   "name": "William Perry",
   "givenName": "Perry",
   "familyName": "William",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1927-10-11",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Vandergrift, Pennsylvania"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "US-amerikanischer Politiker (Demokratische Partei), 1977-1981 Staatssekretär für Verteidigungsforschung und -entwicklung, 1993-1994 stellvertretender Verteidigungsminister, 1994-1997 Verteidungsminister"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/123419042",
-    "https://de.wikipedia.org/wiki/William_Perry"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "William Perry",
@@ -43,9 +29,21 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/123419042",
-    "wikipedia": "https://de.wikipedia.org/wiki/William_Perry",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/William_Perry"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1927-10-11",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Vandergrift, Pennsylvania"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "US-amerikanischer Politiker (Demokratische Partei), 1977-1981 Staatssekretär für Verteidigungsforschung und -entwicklung, 1993-1994 stellvertretender Verteidigungsminister, 1994-1997 Verteidungsminister"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/123419042",
+    "https://de.wikipedia.org/wiki/William_Perry"
+  ]
 }

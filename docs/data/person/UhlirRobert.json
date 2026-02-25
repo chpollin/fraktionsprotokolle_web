@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "UhlirRobert",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/UhlirRobert",
   "name": "Robert Uhlir",
   "givenName": "Robert",
   "familyName": "Uhlir",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1900-05-04",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Wien"
-  },
-  "deathDate": "1982-09-04",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Santa Eulalia"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "österreichischer Politiker (SPÖ), Direktor der Pensionsversicherungsanstalt der Arbeiter, 1945–1966 Abgeordneter zum Nationalrat"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1150998210",
-    "https://de.wikipedia.org/wiki/Robert_Uhlir"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Robert Uhlir",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1150998210",
-    "wikipedia": "https://de.wikipedia.org/wiki/Robert_Uhlir",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Robert_Uhlir"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1900-05-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Wien"
+  },
+  "deathDate": "1982-09-04",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Santa Eulalia"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "österreichischer Politiker (SPÖ), Direktor der Pensionsversicherungsanstalt der Arbeiter, 1945–1966 Abgeordneter zum Nationalrat"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1150998210",
+    "https://de.wikipedia.org/wiki/Robert_Uhlir"
+  ]
 }

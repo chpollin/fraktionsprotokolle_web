@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ByrnesJamesF",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ByrnesJamesF",
   "name": "James F. Byrnes",
   "givenName": "James F.",
   "familyName": "Byrnes",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1882-05-02",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Charleston, South Carolina"
-  },
-  "deathDate": "1972-04-09",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Columbia, South Carolina"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "US-amerikanischer Politiker der Demokratischen Partei, 1945–1947 Außenminister der Vereinigten Staaten, 1951–1955 Gouverneur von South Carolina"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118675117",
-    "https://de.wikipedia.org/wiki/James_F._Byrnes"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "James F. Byrnes",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118675117",
-    "wikipedia": "https://de.wikipedia.org/wiki/James_F._Byrnes",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/James_F._Byrnes"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1882-05-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Charleston, South Carolina"
+  },
+  "deathDate": "1972-04-09",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Columbia, South Carolina"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "US-amerikanischer Politiker der Demokratischen Partei, 1945–1947 Außenminister der Vereinigten Staaten, 1951–1955 Gouverneur von South Carolina"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118675117",
+    "https://de.wikipedia.org/wiki/James_F._Byrnes"
+  ]
 }

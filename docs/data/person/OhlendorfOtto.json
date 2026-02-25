@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "OhlendorfOtto",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/OhlendorfOtto",
   "name": "Otto Ohlendorf",
   "givenName": "Otto",
   "familyName": "Ohlendorf",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1907-02-04",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Hoheneggelsen"
-  },
-  "deathDate": "1951-06-07",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Landsberg am Lech"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1939–1945 Leiter des Amtes III (Deutsche Lebensgebiete) im Reichssicherheitshauptamt der SS, 1941–1942 Befehlshaber der Einsatzgruppe D, 1948 als Kriegsverbrecher zum Tode verurteilt, 1951 hingerichtet"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/122830105",
-    "https://de.wikipedia.org/wiki/Otto_Ohlendorf"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Otto Ohlendorf",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/122830105",
-    "wikipedia": "https://de.wikipedia.org/wiki/Otto_Ohlendorf",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Otto_Ohlendorf"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1907-02-04",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hoheneggelsen"
+  },
+  "deathDate": "1951-06-07",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Landsberg am Lech"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1939–1945 Leiter des Amtes III (Deutsche Lebensgebiete) im Reichssicherheitshauptamt der SS, 1941–1942 Befehlshaber der Einsatzgruppe D, 1948 als Kriegsverbrecher zum Tode verurteilt, 1951 hingerichtet"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/122830105",
+    "https://de.wikipedia.org/wiki/Otto_Ohlendorf"
+  ]
 }

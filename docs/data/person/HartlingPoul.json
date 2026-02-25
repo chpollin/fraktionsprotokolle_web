@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "HartlingPoul",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/HartlingPoul",
   "name": "Poul Hartling",
   "givenName": "Poul",
   "familyName": "Hartling",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1914-08-14",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Kopenhagen"
-  },
-  "deathDate": "2000-04-30",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Kopenhagen"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1968–1973 dänischer Außenminister, 1973–1975 Ministerpräsident, 1978–1985 Hoher Flüchtlingskommissar der Vereinten Nationen"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/128703482",
-    "https://de.wikipedia.org/wiki/Poul_Hartling"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Poul Hartling",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/128703482",
-    "wikipedia": "https://de.wikipedia.org/wiki/Poul_Hartling",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Poul_Hartling"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1914-08-14",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Kopenhagen"
+  },
+  "deathDate": "2000-04-30",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Kopenhagen"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1968–1973 dänischer Außenminister, 1973–1975 Ministerpräsident, 1978–1985 Hoher Flüchtlingskommissar der Vereinten Nationen"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/128703482",
+    "https://de.wikipedia.org/wiki/Poul_Hartling"
+  ]
 }

@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "GiraudAndre",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/GiraudAndre",
   "name": "André Giraud",
   "givenName": "André",
   "familyName": "Giraud",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1925-04-03",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Bordeaux"
-  },
-  "deathDate": "1997-07-27",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Levallois-Perret, Département Hauts-de-Seine"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "französischer Politiker sowie hoher Funktionär, Verwaltungsbeamter und Manager, 1978–1981 französischer Industrieminister, Mitglied der Parti républicain und der UDF"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/170315827",
-    "https://de.wikipedia.org/wiki/Andr%C3%A9_Giraud"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "André Giraud",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/170315827",
-    "wikipedia": "https://de.wikipedia.org/wiki/Andr%C3%A9_Giraud",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Andr%C3%A9_Giraud"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1925-04-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Bordeaux"
+  },
+  "deathDate": "1997-07-27",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Levallois-Perret, Département Hauts-de-Seine"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "französischer Politiker sowie hoher Funktionär, Verwaltungsbeamter und Manager, 1978–1981 französischer Industrieminister, Mitglied der Parti républicain und der UDF"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/170315827",
+    "https://de.wikipedia.org/wiki/Andr%C3%A9_Giraud"
+  ]
 }

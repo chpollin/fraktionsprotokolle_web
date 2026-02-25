@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PiecuchKonrad",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PiecuchKonrad",
   "name": "Konrad Piecuch, Namensvarianten: Pietrzuch, Pietzuch, Pietczuch",
   "givenName": "Konrad",
   "familyName": "Piecuch",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1897-11-27",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Potępa"
-  },
-  "deathDate": "1932-08-10",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Potępa"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Arbeiter und Gewerkschafter, kommunistisch gesinnter Bergmann"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1034293125",
-    "https://pl.wikipedia.org/wiki/Konrad_Piecuch"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Konrad Piecuch, Namensvarianten: Pietrzuch, Pietzuch, Pietczuch",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1034293125",
-    "wikipedia": "https://pl.wikipedia.org/wiki/Konrad_Piecuch",
-    "viaf": null
-  }
+    "wikipedia": "https://pl.wikipedia.org/wiki/Konrad_Piecuch"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1897-11-27",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Potępa"
+  },
+  "deathDate": "1932-08-10",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Potępa"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Arbeiter und Gewerkschafter, kommunistisch gesinnter Bergmann"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1034293125",
+    "https://pl.wikipedia.org/wiki/Konrad_Piecuch"
+  ]
 }

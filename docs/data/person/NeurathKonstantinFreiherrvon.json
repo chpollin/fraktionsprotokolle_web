@@ -1,24 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "NeurathKonstantinFreiherrvon",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/NeurathKonstantinFreiherrvon",
   "name": "Konstantin von Neurath",
   "givenName": "Konstantin Hermann Karl",
   "familyName": "Neurath",
-  "gender": "https://schema.org/Male",
-  "birthDate": null,
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1932–1938 deutscher Außenminister, 1939–1941 Reichsprotektor von Böhmen und Mähren"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118786016",
-    "https://de.wikipedia.org/wiki/Konstantin_von_Neurath"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Konstantin von Neurath",
@@ -40,9 +29,16 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118786016",
-    "wikipedia": "https://de.wikipedia.org/wiki/Konstantin_von_Neurath",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Konstantin_von_Neurath"
+  },
+  "gender": "https://schema.org/Male",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1932–1938 deutscher Außenminister, 1939–1941 Reichsprotektor von Böhmen und Mähren"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118786016",
+    "https://de.wikipedia.org/wiki/Konstantin_von_Neurath"
+  ]
 }

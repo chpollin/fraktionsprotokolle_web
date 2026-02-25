@@ -1,18 +1,85 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BeckVolker_1994-11-10",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BeckVolker_1994-11-10",
   "name": "Volker Beck",
   "givenName": "Volker",
   "familyName": "Beck",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Volker Beck",
+    "forename": "Volker",
+    "surname": "Beck",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Köln)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1960-12-12",
+    "place": "Stuttgart-Bad Cannstadt",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": null,
+    "place": "",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 13,
+      "faction": "B90/Grüne",
+      "faction_full": "Fraktion Bündnis 90/Die Grünen",
+      "from": "1994-11-10",
+      "to": "1998-10-26"
+    },
+    {
+      "period": 14,
+      "faction": "B90/Grüne",
+      "faction_full": "Fraktion Bündnis 90/Die Grünen",
+      "from": "1998-10-26",
+      "to": "2002-10-17"
+    },
+    {
+      "period": 15,
+      "faction": "B90/Grüne",
+      "faction_full": "Fraktion Bündnis 90/Die Grünen",
+      "from": "2002-10-17",
+      "to": "2005-10-18"
+    },
+    {
+      "period": 16,
+      "faction": "B90/Grüne",
+      "faction_full": "Fraktion Bündnis 90/Die Grünen",
+      "from": "2005-10-18",
+      "to": "2009-10-27"
+    },
+    {
+      "period": 17,
+      "faction": "B90/Grüne",
+      "faction_full": "Fraktion Bündnis 90/Die Grünen",
+      "from": "2009-10-27",
+      "to": "2013-10-22"
+    },
+    {
+      "period": 18,
+      "faction": "B90/Grüne",
+      "faction_full": "Fraktion Bündnis 90/Die Grünen",
+      "from": "2013-10-22",
+      "to": "2017-10-24"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002625"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1960-12-12",
   "birthPlace": {
     "@type": "Place",
     "name": "Stuttgart-Bad Cannstadt"
   },
-  "deathDate": null,
-  "deathPlace": null,
   "hasOccupation": {
     "@type": "Occupation",
     "name": "Referent, Erster Parl. Geschäftsführer a. D. [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
@@ -78,75 +145,5 @@
       "startDate": "2013-10-22",
       "endDate": "2017-10-24"
     }
-  ],
-  "sameAs": null,
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Volker Beck",
-    "forename": "Volker",
-    "surname": "Beck",
-    "prefix": "",
-    "role_name": "",
-    "place": "(Köln)"
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1960-12-12",
-    "place": "Stuttgart-Bad Cannstadt",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": null,
-    "place": "",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 13,
-      "faction": "B90/Grüne",
-      "faction_full": "Fraktion Bündnis 90/Die Grünen",
-      "from": "1994-11-10",
-      "to": "1998-10-26"
-    },
-    {
-      "period": 14,
-      "faction": "B90/Grüne",
-      "faction_full": "Fraktion Bündnis 90/Die Grünen",
-      "from": "1998-10-26",
-      "to": "2002-10-17"
-    },
-    {
-      "period": 15,
-      "faction": "B90/Grüne",
-      "faction_full": "Fraktion Bündnis 90/Die Grünen",
-      "from": "2002-10-17",
-      "to": "2005-10-18"
-    },
-    {
-      "period": 16,
-      "faction": "B90/Grüne",
-      "faction_full": "Fraktion Bündnis 90/Die Grünen",
-      "from": "2005-10-18",
-      "to": "2009-10-27"
-    },
-    {
-      "period": 17,
-      "faction": "B90/Grüne",
-      "faction_full": "Fraktion Bündnis 90/Die Grünen",
-      "from": "2009-10-27",
-      "to": "2013-10-22"
-    },
-    {
-      "period": 18,
-      "faction": "B90/Grüne",
-      "faction_full": "Fraktion Bündnis 90/Die Grünen",
-      "from": "2013-10-22",
-      "to": "2017-10-24"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11002625",
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
-  }
+  ]
 }

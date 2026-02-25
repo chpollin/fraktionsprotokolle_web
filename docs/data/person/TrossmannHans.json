@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "TrossmannHans",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/TrossmannHans",
   "name": "Hans Troßmann",
   "givenName": "Hans",
   "familyName": "Troßmann",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1906-04-18",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Nürnberg"
-  },
-  "deathDate": "1993-11-02",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Bonn"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1946 stv. Generalsekretär der CSU, 1949–1970 Direktor beim Deutschen Bundestag"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1013328671",
-    "https://de.wikipedia.org/wiki/Hans_Tro%C3%9Fmann"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hans Troßmann",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1013328671",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Tro%C3%9Fmann",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hans_Tro%C3%9Fmann"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1906-04-18",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Nürnberg"
+  },
+  "deathDate": "1993-11-02",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Bonn"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1946 stv. Generalsekretär der CSU, 1949–1970 Direktor beim Deutschen Bundestag"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1013328671",
+    "https://de.wikipedia.org/wiki/Hans_Tro%C3%9Fmann"
+  ]
 }

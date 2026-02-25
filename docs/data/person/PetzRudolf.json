@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "PetzRudolf",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/PetzRudolf",
   "name": "Rudolf Petz",
   "givenName": "Rudolf",
   "familyName": "Petz",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1904",
-  "birthPlace": null,
-  "deathDate": "1970",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1949–1950 und 1952–1961 im Bundesarbeitsministerium, 1952–1961 Leiter der Abteilung Arbeitskräfte, dann Universitätsdozent in Graz"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1030329508"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Rudolf Petz",
@@ -39,9 +29,16 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/1030329508",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/1030329508"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1904",
+  "deathDate": "1970",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1949–1950 und 1952–1961 im Bundesarbeitsministerium, 1952–1961 Leiter der Abteilung Arbeitskräfte, dann Universitätsdozent in Graz"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1030329508"
+  ]
 }

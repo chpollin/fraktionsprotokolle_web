@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "al-AtassiNureddin",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/al-AtassiNureddin",
   "name": "Nureddin al-Atassi",
   "givenName": "Nureddin al-",
   "familyName": "Atassi",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1929",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Homs"
-  },
-  "deathDate": "1992-12-03",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1966–1970 Staatspräsident und 1968–1970 zugleich Ministerpräsident der Arabischen Republik Syrien"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1036914461",
-    "https://de.wikipedia.org/wiki/Nureddin_al-Atassi"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Nureddin al-Atassi",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1036914461",
-    "wikipedia": "https://de.wikipedia.org/wiki/Nureddin_al-Atassi",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Nureddin_al-Atassi"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1929",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Homs"
+  },
+  "deathDate": "1992-12-03",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1966–1970 Staatspräsident und 1968–1970 zugleich Ministerpräsident der Arabischen Republik Syrien"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1036914461",
+    "https://de.wikipedia.org/wiki/Nureddin_al-Atassi"
+  ]
 }

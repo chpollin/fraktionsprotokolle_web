@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KassmannFritz",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KassmannFritz",
   "name": "Fritz Kaßmann",
   "givenName": "Fritz",
   "familyName": "Kaßmann",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1908-06-26",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Lippstadt"
-  },
-  "deathDate": "1991-07-22",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Tegernsee"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1954–1966, 1970–1975 MdL NRW (SPD), 1961/62 und 1970–1975 Vorsitzender der SPD-Fraktion, 1956–1958 nordrhein-westfälischer Minister für Wiederaufbau, 1966/67 Minister für Bundesangelegenheiten, 1967–1970 Minister für Wirtschaft, Mittelstand und Verkehr"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1128108909",
-    "https://de.wikipedia.org/wiki/Fritz_Ka%C3%9Fmann"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Fritz Kaßmann",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1128108909",
-    "wikipedia": "https://de.wikipedia.org/wiki/Fritz_Ka%C3%9Fmann",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Fritz_Ka%C3%9Fmann"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1908-06-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Lippstadt"
+  },
+  "deathDate": "1991-07-22",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Tegernsee"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1954–1966, 1970–1975 MdL NRW (SPD), 1961/62 und 1970–1975 Vorsitzender der SPD-Fraktion, 1956–1958 nordrhein-westfälischer Minister für Wiederaufbau, 1966/67 Minister für Bundesangelegenheiten, 1967–1970 Minister für Wirtschaft, Mittelstand und Verkehr"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1128108909",
+    "https://de.wikipedia.org/wiki/Fritz_Ka%C3%9Fmann"
+  ]
 }

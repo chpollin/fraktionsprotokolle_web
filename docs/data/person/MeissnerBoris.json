@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MeissnerBoris",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MeissnerBoris",
   "name": "Boris Meissner",
   "givenName": "Boris",
   "familyName": "Meissner",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1915-08-10",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Pskow (Pleskau)"
-  },
-  "deathDate": "2003-09-10",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Köln"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "deutsch-baltischer Rechtswissenschaftler, Spezialist für internationales Recht, Professor für Ostrecht an der Universität Köln, Mitglied des Direktoriums des Bundesinstituts für ostwissenschaftliche und internationale Studien"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118819054",
-    "https://de.wikipedia.org/wiki/Boris_Meissner"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Boris Meissner",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118819054",
-    "wikipedia": "https://de.wikipedia.org/wiki/Boris_Meissner",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Boris_Meissner"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1915-08-10",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Pskow (Pleskau)"
+  },
+  "deathDate": "2003-09-10",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Köln"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "deutsch-baltischer Rechtswissenschaftler, Spezialist für internationales Recht, Professor für Ostrecht an der Universität Köln, Mitglied des Direktoriums des Bundesinstituts für ostwissenschaftliche und internationale Studien"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118819054",
+    "https://de.wikipedia.org/wiki/Boris_Meissner"
+  ]
 }

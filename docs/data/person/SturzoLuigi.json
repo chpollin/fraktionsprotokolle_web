@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SturzoLuigi",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SturzoLuigi",
   "name": "Luigi Sturzo",
   "givenName": "Luigi",
   "familyName": "Sturzo",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1871-11-26",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Caltagirone, Sizilien"
-  },
-  "deathDate": "1959-08-08",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Rom"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "italienischer Priester und Politiker, 1919 Gründungsmitglied der Partito Popolare Italiano, 1952–1959 Senator"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118799290",
-    "https://de.wikipedia.org/wiki/Luigi_Sturzo"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Luigi Sturzo",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118799290",
-    "wikipedia": "https://de.wikipedia.org/wiki/Luigi_Sturzo",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Luigi_Sturzo"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1871-11-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Caltagirone, Sizilien"
+  },
+  "deathDate": "1959-08-08",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Rom"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "italienischer Priester und Politiker, 1919 Gründungsmitglied der Partito Popolare Italiano, 1952–1959 Senator"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118799290",
+    "https://de.wikipedia.org/wiki/Luigi_Sturzo"
+  ]
 }

@@ -1,24 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "ArndtOtto",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/ArndtOtto",
   "name": "Otto Arndt",
   "givenName": "Otto",
   "familyName": "Arndt",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1909-03-17",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Cilli, Steiermark"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Vorsitzender des Bundesvertriebenenausschusses der FDP, Präsidiumsmitglied des Präsidium des Bundes der Vertriebenen, Vorsitzender des Bundesverbandes vertriebener Deutscher in Rheinland-Pfalz, FDP-Kandidat bei den Bundestagswahlen 1957 und 1961"
-  },
-  "memberOf": null,
-  "sameAs": null,
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Otto Arndt",
@@ -39,10 +28,15 @@
     "country": ""
   },
   "fraktionsprotokolle:affiliations": [],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
+  "fraktionsprotokolle:ids": {},
+  "gender": "https://schema.org/Male",
+  "birthDate": "1909-03-17",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Cilli, Steiermark"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Vorsitzender des Bundesvertriebenenausschusses der FDP, Präsidiumsmitglied des Präsidium des Bundes der Vertriebenen, Vorsitzender des Bundesverbandes vertriebener Deutscher in Rheinland-Pfalz, FDP-Kandidat bei den Bundestagswahlen 1957 und 1961"
   }
 }

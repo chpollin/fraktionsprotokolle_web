@@ -1,23 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KleinAnsgar",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KleinAnsgar",
   "name": "Ansgar Klein",
   "givenName": "Ansgar",
   "familyName": "Klein",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1959",
-  "birthPlace": null,
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1980-1985 Referent der Deutschen Jugendpresse, seit 2002 Geschäftsführer des Bundesnetzwerks Bürgerschaftliches Engagement (BBE), Privatdozent an der Humboldt-Universität zu Berlin"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/129571571"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Ansgar Klein",
@@ -39,9 +29,15 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/129571571",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/129571571"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1959",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1980-1985 Referent der Deutschen Jugendpresse, seit 2002 Geschäftsführer des Bundesnetzwerks Bürgerschaftliches Engagement (BBE), Privatdozent an der Humboldt-Universität zu Berlin"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/129571571"
+  ]
 }

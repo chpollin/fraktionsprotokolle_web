@@ -1,26 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RichBruce",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RichBruce",
   "name": "Bruce Rich",
   "givenName": "Bruce M.",
   "familyName": "Rich",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1947-02-21",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Buffalo, New York"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Rechtsanwalt, 1981–1985 Mitarbeiter beim »Natural Resources Defense Council«, 1985–2009 Leiter der Internationalen Abteilung der US-Umweltorganisation »Environmental Defense Fund«"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/170685853"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Bruce Rich",
@@ -42,9 +29,19 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
-    "gnd": "https://d-nb.info/gnd/170685853",
-    "wikipedia": null,
-    "viaf": null
-  }
+    "gnd": "https://d-nb.info/gnd/170685853"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1947-02-21",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Buffalo, New York"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Rechtsanwalt, 1981–1985 Mitarbeiter beim »Natural Resources Defense Council«, 1985–2009 Leiter der Internationalen Abteilung der US-Umweltorganisation »Environmental Defense Fund«"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/170685853"
+  ]
 }

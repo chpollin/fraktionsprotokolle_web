@@ -1,10 +1,53 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SchroederHeinrich_1965-10-19",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SchroederHeinrich_1965-10-19",
   "name": "Heinrich Schröder",
   "givenName": "Heinrich",
   "familyName": "Schröder",
+  "fraktionsprotokolle:personType": "MdB",
+  "fraktionsprotokolle:name": {
+    "reg": "Heinrich Schröder",
+    "forename": "Heinrich",
+    "surname": "Schröder",
+    "prefix": "",
+    "role_name": "",
+    "place": "(Sellstedt)"
+  },
+  "fraktionsprotokolle:birth": {
+    "date": "1909-08-23",
+    "place": "Sellstedt",
+    "country": ""
+  },
+  "fraktionsprotokolle:death": {
+    "date": "1989-02-28",
+    "place": "Bremerhaven",
+    "country": ""
+  },
+  "fraktionsprotokolle:affiliations": [
+    {
+      "period": 5,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1965-10-19",
+      "to": "1969-10-19"
+    },
+    {
+      "period": 6,
+      "faction": "CDU/CSU",
+      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
+      "from": "1969-10-20",
+      "to": "1972-09-12"
+    }
+  ],
+  "fraktionsprotokolle:ids": {
+    "mdb_stammdaten": "11002079",
+    "gnd": "https://d-nb.info/gnd/1035133865",
+    "wikipedia": "https://de.wikipedia.org/wiki/Heinrich_Schr%C3%B6der_(Politiker,_1909)"
+  },
   "gender": "https://schema.org/Male",
   "birthDate": "1909-08-23",
   "birthPlace": {
@@ -45,46 +88,5 @@
   "sameAs": [
     "https://d-nb.info/gnd/1035133865",
     "https://de.wikipedia.org/wiki/Heinrich_Schr%C3%B6der_(Politiker,_1909)"
-  ],
-  "fraktionsprotokolle:personType": "MdB",
-  "fraktionsprotokolle:name": {
-    "reg": "Heinrich Schröder",
-    "forename": "Heinrich",
-    "surname": "Schröder",
-    "prefix": "",
-    "role_name": "",
-    "place": "(Sellstedt)"
-  },
-  "fraktionsprotokolle:birth": {
-    "date": "1909-08-23",
-    "place": "Sellstedt",
-    "country": ""
-  },
-  "fraktionsprotokolle:death": {
-    "date": "1989-02-28",
-    "place": "Bremerhaven",
-    "country": ""
-  },
-  "fraktionsprotokolle:affiliations": [
-    {
-      "period": 5,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1965-10-19",
-      "to": "1969-10-19"
-    },
-    {
-      "period": 6,
-      "faction": "CDU/CSU",
-      "faction_full": "Fraktion der Christlich Demokratischen Union/Christlich - Sozialen Union",
-      "from": "1969-10-20",
-      "to": "1972-09-12"
-    }
-  ],
-  "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11002079",
-    "gnd": "https://d-nb.info/gnd/1035133865",
-    "wikipedia": "https://de.wikipedia.org/wiki/Heinrich_Schr%C3%B6der_(Politiker,_1909)",
-    "viaf": null
-  }
+  ]
 }

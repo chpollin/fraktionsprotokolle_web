@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "AbendrothWolfgang",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/AbendrothWolfgang",
   "name": "Wolfgang Abendroth",
   "givenName": "Wolfgang",
   "familyName": "Abendroth",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1906-05-02",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Elberfeld"
-  },
-  "deathDate": "1985-09-15",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Frankfurt am Main"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Professor für Politikwissenschaft an der Universität Marburg"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118500155",
-    "https://de.wikipedia.org/wiki/Wolfgang_Abendroth"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Wolfgang Abendroth",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118500155",
-    "wikipedia": "https://de.wikipedia.org/wiki/Wolfgang_Abendroth",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Wolfgang_Abendroth"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1906-05-02",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Elberfeld"
+  },
+  "deathDate": "1985-09-15",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Frankfurt am Main"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Professor für Politikwissenschaft an der Universität Marburg"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118500155",
+    "https://de.wikipedia.org/wiki/Wolfgang_Abendroth"
+  ]
 }

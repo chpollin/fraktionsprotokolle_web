@@ -1,27 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BartelsHildegard",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BartelsHildegard",
   "name": "Hildegard Bartels",
   "givenName": "Hildegard",
   "familyName": "Bartels",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1914-12-23",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Duisburg"
-  },
-  "deathDate": "2008-09-16",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Wirtschaftswissenschaftlerin, Statistikerin, 1972–1980 Präsidentin des Statistischen Bundesamtes und Bundeswahlleiterin"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/11865313X",
-    "https://de.wikipedia.org/wiki/Hildegard_Bartels"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Hildegard Bartels",
@@ -43,9 +29,22 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/11865313X",
-    "wikipedia": "https://de.wikipedia.org/wiki/Hildegard_Bartels",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Hildegard_Bartels"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1914-12-23",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Duisburg"
+  },
+  "deathDate": "2008-09-16",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Wirtschaftswissenschaftlerin, Statistikerin, 1972–1980 Präsidentin des Statistischen Bundesamtes und Bundeswahlleiterin"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/11865313X",
+    "https://de.wikipedia.org/wiki/Hildegard_Bartels"
+  ]
 }

@@ -1,24 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "RoemerWalter",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/RoemerWalter",
   "name": "Walter Roemer",
   "givenName": "Walter",
   "familyName": "Roemer",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1902-08-27",
-  "birthPlace": null,
-  "deathDate": "1985",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Ministerialdirektor, Leiter der Abteilung »Öffentliches Recht« im Bundesministerium der Justiz"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/1030238294",
-    "https://de.wikipedia.org/wiki/Walter_Roemer"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Walter Roemer",
@@ -40,9 +29,18 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/1030238294",
-    "wikipedia": "https://de.wikipedia.org/wiki/Walter_Roemer",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Walter_Roemer"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1902-08-27",
+  "deathDate": "1985",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Ministerialdirektor, Leiter der Abteilung »Öffentliches Recht« im Bundesministerium der Justiz"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/1030238294",
+    "https://de.wikipedia.org/wiki/Walter_Roemer"
+  ]
 }

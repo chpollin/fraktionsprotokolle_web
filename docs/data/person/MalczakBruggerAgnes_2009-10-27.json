@@ -1,57 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "MalczakBruggerAgnes_2009-10-27",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/MalczakBruggerAgnes_2009-10-27",
   "name": "Agnieszka Brugger, geb. Agnes Malczak",
   "givenName": "Agnes",
   "familyName": "Malczak",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1985-02-08",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Legnica"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Studentin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion Bündnis 90/Die Grünen",
-        "alternateName": "B90/Grüne"
-      },
-      "startDate": "2009-10-27",
-      "endDate": "2013-10-22"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion Bündnis 90/Die Grünen",
-        "alternateName": "B90/Grüne"
-      },
-      "startDate": "2013-10-22",
-      "endDate": "2017-10-24"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion Bündnis 90/Die Grünen",
-        "alternateName": "B90/Grüne"
-      },
-      "startDate": "2017-10-24"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/1055078452",
-    "https://de.wikipedia.org/wiki/Agnieszka_Brugger"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Agnieszka Brugger, geb. Agnes Malczak",
@@ -97,9 +53,53 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11004106",
     "gnd": "https://d-nb.info/gnd/1055078452",
-    "wikipedia": "https://de.wikipedia.org/wiki/Agnieszka_Brugger",
-    "viaf": null
+    "wikipedia": "https://de.wikipedia.org/wiki/Agnieszka_Brugger"
   },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1985-02-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Legnica"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Studentin [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Bündnis 90/Die Grünen",
+        "alternateName": "B90/Grüne"
+      },
+      "startDate": "2009-10-27",
+      "endDate": "2013-10-22"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Bündnis 90/Die Grünen",
+        "alternateName": "B90/Grüne"
+      },
+      "startDate": "2013-10-22",
+      "endDate": "2017-10-24"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion Bündnis 90/Die Grünen",
+        "alternateName": "B90/Grüne"
+      },
+      "startDate": "2017-10-24"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/1055078452",
+    "https://de.wikipedia.org/wiki/Agnieszka_Brugger"
+  ],
   "fraktionsprotokolle:alt_names": [
     {
       "reg": "Agnieszka Brugger",

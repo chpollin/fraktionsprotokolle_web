@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "DahrendorfGustav",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/DahrendorfGustav",
   "name": "Gustav Dahrendorf",
   "givenName": "Gustav",
   "familyName": "Dahrendorf",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1901-02-08",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Hamburg"
-  },
-  "deathDate": "1954-10-30",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Braunlage"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1928–1933 und 1946–1947 Mitglied der Hamburgischen Bürgerschaft (SPD), 1932–1933 MdR (SPD)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118678604",
-    "https://de.wikipedia.org/wiki/Gustav_Dahrendorf"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Gustav Dahrendorf",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118678604",
-    "wikipedia": "https://de.wikipedia.org/wiki/Gustav_Dahrendorf",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Gustav_Dahrendorf"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1901-02-08",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Hamburg"
+  },
+  "deathDate": "1954-10-30",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Braunlage"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1928–1933 und 1946–1947 Mitglied der Hamburgischen Bürgerschaft (SPD), 1932–1933 MdR (SPD)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118678604",
+    "https://de.wikipedia.org/wiki/Gustav_Dahrendorf"
+  ]
 }

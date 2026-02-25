@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "SavimbiJonas",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/SavimbiJonas",
   "name": "Jonas Savimbi",
   "givenName": "Jonas Malheiro",
   "familyName": "Savimbi",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1934-08-03",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Munhango, Provinz Bié"
-  },
-  "deathDate": "2002-02-22",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Lucusse, Provinz Moxico"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Politologe und Anführer der anti-kolonialen Bewegung Angolas, seit Mitte der 1960er Jahre Generalsekretär der Frente Nacional de Libertação de Angola (FNLA), 1966–2002 Gründer, Präsident und Oberbefehshaber der União Nacional para a Independência Total de Angola (UNITA)"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118915673",
-    "https://de.wikipedia.org/wiki/Jonas_Savimbi"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "Jonas Savimbi",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118915673",
-    "wikipedia": "https://de.wikipedia.org/wiki/Jonas_Savimbi",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Jonas_Savimbi"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1934-08-03",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Munhango, Provinz Bié"
+  },
+  "deathDate": "2002-02-22",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Lucusse, Provinz Moxico"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Politologe und Anführer der anti-kolonialen Bewegung Angolas, seit Mitte der 1960er Jahre Generalsekretär der Frente Nacional de Libertação de Angola (FNLA), 1966–2002 Gründer, Präsident und Oberbefehshaber der União Nacional para a Independência Total de Angola (UNITA)"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118915673",
+    "https://de.wikipedia.org/wiki/Jonas_Savimbi"
+  ]
 }

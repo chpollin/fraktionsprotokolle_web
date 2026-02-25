@@ -1,30 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "McGovernGeorge",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/McGovernGeorge",
   "name": "George McGovern",
   "givenName": "George Stanley",
   "familyName": "McGovern",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1922-07-19",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Avon, Bon Homme County, South Dakota"
-  },
-  "deathDate": "2012-10-21",
-  "deathPlace": {
-    "@type": "Place",
-    "name": "Sioux Falls, South Dakota"
-  },
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "1957–1961 Mitglied des US-amerikanischen Repräsentantenhauses, 1963 bis 1981 Senator des US-amerikanischen Bundesstaates South Dakota, 1972 Präsidentschaftskandidat der Demokratischen Partei"
-  },
-  "memberOf": null,
-  "sameAs": [
-    "https://d-nb.info/gnd/118781014",
-    "https://de.wikipedia.org/wiki/George_McGovern"
-  ],
   "fraktionsprotokolle:personType": "Other",
   "fraktionsprotokolle:name": {
     "reg": "George McGovern",
@@ -46,9 +29,26 @@
   },
   "fraktionsprotokolle:affiliations": [],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": null,
     "gnd": "https://d-nb.info/gnd/118781014",
-    "wikipedia": "https://de.wikipedia.org/wiki/George_McGovern",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/George_McGovern"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1922-07-19",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Avon, Bon Homme County, South Dakota"
+  },
+  "deathDate": "2012-10-21",
+  "deathPlace": {
+    "@type": "Place",
+    "name": "Sioux Falls, South Dakota"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "1957–1961 Mitglied des US-amerikanischen Repräsentantenhauses, 1963 bis 1981 Senator des US-amerikanischen Bundesstaates South Dakota, 1972 Präsidentschaftskandidat der Demokratischen Partei"
+  },
+  "sameAs": [
+    "https://d-nb.info/gnd/118781014",
+    "https://de.wikipedia.org/wiki/George_McGovern"
+  ]
 }

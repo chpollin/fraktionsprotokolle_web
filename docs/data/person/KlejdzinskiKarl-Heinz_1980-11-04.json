@@ -1,68 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "KlejdzinskiKarl-Heinz_1980-11-04",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/KlejdzinskiKarl-Heinz_1980-11-04",
   "name": "Karl-Heinz Klejdzinski",
   "givenName": "Karl-Heinz",
   "familyName": "Klejdzinski",
-  "gender": "https://schema.org/Male",
-  "birthDate": "1934-01-30",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Oberhausen-Sterkrade"
-  },
-  "deathDate": "2021-05-16",
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Unternehmensberater [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1980-11-04",
-      "endDate": "1983-03-29"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1983-03-29",
-      "endDate": "1987-02-18"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1987-02-18",
-      "endDate": "1990-12-20"
-    },
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "1992-10-30",
-      "endDate": "1994-11-10"
-    }
-  ],
-  "sameAs": [
-    "https://d-nb.info/gnd/172189055",
-    "https://de.wikipedia.org/wiki/Karl-Heinz_Klejdzinski"
-  ],
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Karl-Heinz Klejdzinski",
@@ -115,7 +60,63 @@
   "fraktionsprotokolle:ids": {
     "mdb_stammdaten": "11001124",
     "gnd": "https://d-nb.info/gnd/172189055",
-    "wikipedia": "https://de.wikipedia.org/wiki/Karl-Heinz_Klejdzinski",
-    "viaf": null
-  }
+    "wikipedia": "https://de.wikipedia.org/wiki/Karl-Heinz_Klejdzinski"
+  },
+  "gender": "https://schema.org/Male",
+  "birthDate": "1934-01-30",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Oberhausen-Sterkrade"
+  },
+  "deathDate": "2021-05-16",
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Unternehmensberater [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1980-11-04",
+      "endDate": "1983-03-29"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1983-03-29",
+      "endDate": "1987-02-18"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1987-02-18",
+      "endDate": "1990-12-20"
+    },
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "1992-10-30",
+      "endDate": "1994-11-10"
+    }
+  ],
+  "sameAs": [
+    "https://d-nb.info/gnd/172189055",
+    "https://de.wikipedia.org/wiki/Karl-Heinz_Klejdzinski"
+  ]
 }

@@ -1,34 +1,13 @@
 {
-  "@context": "https://schema.org",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "fraktionsprotokolle": "https://fraktionsprotokolle.de/ns/"
+  },
   "@type": "Person",
-  "@id": "BreymaierLeni_2017-10-24",
+  "@id": "https://fraktionsprotokolle.de/parlabio/#/person/BreymaierLeni_2017-10-24",
   "name": "Leni Breymaier",
   "givenName": "Leni",
   "familyName": "Breymaier",
-  "gender": "https://schema.org/Female",
-  "birthDate": "1960-04-26",
-  "birthPlace": {
-    "@type": "Place",
-    "name": "Ulm"
-  },
-  "deathDate": null,
-  "deathPlace": null,
-  "hasOccupation": {
-    "@type": "Occupation",
-    "name": "Einzelhandelskauffrau [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
-  },
-  "memberOf": [
-    {
-      "@type": "OrganizationRole",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
-        "alternateName": "SPD"
-      },
-      "startDate": "2017-10-24"
-    }
-  ],
-  "sameAs": null,
   "fraktionsprotokolle:personType": "MdB",
   "fraktionsprotokolle:name": {
     "reg": "Leni Breymaier",
@@ -58,9 +37,27 @@
     }
   ],
   "fraktionsprotokolle:ids": {
-    "mdb_stammdaten": "11004683",
-    "gnd": null,
-    "wikipedia": null,
-    "viaf": null
-  }
+    "mdb_stammdaten": "11004683"
+  },
+  "gender": "https://schema.org/Female",
+  "birthDate": "1960-04-26",
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Ulm"
+  },
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Einzelhandelskauffrau [Selbstauskunft im Datenhandbuch des Deutschen Bundestages]"
+  },
+  "memberOf": [
+    {
+      "@type": "OrganizationRole",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Fraktion der Sozialdemokratischen Partei Deutschlands",
+        "alternateName": "SPD"
+      },
+      "startDate": "2017-10-24"
+    }
+  ]
 }
