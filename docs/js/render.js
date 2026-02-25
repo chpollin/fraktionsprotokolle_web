@@ -37,6 +37,7 @@ function renderResultsView(results, query, filters, unfilteredFacets, page, page
        <option value="birth"${sort === 'birth' ? ' selected' : ''}>Geburtsjahr</option>`;
 
   return `
+    <h1 class="sr-only">Suchergebnisse</h1>
     ${badges ? `<div class="active-filters">Aktive Filter: ${badges}</div>` : ''}
     <div class="results-layout">
       <aside class="filter-sidebar">
@@ -50,7 +51,7 @@ function renderResultsView(results, query, filters, unfilteredFacets, page, page
       <div class="results-main">
         <div class="results-header">
           <span class="results-count">${totalResults.toLocaleString('de-DE')} Ergebnis${totalResults !== 1 ? 'se' : ''}</span>
-          <select id="sort-select" class="sort-select">${sortOptions}</select>
+          <select id="sort-select" class="sort-select" aria-label="Sortierung">${sortOptions}</select>
         </div>
         ${pageResults.length ? renderResultsTable(pageResults) : '<p>Keine Ergebnisse gefunden.</p>'}
         ${totalPages > 1 ? renderPagination(page, totalPages) : ''}
@@ -78,7 +79,7 @@ function renderResultsTable(results) {
     </tr>`;
   }
 
-  return `<table class="results-table" role="grid">
+  return `<table class="results-table">
     <thead><tr><th>Name</th><th>Leben</th><th>Fraktion</th></tr></thead>
     <tbody>${rows}</tbody>
   </table>`;
@@ -150,7 +151,7 @@ function renderPagination(currentPage, totalPages) {
 
   for (let i = Math.max(1, currentPage - range); i <= Math.min(totalPages, currentPage + range); i++) {
     if (i === currentPage) {
-      pages += `<strong class="page-current">${i}</strong>`;
+      pages += `<strong class="page-current" aria-current="page">${i}</strong>`;
     } else {
       pages += `<a href="#" class="page-link" data-page="${i}">${i}</a>`;
     }

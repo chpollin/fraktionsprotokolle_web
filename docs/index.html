@@ -14,8 +14,9 @@
   <link rel="stylesheet" href="css/parlabio.css">
 </head>
 <body>
+  <a href="#app" class="skip-link">Zum Inhalt springen</a>
   <header class="site-header">
-    <nav>
+    <nav aria-label="Hauptnavigation">
       <a href="#/" class="site-logo">
         <img src="img/logo_editionsprogramm.svg" alt="Editionsprogramm Logo">
         <span>ParlaBio</span>
@@ -31,9 +32,10 @@
     </nav>
   </header>
 
-  <main id="app">
+  <main id="app" tabindex="-1">
     <p aria-busy="true">Daten werden geladen&hellip;</p>
   </main>
+  <div aria-live="polite" class="sr-only" id="search-announce"></div>
 
   <footer class="site-footer">
     <a href="https://kgparl.de" target="_blank" rel="noopener">KGParl</a> &middot;

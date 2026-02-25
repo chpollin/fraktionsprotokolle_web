@@ -113,7 +113,7 @@ function renderDetailView(person) {
   addRow('Beruf', occupation);
   if (nameData && nameData.prefix) addRow('Namenspräfix', nameData.prefix);
   if (nameData && nameData.role_name) addRow('Funktionsbezeichnung', nameData.role_name);
-  if (altNames.length) addRow('Weitere Namen', altNames.map(n => typeof n === 'string' ? n : n.reg).join('; '));
+  if (altNames.length) addRow('Weitere Namen', altNames.map(n => typeof n === 'string' ? n : (n.reg || [n.forename, n.surname].filter(Boolean).join(' '))).join('; '));
 
   // Structured occupation (KGParl)
   const occupationKgparl = p['fraktionsprotokolle:occupation_kgparl'];
@@ -253,6 +253,7 @@ function renderDetailView(person) {
 
   // --- Assemble page ---
   return `
+    <h1 class="sr-only">Personendetail</h1>
     <nav class="detail-nav">
       <a href="#" id="back-link">&larr; Zur\u00fcck</a>
     </nav>

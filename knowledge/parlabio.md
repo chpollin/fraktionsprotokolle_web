@@ -154,6 +154,7 @@ docs/
 - [persons.md](persons.md) – Dokumentation der Personen.xml
 - [parlabio-data-analysis.md](parlabio-data-analysis.md) – Technische Datenanalyse für die Build-Pipeline
 - [parlabio-architecture.md](parlabio-architecture.md) – Architekturentscheidungen
+- [design.md](design.md) – Forschungsbasierte Design-Prinzipien
 - [schema.md](schema.md) – TEI-Schema-Referenz
 - `parlabio/docs/pipeline.md` – Programmfluss-Dokumentation
 - `parlabio/docs/testing.md` – Test- und Validierungsdokumentation

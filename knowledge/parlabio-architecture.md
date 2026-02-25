@@ -201,5 +201,6 @@ docs/                           ← GitHub Pages Root
 - [parlabio.md](parlabio.md) – Projektdokumentation
 - [parlabio-data-analysis.md](parlabio-data-analysis.md) – Technische Datenanalyse
 - [persons.md](persons.md) – Personen.xml-Dokumentation
+- [design.md](design.md) – Forschungsbasierte Design-Prinzipien
 - `parlabio/docs/pipeline.md` – Programmfluss-Dokumentation
 - `parlabio/docs/testing.md` – Test- und Validierungsdokumentation

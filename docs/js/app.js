@@ -56,6 +56,7 @@ function showOverviewView() {
   appEl.innerHTML = renderOverviewView(APP.overviewStats);
   bindOverviewEvents();
   document.title = 'ParlaBio \u2013 Personendatenbank der Fraktionsprotokolle';
+  appEl.focus();
 
   // Sync header search: clear it on overview
   const headerInput = document.getElementById('header-search-input');
@@ -94,6 +95,13 @@ function showSearchView(state) {
   document.title = state.q
     ? `\u201e${state.q}\u201c \u2013 ParlaBio`
     : 'Alle Personen \u2013 ParlaBio';
+  appEl.focus();
+
+  // Announce result count for screen readers
+  const announce = document.getElementById('search-announce');
+  if (announce) {
+    announce.textContent = `${results.length} Ergebnis${results.length !== 1 ? 'se' : ''} gefunden`;
+  }
 
   // Sync header search with current query
   const headerInput = document.getElementById('header-search-input');
@@ -124,6 +132,7 @@ async function showDetailView(id) {
     appEl.innerHTML = renderDetailView(person);
     bindDetailEvents();
     document.title = `${person.name} \u2013 ParlaBio`;
+    appEl.focus();
   } catch (err) {
     appEl.innerHTML = `<p>Fehler bei der Darstellung \u2013 bitte melden Sie das Problem.</p>
       <p><small>Person-ID: ${escapeHtml(id)}</small></p>
