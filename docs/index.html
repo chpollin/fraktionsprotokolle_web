@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>ParlaBio – Personendatenbank der Fraktionsprotokolle</title>
+  <meta name="description" content="Personendatenbank der Edition fraktionsprotokolle.de – 11.225 Personen aus den Fraktionsprotokollen des Deutschen Bundestages (1949–2005).">
+
+  <!-- Pico CSS (classless) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.min.css">
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="css/parlabio.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav>
+      <a href="#/" class="site-logo">
+        <img src="img/logo_editionsprogramm.svg" alt="Editionsprogramm Logo">
+        <span>ParlaBio</span>
+      </a>
+      <form id="header-search-form" role="search" class="header-search-form">
+        <input type="search" id="header-search-input" name="q"
+               placeholder="Person suchen…" aria-label="Person suchen">
+      </form>
+      <ul class="site-nav-links">
+        <li><a href="https://fraktionsprotokolle.de" target="_blank" rel="noopener">Edition</a></li>
+        <li><a href="https://kgparl.de" target="_blank" rel="noopener">KGParl</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="app">
+    <p aria-busy="true">Daten werden geladen&hellip;</p>
+  </main>
+
+  <footer class="site-footer">
+    <a href="https://kgparl.de" target="_blank" rel="noopener">KGParl</a> &middot;
+    <a href="https://fraktionsprotokolle.de" target="_blank" rel="noopener">fraktionsprotokolle.de</a> &middot;
+    <a href="https://fraktionsprotokolle.de/impressum.html" target="_blank" rel="noopener">Impressum</a>
+  </footer>
+
+  <!-- MiniSearch -->
+  <script src="https://cdn.jsdelivr.net/npm/minisearch@7/dist/umd/index.min.js"></script>
+  <!-- Application scripts -->
+  <script src="js/utils.js"></script>
+  <script src="js/search.js"></script>
+  <script src="js/render.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
