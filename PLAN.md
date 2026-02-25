@@ -101,16 +101,33 @@ Frontend-Audit vom 25.02.2026 – alle Bugs verifiziert gegen Code + Daten. Comm
 
 ---
 
-## Phase 2: AP3-Features (nach Bugfix)
+## Phase 2: Wissenschaftliche UX – ABGESCHLOSSEN (25.02.2026)
 
-Aus dem Frontend-Audit abzuleitende Aufgaben – noch zu spezifizieren:
+7 Features, wissenschaftlich begründet (Shneiderman, Tufte, FAIR). Committed in `f11634c91` + `72eeeaee2`.
 
-- [ ] Favicon hinzufügen
-- [ ] Page-out-of-range-Guard (stale Bookmarks)
-- [ ] Verwaistes CSS `.search-form-results` aufräumen
-- [ ] Error-Handling Detailseite verbessern (Render-Crash ≠ "Person nicht gefunden")
-- [ ] `aria-expanded` auf "Weitere Fraktionen"-Toggle
-- [ ] Weitere UX-Verbesserungen nach Review
+### Robustheit
+- [x] Favicon (Teal-FP-SVG)
+- [x] Page-out-of-range-Guard (stale Bookmarks → URL-Korrektur via `history.replaceState`)
+- [x] Error-Handling: 3 getrennte Fehlermeldungen (404/Netzwerk/Render-Crash)
+
+### Wissenschaftliche UX
+- [x] Detailseite umstrukturiert: Profil-Card oben, Stammdaten aufklappbar
+- [x] Sortieroptionen: Relevanz/Name A–Z/Geburtsjahr, URL-persistent
+- [x] Karriere-Timeline: Gantt-Visualisierung mit Fraktionsfarben
+- [x] Zitations-Export: Klartext + BibTeX mit Kopier-Button
+
+### Nachbesserungen
+- [x] personType-Subtitle-Bug gefixt (Mitarbeiter-KGParl/Other korrekt gemappt)
+- [x] Redundante Doppel-Sortierung entfernt
+
+### Tests
+- 7 neue Tests (TestFrontendAssets), gesamt 20/20 grün
+
+---
+
+## Phase 3: UI-Redesign (nächster Schritt)
+
+Professionelles, wissenschaftlich begründetes UI mit einheitlichem CSS/HTML. Noch zu planen.
 
 ---
 

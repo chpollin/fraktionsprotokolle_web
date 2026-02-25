@@ -29,6 +29,12 @@ Strukturierte Übersicht über die Entwicklung der Edition. Detaillierte Fassung
     6. `occupation_kgparl` nie sichtbar (59 KGParl-Personen)
   - Smoke-Test `test_build_output.py` geschrieben (13 Tests, prüft Datenvertrag Pipeline↔Frontend)
   - Implementierungsplan (`PLAN.md`) und Status-Checkliste (`STATUS.md`) angelegt
+  - Phase 2 – Wissenschaftliche UX (7 Features):
+    - Favicon (Teal-FP-SVG), Page-Guard, 3 getrennte Fehlermeldungen
+    - Detailseite: Profil-Card oben, Stammdaten aufklappbar (Shneiderman)
+    - Sortieroptionen (Relevanz/Name/Geburtsjahr), Karriere-Timeline (Tufte)
+    - Zitations-Export: Klartext + BibTeX (FAIR-Prinzipien)
+    - 7 neue Tests (TestFrontendAssets), gesamt 20/20 grün
 
 ### Januar 2026
 - **SPD 8. WP** (1976–1980): Veröffentlichung von 144 edierten Sitzungsprotokollen

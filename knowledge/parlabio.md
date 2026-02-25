@@ -67,7 +67,7 @@ Personen.xml ──→ parlabio/build.py (Python/lxml) ──→ JSON-Artefakte 
 |---|---|---|---|
 | AP1 | Build-Pipeline (TEI-XML → JSON) | – | **Abgeschlossen** |
 | AP2 | Prototyp und Designabstimmung | AP1 | **Abgeschlossen** |
-| AP3 | Weboberfläche (SPA-Frontend) | AP2 | **In Arbeit** (6 Bugs gefixt, Phase 2 offen) |
+| AP3 | Weboberfläche (SPA-Frontend) | AP2 | **In Arbeit** (Phase 1+2 done, UI-Redesign offen) |
 | AP4 | Deployment und Dokumentation | AP3 | Offen |
 | AP5 | Qualitätssicherung und Abnahme | AP4 | Offen |
 

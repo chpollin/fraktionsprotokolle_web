@@ -18,10 +18,10 @@ Webbasierte Personendatenbank über das Personenregister der Edition "Fraktionen
 - [ ] **AP4** – Deployment auf KGParl-Server
 - [ ] **AP5** – Qualitätssicherung & Abnahme
 
-## Phase 1: Bugfixes (25.02.2026)
+## Phase 1: Bugfixes (25.02.2026) – ABGESCHLOSSEN
 
 - [x] Lagebild erstellt (Repo-Struktur, Pipeline-Lauf, Frontend-Audit)
-- [x] [PLAN.md](PLAN.md) geschrieben und committed
+- [x] PLAN.md geschrieben und committed
 - [x] Bug 1: Type-Key-Mismatch – Stat-Cards zeigten 0 für 7.139 Personen
 - [x] Bug 2: `.map()` auf Strings – 324 Detailseiten crashten
 - [x] Bug 3: Toggle-Crash – "Weitere anzeigen" crashte beim Schließen
@@ -32,22 +32,34 @@ Webbasierte Personendatenbank über das Personenregister der Edition "Fraktionen
 - [x] Bugfixes + Smoke-Test committed (`8a3462694`)
 - [ ] Manuelle Verifikation aller 6 Fixes im Browser
 
-## Phase 2: AP3-Features (nach Bugfix)
+## Phase 2: Wissenschaftliche UX (25.02.2026) – ABGESCHLOSSEN
 
-- [ ] Favicon hinzufügen
-- [ ] Page-out-of-range-Guard (stale Bookmarks)
-- [ ] Error-Handling Detailseite verbessern (Render-Crash ≠ "Person nicht gefunden")
-- [ ] Verwaistes CSS `.search-form-results` aufräumen
-- [ ] `aria-expanded` auf "Weitere Fraktionen"-Toggle
-- [ ] Weitere UX-Verbesserungen nach Review
+- [x] Favicon (Teal-FP-SVG) hinzugefügt
+- [x] Page-out-of-range-Guard (stale Bookmarks → URL-Korrektur)
+- [x] Error-Handling: 3 getrennte Fehlermeldungen (404/Netzwerk/Render-Crash)
+- [x] Detailseite umstrukturiert: Profil-Card oben, Stammdaten aufklappbar (Shneiderman)
+- [x] Sortieroptionen: Relevanz/Name/Geburtsjahr, URL-persistent
+- [x] Karriere-Timeline: Gantt-Visualisierung mit Fraktionsfarben (Tufte)
+- [x] Zitations-Export: Klartext + BibTeX mit Kopier-Button (FAIR)
+- [x] personType-Subtitle-Bug gefixt (Mitarbeiter-KGParl + Other)
+- [x] 7 neue Tests (TestFrontendAssets), gesamt 20/20 grün
+- [x] Committed (`f11634c91`, `72eeeaee2`)
+- [ ] Manuelle Verifikation aller Features im Browser
 
-## Phase 3: AP4 – Deployment
+## Phase 3: UI-Redesign (nächster Schritt)
+
+- [ ] CSS-Audit und Refactoring (einheitliches Design-System)
+- [ ] Professionelles, wissenschaftlich begründetes UI
+- [ ] Responsive Design verbessern
+- [ ] Verwaistes CSS aufräumen
+
+## Phase 4: AP4 – Deployment
 
 - [ ] Offene KGParl-Fragen klären (siehe unten)
 - [ ] Statische Dateien auf KGParl-Server (NGINX/Apache)
 - [ ] HTTPS einrichten
 
-## Phase 4: AP5 – QS & Abnahme
+## Phase 5: AP5 – QS & Abnahme
 
 - [ ] Qualitätssicherung durch KGParl
 - [ ] Abnahme
@@ -55,7 +67,7 @@ Webbasierte Personendatenbank über das Personenregister der Edition "Fraktionen
 ## Git-Status
 
 - Branch: `main`, clean
-- 6 Commits ahead of `origin/main` (noch nicht gepusht)
+- 10 Commits ahead of `origin/main` (noch nicht gepusht)
 
 ## Offene KGParl-Fragen (betreffen AP4+)
 
@@ -66,3 +78,8 @@ Webbasierte Personendatenbank über das Personenregister der Edition "Fraktionen
 5. Welche BEACON-Quellen sollen eingebunden werden?
 6. Soll die KGParl-MA-Kategorie (59 Personen) sichtbar sein?
 7. Gibt es Vorgaben zum Hosting-Pfad?
+
+## Zurückgestellt
+
+- CSS-Cleanup (`.search-form-results`) – kein Nutzer-Impact
+- `aria-expanded` auf Toggle – erst wenn Barrierefreiheit als Anforderung bestätigt
